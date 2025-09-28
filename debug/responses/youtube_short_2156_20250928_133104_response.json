@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "topic_id": "2156",
+    "topic_title": "Max sliding window uses a deque for O(n) time",
+    "platform": "youtube",
+    "format": "short",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "yt-short-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "sliding window maximum",
+      "deque algorithm",
+      "o(n) time complexity"
+    ],
+    "secondary_keywords": [
+      "data structures",
+      "algorithms",
+      "monotonic queue",
+      "leetcode problem"
+    ],
+    "lsi_terms": [
+      "array processing",
+      "time complexity optimization",
+      "double ended queue",
+      "coding interview question"
+    ],
+    "canonical": "https://example.com/topic/2156",
+    "brand": {
+      "site_url": "https://example.com/topic/2156",
+      "handles": {
+        "youtube": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "instagram": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=youtube&utm_medium=short"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "algorithms",
+        "data structures",
+        "programming",
+        "coding",
+        "time complexity"
+      ],
+      "niche": [
+        "sliding window",
+        "deque",
+        "big o notation",
+        "array manipulation",
+        "leetcode"
+      ],
+      "micro_niche": [
+        "sliding window maximum",
+        "monotonic queue",
+        "double ended queue",
+        "o(n) solution"
+      ],
+      "intent": [
+        "how to optimize sliding window",
+        "sliding window tutorial"
+      ],
+      "branded": [
+        "systemdesign"
+      ]
+    },
+    "image_plan": {
+      "count": 2,
+      "roles": [
+        "cover_a",
+        "cover_b"
+      ],
+      "ratio": "9:16",
+      "size_px": "1080x1920"
+    }
+  },
+  "content": {
+    "title": "O(n) Sliding Window Max in 60 Seconds? The Deque Trick",
+    "beats": [
+      {
+        "label": "Hook",
+        "time_range": "0-3s",
+        "narration": "Finding the max in a sliding window is slow. What if you could do it in O(n) time?",
+        "on_screen_text": "O(n*k) → O(n)",
+        "visuals": "Text O(n*k) gets crossed out and replaced by O(n) with a fast zoom.",
+        "sfx": [
+          "whoosh"
+        ]
+      },
+      {
+        "label": "Value-1",
+        "time_range": "3-15s",
+        "narration": "The brute-force way checks every element in every window. That's O(n times k). Too slow. The secret is using a double-ended queue, or a deque.",
+        "on_screen_text": "The Deque",
+        "visuals": "A simple diagram showing a window sliding over an array, with a counter ticking up slowly.",
+        "b_roll": [
+          "animated diagram of a deque being populated"
+        ]
+      },
+      {
+        "label": "Value-2",
+        "time_range": "15-30s",
+        "narration": "This isn't just any deque. It's a monotonic deque that only stores indices of elements in decreasing order of value. This gives you O(1) access to the max at the front, achieving a total linear time complexity.",
+        "on_screen_text": "O(1) Max Access",
+        "visuals": "An animation shows an element being added to the deque, popping smaller elements from the back. The max is always at the front.",
+        "b_roll": [
+          "a performance graph showing a flat O(n) line vs a steep O(n*k) line"
+        ]
+      },
+      {
+        "label": "Value-3",
+        "time_range": "30-45s",
+        "narration": "The key is, we discard useless smaller elements from the back before adding a new one. This ensures the front of the deque is always the index of the max value in the current window.",
+        "on_screen_text": "Useless elements → DISCARDED",
+        "visuals": "A split screen showing a 'before' array with many candidates and an 'after' deque with only 2-3 useful indices.",
+        "b_roll": [
+          "quick flash of pseudocode highlighting the deque logic"
+        ]
+      },
+      {
+        "label": "Subscribe",
+        "time_range": "50-55s",
+        "narration": "If you want more efficient algorithm breakdowns like this, subscribe.",
+        "on_screen_text": "Subscribe + 🔔",
+        "visuals": "A YouTube subscribe button animates on screen.",
+        "sfx": [
+          "click"
+        ]
+      },
+      {
+        "label": "EndScreen",
+        "time_range": "55-60s",
+        "narration": "For the full implementation and detailed explanation, watch the full video on our channel.",
+        "on_screen_text": "Watch Full Breakdown",
+        "visuals": "End card with a link to the main video and the channel handle."
+      }
+    ],
+    "script": "[0:00] Finding the max in a sliding window is slow. What if you could do it in O(n) time? \n[0:03] The brute-force way checks every element in every window. That's O(n times k). Too slow. The secret is using a double-ended queue, or a deque. \n[0:15] This isn't just any deque. It's a monotonic deque that only stores indices of elements in decreasing order of value. This gives you O(1) access to the max at the front, achieving a total linear time complexity. \n[0:30] The key is, we discard useless smaller elements from the back before adding a new one. This ensures the front of the deque is always the index of the max value in the current window. \n[0:50] If you want more efficient algorithm breakdowns like this, subscribe. \n[0:55] For the full implementation and detailed explanation, watch the full video on our channel.",
+    "overlay_text_cues": [
+      {
+        "time": "0:00-0:03",
+        "text": "O(n*k) → O(n)"
+      },
+      {
+        "time": "0:03-0:15",
+        "text": "The Deque"
+      },
+      {
+        "time": "0:15-0:30",
+        "text": "O(1) Max Access"
+      },
+      {
+        "time": "0:30-0:45",
+        "text": "Discard Useless Elements"
+      },
+      {
+        "time": "0:50-0:55",
+        "text": "Subscribe + 🔔"
+      },
+      {
+        "time": "0:55-0:60",
+        "text": "Watch Full Breakdown"
+      }
+    ],
+    "b_roll_plan": [
+      {
+        "time": "3-10s",
+        "ideas": [
+          "animation of a window sliding across an array",
+          "code editor view of a nested for-loop"
+        ]
+      },
+      {
+        "time": "15-25s",
+        "ideas": [
+          "animated diagram of a deque pushing and popping from both ends",
+          "a graph comparing O(n*k) vs O(n) performance"
+        ]
+      },
+      {
+        "time": "30-40s",
+        "ideas": [
+          "split screen showing brute force vs deque logic",
+          "highlighting the front element of the deque animation"
+        ]
+      }
+    ],
+    "music": {
+      "vibe": [
+        "energetic tech",
+        "clean minimal"
+      ],
+      "bpm_range": "90–120",
+      "search_terms": [
+        "minimal tech beat",
+        "upbeat corporate instrumental"
+      ],
+      "ducking_notes": "reduce -6dB under VO"
+    },
+    "sfx": [
+      "whoosh",
+      "click",
+      "soft pop"
+    ],
+    "end_screen": {
+      "cta_line": "Watch the full breakdown → https://example.com/topic/2156?utm_source=youtube&utm_medium=short",
+      "elements": [
+        "subscribe",
+        "next video",
+        "channel handle"
+      ],
+      "show_handles": true
+    },
+    "description": {
+      "text": "Tired of slow O(n*k) solutions for the sliding window maximum problem? There's a much faster way. In this Short, we reveal the deque-based approach that drops the time complexity to a blazing-fast O(n).\n\nWe'll cover:\n[0:00] The Problem: Why brute-force is inefficient.\n[0:15] The Deque Solution: How a monotonic deque provides O(1) max retrieval.\n[0:30] The Core Logic: Why we only store useful element indices.\n\nThis technique is a game-changer for array processing tasks and a common pattern in coding interviews. By maintaining a deque of indices in decreasing order of their corresponding values, we can find the max in any window instantly.\n\nFor a complete code walkthrough and a deeper dive into the implementation, check out our full guide:\nhttps://example.com/topic/2156?utm_source=youtube&utm_medium=short\n\n#algorithms #datastructures #coding #programming #deque",
+      "word_count": 148,
+      "timestamps": [
+        {
+          "time": "0:00",
+          "label": "The Problem"
+        },
+        {
+          "time": "0:15",
+          "label": "The Deque Solution"
+        },
+        {
+          "time": "0:30",
+          "label": "The Core Logic"
+        },
+        {
+          "time": "0:55",
+          "label": "Full Guide"
+        }
+      ]
+    },
+    "tags": [
+      "sliding window maximum",
+      "deque",
+      "algorithms",
+      "data structures",
+      "time complexity",
+      "o(n) solution",
+      "programming",
+      "coding",
+      "monotonic queue",
+      "leetcode",
+      "array manipulation",
+      "big o notation",
+      "software engineering",
+      "coding interview",
+      "problem solving",
+      "python",
+      "java",
+      "c++",
+      "optimization",
+      "double ended queue"
+    ],
+    "image_prompts": [
+      {
+        "role": "cover_a",
+        "title": "Short Cover A — Bold Hook",
+        "prompt": "Vertical 9:16 cover for a YouTube Short about the Sliding Window Maximum algorithm. Bold, clean headline top-center: 'O(n*k) to O(n)'. A tiny, minimalist diagram on the right shows a window sliding over a simple bar graph. Off-white background with a subtle dotted grid. Use a single restrained accent color like a deep blue for the diagram elements. Generous margins. Flat vector style. Legible on mobile.",
+        "negative_prompt": "no photos, no faces, no logos, no neon, no 3D, no glossy gradients, no clutter, no complex diagrams",
+        "style_notes": "editorial poster; crisp kerning",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Vertical cover with the text 'O(n*k) to O(n)' and a small diagram of a sliding window."
+      },
+      {
+        "role": "cover_b",
+        "title": "Short Cover B — Whiteboard Vibe",
+        "prompt": "Vertical 9:16 cover with a clean whiteboard aesthetic for a YouTube Short on the Sliding Window Maximum algorithm. A clean, legible, handwritten-style headline reads: 'The Deque Trick'. Below it, a very simple diagram shows a double-ended queue with arrows indicating push/pop from both ends. Off-white background with a faint grid. A single accent color underline for the word 'Deque'. Ample whitespace. Flat vector.",
+        "negative_prompt": "no messy handwriting, no photos, no logos, no heavy gradients, no realistic whiteboard textures",
+        "style_notes": "minimalist; high contrast; mobile-first",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Whiteboard-style cover with handwritten headline 'The Deque Trick' and a simple queue diagram."
+      }
+    ],
+    "compliance": {
+      "duration_seconds": 58,
+      "title_char_count": 57,
+      "tags_count": 20,
+      "image_prompt_count": 2,
+      "has_link_in_description": true,
+      "checks": [
+        "Hook 0–3s with a number",
+        "3–4 value micro-beats (one stat, one example)",
+        "Subscribe 50–55s; End screen 55–60s",
+        "overlay text & b-roll cues present",
+        "music vibe set; SFX optional",
+        "title ≤80 chars",
+        "description ≈200 words with timestamps",
+        "EXACTLY 20 tags",
+        "image_prompts length == image_plan.count (default 2)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "topic_id": "2156",
+    "topic_title": "Max sliding window uses a deque for O(n) time",
+    "platform": "linkedin",
+    "format": "post",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "li-post-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "algorithms",
+      "data structures",
+      "performance optimization"
+    ],
+    "secondary_keywords": [
+      "sliding window",
+      "deque",
+      "time complexity"
+    ],
+    "lsi_terms": [
+      "array processing",
+      "O(n) complexity",
+      "coding interview problems"
+    ],
+    "canonical": "https://example.com/topic/2156",
+    "brand": {
+      "site_url": "https://example.com/topic/2156",
+      "handles": {
+        "linkedin": "@systemdesign",
+        "x": "@systemdesign",
+        "instagram": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=linkedin&utm_medium=post"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "algorithms",
+        "datastructures",
+        "softwareengineering"
+      ],
+      "niche": [
+        "performanceoptimization",
+        "codinginterview"
+      ],
+      "micro_niche": [
+        "slidingwindow",
+        "deque"
+      ],
+      "intent": [
+        "techtips"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 2,
+      "roles": [
+        "card_a",
+        "card_b"
+      ],
+      "ratios_px": [
+        {
+          "ratio": "1.91:1",
+          "size_px": "1200x627"
+        },
+        {
+          "ratio": "5:4",
+          "size_px": "1350x1080"
+        }
+      ]
+    }
+  },
+  "content": {
+    "hook": "Stuck with a brute-force O(N*K) solution for finding the max in a sliding window? That approach doesn't scale for large datasets.",
+    "context": "There’s a much faster way to solve this common problem, achieving a linear O(N) time complexity. The secret lies in using the right data structure: a double-ended queue (deque).",
+    "key_insights": [
+      "Store Indices, Not Values: The deque holds the *indices* of elements from the current window. This is crucial for knowing when an element falls out of view.",
+      "Maintain Decreasing Order: Before adding a new element's index, we remove indices of all smaller elements from the back. This ensures the index of the largest element is always at the front.",
+      "O(1) Max Access: With the largest element's index at the front of the deque, retrieving the maximum for any window is an O(1) operation.",
+      "Amortized O(N) Efficiency: Each element's index is added to and removed from the deque at most once, leading to an overall O(N) time complexity for processing the entire array."
+    ],
+    "mini_example": "💡 Mini-Example:\nArray: `[1, 3, -1, -3, 5, 3]`, Window `k=3`\n- Window `[1, 3, -1]` -> Max is 3\n- Window `[3, -1, -3]` -> Max is 3\n- Window `[-1, -3, 5]` -> Max is 5\nThe deque efficiently tracks the maximum as the window slides.",
+    "cta": "For a full walkthrough and code implementation, check out the complete guide:\nhttps://example.com/topic/2156?utm_source=linkedin&utm_medium=post",
+    "question": "What other classic algorithm problems have you solved with a clever choice of data structure?",
+    "body": "Stuck with a brute-force O(N*K) solution for finding the max in a sliding window? That approach doesn't scale for large datasets.\n\nThere’s a much faster way to solve this common problem, achieving a linear O(N) time complexity. The secret lies in using the right data structure: a double-ended queue (deque).\n\nHere’s the core logic:\n\n👉 **Store Indices, Not Values:** The deque holds the *indices* of elements from the current window. This is crucial for knowing when an element falls out of view.\n\n👉 **Maintain Decreasing Order:** Before adding a new element's index, we remove indices of all smaller elements from the back. This ensures the index of the largest element is always at the front.\n\n👉 **O(1) Max Access:** With the largest element's index at the front of the deque, retrieving the maximum for any window is an O(1) operation.\n\n💡 **Mini-Example:**\nArray: `[1, 3, -1, -3, 5, 3]`, Window `k=3`\n- Window `[1, 3, -1]` -> Max is 3\n- Window `[3, -1, -3]` -> Max is 3\n- Window `[-1, -3, 5]` -> Max is 5\n\nWhat other classic algorithm problems have you solved with a clever choice of data structure?\n\nFor a full walkthrough and code implementation, check out the complete guide:\nhttps://example.com/topic/2156?utm_source=linkedin&utm_medium=post",
+    "chars_count": 1201,
+    "hashtags": [
+      "algorithms",
+      "datastructures",
+      "softwareengineering",
+      "performanceoptimization",
+      "codinginterview",
+      "slidingwindow",
+      "deque",
+      "techtips"
+    ],
+    "hashtags_grouped": {
+      "broad": [
+        "algorithms",
+        "datastructures",
+        "softwareengineering"
+      ],
+      "niche": [
+        "performanceoptimization",
+        "codinginterview"
+      ],
+      "micro_niche": [
+        "slidingwindow",
+        "deque"
+      ],
+      "intent": [
+        "techtips"
+      ],
+      "branded": []
+    },
+    "alt_versions": {
+      "short": "Struggling with a slow O(N*K) sliding window max solution? An O(N) approach is possible using a deque.\n\nThe deque stores indices in decreasing order, ensuring the max is always at the front for O(1) access. Each index is processed at most twice, achieving linear time.\n\nWhat other problems have you solved with a clever data structure choice?",
+      "long": "Stuck with a brute-force O(N*K) solution for finding the max in a sliding window? That approach doesn't scale for large datasets.\n\nThere’s a much faster way to solve this common problem, achieving a linear O(N) time complexity. The secret lies in using the right data structure: a double-ended queue (deque).\n\nHere’s the core logic:\n\n👉 **Store Indices, Not Values:** The deque holds the *indices* of elements from the current window. This is crucial for knowing when an element falls out of view.\n\n👉 **Maintain Decreasing Order:** Before adding a new element's index, we remove indices of all smaller elements from the back. This ensures the index of the largest element is always at the front.\n\n👉 **O(1) Max Access:** With the largest element's index at the front of the deque, retrieving the maximum for any window is an O(1) operation.\n\n💡 **Mini-Example:**\nArray: `[1, 3, -1, -3, 5, 3]`, Window `k=3`\n- Window `[1, 3, -1]` -> Max is 3\n- Window `[3, -1, -3]` -> Max is 3\n- Window `[-1, -3, 5]` -> Max is 5\n\nWhat other classic algorithm problems have you solved with a clever choice of data structure?\n\nFor a full walkthrough and code implementation, check out the complete guide:\nhttps://example.com/topic/2156?utm_source=linkedin&utm_medium=post"
+    },
+    "image_prompts": [
+      {
+        "role": "card_a",
+        "title": "LI Card A — O(N) Sliding Window Efficiency",
+        "prompt": "Corporate-clean insight card for the Max Sliding Window algorithm. Short headline 'From O(N*K) to O(N) Efficiency' top-left; small semantic diagram on the right showing a window sliding over an array, with a deque structure below it; off-white background; thin vector strokes; subtle dotted grid; single accent color for emphasis; generous margins; flat vector aesthetic; export sharp for 1200x627.",
+        "negative_prompt": "no stock-photo people, no logos, no neon, no 3D, no glossy gradients, no clutter",
+        "style_notes": "mobile and desktop legible; clear hierarchy",
+        "ratio": "1.91:1",
+        "size_px": "1200x627",
+        "alt_text": "Insight card explaining the efficiency gain from O(N*K) to O(N) for the max sliding window problem using a deque."
+      },
+      {
+        "role": "card_b",
+        "title": "LI Card B — Deque Logic Mini-map",
+        "prompt": "Concept mini-map for the deque-based sliding window maximum: simple flow with 4 labeled steps: [1. Remove Outdated], [2. Prune Smaller], [3. Add New], [4. Max at Front]. Add a metric chip labeled 'Time Complexity: O(N)'. Off-white background; thin lines; one accent color; subtle grid; generous whitespace; export flat vector for 1350x1080.",
+        "negative_prompt": "no 3D, no photoreal elements, no logos",
+        "style_notes": "diagram-first; concise labels; high contrast",
+        "ratio": "5:4",
+        "size_px": "1350x1080",
+        "alt_text": "Mini-map with four labeled steps showing how a deque processes elements to find the sliding window maximum."
+      }
+    ],
+    "doc_carousel_outline": {
+      "enabled": false,
+      "ratio": "4:5",
+      "size_px": "1080x1350",
+      "slides": []
+    },
+    "compliance": {
+      "hashtags_count": 8,
+      "image_prompt_count": 2,
+      "body_chars_count": 1201,
+      "checks": [
+        "hook 2–3 lines",
+        "3–5 insights present",
+        "one mini example present",
+        "single CTA + thoughtful question",
+        "5–8 professional hashtags",
+        "image_prompts length == image_plan.count",
+        "no spammy phrasing or hashtag stuffing"
+      ]
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "topic_id": "2156",
+    "topic_title": "Max sliding window uses a deque for O(n) time",
+    "platform": "instagram",
+    "format": "reel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-reel-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "algorithms",
+      "data structures",
+      "sliding window"
+    ],
+    "secondary_keywords": [
+      "deque",
+      "time complexity",
+      "optimization"
+    ],
+    "lsi_terms": [
+      "O(n) complexity",
+      "array processing",
+      "coding interview"
+    ],
+    "canonical": "https://example.com/topic/2156",
+    "brand": {
+      "siteUrl": "https://example.com/topic/2156",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utmBase": "utm_source=instagram&utm_medium=reel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "tech",
+        "programming",
+        "coding",
+        "software",
+        "engineering"
+      ],
+      "niche": [
+        "algorithms",
+        "datastructures",
+        "optimization",
+        "backend",
+        "performance"
+      ],
+      "micro_niche": [
+        "slidingwindow",
+        "deque",
+        "timecomplexity",
+        "leetcode",
+        "competitiveprogramming"
+      ],
+      "intent": [
+        "interview",
+        "learning",
+        "career",
+        "skills",
+        "codinginterview"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 4,
+      "roles": [
+        "cover",
+        "flow_diagram",
+        "architecture_panel",
+        "stat_card"
+      ],
+      "ratio": "9:16",
+      "size_px": "1080x1920",
+      "reasoning": "The topic requires visualizing a process (sliding window), a data structure's state (deque), and the performance benefit (complexity comparison). A 4-part visual story with a cover, a process diagram, a state diagram, and a results card is optimal for clarity."
+    }
+  },
+  "content": {
+    "title": "Sliding Window Max in O(N) Time",
+    "hook": "Stop solving sliding window problems with slow, brute-force loops. There's a much faster way.",
+    "content_segments": [
+      {
+        "label": "Hook",
+        "time_range": "0-3s",
+        "narration": "Stop solving sliding window problems the slow way.",
+        "on_screen_text": "Slow Code Ahead?",
+        "visuals": "Close up on a code snippet with nested loops, highlighted in a cautionary red.",
+        "text_motion": "pop-in",
+        "b_roll": [
+          "blurry code background",
+          "a loading spinner icon"
+        ]
+      },
+      {
+        "label": "Problem",
+        "time_range": "3-10s",
+        "narration": "The naive approach uses nested loops, giving you O(N*K) complexity. For large arrays, this is a performance bottleneck.",
+        "on_screen_text": "Brute Force = O(N*K) ❌",
+        "visuals": "A simple graph shows a steep upward curve labeled 'O(N*K)'.",
+        "b_roll": [
+          "flashing red alert icon",
+          "fast-scrolling log file"
+        ]
+      },
+      {
+        "label": "Solution",
+        "time_range": "10-45s",
+        "narration": "The O(N) fix uses a deque. First, remove indices from the front that are outside the window. Second, before adding a new index, pop any smaller elements from the back. This keeps the deque sorted. The result? The front of the deque is always the window's max. O(1) lookup!",
+        "on_screen_text": "Solution: The Deque ✨\n1. Evict Old Indices\n2. Maintain Order\n3. Max is at the Front!",
+        "visuals": "An animation shows an array with a sliding window. Below it, a deque visualization shows indices being added and removed according to the rules. A green checkmark appears over the front element.",
+        "b_roll": [
+          "diagram of a double-ended queue",
+          "a flat line graph labeled 'O(N)'"
+        ]
+      },
+      {
+        "label": "CTA",
+        "time_range": "45-55s",
+        "narration": "That’s how you get linear time complexity. Want a full deep dive? Check the link in my bio and follow for more!",
+        "on_screen_text": "Full Guide in Bio!",
+        "visuals": "End card with brand handle '@systemdesign' and a clear call to action.",
+        "b_roll": [
+          "clean, minimalist end-card graphic"
+        ]
+      }
+    ],
+    "script": "[0:00] Stop solving sliding window problems the slow way. [0:04] The naive approach uses nested loops, giving you O(N*K) complexity. For large arrays, this is a performance bottleneck. [0:11] Here's the O(N) fix using a deque, a double-ended queue. [0:16] First, as the window slides, remove indices from the front that are now outside the window. [0:24] Second, before adding a new element's index, pop any elements from the back that are smaller than the new one. This keeps the deque in decreasing order. [0:35] The result? The element at the front of the deque is *always* the maximum in the current window. That's an O(1) lookup! [0:45] And that’s how you get linear time complexity. Want a full deep dive? Check the link in my bio and follow for more!",
+    "on_screen_text_cues": [
+      "0-3s: The SLOW way...",
+      "3-10s: O(N*K) Complexity ❌",
+      "10-15s: The Deque Method ✨",
+      "16-23s: 1. Evict Old Indices",
+      "24-34s: 2. Maintain Decreasing Order",
+      "35-44s: 3. Max is at the Front ✅ O(N)!",
+      "45-55s: Follow @systemdesign"
+    ],
+    "visual_plan": {
+      "camera": "Screen capture with motion graphics overlay.",
+      "motion_graphics": [
+        "animated sliding window over an array",
+        "deque visualization with push/pop animations",
+        "text callouts for complexity"
+      ],
+      "color_palette": "off-white bg, ink black, single accent (teal 600)",
+      "safe_margins": "keep titles ≥96px from edges (1080x1920)"
+    },
+    "trending_audio": {
+      "vibe": [
+        "focused tech",
+        "minimal lofi",
+        "clean instrumental"
+      ],
+      "bpm_range": "90-110",
+      "search_terms": [
+        "\"trending\" minimal tech beat",
+        "instrumental study lofi",
+        "clean focus no vocals"
+      ],
+      "example_hook_lines": [
+        "subtle synth arpeggio",
+        "clean snap/clap beat",
+        "beat drop at ~10s"
+      ],
+      "beat_markers_seconds": [
+        0,
+        3,
+        10,
+        24,
+        35,
+        45
+      ]
+    },
+    "call_to_action": "Follow for more algorithm and data structure tips!",
+    "caption": "Tired of slow, brute-force solutions for the Sliding Window Maximum problem? 😫 The naive nested-loop approach has O(N*K) time complexity, which just doesn't scale.\n\nThe elegant solution? A double-ended queue (deque)! ✨ By cleverly maintaining a deque of indices in decreasing order of their corresponding values, you can find the maximum of any window in O(1) time.\n\nThis brings the total time complexity down to a beautiful O(N), making your code incredibly efficient. It's a classic pattern that's crucial for coding interviews and optimizing array processing tasks. 💻\n\nReady to master this technique? Get the full breakdown in our latest guide. Link in bio! {primary_url}?utm_source=instagram&utm_medium=reel",
+    "hashtags": [
+      "#algorithms",
+      "#datastructures",
+      "#slidingwindow",
+      "#deque",
+      "#timecomplexity",
+      "#programming",
+      "#coding",
+      "#softwareengineering",
+      "#computerscience",
+      "#tech",
+      "#developer",
+      "#backend",
+      "#optimization",
+      "#performance",
+      "#codinginterview",
+      "#techinterview",
+      "#leetcode",
+      "#faang",
+      "#systemdesign",
+      "#learntocode",
+      "#codingtips",
+      "#softwaredeveloper",
+      "#python",
+      "#java",
+      "#competitiveprogramming",
+      "#engineering",
+      "#code",
+      "#buildinpublic",
+      "#techskills",
+      "#problemsolving"
+    ],
+    "music_suggestion": "Minimal tech beat, 100 BPM, instrumental",
+    "image_prompts": [
+      {
+        "role": "cover",
+        "title": "Reel Cover - Sliding Window Concept",
+        "prompt": "Elegant minimalist vertical cover for an Instagram Reel about 'Sliding Window Maximum'. At the top, bold text: 'From O(N*K) to O(N)'. In the middle, a clean visual representation of an array of minimalist bars with a translucent colored rectangle highlighting a 'window' of 3 bars. Below, the text 'The Deque Trick'. At the bottom, a small handle '@systemdesign'. Off-white background, thin vector strokes, single accent color (teal). High-contrast, legible typography.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos, no neon, no 3D bevels, no fake UI chrome, no stock icon noise",
+        "style_notes": "whiteboard-meets-editorial; thin lines; high legibility; elegant restraint",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Reel cover showing a sliding window over an array, with text 'From O(N*K) to O(N)'."
+      },
+      {
+        "role": "flow_diagram",
+        "title": "Reel Insert - Sliding Window Process",
+        "prompt": "Minimalist flow diagram for an Instagram Reel, showing the sliding window process. A horizontal array of 10-12 grey circles represents data. A teal-colored translucent box, labeled 'Window (k=3)', is shown moving from left to right in three steps, indicated by faint arrows. Below each step, show the 'Max' value found in that window. Use an off-white background, clean vector lines, and generous margins. Flat vector aesthetic.",
+        "negative_prompt": "no 3D, no logos, no photos, no complex text",
+        "style_notes": "diagram-first; high legibility; mobile-safe",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Diagram showing a window sliding across an array and the maximum value being updated."
+      },
+      {
+        "role": "architecture_panel",
+        "title": "Reel Insert - Deque State",
+        "prompt": "A clean, minimalist diagram illustrating a deque (double-ended queue) for an Instagram Reel. Show a horizontal container labeled 'Deque'. Use arrows to indicate that elements can be added/removed from both front ('pop_front') and back ('pop_back', 'push_back'). Inside the deque, show 3-4 numbers representing indices, e.g., '[8, 6, 5]', to illustrate the decreasing order property. Off-white background, single accent color (teal) for arrows and labels. High-contrast and easy to read on mobile.",
+        "negative_prompt": "no clutter, no photorealism, no 3D, no logos",
+        "style_notes": "educational diagram; clear labels; focused on a single concept",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "A diagram of a deque data structure showing how elements are added and removed from both ends."
+      },
+      {
+        "role": "stat_card",
+        "title": "Reel Insert - Complexity Comparison",
+        "prompt": "Minimalist comparison card for an Instagram Reel. Create a two-column layout. Left column has a heading 'Brute Force', text 'O(N*K)', and a large red 'X' icon. Right column has a heading 'Deque Method', text 'O(N)', and a large green checkmark icon. Use a clean sans-serif font, off-white background, and high contrast. The overall aesthetic should be clean, modern, and instantly understandable.",
+        "negative_prompt": "no gradients, no drop shadows, no busy textures, no logos",
+        "style_notes": "before-and-after; clear visual hierarchy; high-impact",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "A comparison card showing Brute Force O(N*K) with a red X versus Deque Method O(N) with a green checkmark."
+      }
+    ],
+    "compliance": {
+      "est_duration_seconds": 55,
+      "script_word_count": 118,
+      "hook_char_count": 82,
+      "hashtag_count": 30,
+      "checks": [
+        "≤150 words script",
+        "≤120 chars hook",
+        "CTA present once",
+        "30 unique hashtags",
+        "mobile-safe margins",
+        "image_prompts length equals image_plan.count (4)"
+      ]
+    }
+  }
+}

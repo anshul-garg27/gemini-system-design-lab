@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "topic_id": "1727",
+    "topic_title": "How infrastructure as code deploys entire systems with one command",
+    "platform": "telegram",
+    "format": "post",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "tg-post-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "infrastructure as code",
+      "iac",
+      "system deployment"
+    ],
+    "secondary_keywords": [
+      "declarative infrastructure",
+      "imperative infrastructure",
+      "cloud automation",
+      "version control"
+    ],
+    "lsi_terms": [
+      "terraform",
+      "ansible",
+      "repeatable provisioning",
+      "configuration management",
+      "auditable infrastructure"
+    ],
+    "canonical": "https://example.com/topic/1727",
+    "brand": {
+      "site_url": "https://example.com/topic/1727",
+      "handles": {
+        "telegram": "@yourchannel",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "instagram": "@systemdesign"
+      },
+      "utm_base": "utm_source=telegram&utm_medium=post"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "compact",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "infrastructure-as-code",
+        "devops",
+        "cloud-computing"
+      ],
+      "niche": [
+        "declarative-config",
+        "imperative-scripting",
+        "version-control"
+      ],
+      "micro_niche": [
+        "repeatable-deployments",
+        "auditable-infrastructure"
+      ],
+      "intent": [
+        "how-iac-works"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 2,
+      "roles": [
+        "square_headline",
+        "square_checklist"
+      ],
+      "ratio": "1:1",
+      "size_px": "1080x1080"
+    }
+  },
+  "content": {
+    "post": "Stop managing servers manually. With Infrastructure as Code (IaC), you can deploy entire systems from a single command. Repeatable, consistent, fast. 🚀\n\nhttps://t.ly/iac1",
+    "alt_versions": [
+      "Treat your infrastructure like software. IaC enables deploying complex systems with one command. Learn to build consistent and auditable environments. ⚙️\n\nhttps://t.ly/iac1",
+      "How does Infrastructure as Code work? Understand declarative vs. imperative approaches and deploy systems reliably with version-controlled configs. 🧠\n\nhttps://t.ly/iac1"
+    ],
+    "extended_post": "Infrastructure as Code (IaC) is a mindset shift. It falls into two main approaches:\n\n🔹 **Declarative (The \"What\"):** You define the desired end state (e.g., \"I need 5 servers with this config\"), and the IaC tool figures out how to achieve it. Think Terraform or CloudFormation.\n\n🔸 **Imperative (The \"How\"):** You write explicit, step-by-step commands to reach the end state. Think shell scripts or Ansible.\n\nBy using version control (like Git), every change is tracked, reviewed, and auditable.",
+    "link": {
+      "url": "https://example.com/topic/1727?utm_source=telegram&utm_medium=post",
+      "short": "https://t.ly/iac1",
+      "preview": {
+        "title_hint": "Infrastructure as Code Explained",
+        "description_hint": "Learn how IaC uses version control and automation to deploy reliable, consistent systems with a single command.",
+        "enable_preview": true
+      },
+      "instant_view_hint": "unknown",
+      "fallback": "If Instant View is unavailable, pin a key quote or the first image card to the message."
+    },
+    "hashtags": [
+      "#infrastructureascode",
+      "#iac",
+      "#devops",
+      "#automation",
+      "#cloud",
+      "#systemdesign"
+    ],
+    "emoji_suggestions": [
+      "🚀",
+      "⚙️",
+      "🧠"
+    ],
+    "image_prompts": [
+      {
+        "role": "square_headline",
+        "title": "IaC: Deploy with Code",
+        "prompt": "1:1 minimalist insight card about Infrastructure as Code. Centered, large, bold headline: 'DEPLOY WITH CODE'. In the bottom right corner, a small, clean glyph showing a code file icon transforming into a cloud server icon via an arrow. Off-white background (#F8F8F8) with a very subtle dotted grid. Thin vector strokes. A single accent color (#4A90E2) used for an underline beneath the headline. Generous margins. Flat vector aesthetic.",
+        "negative_prompt": "no clutter, no stock-photo people, no brand logos, no neon, no 3D bevels, no glossy gradients, no fake UI chrome",
+        "style_notes": "editorial poster; strong kerning; bold but airy",
+        "ratio": "1:1",
+        "size_px": "1080x1080",
+        "alt_text": "A minimalist graphic with the headline 'Deploy with Code' and a small icon showing code becoming a cloud server, illustrating Infrastructure as Code."
+      },
+      {
+        "role": "square_checklist",
+        "title": "IaC Core Principles",
+        "prompt": "1:1 minimalist checklist graphic for Infrastructure as Code principles. Off-white background (#F8F8F8) with a subtle grid. Three items listed vertically, each with a thin vector checkmark icon in a single accent color (#4A90E2). Labels for the ticks are: 'Version Controlled', 'Repeatable Builds', 'Automated Provisioning'. High contrast, legible text. Keep padding generous and the layout clean.",
+        "negative_prompt": "no busy patterns, no gradients >5%, no photos, no logos, no complex illustrations",
+        "style_notes": "calm minimal; readable at small sizes; high contrast",
+        "ratio": "1:1",
+        "size_px": "1080x1080",
+        "alt_text": "A checklist graphic showing three core principles of IaC: Version Controlled, Repeatable Builds, and Automated Provisioning."
+      }
+    ]
+  },
+  "compliance": {
+    "post_char_count": 153,
+    "alt_versions_count": 2,
+    "extended_post_char_count": 483,
+    "has_single_tracked_link": true,
+    "hashtags_count": 6,
+    "emoji_count_main": 1,
+    "image_prompt_count": 2,
+    "checks": [
+      "main post 90–160 chars with ≤3 emojis",
+      "exactly one short link appended (uses tracked url in `link.url`)",
+      "3–8 hashtags, lowercase, concise",
+      "extended_post 300–500 chars if included; no extra links",
+      "image_prompts length == image_plan.count (default 2 squares)",
+      "link preview enabled with title/description hints",
+      "instant_view_hint set and fallback provided"
+    ]
+  }
+}

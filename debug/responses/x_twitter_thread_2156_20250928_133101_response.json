@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "topic_id": "2156",
+    "topic_title": "Max sliding window uses a deque for O(n) time",
+    "platform": "x_twitter",
+    "format": "thread",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "x-thread-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "algorithms",
+      "data structures",
+      "sliding window"
+    ],
+    "secondary_keywords": [
+      "deque",
+      "time complexity",
+      "performance optimization"
+    ],
+    "lsi_terms": [
+      "O(n) complexity",
+      "array processing",
+      "coding interview"
+    ],
+    "canonical": "https://example.com/topic/2156",
+    "brand": {
+      "site_url": "https://example.com/topic/2156",
+      "handles": {
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "instagram": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=x&utm_medium=thread"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "algorithms",
+        "datastructures",
+        "coding",
+        "softwareengineering"
+      ],
+      "niche": [
+        "slidingwindow",
+        "deque",
+        "optimization",
+        "performance"
+      ],
+      "micro_niche": [
+        "maxslidingwindow",
+        "lineartime",
+        "oncomplexity"
+      ],
+      "intent": [
+        "codinginterview",
+        "systemdesigninterview"
+      ],
+      "branded": [
+        "systemdesign"
+      ]
+    },
+    "image_plan": {
+      "count": 2,
+      "roles": [
+        "hero_a",
+        "diagram_b"
+      ],
+      "ratio": "16:9",
+      "size_px": "1600x900"
+    }
+  },
+  "content": {
+    "tweets": [
+      {
+        "index": 1,
+        "t": "Stop solving Sliding Window Maximum in O(N*K) time. There's a way to do it in a single pass—O(N)—no matter the window size. Here's how a clever use of a deque makes it possible. 🧵",
+        "hashtags": [
+          "#Algorithms",
+          "#DataStructures"
+        ],
+        "mentions": [],
+        "media_roles": [],
+        "chars_count": 232
+      },
+      {
+        "index": 2,
+        "t": "The problem: Given an array and a window of size `k`, find the max value as the window slides. A naive nested loop is simple but slow, becoming a bottleneck with large arrays or windows.",
+        "hashtags": [
+          "#Coding"
+        ],
+        "mentions": [],
+        "media_roles": [],
+        "chars_count": 213
+      },
+      {
+        "index": 3,
+        "t": "The secret is a double-ended queue (deque). But here's the trick: we don't store values, we store *indices*. The deque maintains a strictly decreasing sequence of elements from the current window.",
+        "hashtags": [
+          "#Optimization"
+        ],
+        "mentions": [],
+        "media_roles": [
+          "hero_a"
+        ],
+        "chars_count": 240
+      },
+      {
+        "index": 4,
+        "t": "How it works:\n1. New element? Pop smaller elements from the tail.\n2. Add new index to the tail.\n3. Window moves? Pop the head if its index is out of bounds.\nThe max is always at `deque[0]`. O(1) access!\n\nSee the full breakdown:\nhttps://example.com/topic/2156?utm_source=x&utm_medium=thread",
+        "hashtags": [
+          "#SoftwareEngineering"
+        ],
+        "mentions": [],
+        "media_roles": [
+          "diagram_b"
+        ],
+        "chars_count": 278
+      },
+      {
+        "index": 5,
+        "t": "The performance gain is massive. For an array of 1M elements with a window of 100k, the O(N) deque method is thousands of times faster than the O(N*K) brute-force approach. Each element is processed at most twice.",
+        "hashtags": [
+          "#Performance"
+        ],
+        "mentions": [],
+        "media_roles": [],
+        "chars_count": 259
+      },
+      {
+        "index": 6,
+        "t": "This isn't just for interviews. It's used in:\n• Rate limiting (max requests in a time window)\n• Financial data analysis (max price over `k` days)\n• Monitoring systems (peak resource usage)",
+        "hashtags": [
+          "#SystemDesign"
+        ],
+        "mentions": [
+          "@GergelyOrosz"
+        ],
+        "media_roles": [],
+        "chars_count": 232
+      },
+      {
+        "index": 7,
+        "t": "Recap: Use a deque of indices to solve Sliding Window Max in O(N) time. This simple data structure trick dramatically optimizes array processing.\n\nFollow @systemdesign for more algorithm & design insights. Bookmark this thread! 👇",
+        "hashtags": [],
+        "mentions": [],
+        "media_roles": [],
+        "chars_count": 256
+      }
+    ],
+    "engagement_tweet": {
+      "t": "What's your favorite 'tricky' but highly efficient algorithm or data structure? Drop it in the replies!",
+      "poll": {
+        "enabled": false,
+        "options": [
+          "A",
+          "B",
+          "C"
+        ],
+        "duration_minutes": 1440
+      }
+    },
+    "hashtags": [
+      "Algorithms",
+      "DataStructures",
+      "Coding",
+      "SoftwareEngineering",
+      "SlidingWindow",
+      "Deque",
+      "Optimization",
+      "Performance",
+      "SystemDesign",
+      "CodingInterview"
+    ],
+    "mention_suggestions": [
+      "@GergelyOrosz",
+      "@ThePrimeagen",
+      "@algo_monster"
+    ],
+    "tweet_media_plan": [
+      {
+        "tweet_index": 3,
+        "attach_roles": [
+          "hero_a"
+        ]
+      },
+      {
+        "tweet_index": 4,
+        "attach_roles": [
+          "diagram_b"
+        ]
+      }
+    ],
+    "image_prompts": [
+      {
+        "role": "hero_a",
+        "title": "Thread Hero A — Insight Card for Sliding Window Max",
+        "prompt": "Wide 16:9 insight card for the Max Sliding Window algorithm. Headline top-left: \"O(N) Window Maximum\". On the right, a minimalist diagram of a double-ended queue (deque) with arrows indicating indices being added to the right and removed from both left and right. Off-white background, thin vector strokes, subtle dotted grid, one accent color (e.g., blue), flat vector aesthetic.",
+        "negative_prompt": "no stock-photo people, no logos, no neon, no 3D, no glossy gradients, no clutter",
+        "style_notes": "clear hierarchy; strong headline; crisp kerning",
+        "ratio": "16:9",
+        "size_px": "1600x900",
+        "alt_text": "An illustration showing a deque used to find the maximum in a sliding window efficiently, with the title O(N) Window Maximum."
+      },
+      {
+        "role": "diagram_b",
+        "title": "Diagram B — Sliding Window Deque Mechanism",
+        "prompt": "Wide 16:9 diagram illustrating the Sliding Window Maximum algorithm. Show an array of numbers at the top (e.g., [1, 3, -1, -3, 5, 3]). Below it, show the state of a deque (containing indices) as a window of size k=3 slides across the array. Use annotations to highlight how the deque changes: elements are popped from the tail if they are smaller than the new element, and the head is popped when it's out of the window. Off-white background, thin strokes, one accent color, flat vector.",
+        "negative_prompt": "no 3D, no photoreal elements, no logos, no complex UI",
+        "style_notes": "diagram-first; concise labels; high contrast",
+        "ratio": "16:9",
+        "size_px": "1600x900",
+        "alt_text": "A diagram showing the state of a deque as a sliding window moves across an array, demonstrating how the maximum element's index is always at the front."
+      }
+    ],
+    "compliance": {
+      "tweets_total": 7,
+      "chars_counts": [
+        232,
+        213,
+        240,
+        278,
+        259,
+        232,
+        256
+      ],
+      "hashtags_per_tweet_ok": true,
+      "has_midthread_link": true,
+      "image_prompt_count": 2,
+      "checks": [
+        "each tweet ≤280 chars incl. hashtags & mentions",
+        "hook contains a concrete number",
+        "one idea per middle tweets",
+        "≥1 statistic and ≥1 mini-example present",
+        "mid-thread link present iff primary_url provided",
+        "CTA present in last tweet",
+        "≤2 hashtags per tweet; mentions ≤1 per tweet",
+        "image_prompts length == image_plan.count (default 2)"
+      ]
+    }
+  }
+}

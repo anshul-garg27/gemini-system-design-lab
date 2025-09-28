@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "topic_id": "1727",
+    "topic_title": "How infrastructure as code deploys entire systems with one command",
+    "platform": "hacker_news",
+    "format": "item",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "hn-item-1.2",
+    "audience": "intermediate",
+    "tone": "neutral",
+    "locale": "en",
+    "canonical": "https://example.com/topic/1727",
+    "options": {
+      "include_images": false,
+      "variance_seed": "default"
+    }
+  },
+  "content": {
+    "title": "How Infrastructure as Code (IaC) enables repeatable system deployments",
+    "summary": "Infrastructure as Code manages and provisions infrastructure through machine-readable definition files, rather than manual configuration. This approach, using either declarative or imperative models, allows for versioning, reuse, and automated deployment of complex environments. By treating infrastructure like software, teams can achieve consistent and auditable system provisioning across development, staging, and production.",
+    "link": "https://example.com/topic/1727",
+    "text_post": "",
+    "is_show_hn": false,
+    "show_hn_variant": {
+      "title": "Show HN: ",
+      "blurb": "",
+      "setup": "",
+      "demo_url": "",
+      "repo_url": "",
+      "license": "",
+      "stack": [],
+      "metrics": [],
+      "limitations": [],
+      "request_for_feedback": []
+    },
+    "comment_preparation": {
+      "anticipated_questions": [
+        {
+          "q": "How does this compare to tools like Ansible or Chef?",
+          "a": "IaC tools like Terraform are typically declarative and focus on provisioning infrastructure (networks, VMs, databases), while configuration management tools like Ansible or Chef are often imperative and focus on configuring the software within that infrastructure. However, the lines are blurring; for example, Ansible can provision infrastructure, and Terraform can run provisioners to configure instances. The choice depends on whether your primary goal is provisioning the 'what' or configuring the 'how'."
+        },
+        {
+          "q": "What's the difference between declarative and imperative IaC?",
+          "a": "Declarative IaC (e.g., Terraform, CloudFormation) defines the desired end state, and the tool determines how to achieve it. Imperative IaC (e.g., AWS CDK, Pulumi, or custom scripts) defines the specific steps to execute to reach the end state. Declarative is generally better for ensuring consistency and preventing configuration drift, while imperative offers more granular control and flexibility for complex logic."
+        },
+        {
+          "q": "What are the biggest security risks with IaC?",
+          "a": "The primary risks are managing secrets and securing the state file. Credentials or API keys should never be hardcoded in configuration files; use a secrets management tool like Vault or a cloud provider's native service. The state file (e.g., terraform.tfstate) can contain sensitive data about your infrastructure, so it must be stored securely with restricted access, often using encrypted remote backends."
+        }
+      ],
+      "benchmarks_detail": "Not applicable for a conceptual overview. Benchmarks would be specific to individual tools like Terraform or Pulumi and depend on the cloud provider API performance and the complexity of the infrastructure being deployed.",
+      "alternatives": [
+        "Manual configuration via cloud consoles",
+        "Custom shell scripts for provisioning",
+        "Configuration Management tools like Chef, Puppet, and Ansible"
+      ],
+      "roadmap_next": [
+        "Not applicable for a conceptual article. The field is evolving with trends like GitOps (using Git as the single source of truth) and the increasing use of general-purpose programming languages for IaC (e.g., Pulumi, AWS CDK)."
+      ]
+    },
+    "moderation_notes": [
+      "No tracking parameters in any URL.",
+      "Avoid marketing phrasing ('revolutionary', 'game-changing'); speak plainly.",
+      "Disclose affiliation if posting your own work.",
+      "Be ready with numbers, code, limitations, and comparisons in comments."
+    ]
+  },
+  "compliance": {
+    "title_char_count": 69,
+    "summary_sentence_count": 3,
+    "has_tracking_params": false,
+    "is_text_post": false,
+    "is_show_hn_complete": false,
+    "includes_metrics": false,
+    "includes_limitations": false,
+    "checks": [
+      "title ≤80 chars; no emojis/clickbait/brackets (except 'Show HN:')",
+      "summary 2–3 neutral sentences with at least one concrete detail",
+      "URL is canonical with no tracking parameters",
+      "If Show HN: text_post present; demo/repo/license/stack provided; limitations listed",
+      "Technical comment prep present (benchmarks/alternatives/roadmap)"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+Generate a YouTube long-form video script for the topic: {topic_name}
+
+TOPIC DESCRIPTION:
+{topic_description}
+
+AUDIENCE: {audience}
+TONE: {tone}
+LOCALE: {locale}
+PRIMARY URL: {primary_url}
+
+REQUIREMENTS:
+- Create a comprehensive video script (15-30 minutes)
+- Include engaging intro and outro
+- Structure content with clear chapters
+- Provide detailed descriptions for visual elements
+- Include relevant tags and SEO optimization
+- Write compelling title and description
+- Add calls-to-action throughout
+
+VIDEO STRUCTURE:
+1. Hook (0-30s) - grab attention immediately
+2. Introduction (30s-2min) - introduce topic and agenda
+3. Main Content (2-25min) - detailed technical explanation
+4. Examples/Applications (5-10min) - real-world use cases
+5. Conclusion (2-5min) - summarize key points
+6. Outro (30s-1min) - call-to-action and next steps
+
+JSON SCHEMA:
+{
+  "title": "string (max 100 chars)",
+  "description": "string (max 5000 chars)",
+  "chapters": [
+    {
+      "chapter_number": "number",
+      "title": "string (max 100 chars)",
+      "start_time": "string (MM:SS format)",
+      "content": "string (detailed script content)",
+      "visual_cues": "string (visual direction)"
+    }
+  ],
+  "tags": ["string (max 15 tags)"],
+  "thumbnail_prompt": "string (detailed visual description)",
+  "script_outline": [
+    {
+      "section": "string",
+      "duration": "string",
+      "key_points": ["string"]
+    }
+  ],
+  "call_to_action": "string (max 200 chars)"
+}
+
+Generate content that educates {audience} audience about {topic_name} in a {tone} tone, optimized for YouTube long-form video format.

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "topic_id": "2156",
+    "topic_title": "Max sliding window uses a deque for O(n) time",
+    "platform": "instagram",
+    "format": "story",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-story-1.1",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "algorithms",
+      "data structures",
+      "sliding window maximum",
+      "deque"
+    ],
+    "secondary_keywords": [
+      "time complexity",
+      "big o notation",
+      "array processing",
+      "coding interview"
+    ],
+    "lsi_terms": [
+      "monotonic queue",
+      "optimization",
+      "problem solving",
+      "leetcode"
+    ],
+    "canonical": "https://example.com/topic/2156",
+    "brand": {
+      "site_url": "https://example.com/topic/2156",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=instagram&utm_medium=story"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "algorithms",
+        "datastructures",
+        "coding"
+      ],
+      "niche": [
+        "slidingwindow",
+        "timecomplexity",
+        "deque",
+        "codinginterview"
+      ],
+      "micro_niche": [
+        "slidingwindowmaximum",
+        "monotonicqueue",
+        "bigonotation"
+      ],
+      "intent": [
+        "learncoding",
+        "algorithmtips"
+      ],
+      "branded": [
+        "@systemdesign"
+      ]
+    },
+    "image_plan": {
+      "count": 1,
+      "roles": [
+        "background"
+      ],
+      "ratio": "9:16",
+      "size_px": "1080x1920",
+      "reasoning": "The topic is a specific algorithm, best explained with clear text. A single, minimalist background avoids visual clutter and keeps the focus on the educational content and interactive stickers."
+    }
+  },
+  "content": {
+    "frames": [
+      {
+        "index": 1,
+        "role": "hook",
+        "copy": "Find the max in a sliding window in O(N) time. Impossible?",
+        "sticker_ideas": [
+          "poll: Have you used a deque for this? (Yes! / What's a deque?)"
+        ],
+        "overlay_notes": "Large, bold headline text. High contrast.",
+        "layout": "centered title; ample margins",
+        "alt_text": "Hook text: Find the max in a sliding window in O(N) time. Impossible? A poll sticker is placed below.",
+        "duration_seconds": 15
+      },
+      {
+        "index": 2,
+        "role": "micro_insight",
+        "copy": "The secret: a deque storing indices in decreasing value order.",
+        "sticker_ideas": [
+          "quiz: What's the deque's key benefit? (A: O(1) max access, B: Sorting the window, C: Storing all elements)"
+        ],
+        "overlay_notes": "Keep text concise. Place quiz sticker prominently.",
+        "layout": "top-aligned text; quiz sticker in center",
+        "alt_text": "Insight text: The secret: a deque storing indices in decreasing value order. A quiz sticker asks about the deque's key benefit.",
+        "duration_seconds": 15
+      },
+      {
+        "index": 3,
+        "role": "cta",
+        "copy": "Master this crucial algorithm. Full breakdown inside.",
+        "sticker_ideas": [
+          "link: https://example.com/topic/2156?utm_source=instagram&utm_medium=story",
+          "countdown: Full Guide Drops at 6 PM!"
+        ],
+        "overlay_notes": "Bold CTA text with an arrow pointing to the link sticker.",
+        "layout": "CTA centered; link sticker at the bottom",
+        "alt_text": "Call to action: Master this crucial algorithm. Full breakdown inside. A link sticker and a countdown timer are below.",
+        "duration_seconds": 15
+      }
+    ],
+    "stickers": {
+      "global": [
+        "Use brand's primary font",
+        "Ensure high contrast between text and background"
+      ],
+      "link_strategy": {
+        "enabled": true,
+        "link_url": "https://example.com/topic/2156?utm_source=instagram&utm_medium=story",
+        "link_text": "Deep Dive",
+        "placement_hint": "bottom center, above the navigation bar area"
+      },
+      "time_sensitive_angle": "Use a countdown sticker to a specific time (e.g., 6 PM today) to build anticipation for the full article or a related feed post."
+    },
+    "image_prompts": [
+      {
+        "role": "background",
+        "title": "Sliding Window Algorithm Background",
+        "prompt": "Soft off-white canvas with a faint dotted grid. In a corner, a minimalist vector glyph representing a sliding window over a series of bars, or an abstract representation of a double-ended queue. Ample negative space for overlay text. Single accent color, flat aesthetic.",
+        "negative_prompt": "no busy texture, no photos, no faces, no logos, no neon, no 3D bevels, no gradients >5%, no clutter",
+        "style_notes": "Elegant, minimalist, and very subtle to not distract from the text overlays.",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "A subtle, off-white background with a faint grid and a small icon representing an algorithm."
+      }
+    ],
+    "overlay_hashtags": [
+      "#algorithms",
+      "#datastructures",
+      "#slidingwindow",
+      "#deque",
+      "#codinginterview"
+    ],
+    "compliance": {
+      "frames_total": 3,
+      "has_link": true,
+      "checks": [
+        "3–5 frames",
+        "Hook ≤12 words; Insight ≤14; CTA ≤10",
+        "each frame has at least one sticker idea",
+        "link omitted if primary_url empty",
+        "safe margins ≥96px",
+        "image_prompts length == image_plan.count when include_images=true"
+      ]
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "topic_id": "1727",
+    "topic_title": "How infrastructure as code deploys entire systems with one command",
+    "platform": "notion",
+    "format": "page",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "notion-page-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "infrastructure as code",
+      "iac",
+      "terraform",
+      "cloud automation",
+      "devops"
+    ],
+    "secondary_keywords": [
+      "ansible",
+      "cloudformation",
+      "declarative infrastructure",
+      "idempotency",
+      "gitops"
+    ],
+    "lsi_terms": [
+      "system deployment",
+      "configuration management",
+      "repeatable infrastructure",
+      "version control systems",
+      "cloud provisioning",
+      "imperative vs declarative",
+      "state file management"
+    ],
+    "canonical": "https://example.com/topic/1727",
+    "brand": {
+      "site_url": "https://example.com/topic/1727",
+      "handles": {
+        "notion": "@yourspace",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=notion&utm_medium=page"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": false,
+    "keyword_tiers": {
+      "broad": [
+        "infrastructure as code",
+        "cloud automation",
+        "devops",
+        "system deployment"
+      ],
+      "niche": [
+        "terraform",
+        "ansible",
+        "cloudformation",
+        "declarative vs imperative",
+        "idempotent"
+      ],
+      "micro_niche": [
+        "terraform state file",
+        "ansible playbook",
+        "bicep templates",
+        "pulumi",
+        "gitops workflow"
+      ],
+      "intent": [
+        "how to use iac",
+        "iac tools comparison"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 1,
+      "roles": [
+        "cover"
+      ],
+      "ratios_px": [
+        {
+          "ratio": "1.91:1",
+          "size_px": "1200x630"
+        }
+      ]
+    }
+  },
+  "content": {
+    "page_title": "How infrastructure as code deploys entire systems with one command",
+    "properties": {
+      "tags": [
+        "iac",
+        "devops",
+        "automation",
+        "cloud",
+        "terraform"
+      ],
+      "status": "published",
+      "canonical_url": "https://example.com/topic/1727"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "How infrastructure as code deploys entire systems with one command"
+      },
+      {
+        "type": "paragraph",
+        "text": "Infrastructure as Code (IaC) eliminates manual, error-prone server configuration by managing infrastructure—networks, virtual machines, load balancers—through code. This approach enables you to build, change, and version your infrastructure safely and efficiently, deploying complex systems with repeatable, predictable results."
+      },
+      {
+        "type": "table_of_contents",
+        "text": ""
+      },
+      {
+        "type": "heading_2",
+        "text": "The Core Idea: From Manual Clicks to Versioned Code"
+      },
+      {
+        "type": "paragraph",
+        "text": "Instead of using a web console to provision resources, you define them in configuration files. These files become the single source of truth for your system's architecture, which can be shared, versioned in Git, and automated through CI/CD pipelines just like application code."
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "**Idempotency:** Running the same code multiple times produces the same result, preventing configuration drift."
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "**Version Control:** Track every change to your infrastructure, enabling rollbacks and clear audit trails."
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "**Automation:** Integrate provisioning into your deployment pipeline for hands-off, consistent releases."
+      },
+      {
+        "type": "heading_2",
+        "text": "Two Approaches: Declarative vs. Imperative"
+      },
+      {
+        "type": "paragraph",
+        "text": "IaC tools follow two primary models. Declarative tools focus on the desired *end state*, while imperative tools focus on the *specific commands* to reach that state."
+      },
+      {
+        "type": "toggle",
+        "text": "Explore code examples for each approach",
+        "children": [
+          {
+            "type": "heading_3",
+            "text": "Declarative (The \"What\")"
+          },
+          {
+            "type": "paragraph",
+            "text": "You define the target configuration, and the tool figures out how to achieve it. This is the most common approach in modern IaC. Example using Terraform:"
+          },
+          {
+            "type": "code",
+            "language": "hcl",
+            "text": "resource \"aws_instance\" \"web_server\" {\n  ami           = \"ami-0c55b159cbfafe1f0\" # Ubuntu 20.04 LTS\n  instance_type = \"t2.micro\"\n\n  tags = {\n    Name = \"ExampleWebServer\"\n  }\n}"
+          },
+          {
+            "type": "heading_3",
+            "text": "Imperative (The \"How\")"
+          },
+          {
+            "type": "paragraph",
+            "text": "You write explicit, step-by-step instructions. This offers fine-grained control but can be harder to maintain. Example using AWS CLI in a bash script:"
+          },
+          {
+            "type": "code",
+            "language": "bash",
+            "text": "#!/bin/bash\n\nAWS_INSTANCE_ID=$(aws ec2 run-instances \\\n  --image-id ami-0c55b159cbfafe1f0 \\\n  --instance-type t2.micro \\\n  --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=ExampleWebServer}]' \\\n  --query 'Instances[0].InstanceId' \\\n  --output text)\n\necho \"Instance created with ID: $AWS_INSTANCE_ID\""
+          }
+        ]
+      },
+      {
+        "type": "heading_2",
+        "text": "The Standard IaC Workflow"
+      },
+      {
+        "type": "numbered_list_item",
+        "text": "**Define:** Write your infrastructure configuration in files (e.g., `main.tf`)."
+      },
+      {
+        "type": "numbered_list_item",
+        "text": "**Version:** Commit your configuration files to a Git repository."
+      },
+      {
+        "type": "numbered_list_item",
+        "text": "**Plan:** Run a command like `terraform plan` to generate an execution plan. This shows you exactly what will be created, updated, or destroyed."
+      },
+      {
+        "type": "numbered_list_item",
+        "text": "**Apply:** Execute the plan with a command like `terraform apply` to provision the infrastructure."
+      },
+      {
+        "type": "callout",
+        "emoji": "💡",
+        "text": "Always review the `plan` output before applying changes to production. This is your critical safety check to prevent unintended modifications or downtime."
+      },
+      {
+        "type": "heading_2",
+        "text": "Popular IaC Tools"
+      }
+    ],
+    "column_layout": {
+      "enabled": false,
+      "column_list": []
+    },
+    "database_inline": {
+      "enabled": true,
+      "name": "Popular IaC Tools",
+      "schema": [
+        {
+          "name": "Tool",
+          "type": "title"
+        },
+        {
+          "name": "Approach",
+          "type": "select",
+          "options": [
+            "Declarative",
+            "Imperative"
+          ]
+        },
+        {
+          "name": "Primary Use",
+          "type": "select",
+          "options": [
+            "Provisioning",
+            "Config Mgmt",
+            "Both"
+          ]
+        },
+        {
+          "name": "Link",
+          "type": "url"
+        }
+      ],
+      "initial_rows": [
+        {
+          "Tool": "Terraform",
+          "Approach": "Declarative",
+          "Primary Use": "Provisioning",
+          "Link": "https://www.terraform.io/"
+        },
+        {
+          "Tool": "AWS CloudFormation",
+          "Approach": "Declarative",
+          "Primary Use": "Provisioning",
+          "Link": "https://aws.amazon.com/cloudformation/"
+        },
+        {
+          "Tool": "Ansible",
+          "Approach": "Declarative",
+          "Primary Use": "Config Mgmt",
+          "Link": "https://www.ansible.com/"
+        },
+        {
+          "Tool": "Pulumi",
+          "Approach": "Declarative",
+          "Primary Use": "Provisioning",
+          "Link": "https://www.pulumi.com/"
+        }
+      ]
+    },
+    "embeds": [
+      {
+        "type": "bookmark",
+        "url": "https://example.com/topic/1727?utm_source=notion&utm_medium=page"
+      }
+    ],
+    "image_prompts": [
+      {
+        "role": "cover",
+        "title": "Notion Cover",
+        "prompt": "Wide, minimalist cover for How infrastructure as code deploys entire systems with one command: subtle abstract tech pattern with light geometric lines representing interconnected cloud resources; off-white background; a faint grid; one restrained accent color like blue or teal; generous margins; flat vector aesthetic; composition leaves negative space for an overlay title in Notion.",
+        "negative_prompt": "no stock-photo people, no logos, no neon, no 3D bevels, no glossy gradients, no clutter, no server rack photos",
+        "style_notes": "editorial-tech; calm contrast; crisp kerning potential",
+        "ratio": "1.91:1",
+        "size_px": "1200x630",
+        "alt_text": "Abstract diagram of interconnected nodes representing infrastructure as code."
+      }
+    ]
+  },
+  "compliance": {
+    "has_h1": true,
+    "h2_sections_count": 4,
+    "has_toc": true,
+    "toggle_blocks_count": 1,
+    "callout_blocks_count": 1,
+    "code_blocks_count": 2,
+    "embed_count": 1,
+    "database_enabled": true,
+    "image_prompt_count": 1,
+    "has_tracked_bookmark_once": true,
+    "checks": [
+      "H1 equals topic_title",
+      "TOC placed after intro",
+      "3–6 H2 sections present",
+      "≥1 toggle with children",
+      "≥1 callout",
+      "≥1 code block if relevant",
+      "≥1 embed/bookmark; tracked link used once if primary_url present",
+      "If database_inline.enabled: schema + 1–3 sample rows",
+      "image_prompts length == image_plan.count (default 1)"
+    ]
+  }
+}

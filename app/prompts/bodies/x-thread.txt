@@ -1,0 +1,48 @@
+Generate an X/Twitter thread for the topic: {topic_name}
+
+TOPIC DESCRIPTION:
+{topic_description}
+
+AUDIENCE: {audience}
+TONE: {tone}
+LOCALE: {locale}
+PRIMARY URL: {primary_url}
+
+REQUIREMENTS:
+- Create a thread of 5-12 tweets that build a complete narrative
+- Start with a compelling hook tweet
+- Each tweet should be self-contained but build on the previous
+- Include relevant hashtags and mentions
+- End with a strong conclusion and call-to-action
+- Optimize for Twitter's character limits and engagement patterns
+
+THREAD STRUCTURE:
+1. Hook tweet - grab attention and introduce the topic
+2. Context tweets - provide background and set up the problem
+3. Core content tweets - present the main technical concepts
+4. Examples/Applications tweets - show real-world usage
+5. Conclusion tweet - summarize key takeaways
+6. Call-to-action tweet - drive engagement
+
+JSON SCHEMA:
+{
+  "thread_title": "string (max 100 chars)",
+  "tweets": [
+    {
+      "tweet_number": "number",
+      "content": "string (max 280 chars)",
+      "is_thread_start": "boolean",
+      "is_thread_end": "boolean"
+    }
+  ],
+  "hashtags": ["string (max 5 hashtags)"],
+  "image_prompts": [
+    {
+      "tweet_number": "number",
+      "prompt": "string (detailed visual description)"
+    }
+  ],
+  "thread_summary": "string (max 280 chars)"
+}
+
+Generate content that educates {audience} audience about {topic_name} in a {tone} tone, optimized for X/Twitter thread format.

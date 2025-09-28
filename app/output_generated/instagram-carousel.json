@@ -1,0 +1,322 @@
+{
+    "meta": {
+        "topic_id": "{topic_id}",
+        "topic_title": "Linked List",
+        "platform": "instagram",
+        "format": "carousel",
+        "content_schema_version": "v1.0.0",
+        "model_version": "gemini-2.5-flash",
+        "prompt_version": "ig-carousel-1.3",
+        "audience": "intermediate",
+        "tone": "clear, confident, non-cringe",
+        "locale": "en",
+        "primary_keywords": [
+            "system design",
+            "architecture",
+            "scalability"
+        ],
+        "secondary_keywords": [
+            "distributed systems",
+            "microservices",
+            "performance"
+        ],
+        "lsi_terms": [
+            "load balancing",
+            "database sharding",
+            "caching"
+        ],
+        "canonical": "https://example.com/topic/1796",
+        "brand": {
+            "site_url": "https://example.com/topic/1796",
+            "handles": {
+                "instagram": "@systemdesign",
+                "x": "@systemdesign",
+                "linkedin": "@systemdesign",
+                "youtube": "@systemdesign",
+                "github": "@systemdesign"
+            },
+            "utm_base": "utm_source=instagram&utm_medium=carousel"
+        },
+        "options": {
+            "include_images": true,
+            "max_length_levels": "medium",
+            "variance_seed": "default"
+        }
+    },
+    "content": {
+        "slides": [
+            {
+                "index": 1,
+                "role": "hook",
+                "title": "Unlock Dynamic Data Structures With Linked Lists",
+                "subtitle": "Master the art of flexible data management.",
+                "bullets": [
+                    "",
+                    ""
+                ],
+                "overlay_text": "Swipe \u2192",
+                "design_note": "Bold cover hierarchy; punchy hook; micro-glyph only",
+                "layout": "title top, subtitle below, small glyph bottom-right, heavy whitespace",
+                "iconography": "tiny diagram glyph hinting core concept",
+                "contrast_notes": "max contrast headline; micro-type for subtitle",
+                "alt_text": "Cover slide showing a linked list structure with a 'Swipe' call to action"
+            },
+            {
+                "index": 2,
+                "role": "problem",
+                "title": "Arrays Cramping Your Style?",
+                "subtitle": "Static size causing headaches? Linked lists to the rescue!",
+                "bullets": [
+                    "Arrays require contiguous memory allocation.",
+                    "Fixed-size arrays limit dynamic data handling.",
+                    "Insertion/deletion is costly due to shifting."
+                ],
+                "overlay_text": "Problem \u2192",
+                "design_note": "use red underline or cross icon sparingly",
+                "layout": "two-column bullets; wide margins",
+                "iconography": "alert/bottleneck glyph",
+                "contrast_notes": "use accent only on the pain metric",
+                "alt_text": "Slide highlighting the problems with arrays: fixed size, memory allocation, and insertion/deletion costs"
+            },
+            {
+                "index": 3,
+                "role": "core_idea",
+                "title": "Linked Lists: Dynamic Data Champions",
+                "subtitle": "Nodes linked by pointers; flexible, efficient, powerful.",
+                "bullets": [
+                    "Nodes store data and a pointer to the next node.",
+                    "Dynamic allocation allows flexible size changes.",
+                    "Efficient insertion/deletion by pointer manipulation."
+                ],
+                "overlay_text": "Solution core",
+                "design_note": "calm tone; green check motif",
+                "layout": "headline left, bullets right",
+                "iconography": "lightbulb/process glyph",
+                "contrast_notes": "normal emphasis; keep labels short",
+                "alt_text": "Slide explaining the core idea of linked lists: nodes and pointers enabling dynamic allocation"
+            },
+            {
+                "index": 4,
+                "role": "architecture",
+                "title": "Linked List Architecture",
+                "subtitle": "Visualizing the structure: Nodes connected by pointers.",
+                "bullets": [
+                    "Head: Pointer to the first node.",
+                    "Node: Data + Pointer to next node.",
+                    "Tail: Last node; pointer is NULL."
+                ],
+                "overlay_text": "Arch map",
+                "design_note": "diagram-first; labeled arrows",
+                "layout": "block diagram area with side notes",
+                "iconography": "client\u2192gateway\u2192services\u2192datastore",
+                "contrast_notes": "thin lines; crisp labels; no shadows",
+                "alt_text": "Architecture slide showing head, nodes with data and pointers, and tail of a linked list"
+            },
+            {
+                "index": 5,
+                "role": "tradeoffs",
+                "title": "Linked Lists: Pros & Cons",
+                "subtitle": "Weighing the advantages and disadvantages.",
+                "bullets": [
+                    "Pros: Dynamic size, efficient insertion/deletion.",
+                    "Pros: No memory wastage due to fixed size.",
+                    "Cons: Extra memory for pointers.",
+                    "Cons: No random access; sequential traversal only."
+                ],
+                "overlay_text": "Pros vs Cons",
+                "design_note": "two-column compare",
+                "layout": "left pros, right cons; equal weight",
+                "iconography": "balance scales glyph",
+                "contrast_notes": "neutral tone; avoid color bias",
+                "alt_text": "Slide comparing pros and cons of linked lists like dynamic size vs no random access"
+            },
+            {
+                "index": 6,
+                "role": "metrics",
+                "title": "Linked List Performance",
+                "subtitle": "Analyzing insertion, deletion, and search times.",
+                "bullets": [
+                    "Insertion: O(1) at head, O(n) at tail.",
+                    "Deletion: O(1) with node, O(n) by value.",
+                    "Search: O(n) - requires traversal."
+                ],
+                "overlay_text": "Numbers",
+                "design_note": "sparklines or tiny chips for P95, RPS",
+                "layout": "stat chips; labels under",
+                "iconography": "tiny chart marks",
+                "contrast_notes": "highlight ONLY one hero metric",
+                "alt_text": "Performance metrics for linked lists, including insertion, deletion, and search complexities"
+            },
+            {
+                "index": 7,
+                "role": "mini_case",
+                "title": "Real-World Linked List Use",
+                "subtitle": "From undo functions to music playlists.",
+                "bullets": [
+                    "Undo/Redo: Linked list of actions.",
+                    "Web Browsers: History tracking.",
+                    "Music Playlists: Song sequence."
+                ],
+                "overlay_text": "Case",
+                "design_note": "before/after arrows",
+                "layout": "left before, right after",
+                "iconography": "arrow transform",
+                "contrast_notes": "use accent on delta",
+                "alt_text": "Slide showing real-world use cases of linked lists: undo/redo, browser history, playlists"
+            },
+            {
+                "index": 8,
+                "role": "summary",
+                "title": "Linked List: Key Takeaways",
+                "subtitle": "Dynamic, flexible, and versatile data structure.",
+                "bullets": [
+                    "Dynamic size avoids memory wastage.",
+                    "Efficient insertion/deletion is possible.",
+                    "Sequential access is key limitation."
+                ],
+                "overlay_text": "Recap",
+                "design_note": "calm, clear; checklist motif",
+                "layout": "bulleted list centered",
+                "iconography": "checklist",
+                "contrast_notes": "consistent spacing; readable line length",
+                "alt_text": "Slide summarizing key takeaways about linked lists: dynamic size, efficient operations, sequential access"
+            },
+            {
+                "index": 9,
+                "role": "cta",
+                "title": "Dive Deeper Into Data Structures",
+                "subtitle": "Expand your knowledge!",
+                "bullets": [
+                    "Explore more data structures.",
+                    "Practice coding linked list problems."
+                ],
+                "overlay_text": "CTA",
+                "design_note": "end-card with handle & short URL",
+                "layout": "big CTA, small handle {{brand.handles.instagram}}",
+                "iconography": "arrow chevron",
+                "contrast_notes": "clear hierarchy; no clutter",
+                "alt_text": "End card with a call to action to learn more about data structures"
+            }
+        ],
+        "caption": {
+            "text": "Linked lists are a fundamental data structure, offering dynamic memory allocation and efficient insertion/deletion. Unlike arrays, linked lists don't require contiguous memory locations, making them ideal for situations where the size of the data isn't known in advance. This flexibility comes at the cost of sequential access, affecting search performance. \n\nUnderstanding linked lists is crucial for system design, especially when dealing with distributed systems and microservices where data needs to be dynamically managed. Consider their impact on performance and scalability when architecting solutions. \n\nReady to level up your system design skills? Check out our in-depth guide! \ud83e\udde0\u2699\ufe0f\ud83d\ude80 {https://example.com/topic/1796}?utm_source=instagram&utm_medium=carousel",
+            "emojis_used": [
+                "\ud83e\udde0",
+                "\u2699\ufe0f",
+                "\ud83d\ude80"
+            ],
+            "seo": {
+                "keywords_used": [
+                    "system design",
+                    "architecture",
+                    "scalability",
+                    "performance"
+                ],
+                "lsi_terms_used": [
+                    "database sharding",
+                    "caching"
+                ]
+            }
+        },
+        "hashtags": [
+            "#systemdesign",
+            "#architecture",
+            "#scalability",
+            "#microservices",
+            "#distributed",
+            "#performance",
+            "#engineering",
+            "#tech",
+            "#software",
+            "#backend",
+            "#database",
+            "#caching",
+            "#loadbalancing",
+            "#api",
+            "#cloud",
+            "#devops",
+            "#programming",
+            "#coding",
+            "#developer",
+            "#techcareer",
+            "#softwareengineering",
+            "#computerscience",
+            "#algorithms",
+            "#datastructures",
+            "#interview",
+            "#techinterview",
+            "#codinginterview",
+            "#systemdesigninterview",
+            "#techskills",
+            "#learninpublic"
+        ],
+        "design_system": {
+            "color_palette": [
+                {
+                    "name": "Calm Tech",
+                    "values": [
+                        "#F8F7F4",
+                        "#111111",
+                        "#1E6F6E"
+                    ]
+                },
+                {
+                    "name": "Slate Minimal",
+                    "values": [
+                        "#FAFAFA",
+                        "#0F172A",
+                        "#2563EB"
+                    ]
+                }
+            ],
+            "font_pairings": [
+                {
+                    "headline": "Outfit/Inter SemiBold",
+                    "body": "Inter/Source Sans",
+                    "code": "JetBrains Mono (small chips)"
+                }
+            ],
+            "grid": {
+                "ratio": "4:5",
+                "size_px": "1080x1350",
+                "safe_margins_px": 64,
+                "column_system": "8-col mobile grid"
+            }
+        },
+        "image_prompts": [
+            {
+                "title": "Carousel Cover",
+                "prompt": "Minimalist 4:5 cover for Linked List. Composition: top 25%\u2014bold 'Unlock Dynamic Data Structures' in geometric sans; middle 55%\u2014ample whitespace with a tiny architecture glyph (client \u2192 API gateway \u2192 services \u2192 datastore); bottom 20%\u2014subtle 'Swipe \u2192' and brand handle @systemdesign. Off-white background; subtle dotted grid; thin vector strokes; one accent color for arrows/label highlights; typography scale: headline ~9% of height, subtitle ~4%, micro-labels ~2.8%. Keep margins generous; flat vector look; no shadows.",
+                "negative_prompt": "no photos, no faces, no logos, no neon, no 3D bevels, no gradients >5%, no stock icon clutter",
+                "style_notes": "editorial poster tone; crisp kerning; consistent stroke widths",
+                "ratio": "4:5",
+                "size_px": "1080x1350",
+                "alt_text": "Cover slide with bold hook and minimal architecture glyph"
+            },
+            {
+                "title": "Architecture Panel",
+                "prompt": "Minimalist system diagram for Linked List showing nodes connected by pointers; labeled arrows for next node; side notes for insertion and deletion performance; off-white background; thin vector lines; subtle grid; one accent color for flows. Place headline top-left, diagram center-right, metric chips bottom. Export clean, flat vector aesthetic.",
+                "negative_prompt": "no 3D, no neon, no drop shadows, no photoreal elements, no logos",
+                "style_notes": "diagram-first composition; generous whitespace; legible labels",
+                "ratio": "4:5",
+                "size_px": "1080x1350",
+                "alt_text": "Architecture slide with labeled flows and small metric chips"
+            }
+        ],
+        "compliance": {
+            "slides_total": 9,
+            "hook_title_char_count": 44,
+            "caption_word_count": 163,
+            "hashtag_count": 30,
+            "checks": [
+                "\u226410 slides",
+                "titles \u226410 words",
+                "bullets \u226414 words",
+                "alt_text present for every slide",
+                "exactly 30 hashtags",
+                "caption 200\u2013300 words",
+                "image prompts 2\u00d7 (cover + architecture) when include_images=true"
+            ]
+        }
+    }
+}

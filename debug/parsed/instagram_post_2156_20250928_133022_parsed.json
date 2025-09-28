@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "topic_id": "2156",
+    "topic_title": "Max sliding window uses a deque for O(n) time",
+    "platform": "instagram",
+    "format": "post",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-post-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "algorithms",
+      "data structures",
+      "time complexity"
+    ],
+    "secondary_keywords": [
+      "sliding window",
+      "deque",
+      "coding interview",
+      "problem solving"
+    ],
+    "lsi_terms": [
+      "optimization",
+      "array processing",
+      "monotonic queue",
+      "big o notation"
+    ],
+    "canonical": "https://example.com/topic/2156",
+    "brand": {
+      "site_url": "https://example.com/topic/2156",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=instagram&utm_medium=post"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "programming",
+        "coding",
+        "softwareengineering",
+        "computerscience",
+        "developer",
+        "tech"
+      ],
+      "niche": [
+        "algorithms",
+        "datastructures",
+        "codinginterview",
+        "problemsolving",
+        "softwaredeveloper",
+        "pythoncode",
+        "bigo"
+      ],
+      "micro_niche": [
+        "slidingwindow",
+        "deque",
+        "monotonicqueue",
+        "timecomplexity",
+        "codingchallenge",
+        "leetcode",
+        "competitiveprogramming",
+        "algorithmdesign"
+      ],
+      "intent": [
+        "learntocode",
+        "codingtips",
+        "interviewprep",
+        "howtocode"
+      ],
+      "branded": [
+        "systemdesign"
+      ]
+    },
+    "image_plan": {
+      "count": 2,
+      "roles": [
+        "visual_diagram",
+        "visual_typography"
+      ],
+      "ratio": "4:5",
+      "size_px": "1080x1350"
+    }
+  },
+  "content": {
+    "visual_concept": "A minimal diagram showing how a deque tracks the maximum element in a sliding window, contrasted with a typographic version emphasizing the O(N) performance gain.",
+    "caption": {
+      "first_line_hook": "Stop solving sliding window problems with brute force. There’s a linear-time solution.",
+      "text": "Finding the maximum value in a moving window across an array is a classic problem. The naive approach, recalculating the max for each window, results in O(N*K) time complexity—too slow for large datasets. The optimal solution? A double-ended queue, or deque.\n\nThis clever data structure allows us to achieve an impressive O(N) time complexity. Here's how: the deque stores indices of array elements, always maintaining them in decreasing order of their values. As the window slides, we intelligently add new elements to the back (popping any that are smaller) and remove old elements from the front. This ensures the index of the current window's maximum is always at the front of the deque, giving us O(1) access.\n\nThis technique, sometimes called a monotonic queue, is a game-changer for array processing optimization and a must-know for any coding interview.",
+      "cta": "Save this post and see the full implementation → https://example.com/topic/2156?utm_source=instagram&utm_medium=post",
+      "seo": {
+        "keywords_used": [
+          "algorithms",
+          "data structures",
+          "time complexity",
+          "sliding window",
+          "deque",
+          "coding interview"
+        ],
+        "lsi_terms_used": [
+          "optimization",
+          "array processing",
+          "monotonic queue"
+        ]
+      }
+    },
+    "hashtags": [
+      "#programming",
+      "#coding",
+      "#softwareengineering",
+      "#computerscience",
+      "#developer",
+      "#tech",
+      "#algorithms",
+      "#datastructures",
+      "#codinginterview",
+      "#problemsolving",
+      "#softwaredeveloper",
+      "#pythoncode",
+      "#bigo",
+      "#slidingwindow",
+      "#deque",
+      "#monotonicqueue",
+      "#timecomplexity",
+      "#codingchallenge",
+      "#leetcode",
+      "#competitiveprogramming",
+      "#algorithmdesign",
+      "#learntocode",
+      "#codingtips",
+      "interviewprep",
+      "#howtocode",
+      "#systemdesign",
+      "#code",
+      "#arrayprocessing",
+      "#optimization",
+      "#faang"
+    ],
+    "hashtags_grouped": {
+      "broad": [
+        "#programming",
+        "#coding",
+        "#softwareengineering",
+        "#computerscience",
+        "#developer",
+        "#tech"
+      ],
+      "niche": [
+        "#algorithms",
+        "#datastructures",
+        "#codinginterview",
+        "#problemsolving",
+        "#softwaredeveloper",
+        "#pythoncode",
+        "#bigo",
+        "#code"
+      ],
+      "micro_niche": [
+        "#slidingwindow",
+        "#deque",
+        "#monotonicqueue",
+        "#timecomplexity",
+        "#codingchallenge",
+        "#leetcode",
+        "#competitiveprogramming",
+        "#algorithmdesign",
+        "#arrayprocessing",
+        "#faang"
+      ],
+      "intent": [
+        "#learntocode",
+        "#codingtips",
+        "interviewprep",
+        "#howtocode"
+      ],
+      "branded": [
+        "#systemdesign"
+      ]
+    },
+    "location_tag_suggestions": [],
+    "image_prompts": [
+      {
+        "role": "visual_diagram",
+        "title": "Post Visual A — Minimal Diagram",
+        "prompt": "Minimalist 4:5 diagram for 'Max sliding window uses a deque for O(n) time' focused on the key insight: a deque maintains potential maximums for O(1) access. Composition: At the top, a simple array of integers. Below, a sliding window (a highlighted rectangle) is shown over a portion of the array. Below that, a visualization of a deque containing indices from the window, with the largest element's index at the front. An arrow connects the front of the deque to the max value in the window. Labels: 'Input Array', 'Sliding Window', 'Deque (maintains decreasing values)', 'O(1) Max Access'. Off-white background, thin vector strokes, subtle dotted grid, single blue accent color. Generous margins; flat vector aesthetic.",
+        "negative_prompt": "no photos, no faces, no logos, no neon, no 3D bevels, no gradients >5%, no clutter, no photorealism",
+        "style_notes": "diagram-first; clear hierarchy; tight labels",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "Diagram showing how a deque efficiently finds the maximum in a sliding window with O(N) time complexity."
+      },
+      {
+        "role": "visual_typography",
+        "title": "Post Visual B — Typographic Insight Card",
+        "prompt": "Typographic 4:5 insight card for 'Max sliding window uses a deque for O(n) time'. Bold headline: 'From O(N*K) to O(N)'. Smaller sub-headline below: 'Sliding Window Maximum with a Deque'. At the bottom right corner, include a tiny, minimalist icon representing a deque (a rectangle with arrows on both ends). Off-white background, single blue accent for an underline beneath the headline, generous whitespace, and a clean sans-serif font. High legibility on mobile.",
+        "negative_prompt": "no photos, no heavy gradients, no logos, no complex illustrations",
+        "style_notes": "editorial poster feel; crisp kerning",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "Typographic card stating 'From O(N*K) to O(N)' to highlight the performance gain of using a deque for the sliding window maximum problem."
+      }
+    ],
+    "compliance": {
+      "caption_word_count": 161,
+      "first_line_hook_char_count": 72,
+      "hashtag_count": 30,
+      "image_prompt_count": 2,
+      "checks": [
+        "caption 120–200 words (150–200 preferred)",
+        "strong first line; no 'click more' bait",
+        "exactly 30 hashtags (unique; tier-mixed)",
+        "image_prompts length == image_plan.count (default 2)",
+        "safe margins ≥64px",
+        "CTA present once"
+      ]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "default_inputs": {
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "system design",
+      "architecture", 
+      "scalability"
+    ],
+    "secondary_keywords": [
+      "distributed systems",
+      "microservices",
+      "performance"
+    ],
+    "lsi_terms": [
+      "load balancing",
+      "database sharding", 
+      "caching"
+    ],
+    "primary_url": "https://example.com/topic/{topic_id}",
+    "brand": {
+      "siteUrl": "https://example.com/topic/{topic_id}",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign", 
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utmBase": "utm_source={platform}&utm_medium={format}"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    }
+  },
+  "platform_specific": {
+    "instagram": {
+      "reel": {
+        "content_schema_version": "v1.0.0",
+        "model_version": "gemini-2.5-flash",
+        "prompt_version": "ig-reel-1.2",
+        "image_plan": {
+          "count": 2,
+          "roles": ["cover_diagram", "cover_typography"],
+          "ratio": "9:16",
+          "size_px": "1080x1920"
+        },
+        "keyword_tiers": {
+          "broad": ["tech", "programming", "coding", "software", "engineering"],
+          "niche": ["systemdesign", "architecture", "scalability", "distributed", "microservices"],
+          "micro_niche": ["loadbalancing", "caching", "sharding", "api", "database"],
+          "intent": ["interview", "learning", "career", "skills"],
+          "branded": []
+        }
+      },
+      "carousel": {
+        "content_schema_version": "v1.0.0", 
+        "model_version": "gemini-2.5-flash",
+        "prompt_version": "ig-carousel-1.3",
+        "image_plan": {
+          "count": 2,
+          "roles": ["cover", "architecture"],
+          "ratio": "4:5",
+          "size_px": "1080x1350"
+        },
+        "keyword_tiers": {
+          "broad": ["tech", "programming", "coding", "software", "engineering"],
+          "niche": ["systemdesign", "architecture", "scalability", "distributed", "microservices"],
+          "micro_niche": ["loadbalancing", "caching", "sharding", "api", "database"],
+          "intent": ["interview", "learning", "career", "skills"],
+          "branded": []
+        }
+      }
+    },
+    "linkedin": {
+      "post": {
+        "content_schema_version": "v1.0.0",
+        "model_version": "gemini-2.5-flash", 
+        "prompt_version": "li-post-1.0"
+      }
+    },
+    "twitter": {
+      "thread": {
+        "content_schema_version": "v1.0.0",
+        "model_version": "gemini-2.5-flash",
+        "prompt_version": "tw-thread-1.0"
+      }
+    },
+    "youtube": {
+      "short": {
+        "content_schema_version": "v1.0.0",
+        "model_version": "gemini-2.5-flash",
+        "prompt_version": "yt-short-1.0"
+      }
+    }
+  },
+  "visual_guidelines": {
+    "aesthetic": "elegant, minimalist, tech-diagram/whiteboard vibe",
+    "background": "off-white background",
+    "strokes": "thin vector strokes",
+    "grid": "subtle grid",
+    "accent": "one restrained accent color",
+    "margins": "generous margins",
+    "contrast": "high contrast labels",
+    "shadows": "no drop shadows or faux 3D",
+    "negative_prompt_baseline": "no clutter, no busy backgrounds, no photoreal faces, no brand logos, no neon, no 3D bevels, no fake UI chrome, no stock icon noise"
+  },
+  "hashtag_pools": {
+    "system_design": [
+      "#systemdesign", "#architecture", "#scalability", "#microservices", 
+      "#distributed", "#performance", "#engineering", "#tech", "#software",
+      "#backend", "#database", "#caching", "#loadbalancing", "#api", "#cloud"
+    ],
+    "programming": [
+      "#programming", "#coding", "#developer", "#techcareer", "#softwareengineering",
+      "#computerscience", "#algorithms", "#datastructures", "#webdev", "#frontend",
+      "#fullstack", "#devops", "#buildinpublic", "#learntocode", "#codinglife"
+    ],
+    "learning": [
+      "#interview", "#techinterview", "#codinginterview", "#systemdesigninterview",
+      "#techskills", "#learninpublic", "#codingbootcamp", "#techlife", "#programminglife"
+    ]
+  }
+}

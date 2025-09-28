@@ -1,0 +1,31 @@
+{
+  "topicId": "t-001",
+  "topicName": "How WhatsApp group calls scale",
+  "topicDescription": "WhatsApp group calls handle millions of simultaneous users through sophisticated signaling protocols, SFU/MCU architecture trade-offs, and intelligent backpressure mechanisms. This system ensures low latency while maintaining audio quality across diverse network conditions.",
+  "audience": "intermediate",
+  "tone": "clear, confident, non-cringe",
+  "locale": "en",
+  "primaryUrl": "https://example.com/whatsapp-scale",
+  "brand": {
+    "siteUrl": "https://example.com",
+    "handles": {
+      "instagram": "@anshul",
+      "x": "@anshul",
+      "linkedin": "anshul",
+      "youtube": "anshul",
+      "github": "anshul"
+    },
+    "utmBase": "utm_source={platform}&utm_medium=social&utm_campaign=whatsapp-calls"
+  },
+  "targetPlatforms": [
+    "instagram:carousel",
+    "x_twitter:thread",
+    "youtube:long_form"
+  ],
+  "options": {
+    "include_images": true,
+    "max_length_levels": "standard",
+    "force": false,
+    "length_hint": 0
+  }
+}

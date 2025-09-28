@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "topic_id": "2156",
+    "topic_title": "Max sliding window uses a deque for O(n) time",
+    "platform": "instagram",
+    "format": "carousel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-carousel-1.3",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "sliding window maximum",
+      "deque",
+      "data structures",
+      "algorithms",
+      "time complexity"
+    ],
+    "secondary_keywords": [
+      "big o notation",
+      "coding interview",
+      "problem solving",
+      "performance optimization",
+      "linear time"
+    ],
+    "lsi_terms": [
+      "monotonic queue",
+      "array processing",
+      "double ended queue",
+      "efficient algorithms",
+      "leetcode"
+    ],
+    "canonical": "https://example.com/topic/2156",
+    "brand": {
+      "site_url": "https://example.com/topic/2156",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=instagram&utm_medium=carousel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "dataStructures",
+        "algorithms",
+        "computerScience",
+        "programming",
+        "softwareDevelopment",
+        "coding",
+        "developer"
+      ],
+      "niche": [
+        "bigONotation",
+        "timeComplexity",
+        "algorithmDesign",
+        "problemSolving",
+        "codingInterview",
+        "softwareEngineering",
+        "performanceOptimization"
+      ],
+      "micro_niche": [
+        "slidingWindow",
+        "slidingWindowMaximum",
+        "deque",
+        "monotonicQueue",
+        "leetCode",
+        "techInterview",
+        "arrayAlgorithm"
+      ],
+      "intent": [
+        "learnToCode",
+        "codeTips",
+        "dataStructuresAndAlgorithms",
+        "howToCode",
+        "codingHelp"
+      ],
+      "branded": [
+        "systemdesign"
+      ]
+    },
+    "image_plan": {
+      "count": 8,
+      "roles": [
+        "cover",
+        "comparison_chart",
+        "flow_diagram",
+        "flow_diagram",
+        "stat_card",
+        "checklist_card",
+        "quote_card",
+        "architecture_panel"
+      ],
+      "ratio": "4:5",
+      "size_px": "1080x1350",
+      "reasoning": "The topic involves a step-by-step algorithmic process. Multiple flow diagrams are needed to visualize the deque's state changes. A comparison chart and stat card are essential to contrast the naive vs. optimal solution's performance. This justifies an 8-image carousel for clarity."
+    }
+  },
+  "content": {
+    "slides": [
+      {
+        "index": 1,
+        "role": "hook",
+        "title": "O(N*K) to O(N) Instantly",
+        "subtitle": "The data structure that unlocks linear time for sliding windows.",
+        "bullets": [],
+        "overlay_text": "Swipe →",
+        "design_note": "Bold cover hierarchy; punchy hook; abstract deque glyph.",
+        "layout": "title top, subtitle below, small glyph bottom-right, heavy whitespace",
+        "iconography": "abstract glyph showing elements entering one side of a queue and exiting another",
+        "contrast_notes": "max contrast headline; micro-type for subtitle",
+        "alt_text": "Cover slide with the title 'O(N*K) to O(N) Instantly', promising a performance optimization for sliding window algorithms."
+      },
+      {
+        "index": 2,
+        "role": "problem",
+        "title": "The Brute-Force Trap",
+        "subtitle": "Finding the max in each window seems simple, but it's slow.",
+        "bullets": [
+          "Iterate through each possible window (N-K+1 times).",
+          "For each window, find the maximum element (K times).",
+          "Total time complexity becomes O(N * K), which is too slow."
+        ],
+        "overlay_text": "The Problem",
+        "design_note": "Use a red accent color to highlight the O(N * K) complexity.",
+        "layout": "two-column bullets; wide margins",
+        "iconography": "a bottleneck or slow snail glyph",
+        "contrast_notes": "accent color used only on the 'O(N * K)' text for emphasis",
+        "alt_text": "A slide explaining the problem with the brute-force approach to sliding window maximum, highlighting its O(N*K) time complexity."
+      },
+      {
+        "index": 3,
+        "role": "core_idea",
+        "title": "The Deque Solution",
+        "subtitle": "A double-ended queue maintains candidates for the maximum.",
+        "bullets": [
+          "The deque stores indices of elements, not the values themselves.",
+          "It's always kept in decreasing order of element values.",
+          "This gives O(1) access to the current window's maximum."
+        ],
+        "overlay_text": "The Solution",
+        "design_note": "Calm, confident tone with a green checkmark or lightbulb motif.",
+        "layout": "headline left, bullets right with ample spacing",
+        "iconography": "a lightbulb or a simplified deque diagram",
+        "contrast_notes": "normal emphasis; keep labels short and clear",
+        "alt_text": "Introduction to the deque solution, explaining its core principles: storing indices in decreasing order for O(1) max retrieval."
+      },
+      {
+        "index": 4,
+        "role": "architecture",
+        "title": "How It Works: Adding",
+        "subtitle": "Maintaining the deque as new elements arrive.",
+        "bullets": [
+          "When a new element arrives, check the deque's rear.",
+          "Remove any elements from the rear that are smaller than the new one.",
+          "Finally, add the new element's index to the rear."
+        ],
+        "overlay_text": "Step 1: Add",
+        "design_note": "A simple flow diagram showing elements being popped from the right and one being pushed.",
+        "layout": "diagram on left, explanatory bullets on right",
+        "iconography": "arrows showing removal from rear and addition to rear of a queue structure",
+        "contrast_notes": "thin lines for diagram; crisp labels; no shadows",
+        "alt_text": "A diagram illustrating how a new element is added to the deque by first removing smaller elements from the back."
+      },
+      {
+        "index": 5,
+        "role": "architecture",
+        "title": "How It Works: Sliding",
+        "subtitle": "Keeping the window and deque in sync.",
+        "bullets": [
+          "The maximum is always the element at the deque's front.",
+          "Before reading the max, check if its index is out of bounds.",
+          "If the front index is too old, remove it from the front."
+        ],
+        "overlay_text": "Step 2: Slide",
+        "design_note": "A simple flow diagram showing an element being popped from the left of the deque.",
+        "layout": "diagram on left, explanatory bullets on right",
+        "iconography": "an arrow showing removal from the front of a queue structure",
+        "contrast_notes": "consistent diagram style with the previous slide",
+        "alt_text": "A diagram illustrating how the window slides forward by removing out-of-bounds indices from the front of the deque."
+      },
+      {
+        "index": 6,
+        "role": "metrics",
+        "title": "The O(N) Payoff",
+        "subtitle": "Why this approach is dramatically faster.",
+        "bullets": [
+          "Each element's index is pushed onto the deque exactly once.",
+          "Each index is popped from the deque at most once.",
+          "This gives an amortized O(1) cost per step, for a total of O(N)."
+        ],
+        "overlay_text": "Performance",
+        "design_note": "A simple comparison chart or stat card showing O(N*K) vs O(N).",
+        "layout": "stat chips; large O(N) highlighted",
+        "iconography": "a rocket or lightning bolt glyph next to O(N)",
+        "contrast_notes": "highlight ONLY the O(N) hero metric in the accent color",
+        "alt_text": "A performance comparison slide showing the time complexity improvement from O(N*K) to a much faster O(N)."
+      },
+      {
+        "index": 7,
+        "role": "summary",
+        "title": "Key Rules",
+        "subtitle": "Your cheat sheet for the sliding window max algorithm.",
+        "bullets": [
+          "Use a deque to store indices, not values.",
+          "Maintain decreasing order of values in the deque.",
+          "Pop old indices from the front, smaller ones from the back.",
+          "Achieves O(N) time and O(K) space complexity."
+        ],
+        "overlay_text": "Recap",
+        "design_note": "A clean, easy-to-read checklist format.",
+        "layout": "centered bulleted list with checkmark icons",
+        "iconography": "checklist icons for each bullet point",
+        "contrast_notes": "consistent spacing; highly readable line length",
+        "alt_text": "A summary slide with key takeaways for the sliding window maximum algorithm using a deque."
+      },
+      {
+        "index": 8,
+        "role": "cta",
+        "title": "Master the Algorithm",
+        "subtitle": "Get the full guide with code examples on our site.",
+        "bullets": [
+          "Deep-dive link in bio.",
+          "Save this for your next coding interview prep.",
+          "Follow @systemdesign for more."
+        ],
+        "overlay_text": "Learn More",
+        "design_note": "Clear end-card with handle and a prominent call to action.",
+        "layout": "big CTA, small handle @systemdesign",
+        "iconography": "right-pointing arrow chevron",
+        "contrast_notes": "clear hierarchy; no clutter",
+        "alt_text": "Call to action slide: Visit our website for more details. Save this post. Follow @systemdesign."
+      }
+    ],
+    "caption": {
+      "text": "Stuck on an array problem that feels too slow? The sliding window maximum is a classic challenge, and the brute-force O(N*K) solution often leads to a 'Time Limit Exceeded' error. But what if you could solve it in linear time? 🧠\n\nThe key is not a complex algorithm, but a clever use of a simple data structure: the double-ended queue, or deque. By using a deque to store the *indices* of potential maximums, we can create a 'monotonic queue' that is always sorted by value. \n\nThis structure gives us two superpowers: \n1️⃣ The maximum element in the current window is always at the front of the deque, giving us O(1) access.\n2️⃣ As the window slides, we can efficiently remove old elements from the front and smaller, irrelevant elements from the back.\n\nEach element enters and leaves the deque only once, leading to a stunning O(N) time complexity. This technique is a game-changer for performance optimization in tasks like real-time data monitoring and is a favorite in coding interviews. ⚙️\n\nReady to see the code and master this pattern? Check out our full deep-dive. Link in bio! 🚀\n\nFull guide and code examples: https://example.com/topic/2156?utm_source=instagram&utm_medium=carousel",
+      "emojis_used": [
+        "🧠",
+        "⚙️",
+        "🚀"
+      ],
+      "seo": {
+        "keywords_used": [
+          "sliding window maximum",
+          "deque",
+          "data structures",
+          "algorithms",
+          "time complexity",
+          "performance optimization",
+          "coding interviews"
+        ],
+        "lsi_terms_used": [
+          "monotonic queue",
+          "double ended queue"
+        ]
+      }
+    },
+    "hashtags": [
+      "dataStructures",
+      "algorithms",
+      "computerScience",
+      "programming",
+      "softwareDevelopment",
+      "coding",
+      "developer",
+      "bigONotation",
+      "timeComplexity",
+      "algorithmDesign",
+      "problemSolving",
+      "codingInterview",
+      "softwareEngineering",
+      "performanceOptimization",
+      "slidingWindow",
+      "slidingWindowMaximum",
+      "deque",
+      "monotonicQueue",
+      "leetCode",
+      "techInterview",
+      "arrayAlgorithm",
+      "learnToCode",
+      "codeTips",
+      "dataStructuresAndAlgorithms",
+      "howToCode",
+      "codingHelp",
+      "systemdesign",
+      "python",
+      "java",
+      "cplusplus"
+    ],
+    "design_system": {
+      "color_palette": [
+        {
+          "name": "Slate Minimal",
+          "values": [
+            "#FAFAFA",
+            "#0F172A",
+            "#2563EB"
+          ]
+        }
+      ],
+      "font_pairings": [
+        {
+          "headline": "Inter SemiBold",
+          "body": "Inter",
+          "code": "JetBrains Mono"
+        }
+      ],
+      "grid": {
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "safe_margins_px": 64,
+        "column_system": "8-col mobile grid"
+      }
+    },
+    "image_prompts": [
+      {
+        "role": "cover",
+        "title": "Carousel Cover for Sliding Window Maximum",
+        "prompt": "Minimalist 4:5 cover. Headline top 25%: 'O(N*K) to O(N) Instantly'. Middle 55%: ample whitespace with a tiny, abstract glyph of a horizontal rectangle (the deque) with arrows indicating elements entering from the right and leaving from the left. Bottom 20%: subtitle 'The data structure that unlocks linear time' and brand handle '@systemdesign'. Off-white background (#FAFAFA); subtle dotted grid; thin vector strokes in dark slate (#0F172A); accent color (#2563EB) for arrows. Flat vector; no shadows.",
+        "negative_prompt": "no photos, no faces, no logos, no neon, no 3D bevels, no gradients >5%, no stock icon clutter",
+        "style_notes": "editorial poster tone; crisp kerning; consistent stroke widths",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "Cover slide with bold hook 'O(N*K) to O(N) Instantly' and a minimal glyph of a deque."
+      },
+      {
+        "role": "comparison_chart",
+        "title": "Problem Comparison Card",
+        "prompt": "Minimalist 4:5 comparison card. Headline: 'The Brute-Force Trap'. Two columns. Left column titled 'Brute Force' with a snail icon and text 'O(N * K)'. Right column titled 'Deque Method' with a rocket icon and text 'O(N)'. Use a red accent for the 'O(N*K)' and a green or blue accent for the 'O(N)'. Off-white background, thin vector lines, clean sans-serif font.",
+        "negative_prompt": "no clutter, no photos, no 3D, no heavy gradients",
+        "style_notes": "balanced columns; clear visual hierarchy",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "A comparison chart showing the brute-force O(N*K) approach is slow, while the deque O(N) approach is fast."
+      },
+      {
+        "role": "flow_diagram",
+        "title": "Deque Add Operation",
+        "prompt": "Minimalist 4:5 flow diagram. Headline: 'How It Works: Adding'. Show a simple deque with 3 indices inside like [10, 8, 5]. An arrow points a new element '9' towards the back. Two curved arrows show '5' and '8' being popped from the back. A final state shows the deque as [10, 9]. Use clear labels 'Remove smaller' and 'Add new'. Off-white background, thin vector lines, one accent color for arrows.",
+        "negative_prompt": "no 3D, no neon, no drop shadows, no photoreal elements, no logos",
+        "style_notes": "diagram-first composition; generous whitespace; legible labels",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "Flow diagram showing elements smaller than the new element being removed from the back of the deque before the new one is added."
+      },
+      {
+        "role": "flow_diagram",
+        "title": "Deque Slide Operation",
+        "prompt": "Minimalist 4:5 flow diagram. Headline: 'How It Works: Sliding'. Show a simple deque with indices [3, 5, 6]. A label above indicates 'Current Window: [4, 5, 6, 7]'. An arrow with a red cross points to index '3' at the front of the deque, labeled 'Out of bounds'. A final state shows the deque as [5, 6]. Off-white background, thin vector lines, one accent color for arrows.",
+        "negative_prompt": "no 3D, no neon, no drop shadows, no photoreal elements, no logos",
+        "style_notes": "clear, sequential diagram; generous whitespace; legible labels",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "Flow diagram showing an old index being removed from the front of the deque because it is no longer in the sliding window."
+      },
+      {
+        "role": "stat_card",
+        "title": "Performance Stat Card",
+        "prompt": "4:5 stat card. Big hero text in the center: 'O(N)'. Subtitle below: 'Linear Time Complexity'. Three small stat chips at the bottom: 'Push: 1 per element', 'Pop: <=1 per element', 'Space: O(K)'. Off-white background; thin strokes; use accent color for the 'O(N)' text. Flat vector style.",
+        "negative_prompt": "no photos, no logos, no heavy gradients, no chart junk",
+        "style_notes": "mobile legible; high contrast; focus on the single hero metric",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "Stats card highlighting the O(N) time complexity and O(K) space complexity of the deque solution."
+      },
+      {
+        "role": "checklist_card",
+        "title": "Use Cases Checklist",
+        "prompt": "Minimalist 4:5 checklist card. Headline: 'Where It's Used'. A list of 3-4 items, each with a checkmark icon: 'Real-time Data Monitoring', 'Network Rate Limiting', 'Image Processing Filters', 'Coding Interview Problems'. Off-white background, thin vector lines for checkmarks, clean sans-serif font.",
+        "negative_prompt": "no photos, no logos, no clutter",
+        "style_notes": "readable ticks; mobile-first layout with good spacing",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "A checklist of real-world use cases for the sliding window maximum algorithm."
+      },
+      {
+        "role": "quote_card",
+        "title": "Key Takeaways Quote Card",
+        "prompt": "Typographic card for the summary slide. Headline: 'Key Rules'. A clean, bulleted list of the four summary points from the slide content. Use checkmark icons instead of bullets. Generous whitespace. Off-white background, one accent color for icons. Flat vector.",
+        "negative_prompt": "no photos, no gradients >5%, no logos, no decorative elements",
+        "style_notes": "editorial feel; crisp kerning; focus on readability",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "A summary card listing the key rules for implementing the sliding window maximum algorithm."
+      },
+      {
+        "role": "architecture_panel",
+        "title": "CTA Card",
+        "prompt": "Minimalist 4:5 end card. Large text: 'Link in Bio'. Below that, smaller text: 'Full Guide & Code'. At the bottom, the Instagram handle '@systemdesign' with a follow icon. Off-white background, thin vector lines, accent color for the main text or an arrow icon.",
+        "negative_prompt": "no 3D, no neon, no drop shadows, no photoreal elements, no logos",
+        "style_notes": "clear call to action; clean and uncluttered",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "Call to action card prompting users to visit the link in bio and follow @systemdesign."
+      }
+    ],
+    "image_prompts_by_slide": [],
+    "compliance": {
+      "slides_total": 8,
+      "hook_title_char_count": 23,
+      "caption_word_count": 248,
+      "hashtag_count": 30,
+      "checks": [
+        "≤10 slides",
+        "titles ≤10 words",
+        "bullets ≤14 words",
+        "alt_text present for every slide",
+        "exactly 30 hashtags",
+        "caption 200–300 words",
+        "image prompts 2× (cover + architecture) when include_images=true",
+        "if image_plan provided: image_prompts length == image_plan.count"
+      ]
+    }
+  }
+}

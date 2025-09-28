@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "topic_id": "2156",
+    "topic_title": "Max sliding window uses a deque for O(n) time",
+    "platform": "linkedin",
+    "format": "carousel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "li-carousel-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "algorithms",
+      "data structures",
+      "time complexity"
+    ],
+    "secondary_keywords": [
+      "sliding window",
+      "deque",
+      "performance optimization"
+    ],
+    "lsi_terms": [
+      "O(n) complexity",
+      "array processing",
+      "monotonic queue"
+    ],
+    "canonical": "https://example.com/topic/2156",
+    "brand": {
+      "site_url": "https://example.com/topic/2156",
+      "handles": {
+        "linkedin": "@systemdesign",
+        "x": "@systemdesign",
+        "instagram": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=linkedin&utm_medium=doc"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "softwareengineering",
+        "programming",
+        "coding"
+      ],
+      "niche": [
+        "algorithms",
+        "dataStructures",
+        "performance"
+      ],
+      "micro_niche": [
+        "slidingWindow",
+        "deque"
+      ],
+      "intent": [
+        "codingInterview"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 2,
+      "roles": [
+        "cover",
+        "diagram_slide"
+      ],
+      "ratio": "5:4",
+      "size_px": "1350x1080"
+    }
+  },
+  "content": {
+    "doc_title": "Sliding Window Maximum in O(N) Time with a Deque",
+    "slides": [
+      {
+        "index": 1,
+        "role": "cover",
+        "title": "Sliding Window Max in O(n) Time",
+        "subtitle": "The Deque-Based Approach to Peak Performance.",
+        "bullets": [
+          "From O(N*K) to O(N)",
+          "Unlock linear time complexity"
+        ],
+        "overlay_text": "Swipe →",
+        "design_note": "Bold cover hierarchy; abstract queue glyph",
+        "layout": "title top; subtitle under; small glyph bottom-right; generous whitespace",
+        "iconography": "abstract glyph of a sliding view over a data stream",
+        "contrast_notes": "max contrast headline; micro-type for subtitle",
+        "alt_text": "Cover slide for a presentation on solving the Sliding Window Maximum problem in O(n) time using a deque."
+      },
+      {
+        "index": 2,
+        "role": "problem",
+        "title": "The Naive Approach Is Too Slow",
+        "subtitle": "Brute-force solutions hit a performance wall with O(N*K) complexity.",
+        "bullets": [
+          "Finding the max in each window requires re-scanning K elements every time.",
+          "For an array of 1M elements and window of 100, this is ~100M operations."
+        ],
+        "overlay_text": "Problem →",
+        "design_note": "light red underline on the 'O(N*K)' metric",
+        "layout": "two-column bullets with a large metric highlighted",
+        "iconography": "bottleneck",
+        "contrast_notes": "accent color only on the number and complexity notation",
+        "alt_text": "A slide explaining the problem with the naive O(N*K) approach for the sliding window maximum, highlighting its inefficiency with large numbers."
+      },
+      {
+        "index": 3,
+        "role": "core_idea",
+        "title": "The Solution: A Monotonic Deque",
+        "subtitle": "A double-ended queue maintains candidates for the maximum efficiently.",
+        "bullets": [
+          "The deque stores indices of elements in decreasing value order.",
+          "This ensures the max for the current window is always at the front (O(1) access)."
+        ],
+        "overlay_text": "Approach",
+        "design_note": "calm tone; green checkmark motif next to O(1)",
+        "layout": "headline left, bullets right",
+        "iconography": "gears/process glyph",
+        "contrast_notes": "short labels with clear hierarchy",
+        "alt_text": "Introduction to the solution: using a monotonic deque to achieve O(1) access to the maximum element in the window."
+      },
+      {
+        "index": 4,
+        "role": "diagram",
+        "title": "Visualizing the Deque in Action",
+        "subtitle": "See how indices are added and removed to maintain order as the window slides.",
+        "bullets": [
+          "Window slides right, processing a new element.",
+          "Smaller value indices are popped from the back.",
+          "Out-of-bounds indices are popped from the front."
+        ],
+        "overlay_text": "Diagram",
+        "design_note": "diagram-first; labeled arrows showing data flow",
+        "layout": "block diagram area with side notes explaining the process",
+        "iconography": "nodes and arrows showing array, window, and deque states",
+        "contrast_notes": "thin lines; crisp labels for array elements and deque indices",
+        "alt_text": "A diagram showing an array, a sliding window, and a deque. It illustrates how the deque's state changes as the window moves."
+      },
+      {
+        "index": 5,
+        "role": "metrics_roi",
+        "title": "From O(N*K) to O(N)",
+        "subtitle": "The performance improvement is massive for large datasets.",
+        "bullets": [
+          "Naive: 100M+ ops for a 1M element array (K=100).",
+          "Deque: ~2M ops for the same array (each element processed twice).",
+          "Result: A potential 50x performance improvement."
+        ],
+        "overlay_text": "Numbers",
+        "design_note": "stat chips with sparklines; hero metric is the '50x'",
+        "layout": "stat grid with three key metrics",
+        "iconography": "tiny chart marks",
+        "contrast_notes": "highlight the '50x' hero metric with an accent color",
+        "alt_text": "A metrics slide comparing the performance of the naive O(N*K) solution versus the O(N) deque solution, showing a 50x improvement.",
+        "data_points": [
+          {
+            "label": "Improvement",
+            "value": "50",
+            "unit": "x"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "role": "mini_case",
+        "title": "Mini Case: Real-Time Monitoring",
+        "subtitle": "Finding peak CPU usage over the last 60 seconds.",
+        "bullets": [
+          "Before: A laggy dashboard with O(N*K) scans of recent data points.",
+          "After: Instantaneous peak value display using an O(N) sliding window.",
+          "Impact: Reduced processing load for this task by over 95%."
+        ],
+        "overlay_text": "Case",
+        "design_note": "before/after arrows showing transformation",
+        "layout": "left column for 'before', right column for 'after'",
+        "iconography": "arrow transform",
+        "contrast_notes": "accent color on the percentage improvement",
+        "alt_text": "A mini case study showing the before and after of applying the sliding window algorithm to a real-time monitoring dashboard, noting a 95% load reduction."
+      },
+      {
+        "index": 7,
+        "role": "steps",
+        "title": "The 3-Step Deque Algorithm",
+        "subtitle": "A simplified implementation guide for each element.",
+        "bullets": [
+          "Step 1: Remove indices of smaller elements from the deque's back.",
+          "Step 2: Add the current element's index to the back.",
+          "Step 3: Remove indices outside the window from the deque's front."
+        ],
+        "overlay_text": "Playbook",
+        "design_note": "checklist motif with numbered steps",
+        "layout": "simple numbered list",
+        "iconography": "checklist",
+        "contrast_notes": "consistent spacing between steps for readability",
+        "alt_text": "A three-step guide to implementing the deque-based sliding window maximum algorithm."
+      },
+      {
+        "index": 8,
+        "role": "risks",
+        "title": "Common Pitfalls & Edge Cases",
+        "subtitle": "What to watch for during implementation.",
+        "bullets": [
+          "Risk: Off-by-one errors in window boundary checks.",
+          "Mitigation: Store indices, not values, to easily check bounds.",
+          "Risk: Handling empty arrays or invalid window sizes.",
+          "Mitigation: Add initial guard clauses to handle these cases."
+        ],
+        "overlay_text": "Risks",
+        "design_note": "two-column risk/mitigation format",
+        "layout": "left column for risks, right column for mitigations",
+        "iconography": "shield",
+        "contrast_notes": "neutral color palette to differentiate from solution slides",
+        "alt_text": "A slide outlining common risks like off-by-one errors and their mitigations when implementing the algorithm."
+      },
+      {
+        "index": 9,
+        "role": "cta",
+        "title": "Master the Algorithm",
+        "subtitle": "Read the full deep-dive and see the code.",
+        "bullets": [
+          "Find the complete explanation via the link in the post.",
+          "Save this document for your next interview prep session."
+        ],
+        "overlay_text": "Next Steps",
+        "design_note": "end-card with handle & short URL reminder",
+        "layout": "big CTA; small handle @systemdesign",
+        "iconography": "chevron arrow",
+        "contrast_notes": "clear hierarchy leading to the call to action",
+        "alt_text": "Call to action slide, encouraging readers to view the full article and save the post. Includes the @systemdesign handle."
+      }
+    ],
+    "description": "Tired of brute-force solutions slowing down your array processing?\n\nThe 'Sliding Window Maximum' problem is a classic, but the naive O(N*K) approach doesn't scale for real-world data. The secret to linear time, O(N), performance is a clever use of a double-ended queue (deque).\n\nBy maintaining a monotonic queue of indices, we can find the max in any window in O(1) time. This simple change has a massive impact.\n\nKey takeaways:\n✅ Go from quadratic O(N*K) to linear O(N) complexity.\n✅ Achieve up to 50x faster processing for large datasets.\n✅ Perfect for real-time monitoring, financial data analysis, and more.\n\nSwipe through the deck to see how it works, from the core concept to a mini case study.\n\nWant the full deep-dive with code examples? Find it here:\nhttps://example.com/topic/2156?utm_source=linkedin&utm_medium=doc",
+    "chars_count": 877,
+    "hashtags": [
+      "softwareengineering",
+      "programming",
+      "algorithms",
+      "dataStructures",
+      "performance",
+      "slidingWindow",
+      "deque",
+      "codingInterview"
+    ],
+    "hashtags_grouped": {
+      "broad": [
+        "softwareengineering",
+        "programming",
+        "coding"
+      ],
+      "niche": [
+        "algorithms",
+        "dataStructures",
+        "performance"
+      ],
+      "micro_niche": [
+        "slidingWindow",
+        "deque"
+      ],
+      "intent": [
+        "codingInterview"
+      ],
+      "branded": []
+    },
+    "image_prompts": [
+      {
+        "role": "cover",
+        "title": "Doc Cover",
+        "prompt": "Bold 5:4 cover for 'Sliding Window Max in O(n)'. Composition: strong title 'O(n) Sliding Window Max' top-left; concise subtitle 'The Deque Method'; small semantic glyph of a queue with a sliding window overlay; subtle dotted grid; off-white background; thin vector strokes; one accent color (e.g., blue); generous whitespace; flat vector aesthetic. Add tiny handle @systemdesign bottom-left.",
+        "negative_prompt": "no stock-photo people, no logos, no neon, no 3D bevels, no glossy gradients, no clutter",
+        "style_notes": "corporate-clean; crisp kerning; consistent stroke widths",
+        "ratio": "5:4",
+        "size_px": "1350x1080",
+        "alt_text": "Cover slide with bold title 'O(n) Sliding Window Max' and a semantic glyph representing the algorithm."
+      },
+      {
+        "role": "diagram_slide",
+        "title": "Diagram Slide",
+        "prompt": "Clear 5:4 block diagram for the Sliding Window Maximum algorithm using a deque. Show an array [1, 3, -1, 5] at the top. Below it, a box representing the 'Sliding Window (k=3)'. Below that, a deque visualization, looking like [idx(5), idx(3)], illustrating it stores indices in decreasing value order. Use labeled arrows to show 'Add to back' and 'Remove from front'. Off-white background; thin strokes; subtle grid; one accent color; generous margins; flat vector; mobile/desktop legible.",
+        "negative_prompt": "no 3D, no photoreal elements, no logos",
+        "style_notes": "diagram-first; legible labels; high contrast",
+        "ratio": "5:4",
+        "size_px": "1350x1080",
+        "alt_text": "Diagram slide showing an array, a sliding window, and a deque data structure with labeled flows for the algorithm."
+      }
+    ],
+    "image_prompts_by_slide": [],
+    "doc_export": {
+      "filename_suggestion": "li-doc-2156-max-sliding-window-uses-a-deque-for-on-time.pdf",
+      "ratio": "5:4",
+      "size_px": "1350x1080",
+      "safe_margins_px": 64,
+      "page_count": 9
+    },
+    "compliance": {
+      "slides_total": 9,
+      "numbers_slides_count": 3,
+      "hashtags_count": 8,
+      "image_prompt_count": 2,
+      "description_chars_count": 877,
+      "checks": [
+        "8–10 slides total",
+        "titles ≤10 words; subtitles ≤14; bullets ≤14 words",
+        "≥3 slides include concrete numbers",
+        "includes mini_case and metrics/ROI slide",
+        "single CTA in description",
+        "5–8 professional hashtags (from keyword_tiers; unique)",
+        "image_prompts length == image_plan.count (default 2)",
+        "safe margins ≥64px"
+      ]
+    }
+  }
+}

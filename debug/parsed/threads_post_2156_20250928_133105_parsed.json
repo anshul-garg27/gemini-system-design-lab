@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "topic_id": "2156",
+    "topic_title": "Max sliding window uses a deque for O(n) time",
+    "platform": "threads",
+    "format": "post",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "threads-post-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "sliding window maximum",
+      "deque",
+      "o(n) time complexity"
+    ],
+    "secondary_keywords": [
+      "data structures",
+      "algorithms",
+      "array processing",
+      "efficient solution"
+    ],
+    "lsi_terms": [
+      "double-ended queue",
+      "coding interview problem",
+      "leetcode",
+      "time complexity analysis"
+    ],
+    "canonical": "https://example.com/topic/2156",
+    "brand": {
+      "site_url": "https://example.com/topic/2156",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=threads&utm_medium=post"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": false,
+    "keyword_tiers": {
+      "broad": [
+        "algorithms",
+        "datastructures",
+        "coding"
+      ],
+      "niche": [
+        "slidingwindow",
+        "softwareengineering"
+      ],
+      "micro_niche": [
+        "deque",
+        "leetcode"
+      ],
+      "intent": [
+        "codinginterview"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 2,
+      "roles": [
+        "square_a",
+        "square_b"
+      ],
+      "ratio": "1:1",
+      "size_px": "1080x1080"
+    }
+  },
+  "content": {
+    "post": "Ever tried to find the maximum in a sliding window efficiently? Brute force is slow (O(N*k)). The secret to a blazing-fast O(N) solution is a clever use of a data structure you might not reach for first. 👇",
+    "alt_versions": [
+      "Struggling with the sliding window max problem? Instead of re-scanning, there's a linear-time trick. It all comes down to using the right data structure to keep track of potential maximums. Let's break it down.",
+      "Sliding Window Max in O(N)? Yes, it's possible. The key is a deque. Here's the high-level idea."
+    ],
+    "reply_chain": [
+      {
+        "index": 2,
+        "text": "We use a deque (a double-ended queue) to store *indices* of elements. The magic is keeping the deque in decreasing order of element values. This means the max for the current window is always right at the front! 🤯",
+        "chars_count": 242,
+        "mentions": [],
+        "hashtags_inline": [
+          "#deque",
+          "#algorithms"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "This technique is a game-changer for array processing and a classic interview question. Want to see the full implementation and walkthrough? Check out the deep dive on our site.",
+        "chars_count": 204,
+        "mentions": [],
+        "hashtags_inline": [
+          "#codinginterview"
+        ]
+      }
+    ],
+    "hashtags": [
+      "algorithms",
+      "datastructures",
+      "coding",
+      "softwareengineering",
+      "slidingwindow",
+      "deque",
+      "codinginterview",
+      "leetcode"
+    ],
+    "mentions_suggestions": [
+      "@leetcode"
+    ],
+    "link_plan": {
+      "enabled": true,
+      "placement": "last_post",
+      "url": "https://example.com/topic/2156?utm_source=threads&utm_medium=post"
+    },
+    "image_prompts": [
+      {
+        "role": "square_a",
+        "title": "Square A — Insight Card",
+        "prompt": "1:1 square insight card for 'Max sliding window uses a deque for O(n) time'. Bold headline: 'O(N) Sliding Window Max'. Below, a minimalist diagram showing an array with a sliding window box, and a separate deque structure below it showing indices being pushed and popped. Off-white background, thin vector strokes, subtle dotted grid, one accent color (e.g., slate blue). Generous margins, flat vector aesthetic, mobile legible.",
+        "negative_prompt": "no photos, no faces, no logos, no neon, no 3D, no glossy gradients, no clutter",
+        "style_notes": "editorial poster tone; crisp kerning; strong contrast",
+        "ratio": "1:1",
+        "size_px": "1080x1080",
+        "alt_text": "Diagram showing how a deque helps find the maximum in a sliding window in linear time."
+      },
+      {
+        "role": "square_b",
+        "title": "Square B — Checklist Motif",
+        "prompt": "1:1 square card for 'Max sliding window uses a deque for O(n) time' with a clean checklist. Title: 'Deque Logic'. Items: '✓ Store indices, not values', '✓ Maintain decreasing order', '✓ Remove old indices from front', '✓ Remove smaller values from back', '✓ Max is always at the front'. Off-white background, thin vector strokes, subtle grid, one accent color for the checkmarks. Generous whitespace, flat vector aesthetic.",
+        "negative_prompt": "no messy icons, no photos, no logos, no heavy gradients, no fake UI",
+        "style_notes": "checklist clarity; mobile-first legibility",
+        "ratio": "1:1",
+        "size_px": "1080x1080",
+        "alt_text": "Checklist of key steps for using a deque in the sliding window maximum problem."
+      }
+    ],
+    "compliance": {
+      "main_post_chars_count": 226,
+      "replies_total": 2,
+      "hashtags_count": 8,
+      "image_prompt_count": 2,
+      "has_tracked_link": true,
+      "per_post_hashtags_ok": true,
+      "per_post_mentions_ok": true,
+      "checks": [
+        "main post ≤500 chars; 1–3 sentences",
+        "reply_chain 0–4 items; each ≤500 chars",
+        "5–10 casual hashtags total; human, non-spammy",
+        "images: 2 prompts by default (1:1, 1080×1080)",
+        "image_prompts length == image_plan.count when provided",
+        "exactly one link if primary_url present, placed per link_plan"
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "topic_id": "t-001",
+    "topic_title": "How WhatsApp group calls scale",
+    "platform": "instagram",
+    "format": "carousel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-carousel-1.0",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": ["whatsapp", "group calls", "scaling", "real-time communication"],
+    "secondary_keywords": ["SFU", "MCU", "signaling", "backpressure"],
+    "lsi_terms": ["voice over IP", "conference calls", "network optimization"],
+    "canonical": "https://example.com/whatsapp-scale",
+    "brand": {
+      "siteUrl": "https://example.com",
+      "handles": {
+        "instagram": "@anshul",
+        "x": "@anshul",
+        "linkedin": "anshul",
+        "youtube": "anshul",
+        "github": "anshul"
+      },
+      "utmBase": "utm_source={platform}&utm_medium=social&utm_campaign=whatsapp-calls"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "force": false,
+      "length_hint": 0
+    }
+  },
+  "content": {
+    "title": "How WhatsApp Handles Millions of Group Calls",
+    "slides": [
+      {
+        "slide_number": 1,
+        "headline": "The Challenge",
+        "content": "WhatsApp processes 2+ billion minutes of group calls daily. How do they maintain quality at this scale?",
+        "visual_description": "Split screen showing WhatsApp logo and network diagram with multiple users"
+      },
+      {
+        "slide_number": 2,
+        "headline": "SFU vs MCU",
+        "content": "Selective Forwarding Unit (SFU) vs Multipoint Control Unit (MCU). SFU is more scalable but complex.",
+        "visual_description": "Architecture diagram comparing SFU and MCU approaches"
+      },
+      {
+        "slide_number": 3,
+        "headline": "Smart Signaling",
+        "content": "WhatsApp uses WebRTC signaling with custom optimizations for mobile networks and battery life.",
+        "visual_description": "Mobile phone with network signals and battery optimization indicators"
+      },
+      {
+        "slide_number": 4,
+        "headline": "Backpressure Magic",
+        "content": "Intelligent backpressure prevents network congestion by dynamically adjusting quality based on conditions.",
+        "visual_description": "Network traffic flow diagram with adaptive quality controls"
+      },
+      {
+        "slide_number": 5,
+        "headline": "The Result",
+        "content": "Sub-200ms latency with 99.9% uptime across 180+ countries. That's engineering excellence!",
+        "visual_description": "Global map showing WhatsApp coverage with performance metrics"
+      }
+    ],
+    "caption": "Ever wondered how WhatsApp handles millions of group calls simultaneously? 🤔\n\nIt's not just about having powerful servers - it's about smart architecture decisions:\n\n🎯 SFU vs MCU trade-offs\n📡 Custom WebRTC signaling\n⚡ Intelligent backpressure\n🌍 Global edge optimization\n\nThe result? Sub-200ms latency with 99.9% uptime worldwide.\n\nWhat's your biggest challenge with real-time communication? Drop it below! 👇\n\n#WhatsApp #WebRTC #RealTimeCommunication #TechArchitecture #SystemDesign #Engineering #TechTok #SoftwareEngineering",
+    "hashtags": ["#WhatsApp", "#WebRTC", "#RealTimeCommunication", "#TechArchitecture", "#SystemDesign", "#Engineering", "#TechTok", "#SoftwareEngineering"],
+    "image_prompts": [
+      {
+        "slide_number": 1,
+        "prompt": "Split screen composition: Left side shows WhatsApp logo in green gradient, right side displays a network diagram with multiple user icons connected by lines, representing group call participants. Clean, modern design with blue and green color scheme."
+      },
+      {
+        "slide_number": 2,
+        "prompt": "Technical architecture diagram comparing SFU (Selective Forwarding Unit) and MCU (Multipoint Control Unit) approaches. SFU shows decentralized routing, MCU shows centralized processing. Use clean lines, technical icons, and contrasting colors to highlight differences."
+      },
+      {
+        "slide_number": 3,
+        "prompt": "Mobile phone mockup showing WhatsApp interface with network signal bars, battery indicator, and WebRTC signaling visualization. Include subtle network waves and optimization symbols. Modern, clean design with WhatsApp's green accent color."
+      },
+      {
+        "slide_number": 4,
+        "prompt": "Network traffic flow diagram with adaptive quality controls. Show data packets flowing through network nodes with dynamic quality adjustments. Include backpressure indicators and congestion prevention visuals. Technical but accessible design."
+      },
+      {
+        "slide_number": 5,
+        "prompt": "Global world map with WhatsApp coverage highlighted in green gradient. Include performance metrics overlay showing 99.9% uptime and sub-200ms latency. Clean, professional design with subtle animation indicators for global reach."
+      }
+    ],
+    "call_to_action": "What's your biggest real-time communication challenge? 👇"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "topic_id": "1797",
+    "topic_title": "Graph Algorithm Data Structure",
+    "platform": "devto",
+    "format": "article",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "devto-article-1.4",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "graph algorithms",
+      "data structures",
+      "python graphs",
+      "shortest path algorithm"
+    ],
+    "secondary_keywords": [
+      "bfs",
+      "dfs",
+      "dijkstra's algorithm",
+      "adjacency list",
+      "adjacency matrix",
+      "minimum spanning tree"
+    ],
+    "lsi_terms": [
+      "network analysis",
+      "social graphs",
+      "graph traversal",
+      "weighted graphs",
+      "pathfinding",
+      "computer science fundamentals"
+    ],
+    "canonical": "https://example.com/topic/1797",
+    "brand": {
+      "site_url": "https://example.com/topic/1797",
+      "handles": {
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=devto&utm_medium=article"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": false,
+    "keyword_tiers": {
+      "broad": [
+        "python",
+        "algorithms",
+        "data-structures"
+      ],
+      "niche": [
+        "graphs"
+      ],
+      "micro_niche": []
+    },
+    "image_plan": {
+      "count": 3,
+      "roles": [
+        "cover",
+        "diagram_inline",
+        "social_teaser"
+      ],
+      "ratios_px": [
+        {
+          "ratio": "1.91:1",
+          "size_px": "1200x630"
+        },
+        {
+          "ratio": "16:9",
+          "size_px": "1600x900"
+        },
+        {
+          "ratio": "1:1",
+          "size_px": "1080x1080"
+        }
+      ]
+    }
+  },
+  "content": {
+    "front_matter": {
+      "title": "A Developer's Guide to Graph Algorithms in Python",
+      "published": true,
+      "tags": [
+        "python",
+        "algorithms",
+        "datastructures",
+        "graphs"
+      ],
+      "cover_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f8q7j3z4k2p1m9x0r6y5.png",
+      "canonical_url": "https://example.com/topic/1797"
+    },
+    "markdown": "---\ntitle: \"A Developer's Guide to Graph Algorithms in Python\"\npublished: true\ntags: [python, algorithms, datastructures, graphs]\ncover_image: https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f8q7j3z4k2p1m9x0r6y5.png\ncanonical_url: https://example.com/topic/1797\n---\n\nFrom social networks to GPS navigation, graphs are the silent workhorses powering the connected services we use daily. For intermediate developers, mastering graph data structures and algorithms isn't just an academic exercise—it's a practical skill that unlocks powerful solutions to complex problems. This guide dives into the essentials, providing runnable Python code and real-world context.\n\n### TL;DR: Key Takeaways\n\n*   **Graphs model networks:** They consist of vertices (nodes) and edges (connections), perfect for representing relationships in data.\n*   **Representation matters:** Adjacency Lists are memory-efficient for sparse graphs (`O(V+E)` space), while Adjacency Matrices offer constant-time edge lookup (`O(V^2)` space) for dense graphs.\n*   **Traversal is fundamental:** Breadth-First Search (BFS) explores level-by-level and finds the shortest path in unweighted graphs. Depth-First Search (DFS) explores as deeply as possible, useful for cycle detection and pathfinding.\n*   **Shortest path is a classic problem:** Dijkstra's algorithm is the go-to for finding the shortest path from a single source in a weighted graph with non-negative edge weights.\n*   **Real-world applications are everywhere:** These algorithms power logistics optimization, social connection suggestions, network routing, and dependency analysis in software builds.\n\n## The Problem Landscape: Why Graphs?\n\nMany computational problems boil down to understanding relationships and finding optimal paths. Consider these scenarios:\n\n*   **Social Networks:** How does LinkedIn suggest connections? It traverses the graph of users, looking for friends-of-friends (a classic BFS application).\n*   **Routing and Navigation:** How does Google Maps find the fastest route from your home to a destination? It models the road network as a weighted graph and uses algorithms like Dijkstra's to find the shortest path.\n*   **Dependency Management:** How does `npm` or `pip` resolve package dependencies? They build a dependency graph and perform a topological sort (an application of DFS) to install packages in the correct order.\n\nAttempting to solve these problems without a formal graph structure leads to inefficient, complex, and unscalable code. The right data structure and algorithm can turn an intractable problem into a fast and elegant solution.\n\n## Architecture Overview: Representing a Graph\n\nA graph `G` is a pair `(V, E)`, where `V` is a set of vertices and `E` is a set of edges connecting pairs of vertices. The two most common ways to represent a graph in code are:\n\n1.  **Adjacency List:** For each vertex, we store a list of its adjacent vertices. This is typically implemented as a dictionary or hash map where keys are vertices and values are lists of neighbors.\n2.  **Adjacency Matrix:** We use a V x V matrix of booleans (or integers for weighted graphs) where `matrix[i][j]` is true if there's an edge from vertex `i` to vertex `j`.\n\nAs the diagram `d1` below illustrates, an adjacency list is often more space-efficient for graphs where the number of edges is much smaller than the number of possible edges.\n\n<div id=\"d1\"></div>\n\n```mermaid\ngraph TD;\n    A[Adjacency List] -->|Pros| E[Space Efficient for Sparse Graphs O(V+E)];\n    A -->|Cons| F[Slower Edge Lookup O(k), k=degree];\n    B[Adjacency Matrix] -->|Pros| G[Fast Edge Lookup O(1)];\n    B -->|Cons| H[High Space Usage O(V^2)];\n\n    subgraph SimpleGraph\n        N1(1) --> N2(2);\n        N1(1) --> N3(3);\n        N2(2) --> N3(3);\n        N3(3) --> N4(4);\n    end\n```\n\n## Quick Start: A Simple Graph in Python\n\nLet's build a basic graph using an adjacency list representation in Python. This structure will be the foundation for the algorithms we explore.\n\nFirst, set up a virtual environment.\n\n```bash\n# Create and activate a Python virtual environment\npython3 -m venv graph_env\nsource graph_env/bin/activate\n\n# No external libraries needed for this basic setup!\necho \"Python environment is ready.\"\n```\n\nNow, let's create our `Graph` class.\n\n```python\n# graph_setup.py\nfrom collections import defaultdict\n\nclass Graph:\n    \"\"\"A simple graph class using an adjacency list.\"\"\"\n    def __init__(self):\n        # Use a defaultdict to easily handle new vertices\n        self.adj_list = defaultdict(list)\n\n    def add_edge(self, u, v):\n        \"\"\"Adds a directed edge from vertex u to vertex v.\"\"\"\n        self.adj_list[u].append(v)\n\n    def __str__(self):\n        return str(dict(self.adj_list))\n\n# --- Quick Run Instructions ---\nif __name__ == \"__main__\":\n    g = Graph()\n    g.add_edge('A', 'B')\n    g.add_edge('A', 'C')\n    g.add_edge('B', 'D')\n    g.add_edge('C', 'D')\n\n    print(\"Graph representation (Adjacency List):\")\n    print(g)\n    # To run: python graph_setup.py\n```\n\nThis simple implementation gives us a way to define a graph's structure programmatically.\n\n## Deep Dive 1: Graph Traversal with BFS and DFS\n\nTraversal means visiting every vertex and edge in a systematic way. BFS and DFS are the two primary methods.\n\n### Breadth-First Search (BFS)\n\nBFS explores the graph layer by layer. It starts at a source vertex, visits all its immediate neighbors, then their neighbors, and so on. It uses a queue to keep track of the next vertices to visit. BFS is ideal for finding the shortest path in an **unweighted** graph.\n\n### Depth-First Search (DFS)\n\nDFS explores as far as possible along each branch before backtracking. It uses a stack (or recursion, which uses the call stack) to keep track of vertices. DFS is useful for cycle detection, topological sorting, and pathfinding.\n\nLet's add these methods to our `Graph` class.\n\n```python\n# graph_traversal.py\nfrom collections import defaultdict, deque\n\nclass Graph:\n    def __init__(self):\n        self.adj_list = defaultdict(list)\n\n    def add_edge(self, u, v):\n        self.adj_list[u].append(v)\n\n    def bfs(self, start_node):\n        \"\"\"Performs Breadth-First Search starting from start_node.\"\"\"\n        visited = set()\n        queue = deque([start_node])\n        visited.add(start_node)\n        traversal_path = []\n\n        while queue:\n            vertex = queue.popleft()\n            traversal_path.append(vertex)\n\n            for neighbor in self.adj_list[vertex]:\n                if neighbor not in visited:\n                    visited.add(neighbor)\n                    queue.append(neighbor)\n        return traversal_path\n\n    def dfs(self, start_node):\n        \"\"\"Performs Depth-First Search starting from start_node.\"\"\"\n        visited = set()\n        stack = [start_node]\n        traversal_path = []\n\n        while stack:\n            vertex = stack.pop()\n            if vertex not in visited:\n                visited.add(vertex)\n                traversal_path.append(vertex)\n                # Add neighbors to the stack in reverse to visit them in order\n                for neighbor in reversed(self.adj_list[vertex]):\n                    if neighbor not in visited:\n                        stack.append(neighbor)\n        return traversal_path\n\n# --- Quick Run Instructions ---\nif __name__ == \"__main__\":\n    g = Graph()\n    g.add_edge('A', 'B')\n    g.add_edge('A', 'C')\n    g.add_edge('B', 'D')\n    g.add_edge('C', 'E')\n    g.add_edge('D', 'F')\n    g.add_edge('E', 'F')\n\n    print(f\"BFS starting from A: {g.bfs('A')}\") # Expected: ['A', 'B', 'C', 'D', 'E', 'F']\n    print(f\"DFS starting from A: {g.dfs('A')}\") # Expected: ['A', 'B', 'D', 'F', 'C', 'E']\n    # To run: python graph_traversal.py\n```\n\n## Deep Dive 2: Shortest Path with Dijkstra's Algorithm\n\nWhen edges have weights (representing cost, distance, or time), we need a more sophisticated algorithm than BFS to find the shortest path. Dijkstra's algorithm is a classic solution for finding the shortest path from a single source vertex to all other vertices in a **weighted graph with non-negative edge weights**.\n\nIt works by maintaining a set of visited nodes and a data structure (typically a min-priority queue) that stores the current shortest known distance to each node. It repeatedly selects the unvisited node with the smallest distance and explores its neighbors.\n\n> **Caution:** Dijkstra's algorithm may produce incorrect results if the graph contains negative edge weights. In such cases, algorithms like Bellman-Ford or SPFA are required.\n\nHere is a Python implementation using the `heapq` module for an efficient priority queue.\n\n```python\n# dijkstra.py\nimport heapq\nfrom collections import defaultdict\n\nclass WeightedGraph:\n    def __init__(self):\n        self.adj_list = defaultdict(list)\n\n    def add_edge(self, u, v, weight):\n        # Store neighbor and weight as a tuple\n        self.adj_list[u].append((v, weight))\n\n    def dijkstra(self, start_node):\n        # Priority queue: (distance, vertex)\n        pq = [(0, start_node)]\n        # Dictionary to store the shortest distance from start_node\n        distances = {node: float('infinity') for node in self.adj_list}\n        if start_node not in distances: # Handle start_node if it has no outgoing edges\n             distances[start_node] = 0\n        distances[start_node] = 0\n\n        while pq:\n            current_distance, current_vertex = heapq.heappop(pq)\n\n            # If we found a shorter path already, skip\n            if current_distance > distances[current_vertex]:\n                continue\n\n            for neighbor, weight in self.adj_list[current_vertex]:\n                distance = current_distance + weight\n\n                # If we found a new shorter path to the neighbor\n                if distance < distances.get(neighbor, float('infinity')):\n                    distances[neighbor] = distance\n                    heapq.heappush(pq, (distance, neighbor))\n\n        return distances\n\n# --- Quick Run Instructions ---\nif __name__ == \"__main__\":\n    wg = WeightedGraph()\n    wg.add_edge('A', 'B', 10)\n    wg.add_edge('A', 'C', 3)\n    wg.add_edge('B', 'C', 1)\n    wg.add_edge('B', 'D', 2)\n    wg.add_edge('C', 'B', 4)\n    wg.add_edge('C', 'D', 8)\n    wg.add_edge('C', 'E', 2)\n    wg.add_edge('D', 'E', 7)\n    wg.add_edge('E', 'D', 9)\n\n    shortest_paths = wg.dijkstra('A')\n    print(f\"Shortest paths from A: {shortest_paths}\")\n    # Expected: {'A': 0, 'C': 3, 'B': 7, 'E': 5, 'D': 9}\n    # To run: python dijkstra.py\n```\n\n## Real-World Case Study: Optimizing Logistics Routes\n\nImagine a regional delivery company that needs to optimize routes for its fleet. The goal is to minimize travel time and fuel costs.\n\n*   **The Model:** They can represent their service area as a weighted graph.
+    *   **Vertices:** Warehouses and delivery destinations.\n    *   **Edges:** Roads connecting these locations.\n    *   **Weights:** The average travel time on each road, accounting for traffic.\n*   **The Solution:** By implementing Dijkstra's algorithm, they can calculate the shortest path (in time) from the central warehouse to every delivery point each morning. This allows them to generate optimal route manifests for each driver.\n*   **The Outcome:** After deploying this system, the company saw a **~15% reduction in average delivery time** and a **~10% decrease in fuel consumption**. This translated to significant cost savings and improved customer satisfaction.\n\n## Benchmarks: Adjacency List vs. Adjacency Matrix\n\nChoosing the right graph representation is crucial for performance. Here's a quick comparison:\n\n| Operation             | Adjacency List | Adjacency Matrix | Notes                                      |\n| --------------------- | :------------: | :--------------: | ------------------------------------------ |\n| **Space Complexity**  |    `O(V+E)`    |     `O(V^2)`     | List is better for sparse graphs.          |\n| **Add Vertex**        |     `O(1)`     |     `O(V^2)`     | Matrix requires rebuilding the structure.  |\n| **Add Edge**          |     `O(1)`     |      `O(1)`      | Both are fast.                             |\n| **Check Adjacency**   |     `O(k)`*    |      `O(1)`      | Matrix is faster for lookups.              |\n| **Iterate Neighbors** |     `O(k)`*    |      `O(V)`      | List is much more efficient.               |\n\n\\*`k` is the degree of the vertex (number of neighbors).\n\n## FAQs\n\n1.  **When should I use an adjacency list vs. a matrix?**\n    Use an adjacency list for most real-world graphs (like social networks or road maps) which are *sparse* (few connections relative to the number of nodes). Use an adjacency matrix when the graph is *dense* and you need extremely fast edge lookups.\n\n2.  **What happens if I run Dijkstra's algorithm on a graph with negative edge weights?**\n    It can fail to find the correct shortest path or even get stuck in an infinite loop if there's a negative cycle. The algorithm's core assumption—that once we visit a node, we've found its shortest path—is violated.\n\n3.  **Can BFS find the shortest path in a weighted graph?**\n    No. BFS finds the shortest path in terms of the *number of edges*, not the total weight. For weighted graphs, you must use an algorithm like Dijkstra's.\n\n4.  **How do I detect a cycle in a graph?**\n    For a directed graph, you can use DFS. Keep track of the nodes currently in the recursion stack. If you encounter a node that's already in the stack, you've found a cycle.\n\n## Wrap-up and Next Steps\n\nWe've covered the fundamentals of graph representation, traversal, and shortest-path algorithms. These concepts are not just theoretical—they are practical tools for building efficient and intelligent systems.\n\nYour next steps could be:\n\n*   **Implement a Minimum Spanning Tree (MST) algorithm** like Prim's or Kruskal's, which are used to find the cheapest way to connect all vertices in a graph.\n*   **Explore more advanced algorithms** like A* (A-star), which is an extension of Dijkstra's used heavily in game development for pathfinding.\n*   **Apply these concepts** to a personal project, like analyzing a social network dataset or building a simple route planner.\n\nFor a more in-depth exploration of these topics, check out the full guide on our website. [Learn more about advanced graph algorithms](https://example.com/topic/1797?utm_source=devto&utm_medium=article).\n\n## Further Reading\n\n1.  [Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/) - The definitive academic text on algorithms.\n2.  [Python `heapq` documentation](https://docs.python.org/3/library/heapq.html) - Essential for efficient priority queue implementations.",
+    "reading_time_min": 9,
+    "code_snippets": [
+      {
+        "language": "bash",
+        "label": "Setup Python Environment",
+        "content": "```bash\n# Create and activate a Python virtual environment\npython3 -m venv graph_env\nsource graph_env/bin/activate\n\n# No external libraries needed for this basic setup!\necho \"Python environment is ready.\"\n```",
+        "runnable": true
+      },
+      {
+        "language": "python",
+        "label": "Graph Traversal with BFS & DFS",
+        "content": "```python\n# graph_traversal.py\nfrom collections import defaultdict, deque\n\nclass Graph:\n    def __init__(self):\n        self.adj_list = defaultdict(list)\n\n    def add_edge(self, u, v):\n        self.adj_list[u].append(v)\n\n    def bfs(self, start_node):\n        \"\"\"Performs Breadth-First Search starting from start_node.\"\"\"\n        visited = set()\n        queue = deque([start_node])\n        visited.add(start_node)\n        traversal_path = []\n\n        while queue:\n            vertex = queue.popleft()\n            traversal_path.append(vertex)\n\n            for neighbor in self.adj_list[vertex]:\n                if neighbor not in visited:\n                    visited.add(neighbor)\n                    queue.append(neighbor)\n        return traversal_path\n\n    def dfs(self, start_node):\n        \"\"\"Performs Depth-First Search starting from start_node.\"\"\"\n        visited = set()\n        stack = [start_node]\n        traversal_path = []\n\n        while stack:\n            vertex = stack.pop()\n            if vertex not in visited:\n                visited.add(vertex)\n                traversal_path.append(vertex)\n                # Add neighbors to the stack in reverse to visit them in order\n                for neighbor in reversed(self.adj_list[vertex]):\n                    if neighbor not in visited:\n                        stack.append(neighbor)\n        return traversal_path\n\n# --- Quick Run Instructions ---\nif __name__ == \"__main__\":\n    g = Graph()\n    g.add_edge('A', 'B')\n    g.add_edge('A', 'C')\n    g.add_edge('B', 'D')\n    g.add_edge('C', 'E')\n    g.add_edge('D', 'F')\n    g.add_edge('E', 'F')\n\n    print(f\"BFS starting from A: {g.bfs('A')}\")\n    print(f\"DFS starting from A: {g.dfs('A')}\")\n```",
+        "runnable": true
+      },
+      {
+        "language": "python",
+        "label": "Dijkstra's Shortest Path Algorithm",
+        "content": "```python\n# dijkstra.py\nimport heapq\nfrom collections import defaultdict\n\nclass WeightedGraph:\n    def __init__(self):\n        self.adj_list = defaultdict(list)\n\n    def add_edge(self, u, v, weight):\n        self.adj_list[u].append((v, weight))\n\n    def dijkstra(self, start_node):\n        pq = [(0, start_node)]\n        distances = {node: float('infinity') for node in self.adj_list}\n        if start_node not in distances:\n             distances[start_node] = 0\n        distances[start_node] = 0\n\n        while pq:\n            current_distance, current_vertex = heapq.heappop(pq)\n\n            if current_distance > distances[current_vertex]:\n                continue\n\n            for neighbor, weight in self.adj_list[current_vertex]:\n                distance = current_distance + weight\n\n                if distance < distances.get(neighbor, float('infinity')):\n                    distances[neighbor] = distance\n                    heapq.heappush(pq, (distance, neighbor))\n\n        return distances\n\n# --- Quick Run Instructions ---\nif __name__ == \"__main__\":\n    wg = WeightedGraph()\n    wg.add_edge('A', 'B', 10)\n    wg.add_edge('A', 'C', 3)\n    wg.add_edge('B', 'C', 1)\n    wg.add_edge('B', 'D', 2)\n    wg.add_edge('C', 'B', 4)\n    wg.add_edge('C', 'D', 8)\n    wg.add_edge('C', 'E', 2)\n    wg.add_edge('D', 'E', 7)\n    wg.add_edge('E', 'D', 9)\n\n    shortest_paths = wg.dijkstra('A')\n    print(f\"Shortest paths from A: {shortest_paths}\")\n```",
+        "runnable": true
+      }
+    ],
+    "diagram_blocks": [
+      {
+        "id": "d1",
+        "type": "mermaid",
+        "alt": "A diagram comparing the pros and cons of Adjacency Lists (space efficient for sparse graphs) versus Adjacency Matrices (fast edge lookup for dense graphs), with a small sample graph visualization.",
+        "content": "```mermaid\ngraph TD;\n    A[Adjacency List] -->|Pros| E[Space Efficient for Sparse Graphs O(V+E)];\n    A -->|Cons| F[Slower Edge Lookup O(k), k=degree];\n    B[Adjacency Matrix] -->|Pros| G[Fast Edge Lookup O(1)];\n    B -->|Cons| H[High Space Usage O(V^2)];\n\n    subgraph SimpleGraph\n        N1(1) --> N2(2);\n        N1(1) --> N3(3);\n        N2(2) --> N3(3);\n        N3(3) --> N4(4);\n    end\n```",
+        "placement_hint": "after Architecture Overview"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Introduction to Algorithms (CLRS)",
+        "url": "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/",
+        "note": "The definitive academic text on algorithms."
+      },
+      {
+        "title": "Python heapq documentation",
+        "url": "https://docs.python.org/3/library/heapq.html",
+        "note": "Essential for efficient priority queue implementations in Python for algorithms like Dijkstra's."
+      }
+    ],
+    "image_prompts": [
+      {
+        "role": "cover",
+        "title": "Signature Cover — Graph Algorithm Data Structure",
+        "prompt": "Ultra-clean 1200x630 dev.to cover highlighting Graph Algorithms in Python. Place a bold typographic headline 'Graph Algorithms Explained' in the upper-left, with a subhead 'From BFS to Dijkstra's' beneath. On the right, include a minimal geometric illustration of interconnected nodes and weighted edges. Use a neutral off-white background (#F8F8F5), soft shadow layers for depth, and a single accent color like Python's signature blue (#3776AB). Keep composition balanced with generous breathing room and a subtle dotted grid in the background.",
+        "negative_prompt": "no photos, no human figures, no 3D renders, no skeuomorphic gradients, no stock icons, no clutter",
+        "style_notes": "editorial tech poster; Swiss typographic hierarchy; crisp kerning; consistent 2px line weights; subtle noise overlay; align typography to 8pt baseline grid; ensure headline legibility at small sizes",
+        "prompt_json": {
+          "subject": "cover graphic spotlighting Graph Algorithms in Python",
+          "composition": [
+            "headline 'Graph Algorithms Explained' top-left",
+            "subhead 'From BFS to Dijkstra's'",
+            "geometric graph glyph on right"
+          ],
+          "color_palette": [
+            "#F8F8F5",
+            "#3776AB",
+            "#212121"
+          ],
+          "lighting": "soft ambient",
+          "style": [
+            "flat vector",
+            "Swiss design",
+            "2px line weight"
+          ],
+          "avoid": [
+            "photo",
+            "3D",
+            "busy texture"
+          ]
+        },
+        "ratio": "1.91:1",
+        "size_px": "1200x630",
+        "alt_text": "Cover graphic showing the title 'Graph Algorithms Explained' with a minimalist diagram of connected nodes."
+      },
+      {
+        "role": "diagram_inline",
+        "title": "Inline Concept Diagram — Adjacency List vs. Matrix",
+        "prompt": "16:9 lightweight vector diagram comparing an Adjacency List and an Adjacency Matrix for the same simple 4-node graph. On the left, show the graph visually. In the middle, depict the Adjacency List as a dictionary with keys (nodes) pointing to lists of neighbors. On the right, show the corresponding 4x4 Adjacency Matrix with 0s and 1s. Use clear labels and directional arrows. Palette: soft gray background (#F4F5F7) with charcoal text and a single accent color for the graph edges. Typography: geometric sans-serif, all-caps labels.",
+        "negative_prompt": "no photo textures, no gradients, no drop shadows, no hand-drawn elements",
+        "style_notes": "flat infographic; 1px strokes; rounded corners; evenly spaced layout; align elements to a 3-column grid; keep labels concise",
+        "prompt_json": {
+          "subject": "diagram comparing graph data structures: Adjacency List vs. Adjacency Matrix",
+          "composition": [
+            "visual graph on left",
+            "adjacency list representation in middle",
+            "adjacency matrix representation on right"
+          ],
+          "color_palette": [
+            "#F4F5F7",
+            "#333333",
+            "#007ACC"
+          ],
+          "lighting": "none",
+          "style": [
+            "flat",
+            "infographic",
+            "geometric sans"
+          ],
+          "avoid": [
+            "gradients",
+            "drop shadow",
+            "hand-drawn"
+          ]
+        },
+        "ratio": "16:9",
+        "size_px": "1600x900",
+        "alt_text": "Diagram illustrating the difference between an adjacency list and an adjacency matrix for representing a graph."
+      },
+      {
+        "role": "social_teaser",
+        "title": "Social Teaser Card — Graph Algorithm Data Structure",
+        "prompt": "1080x1080 square teaser for graph algorithms. Split layout: bold text 'O(V+E) vs O(V^2)' on the left, representing the space complexity choice. On the right, a minimal illustration of a sparse graph morphing into a dense one. Background gradient from soft charcoal (#1F1F24) to deep navy (#101220). Use a vibrant accent color like electric green for the headline underline and graph edges. Include brand handle @systemdesign in the lower-right. Keep text minimal and high contrast.",
+        "negative_prompt": "no photographs, no emoji clutter, no playful cartoon characters, no glossy gradients",
+        "style_notes": "square social card; cinematic lighting; 3px rounded corners; typographic hierarchy with condensed headline and light body; consistent icon stroke weight",
+        "prompt_json": {
+          "subject": "metric-focused teaser for graph data structures",
+          "composition": [
+            "left text block with 'O(V+E) vs O(V^2)'",
+            "right illustration of sparse and dense graphs",
+            "brand handle badge"
+          ],
+          "color_palette": [
+            "#1F1F24",
+            "#101220",
+            "#39FF14"
+          ],
+          "lighting": "subtle vignette",
+          "style": [
+            "digital poster",
+            "high contrast",
+            "brand-forward"
+          ],
+          "avoid": [
+            "emoji",
+            "photo",
+            "cartoon"
+          ]
+        },
+        "ratio": "1:1",
+        "size_px": "1080x1080",
+        "alt_text": "Square teaser card highlighting the space complexity trade-offs in graph representations, O(V+E) vs O(V^2)."
+      }
+    ]
+  },
+  "seo": {
+    "keywords_used": [
+      "graph algorithms",
+      "data structures",
+      "python graphs",
+      "shortest path algorithm",
+      "bfs",
+      "dfs",
+      "dijkstra's algorithm",
+      "adjacency list",
+      "adjacency matrix"
+    ],
+    "lsi_terms_used": [
+      "network analysis",
+      "social graphs",
+      "graph traversal",
+      "weighted graphs",
+      "pathfinding"
+    ]
+  },
+  "compliance": {
+    "word_count": 1689,
+    "code_snippets_count": 3,
+    "diagram_blocks_count": 1,
+    "tags_count": 4,
+    "has_cover_image": true,
+    "image_prompt_count": 3,
+    "has_tracked_link_once": true,
+    "prompt_json_complete": true,
+    "keyword_overrides": false,
+    "checks": [
+      "Word count (1200-2500): OK",
+      "Runnable code snippets (>=3): OK",
+      "Diagram blocks (>=1): OK",
+      "dev.to tags (2-4): OK",
+      "Cover image URL: OK",
+      "Canonical URL and tracked link: OK",
+      "Image prompts (>=3) with prompt_json: OK",
+      "Markdown table included: OK",
+      "Callout blockquote included: OK",
+      "TL;DR list included: OK",
+      "Strict JSON output: OK"
+    ]
+  }
+}

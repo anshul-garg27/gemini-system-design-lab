@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Design Topic Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="{{ url_for('index') }}">
+                <i class="fas fa-brain me-2"></i>System Design Generator
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('index') }}">
+                            <i class="fas fa-home me-1"></i>Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('topics') }}">
+                            <i class="fas fa-list me-1"></i>Topics
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('analytics') }}">
+                            <i class="fas fa-chart-bar me-1"></i>Analytics
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container py-5">
+            <!-- Header -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="hero-section text-center">
+                        <h1 class="display-4 fw-bold text-primary mb-3">
+                            <i class="fas fa-rocket me-3"></i>System Design Topic Generator
+                        </h1>
+                        <p class="lead text-muted mb-4">
+                            Generate comprehensive system design topics using AI-powered analysis
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="row mb-5">
+                <div class="col-md-3 mb-4">
+                    <div class="stat-card bg-gradient-primary">
+                        <div class="stat-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">{{ stats.total_topics or 0 }}</h3>
+                            <p class="stat-label">Total Topics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="stat-card bg-gradient-success">
+                        <div class="stat-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">{{ stats.by_category.get('system_design', 0) }}</h3>
+                            <p class="stat-label">System Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="stat-card bg-gradient-warning">
+                        <div class="stat-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">{{ stats.by_category.get('databases', 0) }}</h3>
+                            <p class="stat-label">Database Topics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="stat-card bg-gradient-info">
+                        <div class="stat-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">{{ stats.by_category.get('cloud_infrastructure', 0) }}</h3>
+                            <p class="stat-label">Cloud Topics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bulk Topic Entry -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-header bg-white border-0 py-4">
+                            <h3 class="card-title mb-0">
+                                <i class="fas fa-plus-circle text-primary me-2"></i>Bulk Topic Entry
+                            </h3>
+                            <p class="text-muted mb-0">Enter multiple topic titles to generate comprehensive system design content</p>
+                        </div>
+                        <div class="card-body p-4">
+                            <form id="bulkTopicForm">
+                                <div class="mb-4">
+                                    <label for="topicTitles" class="form-label fw-semibold">
+                                        <i class="fas fa-list me-1"></i>Topic Titles
+                                    </label>
+                                    <textarea 
+                                        id="topicTitles" 
+                                        class="form-control" 
+                                        rows="8" 
+                                        placeholder="Enter topic titles, one per line:&#10;&#10;How WhatsApp Group Calls Scale to Dozens&#10;How Redis Internally Works&#10;Designing a Distributed Cache Like Memcached&#10;Building a Real-time Chat System Like Discord&#10;How Netflix Handles Video Streaming at Scale"
+                                        required></textarea>
+                                    <div class="form-text">
+                                        <i class="fas fa-info-circle me-1"></i>
+                                        Enter one topic title per line. The system will automatically generate comprehensive content for each topic.
+                                    </div>
+                                </div>
+                                
+                                <div class="row mb-4">
+                                    <div class="col-md-6">
+                                        <label for="batchSize" class="form-label fw-semibold">
+                                            <i class="fas fa-cogs me-1"></i>Batch Size
+                                        </label>
+                                        <select id="batchSize" class="form-select">
+                                            <option value="2">2 topics per batch</option>
+                                            <option value="3" selected>3 topics per batch</option>
+                                            <option value="4">4 topics per batch</option>
+                                            <option value="5">5 topics per batch</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-semibold">
+                                            <i class="fas fa-clock me-1"></i>Processing Time
+                                        </label>
+                                        <div class="form-control-plaintext">
+                                            <span class="badge bg-info">~2-3 minutes per batch</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                    <button type="button" class="btn btn-outline-secondary me-md-2" id="clearForm">
+                                        <i class="fas fa-trash me-1"></i>Clear
+                                    </button>
+                                    <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">
+                                        <i class="fas fa-play me-2"></i>Generate Topics
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Processing Status -->
+            <div class="row mb-5" id="processingSection" style="display: none;">
+                <div class="col-12">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-header bg-white border-0 py-4">
+                            <h3 class="card-title mb-0">
+                                <i class="fas fa-spinner fa-spin text-primary me-2"></i>Processing Status
+                            </h3>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="progress mb-3" style="height: 25px;">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" 
+                                             role="progressbar" id="progressBar" style="width: 0%">
+                                            <span id="progressText">0%</span>
+                                        </div>
+                                    </div>
+                                    <div class="processing-details">
+                                        <p class="mb-2">
+                                            <strong>Current Status:</strong> 
+                                            <span id="currentStatus" class="text-primary">Initializing...</span>
+                                        </p>
+                                        <p class="mb-2">
+                                            <strong>Batch Progress:</strong> 
+                                            <span id="batchProgress">0 / 0</span>
+                                        </p>
+                                        <p class="mb-0">
+                                            <strong>Topics Processed:</strong> 
+                                            <span id="processedCount" class="text-success">0</span> | 
+                                            <strong>Failed:</strong> 
+                                            <span id="failedCount" class="text-danger">0</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <div class="spinner-border text-primary mb-3" role="status">
+                                            <span class="visually-hidden">Processing...</span>
+                                        </div>
+                                        <p class="text-muted">Processing topics with AI...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Topics -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-header bg-white border-0 py-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3 class="card-title mb-0">
+                                    <i class="fas fa-history me-2"></i>Recent Topics
+                                </h3>
+                                <a href="{{ url_for('topics') }}" class="btn btn-outline-primary">
+                                    <i class="fas fa-eye me-1"></i>View All
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="table-responsive">
+                                <table class="table table-hover mb-0">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Title</th>
+                                            <th>Category</th>
+                                            <th>Company</th>
+                                            <th>Complexity</th>
+                                            <th>Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="recentTopicsTable">
+                                        <!-- Recent topics will be loaded here -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 System Design Topic Generator. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">Powered by Gemini 2.5 Flash AI</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

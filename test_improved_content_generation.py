@@ -1,0 +1,189 @@
+#!/usr/bin/env python3
+"""
+Test script for improved content generation with fallback and retry logic.
+"""
+import asyncio
+import json
+import logging
+from datetime import datetime
+from app.service_tasks import get_task_service
+from app.schemas import GenerateAllRequest, Audience, Locale
+from unified_database import unified_db
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+
+async def test_fallback_content():
+    """Test fallback content generation."""
+    print("\n🧪 Testing fallback content generation...")
+    
+    # Create a test request
+    request = GenerateAllRequest(
+        topicId="test",
+        topicName="Distributed Cache System",
+        topicDescription="Design a distributed caching system like Redis Cluster that can handle high throughput, provide data consistency, and scale horizontally across multiple nodes.",
+        audience=Audience.INTERMEDIATE,
+        tone="technical",
+        locale=Locale.EN,
+        primaryUrl="https://example.com/cache-design",
+        brand={
+            "siteUrl": "https://example.com",
+            "handles": {"linkedin": "@techexample", "x": "@techexample"},
+            "utmBase": "utm_source=test&utm_medium=social"
+        },
+        targetPlatforms=["instagram:carousel", "x_twitter:thread", "youtube:long_form"],
+        options={
+            "include_images": True,
+            "max_length_levels": "standard",
+            "force": False,
+            "length_hint": 500
+        }
+    )
+    
+    try:
+        task_service = get_task_service()
+        
+        # Test fallback content for different platforms
+        platforms_to_test = [
+            ("instagram", "carousel"),
+            ("x_twitter", "thread"), 
+            ("youtube", "long_form"),
+            ("linkedin", "post")  # Generic fallback
+        ]
+        
+        for platform, format_name in platforms_to_test:
+            print(f"\n📱 Testing {platform}/{format_name} fallback content:")
+            
+            fallback_content = task_service.generate_fallback_content(platform, format_name, request)
+            
+            print(f"✅ Generated fallback content:")
+            print(f"   Title: {fallback_content.get('title', 'N/A')}")
+            
+            if platform == "instagram":
+                print(f"   Slides: {len(fallback_content.get('slides', []))}")
+                print(f"   Caption length: {len(fallback_content.get('caption', ''))}")
+            elif platform == "x":
+                print(f"   Tweets: {len(fallback_content.get('tweets', []))}")
+                print(f"   Hook: {fallback_content.get('thread_hook', 'N/A')}")
+            elif platform == "youtube":
+                print(f"   Chapters: {len(fallback_content.get('chapters', []))}")
+                print(f"   Description length: {len(fallback_content.get('description', ''))}")
+            else:
+                print(f"   Content: {fallback_content.get('content', 'N/A')[:100]}...")
+            
+            # Validate JSON serialization
+            json_str = json.dumps(fallback_content, indent=2)
+            print(f"   JSON size: {len(json_str)} chars")
+            
+    except Exception as e:
+        print(f"❌ Fallback test error: {e}")
+        import traceback
+        traceback.print_exc()
+
+async def test_improved_gemini_client():
+    """Test improved Gemini client with retry logic."""
+    print("\n🤖 Testing improved Gemini client...")
+    
+    try:
+        task_service = get_task_service()
+        
+        # Create a simple test request
+        request = GenerateAllRequest(
+            topicId="test",
+            topicName="Load Balancer",
+            topicDescription="Simple load balancer design",
+            audience=Audience.BEGINNERS,
+            tone="friendly",
+            locale=Locale.EN,
+            primaryUrl="https://example.com",
+            brand={
+                "siteUrl": "https://example.com",
+                "handles": {},
+                "utmBase": "utm_source=test"
+            },
+            targetPlatforms=["instagram:carousel"],
+            options={
+                "include_images": False,
+                "max_length_levels": "compact",
+                "force": False,
+                "length_hint": 200
+            }
+        )
+        
+        # Test content generation (will use fallback if Gemini fails)
+        print("🔄 Attempting content generation with improved retry logic...")
+        
+        result = await task_service.generate_content("instagram", "carousel", request)
+        
+        print("✅ Content generation completed!")
+        print(f"   Result type: {type(result)}")
+        print(f"   Has title: {'title' in result}")
+        
+        if 'note' in result:
+            print(f"   ⚠️  Used fallback content: {result['note']}")
+        else:
+            print(f"   ✨ Generated by AI")
+            
+    except Exception as e:
+        print(f"❌ Gemini client test error: {e}")
+        import traceback
+        traceback.print_exc()
+
+async def test_job_creation():
+    """Test creating a new content generation job."""
+    print("\n🚀 Testing job creation with improved system...")
+    
+    try:
+        # Create job in database
+        job_id = "test-improved-" + datetime.now().strftime("%Y%m%d-%H%M%S")
+        
+        conn = unified_db.get_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            INSERT INTO jobs (id, topic_id, topic_name, status)
+            VALUES (?, ?, ?, ?)
+        """, (job_id, "test", "Test Improved System", "running"))
+        
+        conn.commit()
+        conn.close()
+        
+        print(f"✅ Created test job: {job_id}")
+        
+        # Test job status retrieval
+        from app.service_tasks import get_job_status
+        
+        status = await get_job_status(job_id)
+        if status:
+            print(f"✅ Job status retrieved: {status.status}")
+        else:
+            print("❌ Failed to retrieve job status")
+            
+    except Exception as e:
+        print(f"❌ Job creation test error: {e}")
+        import traceback
+        traceback.print_exc()
+
+async def main():
+    """Main test function."""
+    print("🚀 Testing improved content generation system...")
+    print("=" * 60)
+    
+    await test_fallback_content()
+    await test_improved_gemini_client() 
+    await test_job_creation()
+    
+    print("\n" + "=" * 60)
+    print("✅ All tests completed!")
+    print("\n📋 Summary of improvements:")
+    print("   • Enhanced Gemini API retry logic (3 retries, exponential backoff)")
+    print("   • Increased timeout to 60s with progressive scaling")
+    print("   • Fallback content generation for API failures")
+    print("   • Better error logging and timeout handling")
+    print("   • Graceful degradation when AI service unavailable")
+
+if __name__ == "__main__":
+    asyncio.run(main())

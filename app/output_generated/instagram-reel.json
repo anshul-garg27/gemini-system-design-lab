@@ -1,0 +1,225 @@
+{
+    "meta": {
+        "topic_id": "{topic_id}",
+        "topic_title": "Linked List",
+        "platform": "instagram",
+        "format": "reel",
+        "content_schema_version": "v1.0.0",
+        "model_version": "gemini-2.5-flash",
+        "prompt_version": "ig-reel-1.2",
+        "audience": "intermediate",
+        "tone": "clear, confident, non-cringe",
+        "locale": "en",
+        "primary_keywords": [
+            "system design",
+            "architecture",
+            "scalability"
+        ],
+        "secondary_keywords": [
+            "distributed systems",
+            "microservices",
+            "performance"
+        ],
+        "lsi_terms": [
+            "load balancing",
+            "database sharding",
+            "caching"
+        ],
+        "canonical": "https://example.com/topic/1796",
+        "brand": {
+            "site_url": "https://example.com/topic/1796",
+            "handles": {
+                "instagram": "@systemdesign",
+                "x": "@systemdesign",
+                "linkedin": "@systemdesign",
+                "youtube": "@systemdesign",
+                "github": "@systemdesign"
+            },
+            "utm_base": "utm_source=instagram&utm_medium=reel"
+        },
+        "options": {
+            "include_images": true,
+            "max_length_levels": "medium",
+            "variance_seed": "default"
+        }
+    },
+    "content": {
+        "hook": "Arrays got you stuck? \u26d3\ufe0f",
+        "beats": [
+            {
+                "label": "Hook",
+                "time_range": "0-3s",
+                "narration": "Tired of array limitations? There's a better way!",
+                "on_screen_text": "Arrays slowing you down?",
+                "visuals": "Visual of an array struggling to insert an element.",
+                "text_motion": "Pop-in, then slight bounce.",
+                "b_roll": [
+                    "Code snippet of array insertion",
+                    "Visual of a traffic jam"
+                ]
+            },
+            {
+                "label": "Problem",
+                "time_range": "3-10s",
+                "narration": "Arrays require contiguous memory and costly shifting for insertions and deletions. This impacts performance.",
+                "on_screen_text": "Costly insertions & deletions",
+                "visuals": "Highlighting the cost of insertion in an array diagram.",
+                "b_roll": [
+                    "Graph showing insertion time vs. array size",
+                    "CPU usage spike during insertion"
+                ]
+            },
+            {
+                "label": "Solution",
+                "time_range": "10-45s",
+                "narration": "[0:10] Enter the Linked List! [0:15] Nodes point to the next, not a memory location. [0:20] Insert/delete anywhere easily. [0:25] Dynamic size, no pre-allocation needed. [0:30] Great for queues and stacks. [0:35] But, random access isn't its strength. [0:40] Needs traversal.",
+                "on_screen_text": "Nodes point to next",
+                "visuals": "Diagram showing node insertion and deletion in a linked list.",
+                "b_roll": [
+                    "Animated visualization of linked list structure",
+                    "Comparison chart of array vs linked list performance"
+                ]
+            },
+            {
+                "label": "CTA",
+                "time_range": "45-60s",
+                "narration": "Unlock more system design insights. Follow us and dive deeper via the link in bio!",
+                "on_screen_text": "Learn more in bio!",
+                "visuals": "End card with @systemdesign handle and a QR code.",
+                "b_roll": [
+                    "Abstract design element for end card"
+                ]
+            }
+        ],
+        "script": "[0:00] Arrays slowing you down? [0:03] They need contiguous memory, making insertions a pain. [0:10] Linked Lists to the rescue! [0:15] Each node points to the next. [0:20] Insert/delete anywhere, fast! [0:25] They're dynamically sized, no pre-allocation! [0:30] Ideal for queues and stacks. [0:35] Random access isn't its strength though. [0:40] You'll have to traverse. [0:45] Want to learn more? Follow us and check the link in bio!",
+        "on_screen_text_cues": [
+            "0-3s: Arrays slowing you down?",
+            "3-10s: Costly insertions & deletions",
+            "10-20s: Nodes point to next",
+            "20-35s: Dynamic size",
+            "35-45s: Needs traversal",
+            "45-60s: Learn more in bio!"
+        ],
+        "visual_plan": {
+            "camera": "Mid-shot to close-up on diagrams, then screen capture.",
+            "motion_graphics": [
+                "Type-on keywords",
+                "Underline key phrases",
+                "Arrow animations"
+            ],
+            "color_palette": "Off-white background, ink black for text, teal 600 for accents.",
+            "safe_margins": "Keep titles \u226596px from edges (1080x1920)"
+        },
+        "trending_audio": {
+            "vibe": [
+                "energetic tech",
+                "clean minimal",
+                "future garage"
+            ],
+            "bpm_range": "90\u2013120",
+            "search_terms": [
+                "\"trending\" minimal tech beat",
+                "instrumental future garage",
+                "clean build no vocals"
+            ],
+            "example_hook_lines": [
+                "tight snare build",
+                "subtle drop at ~8s"
+            ],
+            "beat_markers_seconds": [
+                0,
+                3,
+                10,
+                20,
+                35,
+                45
+            ]
+        },
+        "cta": "Follow for more + Read the deep-dive \u2192 https://example.com/topic/1796?utm_source=instagram&utm_medium=reel",
+        "caption": {
+            "text": "Struggling with array limitations? \ud83e\udd14 Linked lists offer a dynamic alternative! \u2699\ufe0f Unlike arrays, linked lists don't require contiguous memory, making insertions and deletions efficient. This is key for system design and optimizing performance. They excel in queues and stacks. However, remember that random access requires traversal. Dive deeper into data structures and boost your architecture knowledge! \ud83d\udd25\n\nFollow for more system design insights and explore the full article here: https://example.com/topic/1796?utm_source=instagram&utm_medium=reel",
+            "emojis_used": [
+                "\ud83e\udd14",
+                "\u2699\ufe0f",
+                "\ud83d\udd25"
+            ],
+            "seo": {
+                "keywords_used": [
+                    "system design",
+                    "architecture",
+                    "performance",
+                    "data structures"
+                ],
+                "lsi_terms_used": [
+                    "database",
+                    "caching"
+                ]
+            }
+        },
+        "hashtags": [
+            "datastructures",
+            "linkedlist",
+            "systemdesign",
+            "architecture",
+            "softwareengineering",
+            "coding",
+            "programming",
+            "computerscience",
+            "tech",
+            "algorithms",
+            "data",
+            "software",
+            "engineering",
+            "developer",
+            "codinglife",
+            "techlife",
+            "programminglife",
+            "code",
+            "dev",
+            "buildinpublic",
+            "learntocode",
+            "codingbootcamp",
+            "webdev",
+            "frontend",
+            "backend",
+            "fullstack",
+            "distributedsystems",
+            "microservices",
+            "scalability",
+            "performance"
+        ],
+        "image_prompts": [
+            {
+                "title": "Reel Cover A \u2014 Diagram-y",
+                "prompt": "Elegant minimalist vertical cover for Instagram Reel about Linked List. Composition: top 20%\u2014bold 4\u20136 word hook in high-contrast sans-serif; middle 60%\u2014a simplified linked list diagram with 3\u20134 nodes, labeled 'Node 1', 'Node 2', 'Node 3', and arrows indicating the 'next' pointer; bottom 20%\u2014small brand handle @systemdesign and subtle CTA chevron. Layout grid with generous margins; off-white background; thin vector strokes; subtle dotted grid; single accent color (teal) for arrows/labels; typography scale: headline 8\u201310% of vertical height, labels 2.6\u20133.2%. Export clean, flat vector look suitable for AI rendering; keep spacing breathable; no drop shadows.",
+                "negative_prompt": "no clutter, no stock icons, no photoreal faces, no logos, no neon, no 3D bevels, no gradients >5%, no fake UI chrome",
+                "style_notes": "whiteboard-meets-editorial; thin lines; high legibility; elegant restraint",
+                "ratio": "9:16",
+                "size_px": "1080x1920",
+                "alt_text": "Vertical cover with bold hook and linked list diagram"
+            },
+            {
+                "title": "Reel Cover B \u2014 Bold Typographic Hook",
+                "prompt": "Minimalist vertical cover emphasizing typography for Linked List. Full-bleed off-white background; center-aligned 2-line hook (max 12 words) in geometric sans: 'Linked Lists: The Better Way'; underline the word 'Better'; small side strip on the right with a minimalist arrow-chain motif representing nodes; include brand handle @systemdesign at bottom-left in micro-type. Maintain generous negative space; subtle grid only; one accent color (ink blue) for underline/arrows; ensure extreme readability on mobile. Export as crisp flat vector aesthetic.",
+                "negative_prompt": "no photos, no gradients above 5%, no logos, no faces, no chromatic aberration, no glow",
+                "style_notes": "editorial poster feel; strong kerning; consistent stroke widths",
+                "ratio": "9:16",
+                "size_px": "1080x1920",
+                "alt_text": "Vertical typographic cover with minimalist arrow motif"
+            }
+        ],
+        "compliance": {
+            "est_duration_seconds": 45,
+            "script_word_count": 73,
+            "hook_char_count": 25,
+            "hashtag_count": 30,
+            "checks": [
+                "\u2264150 words script",
+                "\u2264120 chars hook",
+                "CTA present once",
+                "30 unique hashtags",
+                "mobile-safe margins"
+            ]
+        }
+    }
+}

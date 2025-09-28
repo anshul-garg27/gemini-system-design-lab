@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "topic_id": "1727",
+    "topic_title": "How infrastructure as code deploys entire systems with one command",
+    "platform": "github_pages",
+    "format": "content",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "gh-pages-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": ["Infrastructure as Code", "IaC", "deployment automation", "cloud provisioning", "declarative infrastructure"],
+    "secondary_keywords": ["Terraform", "Pulumi", "AWS CDK", "version control", "CI/CD for infrastructure", "DevOps"],
+    "lsi_terms": ["state management", "imperative vs declarative", "repeatable environments", "configuration drift", "cloud automation"],
+    "canonical": "https://example.com/topic/1727",
+    "brand": {
+      "site_url": "https://example.com/topic/1727",
+      "handles": {
+        "github": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign"
+      },
+      "utm_base": "utm_source=github&utm_medium=repo"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": false,
+    "image_plan": {
+      "count": 1,
+      "roles": [
+        "repo_diagram"
+      ],
+      "ratio": "1.91:1",
+      "size_px": "1200x630"
+    }
+  },
+  "content": {
+    "repo_skeleton": [
+      ".github/workflows/ci.yml",
+      "docs/index.md",
+      "examples/aws-s3-bucket/",
+      "src/deploy/",
+      "tests/",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "main.py"
+    ],
+    "badges": [
+      {
+        "alt": "CI",
+        "image_url": "https://img.shields.io/github/actions/workflow/status/systemdesign/iac-one-command-deploy/ci.yml?style=for-the-badge",
+        "link_url": "https://github.com/systemdesign/iac-one-command-deploy/actions"
+      },
+      {
+        "alt": "License",
+        "image_url": "https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge",
+        "link_url": "LICENSE"
+      }
+    ],
+    "readme_markdown": "# How Infrastructure as Code Deploys Entire Systems with One Command\n\n[
+![CI](https://img.shields.io/github/actions/workflow/status/systemdesign/iac-one-command-deploy/ci.yml?style=for-the-badge)
+](https://github.com/systemdesign/iac-one-command-deploy/actions) [
+![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
+](LICENSE)\n\nThis repository provides a hands-on example of how Infrastructure as Code (IaC) transforms system deployment by treating infrastructure configurations like software. It demonstrates how to provision, modify, and version a cloud environment repeatably and reliably using a single command.\n\n- **Docs**: [GitHub Pages Site](./docs/index.md)\n- **Further reading**: [Discover how IaC transforms system deployment](https://example.com/topic/1727?utm_source=github&utm_medium=repo)\n\n## Table of Contents\n- [Features](#features)\n- [Quickstart](#quickstart)\n- [Usage](#usage)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Roadmap](#roadmap)\n- [Contributing](#contributing)\n- [License](#license)\n- [FAQ](#faq)\n\n## Features\n- **Declarative Provisioning**: Define the desired state of your infrastructure in code.\n- **Version-Controlled**: Manage infrastructure changes through Git, enabling pull requests, reviews, and history.\n- **Repeatable & Consistent**: Eliminate configuration drift by creating identical environments from the same codebase.\n- **Automated Workflow**: Integrates with CI/CD to automatically apply infrastructure changes.\n\n## Quickstart\n\n```bash\n# 1. Clone the repository\ngit clone https://github.com/systemdesign/iac-one-command-deploy.git\ncd iac-one-command-deploy\n\n# 2. Set up a virtual environment and install dependencies\npython -m venv .venv\nsource .venv/bin/activate\npip install -r requirements.txt\n\n# 3. Configure your cloud provider credentials (e.g., for AWS)\nexport AWS_ACCESS_KEY_ID=\"YOUR_KEY\"\nexport AWS_SECRET_ACCESS_KEY=\"YOUR_SECRET\"\nexport AWS_REGION=\"us-east-1\"\n```\n\n## Usage\nThis example uses a Python script to orchestrate the deployment. The underlying IaC tool (like Terraform or Pulumi) is abstracted away.\n\n```python\n# main.py - A simplified example of an IaC deployment script\n\nfrom src.deploy import provisioner\n\ndef main():\n    \"\"\"Defines and deploys the infrastructure stack.\"\"\"\n    print(\"Initializing infrastructure deployment...\")\n\n    # Define the desired state of the infrastructure\n    stack_config = {\n        \"project_name\": \"web-app-prod\",\n        \"components\": {\n            \"vpc\": { \"cidr_block\": \"10.0.0.0/16\" },\n            \"server\": { \"instance_type\": \"t3.micro\" },\n            \"database\": { \"engine\": \"postgres\", \"size\": \"small\" }\n        }\n    }\n\n    # Run the deployment command\n    result = provisioner.apply(stack_config)\n\n    if result.success:\n        print(\"\\nDeployment successful!\")\n        print(f\"Outputs: {result.outputs}\")\n    else:\n        print(f\"\\nDeployment failed: {result.error}\")\n\nif __name__ == \"__main__\":\n    main()\n\n```\n\nTo run the deployment:\n\n```bash\npython main.py\n```\n\n## Configuration\nConfiguration is managed through environment variables.\n\n| Name                  | Type   | Default     | Description                                       |\n|-----------------------|--------|-------------|---------------------------------------------------|\n| `CLOUD_PROVIDER`      | string | `\"aws\"`     | The cloud provider to target (e.g., 'aws', 'gcp').  |\n| `AWS_REGION`          | string | `\"us-east-1\"` | The AWS region for resource deployment.           |\n| `TF_STATE_BACKEND`    | string | `\"s3\"`      | The backend for storing Terraform state (`s3`, `local`). |\n| `PROJECT_ENVIRONMENT` | string | `\"staging\"` | The deployment environment (e.g., 'staging', 'prod'). |\n\n## Architecture\nThe core workflow for an IaC deployment is triggered by a code change and executed by an automation pipeline.\n\n```mermaid\nflowchart TD\n    A[Developer writes/updates IaC code] --> B{Git Push};\n    B --> C[CI/CD Pipeline Triggered];\n    C --> D[1. Plan: IaC tool previews changes];\n    D --> E{Manual Approval?};\n    E -- Yes --> F[2. Apply: IaC tool provisions resources];\n    E -- No --> G[End];\n    F --> H[Cloud Infrastructure Updated];\n```\n_Alt text_: A flowchart showing the IaC workflow: a developer pushes code, which triggers a CI/CD pipeline that runs a plan and apply stage to update cloud infrastructure.\n\n## Roadmap\n- [ ] Add support for another cloud provider (GCP/Azure).\n- [ ] Implement a secrets management example (e.g., HashiCorp Vault).\n- [ ] Create a more complex example with networking and load balancing.\n- [ ] Add automated infrastructure testing.\n\n## Contributing\nContributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. We expect contributors to follow our code of conduct.\n\n## License\nThis project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.\n\n## FAQ\n**Q:** What is the difference between declarative and imperative IaC?\n**A:** Declarative IaC focuses on the *what*—you define the desired end state, and the tool figures out how to get there (e.g., Terraform, Pulumi). Imperative IaC focuses on the *how*—you write scripts that execute a sequence of commands to create infrastructure (e.g., AWS CLI scripts).\n\n**Q:** Why is version control essential for infrastructure?\n**A:** It provides an auditable history of all changes, enables collaboration through pull requests, allows for rollbacks to previous known-good states, and serves as the single source of truth for your infrastructure's configuration.\n",
+    "gh_pages": {
+      "index_markdown": "---\nlayout: default\ntitle: IaC One-Command Deployment\n---\n\n# How Infrastructure as Code Deploys Entire Systems with One Command\n\nThis project demonstrates how Infrastructure as Code (IaC) transforms system deployment and management by treating infrastructure configurations like software code. Learn how to manage complex cloud environments efficiently and reliably.\n\n- **Get started:** [Quickstart Guide](../README.md#quickstart)\n- **See the workflow:** [Architecture Diagram](../README.md#architecture)\n- **Explore code:** [Usage Example](../README.md#usage)\n\n> For a deep-dive on the principles of IaC, read our full article: [How IaC transforms system deployment](https://example.com/topic/1727?utm_source=github&utm_medium=repo).\n",
+      "_config_yaml": "title: IaC One-Command Deployment\ndescription: A demo repository for deploying systems with Infrastructure as Code.\nremote_theme: pages-themes/minimal@v0.2.0\nplugins:\n  - jekyll-remote-theme\n  - jekyll-seo-tag\n  - jekyll-sitemap\nmarkdown: kramdown\n",
+      "nav": [
+        {
+          "title": "Home",
+          "href": "/"
+        },
+        {
+          "title": "README",
+          "href": "/README.md"
+        },
+        {
+          "title": "Code",
+          "href": "https://github.com/systemdesign/iac-one-command-deploy"
+        }
+      ]
+    },
+    "ci_suggestion": {
+      "workflow_name": "CI",
+      "file_path": ".github/workflows/ci.yml",
+      "yaml": "name: CI\non:\n  push:\n    branches: [ main ]\n  pull_request:\n    branches: [ main ]\njobs:\n  lint-and-test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - name: Set up Python\n        uses: actions/setup-python@v5\n        with:\n          python-version: '3.11'\n      - name: Install dependencies\n        run: |\n          python -m pip install --upgrade pip\n          pip install -r requirements.txt\n          pip install pytest flake8\n      - name: Lint with flake8\n        run: |\n          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics\n      - name: Test with pytest\n        run: |\n          pytest\n"
+    },
+    "discussions_seed": {
+      "title": "Feedback wanted: How would you handle state and secrets in this IaC setup for production?",
+      "body": "### Context\nThis repository demonstrates a basic Infrastructure as Code (IaC) setup for deploying a system with a single command. It covers the core concepts of declarative configuration and version-controlled infrastructure.\n\n### What I'm sharing\n- A runnable example of an IaC deployment script (see `main.py`).\n- A Mermaid diagram in the README illustrating the CI/CD workflow for IaC.\n\n### What I'd love feedback on\nI've kept this example simple, but production systems have more complex needs. I'm curious how others would evolve this project.\n\n1.  **State Management**: The current setup implies local state. How would you configure remote state management (e.g., Terraform Cloud, S3 backend) for a team? What are the key security considerations?\n2.  **Secrets Handling**: The example avoids secrets. What's your preferred pattern for injecting secrets (e.g., database passwords, API keys) into an IaC configuration? (e.g., Vault, AWS Secrets Manager, encrypted files).\n3.  **Modularity**: How would you break this monolithic stack into reusable modules for different environments (staging vs. production)?\n\n### Stack\n- **Language**: Python\n- **IaC Tool (conceptual)**: Terraform, Pulumi, or similar.\n- **Cloud**: AWS (conceptual)\n\n### Known limitations\n- This is not production-ready.\n- Lacks error handling, secrets management, and robust state locking.\n\n### Links\n- [Repository README](https://github.com/systemdesign/iac-one-command-deploy)\n- [Deep-dive on IaC Principles](https://example.com/topic/1727?utm_source=github&utm_medium=repo)",
+      "category_suggestion": "Show and tell",
+      "labels": [
+        "discussion",
+        "help wanted",
+        "question",
+        "devops",
+        "iac",
+        "terraform"
+      ]
+    },
+    "labels_suggestions": [
+      {
+        "name": "good first issue",
+        "color": "7057ff"
+      },
+      {
+        "name": "help wanted",
+        "color": "008672"
+      },
+      {
+        "name": "discussion",
+        "color": "0366d6"
+      },
+      {
+        "name": "bug",
+        "color": "d73a4a"
+      },
+      {
+        "name": "enhancement",
+        "color": "a2eeef"
+      },
+      {
+        "name": "documentation",
+        "color": "0075ca"
+      },
+      {
+        "name": "devops",
+        "color": "5319e7"
+      }
+    ],
+    "image_prompts": [
+      {
+        "role": "repo_diagram",
+        "title": "Infrastructure as Code (IaC) Deployment Workflow",
+        "prompt": "Widescreen minimal diagram illustrating the Infrastructure as Code (IaC) workflow. Show four main stages with arrows: 1. A block labeled 'IaC Code (main.tf)' with a Git icon. 2. An arrow to a block labeled 'CI/CD Pipeline (GitHub Actions)'. 3. An arrow to a block labeled 'IaC Tool (Terraform Apply)'. 4. An arrow to a final block showing cloud provider icons (AWS, GCP, Azure) labeled 'Cloud Infrastructure'. Use an off-white background, thin vector strokes, a subtle dotted grid, and a single restrained accent color (e.g., a calm blue). Flat vector style, no photos or 3D. Ensure text is legible. Aspect ratio 1.91:1 for a 1200x630px canvas.",
+        "negative_prompt": "no stock photos, no faces, no brand logos besides generic cloud icons, no neon, no 3D bevels, no glossy gradients, no clutter, no fake UI chrome",
+        "style_notes": "editorial-tech; crisp kerning; consistent stroke widths; clean and spacious layout",
+        "ratio": "1.91:1",
+        "size_px": "1200x630",
+        "alt_text": "Diagram of the Infrastructure as Code workflow: Code in Git triggers a CI/CD pipeline, which uses an IaC tool to provision resources in the cloud."
+      }
+    ]
+  },
+  "compliance": {
+    "has_readme_sections": true,
+    "has_toc": true,
+    "has_quickstart_and_usage": true,
+    "has_config_table": true,
+    "has_arch_diagram_block": true,
+    "has_license": true,
+    "discussion_has_questions": true,
+    "labels_count_ok": true,
+    "image_prompt_count": 1,
+    "has_tracked_link_once": true,
+    "checks": [
+      "README includes title/badges/description/TOC/features/quickstart/usage/config/architecture/roadmap/benchmarks/contributing/license/FAQ",
+      "GitHub Pages: index.md + _config.yml provided",
+      "CI workflow suggestion provided",
+      "Discussions seed includes context + concrete feedback asks",
+      "If primary_url present: exactly one tracked link in README",
+      "image_prompts length == image_plan.count (default 1, role repo_diagram)"
+    ]
+  }
+}

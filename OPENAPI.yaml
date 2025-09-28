@@ -1,0 +1,432 @@
+openapi: 3.0.3
+info:
+  title: Content Generation Service
+  description: Multi-platform content generation using Gemini 2.5 Flash
+  version: 1.0.0
+  contact:
+    name: BuildOrchestrator LocalMode
+
+servers:
+  - url: http://localhost:8000
+    description: Local development server
+
+paths:
+  /api/health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "ok"
+
+  /api/content/generate-all:
+    post:
+      summary: Generate content for multiple platforms
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenerateAllRequest'
+      responses:
+        '200':
+          description: Job started successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobResponse'
+        '400':
+          description: Invalid request
+        '422':
+          description: Validation error
+
+  /api/jobs/{jobId}:
+    get:
+      summary: Get job status
+      parameters:
+        - name: jobId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Job status
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobStatus'
+        '404':
+          description: Job not found
+
+  /api/results/{jobId}:
+    get:
+      summary: Get job results
+      parameters:
+        - name: jobId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Job results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResultsResponse'
+        '404':
+          description: Job not found
+
+  /api/content/regenerate:
+    post:
+      summary: Regenerate specific platforms
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegenerateRequest'
+      responses:
+        '200':
+          description: Regeneration started
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobResponse'
+
+  /api/content/{platform}/{format}:
+    post:
+      summary: Generate content for specific platform
+      parameters:
+        - name: platform
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [instagram, linkedin, x_twitter, youtube, threads, facebook, medium, substack, reddit, hacker_news, devto, hashnode, github_pages, notion, personal_blog, ghost, telegram]
+        - name: format
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PlatformRequest'
+      responses:
+        '200':
+          description: Generated content
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ContentEnvelope'
+
+components:
+  schemas:
+    GenerateAllRequest:
+      type: object
+      required:
+        - topicId
+        - topicName
+        - topicDescription
+        - audience
+        - tone
+        - locale
+        - primaryUrl
+        - brand
+        - targetPlatforms
+        - options
+      properties:
+        topicId:
+          type: string
+          example: "t-001"
+        topicName:
+          type: string
+          example: "How WhatsApp group calls scale"
+        topicDescription:
+          type: string
+          example: "Signaling, SFU/MCU trade-offs, backpressure..."
+        audience:
+          type: string
+          enum: [beginners, intermediate, advanced]
+        tone:
+          type: string
+          example: "clear, confident, non-cringe"
+        locale:
+          type: string
+          enum: [en, hi, en-hi]
+        primaryUrl:
+          type: string
+          format: uri
+          example: "https://example.com/whatsapp-scale"
+        brand:
+          $ref: '#/components/schemas/BrandInfo'
+        targetPlatforms:
+          type: array
+          items:
+            type: string
+            pattern: "^[a-z_]+:[a-z_]+$"
+          example: ["instagram:carousel", "x_twitter:thread", "youtube:long_form"]
+        options:
+          $ref: '#/components/schemas/GenerationOptions'
+
+    PlatformRequest:
+      type: object
+      required:
+        - topicId
+        - topicName
+        - topicDescription
+        - audience
+        - tone
+        - locale
+        - primaryUrl
+        - brand
+        - options
+      properties:
+        topicId:
+          type: string
+        topicName:
+          type: string
+        topicDescription:
+          type: string
+        audience:
+          type: string
+          enum: [beginners, intermediate, advanced]
+        tone:
+          type: string
+        locale:
+          type: string
+          enum: [en, hi, en-hi]
+        primaryUrl:
+          type: string
+          format: uri
+        brand:
+          $ref: '#/components/schemas/BrandInfo'
+        options:
+          $ref: '#/components/schemas/GenerationOptions'
+
+    BrandInfo:
+      type: object
+      required:
+        - siteUrl
+        - handles
+        - utmBase
+      properties:
+        siteUrl:
+          type: string
+          format: uri
+        handles:
+          type: object
+          properties:
+            instagram:
+              type: string
+            x:
+              type: string
+            linkedin:
+              type: string
+            youtube:
+              type: string
+            github:
+              type: string
+        utmBase:
+          type: string
+
+    GenerationOptions:
+      type: object
+      required:
+        - include_images
+        - max_length_levels
+      properties:
+        include_images:
+          type: boolean
+        max_length_levels:
+          type: string
+          enum: [compact, standard, detailed]
+        force:
+          type: boolean
+          default: false
+        length_hint:
+          type: integer
+          default: 0
+
+    JobResponse:
+      type: object
+      properties:
+        jobId:
+          type: string
+        status:
+          type: string
+          enum: [running, done, error]
+        selected:
+          type: array
+          items:
+            type: object
+            properties:
+              platform:
+                type: string
+              format:
+                type: string
+
+    JobStatus:
+      type: object
+      properties:
+        jobId:
+          type: string
+        status:
+          type: string
+          enum: [running, done, error]
+        progress:
+          type: object
+          properties:
+            total:
+              type: integer
+            done:
+              type: integer
+        errors:
+          type: array
+          items:
+            type: object
+            properties:
+              taskId:
+                type: string
+              platform:
+                type: string
+              format:
+                type: string
+              message:
+                type: string
+
+    ResultsResponse:
+      type: object
+      properties:
+        jobId:
+          type: string
+        status:
+          type: string
+          enum: [done, error]
+        results:
+          type: array
+          items:
+            type: object
+            properties:
+              platform:
+                type: string
+              format:
+                type: string
+              envelope:
+                $ref: '#/components/schemas/ContentEnvelope'
+        errors:
+          type: array
+          items:
+            type: object
+
+    RegenerateRequest:
+      type: object
+      required:
+        - jobId
+        - targets
+      properties:
+        jobId:
+          type: string
+        targets:
+          type: array
+          items:
+            type: object
+            properties:
+              platform:
+                type: string
+              format:
+                type: string
+        reasons:
+          type: string
+        creativity_delta:
+          type: number
+          minimum: 0
+          maximum: 1
+        force:
+          type: boolean
+          default: true
+
+    ContentEnvelope:
+      type: object
+      required:
+        - meta
+        - content
+      properties:
+        meta:
+          $ref: '#/components/schemas/ContentMeta'
+        content:
+          type: object
+
+    ContentMeta:
+      type: object
+      required:
+        - topic_id
+        - topic_title
+        - platform
+        - format
+        - content_schema_version
+        - model_version
+        - prompt_version
+        - audience
+        - tone
+        - locale
+        - primary_keywords
+        - secondary_keywords
+        - lsi_terms
+        - canonical
+        - brand
+        - options
+      properties:
+        topic_id:
+          type: string
+        topic_title:
+          type: string
+        platform:
+          type: string
+        format:
+          type: string
+        content_schema_version:
+          type: string
+          example: "v1.0.0"
+        model_version:
+          type: string
+          example: "gemini-2.5-flash"
+        prompt_version:
+          type: string
+          example: "ig-carousel-1.0"
+        audience:
+          type: string
+        tone:
+          type: string
+        locale:
+          type: string
+        primary_keywords:
+          type: array
+          items:
+            type: string
+        secondary_keywords:
+          type: array
+          items:
+            type: string
+        lsi_terms:
+          type: array
+          items:
+            type: string
+        canonical:
+          type: string
+          format: uri
+        brand:
+          $ref: '#/components/schemas/BrandInfo'
+        options:
+          $ref: '#/components/schemas/GenerationOptions'
