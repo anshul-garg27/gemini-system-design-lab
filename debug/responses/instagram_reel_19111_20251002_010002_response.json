@@ -1,0 +1,649 @@
+{
+  "meta": {
+    "topic_id": "19111",
+    "topic_title": "The Leaky Bucket Algorithm for Traffic Shaping and Rate Limiting",
+    "platform": "instagram",
+    "format": "reel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-reel-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "rate limiting",
+      "traffic shaping",
+      "leaky bucket"
+    ],
+    "secondary_keywords": [
+      "system design",
+      "distributed systems",
+      "API performance"
+    ],
+    "lsi_terms": [
+      "bursty traffic",
+      "token bucket",
+      "constant output rate"
+    ],
+    "canonical": "https://example.com/topic/19111",
+    "brand": {
+      "siteUrl": "https://example.com/topic/19111",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utmBase": "utm_source=instagram&utm_medium=reel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "tech",
+        "programming",
+        "coding",
+        "software",
+        "engineering",
+        "developer"
+      ],
+      "niche": [
+        "systemdesign",
+        "architecture",
+        "scalability",
+        "distributed",
+        "microservices",
+        "performance",
+        "ratelimiting",
+        "trafficshaping",
+        "leakybucket"
+      ],
+      "micro_niche": [
+        "loadbalancing",
+        "api",
+        "backend",
+        "cloud",
+        "devops",
+        "systemdesigninterview",
+        "algorithms",
+        "datastructures",
+        "techcareer",
+        "learning"
+      ],
+      "intent": [
+        "interview",
+        "techinterview",
+        "codinginterview",
+        "techskills"
+      ],
+      "branded": [
+        "systemdesignpatterns"
+      ]
+    },
+    "image_plan": {
+      "count": 10,
+      "mandatory_roles": [
+        "cover_hook",
+        "cover_alt",
+        "diagram_hero",
+        "comparison",
+        "stat_card",
+        "process_flow",
+        "cta_endcard"
+      ],
+      "domain_specific_roles": [
+        "algorithm_viz",
+        "complexity_chart",
+        "execution_steps"
+      ],
+      "total_images": 10,
+      "reasoning": "7 core images + 3 domain-specific images (Algorithm/System Design) ensure complete visual storytelling for Instagram Reels with A/B testing capability."
+    },
+    "accessibility": {
+      "captions_included": true,
+      "alt_text_all_images": true,
+      "color_contrast_checked": true,
+      "dyslexic_friendly_fonts": true
+    }
+  },
+  "content": {
+    "title": "Leaky Bucket: The Secret to Smooth API Traffic",
+    "hook": "Stop letting bursty traffic crash your API. Learn the Leaky Bucket Algorithm in 60 seconds!",
+    "content_segments": [
+      {
+        "label": "Hook",
+        "time_range": "0-3s",
+        "narration": "Stop letting bursty traffic crash your API.",
+        "on_screen_text": "STOP BURSTY TRAFFIC",
+        "visuals": "Animated text overlay on abstract visualization of chaotic, spiky traffic.",
+        "text_motion": "scale_up_bounce",
+        "text_position": "center_upper",
+        "b_roll": [
+          "chaotic graph spikes",
+          "red error flash"
+        ]
+      },
+      {
+        "label": "Problem",
+        "time_range": "3-10s",
+        "narration": "When millions of requests hit simultaneously, your service chokes. High latency, dropped packets, and unhappy users. Standard rate limiters fail to smooth this chaos.",
+        "on_screen_text": "Latency kills user experience.",
+        "visuals": "Visual transition to 'Problem' card. Red underline on 'dropped packets'.",
+        "text_motion": "slide_up_fade",
+        "text_position": "center",
+        "b_roll": [
+          "chart flash",
+          "log snippet showing 503 errors"
+        ]
+      },
+      {
+        "label": "Solution",
+        "time_range": "10-45s",
+        "narration": "Enter the Leaky Bucket Algorithm. Imagine a bucket with a fixed hole at the bottom. Incoming requests are water poured into the bucket. If the bucket overflows, the requests are discarded. This prevents resource exhaustion. Crucially, the 'leak' ensures a constant output rate. Traffic is smoothed out, delivering steady, predictable performance, even under heavy load. Unlike Token Bucket, which allows for some bursts, Leaky Bucket enforces strict output consistency, making it ideal for traffic shaping.",
+        "on_screen_text": "1. Fixed Capacity\n2. Constant Output Rate\n3. Strict Shaping",
+        "visuals": "Animated Leaky Bucket diagram (10-15s). Zoom on overflow (15s). Flow visualization (18-30s). Comparison chart (40-45s).",
+        "text_motion": "pop_in",
+        "text_position": "center",
+        "b_roll": [
+          "diagram pan",
+          "metric callouts",
+          "Token vs Leaky comparison"
+        ]
+      },
+      {
+        "label": "CTA",
+        "time_range": "45-50s",
+        "narration": "Ready to implement predictable performance? Save this reel for your next system design interview.",
+        "on_screen_text": "SAVE THIS FOR INTERVIEWS 💾",
+        "visuals": "End card frame with Save/Follow prompts and brand handle.",
+        "text_motion": "fade_in",
+        "text_position": "center_lower",
+        "b_roll": [
+          "logo-free end card motif"
+        ]
+      }
+    ],
+    "script": "[0:00] Stop letting bursty traffic crash your API. [0:03] When millions of requests hit simultaneously, your service chokes. High latency, dropped packets, and unhappy users. Standard rate limiters fail to smooth this chaos. [0:10] Enter the Leaky Bucket Algorithm. Imagine a bucket with a fixed hole at the bottom. [0:18] Incoming requests are water poured into the bucket. If the bucket overflows, the requests are discarded. This prevents resource exhaustion. [0:28] Crucially, the 'leak' ensures a constant output rate. Traffic is smoothed out, delivering steady, predictable performance, even under heavy load. [0:40] Unlike Token Bucket, which allows for some bursts, Leaky Bucket enforces strict output consistency, making it ideal for traffic shaping. [0:45] Ready to implement predictable performance? Save this reel for your next system design interview.",
+    "on_screen_text_cues": [
+      "0-3s: STOP BURSTY TRAFFIC",
+      "3-10s: Latency kills user experience.",
+      "10-18s: 1. Fixed Capacity",
+      "18-28s: 2. Constant Output Rate",
+      "28-40s: 3. Strict Shaping",
+      "40-45s: Leaky vs Token: Consistency vs Burst",
+      "45-50s: SAVE THIS FOR INTERVIEWS 💾"
+    ],
+    "transitions": [
+      {
+        "from_segment": "Hook",
+        "to_segment": "Problem",
+        "type": "hard_cut",
+        "timing": "3.0s",
+        "effect": "text_swipe_left"
+      },
+      {
+        "from_segment": "Problem",
+        "to_segment": "Solution",
+        "type": "zoom_in",
+        "timing": "10.0s",
+        "effect": "diagram_reveal"
+      },
+      {
+        "from_segment": "Solution",
+        "to_segment": "CTA",
+        "type": "fade",
+        "timing": "45.0s",
+        "effect": "endcard_fade_in"
+      }
+    ],
+    "text_animations": [
+      {
+        "time_range": "0-3s",
+        "text": "STOP BURSTY TRAFFIC",
+        "animation_in": "scale_up_bounce",
+        "animation_out": "fade_out",
+        "position": "center_upper",
+        "size_px": 120,
+        "color": "accent_primary",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "0.0s",
+        "disappears_at": "3.3s"
+      },
+      {
+        "time_range": "3-10s",
+        "text": "Latency kills user experience.",
+        "animation_in": "slide_up_fade",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 80,
+        "color": "white",
+        "duration_in": "0.4s",
+        "duration_out": "0.3s",
+        "appears_at": "3.3s",
+        "disappears_at": "10.3s"
+      },
+      {
+        "time_range": "10-18s",
+        "text": "1. Fixed Capacity",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 70,
+        "color": "accent_primary",
+        "duration_in": "0.2s",
+        "duration_out": "0.3s",
+        "appears_at": "10.0s",
+        "disappears_at": "18.0s"
+      },
+      {
+        "time_range": "18-28s",
+        "text": "2. Constant Output Rate",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 70,
+        "color": "accent_primary",
+        "duration_in": "0.2s",
+        "duration_out": "0.3s",
+        "appears_at": "18.0s",
+        "disappears_at": "28.0s"
+      },
+      {
+        "time_range": "28-40s",
+        "text": "3. Strict Shaping",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 70,
+        "color": "accent_primary",
+        "duration_in": "0.2s",
+        "duration_out": "0.3s",
+        "appears_at": "28.0s",
+        "disappears_at": "40.0s"
+      },
+      {
+        "time_range": "40-45s",
+        "text": "Leaky vs Token: Consistency vs Burst",
+        "animation_in": "slide_up_fade",
+        "animation_out": "fade_out",
+        "position": "center_lower",
+        "size_px": 60,
+        "color": "white",
+        "duration_in": "0.3s",
+        "duration_out": "0.3s",
+        "appears_at": "40.0s",
+        "disappears_at": "45.0s"
+      },
+      {
+        "time_range": "45-50s",
+        "text": "SAVE THIS FOR INTERVIEWS 💾",
+        "animation_in": "fade_in",
+        "animation_out": "fade_out",
+        "position": "center_lower",
+        "size_px": 90,
+        "color": "accent_primary",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "45.0s",
+        "disappears_at": "50.0s"
+      }
+    ],
+    "pacing": {
+      "edit_frequency_seconds": 1.8,
+      "pattern_interrupt_at": 15,
+      "scene_count": 9,
+      "avg_scene_duration": 5.5,
+      "total_cuts": 27
+    },
+    "first_frame": {
+      "description": "Bold hook text 'STOP BURSTY TRAFFIC' with simplified Leaky Bucket diagram, Indigo accent color",
+      "text_readable_at_thumbnail": true,
+      "visually_striking": true,
+      "text_size_px": 140,
+      "includes": "hook_text + topic_visual + accent_color"
+    },
+    "loop_potential": {
+      "enabled": true,
+      "last_frame_connects_to_first": true,
+      "rewatch_trigger": "The problem of bursty traffic (0s) is referenced in the final CTA by asking the user to solve it.",
+      "callback_element": "Reference to 'predictable performance' in the CTA, which is the solution to the bursty traffic problem."
+    },
+    "visual_plan": {
+      "camera": "static shot → close-up on diagram → screen capture",
+      "motion_graphics": [
+        "type-on keywords",
+        "underline metric",
+        "arrow flow animation",
+        "bucket filling/leaking visualization"
+      ],
+      "color_palette": "Off-white bg, ink black text, Indigo (#4F46E5) accent",
+      "safe_margins": "keep titles ≥96px from edges (1080x1920)"
+    },
+    "trending_audio": {
+      "vibe": [
+        "energetic tech",
+        "clean minimal",
+        "future garage"
+      ],
+      "bpm_range": "90–120",
+      "search_terms": [
+        "\"trending\" minimal tech beat",
+        "instrumental future garage",
+        "clean build no vocals"
+      ],
+      "example_hook_lines": [
+        "tight snare build",
+        "subtle drop at ~8s"
+      ],
+      "beat_markers_seconds": [
+        0,
+        3,
+        10,
+        15,
+        20,
+        30,
+        40,
+        45
+      ],
+      "sync_points": [
+        {
+          "beat": 0,
+          "action": "hook_text_pop"
+        },
+        {
+          "beat": 3,
+          "action": "problem_reveal"
+        },
+        {
+          "beat": 10,
+          "action": "solution_point_1"
+        },
+        {
+          "beat": 15,
+          "action": "pattern_interrupt"
+        },
+        {
+          "beat": 20,
+          "action": "solution_point_2"
+        },
+        {
+          "beat": 30,
+          "action": "solution_point_3"
+        },
+        {
+          "beat": 45,
+          "action": "cta_fade_in"
+        }
+      ],
+      "drop_moment": "15s",
+      "energy_curve": "build_0-15s, sustain_15-40s, outro_40-50s"
+    },
+    "call_to_action": "Follow for more system design tips!",
+    "engagement_tactics": {
+      "comment_bait": "Which rate limiter do you prefer: Leaky Bucket or Token Bucket? Drop a comment! 👇",
+      "save_trigger": "Save this for your next system design interview 💾",
+      "share_trigger": "Tag someone building scalable systems who needs predictable traffic! 🔥",
+      "pattern_interrupt": "Color flash + zoom at 15s mark on the Leaky Bucket diagram's 'overflow' mechanism.",
+      "loop_element": "CTA references predictable performance, linking back to the initial problem of chaotic traffic."
+    },
+    "caption_structured": {
+      "hook_125chars": "Stop letting unpredictable, bursty traffic crash your APIs. The Leaky Bucket Algorithm is your secret weapon for system stability. 💡",
+      "problem_statement": "If your distributed system handles traffic spikes, you know the pain: high latency, resource exhaustion, and service failure. Standard fixed-window rate limiting can still allow massive bursts, leading to instability. You need a method to truly smooth the load.",
+      "solution_tease": "The Leaky Bucket provides a simple, yet powerful, queuing mechanism to enforce consistent output.",
+      "value_props": [
+        "✓ Enforce strict, predictable output rates for stability",
+        "✓ Prevent resource exhaustion by discarding overflow traffic",
+        "✓ Ideal for traffic shaping and system resilience"
+      ],
+      "keywords_woven": "Mastering **rate limiting** techniques like **Leaky Bucket** is essential for **system design** and **API performance**. It ensures your **distributed systems** maintain **scalability** even with **bursty traffic**.",
+      "comment_bait": "Which approach do you prefer: Leaky Bucket or Token Bucket? Drop a comment! 👇",
+      "cta": "Save this 💾 + Follow @systemdesign for more essential system design tips!",
+      "link": "https://example.com/topic/19111?utm_source=instagram&utm_medium=reel"
+    },
+    "caption": "Stop letting unpredictable, bursty traffic crash your APIs. The Leaky Bucket Algorithm is your secret weapon for system stability. 💡\n\nIf your distributed system handles traffic spikes, you know the pain: high latency, resource exhaustion, and service failure. Standard fixed-window rate limiting can still allow massive bursts, leading to instability. You need a method to truly smooth the load.\n\nThe Leaky Bucket provides a simple, yet powerful, queuing mechanism to enforce consistent output.\n\n✓ Enforce strict, predictable output rates for stability\n✓ Prevent resource exhaustion by discarding overflow traffic\n✓ Ideal for traffic shaping and system resilience\n\nMastering **rate limiting** techniques like **Leaky Bucket** is essential for **system design** and **API performance**. It ensures your **distributed systems** maintain **scalability** even with **bursty traffic**.\n\nWhich approach do you prefer: Leaky Bucket or Token Bucket? Drop a comment! 👇\n\nSave this 💾 + Follow @systemdesign for more essential system design tips! Full guide in bio: https://example.com/topic/19111?utm_source=instagram&utm_medium=reel",
+    "hashtags": [
+      "#systemdesign",
+      "#architecture",
+      "#scalability",
+      "#microservices",
+      "#distributed",
+      "#performance",
+      "#engineering",
+      "#tech",
+      "#software",
+      "#backend",
+      "#ratelimiting",
+      "#trafficshaping",
+      "#leakybucket",
+      "#tokenbucket",
+      "#api",
+      "#cloud",
+      "#devops",
+      "#loadbalancing",
+      "#algorithms",
+      "#datastructures",
+      "#systemdesigninterview",
+      "#techinterview",
+      "#codinginterview",
+      "#techskills",
+      "#programming",
+      "#coding",
+      "#developer",
+      "#techcareer",
+      "#learning",
+      "#systemdesignpatterns"
+    ],
+    "music_suggestion": "Energetic tech beat, 90-120 BPM, minimal instrumental",
+    "image_prompts": [
+      {
+        "role": "cover_hook",
+        "title": "Reel Cover — Hook Driven (Main)",
+        "prompt": "VERTICAL 9:16 Instagram Reel cover for 'The Leaky Bucket Algorithm for Traffic Shaping and Rate Limiting'. FIRST FRAME OPTIMIZED for thumbnail and scroll-stopping. COMPOSITION: Top 25%: Bold hook text 'STOP BURSTY TRAFFIC' in 120-140px geometric sans, Indigo accent color. Middle 50%: Simplified vertical diagram of a leaky bucket concept—input arrows (bursty traffic), a bucket shape, and a single, slow output arrow (smoothed traffic). Bottom 25%: Subtle brand mark + micro CTA hint. DOMAIN COLORS: Indigo (#4F46E5) and Sky (#0EA5E9). TECHNICAL SPECS: Background: Off-white (#FAFAFA). Safe margins: ≥96px all sides. Text contrast: 4.5:1 minimum. Thumbnail readable. Designed for MUTED viewing. STYLE: Flat vector, thin lines, subtle grid, 40%+ whitespace, mobile-first.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos except tiny watermark, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no gradients >5%, no drop shadows, no text baked into complex diagram",
+        "style_notes": "Whiteboard-meets-editorial; technical yet accessible; elegant minimalism; thumbnail-optimized",
+        "accessibility": {
+          "alt_text": "Instagram Reel cover for The Leaky Bucket Algorithm for Traffic Shaping and Rate Limiting with bold hook text and simplified bucket diagram showing traffic flow.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Dyslexic-friendly geometric sans"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "cover_alt",
+        "title": "Reel Cover Alt — Typography Focus (A/B Test)",
+        "prompt": "Alternative vertical cover for A/B testing. TYPOGRAPHY-FOCUSED design for 'The Leaky Bucket Algorithm for Traffic Shaping and Rate Limiting'. LAYOUT: Minimalist, text-first approach. Center-aligned 2-line hook 'STABLE API PERFORMANCE' underlined with a small Leaky Bucket icon beside it. Bolder typography, minimal visual elements. Same color palette (Indigo accent). Same technical specs as cover_hook.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos except tiny watermark, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no gradients >5%, no drop shadows, no text baked into complex diagram",
+        "style_notes": "Editorial poster; strong kerning; minimal visual noise; text-centric",
+        "accessibility": {
+          "alt_text": "Alternative Reel cover with typographic emphasis on 'Stable API Performance' for the Leaky Bucket Algorithm.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Dyslexic-friendly"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "diagram_hero",
+        "title": "Core Concept Diagram (Primary Teaching Visual)",
+        "prompt": "Vertical hero diagram for 'The Leaky Bucket Algorithm'. PRIMARY EDUCATIONAL VISUAL. COMPOSITION: Main concept visualization occupying middle 60%. A large, stylized bucket diagram. Input arrows labeled 'Bursty Traffic', the bucket labeled 'Queue/Capacity', and a single, constant output stream labeled 'Constant Output Rate'. Use Indigo and Sky blue accents. PURPOSE: Make the concept crystal clear. Educational, not decorative. Same technical specs: margins ≥96px, contrast 4.5:1, mobile-readable.",
+        "negative_prompt": "no 3D, no photos, no clutter, no decorative elements that distract from learning",
+        "style_notes": "Diagram-first; educational clarity; high legibility; concept over aesthetics",
+        "accessibility": {
+          "alt_text": "Diagram explaining core concept of the Leaky Bucket Algorithm showing bursty input traffic being converted to constant output rate via a fixed-capacity queue.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels, dyslexic-friendly"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "comparison",
+        "title": "Leaky Bucket vs Token Bucket Comparison",
+        "prompt": "Split vertical comparison for rate limiting: Leaky Bucket vs Token Bucket. LAYOUT: Top 45% labeled 'Leaky Bucket (Traffic Shaping)' showing smooth, constant output waveform (green). Bottom 45% labeled 'Token Bucket (Rate Limiting)' showing slightly bursty, uneven output waveform (yellow/orange). Key takeaway text in middle: 'Strict Consistency vs Allowed Bursting'. Use clean, minimalist vector graphics.",
+        "negative_prompt": "no clutter, no 3D, no confusing layouts, avoid complex graphs",
+        "style_notes": "Clear contrast; easy comparison; visual distinction between options",
+        "accessibility": {
+          "alt_text": "Comparison chart showing Leaky Bucket (smooth output) versus Token Bucket (bursty output) traffic patterns.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "stat_card",
+        "title": "Throughput Prediction Metric",
+        "prompt": "Bold stat card for 'The Leaky Bucket Algorithm'. NUMBER-FIRST design. LAYOUT: Center-focused. Large text '100%' at center in Indigo. Context text above: 'Predictable Throughput' and below: 'Guaranteed Consistency'. Supporting visual element showing a perfectly flat line graph representing stable output rate. PURPOSE: Make predictability memorable. Same technical specs.",
+        "negative_prompt": "no clutter, no stock icons, no decorative fluff, no complex data visualization",
+        "style_notes": "Number-first; high impact; memorable; clear context",
+        "accessibility": {
+          "alt_text": "Statistics card showing 100% predictable throughput and guaranteed consistency, reinforcing the benefit of the Leaky Bucket algorithm.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Large numbers, clear context"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "process_flow",
+        "title": "Leaky Bucket Execution Flow",
+        "prompt": "Vertical flow diagram for the Leaky Bucket Algorithm execution. STEP-BY-STEP PROCESS. LAYOUT: 4 steps stacked vertically. Step 1: 'Request Arrives (Input)'. Step 2: 'Check Bucket Capacity'. Step 3: 'If Full, Drop Request (Overflow)'. Step 4: 'If Space, Add to Queue/Leak Out (Output)'. Arrows connecting steps top-to-bottom. Clean, minimal, educational. Indigo accent color.",
+        "negative_prompt": "no clutter, no 3D, no complex diagrams",
+        "style_notes": "Flow-focused; clear progression; numbered steps; easy to follow",
+        "accessibility": {
+          "alt_text": "Process flow diagram showing 4 steps of the Leaky Bucket execution: Request Arrives, Check Capacity, Drop if Full, Add to Queue/Leak Out.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Step numbers and labels clear"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "cta_endcard",
+        "title": "Call-to-Action Endcard (Final Frame)",
+        "prompt": "Final CTA endcard for 'The Leaky Bucket Algorithm'. ACTION-ORIENTED design. LAYOUT: Center-focused. Bold CTA text at center: 'SAVE THIS 💾' and 'FOLLOW @systemdesign'. Small icons for Save/Follow/Share actions. Brand handle clearly visible. Clean, minimal, Indigo accent color. PURPOSE: Drive specific action. Same technical specs.",
+        "negative_prompt": "no clutter, no busy backgrounds, no multiple competing CTAs",
+        "style_notes": "CTA-first; clear single action; brand visible; action-oriented",
+        "accessibility": {
+          "alt_text": "Call-to-action endcard with Save, Follow, and Share prompts for system design content.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear CTA text"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "algorithm_viz",
+        "title": "Leaky Bucket Visualization (Animated Frame)",
+        "prompt": "Vertical visualization of the Leaky Bucket mechanism. Show rapid, high-volume packets (red/orange) entering the top of a bucket, filling it quickly. Simultaneously, show a steady stream of controlled packets (blue/cyan) exiting the bottom hole at a fixed rate. Highlight the packets being dropped over the top edge when the bucket is full. Use a dark background with bright Indigo/Sky accents for contrast.",
+        "negative_prompt": "no 3D, no photorealism, no text overlay, keep visualization abstract and clear",
+        "style_notes": "Dynamic flow visualization; high contrast; focus on input vs output rate difference.",
+        "accessibility": {
+          "alt_text": "Visualization of the Leaky Bucket algorithm showing bursty input exceeding capacity, resulting in dropped packets and a constant, smoothed output stream.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Geometric sans for any labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "complexity_chart",
+        "title": "Complexity/Overhead Card",
+        "prompt": "Minimalist card highlighting the low complexity of the Leaky Bucket algorithm. Center text: 'O(1) Overhead'. Below it, simple text: 'Fixed capacity queue management is highly efficient'. Use clean typography and Indigo accent color. Vertical format, off-white background.",
+        "negative_prompt": "no confusing Big O graphs, focus only on the O(1) notation",
+        "style_notes": "Clean, data-focused, minimal text, high emphasis on the complexity notation.",
+        "accessibility": {
+          "alt_text": "Card showing O(1) overhead complexity for the Leaky Bucket Algorithm, indicating high efficiency.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Large, clear font for O(1)"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "execution_steps",
+        "title": "Implementation Checklist",
+        "prompt": "Vertical checklist card detailing essential components for Leaky Bucket implementation. 3 key bullet points with checkmarks: 1. Define Bucket Size (Capacity). 2. Define Leak Rate (Output Speed). 3. Implement Queue/Dropping Mechanism. Clean design, Indigo/Sky colors, off-white background.",
+        "negative_prompt": "no complex code snippets, no clutter, keep it a simple list",
+        "style_notes": "Checklist aesthetic; practical implementation steps; high legibility.",
+        "accessibility": {
+          "alt_text": "Checklist for implementing Leaky Bucket, listing steps: Define Bucket Size, Define Leak Rate, Implement Queue/Dropping Mechanism.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear checklist font"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      }
+    ],
+    "accessibility": {
+      "auto_captions": [
+        {
+          "time": "0-3s",
+          "text": "Stop letting bursty traffic crash your API."
+        },
+        {
+          "time": "3-10s",
+          "text": "When millions of requests hit simultaneously, your service chokes. High latency, dropped packets, and unhappy users. Standard rate limiters fail to smooth this chaos."
+        },
+        {
+          "time": "10-18s",
+          "text": "Enter the Leaky Bucket Algorithm. Imagine a bucket with a fixed hole at the bottom."
+        },
+        {
+          "time": "18-28s",
+          "text": "Incoming requests are water poured into the bucket. If the bucket overflows, the requests are discarded. This prevents resource exhaustion."
+        },
+        {
+          "time": "28-40s",
+          "text": "Crucially, the 'leak' ensures a constant output rate. Traffic is smoothed out, delivering steady, predictable performance, even under heavy load."
+        },
+        {
+          "time": "40-45s",
+          "text": "Unlike Token Bucket, which allows for some bursts, Leaky Bucket enforces strict output consistency, making it ideal for traffic shaping."
+        },
+        {
+          "time": "45-50s",
+          "text": "Ready to implement predictable performance? Save this reel for your next system design interview."
+        }
+      ],
+      "alt_texts_provided": true,
+      "color_contrast_validated": true,
+      "audio_descriptions": [
+        "Visual shows chaotic input traffic being regulated by the Leaky Bucket mechanism, smoothing the output rate.",
+        "A comparison chart visually contrasts the steady output of Leaky Bucket versus the slightly uneven output of Token Bucket."
+      ]
+    },
+    "compliance": {
+      "est_duration_seconds": 50,
+      "script_word_count": 127,
+      "hook_char_count": 92,
+      "hashtag_count": 30,
+      "image_count": 10,
+      "checks": [
+        "≤150 words script",
+        "≤120 chars hook",
+        "CTA present once",
+        "30 unique hashtags",
+        "mobile-safe margins ≥96px",
+        "image_prompts length ≥7 (7 core + domain-specific)",
+        "all images have accessibility object",
+        "text_animations provided for all on_screen_text",
+        "transitions specified between all segments",
+        "engagement_tactics all present",
+        "auto_captions with timestamps",
+        "first_frame optimized for thumbnail",
+        "pattern_interrupt at 15-20s",
+        "music_sync_points aligned to beats",
+        "caption_structured format followed",
+        "all 7 core image roles present: cover_hook, cover_alt, diagram_hero, comparison, stat_card, process_flow, cta_endcard"
+      ]
+    }
+  }
+}

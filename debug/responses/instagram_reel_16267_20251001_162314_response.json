@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "topic_id": "16267",
+    "topic_title": "Recognizing and Refactoring the Arrow Code Anti-Pattern",
+    "platform": "instagram",
+    "format": "reel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-reel-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "refactoring",
+      "code quality",
+      "arrow code"
+    ],
+    "secondary_keywords": [
+      "software engineering",
+      "guard clause",
+      "strategy pattern"
+    ],
+    "lsi_terms": [
+      "early return",
+      "cognitive load",
+      "nested if"
+    ],
+    "canonical": "https://example.com/topic/16267",
+    "brand": {
+      "siteUrl": "https://example.com/topic/16267",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utmBase": "utm_source=instagram&utm_medium=reel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "tech",
+        "programming",
+        "coding",
+        "software",
+        "engineering"
+      ],
+      "niche": [
+        "softwareengineering",
+        "refactoring",
+        "codequality",
+        "anti-pattern",
+        "developer"
+      ],
+      "micro_niche": [
+        "arrowcode",
+        "guardclause",
+        "strategypattern",
+        "earlyreturn",
+        "nestedif"
+      ],
+      "intent": [
+        "interview",
+        "learning",
+        "career",
+        "skills"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 4,
+      "roles": [
+        "cover_typography",
+        "before_after",
+        "checklist_card",
+        "flow_diagram"
+      ],
+      "ratio": "9:16",
+      "size_px": "1080x1920",
+      "reasoning": "Four images are necessary to visualize the 'before' (nested code), the 'after' (refactored code via guard clauses), list the key techniques, and show the structure of the Strategy Pattern."
+    }
+  },
+  "content": {
+    "title": "Stop Writing Code That Looks Like A Christmas Tree 🎄",
+    "hook": "If your conditional logic is nested five levels deep, you've hit the Arrow Code anti-pattern. Here’s how to flatten it and boost readability 10X.",
+    "content_segments": [
+      {
+        "label": "Hook",
+        "time_range": "0-3s",
+        "narration": "Stop writing code that looks like a nested Christmas tree.",
+        "on_screen_text": "STOP THE ARROW CODE",
+        "visuals": "Fast-paced title card reveal. Visual of deeply indented code snippet (red flashing).",
+        "text_motion": "pop-in, shake",
+        "b_roll": [
+          "abstract code matrix",
+          "red flashing warning sign"
+        ]
+      },
+      {
+        "label": "Problem",
+        "time_range": "3-10s",
+        "narration": "If your code has five levels of if/else indentation, you've hit the Arrow Code anti-pattern. This kills readability, skyrockets cognitive load, and makes testing a nightmare.",
+        "on_screen_text": "CODE SMELL: High Cognitive Load",
+        "visuals": "Before/After image (Before state). Highlight indentation levels.",
+        "b_roll": [
+          "log snippet showing errors",
+          "code snippet visualization"
+        ]
+      },
+      {
+        "label": "Solution",
+        "time_range": "10-45s",
+        "narration": "Here are three ways to refactor it fast. First, use Guard Clauses. Check for invalid states and return immediately at the top of your function. This eliminates deep nesting for common error paths. Second, always favor early returns over wrapping your entire function in a single if block. Invert your conditions to keep the main logic path flat and clean. Finally, for very complex branching logic, implement the Strategy Pattern. Delegate those decision branches to separate classes.",
+        "on_screen_text": "1. Guard Clauses 2. Early Returns 3. Strategy Pattern",
+        "visuals": "10-20s: Before/After image (After state). 20-35s: Checklist card appears. 35-45s: Strategy Pattern flow diagram.",
+        "b_roll": [
+          "clean code transition",
+          "diagram pan"
+        ]
+      },
+      {
+        "label": "CTA",
+        "time_range": "45-60s",
+        "narration": "Flatten your code and boost your team's velocity. Save this reel and follow for more code quality tips!",
+        "on_screen_text": "REFINE YOUR CODE. Save & Follow!",
+        "visuals": "End card frame with brand handle and CTA icons (Save, Share, Follow).",
+        "b_roll": [
+          "logo-free end card motif"
+        ]
+      }
+    ],
+    "script": "[0:00] Stop writing code that looks like a nested Christmas tree. [0:03] If your code has five levels of if/else indentation, you've hit the Arrow Code anti-pattern. [0:08] This kills readability, skyrockets cognitive load, and makes testing a nightmare. Here are three ways to refactor it fast. [0:15] First, use Guard Clauses. Check for invalid states and return immediately at the top of your function. [0:23] This eliminates deep nesting for common error paths. Second, always favor early returns over wrapping your entire function in a single if block. [0:32] Invert your conditions to keep the main logic path flat and clean. [0:38] Finally, for very complex branching logic, implement the Strategy Pattern. Delegate those decision branches to separate classes. [0:45] Flatten your code and boost your team's velocity. Save this reel and follow for more code quality tips!",
+    "on_screen_text_cues": [
+      "0-3s: STOP THE ARROW CODE",
+      "3-10s: CODE SMELL: High Cognitive Load",
+      "10-20s: 1. GUARD CLAUSES (Early Exit)",
+      "20-35s: 2. INVERT CONDITIONS / Early Returns",
+      "35-45s: 3. STRATEGY PATTERN (Decouple Logic)",
+      "45-60s: REFINE YOUR CODE. Save & Follow!"
+    ],
+    "visual_plan": {
+      "camera": "close-up on code visualization → diagram pan → checklist reveal",
+      "motion_graphics": [
+        "type-on keywords",
+        "red underline on bottleneck metric",
+        "code indentation collapse animation"
+      ],
+      "color_palette": "off-white bg, ink black, Indigo (#4F46E5) accent",
+      "safe_margins": "keep titles ≥96px from edges (1080x1920)"
+    },
+    "trending_audio": {
+      "vibe": [
+        "energetic tech",
+        "clean minimal",
+        "future garage"
+      ],
+      "bpm_range": "90–120",
+      "search_terms": [
+        "\"trending\" minimal tech beat",
+        "instrumental future garage",
+        "clean build no vocals"
+      ],
+      "example_hook_lines": [
+        "tight snare build",
+        "subtle drop at ~8s"
+      ],
+      "beat_markers_seconds": [
+        0,
+        3,
+        10,
+        20,
+        35,
+        45
+      ]
+    },
+    "call_to_action": "Follow for more system design tips!",
+    "caption": "Are you stuck in Arrow Code hell? 🏹 Deeply nested `if/else` statements are a major code smell in any project, increasing maintenance cost and developer frustration. Recognizing this anti-pattern is the first step toward cleaner, more robust software. We cover three essential refactoring techniques: using **Guard Clauses** for early exits, leveraging **early return** statements to flatten logic, and applying the powerful **Strategy Pattern** for complex decision trees. Stop battling high cognitive load and start writing beautiful, maintainable code today! Save this reel 💾 for your next code review. What's your favorite technique for **refactoring** nested logic? Let us know below! 👇\n\nLearn more via the link in bio: https://example.com/topic/16267?utm_source=instagram&utm_medium=reel",
+    "hashtags": [
+      "#arrowcode",
+      "#refactoring",
+      "#codesmell",
+      "#guardclauses",
+      "#earlyreturn",
+      "#strategypattern",
+      "#codequality",
+      "#softwareengineering",
+      "#programming",
+      "#coding",
+      "#developer",
+      "#techcareer",
+      "#computerscience",
+      "#algorithms",
+      "#datastructures",
+      "#backend",
+      "#fullstack",
+      "#devops",
+      "#learntocode",
+      "#codinglife",
+      "#tech",
+      "#engineering",
+      "#software",
+      "#interview",
+      "#techinterview",
+      "#codinginterview",
+      "#techskills",
+      "#learninpublic",
+      "#systemdesign",
+      "#architecture"
+    ],
+    "music_suggestion": "Energetic tech beat, 90-120 BPM, minimal instrumental",
+    "image_prompts": [
+      {
+        "role": "cover_typography",
+        "title": "Reel Cover B — Bold Typographic Hook",
+        "prompt": "Minimalist vertical cover emphasizing typography for Recognizing and Refactoring the Arrow Code Anti-Pattern. Full-bleed off-white background; center-aligned 2-line hook ('STOP THE ARROW CODE' / 'Flatten Your Nested Logic') in geometric sans; underline the strongest noun; small side strip on the right with tiny code indentation stack (5 nested levels) as a motif; include brand handle @systemdesign at bottom-left in micro-type. Maintain generous margins; subtle grid only; Indigo (#4F46E5) accent color for underline/motif; ensure extreme readability on mobile. Export as crisp flat vector aesthetic.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no complex diagrams",
+        "style_notes": "editorial poster feel; strong kerning; consistent stroke widths",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Vertical typographic cover with minimalist arrow motif"
+      },
+      {
+        "role": "before_after",
+        "title": "Before/After Code Snippet",
+        "prompt": "Vertical 9:16 'Before & After' code snippet visualization. Top half shows 'BEFORE' (Arrow Code Anti-Pattern): 5 lines of deeply nested Python `if` statements. Bottom half shows 'AFTER': The same logic refactored using 3 lines of Guard Clauses (early returns). Use clear syntax highlighting (Indigo/Sky Blue scheme). Background off-white. Use thin vector lines to separate the sections. Text overlays must be large and legible for 'BEFORE' and 'AFTER'. Flat vector aesthetic.",
+        "negative_prompt": "full screen code dump, blurry text, complex functions, no 3D, no photorealism",
+        "style_notes": "high contrast, focus on indentation difference, clear code blocks",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Comparison of deeply nested code (Before) versus flat code using Guard Clauses (After)."
+      },
+      {
+        "role": "checklist_card",
+        "title": "Refactoring Checklist Card",
+        "prompt": "Vertical checklist card summarizing the 3 refactoring techniques: 1. Use Guard Clauses, 2. Favor Early Returns, 3. Implement Strategy Pattern. Clean, minimalist design with bold Indigo checkmarks. Center-aligned text, large font size (60-80px), generous margins. Off-white background, subtle grid pattern. Flat vector aesthetic.",
+        "negative_prompt": "handwritten style, cluttered design, too much text, no logos",
+        "style_notes": "clean, actionable, highly legible list format",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Checklist card listing Guard Clauses, Early Returns, and Strategy Pattern."
+      },
+      {
+        "role": "flow_diagram",
+        "title": "Strategy Pattern Visualization",
+        "prompt": "Vertical flow diagram illustrating the Strategy Pattern. Show a central 'Context' box delegating tasks to three separate 'Strategy' implementation boxes (Strategy A, B, C), replacing complex branching logic. Use arrows to show clear, decoupled flow. Indigo (#4F46E5) accent color for flow lines. Off-white background, thin vector strokes, geometric shapes. Ensure the diagram is vertically oriented for the 9:16 ratio.",
+        "negative_prompt": "UML diagram, busy background, too many components, no 3D bevels",
+        "style_notes": "elegant data flow visualization, clear separation of concerns",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Flow diagram showing the Strategy Pattern architecture."
+      }
+    ],
+    "compliance": {
+      "est_duration_seconds": 45,
+      "script_word_count": 130,
+      "hook_char_count": 113,
+      "hashtag_count": 30,
+      "checks": [
+        "≤150 words script",
+        "≤120 chars hook",
+        "CTA present once",
+        "30 unique hashtags",
+        "mobile-safe margins",
+        "image_prompts length equals image_plan.count (4)"
+      ]
+    }
+  }
+}

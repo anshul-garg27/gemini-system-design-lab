@@ -1,0 +1,618 @@
+{
+  "meta": {
+    "topic_id": "20223",
+    "topic_title": "Utilizing Dead Letter Queues (DLQs) for Failure Handling and Analysis",
+    "platform": "instagram",
+    "format": "reel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-reel-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "dead letter queue",
+      "system design",
+      "scalability"
+    ],
+    "secondary_keywords": [
+      "distributed systems",
+      "microservices",
+      "message queue",
+      "reliability"
+    ],
+    "lsi_terms": [
+      "failure handling",
+      "poison pill",
+      "debugging",
+      "queue architecture"
+    ],
+    "canonical": "https://example.com/topic/20223",
+    "brand": {
+      "siteUrl": "https://example.com/topic/20223",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utmBase": "utm_source=instagram&utm_medium=reel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "tech",
+        "programming",
+        "coding",
+        "software",
+        "engineering"
+      ],
+      "niche": [
+        "systemdesign",
+        "architecture",
+        "scalability",
+        "distributed",
+        "microservices"
+      ],
+      "micro_niche": [
+        "deadletterqueue",
+        "dlq",
+        "messagequeue",
+        "backend",
+        "reliability"
+      ],
+      "intent": [
+        "interview",
+        "learning",
+        "career",
+        "techskills",
+        "devops"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 10,
+      "mandatory_roles": [
+        "cover_hook",
+        "cover_alt",
+        "diagram_hero",
+        "comparison",
+        "stat_card",
+        "process_flow",
+        "cta_endcard"
+      ],
+      "domain_specific_roles": [
+        "architecture_diagram",
+        "data_flow",
+        "scale_metrics"
+      ],
+      "total_images": 10,
+      "reasoning": "7 core images + 3 System Design specific images (architecture, data flow, scale metrics) ensure complete visual storytelling for this complex topic."
+    },
+    "accessibility": {
+      "captions_included": true,
+      "alt_text_all_images": true,
+      "color_contrast_checked": true,
+      "dyslexic_friendly_fonts": true
+    }
+  },
+  "content": {
+    "title": "Stop Poison Pills: The DLQ System Design Secret",
+    "hook": "Stop letting 'poison pill' messages crash your entire distributed system.",
+    "content_segments": [
+      {
+        "label": "Hook",
+        "time_range": "0-3s",
+        "narration": "Stop letting failed messages crash your entire distributed system.",
+        "on_screen_text": "POISON PILLS are CRASHING your QUEUES",
+        "visuals": "Animated red warning icon over a queue block. Hard cut at 3s.",
+        "text_motion": "scale_up_bounce",
+        "text_position": "center_upper",
+        "b_roll": [
+          "queue block flashing red",
+          "error log snippet"
+        ]
+      },
+      {
+        "label": "Problem",
+        "time_range": "3-10s",
+        "narration": "If a message fails processing repeatedly, it becomes a poison pill, blocking the main queue and halting critical workflows. Latency spikes and data is lost.",
+        "on_screen_text": "The Poison Pill Problem: Latency Spikes & Lost Data",
+        "visuals": "Comparison image (No DLQ) showing blocked queue.",
+        "text_motion": "slide_up_fade",
+        "text_position": "center",
+        "b_roll": [
+          "chart flash",
+          "latency metric rise"
+        ]
+      },
+      {
+        "label": "Solution",
+        "time_range": "10-45s",
+        "narration": "The robust solution? Dead Letter Queues, or DLQs. DLQs isolate messages that exceed their retry limit, keeping your primary queue flowing smoothly. Wait... there's more! This mechanism provides three massive benefits for robust system design. First, Failure Isolation. The DLQ catches the bad message immediately, preventing cascading failures. Second, Deep Analysis. You can inspect the DLQ contents, debug the root cause, and reprocess messages safely. Third, Poison Pill Prevention. This guarantees high availability and reliable message delivery in your microservices architecture.",
+        "on_screen_text": "3 DLQ Benefits: 1. Isolation. 2. Analysis. 3. Prevention.",
+        "visuals": "Sequence of diagrams (Hero -> Process Flow -> Data Flow) highlighting the DLQ component.",
+        "text_motion": "pop_in",
+        "text_position": "center",
+        "b_roll": [
+          "diagram pan across flow",
+          "metric callouts (Scale Metrics)",
+          "before/after visual at 15s drop"
+        ]
+      },
+      {
+        "label": "CTA",
+        "time_range": "45-60s",
+        "narration": "Which queue system do you prefer—SQS or Kafka? Let me know below. Save this for your next system design interview.",
+        "on_screen_text": "SAVE This 💾 + FOLLOW @systemdesign",
+        "visuals": "CTA endcard frame with brand handle and save icon.",
+        "text_motion": "fade_in",
+        "text_position": "center_lower",
+        "b_roll": [
+          "logo-free end card motif"
+        ]
+      }
+    ],
+    "script": "[0:00] Stop letting failed messages crash your entire distributed system. [0:03] If a message fails processing repeatedly, it becomes a poison pill, blocking the main queue and halting critical workflows. Latency spikes and data is lost. [0:10] The robust solution? Dead Letter Queues, or DLQs. DLQs isolate messages that exceed their retry limit, keeping your primary queue flowing smoothly. [0:18] Wait... there's more! This mechanism provides three massive benefits for robust system design. [0:22] First, Failure Isolation. The DLQ catches the bad message immediately, preventing cascading failures. [0:32] Second, Deep Analysis. You can inspect the DLQ contents, debug the root cause, and reprocess messages safely. [0:40] Third, Poison Pill Prevention. This guarantees high availability and reliable message delivery in your microservices architecture. [0:45] Which queue system do you prefer—SQS or Kafka? Let me know below. Save this for your next system design interview.",
+    "on_screen_text_cues": [
+      "0-2s: POISON PILLS are CRASHING your QUEUES",
+      "2-5s: Stop losing data and blocking workflows.",
+      "5-10s: The Poison Pill Problem: Latency Spikes & Lost Data",
+      "10-20s: The DLQ Solution: Dead Letter Queues",
+      "20-35s: 3 DLQ Benefits: 1. Isolation. 2. Analysis. 3. Prevention.",
+      "35-45s: Guaranteed High Availability.",
+      "45-60s: SAVE This 💾 + FOLLOW @systemdesign"
+    ],
+    "transitions": [
+      {
+        "from_segment": "Hook",
+        "to_segment": "Problem",
+        "type": "hard_cut",
+        "timing": "3.0s",
+        "effect": "visual_switch_to_comparison"
+      },
+      {
+        "from_segment": "Problem",
+        "to_segment": "Solution",
+        "type": "zoom_in",
+        "timing": "10.0s",
+        "effect": "diagram_hero_reveal"
+      },
+      {
+        "from_segment": "Solution",
+        "to_segment": "CTA",
+        "type": "fade",
+        "timing": "45.0s",
+        "effect": "endcard_fade_in"
+      }
+    ],
+    "text_animations": [
+      {
+        "time_range": "0-3s",
+        "text": "POISON PILLS are CRASHING your QUEUES",
+        "animation_in": "scale_up_bounce",
+        "animation_out": "fade_out",
+        "position": "center_upper",
+        "size_px": 120,
+        "color": "#06B6D4",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "0.0s",
+        "disappears_at": "3.3s"
+      },
+      {
+        "time_range": "3-10s",
+        "text": "The Poison Pill Problem: Latency Spikes & Lost Data",
+        "animation_in": "slide_up_fade",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 80,
+        "color": "#F97316",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "3.3s",
+        "disappears_at": "10.3s"
+      },
+      {
+        "time_range": "10-20s",
+        "text": "The DLQ Solution: Dead Letter Queues",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "top_third",
+        "size_px": 90,
+        "color": "#2563EB",
+        "duration_in": "0.4s",
+        "duration_out": "0.3s",
+        "appears_at": "10.3s",
+        "disappears_at": "20.3s"
+      },
+      {
+        "time_range": "20-45s",
+        "text": "3 DLQ Benefits: 1. Isolation. 2. Analysis. 3. Prevention.",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 75,
+        "color": "#06B6D4",
+        "duration_in": "0.4s",
+        "duration_out": "0.3s",
+        "appears_at": "20.3s",
+        "disappears_at": "45.3s"
+      },
+      {
+        "time_range": "45-60s",
+        "text": "SAVE This 💾 + FOLLOW @systemdesign",
+        "animation_in": "fade_in_out",
+        "animation_out": "fade_out",
+        "position": "center_lower",
+        "size_px": 85,
+        "color": "#2563EB",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "45.3s",
+        "disappears_at": "60.0s"
+      }
+    ],
+    "pacing": {
+      "edit_frequency_seconds": 1.7,
+      "pattern_interrupt_at": 18,
+      "scene_count": 9,
+      "avg_scene_duration": 5.0,
+      "total_cuts": 27
+    },
+    "first_frame": {
+      "description": "Bold hook text 'POISON PILLS are CRASHING your QUEUES' with a simplified message queue diagram, bright Cyan accent color.",
+      "text_readable_at_thumbnail": true,
+      "visually_striking": true,
+      "text_size_px": 140,
+      "includes": "hook_text + topic_visual + accent_color"
+    },
+    "loop_potential": {
+      "enabled": true,
+      "last_frame_connects_to_first": true,
+      "rewatch_trigger": "The final CTA asks a question about queue systems (SQS/Kafka), which relates directly to the message queue topic introduced in the hook.",
+      "callback_element": "Reference to 'system design' and 'queues' is used in both hook and CTA."
+    },
+    "visual_plan": {
+      "camera": "static screen capture → diagram pan → metric close-up",
+      "motion_graphics": [
+        "type-on keywords",
+        "arrow tracing data flow",
+        "component highlights"
+      ],
+      "color_palette": "off-white bg, ink black, accent Blue (#2563EB) and Cyan (#06B6D4)",
+      "safe_margins": "keep titles ≥96px from edges (1080x1920)"
+    },
+    "trending_audio": {
+      "vibe": [
+        "energetic tech",
+        "clean minimal",
+        "future garage"
+      ],
+      "bpm_range": "90–120",
+      "search_terms": [
+        "\"trending\" minimal tech beat",
+        "instrumental future garage",
+        "clean build no vocals"
+      ],
+      "example_hook_lines": [
+        "tight snare build",
+        "subtle drop at ~8s"
+      ],
+      "beat_markers_seconds": [
+        0,
+        3,
+        10,
+        15,
+        20,
+        30,
+        40,
+        45
+      ],
+      "sync_points": [
+        {
+          "beat": 0,
+          "action": "hook_text_pop"
+        },
+        {
+          "beat": 3,
+          "action": "problem_reveal"
+        },
+        {
+          "beat": 10,
+          "action": "solution_point_1"
+        },
+        {
+          "beat": 15,
+          "action": "pattern_interrupt"
+        },
+        {
+          "beat": 20,
+          "action": "solution_point_2"
+        },
+        {
+          "beat": 30,
+          "action": "solution_point_3"
+        },
+        {
+          "beat": 45,
+          "action": "cta_fade_in"
+        }
+      ],
+      "drop_moment": "15s",
+      "energy_curve": "build_0-15s, sustain_15-40s, outro_40-60s"
+    },
+    "call_to_action": "Follow for more system design tips!",
+    "engagement_tactics": {
+      "comment_bait": "Which queue system do you prefer—SQS or Kafka? Drop a comment! 👇",
+      "save_trigger": "Save this for your next system design interview 💾",
+      "share_trigger": "Tag someone building scalable distributed systems! 🔥",
+      "pattern_interrupt": "Visual switch to comparison diagram and color flash (Red to Green) at 18s mark.",
+      "loop_element": "The CTA asks about queue preference, encouraging rewatch of the DLQ solution."
+    },
+    "caption_structured": {
+      "hook_125chars": "Dead Letter Queues (DLQs) are the secret weapon of highly scalable distributed systems. Stop letting poison pills crash your workflows!",
+      "problem_statement": "If you run microservices that rely on message queues, you've probably encountered the dreaded 'poison pill'—a message that fails repeatedly, blocking the entire pipeline. This leads to massive latency spikes, data loss, and system instability. DLQs solve this core reliability problem.",
+      "solution_tease": "Implement this crucial architecture component to guarantee high availability and zero data loss.",
+      "value_props": [
+        "✓ Isolate failed messages instantly for stability",
+        "✓ Enable deep analysis and debugging of root causes",
+        "✓ Prevent cascading failures in microservices architecture"
+      ],
+      "keywords_woven": "This DLQ technique is essential for robust system design and achieving true scalability in distributed systems.",
+      "comment_bait": "Which queue system do you prefer—SQS or Kafka? Drop a comment! 👇",
+      "cta": "Save this 💾 + Follow @systemdesign for more tips on building reliable and scalable architecture!",
+      "link": "https://example.com/topic/20223?utm_source=instagram&utm_medium=reel"
+    },
+    "caption": "Dead Letter Queues (DLQs) are the secret weapon of highly scalable distributed systems. Stop letting poison pills crash your workflows!\n\nIf you run microservices that rely on message queues, you've probably encountered the dreaded 'poison pill'—a message that fails repeatedly, blocking the entire pipeline. This leads to massive latency spikes, data loss, and system instability. DLQs solve this core reliability problem.\n\nImplement this crucial architecture component to guarantee high availability and zero data loss.\n\n✓ Isolate failed messages instantly for stability\n✓ Enable deep analysis and debugging of root causes\n✓ Prevent cascading failures in microservices architecture\n\nThis DLQ technique is essential for robust system design and achieving true scalability in distributed systems.\n\nWhich queue system do you prefer—SQS or Kafka? Drop a comment! 👇\n\nSave this 💾 + Follow @systemdesign for more tips on building reliable and scalable architecture! Full guide: https://example.com/topic/20223?utm_source=instagram&utm_medium=reel",
+    "hashtags": [
+      "#systemdesign",
+      "#architecture",
+      "#scalability",
+      "#distributed",
+      "#microservices",
+      "#deadletterqueue",
+      "#dlq",
+      "#messagequeue",
+      "#backend",
+      "#reliability",
+      "#tech",
+      "#programming",
+      "#coding",
+      "#software",
+      "#engineering",
+      "#loadbalancing",
+      "#caching",
+      "#sharding",
+      "#api",
+      "#database",
+      "#cloud",
+      "#performance",
+      "#softwareengineering",
+      "#computerscience",
+      "#techcareer",
+      "#interview",
+      "#learning",
+      "#career",
+      "#techskills",
+      "#devops"
+    ],
+    "music_suggestion": "Energetic tech beat, 90-120 BPM, minimal instrumental",
+    "image_prompts": [
+      {
+        "role": "cover_hook",
+        "title": "Reel Cover — Hook Driven (Main)",
+        "prompt": "VERTICAL 9:16 Instagram Reel cover for 'Utilizing Dead Letter Queues (DLQs) for Failure Handling and Analysis'. FIRST FRAME OPTIMIZED for thumbnail and scroll-stopping. COMPOSITION: Top 25%: Bold hook text (6-10 words max) in 120-140px geometric sans, Cyan (#06B6D4) accent color. Middle 50%: Simplified system design component diagram showing a main queue feeding a consumer, with a failed message highlighted in red. Vertical flow, thin lines (2px), 3-4 labeled elements. Bottom 25%: Subtle brand mark + micro CTA hint. TECHNICAL SPECS: Background: Off-white (#FAFAFA). Safe margins: ≥96px all sides. Text contrast: 4.5:1 minimum. Thumbnail readable: Text must be clear at 200x355px. Designed for MUTED viewing. STYLE: Flat vector, no 3D, thin lines, subtle grid, 40%+ whitespace, mobile-first. Hook text: POISON PILLS are CRASHING your QUEUES.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos except tiny watermark, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no gradients >5%, no drop shadows, no text baked into complex diagram",
+        "style_notes": "Whiteboard-meets-editorial; technical yet accessible; elegant minimalism; thumbnail-optimized. Use Blue/Cyan palette.",
+        "accessibility": {
+          "alt_text": "Instagram Reel cover for Utilizing Dead Letter Queues (DLQs) for Failure Handling and Analysis with bold hook text and simplified message queue diagram showing a failed red message.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Dyslexic-friendly geometric sans"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "cover_alt",
+        "title": "Reel Cover Alt — Typography Focus (A/B Test)",
+        "prompt": "Alternative vertical cover for A/B testing. TYPOGRAPHY-FOCUSED design for 'Utilizing Dead Letter Queues (DLQs) for Failure Handling and Analysis'. LAYOUT: Minimalist, text-first approach. Center-aligned 2-line hook (max 12 words) in bold geometric sans. Underline 'Dead Letter Queues'. Small visual element on side (a single flow arrow). Brand handle at bottom corner. STYLE: Same color palette (Blue/Cyan). More whitespace, bolder typography, minimal visual elements. Hook text: DLQs: The Secret to Reliable Distributed Systems.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos except tiny watermark, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no gradients >5%, no drop shadows, no text baked into complex diagram",
+        "style_notes": "Editorial poster; strong kerning; minimal visual noise; text-centric. Use Blue/Cyan palette.",
+        "accessibility": {
+          "alt_text": "Alternative Reel cover with typographic emphasis on DLQs: The Secret to Reliable Distributed Systems.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Dyslexic-friendly"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "diagram_hero",
+        "title": "Core Concept Diagram (Primary Teaching Visual)",
+        "prompt": "Vertical hero diagram for 'Utilizing Dead Letter Queues (DLQs) for Failure Handling and Analysis'. PRIMARY EDUCATIONAL VISUAL. COMPOSITION: Show a producer feeding a Main Queue, which feeds a Consumer. An arrow shows failed messages diverting to a separate box labeled 'Dead Letter Queue (DLQ)'. Use thin lines, Blue/Cyan accent color, and clear labels. PURPOSE: Show the message flow and the DLQ's role as the isolation point.",
+        "negative_prompt": "no 3D, no photos, no clutter, no decorative elements that distract from learning",
+        "style_notes": "Diagram-first; educational clarity; high legibility; concept over aesthetics. Use Blue/Cyan palette.",
+        "accessibility": {
+          "alt_text": "Diagram explaining core concept of Dead Letter Queues, showing messages flowing from a Main Queue to a Consumer, with failed messages diverting to the dedicated DLQ.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels, dyslexic-friendly"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "comparison",
+        "title": "Before/After OR This vs That Comparison",
+        "prompt": "Split vertical comparison for 'DLQs for Failure Handling'. Top 45% labeled 'BEFORE: No DLQ' showing a main queue blocked by a red poison pill message. Bottom 45% labeled 'AFTER: With DLQ' showing the main queue flowing smoothly (green) while the red poison pill message is isolated in a separate DLQ box. Key takeaway text in middle divider area: '100% Availability'. Use Red for failure (Before) and Green/Blue for success (After).",
+        "negative_prompt": "no clutter, no 3D, no confusing layouts",
+        "style_notes": "Clear contrast; easy comparison; visual distinction between options. Use Red/Blue/Green palette.",
+        "accessibility": {
+          "alt_text": "Comparison showing Queue Without DLQ (blocked) versus Queue With DLQ (flowing smoothly), highlighting the failure isolation benefit.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "stat_card",
+        "title": "Key Metrics/Numbers Visualization",
+        "prompt": "Bold stat card for 'DLQs for Failure Handling'. Center-focused. Large number (180px bold) '99.999%' in Cyan (#06B6D4). Context text above: 'Achieve Reliability With DLQs' and below: 'Guaranteed Message Delivery'. Supporting visual element showing a stable, flat line graph (low latency).",
+        "negative_prompt": "no clutter, no stock icons, no decorative fluff",
+        "style_notes": "Number-first; high impact; memorable; clear context. Use Blue/Cyan palette.",
+        "accessibility": {
+          "alt_text": "Statistics showing 99.999% Reliability achieved through DLQ implementation.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Large numbers, clear context"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "process_flow",
+        "title": "Step-by-Step Process Diagram",
+        "prompt": "Vertical flow diagram showing the DLQ handling process. 3 steps stacked vertically. Step 1: Message Fails (Red). Step 2: Retry Limit Exceeded (Arrow to DLQ). Step 3: Isolation & Analysis (Blue box). Arrows connecting steps top-to-bottom. Clean, minimal, educational. Use numbered boxes.",
+        "negative_prompt": "no clutter, no 3D, no complex diagrams",
+        "style_notes": "Flow-focused; clear progression; numbered steps; easy to follow. Use Red/Blue accents.",
+        "accessibility": {
+          "alt_text": "Process flow diagram showing 3 steps of DLQ handling: Failure, Retry Exceeded, and Isolation/Analysis.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Step numbers and labels clear"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "cta_endcard",
+        "title": "Call-to-Action Endcard (Final Frame)",
+        "prompt": "Final CTA endcard for 'DLQs for Failure Handling'. ACTION-ORIENTED design. Center-focused. Bold CTA text at center (85px): 'SAVE This 💾 + FOLLOW @systemdesign'. Brand handle clearly visible. Small icons for Save/Follow/Share actions. Clean, minimal, Blue accent color for CTA elements.",
+        "negative_prompt": "no clutter, no busy backgrounds, no multiple competing CTAs",
+        "style_notes": "CTA-first; clear single action; brand visible; action-oriented. Use Blue/Cyan palette.",
+        "accessibility": {
+          "alt_text": "Call-to-action endcard with Save, Follow, and Share prompts for system design content.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear CTA text"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "architecture_diagram",
+        "title": "Detailed Message Flow Architecture",
+        "prompt": "Detailed vertical system architecture diagram illustrating message flow with DLQs. Show Service A (Producer) -> Load Balancer -> Main Queue -> Service B (Consumer) -> Database. Crucially, show Service B's failure path redirecting to the Dead Letter Queue (DLQ). Use clean boxes and thin directional arrows. Highlight the DLQ path in Cyan.",
+        "negative_prompt": "no 3D, no confusing overlapping components, no excessive labeling",
+        "style_notes": "Standardized system design notation; focused on flow and components.",
+        "accessibility": {
+          "alt_text": "Detailed architecture diagram showing the full message lifecycle, including producer, consumer, main queue, and the failure path leading to the Dead Letter Queue.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear component labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "data_flow",
+        "title": "Message Success vs Failure Path",
+        "prompt": "Vertical diagram contrasting two parallel paths for a message. Left path (Success): Message (Green) -> Processing -> Done (Checkmark). Right path (Failure): Message (Red) -> Processing (Fails 3x) -> DLQ (Storage Box). Use clear icons and labels for 'Success Path' and 'Failure Path'.",
+        "negative_prompt": "no complex database schemas, no irrelevant components, ensure clear visual separation of paths",
+        "style_notes": "Flowchart style, high contrast between success (Green/Blue) and failure (Red).",
+        "accessibility": {
+          "alt_text": "Data flow diagram comparing the successful processing path of a message versus the failed path which ends in the DLQ.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "scale_metrics",
+        "title": "Impact of DLQs on Latency and Throughput",
+        "prompt": "A dual chart visualization (vertical split). Top chart: Latency comparison (Before DLQ - Spiky Red line, After DLQ - Flat Blue line). Bottom chart: Throughput comparison (Before DLQ - Drops sharply, After DLQ - Stable high throughput). Title: 'DLQ Impact on Performance'. Use clear labels and percentage gain callouts (e.g., '90% Latency Reduction').",
+        "negative_prompt": "no confusing axes, no 3D effects, charts must be clean and easily readable",
+        "style_notes": "Data visualization; focus on metric improvement; minimalist graph style.",
+        "accessibility": {
+          "alt_text": "Chart visualization showing significant reduction in latency and stabilization of throughput after implementing Dead Letter Queues.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear chart titles and labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      }
+    ],
+    "accessibility": {
+      "auto_captions": [
+        {
+          "time": "0-3s",
+          "text": "Stop letting failed messages crash your entire distributed system."
+        },
+        {
+          "time": "3-10s",
+          "text": "If a message fails processing repeatedly, it becomes a poison pill, blocking the main queue and halting critical workflows. Latency spikes and data is lost."
+        },
+        {
+          "time": "10-18s",
+          "text": "The robust solution? Dead Letter Queues, or DLQs. DLQs isolate messages that exceed their retry limit, keeping your primary queue flowing smoothly. Wait... there's more!"
+        },
+        {
+          "time": "18-22s",
+          "text": "This mechanism provides three massive benefits for robust system design."
+        },
+        {
+          "time": "22-32s",
+          "text": "First, Failure Isolation. The DLQ catches the bad message immediately, preventing cascading failures."
+        },
+        {
+          "time": "32-40s",
+          "text": "Second, Deep Analysis. You can inspect the DLQ contents, debug the root cause, and reprocess messages safely."
+        },
+        {
+          "time": "40-45s",
+          "text": "Third, Poison Pill Prevention. This guarantees high availability and reliable message delivery in your microservices architecture."
+        },
+        {
+          "time": "45-60s",
+          "text": "Which queue system do you prefer—SQS or Kafka? Let me know below. Save this for your next system design interview."
+        }
+      ],
+      "alt_texts_provided": true,
+      "color_contrast_validated": true,
+      "audio_descriptions": [
+        "Visual shows an animated diagram of message flow being interrupted and then rerouted to a separate queue.",
+        "The comparison segment highlights the stability gain by using DLQs, switching colors from red to blue.",
+        "A flow chart illustrates the three core benefits: isolation, analysis, and prevention."
+      ]
+    },
+    "compliance": {
+      "est_duration_seconds": 50,
+      "script_word_count": 135,
+      "hook_char_count": 72,
+      "hashtag_count": 30,
+      "image_count": 10,
+      "checks": [
+        "≤150 words script",
+        "≤120 chars hook",
+        "CTA present once",
+        "30 unique hashtags",
+        "mobile-safe margins ≥96px",
+        "image_prompts length ≥7 (7 core + domain-specific)",
+        "all images have accessibility object",
+        "text_animations provided for all on_screen_text",
+        "transitions specified between all segments",
+        "engagement_tactics all present",
+        "auto_captions with timestamps",
+        "first_frame optimized for thumbnail",
+        "pattern_interrupt at 15-20s",
+        "music_sync_points aligned to beats",
+        "caption_structured format followed",
+        "all 7 core image roles present: cover_hook, cover_alt, diagram_hero, comparison, stat_card, process_flow, cta_endcard"
+      ]
+    }
+  }
+}

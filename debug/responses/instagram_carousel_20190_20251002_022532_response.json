@@ -1,0 +1,588 @@
+{
+  "meta": {
+    "topic_id": "20190",
+    "topic_title": "Leveraging Blob Storage Architectures for Unstructured Data Management",
+    "platform": "instagram",
+    "format": "carousel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-carousel-1.4",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "system design",
+      "architecture",
+      "scalability"
+    ],
+    "secondary_keywords": [
+      "distributed systems",
+      "microservices",
+      "performance"
+    ],
+    "lsi_terms": [
+      "load balancing",
+      "database sharding",
+      "caching"
+    ],
+    "canonical": "https://example.com/topic/20190",
+    "brand": {
+      "site_url": "https://example.com/topic/20190",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=instagram&utm_medium=carousel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": false,
+    "keyword_tiers": {
+      "broad": [
+        "systemdesign",
+        "softwareengineering",
+        "architecture",
+        "distributedsystems",
+        "cloudcomputing"
+      ],
+      "niche": [
+        "blobstorage",
+        "unstructureddata",
+        "datamanagement",
+        "cloudarchitecture",
+        "scalability",
+        "dataengineering",
+        "cloudstorage",
+        "aws",
+        "azure",
+        "s3"
+      ],
+      "micro_niche": [
+        "objectstorage",
+        "elevennines",
+        "costoptimization",
+        "systemarchitect",
+        "cloudnative",
+        "dataflow",
+        "storageoptimization",
+        "designpatterns",
+        "intermediatearchitecture",
+        "storagehacks"
+      ],
+      "intent": [
+        "hld",
+        "performance",
+        "bigdata",
+        "storage"
+      ],
+      "branded": [
+        "systemdesign"
+      ]
+    },
+    "image_plan": {
+      "count": 9,
+      "mandatory_roles": [
+        "cover",
+        "cover_alt",
+        "architecture_panel",
+        "stat_card",
+        "comparison",
+        "checklist_card",
+        "cta_card"
+      ],
+      "domain_specific_roles": [
+        "data_flow",
+        "scale_metrics"
+      ],
+      "total_images": 9,
+      "ratio": "4:5",
+      "size_px": "1080x1350",
+      "reasoning": "7 core images + 2 domain-specific visuals (data flow and scale metrics) for a total of 9 slides, ensuring complete visual storytelling for System Design topic."
+    }
+  },
+  "content": {
+    "slides": [
+      {
+        "index": 1,
+        "role": "hook",
+        "title": "3 Pillars of 99.999999999% Blob Storage",
+        "subtitle": "Architecting massive scale for unstructured data assets.",
+        "bullets": [
+          "Achieve 11 Nines of data durability",
+          "Cut storage costs by up to 90%"
+        ],
+        "overlay_text": "Swipe →",
+        "swipe_trigger": "Discover the durability secrets inside →",
+        "design_note": "THUMBNAIL OPTIMIZED: Readable at 350x437px. Bold headline using Blue (#2563EB) accent. Iconography should be a simplified vector of distributed data nodes.",
+        "layout": "title top (80-120px), subtitle below (40-60px), small glyph bottom-right, heavy whitespace (60%+), Swipe → indicator bottom",
+        "iconography": "tiny distributed storage cluster glyph (20-30% of space, subtle)",
+        "contrast_notes": "max contrast headline (7:1 ratio); micro-type for subtitle (4.5:1 WCAG AA minimum)",
+        "accessibility": {
+          "alt_text": "Cover slide for Blob Storage Architectures, featuring a bold hook about 11 Nines durability and cost savings.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "index": 2,
+        "role": "problem",
+        "title": "Why Traditional Storage Fails at Scale",
+        "subtitle": "The hidden costs of using block or relational storage for PBs of data.",
+        "bullets": [
+          "High maintenance complexity: Managing file system operations manually.",
+          "Poor durability: Relying on RAID/snapshots, not geo-replication.",
+          "Cost inefficiency: Paying premium rates for archival data access."
+        ],
+        "overlay_text": "The Problem →",
+        "swipe_trigger": "But there's a highly optimized solution →",
+        "design_note": "Use red accent on 'Fails' and 'Cost inefficiency'. Emphasize the PB (Petabyte) scale issue.",
+        "layout": "two-column bullets; wide margins (≥64px); numbers/metrics highlighted",
+        "iconography": "alert/bottleneck glyph (⚠️) next to the title",
+        "contrast_notes": "Use red accent only on the pain metric; body text 4.5:1 contrast",
+        "accessibility": {
+          "alt_text": "Problem slide showing pain points of traditional storage systems like high complexity and poor durability at petabyte scale.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear sans-serif, readable at small size"
+        }
+      },
+      {
+        "index": 3,
+        "role": "core_idea",
+        "title": "The Object Storage Advantage",
+        "subtitle": "A flat namespace architecture built for infinite scale and durability.",
+        "bullets": [
+          "Flat Namespace: Eliminates directory hierarchy bottlenecks.",
+          "Metadata Rich: Objects include custom user-defined attributes.",
+          "HTTP API Access: Simple, universal access via standard protocols."
+        ],
+        "overlay_text": "The Core Idea",
+        "swipe_trigger": "Here's the architecture behind the durability →",
+        "design_note": "Calm tone; blue check motif (✓) for positive framing. Focus on the 'flat' nature of the architecture.",
+        "layout": "headline left (40-50px), 2-3 bullets right (28-32px), generous whitespace",
+        "iconography": "lightbulb/eureka glyph (💡) and a simplified flat data structure icon",
+        "contrast_notes": "Normal emphasis 4.5:1; blue accent for check marks; keep labels short",
+        "accessibility": {
+          "alt_text": "Solution slide explaining object storage core concepts: flat namespace, rich metadata, and HTTP API access.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear sans-serif"
+        }
+      },
+      {
+        "index": 4,
+        "role": "architecture",
+        "title": "Data Flow: Writing an Object",
+        "subtitle": "How replication and erasure coding guarantee 11 Nines durability.",
+        "bullets": [
+          "Request Validation: API Gateway authenticates PUT request.",
+          "Geo-Replication: Data is synchronously replicated across 3+ AZs.",
+          "Erasure Coding: Used internally to protect against disk failures within zones."
+        ],
+        "overlay_text": "How It Works",
+        "swipe_trigger": "But what about latency and cost trade-offs? →",
+        "design_note": "DIAGRAM-FIRST: Reference the `data_flow` image. Show Client → API Gateway → Partitioning Layer → AZ 1, AZ 2, AZ 3. Use Blue accent for flow lines.",
+        "layout": "Block diagram center (60% space), 3 side notes (24-28px) pointing to diagram elements (replication steps)",
+        "iconography": "client→gateway→services→datastore (system design flow)",
+        "contrast_notes": "Thin lines (2px); crisp labels (4.5:1 contrast); Blue accent color for flow.",
+        "accessibility": {
+          "alt_text": "Architecture data flow diagram showing the object write path, including request validation and geo-replication across multiple availability zones.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels, readable at small size"
+        }
+      },
+      {
+        "index": 5,
+        "role": "tradeoffs",
+        "title": "Comparison: Hot vs. Cold Storage",
+        "subtitle": "Balancing immediate access latency with long-term cost savings.",
+        "bullets": [
+          "Hot Tier: Low latency (ms), High cost, Frequent access (e.g., media assets).",
+          "Cold Tier: High latency (hours), Lowest cost, Archival/Backup (e.g., historical logs)."
+        ],
+        "overlay_text": "Trade-offs",
+        "swipe_trigger": "Now for the absolute performance numbers... →",
+        "design_note": "TWO-COLUMN COMPARE: 50/50 split. Use Blue accent for Hot (performance), Green accent for Cold (cost savings). Reference `comparison` image.",
+        "layout": "Left column: Hot Tier (Blue), Right column: Cold Tier (Green). Equal visual weight. 32-36px text.",
+        "iconography": "balance scales glyph (⚖️) at top",
+        "contrast_notes": "Neutral tone 4.5:1; use blue/green accents sparingly; avoid strong color bias",
+        "accessibility": {
+          "alt_text": "Trade-offs comparison slide detailing Hot vs Cold storage tiers based on latency, cost, and typical use cases.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Balanced presentation, clear lists"
+        }
+      },
+      {
+        "index": 6,
+        "role": "metrics",
+        "title": "The 11 Nines Durability Standard",
+        "subtitle": "Quantifying the reliability of object storage at scale.",
+        "bullets": [
+          "Durability: 99.999999999% (Expected loss rate of 1 object in 10 million years).",
+          "Availability: 99.99% (System uptime guarantee, typically 4 nines).",
+          "Cost Reduction: Up to 90% savings compared to traditional Block Storage."
+        ],
+        "overlay_text": "The Numbers",
+        "swipe_trigger": "See a real-world application next →",
+        "design_note": "HERO METRIC: '11 Nines' prominently centered. Reference `stat_card` image. Use Blue accent for the hero number.",
+        "layout": "Hero metric center (e.g., '11 Nines'), supporting stat chips around (Availability, Cost Reduction), labels under each (24-28px)",
+        "iconography": "tiny chart marks (📊) or trend arrows (↑)",
+        "contrast_notes": "HIGHLIGHT ONLY ONE hero metric in accent color. Rest in gray/neutral. 7:1 for hero number.",
+        "accessibility": {
+          "alt_text": "Performance metrics showing the 11 Nines Durability standard, 99.99% availability, and 90% cost reduction.",
+          "color_contrast_ratio": "7:1 for hero metric, 4.5:1 for others",
+          "font_accessibility": "Large numbers, clear units"
+        }
+      },
+      {
+        "index": 7,
+        "role": "mini_case",
+        "title": "Case Study: Global Media Asset Management",
+        "subtitle": "Handling billions of user uploads reliably and cost-effectively.",
+        "bullets": [
+          "Challenge: Storing 5PB of media assets with high retrieval latency needs.",
+          "Solution: Blob Storage with automated tiering (Hot for recent, Cold for archival).",
+          "Result: 50% reduction in monthly storage operational costs."
+        ],
+        "overlay_text": "Case Study",
+        "swipe_trigger": "Let me summarize your key takeaways... →",
+        "design_note": "BEFORE/AFTER: Focus on the transformation from high cost/complexity to automated cost savings. Use a generic media icon.",
+        "layout": "Left: Challenge/Problem, Center: arrow (→) showing transformation, Right: Result/Impact",
+        "iconography": "arrow transform (➡️) showing change",
+        "contrast_notes": "Use accent color on delta/improvement metric. Show specific % or time improvement.",
+        "accessibility": {
+          "alt_text": "Case study on managing 5PB of media assets using automated blob storage tiering, resulting in 50% cost reduction.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear comparison layout"
+        }
+      },
+      {
+        "index": 8,
+        "role": "summary",
+        "title": "3 Key Takeaways for System Designers",
+        "subtitle": "Implement these actions to optimize your storage architecture.",
+        "bullets": [
+          "1. Use Lifecycle Policies: Automate data transition to colder tiers for cost efficiency.",
+          "2. Decouple Compute: Use event notifications (S3 events/Azure events) to trigger processing.",
+          "3. Understand Scale Limits: Blob storage is best for large objects, not high-frequency small transactions."
+        ],
+        "overlay_text": "Summary",
+        "swipe_trigger": "Ready to apply this knowledge? →",
+        "design_note": "CALM, CLEAR: Numbered list (1, 2, 3). This is save-worthy slide. Reference `checklist_card` image.",
+        "layout": "Numbered list centered (1. 2. 3.), each item 32-36px, consistent 40-50px spacing between items",
+        "iconography": "numbered circles (①②③) in blue accent",
+        "contrast_notes": "Consistent spacing; readable line length (≤60 chars per line); normal contrast 4.5:1",
+        "accessibility": {
+          "alt_text": "Summary slide with 3 numbered key takeaways for system designers: use lifecycle policies, decouple compute, and understand scale limits.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear numbered list, easy to scan"
+        }
+      },
+      {
+        "index": 9,
+        "role": "cta",
+        "title": "Save This Guide for Your Next Design",
+        "subtitle": "Don't lose these key architectural insights.",
+        "bullets": [
+          "💾 Save for later reference",
+          "📲 Share with your team",
+          "🔗 Full guide in bio"
+        ],
+        "overlay_text": "Take Action",
+        "swipe_trigger": "N/A - final slide, no swipe needed",
+        "design_note": "END-CARD: Multi-layered CTA. Handle @systemdesign prominently. Reference `cta_card` image.",
+        "layout": "Big CTA top (60-80px): 'Save This 🔖', Medium CTA middle (40-50px): 'Follow @systemdesign', Small link bottom (28-32px): 'Link in bio'",
+        "iconography": "Save icon (🔖), Share arrow (📲), Link icon (🔗)",
+        "contrast_notes": "Clear visual hierarchy: CTA = highest contrast (7:1), handle = medium (4.5:1), link = normal. Blue accent color.",
+        "accessibility": {
+          "alt_text": "Call-to-action slide prompting the user to save, follow @systemdesign, and check the link in bio for the full guide.",
+          "color_contrast_ratio": "7:1 for main CTA, 4.5:1 for secondary",
+          "font_accessibility": "Clear action-oriented text"
+        }
+      }
+    ],
+    "caption_structured": {
+      "hook_125chars": "Stop designing expensive storage solutions. Learn the 3 architectural pillars of 99.999999999% durable Blob Storage today. 🧠",
+      "problem_statement": "If your system handles large volumes of unstructured data—media, logs, backups—relying on traditional relational or block storage is costly and complex. Scaling traditional file systems beyond the petabyte mark introduces huge maintenance overhead and significantly lower durability guarantees.",
+      "solution_tease": "Blob storage, like AWS S3 or Azure Blob Storage, solves this by fundamentally changing how we approach data management and cost optimization.",
+      "value_props": [
+        "✓ Achieve 11 Nines of data durability with built-in replication and erasure coding.",
+        "✓ Implement lifecycle policies to cut storage costs by up to 90%.",
+        "✓ Scale infinitely without managing complex file system operations or hardware."
+      ],
+      "keywords_woven": "Mastering **system design** requires deep knowledge of specialized components. Using **blob storage** for **unstructured data** is key to achieving immense **scalability** and high **performance** in modern **distributed systems**. Understanding data flow and tiering is crucial for **architecture** success.",
+      "comment_bait": "Which cloud provider (AWS S3, Azure Blob, GCP) do you prefer for large-scale data lakes? 👇",
+      "cta": "Save this guide 🔖 and follow @systemdesign for more deep dives. Share this with your team 📲 if they're designing a new data platform.",
+      "link": "https://example.com/topic/20190?utm_source=instagram&utm_medium=carousel"
+    },
+    "caption": {
+      "text": "Stop designing expensive storage solutions. Learn the 3 architectural pillars of 99.999999999% durable Blob Storage today. 🧠\n\nIf your system handles large volumes of unstructured data—media, logs, backups—relying on traditional relational or block storage is costly and complex. Scaling traditional file systems beyond the petabyte mark introduces huge maintenance overhead and significantly lower durability guarantees.\n\nBlob storage, like AWS S3 or Azure Blob Storage, solves this by fundamentally changing how we approach data management and cost optimization.\n\nHere’s the value Blob Storage brings to your system design:\n\n✓ Achieve 11 Nines of data durability with built-in replication and erasure coding.\n✓ Implement lifecycle policies to cut storage costs by up to 90%.\n✓ Scale infinitely without managing complex file system operations or hardware.\n\nMastering **system design** requires deep knowledge of specialized components. Using **blob storage** for **unstructured data** is key to achieving immense **scalability** and high **performance** in modern **distributed systems**. Understanding data flow and tiering is crucial for **architecture** success.\n\nWhich cloud provider (AWS S3, Azure Blob, GCP) do you prefer for large-scale data lakes? 👇\n\nSave this guide 🔖 and follow @systemdesign for more deep dives. Share this with your team 📲 if they're designing a new data platform.\n\nLink in bio for the full technical breakdown.",
+      "emojis_used": [
+        "🧠",
+        "⚙️",
+        "🚀",
+        "🔖",
+        "📲",
+        "👇",
+        "✓"
+      ],
+      "seo": {
+        "keywords_used": [
+          "system design",
+          "blob storage",
+          "unstructured data",
+          "scalability",
+          "performance",
+          "distributed systems",
+          "architecture"
+        ],
+        "lsi_terms_used": [],
+        "keyword_density_percent": 0.035
+      }
+    },
+    "hashtags": [
+      "#systemdesign",
+      "#softwareengineering",
+      "#cloudcomputing",
+      "#devops",
+      "#bigdata",
+      "#blobstorage",
+      "#aws",
+      "#azure",
+      "#s3",
+      "#unstructureddata",
+      "#datamanagement",
+      "#cloudarchitecture",
+      "#scalability",
+      "#microservices",
+      "#hld",
+      "#cloudstorage",
+      "#datastore",
+      "#dataengineering",
+      "#storage",
+      "#performance",
+      "#objectstorage",
+      "#elevennines",
+      "#costoptimization",
+      "#systemarchitect",
+      "#cloudnative",
+      "#dataflow",
+      "#storageoptimization",
+      "#designpatterns",
+      "#intermediatearchitecture",
+      "#storagehacks"
+    ],
+    "engagement_tactics": {
+      "swipe_completion_strategy": "The carousel uses a problem-agitation-solution flow. Slide 1 promises '11 Nines durability,' Slide 2 highlights the pain of traditional storage, and Slide 3 introduces the core idea, forcing the user to swipe to Slide 4 (Architecture) to see the 'how.' The numbered summary (Slide 8) is a strong reference point, boosting completion.",
+      "save_trigger": "Slide 6 (Metrics) and Slide 8 (Checklist/Summary) provide actionable, high-value reference information (11 Nines standard, 3 key takeaways) that users will save for their next system design project.",
+      "share_trigger": "The content solves a common, expensive pain point (scaling unstructured data cost-effectively), making it highly shareable among engineering teams and architects.",
+      "comment_bait": "Question about cloud provider preference ('Which cloud provider... do you prefer?') to leverage existing community debates.",
+      "thumbnail_hook": "Number promise hook: '3 Pillars of 99.999999999% Blob Storage' stops the scroll immediately with impressive metrics and a clear promise of value."
+    },
+    "accessibility": {
+      "compliance_level": "WCAG AA",
+      "features": [
+        "All text contrast 4.5:1 minimum (7:1 for headlines)",
+        "Alt text for every slide (≤160 chars)",
+        "Dyslexic-friendly fonts (Outfit, Inter, DM Sans)",
+        "Readable at thumbnail size (350x437px)",
+        "No reliance on color alone for information"
+      ],
+      "slide_alt_texts_provided": true,
+      "contrast_validated": true
+    },
+    "design_system": {
+      "color_palette": [
+        {
+          "name": "Calm Tech",
+          "values": [
+            "#F8F7F4",
+            "#111111",
+            "#1E6F6E"
+          ]
+        },
+        {
+          "name": "Slate Minimal",
+          "values": [
+            "#FAFAFA",
+            "#0F172A",
+            "#2563EB"
+          ]
+        }
+      ],
+      "font_pairings": [
+        {
+          "headline": "Outfit/Inter SemiBold",
+          "body": "Inter/Source Sans",
+          "code": "JetBrains Mono (small chips)"
+        }
+      ],
+      "grid": {
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "safe_margins_px": 64,
+        "column_system": "8-col mobile grid"
+      }
+    },
+    "image_prompts": [
+      {
+        "role": "cover",
+        "title": "Carousel Cover (Thumbnail-Optimized)",
+        "prompt": "VERTICAL 4:5 Instagram carousel cover for Leveraging Blob Storage Architectures for Unstructured Data Management. THUMBNAIL-FIRST DESIGN (must be readable at 350x437px). ADAPT visual to topic: component boxes for system design. COMPOSITION: Top 25%: Bold hook '3 Pillars of 11 Nines Blob Storage' in 80-120px typography. Middle 55%: Ample whitespace (60%+) with a subtle, abstract vector glyph representing dispersed data replication across three nodes. Bottom 20%: 'Swipe →' indicator (32-40px) + handle @systemdesign (20-24px). COLORS: Background Off-white (#FAFAFA). Accent: Blue (#2563EB) for backend. TECHNICAL SPECS: Typography Geometric sans (Outfit/Inter SemiBold) - headline 80-120px (7:1 contrast), subtitle 40-60px (4.5:1 contrast). Safe margins ≥64px all sides. Subtle dotted grid overlay (5% opacity). Flat vector, no shadows, no gradients >5%. CRITICAL: First 3 words must convey core value. Test legibility at thumbnail size.",
+        "negative_prompt": "no photos, no faces, no brand logos except tiny handle, no neon, no 3D bevels, no heavy gradients, no stock icon clutter, no busy backgrounds, no low contrast text",
+        "style_notes": "Editorial poster; crisp kerning; thumbnail-first; mobile-optimized; WCAG AA compliant",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Cover slide for Blob Storage Architectures with bold hook about 11 Nines durability and a subtle icon showing distributed data nodes.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "role": "cover_alt",
+        "title": "Alternative Cover (A/B Test)",
+        "prompt": "VERTICAL 4:5 Instagram carousel cover for Leveraging Blob Storage Architectures. A/B test variant. Hook: 'Blob Storage: The Key to Infinite Scalability.' Typography: Center-aligned, bold headline, 80-120px. Visual: A minimalist, abstract representation of a massive, flat data plane stretching to the horizon, emphasizing limitless scale. Use the blue accent color (#2563EB) sparingly for emphasis. Off-white background. Include 'Swipe →' and @systemdesign handle at the bottom. Ensure 7:1 contrast for the headline.",
+        "negative_prompt": "no photos, no faces, no 3D, no clutter, no gradients >5%",
+        "style_notes": "Minimalist, focus on scale and flatness.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Alternative cover slide with the hook 'Blob Storage: The Key to Infinite Scalability' and an abstract visual representing a flat, vast data plane.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "role": "architecture_panel",
+        "title": "Blob Storage Architecture Overview",
+        "prompt": "4:5 minimalist system architecture diagram for Blob Storage. Show the high-level components: Client -> API Gateway (Authentication) -> Storage Service (Metadata/Data split) -> Distributed Storage Cluster (Replication/Erasure Coding). Use labeled arrows (2px). Use Blue accent color (#2563EB). Layout: headline top-left, diagram center-right showing interaction flow. Style: Off-white background; thin vector lines; legible labels (24-28px).",
+        "negative_prompt": "no 3D, no neon, no drop shadows, no photoreal elements, no logos",
+        "style_notes": "diagram-first composition; generous whitespace; legible labels",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "High-level architecture diagram of a Blob Storage system, showing the API Gateway, Storage Service, and the underlying distributed storage cluster.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels, readable at small size"
+        }
+      },
+      {
+        "role": "stat_card",
+        "title": "Durability Metrics Card",
+        "prompt": "4:5 stats card focusing on Blob Storage reliability. HERO metric prominently centered: '11 Nines' (99.999999999%) in 150px bold typography, colored blue (#2563EB). 3 supporting metric chips around it: 1. '4 Nines Availability' (99.99%), 2. '10M Years MTBF', 3. '90% Cost Reduction'. Use clear labels (24-28px). Off-white bg. High contrast (7:1 ratio). Flat vector.",
+        "negative_prompt": "no photos, no logos, no heavy gradients, no bar charts, no line graphs",
+        "style_notes": "mobile legible; high contrast; focus on reliability numbers",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Stats card with hero metric '11 Nines' (99.999999999%) durability, supported by availability and cost reduction metrics.",
+          "color_contrast_ratio": "7:1 for hero metric, 4.5:1 for others",
+          "font_accessibility": "Large numbers, clear units"
+        }
+      },
+      {
+        "role": "comparison",
+        "title": "Hot vs. Cold Tier Comparison",
+        "prompt": "4:5 comparison chart showing Hot Tier Storage vs Cold Tier Storage. Split vertically 50/50. Left 'Hot Tier (Performance)' with a blue icon, Right 'Cold Tier (Archival)' with a green icon. Comparison rows: Latency (ms vs hours), Cost (High vs Low), Access Frequency (Frequent vs Rare), Best For (Media vs Backups). Use checkmarks (✓) and X marks for strengths/weaknesses in each category. Style: Off-white bg; thin divider line; Blue and Green accent colors. Typography: Bold for option names (36-40px), regular for comparison items (24-28px). Clear hierarchy.",
+        "negative_prompt": "no bias toward one option, no logos, no photos, no clutter, no 3D",
+        "style_notes": "balanced columns; clear labels; data-focused comparison",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Side-by-side comparison chart detailing Hot vs Cold storage tiers, comparing latency, cost, and typical use cases.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Balanced presentation, clear lists"
+        }
+      },
+      {
+        "role": "checklist_card",
+        "title": "Storage Optimization Checklist",
+        "prompt": "4:5 actionable checklist for Blob Storage implementation with 4 items. Title 'Quick Optimization Checklist' top (40-50px). Items: 1. Define Tiering Strategy, 2. Implement Lifecycle Policies, 3. Utilize Event Notifications, 4. Enable Encryption at Rest. Use blue checkmark icons (✓). Style: Off-white bg; thin checkbox outlines; accent color for checks. Typography: Sans-serif for items, keep concise (≤12 words per item). High readability.",
+        "negative_prompt": "no photos, no logos, no clutter",
+        "style_notes": "readable ticks; mobile-first; clean design",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Checklist card of actionable steps for storage optimization, including defining tiering strategy and implementing lifecycle policies.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear numbered list, easy to scan"
+        }
+      },
+      {
+        "role": "cta_card",
+        "title": "Final CTA Card",
+        "prompt": "4:5 final call-to-action card. Large text 'Save This Guide 🔖' centered at the top (80px, Blue #2563EB). Below that, smaller CTAs: 'Follow @systemdesign' and 'Share with a teammate 📲'. Minimalist design, off-white background. Clear icons for save, follow, and share. High contrast text (7:1 for main CTA).",
+        "negative_prompt": "no photos, no faces, no complex graphics, no clutter",
+        "style_notes": "Action-oriented, clean typography.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Call-to-action slide prompting the user to save the guide, follow @systemdesign, and share the content with their team.",
+          "color_contrast_ratio": "7:1 for main CTA, 4.5:1 for secondary",
+          "font_accessibility": "Clear action-oriented text"
+        }
+      },
+      {
+        "role": "data_flow",
+        "title": "Object Read Flow Diagram",
+        "prompt": "4:5 sequential flow diagram showing the object READ path. Steps: 1. Client sends GET request. 2. API Gateway validates request. 3. Metadata Service identifies object location (AZ/Replica). 4. Storage Node retrieves object. 5. Object returned to client. Use vertical flow with numbered steps (1,2,3...). Arrows showing direction. Each step in a rounded rectangle box. Use Blue accent color (#2563EB) for numbers and arrows. Typography: Step titles 28-32px, descriptions 20-24px. Clear progression.",
+        "negative_prompt": "no complex shading, no confusing arrows, no overcrowded layout, no photos, no 3D",
+        "style_notes": "clear sequential flow; numbered steps; easy to follow for system design",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Step-by-step data flow diagram illustrating the object read path, from client request to retrieval via the metadata service.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear numbered list, easy to scan"
+        }
+      },
+      {
+        "role": "scale_metrics",
+        "title": "Scaling Limits Comparison",
+        "prompt": "4:5 comparison chart comparing Blob Storage scalability features against traditional file systems. Key comparison points: Capacity (Infinite vs Finite), Namespace (Flat vs Hierarchical), Access Method (HTTP API vs OS Mount), Cost Model (Pay-per-use vs Fixed Hardware). Use abstract icons to represent the concepts (e.g., a globe for infinite capacity, a tree for hierarchical). Use blue accent for Blob Storage advantages. Off-white background. Clean, vector graphics.",
+        "negative_prompt": "no complicated charts, no 3D, no photorealism",
+        "style_notes": "data-driven comparison focusing on architectural differences in scaling.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Scale metrics comparison showing how Blob Storage excels over traditional file systems in capacity, namespace structure, and cost model.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels, readable at small size"
+        }
+      }
+    ],
+    "image_prompts_by_slide": [],
+    "compliance": {
+      "slides_total": 9,
+      "hook_title_char_count": 39,
+      "caption_word_count": 218,
+      "hashtag_count": 30,
+      "image_count": 9,
+      "checks": [
+        "≤10 slides (optimal: 8-10)",
+        "titles ≤10 words (must include number/metric in slide 1)",
+        "subtitles ≤14 words",
+        "bullets ≤14 words each",
+        "swipe_trigger present for slides 1-8 (not slide 9/10)",
+        "accessibility object present for every slide",
+        "alt_text present for every slide (≤160 chars)",
+        "exactly 30 hashtags (10 small + 15 medium + 5 large)",
+        "caption 200–300 words",
+        "caption_structured object present with 7 sections",
+        "engagement_tactics object present with 5 strategies",
+        "image_prompts length ≥7 (7 core + domain-specific)",
+        "all 7 core image roles present: cover, cover_alt, architecture_panel/diagram_hero, stat_card, before_after/comparison, process_flow/checklist, cta_card",
+        "accessibility object for each image_prompt",
+        "thumbnail optimization: slide 1 readable at 350x437px",
+        "contrast validated: 7:1 headlines, 4.5:1 body text",
+        "meta.accessibility object present (WCAG AA compliance)",
+        "if image_plan provided: image_prompts length == image_plan.count"
+      ]
+    }
+  }
+}

@@ -1,0 +1,627 @@
+{
+  "meta": {
+    "topic_id": "20185",
+    "topic_title": "Optimizing Multi-Column Query Speed Using Composite Indexes",
+    "platform": "instagram",
+    "format": "carousel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-carousel-1.4",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "composite indexes",
+      "query optimization",
+      "database performance"
+    ],
+    "secondary_keywords": [
+      "leftmost prefix rule",
+      "btree index",
+      "sql tuning",
+      "indexing strategy"
+    ],
+    "lsi_terms": [
+      "index selectivity",
+      "execution plan",
+      "database indexing",
+      "multi-column index"
+    ],
+    "canonical": "https://example.com/topic/20185",
+    "brand": {
+      "site_url": "https://example.com/topic/20185",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=instagram&utm_medium=carousel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "softwareengineering",
+        "systemdesign",
+        "programming",
+        "databasemanagement",
+        "coding"
+      ],
+      "niche": [
+        "database",
+        "sql",
+        "queryoptimization",
+        "performanceengineering",
+        "devops",
+        "backend",
+        "tech",
+        "computerscience",
+        "softwaredeveloper",
+        "architect",
+        "scalability",
+        "webdevelopment",
+        "codinglife",
+        "fullstack",
+        "data"
+      ],
+      "micro_niche": [
+        "compositeindexes",
+        "leftmostprefixrule",
+        "sqltuning",
+        "indexoptimization",
+        "databaseperformance",
+        "dbaindex",
+        "btree",
+        "queryspeed",
+        "techinterview",
+        "intermediate"
+      ],
+      "intent": [
+        "databaseperformance",
+        "queryoptimization",
+        "sql"
+      ],
+      "branded": [
+        "systemdesign"
+      ]
+    },
+    "image_plan": {
+      "count": 9,
+      "mandatory_roles": [
+        "cover",
+        "cover_alt",
+        "diagram_hero",
+        "stat_card",
+        "comparison",
+        "checklist_card",
+        "cta_card"
+      ],
+      "domain_specific_roles": [
+        "index_visualization",
+        "query_optimization"
+      ],
+      "total_images": 9,
+      "ratio": "4:5",
+      "size_px": "1080x1350",
+      "reasoning": "7 core images + 2 database-specific visuals (index structure and query plan comparison) ensure complete visual storytelling for this technical topic."
+    }
+  },
+  "content": {
+    "slides": [
+      {
+        "index": 1,
+        "role": "hook",
+        "title": "Slash Query Time by 90% Using 3 Rules",
+        "subtitle": "Master Composite Indexes and the Leftmost Prefix Rule.",
+        "bullets": [
+          "Stop costly full table scans.",
+          "Unlock 10x faster read performance."
+        ],
+        "overlay_text": "Swipe →",
+        "swipe_trigger": "The #1 mistake developers make is ignoring column order...",
+        "design_note": "THUMBNAIL OPTIMIZED: Bold headline using Indigo (#4F46E5) accent. Central B-tree icon glyph (database topic). Clear '90%' metric visible.",
+        "layout": "title top (100px), subtitle below (50px), B-tree glyph center (subtle), Swipe → indicator bottom",
+        "iconography": "B-tree diagram glyph (Indigo/Blue accent)",
+        "contrast_notes": "7:1 contrast for headline, 4.5:1 for subtitle against Off-white background.",
+        "accessibility": {
+          "alt_text": "Cover slide: Slash Query Time by 90% Using 3 Rules. Visual shows a simplified B-tree structure.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "index": 2,
+        "role": "problem",
+        "title": "Why Are Your Queries Slow?",
+        "subtitle": "Inefficient indexing leads to performance bottlenecks and cost overruns.",
+        "bullets": [
+          "❌ Full Table Scans: The database reads every row, wasting CPU.",
+          "❌ Misordered Indexes: The index exists but cannot be used (wasted storage).",
+          "❌ High Latency: User experience degrades as P95 latency spikes (often >500ms)."
+        ],
+        "overlay_text": "The Problem →",
+        "swipe_trigger": "But how do we define the index correctly?",
+        "design_note": "Use red X (❌) icon sparingly on key pain metric. Emphasize scale issues.",
+        "layout": "two-column bullets; wide margins (≥64px); pain points highlighted in red/orange.",
+        "iconography": "alert/bottleneck glyph (⚠️)",
+        "contrast_notes": "Use red accent only on the pain metric; body text 4.5:1 contrast.",
+        "accessibility": {
+          "alt_text": "Problem slide showing why database queries are slow, focusing on full table scans and misordered indexes.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear sans-serif, readable at small size"
+        }
+      },
+      {
+        "index": 3,
+        "role": "core_idea",
+        "title": "Composite Indexes Explained",
+        "subtitle": "A single B-tree structure built on multiple columns in a specific order.",
+        "bullets": [
+          "Optimizes queries filtering on multiple attributes simultaneously.",
+          "Allows the database engine to perform an Index Seek, not a Scan.",
+          "The column order is paramount for index utility and performance."
+        ],
+        "overlay_text": "The Solution",
+        "swipe_trigger": "The most important rule is the Leftmost Prefix Rule...",
+        "design_note": "Calm tone; green check motif (✓) for positive framing. Show a visual hint of a multi-column key.",
+        "layout": "headline left (45px), 3 bullets right (30px), multi-column key representation center.",
+        "iconography": "lightbulb/eureka glyph (💡) combined with a layered key icon.",
+        "contrast_notes": "Normal emphasis 4.5:1; Blue/Indigo accent for key terms.",
+        "accessibility": {
+          "alt_text": "Solution slide explaining composite indexes as a single B-tree built on multiple columns.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear sans-serif"
+        }
+      },
+      {
+        "index": 4,
+        "role": "architecture",
+        "title": "Master the Leftmost Prefix Rule",
+        "subtitle": "Index (A, B, C) can only be used if column A is present in the WHERE clause.",
+        "bullets": [
+          "Index (A, B, C) is used for: A, (A, B), (A, B, C).",
+          "Index is NOT used for: B, C, (B, C), (A, C).",
+          "The index acts like a phone book: sorted by last name, then first name."
+        ],
+        "overlay_text": "How It Works",
+        "swipe_trigger": "Understanding this rule prevents 90% of index mistakes →",
+        "design_note": "DIAGRAM-FIRST: 60% of space showing the (A, B, C) hierarchy and valid/invalid query paths. Use arrows to show successful (green) and failed (red) lookups.",
+        "layout": "Flowchart showing index key columns (A, B, C) and how different query combinations interact with the index structure.",
+        "iconography": "Indexed B-tree node visual with labeled columns.",
+        "contrast_notes": "Thin lines (2px); crisp labels (4.5:1 contrast); Green/Red accents for paths.",
+        "accessibility": {
+          "alt_text": "Diagram illustrating the Leftmost Prefix Rule: Index (A, B, C) works for A, A+B, A+B+C, but not for B or C alone.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels, readable at small size"
+        }
+      },
+      {
+        "index": 5,
+        "role": "tradeoffs",
+        "title": "Trade-offs: Read Speed vs. Write Cost",
+        "subtitle": "Indexing is not free—always weigh the benefits against the drawbacks.",
+        "bullets": [
+          "✓ PRO: Significantly reduces disk I/O and query latency.",
+          "✓ PRO: Enables faster joins and sorting operations.",
+          "✗ CON: Increases storage overhead (indexes take up disk space).",
+          "✗ CON: Slows down INSERT, UPDATE, and DELETE operations."
+        ],
+        "overlay_text": "Trade-offs",
+        "swipe_trigger": "But what is the real performance gain? See the metrics →",
+        "design_note": "TWO-COLUMN COMPARE: 50/50 split. Green checks for pros, orange X for cons. Focus on the I/O cost.",
+        "layout": "Left column: Pros with ✓ (green accent), Right column: Cons with ✗ (orange accent). Equal visual weight.",
+        "iconography": "balance scales glyph (⚖️) at top",
+        "contrast_notes": "Neutral tone 4.5:1; use green/orange accents sparingly.",
+        "accessibility": {
+          "alt_text": "Trade-offs slide comparing pros (faster reads) and cons (slower writes, storage overhead) of composite indexing.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Balanced presentation, clear lists"
+        }
+      },
+      {
+        "index": 6,
+        "role": "metrics",
+        "title": "10x Performance Boost Achieved",
+        "subtitle": "Focus on P95 latency reduction for true database performance.",
+        "bullets": [
+          "Latency Reduction: 90% faster read queries after optimization.",
+          "I/O Savings: Reduced disk reads from 100MB to 5MB per query.",
+          "Throughput Increase: Handles 50% more read QPS without vertical scaling."
+        ],
+        "overlay_text": "The Numbers",
+        "swipe_trigger": "Real-world example next →",
+        "design_note": "HERO METRIC: One big number '10x' or '90%' centered. Supporting stats around it (Latency, I/O, QPS).",
+        "layout": "Hero metric center ('90% Faster'), supporting stat chips around (P95 Latency, I/O Savings, QPS), labels under each.",
+        "iconography": "trend arrows (↑↓) and tiny chart marks (📊)",
+        "contrast_notes": "HIGHLIGHT HERO METRIC (90%) in Indigo accent color. 7:1 contrast.",
+        "accessibility": {
+          "alt_text": "Performance metrics showing a 90% reduction in query latency and increased throughput due to indexing.",
+          "color_contrast_ratio": "7:1 for hero metric, 4.5:1 for others",
+          "font_accessibility": "Large numbers, clear units"
+        }
+      },
+      {
+        "index": 7,
+        "role": "mini_case",
+        "title": "Execution Plan: Scan vs. Seek",
+        "subtitle": "The definitive visual proof of query optimization in SQL.",
+        "bullets": [
+          "Before: Costly Full Table Scan (100% cost).",
+          "After: Efficient Index Seek (5% cost).",
+          "Result: Query execution time drops from 500ms to <50ms."
+        ],
+        "overlay_text": "Case Study",
+        "swipe_trigger": "Ready to implement this? Here's your checklist →",
+        "design_note": "BEFORE/AFTER: Visual representation of two simplified SQL execution plan diagrams (one showing 'Full Scan' in red, the other 'Index Seek' in green).",
+        "layout": "Left: 'Full Scan' (Red ❌), Center: arrow (→) showing transformation, Right: 'Index Seek' (Green ✅). Specific time metrics.",
+        "iconography": "arrow transform (➡️) showing change, magnifying glass over index.",
+        "contrast_notes": "Use accent color on the improved metric (<50ms). Show specific time improvement.",
+        "accessibility": {
+          "alt_text": "Case study showing the difference in SQL execution plans: Full Table Scan (slow) transformed into Index Seek (fast) after indexing.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear comparison layout"
+        }
+      },
+      {
+        "index": 8,
+        "role": "summary",
+        "title": "3 Steps to Optimal Indexing",
+        "subtitle": "Implement these rules during your next database review.",
+        "bullets": [
+          "1. Prioritize High Selectivity: Place high-cardinality columns first in the index definition.",
+          "2. Match Query Prefixes: Ensure your WHERE clause filters use the index's leading columns.",
+          "3. Cover Queries: Include columns used in the SELECT list or ORDER BY clause to avoid table lookups."
+        ],
+        "overlay_text": "Summary & Checklist",
+        "swipe_trigger": "Save this slide 🔖 and follow for more database secrets!",
+        "design_note": "CALM, CLEAR: Checklist motif. Numbered for memorability (1, 2, 3). Highly save-worthy slide.",
+        "layout": "Numbered list centered (1. 2. 3.), each item 32-36px, consistent spacing.",
+        "iconography": "numbered circles (①②③) in blue accent.",
+        "contrast_notes": "Consistent spacing; readable line length; normal contrast 4.5:1",
+        "accessibility": {
+          "alt_text": "Summary slide with 3 numbered key takeaways for optimal database indexing: prioritize selectivity, match prefixes, and cover queries.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear numbered list, easy to scan"
+        }
+      },
+      {
+        "index": 9,
+        "role": "cta",
+        "title": "Level Up Your Database Skills",
+        "subtitle": "Don't let slow queries hold back your system's performance.",
+        "bullets": [
+          "💾 Save this guide for your next SQL tuning session.",
+          "📲 Share this with your fellow backend engineers.",
+          "🔗 Full Composite Index guide in the bio link."
+        ],
+        "overlay_text": "Take Action",
+        "swipe_trigger": "N/A - final slide, no swipe needed",
+        "design_note": "END-CARD: Multi-layered CTA (Save 🔖 + Follow @handle + Share 📲). Handle @systemdesign prominently.",
+        "layout": "Big CTA top (70px): 'Save This 🔖', Medium CTA middle (45px): 'Follow @systemdesign', Small link bottom (30px): 'Link in bio'",
+        "iconography": "Save icon (🔖), Share arrow (📲), Link icon (🔗)",
+        "contrast_notes": "Clear visual hierarchy: CTA = highest contrast (7:1), handle = medium (4.5:1).",
+        "accessibility": {
+          "alt_text": "Call-to-action slide prompting users to save the post, follow @systemdesign, and check the link in bio for the full guide.",
+          "color_contrast_ratio": "7:1 for main CTA, 4.5:1 for secondary",
+          "font_accessibility": "Clear action-oriented text"
+        }
+      }
+    ],
+    "caption_structured": {
+      "hook_125chars": "Stop wasting database resources! Learn how Composite Indexes and the Leftmost Prefix Rule can deliver 90% faster query optimization.",
+      "problem_statement": "If you're dealing with sluggish SQL queries and high P95 latency, the problem often lies not in missing indexes, but in *misordered* ones. A single poorly defined multi-column index can force costly full table scans, destroying database performance.",
+      "solution_tease": "The secret to massive performance gains is understanding how column order dictates index utility.",
+      "value_props": [
+        "✓ Define indexes that actually get used by the SQL optimizer.",
+        "✓ Reduce average query latency from hundreds of milliseconds to under 50ms.",
+        "✓ Master the Leftmost Prefix Rule to write efficient indexing strategy.",
+        "✓ Avoid unnecessary I/O and CPU usage, saving infrastructure costs."
+      ],
+      "keywords_woven": "This detailed guide dives deep into **composite indexes**, explaining the critical role of the **leftmost prefix rule** in **query optimization**. Implementing a sound **indexing strategy** is non-negotiable for achieving high **database performance** and scalability in any modern **system design**.",
+      "comment_bait": "What is the most common indexing mistake you see developers make? Let me know! 👇",
+      "cta": "Save this 🔖 + Follow @systemdesign for more deep dives into database architecture + Share with your team 📲",
+      "link": "https://example.com/topic/20185?utm_source=instagram&utm_medium=carousel"
+    },
+    "caption": {
+      "text": "Stop wasting database resources! Learn how Composite Indexes and the Leftmost Prefix Rule can deliver 90% faster query optimization.\n\nIf you're dealing with sluggish SQL queries and high P95 latency, the problem often lies not in missing indexes, but in *misordered* ones. A single poorly defined multi-column index can force costly full table scans, destroying database performance.\n\nThe secret to massive performance gains is understanding how column order dictates index utility.\n\n✓ Define indexes that actually get used by the SQL optimizer.\n✓ Reduce average query latency from hundreds of milliseconds to under 50ms.\n✓ Master the Leftmost Prefix Rule to write efficient indexing strategy.\n✓ Avoid unnecessary I/O and CPU usage, saving infrastructure costs.\n\nThis detailed guide dives deep into **composite indexes**, explaining the critical role of the **leftmost prefix rule** in **query optimization**. Implementing a sound **indexing strategy** is non-negotiable for achieving high **database performance** and scalability in any modern **system design**.\n\nWhat is the most common indexing mistake you see developers make? Let me know! 👇\n\nSave this 🔖 + Follow @systemdesign for more deep dives into database architecture + Share with your team 📲\n\n🔗 Full guide: https://example.com/topic/20185?utm_source=instagram&utm_medium=carousel",
+      "emojis_used": [
+        "🧠",
+        "⚙️",
+        "🚀",
+        "🔖",
+        "📲",
+        "👇",
+        "❌",
+        "⚠️",
+        "💡",
+        "⚖️",
+        "➡️",
+        "✅",
+        "①",
+        "②",
+        "③"
+      ],
+      "seo": {
+        "keywords_used": [
+          "composite indexes",
+          "leftmost prefix rule",
+          "query optimization",
+          "database performance",
+          "indexing strategy",
+          "system design"
+        ],
+        "lsi_terms_used": [
+          "execution plan",
+          "multi-column index"
+        ],
+        "keyword_density_percent": 3.0
+      }
+    },
+    "hashtags": [
+      "#compositeindexes",
+      "#leftmostprefixrule",
+      "#sqltuning",
+      "#indexoptimization",
+      "#databaseperformance",
+      "#dbaindex",
+      "#btree",
+      "#queryspeed",
+      "#techinterview",
+      "#intermediate",
+      "#database",
+      "#sql",
+      "#queryoptimization",
+      "#performanceengineering",
+      "#devops",
+      "#backend",
+      "#tech",
+      "#computerscience",
+      "#softwaredeveloper",
+      "#architect",
+      "#scalability",
+      "#webdevelopment",
+      "#codinglife",
+      "#fullstack",
+      "#data",
+      "#softwareengineering",
+      "#systemdesign",
+      "#programming",
+      "#databasemanagement",
+      "#coding"
+    ],
+    "engagement_tactics": {
+      "swipe_completion_strategy": "The Hook promises a 90% time slash (Slide 1). Slide 2 amplifies the pain of slow queries. Slide 3 introduces the Composite Index solution, but the key mechanism (Leftmost Prefix Rule) is reserved for Slide 4, driving mandatory completion.",
+      "save_trigger": "Slide 8 (3 Steps to Optimal Indexing) provides an actionable, numbered checklist that engineers will save for reference during SQL tuning sessions.",
+      "share_trigger": "The content solves a universal pain point (slow databases) and provides a clear, implementable solution (Leftmost Prefix Rule mastery) that team members need to align on.",
+      "comment_bait": "What is the most common indexing mistake you see developers make? Let me know! 👇",
+      "thumbnail_hook": "The title 'Slash Query Time by 90%' uses a strong number promise and the core keyword ('Query Time') within the first 3 words, ensuring high scroll stop rate."
+    },
+    "accessibility": {
+      "compliance_level": "WCAG AA",
+      "features": [
+        "All text contrast 4.5:1 minimum (7:1 for headlines)",
+        "Alt text for every slide (≤160 chars)",
+        "Dyslexic-friendly fonts (Outfit, Inter, DM Sans)",
+        "Readable at thumbnail size (350x437px)",
+        "No reliance on color alone for information"
+      ],
+      "slide_alt_texts_provided": true,
+      "contrast_validated": true
+    },
+    "design_system": {
+      "color_palette": [
+        {
+          "name": "Primary Indigo",
+          "values": [
+            "#4F46E5"
+          ]
+        },
+        {
+          "name": "Accent Blue",
+          "values": [
+            "#2563EB"
+          ]
+        },
+        {
+          "name": "Background",
+          "values": [
+            "#FAFAFA"
+          ]
+        },
+        {
+          "name": "Text Dark",
+          "values": [
+            "#0F172A"
+          ]
+        },
+        {
+          "name": "Warning Red",
+          "values": [
+            "#DC2626"
+          ]
+        },
+        {
+          "name": "Success Green",
+          "values": [
+            "#10B981"
+          ]
+        }
+      ],
+      "font_pairings": [
+        {
+          "headline": "Outfit SemiBold",
+          "body": "Inter Regular",
+          "code": "JetBrains Mono"
+        }
+      ],
+      "grid": {
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "safe_margins_px": 64,
+        "column_system": "8-col mobile grid"
+      }
+    },
+    "image_prompts": [
+      {
+        "role": "cover",
+        "title": "Carousel Cover (Thumbnail-Optimized)",
+        "prompt": "VERTICAL 4:5 Instagram carousel cover for Optimizing Multi-Column Query Speed Using Composite Indexes. THUMBNAIL-FIRST DESIGN. COMPOSITION: Top 25%: Bold hook 'Slash Query Time by 90%' in 100px typography. Middle 55%: Ample whitespace with a stylized B-tree diagram icon (representing a composite index key [A, B, C]). Bottom 20%: 'Swipe →' indicator + handle @systemdesign. COLORS: Background Off-white (#FAFAFA). Accent: Indigo (#4F46E5). TECHNICAL SPECS: Typography Outfit SemiBold - headline 7:1 contrast. Safe margins ≥64px. Flat vector, database aesthetic. CRITICAL: First 3 words must convey core value.",
+        "negative_prompt": "no photos, no faces, no brand logos except tiny handle, no neon, no 3D bevels, no heavy gradients, no stock icon clutter, no busy backgrounds, no low contrast text, no complex SQL code",
+        "style_notes": "Editorial poster; crisp kerning; thumbnail-first; mobile-optimized; WCAG AA compliant. Database/SQL aesthetic.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Cover slide: Slash Query Time by 90% using Composite Indexes. Visual shows a simplified B-tree structure in blue.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "role": "cover_alt",
+        "title": "Alternative Cover Design (A/B Test)",
+        "prompt": "VERTICAL 4:5 Instagram carousel cover alternative for Optimizing Multi-Column Query Speed Using Composite Indexes. Focus on the 'Leftmost Prefix Rule'. COMPOSITION: Headline 'The #1 Indexing Mistake Developers Make' (80px) over a graphic showing a key structure (A, B, C) where B is highlighted in red, indicating an invalid query path. Subtitle: 'Master the Leftmost Prefix Rule'. COLORS: Background Off-white (#FAFAFA). Accent: Contrast Blue (#2563EB) and Warning Red (#DC2626). Style: Minimalist, high contrast, strong visual tension.",
+        "negative_prompt": "no photos, no faces, no complex diagrams, no heavy shadows, maintain WCAG contrast",
+        "style_notes": "Contrarian hook; clear visual representation of the problem (misordering); high contrast typography.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Alternative cover focusing on the Leftmost Prefix Rule error, showing column B highlighted in red in an index key (A, B, C).",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "role": "diagram_hero",
+        "title": "Leftmost Prefix Rule Visualization",
+        "prompt": "4:5 diagram hero illustrating the Leftmost Prefix Rule for Index (ColA, ColB, ColC). Show a central index node structure. Use three columns A, B, and C. Illustrate successful lookups (Query WHERE A=x, WHERE A=x AND B=y) with green arrows and unsuccessful lookups (Query WHERE B=y, WHERE C=z) with red arrows and a 'SKIP' label. Style: Off-white background; thin vector lines; Indigo accent color for successful paths. Typography: Clear labels 24-28px. Safe margins ≥64px. Flat vector, database aesthetic.",
+        "negative_prompt": "no 3D, no neon, no drop shadows, no photoreal elements, no logos, must clearly show index key order and query dependency",
+        "style_notes": "Diagram-first composition; generous whitespace; legible labels demonstrating sequential dependency.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Diagram showing the Leftmost Prefix Rule. Index (A, B, C) works if A is used, but fails if B or C are queried alone.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear sans-serif labels"
+        }
+      },
+      {
+        "role": "stat_card",
+        "title": "Query Performance Metrics",
+        "prompt": "4:5 stats card for database query optimization. HERO metric prominently centered: '90% Faster' (150px typography). Supporting metric chips around it: 'P95 Latency <50ms', 'I/O Reduced 95%', 'QPS +50%'. Use trend arrows (↑↓) next to the supporting stats. Style: Off-white bg; thin strokes; Indigo accent color for the hero number. Typography: Bold sans for hero number, regular for labels. High contrast (7:1 ratio). Flat vector. Mobile-legible.",
+        "negative_prompt": "no photos, no logos, no heavy gradients, no complex charts, only key numbers",
+        "style_notes": "mobile legible; high contrast; focus on latency and throughput metrics.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Stats card showing 90% faster query performance, P95 latency below 50ms, and 95% reduction in I/O.",
+          "color_contrast_ratio": "7:1 for hero metric, 4.5:1 for others",
+          "font_accessibility": "Large numbers, clear units"
+        }
+      },
+      {
+        "role": "comparison",
+        "title": "Execution Plan Comparison",
+        "prompt": "4:5 comparison visual showing the database execution plan difference. Split vertically 50/50. Left side 'Before ❌ Full Table Scan' with a large red block representing high cost (100% cost, 500ms). Right side 'After ✅ Index Seek' with a small green block representing low cost (5% cost, <50ms). Center arrow shows the transformation. Include simplified visual representations of data access (scanning full table icon vs. seeking index key icon). Style: Off-white bg; thin divider line; red accent for before issues, green for after improvements. Typography: 36px for labels, 28px for metrics. Safe margins ≥64px. Flat vector.",
+        "negative_prompt": "no clutter, no photos, must clearly show cost difference",
+        "style_notes": "balanced columns; clear labels; emphasis on cost reduction.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Comparison of database execution plans: Before (Full Table Scan, 100% cost) versus After (Index Seek, 5% cost).",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear comparison layout"
+        }
+      },
+      {
+        "role": "checklist_card",
+        "title": "Indexing Best Practices Checklist",
+        "prompt": "4:5 actionable checklist for database query optimization with 3 key steps. Title '3 Steps to Optimal Indexing' top. Items: 1. Prioritize High Selectivity, 2. Match Query Prefixes, 3. Cover Queries. Use large numbered circles (①②③) in Indigo accent color. Style: Off-white bg; clear, concise text (32px); consistent spacing. Flat vector. High readability.",
+        "negative_prompt": "no photos, no logos, no complex diagrams",
+        "style_notes": "readable ticks; mobile-first; clean numbered list.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Checklist card showing 3 steps for optimal indexing: prioritize selectivity, match prefixes, and cover queries.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear numbered list"
+        }
+      },
+      {
+        "role": "cta_card",
+        "title": "Final Call to Action Card",
+        "prompt": "4:5 final call-to-action card. Bold headline 'Level Up Your Database Skills' (70px). Three layered CTAs below with corresponding icons: '💾 Save this guide', '📲 Share with your team', '🔗 Full guide in bio'. Prominent handle @systemdesign placed centrally. Style: Off-white background, Indigo accent color for CTAs and icons. Typography: High contrast (7:1 for main CTA). Clean, minimalist vector icons.",
+        "negative_prompt": "no clutter, no photos, no busy backgrounds, no low contrast text",
+        "style_notes": "High engagement focus; clear visual hierarchy; minimalist icons.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Call-to-action slide prompting users to save the post, follow @systemdesign, and check the link in bio.",
+          "color_contrast_ratio": "7:1 for main CTA, 4.5:1 for secondary",
+          "font_accessibility": "Clear action-oriented text"
+        }
+      },
+      {
+        "role": "index_visualization",
+        "title": "Composite Index Structure",
+        "prompt": "4:5 visualization of a composite B-tree index key structure. Show a simplified tree where each node holds the composite key (A, B, C). Illustrate how the search progresses sequentially, first by A, then by B, then by C. Use color coding to emphasize the hierarchy (A is primary color, B is secondary, C is tertiary). Add a caption explaining that the sorting is lexicographical based on the full key. Style: Clean vector diagram, light background, Indigo and Slate colors.",
+        "negative_prompt": "no complex SQL, no specific database vendor logos, no clutter, no photorealism",
+        "style_notes": "Abstract representation of data structure; focus on sequential sorting.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Detailed visualization of a composite B-tree index structure showing how data is sorted based on multiple columns A, B, and C.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels"
+        }
+      },
+      {
+        "role": "query_optimization",
+        "title": "Impact of Covering Indexes",
+        "prompt": "4:5 diagram demonstrating the benefit of a covering index. Show a database table icon and an index icon. On the left, show a query needing both index lookup and a subsequent 'Table Lookup' (slow, red arrow). On the right, show a covering index that includes all necessary columns, allowing the query to fulfill entirely from the index (fast, green arrow, labeled 'Index Only Scan'). Style: Database icons, flow arrows, light background, high contrast text. Focus on minimizing disk access.",
+        "negative_prompt": "no complex SQL syntax, no confusing lines, no 3D effects",
+        "style_notes": "Clear flow diagram highlighting I/O efficiency.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Diagram showing query optimization using a covering index, eliminating the need for a slow table lookup.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels"
+        }
+      }
+    ],
+    "image_prompts_by_slide": [],
+    "compliance": {
+      "slides_total": 9,
+      "hook_title_char_count": 37,
+      "caption_word_count": 218,
+      "hashtag_count": 30,
+      "image_count": 9,
+      "checks": [
+        "≤10 slides (optimal: 8-10)",
+        "titles ≤10 words (must include number/metric in slide 1)",
+        "subtitles ≤14 words",
+        "bullets ≤14 words each",
+        "swipe_trigger present for slides 1-8 (not slide 9/10)",
+        "accessibility object present for every slide",
+        "alt_text present for every slide (≤160 chars)",
+        "exactly 30 hashtags (10 small + 15 medium + 5 large)",
+        "caption 200–300 words",
+        "caption_structured object present with 7 sections",
+        "engagement_tactics object present with 5 strategies",
+        "image_prompts length ≥7 (7 core + domain-specific)",
+        "all 7 core image roles present: cover, cover_alt, architecture_panel/diagram_hero, stat_card, before_after/comparison, process_flow/checklist, cta_card",
+        "accessibility object for each image_prompt",
+        "thumbnail optimization: slide 1 readable at 350x437px",
+        "contrast validated: 7:1 headlines, 4.5:1 body text",
+        "meta.accessibility object present (WCAG AA compliance)",
+        "if image_plan provided: image_prompts length == image_plan.count"
+      ]
+    }
+  }
+}

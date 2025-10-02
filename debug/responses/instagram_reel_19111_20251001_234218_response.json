@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "topic_id": "19111",
+    "topic_title": "The Leaky Bucket Algorithm for Traffic Shaping and Rate Limiting",
+    "platform": "instagram",
+    "format": "reel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-reel-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "system design",
+      "rate limiting",
+      "traffic shaping"
+    ],
+    "secondary_keywords": [
+      "leaky bucket",
+      "distributed systems",
+      "API performance"
+    ],
+    "lsi_terms": [
+      "scalability",
+      "token bucket",
+      "bursty traffic"
+    ],
+    "canonical": "https://example.com/topic/19111",
+    "brand": {
+      "siteUrl": "https://example.com/topic/19111",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utmBase": "utm_source=instagram&utm_medium=reel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "tech",
+        "programming",
+        "coding",
+        "software",
+        "engineering"
+      ],
+      "niche": [
+        "systemdesign",
+        "architecture",
+        "scalability",
+        "distributed",
+        "microservices"
+      ],
+      "micro_niche": [
+        "ratelimiting",
+        "trafficshaping",
+        "leakybucket",
+        "tokenbucket",
+        "api"
+      ],
+      "intent": [
+        "interview",
+        "learning",
+        "career",
+        "techskills",
+        "devops"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 3,
+      "roles": [
+        "cover_typography",
+        "diagram_hero",
+        "comparison_chart"
+      ],
+      "ratio": "9:16",
+      "size_px": "1080x1920",
+      "reasoning": "Three images are optimal: a strong typographic hook, a dedicated diagram to visualize the Leaky Bucket mechanism, and a comparison chart to highlight the trade-offs against the Token Bucket."
+    }
+  },
+  "content": {
+    "title": "Leaky Bucket vs. Token Bucket: Which Rate Limiter is Best?",
+    "hook": "Stop letting unpredictable bursty traffic crush your API stability. Here is the classic solution.",
+    "content_segments": [
+      {
+        "label": "Hook",
+        "time_range": "0-3s",
+        "narration": "Is bursty traffic destroying your API stability? You need to understand the Leaky Bucket Algorithm.",
+        "on_screen_text": "BURSTY TRAFFIC KILLING YOUR API?",
+        "visuals": "Fast zoom onto the main text overlay, Indigo accent color flash.",
+        "text_motion": "pop-in, slight shake on 'KILLING'",
+        "b_roll": [
+          "log snippet showing high request volume",
+          "red flashing alert icon"
+        ]
+      },
+      {
+        "label": "Problem",
+        "time_range": "3-10s",
+        "narration": "Uncontrolled request spikes lead to resource exhaustion, high latency, and frequent 503 errors. Traditional limits fail under heavy load.",
+        "on_screen_text": "The problem: UNSTABLE LATENCY & 503s",
+        "visuals": "Graph showing erratic input traffic spike followed by a flat line (service failure).",
+        "b_roll": [
+          "chart flash (erratic line)",
+          "server icon turning red"
+        ]
+      },
+      {
+        "label": "Solution",
+        "time_range": "10-45s",
+        "narration": "The Leaky Bucket is a classic traffic shaper. Think of it as a physical bucket with a hole at the bottom. Incoming requests fill the bucket instantly.",
+        "on_screen_text": "LEAKY BUCKET: The Traffic Smoother",
+        "visuals": "Transition to Diagram Hero (Leaky Bucket visualization). Requests (water drops) filling the bucket.",
+        "b_roll": [
+          "diagram pan"
+        ]
+      },
+      {
+        "label": "Point 1",
+        "time_range": "18-28s",
+        "narration": "Point one: If the bucket overflows, new requests are dropped immediately. This prevents resource overload and guarantees stability.",
+        "on_screen_text": "1. DROPS OVERFLOW (Prevents Overload)",
+        "visuals": "Bucket diagram flashes red when overflow occurs.",
+        "b_roll": [
+          "text highlight"
+        ]
+      },
+      {
+        "label": "Point 2",
+        "time_range": "28-38s",
+        "narration": "Point two: The 'leak rate' is constant, enforcing a smooth, predictable output flow, regardless of how bursty the input was. This is traffic shaping.",
+        "on_screen_text": "2. CONSTANT OUTPUT RATE (Smooths Bursts)",
+        "visuals": "Animated flow showing input spikes but steady output stream.",
+        "b_roll": [
+          "flow animation"
+        ]
+      },
+      {
+        "label": "Comparison",
+        "time_range": "38-45s",
+        "narration": "Unlike Token Bucket, Leaky Bucket strictly limits the output rate, making it perfect for guaranteeing service quality and preventing downstream flooding.",
+        "on_screen_text": "Leaky vs. Token: Output Rate is Key.",
+        "visuals": "Comparison Chart appears: Leaky Bucket (Strict) vs. Token Bucket (Allows Bursts).",
+        "b_roll": [
+          "chart transition"
+        ]
+      },
+      {
+        "label": "CTA",
+        "time_range": "45-60s",
+        "narration": "Master system design and understand these trade-offs. Save this reel and follow for more deep dives!",
+        "on_screen_text": "Save & Follow @systemdesign!",
+        "visuals": "End card frame with brand handle and CTA icons.",
+        "b_roll": [
+          "CTA graphic overlay"
+        ]
+      }
+    ],
+    "script": "[0:00] Is bursty traffic destroying your API stability? You need to understand the Leaky Bucket Algorithm. [0:05] Uncontrolled request spikes lead to resource exhaustion, high latency, and frequent 503 errors. Traditional limits fail under heavy load. [0:12] The Leaky Bucket is a classic traffic shaper. Think of it as a physical bucket with a hole at the bottom. Incoming requests fill the bucket instantly. [0:18] Point one: If the bucket overflows, new requests are dropped immediately. This prevents resource overload and guarantees stability. [0:28] Point two: The 'leak rate' is constant, enforcing a smooth, predictable output flow, regardless of how bursty the input was. This is traffic shaping. [0:38] Unlike Token Bucket, Leaky Bucket strictly limits the output rate, making it perfect for guaranteeing service quality and preventing downstream flooding. [0:42] Master system design and understand these trade-offs. Save this reel and follow for more deep dives!",
+    "on_screen_text_cues": [
+      "0-3s: BURSTY TRAFFIC KILLING YOUR API?",
+      "3-10s: The problem: UNSTABLE LATENCY & 503s",
+      "10-18s: LEAKY BUCKET: The Traffic Smoother",
+      "18-28s: 1. DROPS OVERFLOW (Prevents Overload)",
+      "28-38s: 2. CONSTANT OUTPUT RATE (Smooths Bursts)",
+      "38-45s: Leaky vs. Token: Output Rate is Key.",
+      "45-60s: Save & Follow @systemdesign!"
+    ],
+    "visual_plan": {
+      "camera": "static screen capture focused on diagrams",
+      "motion_graphics": [
+        "type-on keywords",
+        "arrow flow animation",
+        "data packets entering/leaving bucket",
+        "chart comparison highlight"
+      ],
+      "color_palette": "off-white bg, ink black, Indigo (#4F46E5) accent",
+      "safe_margins": "keep titles ≥96px from edges (1080x1920)"
+    },
+    "trending_audio": {
+      "vibe": [
+        "energetic tech",
+        "clean minimal",
+        "future garage"
+      ],
+      "bpm_range": "90–120",
+      "search_terms": [
+        "\"trending\" minimal tech beat",
+        "instrumental future garage",
+        "clean build no vocals"
+      ],
+      "example_hook_lines": [
+        "tight snare build",
+        "subtle drop at ~8s"
+      ],
+      "beat_markers_seconds": [
+        0,
+        3,
+        10,
+        20,
+        35,
+        45
+      ]
+    },
+    "call_to_action": "Follow for more system design tips!",
+    "caption": "When designing high-scale APIs, effective **rate limiting** is non-negotiable. 🛑 While the Token Bucket algorithm allows for bursts, the **Leaky Bucket algorithm** is the ultimate tool for **traffic shaping** and guaranteeing a strictly constant output rate. \n\nThis is crucial in **distributed systems** where preventing downstream service flooding is vital for overall **API performance** and stability. Think of it as stabilizing the water flow, no matter how much water you pour in! Mastering the trade-offs between these two approaches is key for any serious **system design** interview. \n\nWhich rate limiter do you prefer? Let us know! 👇\n\nSave this reel 💾 and follow @systemdesign for more deep dives!\n\nCheck out the full guide: {primary_url}?utm_source=instagram&utm_medium=reel",
+    "hashtags": [
+      "#systemdesign",
+      "#ratelimiting",
+      "#trafficshaping",
+      "#leakybucket",
+      "#tokenbucket",
+      "#architecture",
+      "#scalability",
+      "#distributed",
+      "#microservices",
+      "#performance",
+      "#backend",
+      "#api",
+      "#cloud",
+      "#loadbalancing",
+      "#programming",
+      "#coding",
+      "#software",
+      "#engineering",
+      "#tech",
+      "#devops",
+      "#techinterview",
+      "#interview",
+      "#techskills",
+      "#learntocode",
+      "#codinglife",
+      "#softwareengineering",
+      "#computerscience",
+      "#networkengineering",
+      "#servers",
+      "#learning"
+    ],
+    "music_suggestion": "Energetic tech beat, 90-120 BPM, minimal instrumental",
+    "image_prompts": [
+      {
+        "role": "cover_typography",
+        "title": "Reel Cover B — Bold Typographic Hook",
+        "prompt": "Minimalist vertical cover emphasizing typography for The Leaky Bucket Algorithm for Traffic Shaping and Rate Limiting. Full-bleed off-white background; center-aligned 2-line hook: 'STOP BURSTY TRAFFIC KILLING YOUR API' in geometric sans, using Indigo (#4F46E5) accent color; underline the strongest noun 'TRAFFIC'; small side strip on the right with tiny arrow stack (client → gateway → service → DB) as a motif; include brand handle @systemdesign at bottom-left in micro-type. Maintain generous margins; subtle grid only; ensure extreme readability on mobile. Export as crisp flat vector aesthetic.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos, no neon, no 3D bevels, no fake UI chrome, no stock icon noise",
+        "style_notes": "editorial poster feel; strong kerning; consistent stroke widths",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Vertical typographic cover with minimalist arrow motif highlighting API stability."
+      },
+      {
+        "role": "diagram_hero",
+        "title": "Reel Insert C — Leaky Bucket Diagram",
+        "prompt": "Vertical hero diagram for The Leaky Bucket Algorithm. Large, clean visualization occupying mid 60%. Show a bucket icon with 'Input Requests' arrows flowing in rapidly and an 'Output Queue' arrow flowing out slowly and constantly from the bottom ('Leak Rate'). Label the bucket capacity limit. Use Indigo (#4F46E5) for the flow lines and accents. Off-white background; thin strokes; subtle grid; generous margins; flat vector aesthetic.",
+        "negative_prompt": "no 3D, no logos, no photos, no water textures",
+        "style_notes": "diagram-first; high legibility; mobile-safe",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Hero diagram showing the Leaky Bucket algorithm flow, illustrating bursty input and steady output."
+      },
+      {
+        "role": "comparison_chart",
+        "title": "Reel Insert D — Comparison Chart",
+        "prompt": "Vertical comparison chart contrasting Leaky Bucket vs. Token Bucket. Two columns (Leaky Bucket | Token Bucket) with three rows of features: 'Output Rate' (Constant | Bursty Allowed), 'Traffic Shaping' (Primary Goal | Secondary Goal), 'Complexity' (Simpler | More Complex). Use clean, minimalist typography and Indigo (#4F46E5) highlights. Off-white background; thin vector lines; flat vector aesthetic.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos, no neon, no 3D bevels, no fake UI chrome, no stock icon noise",
+        "style_notes": "data visualization; high contrast; mobile-legible",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Comparison chart detailing the differences between Leaky Bucket and Token Bucket algorithms."
+      }
+    ],
+    "compliance": {
+      "est_duration_seconds": 45,
+      "script_word_count": 115,
+      "hook_char_count": 105,
+      "hashtag_count": 30,
+      "checks": [
+        "≤150 words script",
+        "≤120 chars hook",
+        "CTA present once",
+        "30 unique hashtags",
+        "mobile-safe margins",
+        "image_prompts length equals image_plan.count (3)"
+      ]
+    }
+  }
+}

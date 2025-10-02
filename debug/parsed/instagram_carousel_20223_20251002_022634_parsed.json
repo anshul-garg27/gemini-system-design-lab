@@ -1,0 +1,564 @@
+{
+  "meta": {
+    "topic_id": "20223",
+    "topic_title": "Utilizing Dead Letter Queues (DLQs) for Failure Handling and Analysis",
+    "platform": "instagram",
+    "format": "carousel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-carousel-1.4",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "dead letter queue",
+      "message queue",
+      "failure handling"
+    ],
+    "secondary_keywords": [
+      "distributed systems",
+      "microservices",
+      "poison pill",
+      "retry mechanism"
+    ],
+    "lsi_terms": [
+      "asynchronous processing",
+      "debugging",
+      "message isolation"
+    ],
+    "canonical": "https://example.com/topic/20223",
+    "brand": {
+      "site_url": "https://example.com/topic/20223",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=instagram&utm_medium=carousel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "systemdesign",
+        "softwareengineering",
+        "architecture",
+        "devops",
+        "tech"
+      ],
+      "niche": [
+        "distributedsystems",
+        "microservices",
+        "messagequeue",
+        "dlq",
+        "cloudcomputing",
+        "awsarchitecture",
+        "azure",
+        "googlecloud",
+        "softwarearchitecture",
+        "queuing",
+        "scalability",
+        "reliability",
+        "failurehandling",
+        "asynchronicity",
+        "backend"
+      ],
+      "micro_niche": [
+        "poisonpill",
+        "deadletterqueue",
+        "eventdriven",
+        "retrylogic",
+        "messageisolation",
+        "queueanalysis",
+        "serverlessdev",
+        "cloudnative",
+        "debuggingtools",
+        "systemreliability"
+      ],
+      "intent": [],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 9,
+      "mandatory_roles": [
+        "cover",
+        "cover_alt",
+        "architecture_panel",
+        "stat_card",
+        "before_after",
+        "process_flow",
+        "cta_card"
+      ],
+      "domain_specific_roles": [
+        "architecture_diagram",
+        "data_flow"
+      ],
+      "total_images": 9,
+      "ratio": "4:5",
+      "size_px": "1080x1350",
+      "reasoning": "7 core images + 2 system design domain-specific images (architecture_diagram and data_flow) ensure complete visual storytelling for Instagram Carousel with A/B testing capability."
+    }
+  },
+  "content": {
+    "slides": [
+      {
+        "index": 1,
+        "role": "hook",
+        "title": "Prevent 99% of Queue Failures Instantly",
+        "subtitle": "Master Dead Letter Queues (DLQs) for rock-solid systems.",
+        "bullets": [
+          "Isolate poison pill messages",
+          "Ensure high system throughput"
+        ],
+        "overlay_text": "Swipe →",
+        "swipe_trigger": "Discover the 4-step recovery flow →",
+        "design_note": "THUMBNAIL OPTIMIZED: Use bold blue accent color for the headline. Abstract representation of a queue system with a failure path diverted.",
+        "layout": "title top (80-120px), subtitle below (40-60px), small glyph of queue/diversion bottom-right, heavy whitespace (60%+), Swipe → indicator bottom",
+        "iconography": "tiny diagram glyph hinting core concept (20-30% of space) showing a main queue and a side queue",
+        "contrast_notes": "max contrast headline (7:1 ratio); micro-type for subtitle (4.5:1 WCAG AA minimum)",
+        "accessibility": {
+          "alt_text": "Cover slide for Dead Letter Queues (DLQs) with bold hook promising 99% queue failure prevention.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "index": 2,
+        "role": "problem",
+        "title": "The Danger of Poison Pill Messages",
+        "subtitle": "A single failed message can halt your entire service.",
+        "bullets": [
+          "Infinite Retries: Consumer burns CPU cycles needlessly",
+          "Queue Blockage: Subsequent messages are delayed",
+          "Lost Revenue: Critical data processing stops (e.g., $10K/hour)"
+        ],
+        "overlay_text": "The Problem →",
+        "swipe_trigger": "There is a simple architectural fix →",
+        "design_note": "Use red accent color to highlight the pain points and the '$10K/hour' metric. Bottleneck visual.",
+        "layout": "two-column bullets; wide margins (≥64px); numbers/metrics highlighted in red",
+        "iconography": "alert/bottleneck glyph (⚠️) centered",
+        "contrast_notes": "use red accent only on the pain metric; body text 4.5:1 contrast",
+        "accessibility": {
+          "alt_text": "Problem slide showing pain points of infinite retries and queue blockage, mentioning potential revenue loss.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear sans-serif, readable at small size"
+        }
+      },
+      {
+        "index": 3,
+        "role": "core_idea",
+        "title": "Dead Letter Queues (DLQs) Explained",
+        "subtitle": "A dedicated isolation zone for unprocessable messages.",
+        "bullets": [
+          "DLQs prevent system cascading failures",
+          "Messages are diverted after N retries",
+          "Allows for out-of-band analysis and recovery"
+        ],
+        "overlay_text": "The Solution",
+        "swipe_trigger": "See the full architecture diagram →",
+        "design_note": "Calm tone; green check motif (✓) for positive framing. Introduce the DLQ concept clearly.",
+        "layout": "headline left (40-50px), 2-3 bullets right (28-32px), generous whitespace",
+        "iconography": "lightbulb/eureka glyph (💡) showing the solution concept",
+        "contrast_notes": "Normal emphasis 4.5:1; blue accent for check marks; keep labels short",
+        "accessibility": {
+          "alt_text": "Solution slide explaining DLQs as an isolation zone for unprocessable messages to prevent cascading failures.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear sans-serif"
+        }
+      },
+      {
+        "index": 4,
+        "role": "architecture",
+        "title": "The 4-Step DLQ Processing Flow",
+        "subtitle": "Handling failure gracefully in distributed systems.",
+        "bullets": [
+          "Main Queue: Receives initial request",
+          "Consumer Service: Attempts processing (Max Retries=3)",
+          "Retry Logic: If failure, message returns to Main Queue",
+          "DLQ: Final destination after max retries are exhausted"
+        ],
+        "overlay_text": "How It Works",
+        "swipe_trigger": "But what about trade-offs? →",
+        "design_note": "DIAGRAM-FIRST: 60% of space for visual flow (Main Queue -> Consumer -> Retry Loop -> DLQ). Use System Design blue accent.",
+        "layout": "Block diagram center (500x800px), 2-3 side notes (24-28px) pointing to diagram elements",
+        "iconography": "flowchart arrows illustrating message path",
+        "contrast_notes": "Thin lines (2px); crisp labels (4.5:1 contrast); domain-specific accent color (blue)",
+        "accessibility": {
+          "alt_text": "Architecture diagram showing the 4-step message flow: from main queue through the consumer retry loop to the final DLQ destination.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels, readable at small size"
+        }
+      },
+      {
+        "index": 5,
+        "role": "tradeoffs",
+        "title": "DLQ Trade-offs: Stability vs. Overhead",
+        "subtitle": "Balancing reliability with operational complexity.",
+        "bullets": [
+          "Pro: Guarantees main queue throughput",
+          "Pro: Provides a clear audit trail for debugging",
+          "Con: Requires dedicated monitoring and alerting",
+          "Con: Re-processing DLQ messages needs manual intervention"
+        ],
+        "overlay_text": "Trade-offs",
+        "swipe_trigger": "Now for the numbers... →",
+        "design_note": "TWO-COLUMN COMPARE: 50/50 split. Green checks for pros, orange X for cons. Build trust with honesty.",
+        "layout": "Left column: Pros with ✓ (green accent), Right column: Cons with ✗ (orange accent). Equal visual weight. 32-36px text.",
+        "iconography": "balance scales glyph (⚖️) at top",
+        "contrast_notes": "Neutral tone 4.5:1; use green/orange accents sparingly; avoid strong color bias",
+        "accessibility": {
+          "alt_text": "Trade-offs slide comparing DLQ pros (stability, audit trail) and cons (monitoring overhead, manual reprocessing).",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Balanced presentation, clear lists"
+        }
+      },
+      {
+        "index": 6,
+        "role": "metrics",
+        "title": "Key Metrics for Message Reliability",
+        "subtitle": "Reducing Mean Time To Recovery (MTTR) is key.",
+        "bullets": [
+          "Processing Success Rate: Aim for 99.99%",
+          "DLQ Depth: Should always be near zero (alert on >10)",
+          "MTTR Reduction: Faster issue identification by isolating errors"
+        ],
+        "overlay_text": "The Numbers",
+        "swipe_trigger": "Real-world recovery scenario next →",
+        "design_note": "HERO METRIC: '99.99%' prominently centered. Supporting metrics around it. Use blue accent for the hero number.",
+        "layout": "Hero metric center (e.g., '99.99%'), supporting stat chips around (MTTR, DLQ Depth), labels under each (24-28px)",
+        "iconography": "tiny chart marks (📊) showing system reliability trends",
+        "contrast_notes": "HIGHLIGHT ONLY ONE hero metric in accent color (7:1 ratio). Rest in gray/neutral (4.5:1).",
+        "accessibility": {
+          "alt_text": "Performance metrics showing key reliability goals: 99.99% success rate and MTTR reduction.",
+          "color_contrast_ratio": "7:1 for hero metric, 4.5:1 for others",
+          "font_accessibility": "Large numbers, clear units"
+        }
+      },
+      {
+        "index": 7,
+        "role": "mini_case",
+        "title": "DLQs in Critical Order Processing",
+        "subtitle": "Ensuring high-value transactions are never lost.",
+        "bullets": [
+          "Scenario: Payment gateway timeout causes retry failure",
+          "DLQ Action: Message is isolated, preventing system block",
+          "Recovery: Engineering team manually fixes data integrity issue and re-queues"
+        ],
+        "overlay_text": "Case Study",
+        "swipe_trigger": "Let me summarize... →",
+        "design_note": "BEFORE/AFTER: Use the data flow image to illustrate the message journey from failure to manual recovery/re-queue.",
+        "layout": "Left: Failure state (red icon), Center: arrow (→) showing isolation, Right: Recovery state (green icon)",
+        "iconography": "arrow transform (➡️) showing change in message status",
+        "contrast_notes": "Use accent color on delta/improvement metric. Show specific % or time improvement.",
+        "accessibility": {
+          "alt_text": "Case study showing how DLQs are used in e-commerce to isolate and manually recover failed high-value order processing messages.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear comparison layout"
+        }
+      },
+      {
+        "index": 8,
+        "role": "summary",
+        "title": "3 Steps to Implement DLQs Today",
+        "subtitle": "Actionable checklist for robust asynchronous design.",
+        "bullets": [
+          "1. Set clear MaxReceiveCount (N) for consumers",
+          "2. Configure dedicated alarms on DLQ depth",
+          "3. Define a clear operational runbook for DLQ processing"
+        ],
+        "overlay_text": "Summary",
+        "swipe_trigger": "Ready to apply this? →",
+        "design_note": "CALM, CLEAR: Checklist motif. Numbered for memorability (1, 2, 3). This is save-worthy slide.",
+        "layout": "Numbered list centered (1. 2. 3.), each item 32-36px, consistent 40-50px spacing between items",
+        "iconography": "numbered circles (①②③) in blue accent",
+        "contrast_notes": "Consistent spacing; readable line length (≤60 chars per line); normal contrast 4.5:1",
+        "accessibility": {
+          "alt_text": "Summary slide with 3 numbered key takeaways for immediate DLQ implementation.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear numbered list, easy to scan"
+        }
+      },
+      {
+        "index": 9,
+        "role": "cta",
+        "title": "Stop Losing Messages. Start Analyzing Failures.",
+        "subtitle": "Level up your distributed systems expertise.",
+        "bullets": [
+          "💾 Save for later reference",
+          "📲 Share with your team",
+          "🔗 Full guide in bio"
+        ],
+        "overlay_text": "Take Action",
+        "swipe_trigger": "N/A - final slide, no swipe needed",
+        "design_note": "END-CARD: Multi-layered CTA. Handle @systemdesign prominently. Use blue accent for CTAs.",
+        "layout": "Big CTA top (60-80px): 'Save This 🔖', Medium CTA middle (40-50px): 'Follow @systemdesign', Small link bottom (28-32px): 'Link in bio'",
+        "iconography": "Save icon (🔖), Share arrow (📲), Link icon (🔗)",
+        "contrast_notes": "Clear visual hierarchy: CTA = highest contrast (7:1), handle = medium (4.5:1), link = normal. No clutter.",
+        "accessibility": {
+          "alt_text": "Call-to-action slide with save, follow, and share prompts for the system design handle.",
+          "color_contrast_ratio": "7:1 for main CTA, 4.5:1 for secondary",
+          "font_accessibility": "Clear action-oriented text"
+        }
+      }
+    ],
+    "caption_structured": {
+      "hook_125chars": "Stop losing critical data and prevent system collapse! 🧠 Mastering Dead Letter Queues (DLQs) is the fastest way to boost system reliability by 99%.",
+      "problem_statement": "Ever had a single bad message—a \"poison pill\"—crash your entire asynchronous workflow? Infinite retries burn through resources, block subsequent processing, and can cost high-throughput systems thousands of dollars in lost revenue or downtime. This is a common pain point in complex distributed systems.",
+      "solution_tease": "The architectural solution is surprisingly simple: isolate the failure and keep the line moving ⚙️.",
+      "value_props": [
+        "✓ Guarantees continuous throughput for your main message queue.",
+        "✓ Provides an isolated source of truth for debugging and failure analysis.",
+        "✓ Dramatically reduces Mean Time To Recovery (MTTR) for critical issues."
+      ],
+      "keywords_woven": "By implementing robust `dead letter queue` mechanisms, `microservices` maintain `scalability` and prevent cascading `failure handling` issues. This is crucial for modern `distributed systems` architecture and `asynchronous processing`.",
+      "comment_bait": "What's the highest `MaxReceiveCount` you've set on a queue? Let me know! 👇",
+      "cta": "Save this guide 🔖 + Follow @systemdesign for more deep dives 🚀 + Share with your engineering team 📲.",
+      "link": "https://example.com/topic/20223?utm_source=instagram&utm_medium=carousel"
+    },
+    "caption": {
+      "text": "Stop losing critical data and prevent system collapse! 🧠 Mastering Dead Letter Queues (DLQs) is the fastest way to boost system reliability by 99%.\n\nEver had a single bad message—a \"poison pill\"—crash your entire asynchronous workflow? Infinite retries burn through resources, block subsequent processing, and can cost high-throughput systems thousands of dollars in lost revenue or downtime. This is a common pain point in complex distributed systems.\n\nThe architectural solution is surprisingly simple: isolate the failure and keep the line moving ⚙️.\n\nHere’s why DLQs are non-negotiable for robust backends:\n✓ Guarantees continuous throughput for your main message queue.\n✓ Provides an isolated source of truth for debugging and failure analysis.\n✓ Dramatically reduces Mean Time To Recovery (MTTR) for critical issues.\n\nBy implementing robust `dead letter queue` mechanisms, `microservices` maintain `scalability` and prevent cascading `failure handling` issues. This is crucial for modern `distributed systems` architecture and `asynchronous processing`.\n\nWhat's the highest `MaxReceiveCount` you've set on a queue? Let me know! 👇\n\nSave this guide 🔖 + Follow @systemdesign for more deep dives 🚀 + Share with your engineering team 📲.\nFull guide: https://example.com/topic/20223?utm_source=instagram&utm_medium=carousel",
+      "emojis_used": [
+        "🧠",
+        "⚙️",
+        "🚀",
+        "🔖",
+        "📲",
+        "👇"
+      ],
+      "seo": {
+        "keywords_used": [
+          "dead letter queue",
+          "microservices",
+          "scalability",
+          "failure handling",
+          "distributed systems",
+          "asynchronous processing"
+        ],
+        "lsi_terms_used": [
+          "asynchronous processing",
+          "debugging"
+        ],
+        "keyword_density_percent": 0.027
+      }
+    },
+    "hashtags": [
+      "deadletterqueue",
+      "poisonpill",
+      "eventdriven",
+      "retrylogic",
+      "messageisolation",
+      "queueanalysis",
+      "serverlessdev",
+      "cloudnative",
+      "debuggingtools",
+      "systemreliability",
+      "distributedsystems",
+      "microservices",
+      "messagequeue",
+      "dlq",
+      "cloudcomputing",
+      "awsarchitecture",
+      "azure",
+      "googlecloud",
+      "softwarearchitecture",
+      "queuing",
+      "scalability",
+      "reliability",
+      "failurehandling",
+      "asynchronicity",
+      "backend",
+      "systemdesign",
+      "softwareengineering",
+      "architecture",
+      "devops",
+      "tech"
+    ],
+    "engagement_tactics": {
+      "swipe_completion_strategy": "Slide 1 uses a high-tension promise ('Prevent 99% of Failures') to hook the user. Slide 2 amplifies the pain using specific cost metrics ($10K/hour loss). Slide 3 provides the core solution (DLQ isolation) as a cliffhanger before diving into the architecture (Slide 4), ensuring high swipe-through rate.",
+      "save_trigger": "Slide 8 provides a numbered, actionable 3-step checklist for immediate implementation, making it a valuable reference guide for future projects.",
+      "share_trigger": "The content solves a critical, costly problem (poison pill messages blocking systems) common in distributed systems, prompting engineers to share it with their team or manager.",
+      "comment_bait": "The question 'What's the highest MaxReceiveCount you've set on a queue? 👇' targets specific technical experience and encourages discussion on retry policy nuances.",
+      "thumbnail_hook": "The hook 'Prevent 99% of Queue Failures' uses the Number Promise formula, conveying immediate, high value and stopping the scroll in <0.8s."
+    },
+    "accessibility": {
+      "compliance_level": "WCAG AA",
+      "features": [
+        "All text contrast 4.5:1 minimum (7:1 for headlines)",
+        "Alt text for every slide (≤160 chars)",
+        "Dyslexic-friendly fonts (Outfit, Inter, DM Sans)",
+        "Readable at thumbnail size (350x437px)",
+        "No reliance on color alone for information"
+      ],
+      "slide_alt_texts_provided": true,
+      "contrast_validated": true
+    },
+    "design_system": {
+      "color_palette": [
+        {
+          "name": "Calm Tech",
+          "values": [
+            "#F8F7F4",
+            "#111111",
+            "#1E6F6E"
+          ]
+        },
+        {
+          "name": "Slate Minimal",
+          "values": [
+            "#FAFAFA",
+            "#0F172A",
+            "#2563EB"
+          ]
+        }
+      ],
+      "font_pairings": [
+        {
+          "headline": "Outfit/Inter SemiBold",
+          "body": "Inter/Source Sans",
+          "code": "JetBrains Mono (small chips)"
+        }
+      ],
+      "grid": {
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "safe_margins_px": 64,
+        "column_system": "8-col mobile grid"
+      }
+    },
+    "image_prompts": [
+      {
+        "role": "cover",
+        "title": "DLQ Carousel Cover",
+        "prompt": "VERTICAL 4:5 Instagram carousel cover for 'Utilizing Dead Letter Queues (DLQs) for Failure Handling and Analysis'. THUMBNAIL-FIRST DESIGN. COMPOSITION: Top 25%: Bold hook 'Prevent 99% of Queue Failures Instantly' (80-120px). Middle 55%: Abstract system design glyph showing a main queue flowing smoothly, with a few red, failed messages being diverted into a smaller, isolated blue DLQ box. The failure path is clearly separated. Bottom 20%: 'Swipe →' indicator + handle @systemdesign. COLORS: Background Off-white (#FAFAFA). Accent: System Blue (#2563EB). TECHNICAL SPECS: Typography Geometric sans (Outfit/Inter SemiBold) - headline 80-120px (7:1 contrast). Safe margins ≥64px. Flat vector.",
+        "negative_prompt": "no photos, no faces, no brand logos except tiny handle, no neon, no 3D bevels, no heavy gradients, no stock icon clutter, no busy backgrounds, no low contrast text, do not use the letters D L Q in the diagram itself, only the title.",
+        "style_notes": "Editorial poster; crisp kerning; thumbnail-first; mobile-optimized; WCAG AA compliant",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Cover slide for Dead Letter Queues with bold hook promising 99% queue failure prevention, featuring a diagram showing message diversion.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "role": "cover_alt",
+        "title": "Alternative Cover: Poison Pill Isolation",
+        "prompt": "VERTICAL 4:5 Instagram carousel cover variant. Hook: 'Stop Poison Pill Messages Cold.' Focus on the 'Poison Pill' concept—a single toxic message (represented by a skull icon or red X inside a message box) being safely contained in an isolation box (the DLQ), while the main message stream continues uninterrupted. Use strong contrast between the main flow (green/blue) and the isolated failure (red). Minimalist vector style. Accent: System Blue (#2563EB).",
+        "negative_prompt": "no photos, no faces, no heavy gradients, no clutter, ensure the text is highly readable at thumbnail size.",
+        "style_notes": "A/B test variant; high visual impact focusing on the failure containment benefit.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Alternative cover focusing on isolating 'Poison Pill Messages' using a DLQ container.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "role": "architecture_panel",
+        "title": "4-Step DLQ Flow Diagram",
+        "prompt": "4:5 minimalist flow diagram illustrating the 4-step DLQ processing flow (Slide 4 content). Sequence: [Main Queue] -> [Consumer Service] -> (Internal Decision: Retry Loop, Max 3 attempts) -> IF Success -> [Database]. IF Failure (after 3 attempts) -> [Dead Letter Queue (DLQ)]. Use clean component boxes and labeled arrows. The retry loop section should be clearly visible. Style: Off-white background; thin vector lines (2px); blue accent (#2563EB) for flow components. Labels 24-28px. Mobile-legible.",
+        "negative_prompt": "no 3D, no neon, no drop shadows, no photoreal elements, no logos, avoid clutter in the retry loop visualization.",
+        "style_notes": "diagram-first composition; generous whitespace; legible labels",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Diagram panel showing the 4-step DLQ flow: main queue, consumer retry logic, and conditional routing to the DLQ.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels, readable at small size"
+        }
+      },
+      {
+        "role": "stat_card",
+        "title": "Reliability Metrics Card",
+        "prompt": "4:5 stats card for DLQs focusing on reliability metrics. Hero Metric: '99.99%' (Processing Success Rate) prominently centered (120-180px). Supporting metric chips: 'MTTR Reduced by 60%' (with downward arrow), 'DLQ Depth Alert Threshold: 10' (with alert icon), 'Throughput Maintained: 100%'. Use blue/green accents. Style: Off-white bg; thin strokes; blue accent (#2563EB); subtle grid. High contrast (7:1 ratio). Safe margins ≥64px. Flat vector. Mobile-legible.",
+        "negative_prompt": "no photos, no logos, no heavy gradients, ensure numerical accuracy and clear units.",
+        "style_notes": "mobile legible; high contrast; focus on reliability numbers",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Stats card with hero metric showing 99.99% processing success rate, supported by metrics for MTTR reduction and DLQ depth threshold.",
+          "color_contrast_ratio": "7:1 for hero metric, 4.5:1 for others",
+          "font_accessibility": "Large numbers, clear units"
+        }
+      },
+      {
+        "role": "before_after",
+        "title": "No DLQ vs With DLQ Comparison",
+        "prompt": "4:5 before/after comparison focusing on system stability. Split vertically 50/50. Left 'Before ❌ (No DLQ)': Main Queue, Consumer stuck in infinite red loop, subsequent messages blocked (red warning icon). Right 'After ✅ (With DLQ)': Main Queue flowing smoothly (green check), failed message diverted to a separate, isolated blue DLQ box. Center arrow showing transformation. Label showing 'Throughput Maintained' metric. Style: Off-white bg; red accent for before issues, green for after improvements. Typography: 32-40px for before/after labels. Flat vector.",
+        "negative_prompt": "no clutter, no photos, ensure clear visual difference between the two states.",
+        "style_notes": "balanced columns; clear labels showing throughput difference.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Before and after comparison showing how DLQs prevent queue blockage caused by infinite retries.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear comparison layout"
+        }
+      },
+      {
+        "role": "process_flow",
+        "title": "DLQ Management Checklist",
+        "prompt": "4:5 actionable checklist card for DLQ implementation (Slide 8 content). Title '3 Steps to Implement DLQs Today'. 3 numbered checkmark items vertically stacked: 1. Set clear MaxReceiveCount (N), 2. Configure dedicated alarms on DLQ depth, 3. Define a clear operational runbook. Use blue checkmark icons (✓). Style: Off-white bg; blue accent (#2563EB) for checks; consistent spacing. Typography: Sans-serif for items, concise (≤12 words per item). Safe margins ≥64px. Flat vector.",
+        "negative_prompt": "no photos, no logos, no complex background textures.",
+        "style_notes": "readable ticks; mobile-first; clear numbering.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Checklist of 3 actionable steps to implement DLQs: setting max retries, configuring alarms, and defining a runbook.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear numbered list"
+        }
+      },
+      {
+        "role": "cta_card",
+        "title": "Final CTA Card",
+        "prompt": "4:5 final call-to-action card. Headline: 'Stop Losing Messages. Start Analyzing Failures.' Prominent CTAs: 'Save This 🔖', 'Follow @systemdesign', 'Share with your team 📲'. Use large, bold typography for CTAs. Background off-white (#FAFAFA). Accent color blue (#2563EB). Clean, minimalist design optimized for action. Include the handle @systemdesign clearly.",
+        "negative_prompt": "no clutter, no busy background, no photos, no 3D effects.",
+        "style_notes": "High contrast, clear hierarchy for multiple CTAs.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Call-to-action slide with save, follow @systemdesign, and share prompts.",
+          "color_contrast_ratio": "7:1 for main CTA, 4.5:1 for secondary",
+          "font_accessibility": "Clear action-oriented text"
+        }
+      },
+      {
+        "role": "architecture_diagram",
+        "title": "Consumer Logic and DLQ Routing",
+        "prompt": "4:5 detailed component diagram focusing on the Consumer Service's internal logic for DLQ routing. Show the Consumer component connected to both the Main Queue and the DLQ. Inside the Consumer box, illustrate a decision diamond: 'If Attempts < MaxRetries' (Arrow back to Main Queue) vs. 'Else (Permanent Failure)' (Arrow to DLQ). Use clean, labeled component boxes and blue accent color (#2563EB). Emphasize the conditional routing mechanism.",
+        "negative_prompt": "no 3D, no photorealistic elements, ensure logical flow is clear and unambiguous.",
+        "style_notes": "Detailed system design component view; clear routing logic.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Detailed architecture diagram showing the consumer logic for conditional routing of failed messages to the DLQ based on the retry count.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear component labels"
+        }
+      },
+      {
+        "role": "data_flow",
+        "title": "Message Journey: Failure to Recovery",
+        "prompt": "4:5 sequential flow diagram illustrating the full lifecycle of a message that fails and is recovered (Slide 7 content). Steps: 1. Order Request (Main Queue, Green) -> 2. Consumer attempts (Red X) -> 3. DLQ Isolation (Blue Box) -> 4. Manual Analysis/Fix (Wrench Icon) -> 5. Re-queue to Main Queue for successful processing (Green Check). Use numbered steps and arrows showing direction. Style: Off-white bg; thin connecting arrows; blue accent for DLQ state, green for success. Flat vector. Clear progression.",
+        "negative_prompt": "no confusing arrows, no overcrowding, ensure the recovery step is clearly visible.",
+        "style_notes": "clear sequential flow; numbered steps; easy to follow recovery path.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Data flow visualization showing the journey of a failed message from isolation in the DLQ to manual fix and successful re-queue.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels for each stage"
+        }
+      }
+    ],
+    "image_prompts_by_slide": []
+  }
+}

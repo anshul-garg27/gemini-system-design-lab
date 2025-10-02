@@ -1,0 +1,624 @@
+{
+  "meta": {
+    "topic_id": "20185",
+    "topic_title": "Optimizing Multi-Column Query Speed Using Composite Indexes",
+    "platform": "instagram",
+    "format": "reel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-reel-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "Composite Index",
+      "Query Optimization",
+      "Leftmost Prefix Rule"
+    ],
+    "secondary_keywords": [
+      "Database Performance",
+      "Index Order",
+      "B-tree"
+    ],
+    "lsi_terms": [
+      "SQL Tuning",
+      "Multi-Column Query",
+      "Selectivity"
+    ],
+    "canonical": "https://example.com/topic/20185",
+    "brand": {
+      "siteUrl": "https://example.com/topic/20185",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utmBase": "utm_source=instagram&utm_medium=reel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "tech",
+        "programming",
+        "coding",
+        "software",
+        "engineering"
+      ],
+      "niche": [
+        "systemdesign",
+        "architecture",
+        "scalability",
+        "database",
+        "queryoptimization"
+      ],
+      "micro_niche": [
+        "compositeindex",
+        "leftmostprefixrule",
+        "sqltuning",
+        "dbperformance",
+        "btree"
+      ],
+      "intent": [
+        "interview",
+        "learning",
+        "career",
+        "skills"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 10,
+      "mandatory_roles": [
+        "cover_hook",
+        "cover_alt",
+        "diagram_hero",
+        "comparison",
+        "stat_card",
+        "process_flow",
+        "cta_endcard"
+      ],
+      "domain_specific_roles": [
+        "query_optimization",
+        "index_visualization",
+        "schema_diagram"
+      ],
+      "total_images": 10,
+      "reasoning": "7 core images + 3 domain-specific (Database) visuals covering index structure, query speed comparison, and prefix rule demonstration are essential for teaching this complex optimization technique."
+    },
+    "accessibility": {
+      "captions_included": true,
+      "alt_text_all_images": true,
+      "color_contrast_checked": true,
+      "dyslexic_friendly_fonts": true
+    }
+  },
+  "content": {
+    "title": "500ms to 5ms: The Composite Index Trick Every Engineer Needs",
+    "hook": "Stop writing slow database queries. This composite index trick can take your multi-column WHERE clause from 500 milliseconds down to 5.",
+    "content_segments": [
+      {
+        "label": "Hook",
+        "time_range": "0-3s",
+        "narration": "Stop writing slow database queries. This composite index trick can take your multi-column WHERE clause from 500 milliseconds down to 5.",
+        "on_screen_text": "500ms to 5ms in 3 Steps ⚡",
+        "visuals": "Cover hook image with bright accent color and large numbers.",
+        "text_motion": "scale_up_bounce",
+        "text_position": "center_upper",
+        "b_roll": [
+          "Fast paced cuts",
+          "Metric flashing"
+        ]
+      },
+      {
+        "label": "Problem",
+        "time_range": "3-10s",
+        "narration": "If you query on multiple fields, like user ID and status, a simple single-column index won't cut it. Your database scans too many rows, crushing performance when tables scale.",
+        "on_screen_text": "Single Index = Slow Scans",
+        "visuals": "Comparison image (Slow side) showing wide table scan.",
+        "text_motion": "slide_up_fade",
+        "text_position": "center",
+        "b_roll": [
+          "Red log snippet",
+          "Query time metric spike"
+        ]
+      },
+      {
+        "label": "Solution",
+        "time_range": "10-42s",
+        "narration": "The fix is a composite index. It’s a single B-tree structure built across both columns. But index order is everything! You must follow the Leftmost Prefix Rule. Place the most selective column first—the one that filters the most results—for maximum efficiency. If you query on A, B, and C, the index must start with A. If you only query on B and C, the index is useless. Indexing user ID and status only works if your query includes user ID. Get the order wrong, and you lose all your speed gains.",
+        "on_screen_text": "1. Composite Index\n2. Leftmost Prefix Rule\n3. Selectivity First",
+        "visuals": "Sequence of Index Visualization, Process Flow, and Detailed Query Optimization comparison.",
+        "text_motion": "pop_in",
+        "text_position": "center",
+        "b_roll": [
+          "Diagram pan",
+          "B-tree structure highlight",
+          "Before/After query speed"
+        ]
+      },
+      {
+        "label": "CTA",
+        "time_range": "42-48s",
+        "narration": "Ready to tune your database for peak performance? Save this reel for your next deployment and follow for more deep-dive performance tips!",
+        "on_screen_text": "Save This 💾 & Follow @systemdesign",
+        "visuals": "CTA Endcard frame with brand handle.",
+        "text_motion": "fade_in",
+        "text_position": "center_lower",
+        "b_roll": [
+          "logo-free end card motif"
+        ]
+      }
+    ],
+    "script": "[0:00] Stop writing slow database queries. This composite index trick can take your multi-column WHERE clause from 500 milliseconds down to 5. [0:03] If you query on multiple fields, like user ID and status, a simple single-column index won't cut it. Your database scans too many rows, crushing performance when tables scale. [0:10] The fix is a composite index. It’s a single B-tree structure built across both columns. [0:15] But index order is everything! You must follow the Leftmost Prefix Rule. [0:25] Place the most selective column first—the one that filters the most results—for maximum efficiency. [0:30] If you query on A, B, and C, the index must start with A. If you only query on B and C, the index is useless. [0:38] Get the order wrong, and you lose all your speed gains. [0:42] Ready to tune your database for peak performance? Save this reel for your next deployment and follow for more deep-dive performance tips!",
+    "on_screen_text_cues": [
+      "0-3s: 500ms to 5ms in 3 Steps ⚡",
+      "3-10s: Single Index = Slow Scans",
+      "10-15s: Composite Index B-Tree",
+      "15-25s: CRITICAL: Leftmost Prefix Rule",
+      "25-42s: 1. Composite Index, 2. Leftmost Prefix Rule, 3. Selectivity First",
+      "42-48s: Save This 💾 & Follow @systemdesign"
+    ],
+    "transitions": [
+      {
+        "from_segment": "Hook",
+        "to_segment": "Problem",
+        "type": "hard_cut",
+        "timing": "3.0s",
+        "effect": "text_swipe_left"
+      },
+      {
+        "from_segment": "Problem",
+        "to_segment": "Solution",
+        "type": "zoom_in",
+        "timing": "10.0s",
+        "effect": "diagram_reveal"
+      },
+      {
+        "from_segment": "Solution",
+        "to_segment": "CTA",
+        "type": "fade",
+        "timing": "42.0s",
+        "effect": "endcard_fade_in"
+      }
+    ],
+    "text_animations": [
+      {
+        "time_range": "0-3s",
+        "text": "500ms to 5ms in 3 Steps ⚡",
+        "animation_in": "scale_up_bounce",
+        "animation_out": "fade_out",
+        "position": "center_upper",
+        "size_px": 120,
+        "color": "#06B6D4",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "0.0s",
+        "disappears_at": "3.3s"
+      },
+      {
+        "time_range": "3-10s",
+        "text": "Single Index = Slow Scans",
+        "animation_in": "slide_up_fade",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 80,
+        "color": "#EF4444",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "3.0s",
+        "disappears_at": "10.3s"
+      },
+      {
+        "time_range": "10-42s",
+        "text": "1. Composite Index\n2. Leftmost Prefix Rule\n3. Selectivity First",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 70,
+        "color": "#2563EB",
+        "duration_in": "0.3s",
+        "duration_out": "0.3s",
+        "appears_at": "10.0s",
+        "disappears_at": "42.3s"
+      },
+      {
+        "time_range": "42-48s",
+        "text": "Save This 💾 & Follow @systemdesign",
+        "animation_in": "fade_in_out",
+        "animation_out": "fade_out",
+        "position": "center_lower",
+        "size_px": 90,
+        "color": "#06B6D4",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "42.0s",
+        "disappears_at": "48.0s"
+      }
+    ],
+    "pacing": {
+      "edit_frequency_seconds": 1.7,
+      "pattern_interrupt_at": 15,
+      "scene_count": 10,
+      "avg_scene_duration": 4.8,
+      "total_cuts": 28
+    },
+    "first_frame": {
+      "description": "Bold hook text '500ms to 5ms' with simplified B-tree diagram and bright Cyan accent color",
+      "text_readable_at_thumbnail": true,
+      "visually_striking": true,
+      "text_size_px": 140,
+      "includes": "hook_text + topic_visual + accent_color"
+    },
+    "loop_potential": {
+      "enabled": true,
+      "last_frame_connects_to_first": true,
+      "rewatch_trigger": "The final frame emphasizes performance gain, which is the core promise of the hook (500ms to 5ms).",
+      "callback_element": "Final CTA mentions 'peak performance' and 'deep-dive tips' referencing the initial speed boost."
+    },
+    "visual_plan": {
+      "camera": "close-up on diagram → screen capture → mid-shot on text",
+      "motion_graphics": [
+        "type-on keywords",
+        "arrow pull showing data flow",
+        "metric callout zoom"
+      ],
+      "color_palette": "off-white bg, ink black, accent Blue (#2563EB) and Cyan (#06B6D4)",
+      "safe_margins": "keep titles ≥96px from edges (1080x1920)"
+    },
+    "trending_audio": {
+      "vibe": [
+        "energetic tech",
+        "clean minimal",
+        "future garage"
+      ],
+      "bpm_range": "90–120",
+      "search_terms": [
+        "\"trending\" minimal tech beat",
+        "instrumental future garage",
+        "clean build no vocals"
+      ],
+      "example_hook_lines": [
+        "tight snare build",
+        "subtle drop at ~8s"
+      ],
+      "beat_markers_seconds": [
+        0,
+        3,
+        10,
+        15,
+        20,
+        30,
+        40,
+        45
+      ],
+      "sync_points": [
+        {
+          "beat": 0,
+          "action": "hook_text_pop"
+        },
+        {
+          "beat": 3,
+          "action": "problem_reveal"
+        },
+        {
+          "beat": 10,
+          "action": "solution_point_1"
+        },
+        {
+          "beat": 15,
+          "action": "pattern_interrupt"
+        },
+        {
+          "beat": 20,
+          "action": "solution_point_2"
+        },
+        {
+          "beat": 30,
+          "action": "solution_point_3"
+        },
+        {
+          "beat": 45,
+          "action": "cta_fade_in"
+        }
+      ],
+      "drop_moment": "15s",
+      "energy_curve": "build_0-15s, sustain_15-40s, outro_40-48s"
+    },
+    "call_to_action": "Follow for more system design tips!",
+    "engagement_tactics": {
+      "comment_bait": "Which database engine struggles the most with indexing? MySQL, Postgres, or something else? 👇",
+      "save_trigger": "Save this Composite Index guide for your next system design interview 💾",
+      "share_trigger": "Tag a backend engineer who needs to speed up their SQL queries! 🔥",
+      "pattern_interrupt": "Color flash + zoom at 15s mark on the 'Leftmost Prefix Rule' text.",
+      "loop_element": "CTA references peak performance, encouraging rewatch to find the 500ms to 5ms trick."
+    },
+    "caption_structured": {
+      "hook_125chars": "Stop wasting time with slow SQL queries! Learn the Composite Index trick that instantly cuts latency from 500ms to 5ms.",
+      "problem_statement": "If your database queries involve multiple columns in the WHERE clause, a standard index is often inefficient. This leads to excessive row scanning and painful latency as your tables grow, killing your database performance.",
+      "solution_tease": "The secret is understanding index order and the crucial Leftmost Prefix Rule.",
+      "value_props": [
+        "✓ Cut query latency by up to 99%",
+        "✓ Master the Leftmost Prefix Rule for optimal indexing",
+        "✓ Design high-performance database schemas"
+      ],
+      "keywords_woven": "Optimizing multi-column query speed requires mastering the Composite Index and understanding the B-tree structure. Correct Index Order is key to improving Database Performance.",
+      "comment_bait": "Which database engine struggles the most with indexing? MySQL, Postgres, or something else? 👇",
+      "cta": "Save this 💾 + Follow @systemdesign for more deep-dive performance tips!",
+      "link": "https://example.com/topic/20185?utm_source=instagram&utm_medium=reel"
+    },
+    "caption": "Stop wasting time with slow SQL queries! Learn the Composite Index trick that instantly cuts latency from 500ms to 5ms. \n\nIf your database queries involve multiple columns in the WHERE clause, a standard index is often inefficient. This leads to excessive row scanning and painful latency as your tables grow, killing your database performance. The secret is understanding index order and the crucial Leftmost Prefix Rule.\n\nHere’s how to optimize multi-column query speed:\n✓ Cut query latency by up to 99%\n✓ Master the Leftmost Prefix Rule for optimal indexing\n✓ Design high-performance database schemas\n\nOptimizing multi-column query speed requires mastering the Composite Index and understanding the B-tree structure. Correct Index Order is key to improving Database Performance.\n\nWhich database engine struggles the most with indexing? MySQL, Postgres, or something else? 👇\n\nSave this 💾 + Follow @systemdesign for more deep-dive performance tips! Full guide: https://example.com/topic/20185?utm_source=instagram&utm_medium=reel",
+    "hashtags": [
+      "#database",
+      "#sql",
+      "#queryoptimization",
+      "#compositeindex",
+      "#dbperformance",
+      "#sqltuning",
+      "#indexing",
+      "#btree",
+      "#databaseadmin",
+      "#databasemanagement",
+      "#systemdesign",
+      "#softwareengineering",
+      "#backend",
+      "#scalability",
+      "#architecture",
+      "#devops",
+      "#tech",
+      "#programming",
+      "#coding",
+      "#techinterview",
+      "#codinginterview",
+      "#learntocode",
+      "#softwaredeveloper",
+      "#programmingtips",
+      "#techcareer",
+      "#performanceengineering",
+      "#leftmostprefixrule",
+      "#indexorder",
+      "#systemdesigninterview"
+    ],
+    "music_suggestion": "Energetic tech beat, 90-120 BPM, minimal instrumental",
+    "image_prompts": [
+      {
+        "role": "cover_hook",
+        "title": "Reel Cover — Hook Driven (Main)",
+        "prompt": "VERTICAL 9:16 Instagram Reel cover for 'Optimizing Multi-Column Query Speed Using Composite Indexes'. FIRST FRAME OPTIMIZED for thumbnail and scroll-stopping. DOMAIN: Database optimization.
+
+COMPOSITION:
+- Top 25%: Bold hook text: '500ms to 5ms: The Index Order Trick.' in 120-140px geometric sans, Cyan (#06B6D4) accent color.
+- Middle 50%: Abstract B-tree structure visualization. A thick blue (#2563EB) arrow shows a fast, direct path (index seek) through the tree, bypassing large sections.
+- Bottom 25%: Subtle brand mark @systemdesign.
+
+TECHNICAL SPECS:
+- Background: Off-white (#FAFAFA)
+- Safe margins: ≥96px all sides (Instagram UI safe area)
+- Text contrast: 4.5:1 minimum
+- Style: Flat vector, thin lines, minimalist, mobile-first.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos except tiny watermark, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no gradients >5%, no drop shadows, no text baked into complex diagram",
+        "style_notes": "Whiteboard-meets-editorial; technical yet accessible; elegant minimalism; thumbnail-optimized",
+        "accessibility": {
+          "alt_text": "Instagram Reel cover for Query Optimization with hook text '500ms to 5ms: The Index Order Trick' over a simplified B-tree diagram.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Dyslexic-friendly geometric sans"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "cover_alt",
+        "title": "Reel Cover Alt — Typography Focus (A/B Test)",
+        "prompt": "Alternative vertical cover for A/B testing. TYPOGRAPHY-FOCUSED design for 'Optimizing Multi-Column Query Speed Using Composite Indexes'.
+
+LAYOUT: Minimalist, text-first approach. Center-aligned 2-line hook: 'Composite Indexes: Are You Violating the Prefix Rule?' in bold geometric sans. Underline 'Prefix Rule' in Cyan. Small visual element on side: simple vertical line graph showing latency dropping sharply.
+
+STYLE: Same color palette (Blue/Cyan) but different emphasis. More whitespace, bolder typography, minimal visual elements.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos except tiny watermark, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no gradients >5%, no drop shadows, no text baked into complex diagram",
+        "style_notes": "Editorial poster; strong kerning; minimal visual noise; text-centric",
+        "accessibility": {
+          "alt_text": "Alternative Reel cover with typographic emphasis for Composite Index Optimization, asking if the Prefix Rule is being violated.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Dyslexic-friendly"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "diagram_hero",
+        "title": "Core Concept Diagram: Composite B-Tree Structure",
+        "prompt": "Vertical hero diagram for 'Optimizing Multi-Column Query Speed Using Composite Indexes'. PRIMARY EDUCATIONAL VISUAL.
+
+COMPOSITION: Main concept visualization occupying middle 60%. Show a simplified B-tree structure. Each node contains a tuple of two columns, e.g., (A, B). Clearly label the index as 'INDEX (A, B)'. Highlight column A (the leftmost prefix) in Cyan (#06B6D4) to show its primary sorting role.",
+        "negative_prompt": "no 3D, no photos, no clutter, no decorative elements that distract from learning",
+        "style_notes": "Diagram-first; educational clarity; high legibility; concept over aesthetics",
+        "accessibility": {
+          "alt_text": "Diagram explaining the core structure of a Composite Index B-tree, showing nodes sorted by column A then column B.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels, dyslexic-friendly"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "comparison",
+        "title": "Before/After Query Performance Comparison",
+        "prompt": "Split vertical comparison for query speed. Show 'SLOW (No Index)' vs 'FAST (Composite Index)'.
+
+LAYOUT: Vertical split. Top 45% labeled 'SLOW (500ms)' in red, showing a query path scanning across a wide, scattered data set. Bottom 45% labeled 'FAST (5ms)' in blue/cyan, showing a query path taking a straight, narrow line directly to the result set. Key takeaway text in middle: '99% Latency Reduction'.",
+        "negative_prompt": "no clutter, no 3D, no confusing layouts",
+        "style_notes": "Clear contrast; easy comparison; visual distinction between options",
+        "accessibility": {
+          "alt_text": "Comparison showing a slow query (500ms) with a full scan versus a fast query (5ms) using a Composite Index.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "stat_card",
+        "title": "Key Metrics/Numbers Visualization",
+        "prompt": "Bold stat card for 'Optimizing Multi-Column Query Speed Using Composite Indexes'. NUMBER-FIRST design.
+
+LAYOUT: Center-focused. Large number '99%' (180px bold, Cyan accent). Context text above: 'Performance Boost'. Supporting visual element: A large upward trending arrow or a speedometer graphic hitting max speed.",
+        "negative_prompt": "no clutter, no stock icons, no decorative fluff",
+        "style_notes": "Number-first; high impact; memorable; clear context",
+        "accessibility": {
+          "alt_text": "Statistics card showing a 99% performance boost achieved through index optimization.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Large numbers, clear context"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "process_flow",
+        "title": "Step-by-Step Index Optimization Process",
+        "prompt": "Vertical flow diagram for Composite Index Optimization. STEP-BY-STEP PROCESS.
+
+LAYOUT: 3 steps stacked vertically in blue cards connected by downward arrows.
+Step 1: Identify Multi-Column WHERE
+Step 2: Determine Column Selectivity
+Step 3: Define Index Order (Selective First)
+Clean, minimal, educational style.",
+        "negative_prompt": "no clutter, no 3D, no complex diagrams",
+        "style_notes": "Flow-focused; clear progression; numbered steps; easy to follow",
+        "accessibility": {
+          "alt_text": "Process flow diagram showing 3 steps for query optimization: Identify WHERE, Determine Selectivity, Define Index Order.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Step numbers and labels clear"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "cta_endcard",
+        "title": "Call-to-Action Endcard (Final Frame)",
+        "prompt": "Final CTA endcard. ACTION-ORIENTED design.
+
+LAYOUT: Center-focused. Bold CTA text at center: 'Save this 💾 + Follow for more'. Brand handle @systemdesign clearly visible at the bottom. Small icons for Save/Follow/Share actions rendered minimally.",
+        "negative_prompt": "no clutter, no busy backgrounds, no multiple competing CTAs",
+        "style_notes": "CTA-first; clear single action; brand visible; action-oriented",
+        "accessibility": {
+          "alt_text": "Call-to-action endcard with Save, Follow, and Share prompts for Optimizing Multi-Column Query Speed.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear CTA text"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "query_optimization",
+        "title": "Query vs Index Match Visual",
+        "prompt": "Vertical visualization comparing successful and failed index usage based on the Leftmost Prefix Rule. Show two scenarios. SCENARIO 1 (Green/Success): Query uses `WHERE A=X AND B=Y`. Index `(A, B, C)` is highlighted as fully utilized. SCENARIO 2 (Red/Failure): Query uses `WHERE B=Y AND C=Z`. Index `(A, B, C)` is shown with only partial or no utilization, highlighting the inefficiency.",
+        "negative_prompt": "no photorealism, ensure clear distinction between success and failure scenarios",
+        "style_notes": "Code snippet style visualization; syntax highlighting for clarity; high contrast",
+        "accessibility": {
+          "alt_text": "Visual demonstrating the Leftmost Prefix Rule: a query using the leading column A succeeds, while a query starting with column B fails to utilize the index (A, B, C).",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "index_visualization",
+        "title": "Leftmost Prefix Rule Focus",
+        "prompt": "Detailed vertical diagram focusing only on the Leftmost Prefix Rule. Show an index defined as `CREATE INDEX idx_abc ON table (A, B, C)`. Use three distinct boxes for A, B, and C. A large arrow labeled 'Query Path' originates from A, demonstrating that A is mandatory for index usage. Show secondary arrows originating from A to B, and B to C, demonstrating optionality and order dependency.",
+        "negative_prompt": "no clutter, must clearly illustrate directional dependency",
+        "style_notes": "Educational diagram; directional arrows; clear labeling of index components",
+        "accessibility": {
+          "alt_text": "Detailed visualization of the Leftmost Prefix Rule showing how index columns A, B, and C must be accessed starting with A.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "schema_diagram",
+        "title": "Table Schema and Index Definition",
+        "prompt": "Simple vertical schema visualization of a database table (e.g., 'Orders'). Columns listed: `order_id (PK)`, `customer_id`, `status`, `order_date`. Highlight `customer_id` and `status` in Cyan. Below the table, show the SQL command: `CREATE INDEX idx_cust_status ON Orders (customer_id, status)` to visually connect the definition to the schema.",
+        "negative_prompt": "no complex ER diagrams, keep the schema simple and focused on the indexed columns",
+        "style_notes": "Minimalist table representation; focus on indexed columns and definition.",
+        "accessibility": {
+          "alt_text": "Simple database schema diagram for an Orders table, highlighting customer_id and status as columns used for the composite index definition.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear code text"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      }
+    ],
+    "accessibility": {
+      "auto_captions": [
+        {
+          "time": "0.0-3.0s",
+          "text": "Stop writing slow database queries. This composite index trick can take your multi-column WHERE clause from 500 milliseconds down to 5."
+        },
+        {
+          "time": "3.0-10.0s",
+          "text": "If you query on multiple fields, like user ID and status, a simple single-column index won't cut it. Your database scans too many rows, crushing performance when tables scale."
+        },
+        {
+          "time": "10.0-15.0s",
+          "text": "The fix is a composite index. It’s a single B-tree structure built across both columns."
+        },
+        {
+          "time": "15.0-25.0s",
+          "text": "But index order is everything! You must follow the Leftmost Prefix Rule."
+        },
+        {
+          "time": "25.0-35.0s",
+          "text": "Place the most selective column first—the one that filters the most results—for maximum efficiency."
+        },
+        {
+          "time": "35.0-42.0s",
+          "text": "Indexing user ID and status only works if your query includes user ID. Get the order wrong, and you lose all your speed gains."
+        },
+        {
+          "time": "42.0-48.0s",
+          "text": "Ready to tune your database for peak performance? Save this reel for your next deployment and follow for more deep-dive performance tips!"
+        }
+      ],
+      "alt_texts_provided": true,
+      "color_contrast_validated": true,
+      "audio_descriptions": [
+        "Visuals transition between B-tree diagrams, query execution paths, and step-by-step optimization flow charts.",
+        "A comparison chart highlights the massive reduction in query time from 500 milliseconds to 5 milliseconds."
+      ]
+    },
+    "compliance": {
+      "est_duration_seconds": 48,
+      "script_word_count": 125,
+      "hook_char_count": 119,
+      "hashtag_count": 30,
+      "image_count": 10,
+      "checks": [
+        "≤150 words script",
+        "≤120 chars hook",
+        "CTA present once",
+        "30 unique hashtags",
+        "mobile-safe margins ≥96px",
+        "image_prompts length ≥7 (7 core + domain-specific)",
+        "all images have accessibility object",
+        "text_animations provided for all on_screen_text",
+        "transitions specified between all segments",
+        "engagement_tactics all present",
+        "auto_captions with timestamps",
+        "first_frame optimized for thumbnail",
+        "pattern_interrupt at 15-20s",
+        "music_sync_points aligned to beats",
+        "caption_structured format followed",
+        "all 7 core image roles present: cover_hook, cover_alt, diagram_hero, comparison, stat_card, process_flow, cta_endcard"
+      ]
+    }
+  }
+}

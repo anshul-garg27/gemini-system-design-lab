@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "topic_id": "16267",
+    "topic_title": "Recognizing and Refactoring the Arrow Code Anti-Pattern",
+    "platform": "instagram",
+    "format": "story",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-story-1.3",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "code quality",
+      "refactoring",
+      "programming anti-patterns"
+    ],
+    "secondary_keywords": [
+      "guard clauses",
+      "early returns",
+      "strategy pattern",
+      "nested if"
+    ],
+    "lsi_terms": [
+      "cognitive load",
+      "code readability",
+      "code smell"
+    ],
+    "canonical": "https://example.com/topic/16267",
+    "brand": {
+      "site_url": "https://example.com/topic/16267",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=instagram&utm_medium=story"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "programming",
+        "softwareEngineering",
+        "codeQuality"
+      ],
+      "niche": [
+        "refactoring",
+        "arrowCode",
+        "codeSmell",
+        "guardClauses"
+      ],
+      "micro_niche": [
+        "nestedIf",
+        "earlyReturn",
+        "strategyPattern",
+        "pythonRefactoring"
+      ],
+      "intent": [
+        "learnRefactoring",
+        "improveCode"
+      ],
+      "branded": [
+        "@systemdesign"
+      ]
+    },
+    "image_plan": {
+      "count": 2,
+      "roles": [
+        "background",
+        "code_snippet_story"
+      ],
+      "ratio": "9:16",
+      "size_px": "1080x1920",
+      "reasoning": "A standard background is needed, and a visual representation of the 'Arrow Code' structure (code_snippet_story) is crucial for illustrating this specific programming anti-pattern."
+    }
+  },
+  "content": {
+    "frames": [
+      {
+        "index": 1,
+        "role": "hook",
+        "copy": "Stop writing code that looks like a sideways arrow.",
+        "sticker_ideas": [
+          "poll: Is deeply nested logic the worst code smell? (Yes/No)"
+        ],
+        "overlay_notes": "large headline; high contrast",
+        "layout": "centered title; big margins",
+        "alt_text": "Headline asking if developers are tired of deeply nested conditional logic.",
+        "duration_seconds": 15
+      },
+      {
+        "index": 2,
+        "role": "micro_insight",
+        "copy": "Flatten complexity instantly using Guard Clauses and early returns.",
+        "sticker_ideas": [
+          "quiz: What is the immediate fix for Arrow Code? (A. Early Return, B. Nested Try/Catch, C. More Comments)",
+          "emoji slider: How often do you spot Arrow Code? (Sad Face to Fire Emoji)"
+        ],
+        "overlay_notes": "two short lines max",
+        "layout": "top headline; bottom quiz",
+        "alt_text": "Insight explaining Guard Clauses flatten complexity. Quiz testing knowledge of early returns.",
+        "duration_seconds": 15
+      },
+      {
+        "index": 3,
+        "role": "cta",
+        "copy": "Master advanced refactoring techniques this week.",
+        "sticker_ideas": [
+          "countdown: Strategy Pattern Deep Dive (Date/Time)",
+          "link: https://example.com/topic/16267?utm_source=instagram&utm_medium=story"
+        ],
+        "overlay_notes": "bold CTA; arrow to link",
+        "layout": "CTA bottom; link sticker above",
+        "alt_text": "Call to action to learn advanced refactoring techniques like the Strategy Pattern.",
+        "duration_seconds": 15
+      }
+    ],
+    "stickers": {
+      "global": [
+        "keep polls simple (2 options)",
+        "use quiz with 3 options max"
+      ],
+      "link_strategy": {
+        "enabled": true,
+        "link_url": "https://example.com/topic/16267?utm_source=instagram&utm_medium=story",
+        "link_text": "Read the Full Guide",
+        "placement_hint": "bottom center above CTA"
+      },
+      "time_sensitive_angle": "The guide covers advanced patterns like the Strategy Pattern, essential for large systems, which you should master today."
+    },
+    "image_prompts": [
+      {
+        "role": "background",
+        "title": "Story Background",
+        "prompt": "9:16 Instagram Story background for Recognizing and Refactoring the Arrow Code Anti-Pattern. ADAPT to topic: code pattern for programming. Layout: Soft off-white canvas (Instagram Stories aesthetic), faint dotted grid, small semantic corner glyph (10% space) representing topic metaphor (abstract: deep indentation lines being straightened or flattened), ample negative space (80%) for overlay text. Style: Very subtle, unobtrusive; single accent color (domain-specific: Indigo DSA); flat vector aesthetic. Typography space: Clear center area for large text overlays. Safe margins \u226596px. Flat design. Instagram Stories aesthetic - text-first background, high mobile legibility, sunlight-readable. Export 1080x1920.",
+        "negative_prompt": "no busy texture, no photos, no faces, no logos, no neon, no 3D bevels, no gradients >5%",
+        "style_notes": "very subtle, unobtrusive; single accent color only",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Subtle background canvas with small metaphor glyph showing code indentation being flattened"
+      },
+      {
+        "role": "code_snippet_story",
+        "title": "Code Snippet Story Visual",
+        "prompt": "9:16 Instagram Story code snippet illustrating the 'Arrow Code' anti-pattern (deeply nested IF statements in Python). Layout: Code title/context top (40-48px), code block centered (60% width) in monospace (24-28px) showing 3-4 lines of deeply indented conditional logic, key line highlighted with an arrow pointing right (👉) to emphasize the depth. Style: Very light code bg (#F9F9F9 Instagram-friendly), subtle syntax colors, mobile-legible, vertical format optimized. Typography: Monaco/Menlo monospace for code. Safe margins \u226596px. Code must be SHORT (3-4 lines), complete snippet. Instagram Stories code aesthetic - vertical mobile-first, quick-glance educational, swipe-friendly. Export 1080x1920.",
+        "negative_prompt": "no dark theme (Stories), no complex code, no syntax errors, no tiny fonts, no landscape orientation, no faces",
+        "style_notes": "Instagram Stories code; light theme; vertical 9:16; mobile-first; educational",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Mobile-optimized vertical code snippet showing deep indentation typical of Arrow Code."
+      }
+    ],
+    "overlay_hashtags": [
+      "#arrowCode",
+      "#refactoring",
+      "#codeQuality",
+      "#guardClauses",
+      "#softwareEngineering"
+    ],
+    "compliance": {
+      "frames_total": 3,
+      "has_link": true,
+      "checks": [
+        "3–5 frames",
+        "Hook \u226412 words; Insight \u226414; CTA \u226410",
+        "each frame has at least one sticker idea",
+        "link omitted if primary_url empty",
+        "safe margins \u226596px",
+        "image_prompts length == image_plan.count when include_images=true"
+      ]
+    }
+  }
+}

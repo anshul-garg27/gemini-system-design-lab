@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "topic_id": "20209",
+    "topic_title": "Polling Versus Push Asynchronous Communication: Long-Polling and WebSockets",
+    "platform": "instagram",
+    "format": "carousel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-carousel-1.4",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "websockets",
+      "longpolling",
+      "realtimecommunication"
+    ],
+    "secondary_keywords": [
+      "systemdesignpatterns",
+      "asynchronouscommunication",
+      "serversentevents",
+      "latencyoptimization"
+    ],
+    "lsi_terms": [
+      "httpoverhead",
+      "connectionmanagement",
+      "scalabilitylimits"
+    ],
+    "canonical": "https://example.com/topic/20209",
+    "brand": {
+      "site_url": "https://example.com/topic/20209",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=instagram&utm_medium=carousel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "systemdesign",
+        "softwareengineering",
+        "architecture",
+        "programming",
+        "tech"
+      ],
+      "niche": [
+        "websockets",
+        "longpolling",
+        "distributedsystems",
+        "scalability",
+        "microservices",
+        "backend",
+        "devops",
+        "performance",
+        "realtime",
+        "webdevelopment",
+        "codinglife",
+        "softwarearchitecture",
+        "cloudcomputing",
+        "techjobs",
+        "concurrency"
+      ],
+      "micro_niche": [
+        "serversentevents",
+        "asynchronous",
+        "connectionmanagement",
+        "httpoverhead",
+        "latencyoptimization",
+        "pushnotifications",
+        "polling",
+        "systemdesigninterview",
+        "hld",
+        "architecturedesign"
+      ],
+      "intent": [],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 8,
+      "mandatory_roles": [
+        "cover",
+        "cover_alt",
+        "architecture_panel",
+        "stat_card",
+        "before_after",
+        "process_flow",
+        "cta_card"
+      ],
+      "domain_specific_roles": [
+        "flow_diagram"
+      ],
+      "total_images": 8,
+      "ratio": "4:5",
+      "size_px": "1080x1350",
+      "reasoning": "7 core images plus one domain-specific flow diagram (data flow) to illustrate the request lifecycle differences between Polling and Push models."
+    }
+  },
+  "content": {
+    "slides": [
+      {
+        "index": 1,
+        "role": "hook",
+        "title": "Stop Wasting 90% of Your HTTP Connections",
+        "subtitle": "Achieve sub-50ms real-time latency for critical data streams.",
+        "bullets": [
+          "Polling wastes resources waiting for data",
+          "WebSockets maintain a single, open channel"
+        ],
+        "overlay_text": "Swipe →",
+        "swipe_trigger": "The wrong communication pattern costs you scalability and performance...",
+        "design_note": "THUMBNAIL OPTIMIZED: Bold headline using Blue (#2563EB) accent. Focus on the contrast between a constant stream of arrows (WebSockets) and intermittent arrows (Polling).",
+        "layout": "title top (80-120px), subtitle below (40-60px), small glyph hinting at connection types bottom-right, heavy whitespace (60%+), Swipe → indicator bottom",
+        "iconography": "Two contrasting connection glyphs: one showing frequent, short connections (polling), one showing a single, persistent connection (websocket).",
+        "contrast_notes": "max contrast headline (7:1 ratio); micro-type for subtitle (4.5:1 WCAG AA minimum)",
+        "accessibility": {
+          "alt_text": "Cover slide: Stop Wasting 90% of Your HTTP Connections. Visual contrast between short polling and persistent websockets.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "index": 2,
+        "role": "problem",
+        "title": "The Cost of Short Polling",
+        "subtitle": "Traditional polling destroys scalability and introduces high latency.",
+        "bullets": [
+          "High HTTP Overhead: New TCP handshake for every request, wasting CPU.",
+          "Wasted Bandwidth: Requests often return 204/304 (No Content).",
+          "Scalability Killer: Requires massive connection pool resources on the server side."
+        ],
+        "overlay_text": "The Problem →",
+        "swipe_trigger": "Long-Polling helps, but only true push solves the fundamental issue...",
+        "design_note": "Use red underline or ❌ icon sparingly on 'Scalability Killer' and 'High HTTP Overhead'. Emphasize the resource cost.",
+        "layout": "two-column bullets; wide margins (≥64px); pain points highlighted in red/orange accent.",
+        "iconography": "bottleneck glyph (⚠️) showing a server overloaded with short requests.",
+        "contrast_notes": "Use red accent only on the pain metric; body text 4.5:1 contrast",
+        "accessibility": {
+          "alt_text": "Problem slide detailing the high cost of short polling, including HTTP overhead and wasted bandwidth.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear sans-serif, readable at small size"
+        }
+      },
+      {
+        "index": 3,
+        "role": "core_idea",
+        "title": "The Polling vs. Push Paradigm Shift",
+        "subtitle": "Choosing client-driven requests versus server-initiated data flow.",
+        "bullets": [
+          "Polling: Client asks 'Do you have data?' repeatedly.",
+          "Long-Polling: Client asks, server waits until data is ready (or timeout).",
+          "Push (WebSockets/SSE): Client asks once, server sends data proactively."
+        ],
+        "overlay_text": "The Solution",
+        "swipe_trigger": "Here's how Long-Polling differs architecturally from WebSockets...",
+        "design_note": "Calm tone; use directional arrows to visualize the flow difference (Client -> Server for Polling, Server -> Client for Push).",
+        "layout": "headline left (40-50px), 3 bullets right (28-32px) defining the core methods, generous whitespace",
+        "iconography": "lightbulb/eureka glyph (💡) introducing the core concepts.",
+        "contrast_notes": "Normal emphasis 4.5:1; Blue accent for positive framing; keep labels short",
+        "accessibility": {
+          "alt_text": "Solution slide explaining the core concepts of Polling, Long-Polling, and Server Push (WebSockets/SSE).",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear sans-serif"
+        }
+      },
+      {
+        "index": 4,
+        "role": "architecture",
+        "title": "Long-Polling vs. WebSocket Lifecycle",
+        "subtitle": "Understanding the fundamental difference in connection state management.",
+        "bullets": [
+          "Long-Polling: Connection drops and restarts after every response.",
+          "WebSockets: Upgraded HTTP connection remains persistent (full-duplex).",
+          "SSE: Persistent, but unidirectional (Server to Client only)."
+        ],
+        "overlay_text": "How It Works",
+        "swipe_trigger": "But what are the true trade-offs for performance and complexity? →",
+        "design_note": "DIAGRAM-FIRST: 60% of space for visual showing the connection line. Long-Polling line should be dashed/broken; WebSocket line should be solid/persistent.",
+        "layout": "Block diagram center showing a client and server, illustrating the connection state (reconnect vs persistent). Side notes (24-28px) pointing to the connection line elements.",
+        "iconography": "Client→Server connection state diagram.",
+        "contrast_notes": "Thin lines (2px); crisp labels (4.5:1 contrast); Blue accent for persistent connection, Orange accent for transient connection.",
+        "accessibility": {
+          "alt_text": "Architecture diagram illustrating the connection lifecycle difference between Long-Polling (transient) and WebSockets (persistent, full-duplex).",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels, readable at small size"
+        }
+      },
+      {
+        "index": 5,
+        "role": "tradeoffs",
+        "title": "Comparing Real-Time Communication Methods",
+        "subtitle": "Honest comparison for informed system design decisions.",
+        "bullets": [
+          "Latency: WebSockets are lowest (✓); Polling is highest (✗).",
+          "Overhead: Polling is high (✗); WebSockets are low (✓).",
+          "Firewall/Proxy: Polling works everywhere (✓); WebSockets sometimes fail (✗).",
+          "Complexity: WebSockets require dedicated state management (✗)."
+        ],
+        "overlay_text": "Trade-offs",
+        "swipe_trigger": "Now let's look at the hard numbers on latency and throughput...",
+        "design_note": "TWO-COLUMN COMPARE: 50/50 split. Green checks for pros, orange/red X for cons. Focus on Latency and Overhead.",
+        "layout": "Comparison table layout (Feature | Polling | WebSockets). Left column: Feature names. Center/Right: Checkmarks/X marks.",
+        "iconography": "balance scales glyph (⚖️) at top.",
+        "contrast_notes": "Neutral tone 4.5:1; use green/orange accents sparingly for ✓/✗ indicators.",
+        "accessibility": {
+          "alt_text": "Trade-offs table comparing Polling, Long-Polling, and WebSockets based on latency, overhead, and compatibility.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Balanced presentation, clear lists"
+        }
+      },
+      {
+        "index": 6,
+        "role": "metrics",
+        "title": "Latency: Polling vs. Push",
+        "subtitle": "Achieving near-instantaneous data delivery at scale.",
+        "bullets": [
+          "Polling Latency: 5s+ (worst case data delivery)",
+          "Long-Polling Latency: 100ms - 5s (depends on timeout)",
+          "WebSockets Latency: <50ms (consistent, low overhead)"
+        ],
+        "overlay_text": "The Numbers",
+        "swipe_trigger": "Choosing the right method depends entirely on your use case... →",
+        "design_note": "HERO METRIC: Highlight WebSockets' '<50ms' latency in a large font. Use a simple bar chart visualization showing the latency delta.",
+        "layout": "Bar chart visualization contrasting the three methods. Hero metric '<50ms' centered (120-180px). Supporting latency metrics (24-28px).",
+        "iconography": "trend arrows (↑) and speed glyphs (⚡).",
+        "contrast_notes": "HIGHLIGHT ONLY ONE hero metric in Blue accent color. Rest in gray/neutral. 7:1 for hero number.",
+        "accessibility": {
+          "alt_text": "Performance metrics showing latency comparison: Polling (5+ seconds) versus WebSockets (under 50 milliseconds).",
+          "color_contrast_ratio": "7:1 for hero metric, 4.5:1 for others",
+          "font_accessibility": "Large numbers, clear units"
+        }
+      },
+      {
+        "index": 7,
+        "role": "mini_case",
+        "title": "Use Case: When to Choose Which Protocol",
+        "subtitle": "Matching the communication pattern to the application requirement.",
+        "bullets": [
+          "Chat Apps/Stock Tickers: WebSockets (High frequency, low latency, bidirectional).",
+          "Background Job Status: Long-Polling (Low frequency, moderate latency acceptable).",
+          "IoT/Legacy Monitoring: Short Polling (Simple implementation, low data volume)."
+        ],
+        "overlay_text": "Case Study",
+        "swipe_trigger": "Let's summarize the key takeaways before you implement this... →",
+        "design_note": "Use domain-specific icons (chat bubble, clock, server) next to each use case. Focus on the 'Why' behind the choice.",
+        "layout": "Three-panel layout, each panel featuring a use case (Chat, Jobs, IoT) and the corresponding protocol choice.",
+        "iconography": "arrow transform (➡️) showing change",
+        "contrast_notes": "Use accent color on protocol names (WebSockets/Long-Polling). Show specific % or time improvement.",
+        "accessibility": {
+          "alt_text": "Case study showing which communication protocol (WebSockets, Long-Polling, Short Polling) is best for different applications like chat and job status.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear comparison layout"
+        }
+      },
+      {
+        "index": 8,
+        "role": "summary",
+        "title": "3 Key Takeaways for Real-Time Design",
+        "subtitle": "Master asynchronous communication patterns.",
+        "bullets": [
+          "1. Prioritize WebSockets for high-frequency, bidirectional real-time data.",
+          "2. Use Long-Polling only when WebSockets are blocked or state management must be simpler.",
+          "3. Avoid Short Polling unless data freshness requirements are low or client base is tiny."
+        ],
+        "overlay_text": "Summary",
+        "swipe_trigger": "Ready to apply this to your next project?",
+        "design_note": "CALM, CLEAR: Numbered for memorability (1, 2, 3). This is the save-worthy reference slide.",
+        "layout": "Numbered list centered (1. 2. 3.), each item 32-36px, consistent 40-50px spacing between items.",
+        "iconography": "numbered circles (①②③) in Blue accent.",
+        "contrast_notes": "Consistent spacing; readable line length (≤60 chars per line); normal contrast 4.5:1",
+        "accessibility": {
+          "alt_text": "Summary slide with 3 numbered key takeaways on when to use WebSockets, Long-Polling, and Short Polling.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear numbered list, easy to scan"
+        }
+      },
+      {
+        "index": 9,
+        "role": "cta",
+        "title": "Master Real-Time System Design",
+        "subtitle": "Save this guide and join the architecture conversation.",
+        "bullets": [
+          "💾 Save for later reference on communication patterns.",
+          "📲 Share this with a backend developer or architect.",
+          "🔗 Full system design guide in bio."
+        ],
+        "overlay_text": "Take Action",
+        "swipe_trigger": "N/A - final slide, no swipe needed",
+        "design_note": "END-CARD: Multi-layered CTA (Save 🔖 + Follow @handle + Share 📲). Handle @systemdesign prominently.",
+        "layout": "Big CTA top (60-80px): 'Save This 🔖', Medium CTA middle (40-50px): 'Follow @systemdesign', Small link bottom (28-32px): 'Link in bio'",
+        "iconography": "Save icon (🔖), Share arrow (📲), Link icon (🔗)",
+        "contrast_notes": "Clear visual hierarchy: CTA = highest contrast (7:1), handle = medium (4.5:1), link = normal. No clutter.",
+        "accessibility": {
+          "alt_text": "Call-to-action slide with save, follow @systemdesign, and share prompts.",
+          "color_contrast_ratio": "7:1 for main CTA, 4.5:1 for secondary",
+          "font_accessibility": "Clear action-oriented text"
+        }
+      }
+    ],
+    "caption_structured": {
+      "hook_125chars": "Stop wasting server resources on inefficient HTTP Polling! Learn the 3 crucial differences between Long-Polling, SSE, and WebSockets. 🧠",
+      "problem_statement": "If your application needs real-time data (like chat or stock tickers) but you're still relying on short polling, you're paying a massive penalty. Each request adds TCP overhead, wastes bandwidth when there's no data, and bottlenecks your server's connection pool. This is a critical scalability limit for intermediate systems.",
+      "solution_tease": "The solution lies in shifting connection responsibility: from client asking repeatedly to the server pushing proactively.",
+      "value_props": [
+        "✓ Drastically reduce network latency to sub-50ms.",
+        "✓ Minimize HTTP overhead by maintaining persistent connections.",
+        "✓ Select the correct asynchronous communication pattern for your use case.",
+        "✓ Improve server scalability by freeing up connection resources."
+      ],
+      "keywords_woven": "Mastering asynchronous communication patterns is vital for modern system design. We dive deep into websockets and longpolling, examining how these techniques solve the latency optimization challenges inherent in traditional polling methods. Understanding connection management is key to building highly scalable distributed systems.",
+      "comment_bait": "Which communication protocol is currently the biggest bottleneck in your microservices architecture? 👇",
+      "cta": "Save this 🔖 + Follow @systemdesign for more architecture deep dives + Share with your team 📲",
+      "link": "https://example.com/topic/20209?utm_source=instagram&utm_medium=carousel"
+    },
+    "caption": {
+      "text": "Stop wasting server resources on inefficient HTTP Polling! Learn the 3 crucial differences between Long-Polling, SSE, and WebSockets. 🧠\n\nIf your application needs real-time data (like chat or stock tickers) but you're still relying on short polling, you're paying a massive penalty. Each request adds TCP overhead, wastes bandwidth when there's no data, and bottlenecks your server's connection pool. This is a critical scalability limit for intermediate systems.\n\nThe solution lies in shifting connection responsibility: from client asking repeatedly to the server pushing proactively.\n\nHere’s what you gain by choosing the right pattern:\n\n✓ Drastically reduce network latency to sub-50ms.\n✓ Minimize HTTP overhead by maintaining persistent connections.\n✓ Select the correct asynchronous communication pattern for your use case.\n✓ Improve server scalability by freeing up connection resources.\n\nMastering asynchronous communication patterns is vital for modern system design. We dive deep into websockets and longpolling, examining how these techniques solve the latency optimization challenges inherent in traditional polling methods. Understanding connection management is key to building highly scalable distributed systems.\n\nWhich communication protocol is currently the biggest bottleneck in your microservices architecture? 👇\n\nSave this 🔖 + Follow @systemdesign for more architecture deep dives + Share with your team 📲\n\nLink in bio for the full guide: https://example.com/topic/20209?utm_source=instagram&utm_medium=carousel",
+      "emojis_used": [
+        "🧠",
+        "⚙️",
+        "🚀",
+        "🔖",
+        "📲",
+        "👇"
+      ],
+      "seo": {
+        "keywords_used": [
+          "websockets",
+          "longpolling",
+          "systemdesign",
+          "scalability",
+          "distributedsystems",
+          "latencyoptimization",
+          "asynchronouscommunication"
+        ],
+        "lsi_terms_used": [
+          "httpoverhead",
+          "connectionmanagement"
+        ],
+        "keyword_density_percent": 0.035
+      }
+    },
+    "hashtags": [
+      "#serversentevents",
+      "#asynchronous",
+      "#connectionmanagement",
+      "#httpoverhead",
+      "#latencyoptimization",
+      "#pushnotifications",
+      "#polling",
+      "#systemdesigninterview",
+      "#hld",
+      "#architecturedesign",
+      "#websockets",
+      "#longpolling",
+      "#distributedsystems",
+      "#scalability",
+      "#microservices",
+      "#backend",
+      "#devops",
+      "#performance",
+      "#realtime",
+      "#webdevelopment",
+      "#codinglife",
+      "#softwarearchitecture",
+      "#cloudcomputing",
+      "#techjobs",
+      "#concurrency",
+      "#systemdesign",
+      "#softwareengineering",
+      "#architecture",
+      "#programming",
+      "#tech"
+    ],
+    "engagement_tactics": {
+      "swipe_completion_strategy": "The carousel starts by amplifying the pain of short polling (cost/scalability, S2) and immediately offers the solution duality (S3). S4 provides a concrete architectural diagram, and S5/S6 provide necessary comparison metrics (trade-offs and numbers) to drive completion for reference/save.",
+      "save_trigger": "Slide 8 (3 Key Takeaways) and Slide 5 (Trade-offs Comparison Table) are designed as quick reference guides worth saving for future project decisions.",
+      "share_trigger": "The content addresses a common, expensive architectural mistake (inefficient polling), making it highly shareable among engineering teams and architects.",
+      "comment_bait": "Which communication protocol is currently the biggest bottleneck in your microservices architecture? 👇",
+      "thumbnail_hook": "The hook 'Stop Wasting 90%...' uses a strong metric/promise and high contrast typography, stopping scroll in <0.8s."
+    },
+    "accessibility": {
+      "compliance_level": "WCAG AA",
+      "features": [
+        "All text contrast 4.5:1 minimum (7:1 for headlines)",
+        "Alt text for every slide (≤160 chars)",
+        "Dyslexic-friendly fonts (Outfit, Inter, DM Sans)",
+        "Readable at thumbnail size (350x437px)",
+        "No reliance on color alone for information"
+      ],
+      "slide_alt_texts_provided": true,
+      "contrast_validated": true
+    },
+    "design_system": {
+      "color_palette": [
+        {
+          "name": "Backend Blue",
+          "values": [
+            "#2563EB"
+          ]
+        },
+        {
+          "name": "Slate Minimal",
+          "values": [
+            "#FAFAFA",
+            "#0F172A"
+          ]
+        },
+        {
+          "name": "Accent Cyan",
+          "values": [
+            "#06B6D4"
+          ]
+        }
+      ],
+      "font_pairings": [
+        {
+          "headline": "Outfit/Inter SemiBold",
+          "body": "Inter/Source Sans",
+          "code": "JetBrains Mono (small chips)"
+        }
+      ],
+      "grid": {
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "safe_margins_px": 64,
+        "column_system": "8-col mobile grid"
+      }
+    },
+    "image_prompts": [
+      {
+        "role": "cover",
+        "title": "Carousel Cover (Thumbnail-Optimized)",
+        "prompt": "VERTICAL 4:5 Instagram carousel cover for Polling Versus Push Asynchronous Communication: Long-Polling and WebSockets. THUMBNAIL-FIRST DESIGN. COMPOSITION: Top 25%: Bold hook 'Stop Wasting 90% of Your HTTP Connections' in 80-120px typography. Middle 55%: Ample whitespace with a diagram glyph contrasting a broken, intermittent connection line (Polling) with a solid, persistent connection line (WebSockets). Use Blue (#2563EB) accent for the persistent line. Bottom 20%: 'Swipe →' indicator + handle @systemdesign. TECHNICAL SPECS: Typography Geometric sans (Outfit/Inter SemiBold) - headline 80-120px (7:1 contrast), subtitle 40-60px (4.5:1 contrast). Safe margins ≥64px. Flat vector, no shadows. CRITICAL: First 3 words must convey core value. Test legibility at thumbnail size.",
+        "negative_prompt": "no photos, no faces, no brand logos except tiny handle, no neon, no 3D bevels, no heavy gradients, no stock icon clutter, no busy backgrounds, no low contrast text",
+        "style_notes": "Editorial poster; crisp kerning; thumbnail-first; mobile-optimized; WCAG AA compliant",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Cover slide for Polling Versus Push Asynchronous Communication with bold hook, metric, and connection icon contrast.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "role": "cover_alt",
+        "title": "Alternative Cover Design (A/B Test)",
+        "prompt": "VERTICAL 4:5 Instagram carousel cover for Polling Versus Push Asynchronous Communication: Long-Polling and WebSockets. A/B TEST VARIANT. Hook: 'WebSockets vs Polling: The 50ms Latency Difference'. COMPOSITION: Top 25%: Bold hook focused on the latency metric (50ms) in 80-120px typography. Middle 55%: A stylized speedometer or latency graph showing a dramatic drop from 'Seconds' to 'Milliseconds'. Use Blue (#2563EB) accent. Bottom 20%: 'Swipe →' indicator + handle @systemdesign. TECHNICAL SPECS: Typography Geometric sans (Outfit/Inter SemiBold) - headline 80-120px (7:1 contrast). Safe margins ≥64px. Flat vector, no shadows. Focus on numerical impact.",
+        "negative_prompt": "no photos, no faces, no brand logos, no neon, no 3D bevels, no heavy gradients, no stock icon clutter, no busy backgrounds, low contrast text",
+        "style_notes": "A/B test variant focusing on numerical promise; high contrast, clean lines.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Alternative cover slide focused on latency: WebSockets vs Polling: The 50ms Latency Difference, with a speed dial graphic.",
+          "color_contrast_ratio": "7:1 for headline, 4.5:1 for subtitle",
+          "font_accessibility": "Dyslexic-friendly geometric sans (Outfit/Inter)"
+        }
+      },
+      {
+        "role": "architecture_panel",
+        "title": "Polling vs Push Architecture Diagram",
+        "prompt": "4:5 minimalist system design diagram illustrating the two main communication patterns. Left side: 'Polling' showing Client sending request, Server responding (often 204), and immediate Client reconnect. Right side: 'WebSockets' showing Client initiating handshake, Server upgrading connection, and then continuous, bidirectional data flow over a single persistent line. Use Blue (#2563EB) for WebSockets flow and Orange (#F97316) for Polling flow. Labels must be crisp (24-28px). Include small metrics: 'High HTTP Overhead' on Polling side, 'Low Latency' on WebSockets side.",
+        "negative_prompt": "no 3D, no neon, no drop shadows, no photoreal elements, no logos, confusing complexity",
+        "style_notes": "diagram-first composition; generous whitespace; legible labels comparing two distinct flows.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Architecture panel comparing the request cycles of Short Polling and WebSockets, highlighting the persistent versus transient connections.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear labels, readable at small size"
+        }
+      },
+      {
+        "role": "stat_card",
+        "title": "Latency and Overhead Metrics",
+        "prompt": "4:5 stats card for Asynchronous Communication showing key performance indicators. HERO METRIC prominently centered: '<50ms' (WebSockets Latency) in large Blue (#2563EB) font. Supporting metric chips around it: '90% Wasted Bandwidth' (Polling), '10x Connection Load' (Polling), 'Full Duplex' (WebSockets). Use simple arrows (↑↓) for context. Style: Off-white bg; thin strokes; high contrast (7:1 ratio). Safe margins ≥64px. Flat vector. Mobile-legible.",
+        "negative_prompt": "no photos, no logos, no heavy gradients, confusing numbers",
+        "style_notes": "mobile legible; high contrast; emphasis on the latency difference.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Stats card with hero metric of less than 50 milliseconds latency for WebSockets, contrasted with high overhead metrics for Polling.",
+          "color_contrast_ratio": "7:1 for hero metric, 4.5:1 for others",
+          "font_accessibility": "Large numbers, clear units"
+        }
+      },
+      {
+        "role": "comparison_chart",
+        "title": "Protocol Feature Comparison",
+        "prompt": "4:5 side-by-side comparison chart showing 'Long-Polling vs WebSockets vs SSE'. Layout: Three columns. Comparison rows in center (Latency, Overhead, Bidirectional, Connection State, Firewall Compatibility). Use checkmarks ✓ (Green) and X marks (Red/Orange) for each row showing strengths/weaknesses. Title top 'Real-Time Protocol Comparison' (40-50px). Style: Off-white bg; thin divider lines; clear labels (24-28px). Flat vector. Clear hierarchy.",
+        "negative_prompt": "no bias toward one option, no logos, no photos, no clutter, no gradients",
+        "style_notes": "balanced comparison; neutral presentation; mobile-readable table format.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Comparison chart detailing the features of Long-Polling, WebSockets, and Server-Sent Events (SSE) across metrics like latency and connection state.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear comparison layout"
+        }
+      },
+      {
+        "role": "checklist_card",
+        "title": "Decision Checklist",
+        "prompt": "4:5 actionable checklist for selecting the right communication pattern. 4 items: 1. Is latency critical (<100ms)? (If Yes, use WebSockets). 2. Is data flow unidirectional? (If Yes, consider SSE). 3. Must it work with all proxies/firewalls? (If Yes, use Long-Polling). 4. Is connection state management acceptable? (If Yes, use WebSockets). Layout: Title 'Quick Decision Checklist' top (40-50px), 4 checkmark items vertically stacked (28-32px each), ✓ icons in Blue (#2563EB) accent color. Concise questions and answers. Safe margins ≥64px. Flat vector.",
+        "negative_prompt": "no photos, no logos, confusing logic, long sentences",
+        "style_notes": "readable ticks; mobile-first; clear branching logic.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Checklist for choosing between Polling, Long-Polling, WebSockets, and SSE based on latency, directionality, and firewall compatibility.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear checklist format"
+        }
+      },
+      {
+        "role": "flow_diagram",
+        "title": "Long-Polling Request Flow",
+        "prompt": "4:5 sequential flow diagram showing the Long-Polling request lifecycle. Steps in order: 1. Client sends HTTP request. 2. Server holds request (no data available). 3. Data becomes available OR Timeout occurs. 4. Server sends response. 5. Client processes data. 6. Client immediately initiates new request. Use numbered boxes and thick arrows. Highlight the 'Hold Request' step in Orange (#F97316) to show the waiting state. Style: Off-white bg; thin connecting arrows (2px); numbered circles in Blue accent. Typography: Step titles 28-32px. Flat vector. Clear progression.",
+        "negative_prompt": "no 3D, no confusing arrows, no overcrowded layout, no photos, mixing protocols",
+        "style_notes": "clear sequential flow; numbered steps; easy to follow request/reconnect loop.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Step-by-step flow diagram showing the Long-Polling process: request sent, server holds, response sent, client immediately reconnects.",
+          "color_contrast_ratio": "4.5:1 minimum",
+          "font_accessibility": "Clear progression steps"
+        }
+      },
+      {
+        "role": "cta_card",
+        "title": "CTA Card (Save/Follow)",
+        "prompt": "4:5 final CTA visual. Headline 'Master Real-Time System Design' (7:1 contrast). Three action items stacked vertically: '💾 Save for later reference', '📲 Share with your team', '🔗 Full guide in bio'. Prominently display Instagram handle @systemdesign. Use Blue (#2563EB) accent color for CTAs and iconography. Style: Clean, minimalist, high contrast text. Safe margins ≥64px.",
+        "negative_prompt": "no low contrast, no clutter, no busy backgrounds, no photos",
+        "style_notes": "End-card; high contrast; action-oriented text.",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "accessibility": {
+          "alt_text": "Call-to-action slide with save, follow @systemdesign, and share prompts.",
+          "color_contrast_ratio": "7:1 for main CTA, 4.5:1 for secondary",
+          "font_accessibility": "Clear action-oriented text"
+        }
+      }
+    ],
+    "image_prompts_by_slide": []
+  },
+  "compliance": {
+    "slides_total": 9,
+    "hook_title_char_count": 41,
+    "caption_word_count": 218,
+    "hashtag_count": 30,
+    "image_count": 8,
+    "checks": [
+      "≤10 slides (optimal: 8-10)",
+      "titles ≤10 words (must include number/metric in slide 1)",
+      "subtitles ≤14 words",
+      "bullets ≤14 words each",
+      "swipe_trigger present for slides 1-8 (not slide 9/10)",
+      "accessibility object present for every slide",
+      "alt_text present for every slide (≤160 chars)",
+      "exactly 30 hashtags (10 small + 15 medium + 5 large)",
+      "caption 200–300 words",
+      "caption_structured object present with 7 sections",
+      "engagement_tactics object present with 5 strategies",
+      "image_prompts length ≥7 (7 core + domain-specific)",
+      "all 7 core image roles present: cover, cover_alt, architecture_panel/diagram_hero, stat_card, before_after/comparison, process_flow/checklist, cta_card",
+      "accessibility object for each image_prompt",
+      "thumbnail optimization: slide 1 readable at 350x437px",
+      "contrast validated: 7:1 headlines, 4.5:1 body text",
+      "meta.accessibility object present (WCAG AA compliance)",
+      "if image_plan provided: image_prompts length == image_plan.count"
+    ]
+  }
+}

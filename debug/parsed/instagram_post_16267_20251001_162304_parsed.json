@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "topic_id": "16267",
+    "topic_title": "Recognizing and Refactoring the Arrow Code Anti-Pattern",
+    "platform": "instagram",
+    "format": "post",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-post-1.3",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "clean code",
+      "refactoring",
+      "software engineering"
+    ],
+    "secondary_keywords": [
+      "design patterns",
+      "guard clauses",
+      "strategy pattern",
+      "code quality"
+    ],
+    "lsi_terms": [
+      "early returns",
+      "nested ifs",
+      "code smell",
+      "readability"
+    ],
+    "canonical": "https://example.com/topic/16267",
+    "brand": {
+      "site_url": "https://example.com/topic/16267",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=instagram&utm_medium=post"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "programming",
+        "softwareengineering",
+        "cleancode",
+        "developer",
+        "codinglife",
+        "tech"
+      ],
+      "niche": [
+        "refactoring",
+        "designpatterns",
+        "codereview",
+        "softwaredeveloper",
+        "codequality",
+        "backenddevelopment",
+        "programmingtips",
+        "computerscience",
+        "softwarearchitecture"
+      ],
+      "micro_niche": [
+        "arrowcode",
+        "guardclauses",
+        "earlyreturn",
+        "strategypattern",
+        "codesmell",
+        "nestedifs",
+        "readability",
+        "technicaldebt",
+        "codingchallenge",
+        "oop"
+      ],
+      "intent": [
+        "learncoding",
+        "interviewprep",
+        "intermediatecoding"
+      ],
+      "branded": [
+        "systemdesign",
+        "systemdesigncommunity"
+      ]
+    },
+    "image_plan": {
+      "count": 2,
+      "roles": [
+        "visual_diagram",
+        "visual_typography"
+      ],
+      "ratio": "4:5",
+      "size_px": "1080x1350"
+    }
+  },
+  "content": {
+    "visual_concept": "A side-by-side comparison diagram illustrating the deep indentation of 'Arrow Code' versus the flattened structure achieved by Guard Clauses.",
+    "caption": {
+      "first_line_hook": "Stop letting deeply nested conditional logic kill your code's readability and cognitive load.",
+      "text": "Stop letting deeply nested conditional logic kill your code's readability and cognitive load. We’re talking about the \"Arrow Code\" anti-pattern—that frustrating pyramid of `if/else` statements that makes **software engineering** feel like navigating a maze. This **code smell** is a major contributor to **technical debt** and makes future maintenance almost impossible.\n\nRecognizing Arrow Code is the first step toward writing more maintainable, high-quality software. The solution lies in flattening that structure using proven **refactoring** techniques.\n\nThree powerful ways to escape the arrow:\n1. **Guard Clauses/Early Returns:** Use these to handle failure conditions immediately, minimizing nesting depth. This is crucial for improving **readability**.\n2. **Strategy Pattern:** When dealing with multiple, complex branches based on input type, abstract the behavior into separate classes. This is a powerful **design pattern** that avoids massive `switch` statements.\n3. **Policy Objects:** Encapsulate complex validation or rule sets outside the main function.\n\nEmbrace **clean code** principles and eliminate those excessive **nested ifs**. Your future self (and your team) will thank you for reducing that cognitive load.",
+      "cta": "Save this post to remind yourself to check your codebase for Arrow Code this week. → https://example.com/topic/16267?utm_source=instagram&utm_medium=post",
+      "seo": {
+        "keywords_used": [
+          "software engineering",
+          "clean code",
+          "refactoring",
+          "design pattern",
+          "code smell"
+        ],
+        "lsi_terms_used": [
+          "nested ifs",
+          "readability",
+          "early returns"
+        ]
+      }
+    },
+    "hashtags": [
+      "#programming",
+      "#softwareengineering",
+      "#cleancode",
+      "#developer",
+      "#codinglife",
+      "#tech",
+      "#refactoring",
+      "#designpatterns",
+      "#codereview",
+      "#softwaredeveloper",
+      "#codequality",
+      "#backenddevelopment",
+      "#programmingtips",
+      "#computerscience",
+      "#softwarearchitecture",
+      "#arrowcode",
+      "#guardclauses",
+      "#earlyreturn",
+      "#strategypattern",
+      "#codesmell",
+      "#nestedifs",
+      "#readability",
+      "#technicaldebt",
+      "#codingchallenge",
+      "#oop",
+      "#learncoding",
+      "#interviewprep",
+      "#intermediatecoding",
+      "#systemdesign",
+      "#systemdesigncommunity"
+    ],
+    "hashtags_grouped": {
+      "broad": [
+        "#programming",
+        "#softwareengineering",
+        "#cleancode",
+        "#developer",
+        "#codinglife",
+        "#tech"
+      ],
+      "niche": [
+        "#refactoring",
+        "#designpatterns",
+        "#codereview",
+        "#softwaredeveloper",
+        "#codequality",
+        "#backenddevelopment",
+        "#programmingtips",
+        "#computerscience",
+        "#softwarearchitecture"
+      ],
+      "micro_niche": [
+        "#arrowcode",
+        "#guardclauses",
+        "#earlyreturn",
+        "#strategypattern",
+        "#codesmell",
+        "#nestedifs",
+        "#readability",
+        "#technicaldebt",
+        "#codingchallenge",
+        "#oop"
+      ],
+      "intent": [
+        "#learncoding",
+        "#interviewprep",
+        "#intermediatecoding"
+      ],
+      "branded": [
+        "#systemdesign",
+        "#systemdesigncommunity"
+      ]
+    },
+    "location_tag_suggestions": [
+      {
+        "name": "The Refactoring Studio",
+        "type": "virtual",
+        "reason": "Suggests a virtual location relevant to software improvement and development."
+      }
+    ],
+    "image_prompts": [
+      {
+        "role": "visual_diagram",
+        "title": "Post Visual A — Minimal Diagram",
+        "prompt": "4:5 Instagram diagram for Recognizing and Refactoring the Arrow Code Anti-Pattern. ADAPT to topic: A side-by-side flow comparison. Left side (Before): A deep, triangular flow chart structure representing nested IF statements (the 'Arrow Code'). Right side (After): A flat, sequential flow chart structure using multiple early returns/guard clauses. Use Indigo accent color for programming topic. Layout: Central diagram with 3-5 concise labels, one hero callout chip labeled 'Reduced Cognitive Load', scroll-stopping visual. Style: Off-white background (Instagram feed); thin vector strokes (2px); subtle dotted grid; single accent color (Indigo). Typography: Clean sans (Inter/Roboto) 28-36px labels. Safe margins ≥64px. Flat vector. Instagram feed optimized - mobile legible, saves-worthy, visually striking. Export 1080x1350.",
+        "negative_prompt": "no photos, no faces, no logos, no neon, no 3D bevels, no gradients >5%, no clutter",
+        "style_notes": "diagram-first; clear hierarchy; tight labels",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "Diagram visual emphasizing the reduction of code nesting using guard clauses."
+      },
+      {
+        "role": "visual_typography",
+        "title": "Post Visual B — Typographic Insight Card",
+        "prompt": "4:5 Instagram typographic card for Recognizing and Refactoring the Arrow Code Anti-Pattern. ADAPT headline: 'Guard Clauses: Flatten Your Logic, Boost Readability'. Layout: Bold 6-10 word headline (60-80px) capturing key insight, small inset micro-diagram motif in corner showing a simplified 'before vs after' code structure (nested vs flat), single accent underline with Indigo domain color, generous whitespace (60%). Style: Off-white background (Instagram aesthetic); clean professional aesthetic; editorial feel. Typography: Bold sans (Inter/Roboto). Safe margins ≥64px. Flat vector. Instagram typographic style - scroll-stopping, shareable, saves-worthy. Export 1080x1350.",
+        "negative_prompt": "no photos, no heavy gradients, no logos",
+        "style_notes": "editorial poster feel; crisp kerning",
+        "ratio": "4:5",
+        "size_px": "1080x1350",
+        "alt_text": "Typographic card with small diagram inset emphasizing clean code."
+      }
+    ],
+    "compliance": {
+      "caption_word_count": 147,
+      "first_line_hook_char_count": 94,
+      "hashtag_count": 30,
+      "image_prompt_count": 2,
+      "checks": [
+        "caption 120–200 words (150–200 preferred)",
+        "strong first line; no 'click more' bait",
+        "exactly 30 hashtags (unique; tier-mixed)",
+        "image_prompts length == image_plan.count (default 2)",
+        "safe margins ≥64px",
+        "CTA present once"
+      ]
+    }
+  }
+}

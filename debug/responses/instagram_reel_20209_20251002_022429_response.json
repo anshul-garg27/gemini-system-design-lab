@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "topic_id": "20209",
+    "topic_title": "Polling Versus Push Asynchronous Communication: Long-Polling and WebSockets",
+    "platform": "instagram",
+    "format": "reel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-reel-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "system design",
+      "architecture",
+      "scalability"
+    ],
+    "secondary_keywords": [
+      "distributed systems",
+      "microservices",
+      "performance"
+    ],
+    "lsi_terms": [
+      "latency",
+      "resource consumption",
+      "connection state",
+      "real-time applications",
+      "web sockets",
+      "long polling"
+    ],
+    "canonical": "https://example.com/topic/20209",
+    "brand": {
+      "siteUrl": "https://example.com/topic/20209",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utmBase": "utm_source=instagram&utm_medium=reel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "tech",
+        "programming",
+        "coding",
+        "software",
+        "engineering"
+      ],
+      "niche": [
+        "systemdesign",
+        "architecture",
+        "scalability",
+        "distributed",
+        "microservices"
+      ],
+      "micro_niche": [
+        "longpolling",
+        "websockets",
+        "realtime",
+        "api",
+        "backend"
+      ],
+      "intent": [
+        "interview",
+        "learning",
+        "career",
+        "skills"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 9,
+      "mandatory_roles": [
+        "cover_hook",
+        "cover_alt",
+        "diagram_hero",
+        "comparison",
+        "stat_card",
+        "process_flow",
+        "cta_endcard"
+      ],
+      "domain_specific_roles": [
+        "architecture_diagram",
+        "data_flow"
+      ],
+      "total_images": 9,
+      "reasoning": "7 core images + 2 domain-specific (Architecture and Data Flow) are necessary to visually explain the differences between Polling, Long Polling, WebSockets, and SSE."
+    },
+    "accessibility": {
+      "captions_included": true,
+      "alt_text_all_images": true,
+      "color_contrast_checked": true,
+      "dyslexic_friendly_fonts": true
+    }
+  },
+  "content": {
+    "title": "Polling vs WebSockets: Stop Wasting Resources on Real-Time Features",
+    "hook": "Stop building real-time features with inefficient polling! You're wasting resources and killing latency.",
+    "content_segments": [
+      {
+        "label": "Hook",
+        "time_range": "0-3s",
+        "narration": "Stop building real-time features with inefficient polling! You're wasting resources and killing latency.",
+        "on_screen_text": "STOP USING SHORT POLLING!",
+        "visuals": "Fast cuts between client/server icons; red 'X' over HTTP request arrows.",
+        "text_motion": "scale_up_bounce",
+        "text_position": "center_upper",
+        "b_roll": [
+          "client/server icons",
+          "high latency warning"
+        ]
+      },
+      {
+        "label": "Problem",
+        "time_range": "3-10s",
+        "narration": "Traditional short polling is brutal. The client constantly asks, 'Is the data ready?' Most responses are empty, leading to massive overhead and unnecessary HTTP requests.",
+        "on_screen_text": "Massive Overhead. Empty Responses.",
+        "visuals": "Show 'process_flow' image (Short Polling loop). Rapid fire requests shown.",
+        "text_motion": "slide_up_fade",
+        "text_position": "center",
+        "b_roll": [
+          "process_flow visualization",
+          "HTTP request counter"
+        ]
+      },
+      {
+        "label": "Solution: Long Polling",
+        "time_range": "10-20s",
+        "narration": "The solution is asynchronous push models. First, Long Polling. The server holds the request open until data is available, then responds. Better, but still relies on HTTP request cycles.",
+        "on_screen_text": "Long Polling: Hold and Respond",
+        "visuals": "Transition to 'comparison' chart highlighting Long Polling. Pattern interrupt at 17s.",
+        "text_motion": "pop_in",
+        "text_position": "center_upper",
+        "b_roll": [
+          "comparison chart",
+          "pattern interrupt flash"
+        ]
+      },
+      {
+        "label": "Solution: WebSockets",
+        "time_range": "20-32s",
+        "narration": "Next, WebSockets. This establishes a persistent, full-duplex connection over a single TCP socket. Zero overhead after connection, true real-time, perfect for chat or gaming.",
+        "on_screen_text": "WebSockets: Full Duplex, Persistent Connection",
+        "visuals": "Show 'architecture_diagram' of WebSockets handshake and persistent connection.",
+        "text_motion": "pop_in",
+        "text_position": "center",
+        "b_roll": [
+          "architecture_diagram",
+          "animated data flow"
+        ]
+      },
+      {
+        "label": "Solution: SSE",
+        "time_range": "32-45s",
+        "narration": "Finally, Server-Sent Events or SSE. It's unidirectional—server to client only—ideal for live feeds or notifications where the client doesn't need to send much back. WebSockets give lowest latency, but Long Polling is simpler for basic updates.",
+        "on_screen_text": "SSE: Unidirectional Push. Low Latency Feeds.",
+        "visuals": "Show 'data_flow' image (SSE). Transition to 'stat_card' showing latency metrics.",
+        "text_motion": "pop_in",
+        "text_position": "center_lower",
+        "b_roll": [
+          "data_flow diagram",
+          "stat_card"
+        ]
+      },
+      {
+        "label": "CTA",
+        "time_range": "45-48s",
+        "narration": "Choose wisely based on your scalability requirements. Save this guide for your next system design interview!",
+        "on_screen_text": "Save This Guide! 💾",
+        "visuals": "Show 'cta_endcard' frame with brand handle.",
+        "text_motion": "fade_in_out",
+        "text_position": "center_lower",
+        "b_roll": [
+          "cta_endcard"
+        ]
+      }
+    ],
+    "script": "[0:00] Stop building real-time features with inefficient polling! You're wasting resources and killing latency. [0:03] Traditional short polling is brutal. The client constantly asks, 'Is the data ready?' Most responses are empty, leading to massive overhead and unnecessary HTTP requests. [0:10] The solution is asynchronous push models. First, Long Polling. The server holds the request open until data is available, then responds. Better, but still relies on HTTP request cycles. [0:20] Next, WebSockets. This establishes a persistent, full-duplex connection over a single TCP socket. Zero overhead after connection, true real-time, perfect for chat or gaming. [0:32] Finally, Server-Sent Events or SSE. It's unidirectional—server to client only—ideal for live feeds or notifications where the client doesn't need to send much back. [0:40] WebSockets give lowest latency, but Long Polling is simpler for basic updates. [0:45] Choose wisely based on your scalability requirements. Save this guide for your next system design interview!",
+    "on_screen_text_cues": [
+      "0-3s: STOP USING SHORT POLLING!",
+      "3-10s: Massive Overhead. Empty Responses.",
+      "10-20s: Long Polling: Hold and Respond",
+      "20-32s: WebSockets: Full Duplex, Persistent Connection",
+      "32-45s: SSE: Unidirectional Push. Low Latency Feeds.",
+      "45-48s: Save This Guide! 💾"
+    ],
+    "transitions": [
+      {
+        "from_segment": "Hook",
+        "to_segment": "Problem",
+        "type": "hard_cut",
+        "timing": "3.0s",
+        "effect": "visual_shock"
+      },
+      {
+        "from_segment": "Problem",
+        "to_segment": "Solution: Long Polling",
+        "type": "zoom_in",
+        "timing": "10.0s",
+        "effect": "diagram_reveal"
+      },
+      {
+        "from_segment": "Solution: Long Polling",
+        "to_segment": "Solution: WebSockets",
+        "type": "hard_cut",
+        "timing": "20.0s",
+        "effect": "pattern_interrupt_flash"
+      },
+      {
+        "from_segment": "Solution: WebSockets",
+        "to_segment": "Solution: SSE",
+        "type": "swipe_left",
+        "timing": "32.0s",
+        "effect": "new_diagram_pan"
+      },
+      {
+        "from_segment": "Solution: SSE",
+        "to_segment": "CTA",
+        "type": "fade",
+        "timing": "45.0s",
+        "effect": "endcard_fade_in"
+      }
+    ],
+    "text_animations": [
+      {
+        "time_range": "0-3s",
+        "text": "STOP USING SHORT POLLING!",
+        "animation_in": "scale_up_bounce",
+        "animation_out": "fade_out",
+        "position": "center_upper",
+        "size_px": 120,
+        "color": "#2563EB",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "0.0s",
+        "disappears_at": "3.3s"
+      },
+      {
+        "time_range": "3-10s",
+        "text": "Massive Overhead. Empty Responses.",
+        "animation_in": "slide_up_fade",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 80,
+        "color": "#F97316",
+        "duration_in": "0.4s",
+        "duration_out": "0.5s",
+        "appears_at": "3.3s",
+        "disappears_at": "10.5s"
+      },
+      {
+        "time_range": "10-20s",
+        "text": "Long Polling: Hold and Respond",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center_upper",
+        "size_px": 70,
+        "color": "#06B6D4",
+        "duration_in": "0.3s",
+        "duration_out": "0.5s",
+        "appears_at": "10.3s",
+        "disappears_at": "20.3s"
+      },
+      {
+        "time_range": "20-32s",
+        "text": "WebSockets: Full Duplex, Persistent Connection",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 70,
+        "color": "#2563EB",
+        "duration_in": "0.3s",
+        "duration_out": "0.5s",
+        "appears_at": "20.3s",
+        "disappears_at": "32.3s"
+      },
+      {
+        "time_range": "32-45s",
+        "text": "SSE: Unidirectional Push. Low Latency Feeds.",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center_lower",
+        "size_px": 70,
+        "color": "#06B6D4",
+        "duration_in": "0.3s",
+        "duration_out": "0.5s",
+        "appears_at": "32.3s",
+        "disappears_at": "45.3s"
+      },
+      {
+        "time_range": "45-48s",
+        "text": "Save This Guide! 💾",
+        "animation_in": "fade_in_out",
+        "animation_out": "fade_out",
+        "position": "center_lower",
+        "size_px": 100,
+        "color": "#2563EB",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "45.3s",
+        "disappears_at": "48.0s"
+      }
+    ],
+    "pacing": {
+      "edit_frequency_seconds": 1.7,
+      "pattern_interrupt_at": 17,
+      "scene_count": 8,
+      "avg_scene_duration": 6,
+      "total_cuts": 28
+    },
+    "first_frame": {
+      "description": "Bold hook text 'STOP USING SHORT POLLING!' with simplified client-server diagram and red accent color indicating failure.",
+      "text_readable_at_thumbnail": true,
+      "visually_striking": true,
+      "text_size_px": 120,
+      "includes": "hook_text + topic_visual + accent_color"
+    },
+    "loop_potential": {
+      "enabled": true,
+      "last_frame_connects_to_first": true,
+      "rewatch_trigger": "The final CTA references the need for better communication methods, which is the core problem introduced in the hook.",
+      "callback_element": "Reference hook concept in final CTA (scalability/performance)"
+    },
+    "visual_plan": {
+      "camera": "close-up on diagrams → pan across connection flow → zoom on latency metric",
+      "motion_graphics": [
+        "type-on keywords",
+        "arrow flow animation (Long Polling vs WebSockets)",
+        "metric callout zoom"
+      ],
+      "color_palette": "Off-white (#FAFAFA) background, Ink Black text, Blue (#2563EB) and Cyan (#06B6D4) accents.",
+      "safe_margins": "keep titles ≥96px from edges (1080x1920)"
+    },
+    "trending_audio": {
+      "vibe": [
+        "energetic tech",
+        "clean minimal",
+        "future garage"
+      ],
+      "bpm_range": "90–120",
+      "search_terms": [
+        "\"trending\" minimal tech beat",
+        "instrumental future garage",
+        "clean build no vocals"
+      ],
+      "example_hook_lines": [
+        "tight snare build",
+        "subtle drop at ~8s"
+      ],
+      "beat_markers_seconds": [
+        0,
+        3,
+        10,
+        17,
+        20,
+        32,
+        40,
+        45
+      ],
+      "sync_points": [
+        {
+          "beat": 0,
+          "action": "hook_text_pop"
+        },
+        {
+          "beat": 3,
+          "action": "problem_reveal"
+        },
+        {
+          "beat": 10,
+          "action": "solution_point_1_start"
+        },
+        {
+          "beat": 17,
+          "action": "pattern_interrupt_flash_and_hard_cut"
+        },
+        {
+          "beat": 20,
+          "action": "solution_point_2_websockets_reveal"
+        },
+        {
+          "beat": 32,
+          "action": "solution_point_3_sse_reveal"
+        },
+        {
+          "beat": 45,
+          "action": "cta_fade_in"
+        }
+      ],
+      "drop_moment": "17s",
+      "energy_curve": "build_0-17s, sustain_17-40s, outro_40-48s"
+    },
+    "call_to_action": "Follow for more system design tips!",
+    "engagement_tactics": {
+      "comment_bait": "Which asynchronous communication approach do you prefer for real-time applications? WebSockets or SSE? Let me know! 👇",
+      "save_trigger": "Save this for your next system design interview when discussing scalability and real-time data 💾",
+      "share_trigger": "Tag a teammate who is still relying on short polling! 🔥",
+      "pattern_interrupt": "Color flash (red to blue) + zoom at 17s mark before introducing WebSockets.",
+      "loop_element": "The CTA encourages saving the 'guide' for scalability requirements, tying back to the initial problem of inefficient resources."
+    },
+    "caption_structured": {
+      "hook_125chars": "Are you still using short polling for real-time features? It’s crushing your latency and wasting server resources! There are better ways. 🛑",
+      "problem_statement": "Short polling is the enemy of scalability in distributed systems. Your client constantly bombards the server with requests, only to get an empty response 90% of the time. This massive overhead destroys performance and increases resource consumption unnecessarily.",
+      "solution_tease": "Switching to push models like WebSockets or Long Polling is the key to achieving true real-time performance and efficient resource usage.",
+      "value_props": [
+        "✓ Understand the trade-offs between Polling, Long Polling, and WebSockets.",
+        "✓ Learn which model offers the lowest latency for real-time applications.",
+        "✓ Optimize your system design architecture for high scalability and performance."
+      ],
+      "keywords_woven": "System design requires choosing the right asynchronous communication method. Optimizing for scalability and distributed systems is crucial for performance.",
+      "comment_bait": "Which asynchronous communication approach do you prefer for real-time applications? WebSockets or SSE? Let me know! 👇",
+      "cta": "Save this 💾 + Follow @systemdesign for more essential system design tips!",
+      "link": "https://example.com/topic/20209?utm_source=instagram&utm_medium=reel"
+    },
+    "caption": "Are you still using short polling for real-time features? It’s crushing your latency and wasting server resources! There are better ways. 🛑\n\nShort polling is the enemy of scalability in distributed systems. Your client constantly bombards the server with requests, only to get an empty response 90% of the time. This massive overhead destroys performance and increases resource consumption unnecessarily.\n\nSwitching to push models like WebSockets or Long Polling is the key to achieving true real-time performance and efficient resource usage.\n\n✓ Understand the trade-offs between Polling, Long Polling, and WebSockets.\n✓ Learn which model offers the lowest latency for real-time applications.\n✓ Optimize your system design architecture for high scalability and performance.\n\nSystem design requires choosing the right asynchronous communication method. Optimizing for scalability and distributed systems is crucial for performance. Which approach do you prefer for real-time applications? WebSockets or SSE? Let me know! 👇\n\nSave this 💾 + Follow @systemdesign for more essential system design tips! Full guide: https://example.com/topic/20209?utm_source=instagram&utm_medium=reel",
+    "hashtags": [
+      "#systemdesign",
+      "#architecture",
+      "#scalability",
+      "#distributed",
+      "#microservices",
+      "#performance",
+      "#websockets",
+      "#longpolling",
+      "#realtime",
+      "#sse",
+      "#api",
+      "#backend",
+      "#tech",
+      "#programming",
+      "#coding",
+      "#software",
+      "#engineering",
+      "#developer",
+      "#techcareer",
+      "#softwareengineering",
+      "#computerscience",
+      "#algorithms",
+      "#datastructures",
+      "#devops",
+      "#loadbalancing",
+      "#caching",
+      "#interview",
+      "#techinterview",
+      "#learning",
+      "#techskills"
+    ],
+    "music_suggestion": "Energetic tech beat, 90-120 BPM, minimal instrumental",
+    "image_prompts": [
+      {
+        "role": "cover_hook",
+        "title": "Reel Cover — Hook Driven (Main)",
+        "prompt": "VERTICAL 9:16 Instagram Reel cover for 'Polling Versus Push Asynchronous Communication: Long-Polling and WebSockets'. FIRST FRAME OPTIMIZED for thumbnail and scroll-stopping. COMPOSITION: Top 25%: Bold hook text 'STOP USING SHORT POLLING!' in 120-140px geometric sans, blue accent color. Middle 50%: Simplified diagram showing a client sending rapid, failed HTTP requests to a server, marked with red 'X's. Vertical flow, thin lines (2px), 3-4 labeled elements (Client, Server, Empty Response). Bottom 25%: Subtle brand mark + micro CTA hint. DOMAIN COLORS: Backend/Systems: Blue (#2563EB) + Cyan (#06B6D4). TECHNICAL SPECS: Background: Off-white (#FAFAFA). Safe margins: ≥96px all sides. Text contrast: 4.5:1 minimum. Thumbnail readable: Text must be clear at 200x355px. First frame: Visually striking, high contrast. Designed for MUTED viewing. TYPOGRAPHY: Hook: 120-140px bold. Labels: 40px medium. Font: Geometric sans (Outfit/Inter/DM Sans). STYLE: Flat vector, thin lines, subtle grid, 40%+ whitespace, mobile-first.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos except tiny watermark, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no gradients >5%, no drop shadows, no text baked into complex diagram",
+        "style_notes": "Whiteboard-meets-editorial; technical yet accessible; elegant minimalism; thumbnail-optimized",
+        "accessibility": {
+          "alt_text": "Instagram Reel cover for Polling Versus Push Asynchronous Communication with bold text 'STOP USING SHORT POLLING!' and simplified diagram showing inefficient short polling requests.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Dyslexic-friendly geometric sans"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "cover_alt",
+        "title": "Reel Cover Alt — Typography Focus (A/B Test)",
+        "prompt": "Alternative vertical cover for A/B testing. TYPOGRAPHY-FOCUSED design for 'Polling Versus Push Asynchronous Communication: Long-Polling and WebSockets'. LAYOUT: Minimalist, text-first approach. Center-aligned 2-line hook: 'POLLING IS DEAD. Use WebSockets.' in bold geometric sans. Underline 'WebSockets'. Small visual element on side: a clean, stylized network icon using cyan accent color. Brand handle at bottom corner in micro-type. STYLE: Same color palette (Blue/Cyan) but higher text prominence. More whitespace, bolder typography, minimal visual elements. Still readable at thumbnail size. Same technical specs as cover_hook (margins, contrast, fonts, etc.)",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos except tiny watermark, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no gradients >5%, no drop shadows, no text baked into complex diagram",
+        "style_notes": "Editorial poster; strong kerning; minimal visual noise; text-centric",
+        "accessibility": {
+          "alt_text": "Alternative Reel cover with typographic emphasis: 'POLLING IS DEAD. Use WebSockets.'",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Dyslexic-friendly"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "diagram_hero",
+        "title": "Core Concept Diagram (Primary Teaching Visual)",
+        "prompt": "Vertical hero diagram for 'Polling Versus Push Asynchronous Communication'. PRIMARY EDUCATIONAL VISUAL. COMPOSITION: Visualization contrasting Short Polling (left side, red/orange color) and WebSockets (right side, blue/cyan color). Short Polling shows rapid, disconnected requests. WebSockets shows a single, persistent, bidirectional arrow. Clear labels: 'Short Polling: High Overhead' and 'WebSockets: Persistent Connection'. Off-white background, thin strokes, domain-specific accent color, subtle grid. PURPOSE: Clearly show the difference in connection state.",
+        "negative_prompt": "no 3D, no photos, no clutter, no decorative elements that distract from learning",
+        "style_notes": "Diagram-first; educational clarity; high legibility; concept over aesthetics",
+        "accessibility": {
+          "alt_text": "Diagram comparing Short Polling (many requests) vs WebSockets (one persistent, bidirectional connection) for asynchronous communication.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels, dyslexic-friendly"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "comparison",
+        "title": "WebSockets vs Long Polling vs Short Polling Comparison",
+        "prompt": "Split vertical comparison chart for asynchronous communication methods. Show three columns: Short Polling, Long Polling, and WebSockets. Compare them based on three key metrics: Latency (High/Medium/Low), Connection Overhead (High/Medium/Low), and Connection Type (Stateless/Stateful). Use green/cyan for WebSockets (best) and red/orange for Short Polling (worst). Clear header text in 60px font. PURPOSE: Highlight the transformation and contrast between options.",
+        "negative_prompt": "no clutter, no 3D, no confusing layouts, no gradient backgrounds",
+        "style_notes": "Clear contrast; easy comparison; visual distinction using color coding (traffic light system)",
+        "accessibility": {
+          "alt_text": "Comparison chart detailing Short Polling, Long Polling, and WebSockets based on Latency, Overhead, and Connection Type.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "stat_card",
+        "title": "Key Metrics/Numbers Visualization (Overhead)",
+        "prompt": "Bold stat card for communication overhead. NUMBER-FIRST design. Large number '90%' at center in cyan (#06B6D4). Context text above: 'Short Polling: Up to' and below: 'of requests are empty and wasted'. Supporting visual element showing a graph of wasted bandwidth/CPU cycles. PURPOSE: Make key metric memorable and impressive.",
+        "negative_prompt": "no clutter, no stock icons, no decorative fluff, no complex graphs",
+        "style_notes": "Number-first; high impact; memorable; clear context",
+        "accessibility": {
+          "alt_text": "Statistics card showing that up to 90% of short polling requests are empty and wasted, highlighting resource consumption.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Large numbers, clear context"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "process_flow",
+        "title": "Short Polling Process Diagram",
+        "prompt": "Vertical flow diagram for the Short Polling process. STEP-BY-STEP PROCESS. LAYOUT: 4 steps stacked vertically: 1. Client sends request. 2. Server checks for data. 3. Server sends empty response (majority case). 4. Client waits (e.g., 5s) and repeats. Use red arrows for the repeated, inefficient cycle. Clean, minimal, educational. PURPOSE: Show the process sequence clearly to illustrate the inefficiency.",
+        "negative_prompt": "no clutter, no 3D, no complex diagrams, focus on the loop failure",
+        "style_notes": "Flow-focused; clear progression; numbered steps; easy to follow",
+        "accessibility": {
+          "alt_text": "Process flow diagram showing the four steps of inefficient Short Polling: request, check, empty response, wait, and repeat.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Step numbers and labels clear"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "architecture_diagram",
+        "title": "WebSockets Connection Architecture",
+        "prompt": "Detailed vertical architecture diagram focusing on the WebSockets connection setup. Show Client initiating HTTP Handshake (Upgrade: websocket). Server responds (101 Switching Protocols). Then, display a single, thick, bidirectional arrow labeled 'Full Duplex TCP Connection' between Client and Server. Use blue accent for successful connection. PURPOSE: Show the stateful nature and efficiency of WebSockets.",
+        "negative_prompt": "no 3D, no complex infrastructure icons, focus only on the connection path and protocol change.",
+        "style_notes": "Technical diagram, clear flow, emphasis on the persistent connection state.",
+        "accessibility": {
+          "alt_text": "Architecture diagram illustrating the WebSockets handshake process and the resulting persistent, full-duplex TCP connection between client and server.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels, technical terms legible."
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "data_flow",
+        "title": "SSE Unidirectional Data Flow Diagram",
+        "prompt": "Data flow diagram for Server-Sent Events (SSE). Show a clear unidirectional path. Client sends one initial request. Server sends a continuous stream of data packets to the client only, labeled 'Data Stream (UTF-8)'. Use green/cyan accents to show successful, ongoing communication. Emphasize the lack of client-to-server traffic after initialization. PURPOSE: Highlight the unidirectional nature of SSE, ideal for notifications or live feeds.",
+        "negative_prompt": "no bidirectional arrows, no connection clutter, keep the diagram focused on one-way traffic.",
+        "style_notes": "Clean data flow visualization, emphasis on the single direction of communication.",
+        "accessibility": {
+          "alt_text": "Data flow diagram showing Server-Sent Events (SSE) as a unidirectional stream from the server to the client, ideal for live updates.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels for data flow."
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "cta_endcard",
+        "title": "Call-to-Action Endcard (Final Frame)",
+        "prompt": "Final CTA endcard for 'Polling Versus Push Asynchronous Communication: Long-Polling and WebSockets'. ACTION-ORIENTED design. LAYOUT: Center-focused. Bold CTA text at center (100px): 'Save this 💾' and 'Follow @systemdesign'. Brand handle clearly visible. Small icons for Save/Follow/Share actions. Clean, minimal, blue accent color for CTA elements. PURPOSE: Drive specific action. Make it obvious what to do next. STYLE: Clean endcard aesthetic. Not cluttered. CTA is unmissable.",
+        "negative_prompt": "no clutter, no busy backgrounds, no multiple competing CTAs, no neon colors",
+        "style_notes": "CTA-first; clear single action; brand visible; action-oriented",
+        "accessibility": {
+          "alt_text": "Call-to-action endcard with Save, Follow, and Share prompts for Polling Versus Push Asynchronous Communication: Long-Polling and WebSockets",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear CTA text"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      }
+    ],
+    "accessibility": {
+      "auto_captions": [
+        {
+          "time": "0-3s",
+          "text": "Stop building real-time features with inefficient polling! You're wasting resources and killing latency."
+        },
+        {
+          "time": "3-10s",
+          "text": "Traditional short polling is brutal. The client constantly asks, 'Is the data ready?' Most responses are empty, leading to massive overhead and unnecessary HTTP requests."
+        },
+        {
+          "time": "10-17s",
+          "text": "The solution is asynchronous push models. First, Long Polling. The server holds the request open until data is available, then responds."
+        },
+        {
+          "time": "17-20s",
+          "text": "Better, but still relies on HTTP request cycles."
+        },
+        {
+          "time": "20-32s",
+          "text": "Next, WebSockets. This establishes a persistent, full-duplex connection over a single TCP socket. Zero overhead after connection, true real-time, perfect for chat or gaming."
+        },
+        {
+          "time": "32-40s",
+          "text": "Finally, Server-Sent Events or SSE. It's unidirectional—server to client only—ideal for live feeds or notifications where the client doesn't need to send much back."
+        },
+        {
+          "time": "40-45s",
+          "text": "WebSockets give lowest latency, but Long Polling is simpler for basic updates."
+        },
+        {
+          "time": "45-48s",
+          "text": "Choose wisely based on your scalability requirements. Save this guide for your next system design interview!"
+        }
+      ],
+      "alt_texts_provided": true,
+      "color_contrast_validated": true,
+      "audio_descriptions": [
+        "Visual shows diagrams comparing connection types and data flow efficiency.",
+        "Animated flow charts illustrate the difference between short polling's rapid requests and WebSockets' single persistent connection."
+      ]
+    },
+    "compliance": {
+      "est_duration_seconds": 48,
+      "script_word_count": 135,
+      "hook_char_count": 96,
+      "hashtag_count": 30,
+      "image_count": 9,
+      "checks": [
+        "≤150 words script",
+        "≤120 chars hook",
+        "CTA present once",
+        "30 unique hashtags",
+        "mobile-safe margins ≥96px",
+        "image_prompts length ≥7 (7 core + domain-specific)",
+        "all images have accessibility object",
+        "text_animations provided for all on_screen_text",
+        "transitions specified between all segments",
+        "engagement_tactics all present",
+        "auto_captions with timestamps",
+        "first_frame optimized for thumbnail",
+        "pattern_interrupt at 15-20s",
+        "music_sync_points aligned to beats",
+        "caption_structured format followed",
+        "all 7 core image roles present: cover_hook, cover_alt, diagram_hero, comparison, stat_card, process_flow, cta_endcard"
+      ]
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "topic_id": "16267",
+    "topic_title": "Recognizing and Refactoring the Arrow Code Anti-Pattern",
+    "platform": "instagram",
+    "format": "story",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-story-1.3",
+    "audience": "intermediate",
+    "tone": "clear, confident",
+    "locale": "en",
+    "primary_keywords": [
+      "code quality",
+      "refactoring",
+      "software engineering"
+    ],
+    "secondary_keywords": [
+      "guard clauses",
+      "arrow code",
+      "design patterns"
+    ],
+    "lsi_terms": [
+      "cognitive load",
+      "early return",
+      "strategy pattern"
+    ],
+    "canonical": "https://example.com/topic/16267",
+    "brand": {
+      "site_url": "https://example.com/topic/16267",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utm_base": "utm_source=instagram&utm_medium=story"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "programming",
+        "softwareEngineering",
+        "codeQuality"
+      ],
+      "niche": [
+        "refactoring",
+        "codeSmell",
+        "antiPattern",
+        "cleanCode"
+      ],
+      "micro_niche": [
+        "arrowCode",
+        "guardClauses",
+        "earlyReturn"
+      ],
+      "intent": [
+        "learnToCode",
+        "devTips"
+      ],
+      "branded": [
+        "systemdesign"
+      ]
+    },
+    "image_plan": {
+      "count": 2,
+      "roles": [
+        "background",
+        "pattern_background"
+      ],
+      "ratio": "9:16",
+      "size_px": "1080x1920",
+      "reasoning": "Two images are optimal: a standard subtle background and a 'pattern_background' to visually represent the nested, cascading nature of 'Arrow Code' for better context setting."
+    }
+  },
+  "content": {
+    "frames": [
+      {
+        "index": 1,
+        "role": "hook",
+        "copy": "Stop writing code that looks like a Christmas tree.",
+        "sticker_ideas": [
+          "poll: Is your code heavily nested? (Yes/No)",
+          "question: How many IFs deep is your worst function?"
+        ],
+        "overlay_notes": "large headline; high contrast",
+        "layout": "centered title; big margins",
+        "alt_text": "Text hook about avoiding deeply nested conditional logic in code.",
+        "duration_seconds": 15
+      },
+      {
+        "index": 2,
+        "role": "micro_insight",
+        "copy": "Flatten 'Arrow Code' using Guard Clauses and Early Returns.",
+        "sticker_ideas": [
+          "quiz: What refactoring technique eliminates deep nesting? (A: Guard Clauses, B: Loop Unrolling, C: Recursion) [Correct: A]",
+          "emoji slider: How annoying is deep nesting? (😩 to 😎)"
+        ],
+        "overlay_notes": "two short lines max",
+        "layout": "top headline; bottom quiz",
+        "alt_text": "Insight on using Guard Clauses and Early Returns to simplify complex code.",
+        "duration_seconds": 15
+      },
+      {
+        "index": 3,
+        "role": "cta",
+        "copy": "Refactor better code today. Deep dive link below!",
+        "sticker_ideas": [
+          "countdown: Code Review Deadline (Set for 24 hours)",
+          "link: https://example.com/topic/16267?utm_source=instagram&utm_medium=story"
+        ],
+        "overlay_notes": "bold CTA; arrow to link",
+        "layout": "CTA bottom; link sticker above",
+        "alt_text": "Call to action to read the full guide on refactoring Arrow Code.",
+        "duration_seconds": 15
+      }
+    ],
+    "stickers": {
+      "global": [
+        "keep polls simple (2 options)",
+        "use quiz with 3 options max"
+      ],
+      "link_strategy": {
+        "enabled": true,
+        "link_url": "https://example.com/topic/16267?utm_source=instagram&utm_medium=story",
+        "link_text": "Read the Refactoring Guide",
+        "placement_hint": "bottom center above CTA"
+      },
+      "time_sensitive_angle": "Use the countdown sticker in Frame 3 to create urgency for learning the technique before the next major code review."
+    },
+    "image_prompts": [
+      {
+        "role": "background",
+        "title": "Story Background",
+        "prompt": "9:16 Instagram Story background for Recognizing and Refactoring the Arrow Code Anti-Pattern. ADAPT to topic: code pattern for programming. Layout: Soft off-white canvas (Instagram Stories aesthetic), faint dotted grid, small semantic corner glyph (10% space) representing topic metaphor (abstract: cascading layered blocks representing conditional depth), ample negative space (80%) for overlay text. Style: Very subtle, unobtrusive; single accent color (Indigo DSA); flat vector aesthetic. Typography space: Clear center area for large text overlays. Safe margins ≥96px. Flat design. Instagram Stories aesthetic - text-first background, high mobile legibility, sunlight-readable. Export 1080x1920.",
+        "negative_prompt": "no busy texture, no photos, no faces, no logos, no neon, no 3D bevels, no gradients >5%",
+        "style_notes": "very subtle, unobtrusive; single accent color only",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Subtle background canvas with small metaphor glyph of cascading code blocks"
+      },
+      {
+        "role": "pattern_background",
+        "title": "Arrow Code Pattern Visual",
+        "prompt": "9:16 Instagram Story pattern background visually representing the 'Arrow Code' anti-pattern. ADAPT pattern: nested, progressively indented bracket patterns or arrows indicating deep conditional flow structure, contrasting with a flat structure. Layout: Light repeating geometric pattern of indentations with extremely low contrast (<3%), ample center whitespace (75%) for text overlay, topic-appropriate pattern hint. Style: Off-white base (Instagram Stories); single subtle accent (Indigo); flat vector. Pattern must be background element only. Typography space: Clear center for text overlays. Safe margins ≥96px. Instagram Stories pattern - subtle, non-distracting, text-overlay friendly. Export 1080x1920.",
+        "negative_prompt": "no noise, no moiré, no logos, no complex code snippets, no distracting colors",
+        "style_notes": "keep pattern <5% contrast; focused on indentation structure",
+        "ratio": "9:16",
+        "size_px": "1080x1920",
+        "alt_text": "Light geometric pattern background showing deeply nested indentation structure."
+      }
+    ],
+    "overlay_hashtags": [
+      "#arrowCode",
+      "#refactoring",
+      "#cleanCode",
+      "#devTips"
+    ],
+    "compliance": {
+      "frames_total": 3,
+      "has_link": true,
+      "checks": [
+        "3–5 frames",
+        "Hook ≤12 words; Insight ≤14; CTA ≤10",
+        "each frame has at least one sticker idea",
+        "link omitted if primary_url empty",
+        "safe margins ≥96px",
+        "image_prompts length == image_plan.count when include_images=true"
+      ]
+    }
+  }
+}

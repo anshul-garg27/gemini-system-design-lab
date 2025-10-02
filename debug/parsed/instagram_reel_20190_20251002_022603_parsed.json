@@ -1,0 +1,732 @@
+{
+  "meta": {
+    "topic_id": "20190",
+    "topic_title": "Leveraging Blob Storage Architectures for Unstructured Data Management",
+    "platform": "instagram",
+    "format": "reel",
+    "content_schema_version": "v1.0.0",
+    "model_version": "gemini-2.5-flash",
+    "prompt_version": "ig-reel-1.2",
+    "audience": "intermediate",
+    "tone": "clear, confident, non-cringe",
+    "locale": "en",
+    "primary_keywords": [
+      "blob storage",
+      "unstructured data",
+      "scalability"
+    ],
+    "secondary_keywords": [
+      "system design",
+      "architecture",
+      "durability"
+    ],
+    "lsi_terms": [
+      "data lake",
+      "object storage",
+      "data tiering",
+      "S3",
+      "Azure Blob"
+    ],
+    "canonical": "https://example.com/topic/20190",
+    "brand": {
+      "siteUrl": "https://example.com/topic/20190",
+      "handles": {
+        "instagram": "@systemdesign",
+        "x": "@systemdesign",
+        "linkedin": "@systemdesign",
+        "youtube": "@systemdesign",
+        "github": "@systemdesign"
+      },
+      "utmBase": "utm_source=instagram&utm_medium=reel"
+    },
+    "options": {
+      "include_images": true,
+      "max_length_levels": "standard",
+      "variance_seed": "default"
+    },
+    "keyword_overrides": true,
+    "keyword_tiers": {
+      "broad": [
+        "tech",
+        "programming",
+        "coding",
+        "software",
+        "engineering"
+      ],
+      "niche": [
+        "systemdesign",
+        "architecture",
+        "scalability",
+        "distributed",
+        "microservices",
+        "backend",
+        "cloud",
+        "datastorage",
+        "blobstorage",
+        "unstructureddata"
+      ],
+      "micro_niche": [
+        "aws",
+        "s3",
+        "azureblob",
+        "dataengineering",
+        "devops",
+        "dataarchitecture",
+        "highavailability",
+        "durability",
+        "cloudnative",
+        "performance"
+      ],
+      "intent": [
+        "interview",
+        "learning",
+        "career",
+        "skills"
+      ],
+      "branded": []
+    },
+    "image_plan": {
+      "count": 10,
+      "mandatory_roles": [
+        "cover_hook",
+        "cover_alt",
+        "diagram_hero",
+        "comparison",
+        "stat_card",
+        "process_flow",
+        "cta_endcard"
+      ],
+      "domain_specific_roles": [
+        "architecture_diagram",
+        "data_flow",
+        "scale_metrics"
+      ],
+      "total_images": 10,
+      "reasoning": "7 core images + 3 system design domain-specific visuals (architecture, data flow, scale) ensure complete visual storytelling for Instagram Reels."
+    },
+    "accessibility": {
+      "captions_included": true,
+      "alt_text_all_images": true,
+      "color_contrast_checked": true,
+      "dyslexic_friendly_fonts": true
+    }
+  },
+  "content": {
+    "title": "Stop Using the Wrong Storage for Massive Unstructured Data!",
+    "hook": "Stop treating unstructured data like it belongs on a traditional file system. You're wasting time and money.",
+    "content_segments": [
+      {
+        "label": "Hook",
+        "time_range": "0-3s",
+        "narration": "Stop treating unstructured data like it belongs on a traditional file system. You're wasting time and money.",
+        "on_screen_text": "Your Storage Architecture is Broken",
+        "visuals": "Start with `cover_hook`, hard cut to `architecture_diagram` showing a traditional failing server stack.",
+        "text_motion": "scale_up_bounce",
+        "text_position": "center_upper",
+        "b_roll": [
+          "failing server stack visual",
+          "red error flash"
+        ]
+      },
+      {
+        "label": "Problem",
+        "time_range": "3-10s",
+        "narration": "Scaling traditional NAS or SAN solutions past the petabyte mark is a nightmare. Low durability, manual sharding, and brutal operational costs.",
+        "on_screen_text": "Scaling Data is Painful",
+        "visuals": "`comparison` showing 'NAS/SAN' vs 'Blob Storage', focusing on high latency metrics.",
+        "text_motion": "slide_up_fade",
+        "text_position": "center",
+        "b_roll": [
+          "latency chart flash",
+          "cost spike graph"
+        ]
+      },
+      {
+        "label": "Solution",
+        "time_range": "10-45s",
+        "narration": "The fix is specialized object storage. Here are three reasons top companies rely on this scalable architecture for massive volumes.",
+        "on_screen_text": "Blob Storage: The Scalability Solution",
+        "visuals": "`diagram_hero` reveal (10.0s).",
+        "text_motion": "pop_in",
+        "text_position": "center",
+        "b_roll": [
+          "diagram pan",
+          "metric callouts",
+          "before/after"
+        ]
+      },
+      {
+        "label": "Solution Point 1 (Durability)",
+        "time_range": "15-20s",
+        "narration": "First, 99.999999999% durability. That’s eleven nines. Your data is virtually indestructible across multiple availability zones.",
+        "on_screen_text": "11 Nines of Durability",
+        "visuals": "`stat_card` reveal (15.0s) - Pattern Interrupt.",
+        "text_motion": "pop_in",
+        "text_position": "center"
+      },
+      {
+        "label": "Solution Point 2 (Cost/Tiering)",
+        "time_range": "20-30s",
+        "narration": "Second, intelligent tiering. Move cold data automatically to lower-cost archives, optimizing your Total Cost of Ownership instantly.",
+        "on_screen_text": "Intelligent Tiering Saves Cost",
+        "visuals": "`process_flow` (20.0s) showing data lifecycle stages.",
+        "text_motion": "pop_in",
+        "text_position": "center"
+      },
+      {
+        "label": "Solution Point 3 (Throughput)",
+        "time_range": "30-40s",
+        "narration": "Third, massive horizontal scalability via simple API calls. Blob storage handles billions of objects and extreme throughput natively.",
+        "on_screen_text": "Billions of Objects, High Throughput",
+        "visuals": "`data_flow` (30.0s) - animated data flow diagram showing concurrent requests.",
+        "text_motion": "pop_in",
+        "text_position": "center"
+      },
+      {
+        "label": "Wrap Up",
+        "time_range": "40-45s",
+        "narration": "Implement proper access controls and encryption to secure your entire data lake and complete your modern storage architecture.",
+        "on_screen_text": "Secure Your Data Lake",
+        "visuals": "`architecture_diagram` (40.0s) highlighting security components.",
+        "text_motion": "fade_in_out",
+        "text_position": "center_lower"
+      },
+      {
+        "label": "CTA",
+        "time_range": "45-50s",
+        "narration": "Which cloud provider handles blob storage best? Drop a comment! Save this for your next system design interview!",
+        "on_screen_text": "Save this 💾 Follow for more!",
+        "visuals": "`cta_endcard` frame with brand handle.",
+        "text_motion": "fade_in",
+        "text_position": "center_lower",
+        "b_roll": [
+          "logo-free end card motif"
+        ]
+      }
+    ],
+    "script": "[0:00] Stop treating unstructured data like it belongs on a traditional file system. You're wasting time and money. [0:03] Scaling traditional NAS or SAN solutions past the petabyte mark is a nightmare. Low durability, manual sharding, and brutal operational costs. [0:10] The fix is specialized object storage. Here are three reasons top companies rely on this scalable architecture for massive volumes. [0:15] First, 99.999999999% durability. That’s eleven nines. Your data is virtually indestructible across multiple availability zones. [0:20] Second, intelligent tiering. Move cold data automatically to lower-cost archives, optimizing your Total Cost of Ownership instantly. [0:30] Third, massive horizontal scalability via simple API calls. Blob storage handles billions of objects and extreme throughput natively. [0:40] Implement proper access controls and encryption to secure your entire data lake and complete your modern storage architecture. [0:45] Which cloud provider handles blob storage best? Drop a comment! Save this for your next system design interview!",
+    "on_screen_text_cues": [
+      "0-3s: Your Storage Architecture is Broken",
+      "3-10s: Scaling Data is Painful",
+      "10-15s: Blob Storage: The Scalability Solution",
+      "15-20s: 11 Nines of Durability",
+      "20-30s: Intelligent Tiering Saves Cost",
+      "30-40s: Billions of Objects, High Throughput",
+      "40-45s: Secure Your Data Lake",
+      "45-50s: Save this 💾 Follow for more!"
+    ],
+    "transitions": [
+      {
+        "from_segment": "Hook",
+        "to_segment": "Problem",
+        "type": "hard_cut",
+        "timing": "3.0s",
+        "effect": "text_swipe_left"
+      },
+      {
+        "from_segment": "Problem",
+        "to_segment": "Solution",
+        "type": "zoom_in",
+        "timing": "10.0s",
+        "effect": "diagram_reveal"
+      },
+      {
+        "from_segment": "Solution",
+        "to_segment": "Solution Point 1 (Durability)",
+        "type": "hard_cut",
+        "timing": "15.0s",
+        "effect": "pattern_interrupt_flash"
+      },
+      {
+        "from_segment": "Solution Point 1 (Durability)",
+        "to_segment": "Solution Point 2 (Cost/Tiering)",
+        "type": "hard_cut",
+        "timing": "20.0s",
+        "effect": "visual_swap"
+      },
+      {
+        "from_segment": "Solution Point 2 (Cost/Tiering)",
+        "to_segment": "Solution Point 3 (Throughput)",
+        "type": "hard_cut",
+        "timing": "30.0s",
+        "effect": "visual_swap"
+      },
+      {
+        "from_segment": "Solution Point 3 (Throughput)",
+        "to_segment": "Wrap Up",
+        "type": "hard_cut",
+        "timing": "40.0s",
+        "effect": "visual_swap"
+      },
+      {
+        "from_segment": "Wrap Up",
+        "to_segment": "CTA",
+        "type": "fade",
+        "timing": "45.0s",
+        "effect": "endcard_fade_in"
+      }
+    ],
+    "text_animations": [
+      {
+        "time_range": "0-3s",
+        "text": "Your Storage Architecture is Broken",
+        "animation_in": "scale_up_bounce",
+        "animation_out": "fade_out",
+        "position": "center_upper",
+        "size_px": 120,
+        "color": "#2563EB",
+        "duration_in": "0.5s",
+        "duration_out": "0.3s",
+        "appears_at": "0.0s",
+        "disappears_at": "3.3s"
+      },
+      {
+        "time_range": "3-10s",
+        "text": "Scaling Data is Painful",
+        "animation_in": "slide_up_fade",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 80,
+        "color": "#F97316",
+        "duration_in": "0.5s",
+        "duration_out": "0.5s",
+        "appears_at": "3.0s",
+        "disappears_at": "10.5s"
+      },
+      {
+        "time_range": "10-15s",
+        "text": "Blob Storage: The Scalability Solution",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 90,
+        "color": "#06B6D4",
+        "duration_in": "0.3s",
+        "duration_out": "0.2s",
+        "appears_at": "10.0s",
+        "disappears_at": "15.0s"
+      },
+      {
+        "time_range": "15-20s",
+        "text": "11 Nines of Durability",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 100,
+        "color": "#2563EB",
+        "duration_in": "0.3s",
+        "duration_out": "0.2s",
+        "appears_at": "15.0s",
+        "disappears_at": "20.3s"
+      },
+      {
+        "time_range": "20-30s",
+        "text": "Intelligent Tiering Saves Cost",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 80,
+        "color": "#10B981",
+        "duration_in": "0.3s",
+        "duration_out": "0.2s",
+        "appears_at": "20.0s",
+        "disappears_at": "30.3s"
+      },
+      {
+        "time_range": "30-40s",
+        "text": "Billions of Objects, High Throughput",
+        "animation_in": "pop_in",
+        "animation_out": "fade_out",
+        "position": "center",
+        "size_px": 80,
+        "color": "#2563EB",
+        "duration_in": "0.3s",
+        "duration_out": "0.2s",
+        "appears_at": "30.0s",
+        "disappears_at": "40.3s"
+      },
+      {
+        "time_range": "40-45s",
+        "text": "Secure Your Data Lake",
+        "animation_in": "fade_in_out",
+        "animation_out": "fade_out",
+        "position": "center_lower",
+        "size_px": 70,
+        "color": "#06B6D4",
+        "duration_in": "0.5s",
+        "duration_out": "0.5s",
+        "appears_at": "40.0s",
+        "disappears_at": "45.5s"
+      },
+      {
+        "time_range": "45-50s",
+        "text": "Save this 💾 Follow for more!",
+        "animation_in": "fade_in",
+        "animation_out": "fade_out",
+        "position": "center_lower",
+        "size_px": 100,
+        "color": "#2563EB",
+        "duration_in": "0.5s",
+        "duration_out": "0.5s",
+        "appears_at": "45.0s",
+        "disappears_at": "50.0s"
+      }
+    ],
+    "pacing": {
+      "edit_frequency_seconds": 1.7,
+      "pattern_interrupt_at": 15,
+      "scene_count": 8,
+      "avg_scene_duration": 6.25,
+      "total_cuts": 29
+    },
+    "first_frame": {
+      "description": "Bold hook text 'Your Storage Architecture is Broken' with a simplified diagram of traditional failing storage, using Blue accent color.",
+      "text_readable_at_thumbnail": true,
+      "visually_striking": true,
+      "text_size_px": 140,
+      "includes": "hook_text + topic_visual + accent_color"
+    },
+    "loop_potential": {
+      "enabled": true,
+      "last_frame_connects_to_first": true,
+      "rewatch_trigger": "The final CTA asks a question about cloud providers, encouraging the viewer to rewatch the core solution points.",
+      "callback_element": "The CTA references saving the solution, tying back to the problem posed in the hook."
+    },
+    "visual_plan": {
+      "camera": "close-up on screen capture → diagram pan → metric callout",
+      "motion_graphics": [
+        "type-on keywords",
+        "underline metric",
+        "data flow arrows"
+      ],
+      "color_palette": "off-white bg, ink black, primary accent Blue (#2563EB), secondary accent Cyan (#06B6D4)",
+      "safe_margins": "keep titles ≥96px from edges (1080x1920)"
+    },
+    "trending_audio": {
+      "vibe": [
+        "energetic tech",
+        "clean minimal",
+        "future garage"
+      ],
+      "bpm_range": "90–120",
+      "search_terms": [
+        "\"trending\" minimal tech beat",
+        "instrumental future garage",
+        "clean build no vocals"
+      ],
+      "example_hook_lines": [
+        "tight snare build",
+        "subtle drop at ~8s"
+      ],
+      "beat_markers_seconds": [
+        0,
+        3,
+        10,
+        15,
+        20,
+        30,
+        40,
+        45
+      ],
+      "sync_points": [
+        {
+          "beat": 0,
+          "action": "hook_text_pop"
+        },
+        {
+          "beat": 3,
+          "action": "problem_reveal"
+        },
+        {
+          "beat": 10,
+          "action": "solution_point_1_intro"
+        },
+        {
+          "beat": 15,
+          "action": "pattern_interrupt"
+        },
+        {
+          "beat": 20,
+          "action": "solution_point_2_reveal"
+        },
+        {
+          "beat": 30,
+          "action": "solution_point_3_reveal"
+        },
+        {
+          "beat": 45,
+          "action": "cta_fade_in"
+        }
+      ],
+      "drop_moment": "15s",
+      "energy_curve": "build_0-15s, sustain_15-40s, outro_40-50s"
+    },
+    "call_to_action": "Follow @systemdesign for more architecture tips!",
+    "engagement_tactics": {
+      "comment_bait": "Which cloud provider handles blob storage best (S3 vs Azure)? Drop a comment! 👇",
+      "save_trigger": "Save this for your next system design interview 💾",
+      "share_trigger": "Tag someone building scalable systems for unstructured data! 🔥",
+      "pattern_interrupt": "Color flash + zoom at 15s mark on the '11 Nines' durability metric.",
+      "loop_element": "CTA references the key architectural choice, encouraging rewatch."
+    },
+    "caption_structured": {
+      "hook_125chars": "Your current storage architecture for unstructured data is likely costing you too much time and money. Here's why you need specialized blob storage! 💡",
+      "problem_statement": "Traditional file systems (NAS/SAN) struggle massively with petabyte-scale and high throughput requirements, leading to operational nightmares and low durability guarantees. If your system is crashing under the weight of media files or backups, you need a different approach.",
+      "solution_tease": "The secret to handling billions of objects efficiently lies in adopting cloud-native object storage architectures.",
+      "value_props": [
+        "✓ Achieve 11 Nines (99.999999999%) data durability",
+        "✓ Implement intelligent tiering for massive cost savings",
+        "✓ Gain horizontal scalability for extreme throughput",
+        "✓ Simplify your system design with simple API calls"
+      ],
+      "keywords_woven": "Blob storage is the foundation for modern data lake architecture, providing incredible scalability and durability for unstructured data management.",
+      "comment_bait": "Which cloud provider handles blob storage best (S3 vs Azure)? Drop a comment! 👇",
+      "cta": "Save this 💾 + Follow @systemdesign for more architecture tips!",
+      "link": "https://example.com/topic/20190?utm_source=instagram&utm_medium=reel"
+    },
+    "caption": "Your current storage architecture for unstructured data is likely costing you too much time and money. Here's why you need specialized blob storage! 💡\n\nTraditional file systems (NAS/SAN) struggle massively with petabyte-scale and high throughput requirements, leading to operational nightmares and low durability guarantees. If your system is crashing under the weight of media files or backups, you need a different approach.\n\nThe secret to handling billions of objects efficiently lies in adopting cloud-native object storage architectures.\n\n✓ Achieve 11 Nines (99.999999999%) data durability\n✓ Implement intelligent tiering for massive cost savings\n✓ Gain horizontal scalability for extreme throughput\n✓ Simplify your system design with simple API calls\n\nBlob storage is the foundation for modern data lake architecture, providing incredible scalability and durability for unstructured data management.\n\nWhich cloud provider handles blob storage best (S3 vs Azure)? Drop a comment! 👇\n\nSave this 💾 + Follow @systemdesign for more architecture tips! Full guide: https://example.com/topic/20190?utm_source=instagram&utm_medium=reel",
+    "hashtags": [
+      "#systemdesign",
+      "#architecture",
+      "#scalability",
+      "#distributed",
+      "#microservices",
+      "#backend",
+      "#cloud",
+      "#datastorage",
+      "#blobstorage",
+      "#unstructureddata",
+      "#aws",
+      "#s3",
+      "#azureblob",
+      "#dataengineering",
+      "#devops",
+      "#dataarchitecture",
+      "#highavailability",
+      "#durability",
+      "#cloudnative",
+      "#performance",
+      "#tech",
+      "#programming",
+      "#coding",
+      "#software",
+      "#engineering",
+      "#interview",
+      "#learning",
+      "#career",
+      "#techskills",
+      "#systemdesigninterview"
+    ],
+    "music_suggestion": "Energetic tech beat, 90-120 BPM, minimal instrumental",
+    "image_prompts": [
+      {
+        "role": "cover_hook",
+        "title": "Reel Cover — Hook Driven (Main)",
+        "prompt": "VERTICAL 9:16 Instagram Reel cover for 'Leveraging Blob Storage Architectures for Unstructured Data Management'. FIRST FRAME OPTIMIZED for thumbnail and scroll-stopping. COMPOSITION: Top 25%: Bold hook text 'Your Storage Architecture is Broken' in 120-140px geometric sans, primary Blue accent (#2563EB). Middle 50%: Simplified vector diagram showing a traditional server stack failing or overloaded (red X icon). Vertical flow, thin lines (2px), 3-4 labeled elements. Bottom 25%: Subtle brand mark + micro CTA hint. STYLE: Flat vector, off-white background, elegant minimalism.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos except tiny watermark, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no gradients >5%, no drop shadows, no text baked into complex diagram",
+        "style_notes": "Whiteboard-meets-editorial; technical yet accessible; elegant minimalism; thumbnail-optimized",
+        "accessibility": {
+          "alt_text": "Instagram Reel cover for Blob Storage Architectures with bold hook text 'Your Storage Architecture is Broken' and simplified diagram of traditional failing server storage.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Dyslexic-friendly geometric sans"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "cover_alt",
+        "title": "Reel Cover Alt — Typography Focus (A/B Test)",
+        "prompt": "Alternative vertical cover for A/B testing. TYPOGRAPHY-FOCUSED design for 'Leveraging Blob Storage Architectures for Unstructured Data Management'. LAYOUT: Minimalist, text-first approach. Center-aligned 2-line hook 'STOP SCALING DATA THE WRONG WAY' in bold geometric sans. Underline 'WRONG WAY' in Cyan (#06B6D4). Small vector cloud object storage icon on the side. STYLE: Same color palette but bolder typography, minimal visual elements. Still readable at thumbnail size.",
+        "negative_prompt": "no clutter, no busy backgrounds, no photoreal faces, no brand logos except tiny watermark, no neon, no 3D bevels, no fake UI chrome, no stock icon noise, no gradients >5%, no drop shadows, no text baked into complex diagram",
+        "style_notes": "Editorial poster; strong kerning; minimal visual noise; text-centric",
+        "accessibility": {
+          "alt_text": "Alternative Reel cover with typographic emphasis: 'STOP SCALING DATA THE WRONG WAY' highlighting cloud object storage icon.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Dyslexic-friendly"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "diagram_hero",
+        "title": "Core Concept Diagram (Primary Teaching Visual)",
+        "prompt": "Vertical hero diagram for 'Blob Storage Architectures'. PRIMARY EDUCATIONAL VISUAL. COMPOSITION: Main concept visualization occupying middle 60%. Show three labeled boxes stacked vertically: 'API Gateway', 'Blob Storage Cluster (S3/Azure)', and 'Data Replication Zones'. Arrows connecting flow top-to-bottom. Clear labels, off-white background, thin strokes, Blue accent color (#2563EB). PURPOSE: Show the fundamental structure of object storage.",
+        "negative_prompt": "no 3D, no photos, no clutter, no decorative elements that distract from learning",
+        "style_notes": "Diagram-first; educational clarity; high legibility; concept over aesthetics",
+        "accessibility": {
+          "alt_text": "Diagram explaining core concept of Blob Storage Architecture showing API Gateway, Storage Cluster, and Replication Zones.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels, dyslexic-friendly"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "comparison",
+        "title": "Traditional vs Blob Storage Comparison",
+        "prompt": "Split vertical comparison for 'Unstructured Data Management'. Top 45% labeled 'Traditional Storage (NAS/SAN)' in red/orange, showing high cost and low durability (e.g., 99.9% durability). Bottom 45% labeled 'Blob Storage (S3/Azure)' in green/blue, showing low cost and high durability (11 Nines). Key takeaway text in middle divider area emphasizing scalability.",
+        "negative_prompt": "no clutter, no 3D, no confusing layouts",
+        "style_notes": "Clear contrast; easy comparison; visual distinction between options",
+        "accessibility": {
+          "alt_text": "Comparison showing Traditional Storage vs Blob Storage, contrasting cost and durability metrics.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "stat_card",
+        "title": "Key Metrics/Numbers Visualization (Durability)",
+        "prompt": "Bold stat card for 'Blob Storage Durability'. NUMBER-FIRST design. Large number '99.999999999%' (11 Nines) at center in primary Blue (#2563EB). Context text above: 'INDUSTRY LEADING DURABILITY'. Supporting visual element of three interconnected data centers reinforcing zone replication. High impact, readable at a glance.",
+        "negative_prompt": "no clutter, no stock icons, no decorative fluff",
+        "style_notes": "Number-first; high impact; memorable; clear context",
+        "accessibility": {
+          "alt_text": "Statistics showing 99.999999999% durability for Blob Storage, reinforced by data center icons.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Large numbers, clear context"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "process_flow",
+        "title": "Data Lifecycle Tiering Process Diagram",
+        "prompt": "Vertical flow diagram for 'Intelligent Data Tiering'. STEP-BY-STEP PROCESS showing data lifecycle management. 4 steps stacked vertically: 1. Ingestion (Hot Tier), 2. 30 Days (Infrequent Access Tier), 3. 90 Days (Archive Tier), 4. Deletion. Arrows connecting steps top-to-bottom. Use Green accent (#10B981) for the flow.",
+        "negative_prompt": "no clutter, no 3D, no complex diagrams",
+        "style_notes": "Flow-focused; clear progression; numbered steps; easy to follow",
+        "accessibility": {
+          "alt_text": "Process flow diagram showing 4 steps of data lifecycle management and intelligent tiering for cost optimization.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Step numbers and labels clear"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "cta_endcard",
+        "title": "Call-to-Action Endcard (Final Frame)",
+        "prompt": "Final CTA endcard for 'Blob Storage Architectures'. ACTION-ORIENTED design. Center-focused. Bold CTA text: 'Save this 💾 Follow @systemdesign' in primary Blue (#2563EB). Subtle icons for Save/Follow/Share actions. Clean, minimal, high contrast.",
+        "negative_prompt": "no clutter, no busy backgrounds, no multiple competing CTAs",
+        "style_notes": "CTA-first; clear single action; brand visible; action-oriented",
+        "accessibility": {
+          "alt_text": "Call-to-action endcard with Save, Follow, and Share prompts for system design content.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear CTA text"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "architecture_diagram",
+        "title": "Detailed Object Storage Architecture",
+        "prompt": "Detailed vertical system architecture diagram showing a modern object storage setup. Components include: Client API Calls, Load Balancer, Authentication Service, Blob Storage Cluster (labeled as partitioned/sharded storage nodes), and a separate Metadata Database. Use Blue and Cyan accents to show data flow and control plane separation.",
+        "negative_prompt": "no 3D, no photos, must be a clear system design diagram, no confusing lines",
+        "style_notes": "System design focus; high fidelity diagram; clear component separation",
+        "accessibility": {
+          "alt_text": "Detailed System Architecture Diagram of Blob Storage, including load balancing, storage nodes, and metadata database.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Geometric sans labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "data_flow",
+        "title": "High-Throughput Data Flow Visualization",
+        "prompt": "Animated data flow visualization suitable for a vertical Reel. Show multiple parallel arrows representing high throughput requests entering the system simultaneously, hitting a single 'Blob Storage API' box, and then spreading out to many individual storage cells. Emphasize horizontal scaling and concurrent access using Cyan arrows.",
+        "negative_prompt": "no clutter, no photorealism, focus on abstract data movement",
+        "style_notes": "Dynamic flow; emphasis on concurrent requests; abstract visualization of scalability",
+        "accessibility": {
+          "alt_text": "Visualization of high-throughput data flow showing numerous concurrent requests handled by the Blob Storage API.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Minimal text, focus on visual flow"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      },
+      {
+        "role": "scale_metrics",
+        "title": "Throughput and Latency Metrics",
+        "prompt": "Vertical visualization comparing throughput metrics. Show a small bar labeled 'Traditional Storage' with low QPS (e.g., 100 QPS) next to a massive bar labeled 'Blob Storage' with extremely high QPS (e.g., 1 Million QPS). Use contrasting colors (Red for low, Blue for high). Title: 'Massive Throughput Potential'.",
+        "negative_prompt": "no complex graphs, must be simplified bar chart, no clutter",
+        "style_notes": "Data visualization; clear comparison of performance metrics; high contrast",
+        "accessibility": {
+          "alt_text": "Scale metrics visualization comparing low QPS of traditional storage to the massive QPS capacity of modern Blob Storage.",
+          "color_contrast_ratio": "4.5:1",
+          "font_accessibility": "Clear titles and numerical labels"
+        },
+        "ratio": "9:16",
+        "size_px": "1080x1920"
+      }
+    ],
+    "accessibility": {
+      "auto_captions": [
+        {
+          "time": "0-3s",
+          "text": "Stop treating unstructured data like it belongs on a traditional file system. You're wasting time and money."
+        },
+        {
+          "time": "3-10s",
+          "text": "Scaling traditional NAS or SAN solutions past the petabyte mark is a nightmare. Low durability, manual sharding, and brutal operational costs."
+        },
+        {
+          "time": "10-15s",
+          "text": "The fix is specialized object storage. Here are three reasons top companies rely on this scalable architecture for massive volumes."
+        },
+        {
+          "time": "15-20s",
+          "text": "First, 99.999999999% durability. That’s eleven nines. Your data is virtually indestructible across multiple availability zones."
+        },
+        {
+          "time": "20-30s",
+          "text": "Second, intelligent tiering. Move cold data automatically to lower-cost archives, optimizing your Total Cost of Ownership instantly."
+        },
+        {
+          "time": "30-40s",
+          "text": "Third, massive horizontal scalability via simple API calls. Blob storage handles billions of objects and extreme throughput natively."
+        },
+        {
+          "time": "40-45s",
+          "text": "Implement proper access controls and encryption to secure your entire data lake and complete your modern storage architecture."
+        },
+        {
+          "time": "45-50s",
+          "text": "Which cloud provider handles blob storage best? Drop a comment! Save this for your next system design interview!"
+        }
+      ],
+      "alt_texts_provided": true,
+      "color_contrast_validated": true,
+      "audio_descriptions": [
+        "Visuals transition quickly between diagrams illustrating poor traditional storage and highly scalable cloud object storage architectures.",
+        "The stat card at 15 seconds highlights the 11 nines durability metric with a quick zoom and color change for emphasis.",
+        "The flow diagram shows the automatic movement of data between hot and cold storage tiers."
+      ]
+    },
+    "compliance": {
+      "est_duration_seconds": 50,
+      "script_word_count": 130,
+      "hook_char_count": 105,
+      "hashtag_count": 30,
+      "image_count": 10,
+      "checks": [
+        "≤150 words script",
+        "≤120 chars hook",
+        "CTA present once",
+        "30 unique hashtags",
+        "mobile-safe margins ≥96px",
+        "image_prompts length ≥7 (7 core + domain-specific)",
+        "all images have accessibility object",
+        "text_animations provided for all on_screen_text",
+        "transitions specified between all segments",
+        "engagement_tactics all present",
+        "auto_captions with timestamps",
+        "first_frame optimized for thumbnail",
+        "pattern_interrupt at 15-20s",
+        "music_sync_points aligned to beats",
+        "caption_structured format followed",
+        "all 7 core image roles present: cover_hook, cover_alt, diagram_hero, comparison, stat_card, process_flow, cta_endcard"
+      ]
+    }
+  }
+}
