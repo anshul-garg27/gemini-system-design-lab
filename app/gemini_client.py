@@ -42,7 +42,7 @@ class GeminiClient:
         
         # Initialize the model with enhanced configuration
         self.model = genai.GenerativeModel(
-            model_name="gemini-2.5-pro",
+            model_name="gemini-flash-latest",
             generation_config={
                 "temperature": 0.7,
                 "top_p": 0.9,
@@ -185,7 +185,7 @@ class GeminiClient:
                             
                             # Reinitialize the model with new API key
                             self.model = genai.GenerativeModel(
-                                model_name="gemini-2.5-pro",
+                                model_name="gemini-flash-latest",
                                 generation_config={
                                     "temperature": 0.7,
                                     "top_p": 0.9,

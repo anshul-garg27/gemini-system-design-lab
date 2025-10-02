@@ -475,7 +475,7 @@ const ContentGenerator: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-950 dark:via-gray-900 dark:to-black">
+    <div className="min-h-screen gradient-bg-subtle">
       {/* Animated Background */}
       <div className="fixed inset-0 -z-10">
         <div className="absolute top-0 right-0 w-[700px] h-[700px] bg-secondary-400/20 dark:bg-secondary-500/10 rounded-full blur-3xl animate-pulse" />
@@ -485,10 +485,10 @@ const ContentGenerator: React.FC = () => {
       <div className="px-6 py-8">
         {/* Header */}
         <div className="text-center mb-8 animate-fade-in-down">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full mb-4 shadow-lg animate-float">
+          <div className="inline-flex items-center justify-center w-16 h-16 gradient-brand rounded-full mb-4 shadow-lg animate-float">
             <SparklesIcon className="h-8 w-8 text-white" />
           </div>
-          <h1 className="text-4xl font-bold gradient-text-primary mb-2">
+          <h1 className="text-4xl font-bold text-primary-700 dark:text-primary-300 mb-2">
             Multi-Platform Content Generator
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
@@ -502,7 +502,7 @@ const ContentGenerator: React.FC = () => {
             <div className="absolute top-0 left-0 w-48 h-48 bg-gradient-to-br from-primary-400/20 to-secondary-400/20 dark:from-primary-500/10 dark:to-secondary-500/10 rounded-full blur-3xl" />
             <CardHeader>
               <CardTitle className="flex items-center">
-                <div className="p-2 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg mr-3">
+                <div className="p-2 gradient-brand rounded-lg mr-3">
                   <DocumentTextIcon className="h-6 w-6 text-white" />
                 </div>
                 <span>Select Topics</span>

@@ -204,7 +204,7 @@ export const LinkedInCarouselView: React.FC<LinkedInCarouselViewProps> = ({ cont
   return (
     <div className="bg-white dark:bg-gray-900 rounded-3xl shadow-2xl max-w-7xl w-full max-h-[90vh] overflow-hidden flex flex-col">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-700 to-blue-800 text-white p-6">
+      <div className="bg-blue-700 text-white p-6">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-bold flex items-center">

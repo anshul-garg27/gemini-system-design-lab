@@ -16,8 +16,9 @@ import {
 } from '@heroicons/react/24/outline';
 import { Button } from './ui/Button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/Card';
-import { ProgressBar, Skeleton, LoadingSpinner } from './ui/LoadingStates';
+import { Skeleton } from './ui/LoadingStates';
 import { useNavigate } from 'react-router-dom';
+import { ProcessingStatus as ProcessingStatusComponent } from './ProcessingStatus';
 
 const Dashboard: React.FC = () => {
   const navigate = useNavigate();
@@ -109,14 +110,6 @@ const Dashboard: React.FC = () => {
     }
   };
 
-  const getProgressPercentage = () => {
-    if (!status) return 0;
-    const total = status.processed_topics + (status as any).failed_topics + status.skipped_topics;
-    if (total === 0) return 0;
-    return (status.processed_topics / total) * 100;
-  };
-
-  const eventLogEntries = status?.event_log ?? [];
 
   const statCards = [
     {
@@ -125,7 +118,7 @@ const Dashboard: React.FC = () => {
       icon: DocumentTextIcon,
       color: 'primary',
       subtext: 'All time',
-      trend: '+12%'
+      trend: stats?.total_topics > 0 ? '+12%' : null
     },
     {
       title: 'Completed',
@@ -133,22 +126,22 @@ const Dashboard: React.FC = () => {
       icon: CheckCircleIcon,
       color: 'success',
       subtext: `${stats?.total_topics ? Math.round((stats.completed_topics / stats.total_topics) * 100) : 0}% success rate`,
-      trend: '+5%'
+      trend: stats?.completed_topics > 0 ? '+5%' : null
     },
     {
       title: 'Processing',
       value: isProcessing ? 'Active' : 'Idle',
       icon: ClockIcon,
-      color: 'warning',
-      subtext: 'Ready to process',
+      color: isProcessing ? 'warning' : 'neutral',
+      subtext: isProcessing ? 'In progress' : 'Ready to process',
       trend: null
     },
     {
-      title: 'Skipped',
-      value: stats?.pending_topics || 0,
+      title: 'Failed',
+      value: stats?.failed_topics || 0,
       icon: ExclamationTriangleIcon,
-      color: 'error',
-      subtext: 'Already exist',
+      color: (stats?.failed_topics || 0) > 0 ? 'error' : 'neutral',
+      subtext: 'Needs retry',
       trend: null
     }
   ];
@@ -162,16 +155,16 @@ const Dashboard: React.FC = () => {
         <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-secondary-400/20 dark:bg-secondary-500/10 rounded-full blur-3xl animate-pulse animation-delay-2000" />
       </div>
 
-      {/* Header Section */}
-      <div className="text-center mb-12 space-y-4 animate-fade-in-down">
-        <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-2xl shadow-2xl mb-4 animate-float">
-          <DocumentTextIcon className="h-10 w-10 text-white" />
+      {/* Header Section - Improved spacing and hierarchy */}
+      <div className="text-center mb-10 space-y-3 animate-fade-in-down">
+        <div className="inline-flex items-center justify-center w-16 h-16 gradient-brand rounded-2xl shadow-lg mb-3 animate-float">
+          <DocumentTextIcon className="h-8 w-8 text-white" />
         </div>
-        <h1 className="text-5xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 dark:from-primary-400 dark:to-secondary-400 bg-clip-text text-transparent">
+        <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-primary-700 to-primary-600 dark:from-primary-300 dark:to-primary-400 bg-clip-text text-transparent">
           System Design Topic Generator
         </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-          Generate comprehensive system design topics using cutting-edge AI technology
+        <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          Generate comprehensive system design topics using AI
         </p>
       </div>
 
@@ -182,59 +175,63 @@ const Dashboard: React.FC = () => {
           return (
             <Card 
               key={stat.title} 
-              className={`relative overflow-hidden animate-fade-in-up animation-delay-${index * 100}`}
+              className={`relative overflow-hidden animate-fade-in-up animation-delay-${index * 100} group cursor-pointer`}
             >
-              <CardContent className="p-6 bg-white dark:bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-700/50 hover:shadow-lg dark:hover:shadow-2xl transition-all duration-300">
+              <CardContent className="p-6 bg-white dark:bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-gray-700/50 hover:shadow-xl dark:hover:shadow-2xl hover:border-primary-300 dark:hover:border-primary-600 transition-all duration-300 hover:-translate-y-1">
                 <div className="flex items-start justify-between">
-                  <div className="space-y-2">
-                    <p className="text-sm font-medium text-gray-600 dark:text-gray-300">
+                  <div className="space-y-2 flex-1">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
                       {stat.title}
                     </p>
                     <div className="flex items-baseline space-x-2">
                       {loadingStats ? (
-                        <Skeleton className="h-8 w-20" />
+                        <Skeleton className="h-10 w-24" />
                       ) : (
                         <>
-                          <h3 className={`text-3xl font-bold ${
+                          <h3 className={`text-4xl font-extrabold tabular-nums ${
                             stat.color === 'primary' ? 'text-primary-600 dark:text-primary-400' :
                             stat.color === 'success' ? 'text-success-600 dark:text-success-400' :
                             stat.color === 'warning' ? 'text-warning-600 dark:text-warning-400' :
-                            'text-error-600 dark:text-error-400'
+                            stat.color === 'error' ? 'text-error-600 dark:text-error-400' :
+                            'text-gray-600 dark:text-gray-400'
                           }`}>
                             {stat.value}
                           </h3>
                           {stat.trend && (
-                            <span className="text-sm font-medium text-success-600 dark:text-success-400">
+                            <span className="text-xs font-bold text-success-600 dark:text-success-400 bg-success-50 dark:bg-success-900/30 px-1.5 py-0.5 rounded">
                               {stat.trend}
                             </span>
                           )}
                         </>
                       )}
                     </div>
-                    <p className="text-xs text-gray-500 dark:text-gray-400">
+                    <p className="text-xs text-gray-600 dark:text-gray-400 font-medium">
                       {stat.subtext}
                     </p>
                   </div>
-                  <div className={`p-3 rounded-xl ${
+                  <div className={`p-3 rounded-xl transition-transform group-hover:scale-110 ${
                     stat.color === 'primary' ? 'bg-primary-100 dark:bg-primary-500/20' :
                     stat.color === 'success' ? 'bg-success-100 dark:bg-success-500/20' :
                     stat.color === 'warning' ? 'bg-warning-100 dark:bg-warning-500/20' :
-                    'bg-error-100 dark:bg-error-500/20'
+                    stat.color === 'error' ? 'bg-error-100 dark:bg-error-500/20' :
+                    'bg-gray-100 dark:bg-gray-500/20'
                   }`}>
-                    <Icon className={`h-6 w-6 ${
+                    <Icon className={`h-7 w-7 ${
                       stat.color === 'primary' ? 'text-primary-600 dark:text-primary-400' :
                       stat.color === 'success' ? 'text-success-600 dark:text-success-400' :
                       stat.color === 'warning' ? 'text-warning-600 dark:text-warning-400' :
-                      'text-error-600 dark:text-error-400'
+                      stat.color === 'error' ? 'text-error-600 dark:text-error-400' :
+                      'text-gray-600 dark:text-gray-400'
                     }`} />
                   </div>
                 </div>
                 {/* Decorative gradient */}
-                <div className={`absolute -right-8 -bottom-8 w-24 h-24 rounded-full blur-2xl ${
-                  stat.color === 'primary' ? 'bg-primary-400/20 dark:bg-primary-500/10' :
-                  stat.color === 'success' ? 'bg-success-400/20 dark:bg-success-500/10' :
-                  stat.color === 'warning' ? 'bg-warning-400/20 dark:bg-warning-500/10' :
-                  'bg-error-400/20 dark:bg-error-500/10'
+                <div className={`absolute -right-8 -bottom-8 w-24 h-24 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+                  stat.color === 'primary' ? 'bg-primary-400/30 dark:bg-primary-500/20' :
+                  stat.color === 'success' ? 'bg-success-400/30 dark:bg-success-500/20' :
+                  stat.color === 'warning' ? 'bg-warning-400/30 dark:bg-warning-500/20' :
+                  stat.color === 'error' ? 'bg-error-400/30 dark:bg-error-500/20' :
+                  'bg-gray-400/20 dark:bg-gray-500/10'
                 }`} />
               </CardContent>
             </Card>
@@ -266,21 +263,22 @@ const Dashboard: React.FC = () => {
                   value={topics}
                   onChange={(e) => setTopics(e.target.value)}
                   placeholder="How WhatsApp Group Calls Scale to Dozens&#10;How Redis Internally Works&#10;Designing a Distributed Cache Like Memcached"
-                  className="input-field h-40 resize-none font-mono text-sm bg-gray-50 dark:bg-gray-900/50 border-gray-300 dark:border-gray-600"
+                  className="input-field h-40 resize-none font-mono text-sm bg-gray-50 dark:bg-gray-900/50 border-2 border-gray-300 dark:border-gray-600 focus:border-primary-500 dark:focus:border-primary-500 transition-colors"
                   disabled={isProcessing}
                 />
-                <div className="absolute bottom-2 right-2 text-xs text-gray-400">
-                  {topics.split('\n').filter(t => t.trim()).length} topics
+                <div className="absolute bottom-3 right-3 text-xs font-semibold text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 px-2 py-1 rounded shadow-sm">
+                  {topics.split('\n').filter(t => t.trim()).length} {topics.split('\n').filter(t => t.trim()).length === 1 ? 'topic' : 'topics'}
                 </div>
               </div>
               
               <div className="space-y-4">
-                <div>
-                  <label className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 block">
+                <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
+                  <label className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-2 block flex items-center gap-2">
+                    <SparklesIcon className="h-4 w-4 text-primary-500" />
                     Topics per API Call
                   </label>
-                  <p className="text-xs text-gray-500 dark:text-gray-400 mb-3">
-                    Multiple API calls will run in parallel for faster processing
+                  <p className="text-xs text-gray-600 dark:text-gray-400 mb-3 leading-relaxed">
+                    Multiple API calls run in parallel for faster processing. Higher values = faster but more API usage.
                   </p>
                   <div className="flex items-center space-x-2">
                     {[1, 3, 5].map((size) => (
@@ -290,7 +288,9 @@ const Dashboard: React.FC = () => {
                         size="sm"
                         onClick={() => setBatchSize(size)}
                         disabled={isProcessing}
-                        className="min-w-[60px]"
+                        className={`min-w-[70px] font-bold transition-all ${
+                          batchSize === size ? 'ring-2 ring-primary-400 ring-offset-2 dark:ring-offset-gray-800' : ''
+                        }`}
                       >
                         {size}
                       </Button>
@@ -304,102 +304,16 @@ const Dashboard: React.FC = () => {
                   disabled={isProcessing || !topics.trim()}
                   loading={isProcessing}
                   leftIcon={!isProcessing && <RocketLaunchIcon className="h-5 w-5" />}
-                  className="w-full h-12 text-base font-semibold bg-gradient-to-r from-primary-500 to-secondary-500 hover:from-primary-600 hover:to-secondary-600"
+                  className="w-full h-14 text-lg font-bold gradient-primary-cta shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all"
                   animation="glow"
                 >
-                  Generate Topics
+                  {isProcessing ? 'Processing...' : 'Generate Topics'}
                 </Button>
               </div>
             </CardContent>
           </Card>
           {/* Processing Status */}
-          {isProcessing && status && (
-            <Card className="relative overflow-hidden animate-fade-in-up bg-white dark:bg-gray-800/50 backdrop-blur-sm">
-              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary-500 to-secondary-500 animate-shimmer" />
-              <CardHeader>
-                <CardTitle className="flex items-center space-x-2 text-gray-900 dark:text-gray-100">
-                  <div className="p-2 bg-success-100 dark:bg-success-500/20 rounded-lg">
-                    <ClockIcon className="h-6 w-6 text-success-600 dark:text-success-400 animate-spin" />
-                  </div>
-                  <span>Processing Status</span>
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                <div className="space-y-2">
-                  <div className="flex justify-between items-center text-sm">
-                    <span className="text-gray-600 dark:text-gray-400">Progress</span>
-                    <span className="font-medium">{Math.round(getProgressPercentage())}%</span>
-                  </div>
-                  <ProgressBar progress={getProgressPercentage()} showPercentage={false} />
-                </div>
-
-                <div className="grid grid-cols-3 gap-4">
-                  <div className="text-center p-4 bg-success-50 dark:bg-success-900/20 rounded-xl">
-                    <div className="text-2xl font-bold text-success-600 dark:text-success-400">
-                      {status.processed_topics}
-                    </div>
-                    <div className="text-xs text-success-600 dark:text-success-400">Completed</div>
-                  </div>
-                  <div className="text-center p-4 bg-warning-50 dark:bg-warning-900/20 rounded-xl">
-                    <div className="text-2xl font-bold text-warning-600 dark:text-warning-400">
-                      {status.skipped_topics}
-                    </div>
-                    <div className="text-xs text-warning-600 dark:text-warning-400">Skipped</div>
-                  </div>
-                  <div className="text-center p-4 bg-error-50 dark:bg-error-900/20 rounded-xl">
-                    <div className="text-2xl font-bold text-error-600 dark:text-error-400">
-                      {(status as any).failed_topics || 0}
-                    </div>
-                    <div className="text-xs text-error-600 dark:text-error-400">Failed</div>
-                  </div>
-                </div>
-
-                {status.current_topic && (
-                  <div className="p-4 bg-gray-50 dark:bg-gray-800 rounded-xl flex items-center space-x-3">
-                    <LoadingSpinner size="sm" className="text-primary-500" />
-                    <div className="text-sm text-gray-600 dark:text-gray-300">
-                      <span className="font-medium">{status.current_topic}</span>
-                    </div>
-                  </div>
-                )}
-
-                {status && (
-                  <div className="bg-white/60 dark:bg-gray-900/40 border border-gray-200 dark:border-gray-700/60 rounded-xl p-4 shadow-inner max-h-64 overflow-y-auto space-y-2">
-                    <div className="flex items-center justify-between">
-                      <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-200 uppercase tracking-wide">
-                        Recent Events
-                      </h4>
-                      <span className="text-xs text-gray-400">
-                        Showing {Math.min(eventLogEntries.length, 20)} of {eventLogEntries.length}
-                      </span>
-                    </div>
-
-                    {eventLogEntries.length === 0 ? (
-                      <div className="text-xs text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800/80 border border-dashed border-gray-300 dark:border-gray-700 rounded-lg px-4 py-6 text-center">
-                        No events yet. Start a topic batch to see real-time updates here.
-                      </div>
-                    ) : (
-                      <ul className="space-y-2 text-xs text-gray-600 dark:text-gray-300">
-                        {eventLogEntries.slice(-20).reverse().map((entry, index) => (
-                          <li
-                            key={`${entry}-${index}`}
-                            className="px-3 py-2 bg-white dark:bg-gray-800/80 border border-gray-200 dark:border-gray-700/60 rounded-lg shadow-sm flex items-start space-x-3"
-                          >
-                            <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-500/20 dark:text-primary-300 text-[10px] font-semibold">
-                              {eventLogEntries.length - index}
-                            </span>
-                            <span className="whitespace-pre-wrap leading-snug">
-                              {entry}
-                            </span>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
-                )}
-              </CardContent>
-            </Card>
-          )}
+          <ProcessingStatusComponent />
         </div>
 
         {/* Right Column */}
@@ -476,38 +390,51 @@ const Dashboard: React.FC = () => {
                   ))}
                 </div>
               ) : recentTopics.length > 0 ? (
-                <div className="space-y-3">
+                <div className="space-y-2">
                   {recentTopics.slice(0, 5).map((topic, index) => (
                     <div 
                       key={topic.id} 
-                      className={`p-4 bg-gray-50 dark:bg-gray-900/50 rounded-xl hover:shadow-md dark:hover:shadow-lg border border-gray-200 dark:border-gray-700/50 transition-all duration-200 cursor-pointer animate-fade-in-up animation-delay-${index * 100}`}
+                      className={`p-4 bg-gradient-to-r from-gray-50 to-gray-100/50 dark:from-gray-900/50 dark:to-gray-800/30 rounded-lg hover:shadow-md dark:hover:shadow-lg border border-gray-200 dark:border-gray-700/50 hover:border-primary-300 dark:hover:border-primary-700 transition-all duration-200 cursor-pointer animate-fade-in-up animation-delay-${index * 100} group`}
                       onClick={() => navigate(`/topics?search=${encodeURIComponent(topic.title)}`)}
                     >
-                      <div className="flex items-start justify-between">
-                        <div className="flex-1">
-                          <h4 className="text-sm font-semibold text-gray-900 dark:text-gray-100 line-clamp-2 mb-1">
+                      <div className="flex items-start justify-between gap-3">
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-bold text-gray-900 dark:text-gray-100 line-clamp-2 mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                             {topic.title}
                           </h4>
-                          <div className="flex items-center space-x-2 text-xs">
-                            <span className={`badge badge-${topic.complexity_level === 'beginner' ? 'success' : topic.complexity_level === 'intermediate' ? 'warning' : 'error'}`}>
+                          <div className="flex items-center gap-2 text-xs flex-wrap">
+                            <span className={`badge ${topic.complexity_level === 'beginner' ? 'badge-success' : topic.complexity_level === 'intermediate' ? 'badge-warning' : 'bg-error-100 text-error-800 dark:bg-error-900 dark:text-error-200'} font-semibold capitalize`}>
                               {topic.complexity_level}
                             </span>
-                            <span className="text-gray-500 dark:text-gray-400">
-                              {topic.company}
-                            </span>
+                            {topic.company && (
+                              <span className="text-gray-600 dark:text-gray-400 font-medium flex items-center gap-1">
+                                <BuildingOfficeIcon className="h-3 w-3" />
+                                {topic.company}
+                              </span>
+                            )}
                           </div>
                         </div>
+                        <ChartBarIcon className="h-4 w-4 text-gray-400 group-hover:text-primary-500 transition-colors flex-shrink-0" />
                       </div>
                     </div>
                   ))}
                 </div>
               ) : (
                 <div className="text-center py-12">
-                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-full mb-4">
-                    <DocumentTextIcon className="h-8 w-8 text-gray-400" />
+                  <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-primary-100 to-secondary-100 dark:from-primary-900/30 dark:to-secondary-900/30 rounded-2xl mb-4 animate-pulse">
+                    <DocumentTextIcon className="h-10 w-10 text-primary-500 dark:text-primary-400" />
                   </div>
-                  <p className="text-gray-500 dark:text-gray-400 font-medium">No topics yet</p>
-                  <p className="text-sm text-gray-400 dark:text-gray-500">Generate your first topic above</p>
+                  <p className="text-gray-700 dark:text-gray-300 font-bold text-lg mb-1">No topics yet</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">Generate your first topic to get started</p>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => document.querySelector('textarea')?.focus()}
+                    leftIcon={<RocketLaunchIcon className="h-4 w-4" />}
+                    className="mx-auto"
+                  >
+                    Start Creating
+                  </Button>
                 </div>
               )}
             </CardContent>

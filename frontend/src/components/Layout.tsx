@@ -41,11 +41,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-3 group">
-                <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300">
+                <div className="flex items-center justify-center w-10 h-10 gradient-brand rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300">
                   <BoltIcon className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold gradient-text-primary">
+                  <h1 className="text-xl font-bold text-primary-700 dark:text-primary-300">
                     System Design Generator
                   </h1>
                 </div>
@@ -62,7 +62,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     to={item.href}
                     className={`relative flex items-center px-4 py-2 rounded-xl font-semibold transition-all duration-200 transform hover:scale-105 ${
                       isActive(item.href)
-                        ? 'bg-gradient-to-r from-primary-500 to-secondary-500 text-white shadow-lg'
+                        ? 'gradient-brand text-white shadow-lg'
                         : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-white/50 dark:hover:bg-gray-800/50'
                     }`}
                   >
@@ -109,7 +109,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                       to={item.href}
                       className={`flex items-center px-3 py-2 rounded-lg text-base font-medium transition-all duration-200 ${
                         isActive(item.href)
-                          ? 'bg-gradient-to-r from-primary-500 to-secondary-500 text-white'
+                          ? 'gradient-brand text-white'
                           : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700'
                       }`}
                       onClick={() => setMobileMenuOpen(false)}

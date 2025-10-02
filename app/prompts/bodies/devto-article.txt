@@ -71,6 +71,82 @@ EDITORIAL GUIDANCE:
 - Provide inline metric estimates (e.g., "~200ms latency", "cost ↓ 35%").
 - CTA at end pointing to the canonical link when available.
 
+DEV.TO ALGORITHM OPTIMIZATION:
+- Title formula: "How [Technology] Solves [Problem] (with Code Examples)" - promises code + outcome
+- Opening 100 words MUST include: Relatable problem → Personal story → Promise → Social proof
+- CTAs for reactions: Place after TL;DR ("💡 Bookmark this 🔖"), after first code ("❤️ React if helpful"), before conclusion ("🦄 Unicorn if you learned something")
+- Tag strategy: First tag = primary (in URL); 2-4 tags total (Primary + Broad + Niche + Intent)
+- Engagement timing: Articles get recency boost in first 24 hours; reply to all comments in first 2 hours
+- Reading time target: 8-12 minutes optimal (1800-2600 words)
+- Cross-link to 2-3 related Dev.to articles in "Further Reading"
+
+PSYCHOLOGICAL ENGAGEMENT TRIGGERS:
+- Curiosity gaps: "But here's the part that surprised me..." (after stating basic fact)
+- Pain amplification: Include specific costs/impacts ("Your 500ms queries cost $10K/month in lost revenue")
+- Achievement framing: Use "✅ Level 1:", "✅ Level 2:" for major sections
+- Social proof anchoring: Back claims with "Used by Netflix..." + source link
+- Before/After tables: Show metrics transformation with bold improvements
+- Personal mistakes: Add "⚠️ Common Pitfall I Made:" subsections
+- Quick wins: End each section with "💡 Quick Win:" + one-liner actionable takeaway
+
+ADVANCED CODE QUALITY STANDARDS:
+Each code snippet must include:
+- Context header: # CONTEXT: what this does, # USE CASE: when to use, # PREREQUISITES: requirements
+- Type hints: Use typing module for Python, interfaces for TypeScript
+- Error handling: try/catch with fallback strategy
+- Performance notes: # PERFORMANCE: O(1) lookup, ~0.5ms average, # BENCHMARK: 100K ops/sec
+- Production checklist: # ✅ Add logging, ✅ Add monitoring, ✅ Test edge cases
+- Before/After comparison: # ❌ DON'T: blocking_call() → # ✅ DO: async_with_cache()
+- Test cases: Include pytest/jest examples at end of major code sections
+- Must be copy-paste runnable with imports, setup, sample data, expected output
+
+CASE STUDY STRUCTURE:
+Follow this template for real-world examples:
+1. Company Context: Scale, users, budget constraint
+2. The Problem: Specific metrics (latency, cost, errors) with business impact
+3. The Solution: Architecture diagram + key components list
+4. Implementation: Code snippets showing actual setup
+5. Results Table: Before | After | Improvement columns with bold gains
+6. Business Impact: Revenue, satisfaction, productivity metrics
+7. Lessons Learned: 3-5 specific, actionable takeaways with context
+
+DEV.TO VISUAL BEST PRACTICES (Tech Content - All Topics):
+Cover images that perform best on Dev.to for ANY technical topic:
+- High contrast: Text must pop on thumbnail (300x157px size)
+- Bold, large text: Readable at 25% zoom
+- Single focal point: Avoid busy compositions
+- Developer aesthetics: Code snippets, terminal themes, diagrams, flowcharts, algorithms
+- Dark themes perform 35% better (developer preference)
+- Tech-appropriate visuals based on topic:
+  * System Design/Architecture: Component diagrams, data flow
+  * DSA/Algorithms: Tree/graph structures, Big-O notation
+  * Coding (Python/Java): Syntax highlighting, code snippets
+  * AI/ML/DL: Neural networks, matrices, model diagrams
+  * Database: ER diagrams, query optimization visuals
+  * Low-Level Design: UML diagrams, class structures
+  * Machine Coding: IDE screenshots, file structures
+- Monospace fonts signal technical content (Fira Code, JetBrains Mono)
+- Color coding by domain:
+  * Backend/System Design: Blue (#61AFEF), Cyan (#8BE9FD)
+  * Frontend/Web: Orange (#FFB86C), Yellow (#F1FA8C)
+  * Data/ML: Purple (#BD93F9), Pink (#FF79C6)
+  * DevOps/Infra: Green (#50FA7B), Teal (#1DD3B0)
+- Include specific numbers: "O(n log n)", "10x Faster", "99.99% uptime"
+- Show before/after comparisons when relevant (code, performance, complexity)
+- Display impressive metrics relevant to topic type
+- Avoid: Generic stock photos, faces, excessive gradients, non-tech visuals
+
+MOBILE OPTIMIZATION (60% of Dev.to traffic):
+- Headline readable at 375x197 (iPhone size)
+- No text smaller than 24pt
+- High contrast: text:background >= 7:1 ratio
+- Single focal point (not split attention)
+- Icons >= 80px (recognizable when small)
+- Labels readable at 320px width
+- Max 5 elements per diagram (more = cluttered)
+- Touch-friendly spacing (elements >= 44px apart)
+- Code: font size >= 12pt, max 30 chars per line, 10-15 lines max
+
 OUTPUT SCHEMA (strict JSON):
 {
   "meta": {
@@ -80,7 +156,7 @@ OUTPUT SCHEMA (strict JSON):
     "format": "article",
     "content_schema_version": "v1.0.0",
     "model_version": "gemini-2.5-flash",
-    "prompt_version": "devto-article-1.4",
+    "prompt_version": "devto-article-1.7",
     "audience": "{audience}",
     "tone": "{tone}",
     "locale": "{locale}",
@@ -129,15 +205,15 @@ OUTPUT SCHEMA (strict JSON):
       {
         "role": "cover",
         "title": "Signature Cover — {topic_title}",
-        "prompt": "Ultra-clean 1200x630 dev.to cover highlighting {topic_title}. Place a bold typographic headline (4–6 words) in the upper-left, secondary subhead beneath. Include a minimal geometric illustration or icon cluster referencing the core concept (e.g., graph nodes, cloud pipelines) on the right. Use neutral off-white background (#F8F8F5), soft shadow layers for depth, and a single accent color drawn from industry palettes (Azure blue, Terraform purple, or SRE green). Keep composition balanced with generous breathing room and subtle dotted grid in the background.",
+        "prompt": "CTR-optimized 1200x630 dev.to cover for {topic_title}. ADAPT visuals based on topic type. MUST include: 1) Bold headline with specific metric/number (4-6 words: 'O(n log n) Solution', 'Handle 1B Keys', 'Master Python GIL'), 2) Topic-relevant icon/visual (100px, top-right: language logo for coding, algorithm tree for DSA, neural net for ML, component diagram for system design, database icon for DB topics), 3) Visual hook (❌ vs ✅ comparison, 📈 graph, or key diagram element, bottom-right), 4) Minimal visualization relevant to topic (flowchart for algorithms, architecture for system design, code snippet for programming, model diagram for ML). Layout: Headline dominates top-left 40%, topic icon top-right, visual hook bottom-right. Use dark developer theme (#1E293B background) with high contrast text (#F1F5F9). Choose accent color by domain: Blue/Cyan for backend/systems, Orange/Yellow for frontend, Purple/Pink for data/ML, Green for DevOps. Add subtle tech pattern in background (code for programming topics, grid for system design, matrix for ML). Ensure thumbnail legibility at 300x157px. Include relevant metric badge: 'O(n log n)', 'Sub-ms latency', '99.99% accuracy', 'Zero downtime'.",
         "negative_prompt": "no photos, no human figures, no 3D renders, no skeuomorphic gradients, no stock icons, no clutter",
         "style_notes": "editorial tech poster; Swiss typographic hierarchy; crisp kerning; consistent 2px line weights; subtle noise overlay; align typography to 8pt baseline grid; ensure headline legibility at small sizes",
         "prompt_json": {
           "subject": "cover graphic spotlighting {topic_title}",
           "narrative_goal": "immediately convey the problem-solution promise of {topic_title} for developers",
-          "layout": ["headline block top-left", "subheadline beneath headline", "geometric glyph cluster right", "brand handle microtype bottom-right"],
-          "elements": ["headline text: {topic_title}", "supporting subheadline summarizing benefit", "3-node network glyph", "dotted background grid"],
-          "color_palette": ["#F8F8F5 background", "accent from Azure/Terraform/SRE for glyph", "#1C1C28 for typography"],
+          "layout": ["headline with number top-left 40%", "technology icon top-right corner 100px", "visual hook bottom-right (❌ vs ✅ or 📈)", "metric badge if space allows"],
+          "elements": ["headline with topic-specific metric: 'O(n log n)', '10x Faster', '1B Keys', 'Zero Downtime'", "topic-appropriate icon: language logo (Python/Java), algorithm visualization (tree/graph), ML model, system component, database", "before/after comparison (❌ vs ✅), performance graph, or key visual relevant to topic", "subtle tech-pattern texture based on topic (code lines, grid, matrix)", "optional metric badge relevant to domain"],
+          "color_palette": ["#1E293B dark slate background", "#F1F5F9 off-white text (high contrast)", "domain-specific accent: Blue/Cyan (backend), Orange/Yellow (frontend), Purple/Pink (ML/data), Green (DevOps)", "#64748B muted gray for secondary", "topic-relevant brand colors if applicable"],
           "typography": {"headline": "Söhne Breit, bold, uppercase", "subhead": "Inter, medium", "metadata": "Inter, medium, small caps"},
           "style": ["flat vector", "Swiss design", "2px stroke", "soft grain overlay"],
           "lighting": "soft ambient vignette to draw focus to headline",
@@ -191,6 +267,28 @@ OUTPUT SCHEMA (strict JSON):
         "ratio": "1:1",
         "size_px": "1080x1080",
         "alt_text": "Square teaser card with key metric and illustration for {topic_title}"
+      },
+      {
+        "role": "code_comparison",
+        "title": "Before/After Code Comparison — {topic_title}",
+        "prompt": "1600x900 side-by-side code comparison for {topic_title}. Split screen: Left 'Before' with ❌ (problematic), Right 'After' with ✅ (optimized). Use dark VS Code theme (Dracula #282A36 background). ADAPT syntax highlighting to actual language (Python/Java/JavaScript/C++/Go/Rust/etc): #FF79C6 keywords, #8BE9FD functions/methods, #F8F8F2 text, #50FA7B strings, #FFB86C numbers, #6272A4 comments. Top banner with 'Before'/'After' labels. Highlight changed lines with subtle yellow (#F1FA8C) glow. Bottom metrics showing improvement (adapt to topic: '-50% time complexity O(n²)→O(n log n)' for algorithms, '-50% latency' for backend, '-30% memory' for optimization, '-40% LOC' for refactoring, '+99.9% accuracy' for ML). Monospace font (Fira Code with ligatures). Line numbers in muted #6272A4. Readable at 50% zoom. Code MUST be real, working examples in appropriate language, not placeholders.",
+        "negative_prompt": "no light theme, no stock code screenshots, no watermarks, no lorem ipsum placeholder code, no unreadable font sizes, no incorrect syntax highlighting",
+        "style_notes": "VS Code dark theme aesthetic; Dracula color palette; proper syntax highlighting; visible line numbers; subtle glow on changed lines; metrics badges at bottom; crisp antialiasing; code must be actual working examples not placeholders",
+        "prompt_json": {
+          "subject": "code comparison showing optimization for {topic_title}",
+          "narrative_goal": "visually demonstrate code improvement and measurable impact",
+          "layout": ["split screen: left 'Before', right 'After'", "top banner with labels and ❌/✅ indicators", "syntax-highlighted code blocks", "highlighted changed lines (yellow glow)", "metrics comparison bar at bottom", "line numbers on left margin of each side"],
+          "elements": ["Before code block with ❌ indicator", "After code block with ✅ indicator", "highlighted changed lines with #F1FA8C yellow glow", "metrics badges adapted to topic: 'O(n²)→O(n log n)' for DSA, '-50% latency' for backend, '-30% memory' for optimization, '+15% accuracy' for ML", "line numbers in muted #6272A4 gray", "vertical divider line between before/after"],
+          "color_palette": ["#282A36 background (Dracula)", "#FF79C6 keywords (pink)", "#8BE9FD functions (cyan)", "#F8F8F2 text (off-white)", "#50FA7B strings (green)", "#FFB86C numbers (orange)", "#6272A4 comments and line numbers (gray-blue)", "#F1FA8C highlighted changes (yellow)", "#44475A selection/highlight background"],
+          "typography": {"code": "Fira Code, regular, 14pt with ligatures enabled", "labels": "Inter, bold, 18pt", "metrics": "Inter, semibold, 12pt", "line_numbers": "Fira Code, regular, 11pt, opacity 40%"},
+          "style": ["VS Code dark theme", "Dracula color palette", "proper syntax highlighting per language", "subtle line highlight on changes", "modern developer IDE aesthetic", "crisp antialiasing", "ligatures enabled for code font"],
+          "lighting": "none (flat dark theme)",
+          "export": {"size_px": "1600x900", "format": "png", "ppi": "300"},
+          "avoid": ["light theme", "generic code screenshots", "unreadable font sizes", "incorrect syntax highlighting", "watermarks", "lorem ipsum or placeholder code", "stock photo code", "code that doesn't compile"]
+        },
+        "ratio": "16:9",
+        "size_px": "1600x900",
+        "alt_text": "Side-by-side code comparison showing before and after optimization for {topic_title} with performance metrics"
       }
       /* If additional roles are required, follow the same structure with explicit art direction and prompt_json */
     ],

@@ -120,7 +120,7 @@ const InstagramStoryView: React.FC<InstagramStoryViewProps> = ({ content, onCopy
   return (
     <div className="bg-white dark:bg-gray-900 rounded-3xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-hidden flex flex-col">
       {/* Header */}
-      <div className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white p-6">
+      <div className="gradient-brand text-white p-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="p-3 bg-white/20 backdrop-blur-sm rounded-xl">

@@ -1,9 +1,10 @@
 SYSTEM:
 You are "MultiPlatformContentGen—PersonalBlogPost". Generate content for EXACTLY ONE personal blog post (front matter + long-form markdown).
 Return STRICT JSON only (no prose, no markdown outside specified fields). No nulls—use "" or [].
+TOPIC SCOPE: ALL technical topics - System Design, HLD, LLD, DSA/Algorithms, Programming (Python/Java/JS/C++/Go/Rust/etc), AI/ML/DL, Databases, Software Engineering, DevOps, Machine Coding, Interview Prep.
 
-SET: platform="personal_blog", format="post", prompt_version="blog-post-1.2"
-WRITING CUES: Long-form, clear sections, internal links plan, canonical to {primary_url} if provided; approachable but expert tone.
+SET: platform="personal_blog", format="post", prompt_version="blog-post-1.3"
+WRITING CUES: Long-form comprehensive; SEO-optimized; internal links; storytelling; code + diagrams; topic-adaptive; personal voice.
 
 IMAGES REQUIRED: optional 1 cover (1200×630, 1.91:1) by default.
 
@@ -61,6 +62,54 @@ PLATFORM RULES (Personal Blog Post):
 - SEO: provide meta_title/meta_description; OG/Twitter card fields; JSON-LD Article schema.
 - Links: If {primary_url} present, use it as canonical (no tracking). For outbound deep-dive/landing links, you MAY include one tracked link in the body exactly once: "{primary_url}?{brand.utm_base}" (optional). Do not add tracking to canonical.
 
+PERSONAL BLOG SEO & TRAFFIC OPTIMIZATION (2025):
+- Google Search: Primary traffic source (60-80% for technical blogs)
+- Title optimization: Include target keyword in first 60 chars
+- Meta description: Compelling with CTA, uses secondary keywords
+- Headings: H2/H3 with question-based keywords
+- Word count: 1800-2200 words = SEO sweet spot
+- Images: Alt text with keywords, compress for speed
+- Internal linking: 3-5 links to related posts (SEO boost)
+- Code blocks: Increase time on page (engagement signal)
+- Diagrams: Reduce bounce rate (visual learners)
+- Newsletter: Convert readers to subscribers
+- Comments: Engagement signal for Google
+- Schema markup: JSON-LD Article for rich snippets
+- Loading speed: <2s = ranking factor
+
+BLOG POST PSYCHOLOGY:
+- Title formulas (≤70 chars):
+  * How-to + benefit: "How to Scale Redis to 1M QPS: A Complete Guide"
+  * Number + promise: "7 System Design Patterns Used by Netflix (With Code)"
+  * Problem + solution: "Why Your Database Is Slow (And How to Fix It)"
+  * Ultimate guide: "The Ultimate Guide to Algorithm Optimization in Python"
+  * Story: "How I Debugged a Production Outage: Lessons Learned"
+- Intro (150-200 words):
+  * Hook with specific problem
+  * Who it's for
+  * What they'll learn
+  * Time investment
+- Structure:
+  * Background/context
+  * How it works (core concept)
+  * Implementation (step-by-step)
+  * Code examples
+  * Trade-offs/pitfalls
+  * Real-world case
+  * Conclusion + next steps
+- Internal links: Link to 3-5 related posts
+- Newsletter CTA: Mid-post + end
+- Comment prompt: Specific question
+
+CONTENT ADAPTATION BY TOPIC (Blog Format):
+- DSA: Problem → brute force → optimization → code → complexity → when to use → practice problems
+- System Design: Problem/scale → architecture v1 → bottlenecks → architecture v2 → implementation → metrics → lessons
+- Programming: Challenge → investigation → solution → code → refactoring → testing → best practices
+- AI/ML: Problem → model → training → hyperparameters → results → deployment → monitoring
+- Database: Issue → analysis → optimization → code → before/after → indexing → guidelines
+- DevOps: Challenge → solution → automation → implementation → monitoring → results → practices
+- Interview: Question → approach → solution → code → edge cases → optimization → similar problems
+
 OUTPUT — RETURN THIS EXACT JSON SHAPE:
 {
   "meta": {
@@ -70,7 +119,7 @@ OUTPUT — RETURN THIS EXACT JSON SHAPE:
     "format": "post",
     "content_schema_version": "v1.0.0",
     "model_version": "gemini-2.5-flash",
-    "prompt_version": "blog-post-1.2",
+    "prompt_version": "blog-post-1.3",
     "audience": "{audience}",
     "tone": "{tone}",
     "locale": "{locale}",
@@ -192,7 +241,7 @@ OUTPUT — RETURN THIS EXACT JSON SHAPE:
       {
         "role":"cover",
         "title":"Blog Cover",
-        "prompt":"Widescreen minimal cover for {topic_title}: clean typographic headline area with 4–7 word snippet; small semantic diagram glyph; off-white/light background; thin vector strokes; subtle dotted grid; one restrained accent color; generous margins; flat vector; crisp at 1200×630.",
+        "prompt":"1.91:1 personal blog cover for {topic_title}. ADAPT to topic: algorithm complexity for DSA, system architecture for design, code pattern for programming, model architecture for ML, query visualization for database, pipeline for DevOps. Layout: Clean typographic headline (4-7 words) with topic-specific metric (O(n log n), Scaled 1M Users, 10x Performance, 99.9% Uptime, -80% Latency) positioned top-left; small semantic diagram glyph bottom-right (15% of space); off-white/light background (blog aesthetic); thin vector strokes (2px); subtle dotted grid. Domain accent: Blue for backend, Orange for frontend, Purple for ML, Green for DevOps, Indigo for DSA. Typography: Clean editorial sans (Inter/Roboto) 46-58px headline. Safe margins ≥48px. Flat vector. Personal blog aesthetic - approachable, technical, clean. SEO-optimized visual. Export 1200x630.",
         "negative_prompt":"no stock-photo people, no logos, no neon, no 3D bevels, no glossy gradients, no clutter",
         "style_notes":"editorial-tech; crisp kerning; consistent stroke widths",
         "ratio":"1.91:1","size_px":"1200x630","alt_text":"Wide minimal cover with headline space and small diagram"
@@ -201,7 +250,7 @@ OUTPUT — RETURN THIS EXACT JSON SHAPE:
       ,{
         "role":"diagram_inline",                         // OPTIONAL — include only if image_plan.count >= 2
         "title":"Inline Diagram",
-        "prompt":"16:9 concept diagram for {topic_title}; 4–6 labeled nodes/stages; 2–3 arrows; one metric chip; off-white; thin strokes; one accent; subtle grid; flat vector; legible in blog body.",
+        "prompt":"16:9 blog inline diagram for {topic_title}. ADAPT to topic: algorithm flow for DSA (input→process→output with Big-O), system architecture for design (client→services→DB with QPS/latency), code execution for programming (function calls with timing), training pipeline for ML (data→model→loss with metrics), query execution for database (parse→plan→execute with performance), deployment flow for DevOps (build→test→deploy with timings). Layout: Clear educational flow with 4-6 labeled nodes/stages; 2-3 directional arrows; one metric chip with key number. Style: Off-white background (blog reading experience); thin vector strokes (2px); domain accent; subtle grid; generous whitespace. Typography: Clean sans (Inter/Roboto) for labels (28-34px). Safe margins ≥48px. Flat vector. Blog inline aesthetic - clear, educational, SEO-friendly with alt text. Export 1600x900.",
         "negative_prompt":"no 3D, no photos, no logos",
         "style_notes":"diagram-first; concise labels",
         "ratio":"16:9","size_px":"1600x900","alt_text":"Inline concept diagram"
@@ -209,10 +258,34 @@ OUTPUT — RETURN THIS EXACT JSON SHAPE:
       {
         "role":"quote_card",                             // OPTIONAL — include only if image_plan.count >= 3
         "title":"Key Line Card",
-        "prompt":"16:9 typographic card with a 6–10 word takeaway; subtle underline; generous whitespace; off-white; single accent; flat vector.",
+        "prompt":"16:9 blog pull quote card for {topic_title} with key insight (6-10 words). ADAPT: engineering principle for DSA ('Optimize for the common case first always'), architecture lesson for systems ('Scale horizontally before optimizing vertical resources'), coding wisdom for programming ('Readable code is maintainable code over time'), ML insight for AI ('Data quality beats model complexity every time'), database truth for DB ('Indexes speed reads but slow writes down'), DevOps principle ('Automate repetitive tasks to eliminate errors'). Layout: Quote centered (58-70px), personal blog voice attribution if relevant, subtle underline with domain accent. Style: Off-white bg (blog aesthetic); generous whitespace (65%); approachable technical tone. Typography: Clean editorial sans (Inter/Roboto). Safe margins ≥48px. Flat vector. Blog pull quote aesthetic - educational insight, shareable. Export 1600x900.",
         "negative_prompt":"no heavy gradients, no logos",
         "style_notes":"editorial; crisp kerning",
         "ratio":"16:9","size_px":"1600x900","alt_text":"Typographic takeaway card"
+      },
+      {
+        "role":"code_snippet",                           // OPTIONAL — include only if image_plan.count >= 4
+        "title":"Blog Code Block",
+        "prompt":"16:9 blog code snippet for {topic_title} with 7-9 lines of well-documented code. ADAPT to language: Python for ML/data, Java for enterprise, JavaScript for web, C++ for performance, Go for systems, SQL for database, Bash for DevOps. Layout: Descriptive title top (38-44px) explaining code purpose, code block centered (75% width) in monospace (24-28px) with syntax highlighting, line numbers left (22px, subtle), annotation arrows on 2-3 key lines with explanations, output comment at bottom showing results. Style: Light code background (#F6F6F6 blog-friendly), balanced syntax colors (blog reading - #0066CC keywords, #008000 strings, #999 comments, #D14 errors), clean educational aesthetic. Typography: Fira Code/JetBrains Mono with ligatures. Safe margins ≥48px. Code must be complete, runnable, and production-quality. Include inline comments explaining logic. Personal blog aesthetic - educational, approachable, SEO-friendly alt text. Export 1600x900.",
+        "negative_prompt":"no incomplete code, no syntax errors, no dark themes (hard to read in blog), no tiny fonts",
+        "style_notes":"blog code aesthetic; educational; light theme; well-documented",
+        "ratio":"16:9","size_px":"1600x900","alt_text":"Well-documented code snippet with annotations"
+      },
+      {
+        "role":"architecture_diagram",                   // OPTIONAL — include only if image_plan.count >= 5
+        "title":"Full System Architecture",
+        "prompt":"16:9 comprehensive architecture diagram for {topic_title}. ADAPT: algorithm structure for DSA (recursion tree, call stack with complexity annotations), complete system for design (load balancer→servers→cache→database→queue with full data flow and scale numbers), app architecture for programming (modules/packages with dependencies and responsibilities), full ML pipeline for ML (data pipeline→preprocessing→training→evaluation→deployment with tools and metrics), database architecture for DB (schema with tables, relationships, indexes, query patterns), complete CI/CD for DevOps (source→build→test→deploy→monitor with tools at each stage). Layout: Comprehensive professional diagram with 6-9 major components/layers, clear bidirectional arrows showing data flow, metric annotations on critical paths (QPS, latency, throughput, memory, storage), color-coded layers/zones, legend for symbols. Style: Off-white background (blog reading); thin professional lines (2px); domain accent for highlights; subtle grid; clear visual hierarchy. Typography: Clean sans (Inter/Roboto) for labels (26-32px), monospace for metrics/code. Safe margins ≥48px. Flat vector. Personal blog technical diagram - comprehensive, educational, SEO-optimized. Export 1600x900.",
+        "negative_prompt":"no overly complex diagrams that confuse, no tiny unreadable text, no unclear flows",
+        "style_notes":"comprehensive but clear; blog educational; SEO-friendly",
+        "ratio":"16:9","size_px":"1600x900","alt_text":"Comprehensive system architecture with labeled components"
+      },
+      {
+        "role":"tutorial_steps",                         // OPTIONAL — include only if image_plan.count >= 6
+        "title":"Step-by-Step Guide",
+        "prompt":"16:9 blog tutorial steps visual for {topic_title} showing numbered progression. ADAPT: algorithm steps for DSA (Step 1: Initialize→Step 2: Process→Step 3: Optimize with complexity at each), implementation steps for systems (Step 1: Setup→Step 2: Configure→Step 3: Scale with commands/configs), coding steps for programming (Step 1: Structure→Step 2: Implement→Step 3: Test with code snippets), training steps for ML (Step 1: Data→Step 2: Train→Step 3: Evaluate with metrics), optimization steps for database (Step 1: Analyze→Step 2: Index→Step 3: Verify with queries), deployment steps for DevOps (Step 1: Build→Step 2: Test→Step 3: Deploy with commands). Layout: Vertical or horizontal flow with 3-5 numbered steps, each step has icon/glyph + title + brief description (≤15 words), progress indicators between steps, estimated time or complexity for each step. Style: Off-white bg (blog reading); domain accent for step numbers; clean progression; generous spacing. Typography: Bold for step numbers (48-56px), regular for titles (32-40px), smaller for descriptions (24-28px). Safe margins ≥48px. Flat vector. Blog tutorial aesthetic - clear progression, actionable, beginner-friendly. Export 1600x900.",
+        "negative_prompt":"no cluttered steps, no unclear progression, no tiny text",
+        "style_notes":"clear step progression; blog tutorial; actionable and friendly",
+        "ratio":"16:9","size_px":"1600x900","alt_text":"Step-by-step tutorial guide with numbered progression"
       }
     ] : [],
 

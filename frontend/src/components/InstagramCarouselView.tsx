@@ -11,7 +11,9 @@ import {
   CheckCircleIcon,
   Squares2X2Icon,
   SwatchIcon,
-  BeakerIcon
+  BeakerIcon,
+  FireIcon,
+  ChatBubbleLeftIcon
 } from '@heroicons/react/24/outline';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/Card';
 import { Button } from './ui/Button';
@@ -24,11 +26,17 @@ interface CarouselSlide {
   subtitle: string;
   bullets: string[];
   overlay_text: string;
+  swipe_trigger?: string;
   design_note: string;
   layout: string;
   iconography: string;
   contrast_notes: string;
-  alt_text: string;
+  alt_text?: string;
+  accessibility?: {
+    alt_text: string;
+    color_contrast_ratio: string;
+    font_accessibility: string;
+  };
 }
 
 interface ImagePrompt {
@@ -39,20 +47,49 @@ interface ImagePrompt {
   style_notes: string;
   ratio: string;
   size_px: string;
-  alt_text: string;
+  alt_text?: string;
+  accessibility?: {
+    alt_text: string;
+    color_contrast_ratio: string;
+    font_accessibility: string;
+  };
 }
 
 interface InstagramCarouselContent {
   slides: CarouselSlide[];
+  caption_structured?: {
+    hook_125chars: string;
+    problem_statement: string;
+    solution_tease: string;
+    value_props: string[];
+    keywords_woven: string;
+    comment_bait: string;
+    cta: string;
+    link: string;
+  };
   caption: {
     text: string;
     emojis_used: string[];
     seo: {
       keywords_used: string[];
       lsi_terms_used: string[];
+      keyword_density_percent?: number;
     };
   };
   hashtags: string[];
+  engagement_tactics?: {
+    swipe_completion_strategy: string;
+    save_trigger: string;
+    share_trigger: string;
+    comment_bait: string;
+    thumbnail_hook: string;
+  };
+  accessibility?: {
+    compliance_level: string;
+    features: string[];
+    slide_alt_texts_provided: boolean;
+    contrast_validated: boolean;
+  };
   design_system: {
     color_palette: Array<{
       name: string;
@@ -76,11 +113,12 @@ interface InstagramCarouselContent {
     role: string;
     note: string;
   }>;
-  compliance: {
+  compliance?: {
     slides_total: number;
     hook_title_char_count: number;
     caption_word_count: number;
     hashtag_count: number;
+    image_count?: number;
     checks: string[];
   };
 }
@@ -105,7 +143,7 @@ interface InstagramCarouselViewProps {
 
 const InstagramCarouselView: React.FC<InstagramCarouselViewProps> = ({ content, onCopy }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [activeTab, setActiveTab] = useState<'slides' | 'design' | 'images'>('slides');
+  const [activeTab, setActiveTab] = useState<'slides' | 'caption' | 'engagement' | 'accessibility' | 'design' | 'images'>('slides');
   
   // Extract content
   const carousel = content.envelope.content;
@@ -135,26 +173,27 @@ const InstagramCarouselView: React.FC<InstagramCarouselViewProps> = ({ content, 
   };
 
   return (
-    <div className="bg-white dark:bg-gray-900 rounded-3xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-hidden flex flex-col">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-indigo-500 text-white p-6">
+    <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800 max-w-6xl w-full max-h-[90vh] overflow-hidden flex flex-col">
+      {/* Header - Subtle Design */}
+      <div className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 border-b border-gray-200 dark:border-gray-700 p-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="p-3 bg-white/20 backdrop-blur-sm rounded-xl">
-              <Squares2X2Icon className="h-8 w-8" />
+            <div className="p-2.5 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
+              <Squares2X2Icon className="h-6 w-6 text-gray-700 dark:text-gray-300" />
             </div>
             <div>
-              <h2 className="text-2xl font-bold">Instagram Carousel</h2>
+              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Instagram Carousel</h2>
               {meta.topic_title && (
-                <p className="text-purple-100 text-sm mt-1">{meta.topic_title}</p>
+                <p className="text-gray-600 dark:text-gray-400 text-sm mt-0.5">{meta.topic_title}</p>
               )}
-              <p className="text-purple-200 text-xs mt-1">{carousel.slides.length} slides</p>
+              <p className="text-gray-500 dark:text-gray-500 text-xs mt-0.5">{carousel.slides.length} slides</p>
             </div>
           </div>
           <Button
             onClick={onCopy}
             variant="ghost"
-            className="bg-white/20 hover:bg-white/30 text-white border-white/30"
+            size="sm"
+            className="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600"
             leftIcon={<DocumentDuplicateIcon className="h-4 w-4" />}
           >
             Copy All
@@ -162,42 +201,34 @@ const InstagramCarouselView: React.FC<InstagramCarouselViewProps> = ({ content, 
         </div>
       </div>
 
-      {/* Tab Navigation */}
-      <div className="border-b border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800">
-        <div className="flex space-x-1 p-2">
-          <Button
-            variant={activeTab === 'slides' ? 'primary' : 'ghost'}
-            onClick={() => setActiveTab('slides')}
-            className={cn(
-              "flex-1",
-              activeTab === 'slides' && "shadow-sm"
-            )}
-          >
-            <PhotoIcon className="h-4 w-4 mr-2" />
-            Slides
-          </Button>
-          <Button
-            variant={activeTab === 'design' ? 'primary' : 'ghost'}
-            onClick={() => setActiveTab('design')}
-            className={cn(
-              "flex-1",
-              activeTab === 'design' && "shadow-sm"
-            )}
-          >
-            <SwatchIcon className="h-4 w-4 mr-2" />
-            Design System
-          </Button>
-          <Button
-            variant={activeTab === 'images' ? 'primary' : 'ghost'}
-            onClick={() => setActiveTab('images')}
-            className={cn(
-              "flex-1",
-              activeTab === 'images' && "shadow-sm"
-            )}
-          >
-            <PaintBrushIcon className="h-4 w-4 mr-2" />
-            Images
-          </Button>
+      {/* Tab Navigation - Subtle */}
+      <div className="border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
+        <div className="flex overflow-x-auto scrollbar-hide">
+          {[
+            { id: 'slides', label: 'Slides', icon: PhotoIcon },
+            { id: 'caption', label: 'Caption', icon: SparklesIcon },
+            { id: 'engagement', label: 'Engagement', icon: ChartBarIcon },
+            { id: 'accessibility', label: 'Accessibility', icon: CheckCircleIcon },
+            { id: 'design', label: 'Design', icon: SwatchIcon },
+            { id: 'images', label: 'Images', icon: PaintBrushIcon },
+          ].map((tab) => {
+            const Icon = tab.icon;
+            return (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id as any)}
+                className={cn(
+                  "flex items-center px-4 py-3 text-sm font-medium border-b-2 transition-colors whitespace-nowrap",
+                  activeTab === tab.id
+                    ? "border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100"
+                    : "border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600"
+                )}
+              >
+                <Icon className="h-4 w-4 mr-2" />
+                {tab.label}
+              </button>
+            );
+          })}
         </div>
       </div>
 
@@ -284,6 +315,14 @@ const InstagramCarouselView: React.FC<InstagramCarouselViewProps> = ({ content, 
                     </div>
                   )}
 
+                  {/* Swipe Trigger - NEW */}
+                  {carousel.slides[currentSlide].swipe_trigger && (
+                    <div className="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg border border-blue-200 dark:border-blue-700">
+                      <p className="text-xs font-medium text-blue-700 dark:text-blue-400 mb-1">Swipe Trigger</p>
+                      <p className="text-sm text-blue-900 dark:text-blue-300">{carousel.slides[currentSlide].swipe_trigger}</p>
+                    </div>
+                  )}
+
                   {/* Design Details */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Card variant="filled">
@@ -316,11 +355,23 @@ const InstagramCarouselView: React.FC<InstagramCarouselViewProps> = ({ content, 
                     </CardContent>
                   </Card>
 
-                  {/* Alt Text */}
-                  <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-700">
-                    <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Alt Text</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 italic">{carousel.slides[currentSlide].alt_text}</p>
-                  </div>
+                  {/* Accessibility Info - ENHANCED */}
+                  {carousel.slides[currentSlide].accessibility && (
+                    <div className="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg border border-green-200 dark:border-green-700">
+                      <p className="text-sm font-medium text-green-700 dark:text-green-400 mb-3">Accessibility (WCAG AA)</p>
+                      <div className="space-y-2 text-sm">
+                        <p className="text-gray-700 dark:text-gray-300">
+                          <span className="font-medium">Alt Text:</span> {carousel.slides[currentSlide].accessibility.alt_text}
+                        </p>
+                        <p className="text-gray-700 dark:text-gray-300">
+                          <span className="font-medium">Contrast:</span> {carousel.slides[currentSlide].accessibility.color_contrast_ratio}
+                        </p>
+                        <p className="text-gray-700 dark:text-gray-300">
+                          <span className="font-medium">Font:</span> {carousel.slides[currentSlide].accessibility.font_accessibility}
+                        </p>
+                      </div>
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             </div>
@@ -375,85 +426,305 @@ const InstagramCarouselView: React.FC<InstagramCarouselViewProps> = ({ content, 
             </Card>
 
             {/* Caption */}
+            {carousel.caption && (
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center">
+                    <SparklesIcon className="h-5 w-5 mr-2 text-secondary-600 dark:text-secondary-400" />
+                    Caption
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="bg-white dark:bg-gray-800 p-4 rounded-xl border border-gray-200 dark:border-gray-700">
+                    <p className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap">{carousel.caption.text}</p>
+                  </div>
+                  
+                  {/* Emojis Used */}
+                  {carousel.caption.emojis_used && carousel.caption.emojis_used.length > 0 && (
+                    <div>
+                      <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Emojis Used</p>
+                      <div className="flex gap-3">
+                        {carousel.caption.emojis_used.map((emoji, idx) => (
+                          <span key={idx} className="text-2xl">{emoji}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* SEO Info */}
+                  {carousel.caption.seo && (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {carousel.caption.seo.keywords_used && carousel.caption.seo.keywords_used.length > 0 && (
+                        <Card variant="filled">
+                          <CardContent className="p-4">
+                            <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Keywords Used</p>
+                            <div className="flex flex-wrap gap-2">
+                              {carousel.caption.seo.keywords_used.map((keyword, idx) => (
+                                <span key={idx} className="px-2 py-1 bg-primary-100 dark:bg-primary-900/20 text-primary-800 dark:text-primary-400 rounded text-xs font-medium">
+                                  {keyword}
+                                </span>
+                              ))}
+                            </div>
+                          </CardContent>
+                        </Card>
+                      )}
+                      {carousel.caption.seo.lsi_terms_used && carousel.caption.seo.lsi_terms_used.length > 0 && (
+                        <Card variant="filled">
+                          <CardContent className="p-4">
+                            <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">LSI Terms Used</p>
+                            <div className="flex flex-wrap gap-2">
+                              {carousel.caption.seo.lsi_terms_used.map((term, idx) => (
+                                <span key={idx} className="px-2 py-1 bg-secondary-100 dark:bg-secondary-900/20 text-secondary-800 dark:text-secondary-400 rounded text-xs font-medium">
+                                  {term}
+                                </span>
+                              ))}
+                            </div>
+                          </CardContent>
+                        </Card>
+                      )}
+                    </div>
+                  )}
+                </CardContent>
+              </Card>
+            )}
+
+            {/* Hashtags */}
+            {carousel.hashtags && carousel.hashtags.length > 0 && (
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center justify-between">
+                    <span className="flex items-center">
+                      <HashtagIcon className="h-5 w-5 mr-2 text-primary-600 dark:text-primary-400" />
+                      Hashtags ({carousel.hashtags.length})
+                    </span>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => navigator.clipboard.writeText(carousel.hashtags.map(h => `#${h}`).join(' '))}
+                      leftIcon={<DocumentDuplicateIcon className="h-4 w-4" />}
+                    >
+                      Copy All
+                    </Button>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex flex-wrap gap-2">
+                    {carousel.hashtags.map((hashtag, idx) => (
+                      <span key={idx} className="px-3 py-1 bg-primary-100 dark:bg-primary-900/20 text-primary-800 dark:text-primary-400 rounded-full text-sm font-medium border border-primary-200 dark:border-primary-700">
+                        #{hashtag}
+                      </span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+          </div>
+        )}
+
+        {/* Caption Tab - NEW */}
+        {activeTab === 'caption' && carousel.caption_structured && (
+          <div className="space-y-6 animate-fade-in">
+            {/* Structured Caption */}
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <SparklesIcon className="h-5 w-5 mr-2 text-secondary-600 dark:text-secondary-400" />
-                  Caption
+                  Structured Caption (7 Sections)
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="bg-white dark:bg-gray-800 p-4 rounded-xl border border-gray-200 dark:border-gray-700">
-                  <p className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap">{carousel.caption.text}</p>
+                {/* Hook */}
+                <div className="bg-yellow-50 dark:bg-yellow-900/20 p-4 rounded-lg border-l-4 border-yellow-500">
+                  <div className="flex justify-between mb-2">
+                    <p className="text-xs font-semibold text-yellow-700 dark:text-yellow-400 uppercase">Hook (125 chars)</p>
+                    <span className="text-xs text-yellow-600 dark:text-yellow-500">{carousel.caption_structured.hook_125chars.length} chars</span>
+                  </div>
+                  <p className="text-sm text-gray-900 dark:text-gray-100 font-medium">{carousel.caption_structured.hook_125chars}</p>
                 </div>
                 
-                {/* Emojis Used */}
-                {carousel.caption.emojis_used.length > 0 && (
-                  <div>
-                    <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Emojis Used</p>
-                    <div className="flex gap-3">
-                      {carousel.caption.emojis_used.map((emoji, idx) => (
-                        <span key={idx} className="text-2xl">{emoji}</span>
-                      ))}
-                    </div>
+                {/* Problem */}
+                <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                  <p className="text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase mb-2">Problem Statement</p>
+                  <p className="text-sm text-gray-700 dark:text-gray-300">{carousel.caption_structured.problem_statement}</p>
+                </div>
+                
+                {/* Solution Tease */}
+                <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                  <p className="text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase mb-2">Solution Tease</p>
+                  <p className="text-sm text-gray-700 dark:text-gray-300">{carousel.caption_structured.solution_tease}</p>
+                </div>
+                
+                {/* Value Props */}
+                <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                  <p className="text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase mb-2">Value Propositions</p>
+                  <div className="space-y-2">
+                    {carousel.caption_structured.value_props.map((prop, idx) => (
+                      <p key={idx} className="text-sm text-gray-700 dark:text-gray-300">{prop}</p>
+                    ))}
                   </div>
-                )}
-
-                {/* SEO Info */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <Card variant="filled">
-                    <CardContent className="p-4">
-                      <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Keywords Used</p>
-                      <div className="flex flex-wrap gap-2">
-                        {carousel.caption.seo.keywords_used.map((keyword, idx) => (
-                          <span key={idx} className="px-2 py-1 bg-primary-100 dark:bg-primary-900/20 text-primary-800 dark:text-primary-400 rounded text-xs font-medium">
-                            {keyword}
-                          </span>
-                        ))}
-                      </div>
-                    </CardContent>
-                  </Card>
-                  <Card variant="filled">
-                    <CardContent className="p-4">
-                      <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">LSI Terms Used</p>
-                      <div className="flex flex-wrap gap-2">
-                        {carousel.caption.seo.lsi_terms_used.map((term, idx) => (
-                          <span key={idx} className="px-2 py-1 bg-secondary-100 dark:bg-secondary-900/20 text-secondary-800 dark:text-secondary-400 rounded text-xs font-medium">
-                            {term}
-                          </span>
-                        ))}
-                      </div>
-                    </CardContent>
-                  </Card>
+                </div>
+                
+                {/* Keywords */}
+                <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                  <p className="text-xs font-semibold text-gray-600 dark:text-gray-400 uppercase mb-2">Keywords Integration</p>
+                  <p className="text-sm text-gray-700 dark:text-gray-300">{carousel.caption_structured.keywords_woven}</p>
+                </div>
+                
+                {/* Comment Bait */}
+                <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-700">
+                  <p className="text-xs font-semibold text-blue-700 dark:text-blue-400 uppercase mb-2">Comment Bait</p>
+                  <p className="text-sm text-gray-900 dark:text-gray-100">{carousel.caption_structured.comment_bait}</p>
+                </div>
+                
+                {/* CTA */}
+                <div className="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg border border-green-200 dark:border-green-700">
+                  <p className="text-xs font-semibold text-green-700 dark:text-green-400 uppercase mb-2">CTA & Link</p>
+                  <p className="text-sm text-gray-900 dark:text-gray-100 mb-2">{carousel.caption_structured.cta}</p>
+                  <p className="text-xs text-green-600 dark:text-green-500 break-all">{carousel.caption_structured.link}</p>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Hashtags */}
+            {/* Full Caption with SEO */}
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center justify-between">
-                  <span className="flex items-center">
-                    <HashtagIcon className="h-5 w-5 mr-2 text-primary-600 dark:text-primary-400" />
-                    Hashtags ({carousel.hashtags.length})
-                  </span>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => navigator.clipboard.writeText(carousel.hashtags.map(h => `#${h}`).join(' '))}
-                    leftIcon={<DocumentDuplicateIcon className="h-4 w-4" />}
-                  >
-                    Copy All
-                  </Button>
+                <CardTitle>Full Assembled Caption</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mb-4">
+                  <p className="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-wrap">{carousel.caption.text}</p>
+                </div>
+                
+                {carousel.caption.seo.keyword_density_percent && (
+                  <div className="text-center p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+                    <p className="text-xs text-blue-600 dark:text-blue-400">Keyword Density</p>
+                    <p className="text-2xl font-bold text-blue-700 dark:text-blue-300">
+                      {(carousel.caption.seo.keyword_density_percent * 100).toFixed(1)}%
+                    </p>
+                  </div>
+                )}
+              </CardContent>
+            </Card>
+          </div>
+        )}
+
+        {/* Engagement Tab - NEW */}
+        {activeTab === 'engagement' && carousel.engagement_tactics && (
+          <div className="space-y-6 animate-fade-in">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center">
+                  <FireIcon className="h-5 w-5 mr-2 text-orange-600 dark:text-orange-400" />
+                  Engagement Optimization Tactics
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                {/* Swipe Completion */}
+                <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-700">
+                  <div className="flex items-center space-x-2 mb-2">
+                    <PhotoIcon className="h-4 w-4 text-blue-600 dark:text-blue-400" />
+                    <p className="text-sm font-semibold text-blue-700 dark:text-blue-400">Swipe Completion Strategy</p>
+                  </div>
+                  <p className="text-sm text-gray-700 dark:text-gray-300">{carousel.engagement_tactics.swipe_completion_strategy}</p>
+                </div>
+                
+                {/* Save Trigger */}
+                <div className="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg border border-green-200 dark:border-green-700">
+                  <div className="flex items-center space-x-2 mb-2">
+                    <CheckCircleIcon className="h-4 w-4 text-green-600 dark:text-green-400" />
+                    <p className="text-sm font-semibold text-green-700 dark:text-green-400">Save Trigger</p>
+                  </div>
+                  <p className="text-sm text-gray-700 dark:text-gray-300">{carousel.engagement_tactics.save_trigger}</p>
+                </div>
+                
+                {/* Share Trigger */}
+                <div className="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-lg border border-purple-200 dark:border-purple-700">
+                  <div className="flex items-center space-x-2 mb-2">
+                    <SparklesIcon className="h-4 w-4 text-purple-600 dark:text-purple-400" />
+                    <p className="text-sm font-semibold text-purple-700 dark:text-purple-400">Share Trigger</p>
+                  </div>
+                  <p className="text-sm text-gray-700 dark:text-gray-300">{carousel.engagement_tactics.share_trigger}</p>
+                </div>
+                
+                {/* Comment Bait */}
+                <div className="bg-indigo-50 dark:bg-indigo-900/20 p-4 rounded-lg border border-indigo-200 dark:border-indigo-700">
+                  <div className="flex items-center space-x-2 mb-2">
+                    <ChatBubbleLeftIcon className="h-4 w-4 text-indigo-600 dark:text-indigo-400" />
+                    <p className="text-sm font-semibold text-indigo-700 dark:text-indigo-400">Comment Bait</p>
+                  </div>
+                  <p className="text-sm text-gray-700 dark:text-gray-300">{carousel.engagement_tactics.comment_bait}</p>
+                </div>
+                
+                {/* Thumbnail Hook */}
+                <div className="bg-orange-50 dark:bg-orange-900/20 p-4 rounded-lg border border-orange-200 dark:border-orange-700">
+                  <div className="flex items-center space-x-2 mb-2">
+                    <FireIcon className="h-4 w-4 text-orange-600 dark:text-orange-400" />
+                    <p className="text-sm font-semibold text-orange-700 dark:text-orange-400">Thumbnail Hook (Slide 1)</p>
+                  </div>
+                  <p className="text-sm text-gray-700 dark:text-gray-300">{carousel.engagement_tactics.thumbnail_hook}</p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        )}
+
+        {/* Accessibility Tab - NEW */}
+        {activeTab === 'accessibility' && carousel.accessibility && (
+          <div className="space-y-6 animate-fade-in">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center">
+                  <CheckCircleIcon className="h-5 w-5 mr-2 text-green-600 dark:text-green-400" />
+                  Accessibility Compliance ({carousel.accessibility.compliance_level})
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  {carousel.hashtags.map((hashtag, idx) => (
-                    <span key={idx} className="px-3 py-1 bg-primary-100 dark:bg-primary-900/20 text-primary-800 dark:text-primary-400 rounded-full text-sm font-medium border border-primary-200 dark:border-primary-700">
-                      #{hashtag}
-                    </span>
-                  ))}
+                {/* Compliance Status */}
+                <div className="grid grid-cols-2 gap-4 mb-6">
+                  <div className={cn(
+                    "p-4 rounded-lg text-center",
+                    carousel.accessibility.slide_alt_texts_provided 
+                      ? "bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700"
+                      : "bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-700"
+                  )}>
+                    <CheckCircleIcon className={cn(
+                      "h-8 w-8 mx-auto mb-2",
+                      carousel.accessibility.slide_alt_texts_provided ? "text-green-600" : "text-red-600"
+                    )} />
+                    <p className="text-sm font-medium text-gray-900 dark:text-gray-100">Alt Texts</p>
+                    <p className="text-xs text-gray-600 dark:text-gray-400">
+                      {carousel.accessibility.slide_alt_texts_provided ? 'All Provided' : 'Missing'}
+                    </p>
+                  </div>
+                  
+                  <div className={cn(
+                    "p-4 rounded-lg text-center",
+                    carousel.accessibility.contrast_validated 
+                      ? "bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700"
+                      : "bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-700"
+                  )}>
+                    <CheckCircleIcon className={cn(
+                      "h-8 w-8 mx-auto mb-2",
+                      carousel.accessibility.contrast_validated ? "text-green-600" : "text-red-600"
+                    )} />
+                    <p className="text-sm font-medium text-gray-900 dark:text-gray-100">Contrast</p>
+                    <p className="text-xs text-gray-600 dark:text-gray-400">
+                      {carousel.accessibility.contrast_validated ? 'Validated' : 'Not Validated'}
+                    </p>
+                  </div>
+                </div>
+                
+                {/* Features */}
+                <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                  <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">Accessibility Features</p>
+                  <ul className="space-y-2">
+                    {carousel.accessibility.features.map((feature, idx) => (
+                      <li key={idx} className="flex items-start text-sm">
+                        <CheckCircleIcon className="h-4 w-4 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
+                        <span className="text-gray-700 dark:text-gray-300">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </CardContent>
             </Card>
@@ -630,15 +901,23 @@ const InstagramCarouselView: React.FC<InstagramCarouselViewProps> = ({ content, 
                     </Card>
                   </div>
 
-                  {/* Alt Text */}
-                  <div>
-                    <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Alt Text</p>
-                    <div className="bg-gray-50 dark:bg-gray-800 p-3 rounded-xl border border-gray-200 dark:border-gray-700">
-                      <p className="text-sm text-gray-600 dark:text-gray-400 italic">
-                        {imagePrompt.alt_text}
-                      </p>
+                  {/* Accessibility Info - ENHANCED */}
+                  {imagePrompt.accessibility && (
+                    <div className="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg border border-green-200 dark:border-green-700">
+                      <p className="text-sm font-medium text-green-700 dark:text-green-400 mb-3">Accessibility</p>
+                      <div className="space-y-2 text-sm">
+                        <p className="text-gray-700 dark:text-gray-300">
+                          <span className="font-medium">Alt Text:</span> {imagePrompt.accessibility.alt_text}
+                        </p>
+                        <p className="text-gray-700 dark:text-gray-300">
+                          <span className="font-medium">Contrast:</span> {imagePrompt.accessibility.color_contrast_ratio}
+                        </p>
+                        <p className="text-gray-700 dark:text-gray-300">
+                          <span className="font-medium">Font:</span> {imagePrompt.accessibility.font_accessibility}
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </CardContent>
               </Card>
             ))}
@@ -679,28 +958,38 @@ const InstagramCarouselView: React.FC<InstagramCarouselViewProps> = ({ content, 
             <div className="flex items-center">
               <PhotoIcon className="h-4 w-4 mr-1 text-gray-500 dark:text-gray-400" />
               <span className="text-gray-600 dark:text-gray-400">
-                {carousel.compliance.slides_total} slides
+                {carousel.slides?.length || 0} slides
               </span>
             </div>
             <div className="flex items-center">
               <ChartBarIcon className="h-4 w-4 mr-1 text-gray-500 dark:text-gray-400" />
               <span className="text-gray-600 dark:text-gray-400">
-                {carousel.compliance.caption_word_count} words
+                {carousel.compliance?.caption_word_count || 0} words
               </span>
             </div>
             <div className="flex items-center">
               <HashtagIcon className="h-4 w-4 mr-1 text-gray-500 dark:text-gray-400" />
               <span className="text-gray-600 dark:text-gray-400">
-                {carousel.compliance.hashtag_count} hashtags
+                {carousel.hashtags?.length || 0} hashtags
               </span>
             </div>
+            {carousel.image_prompts && carousel.image_prompts.length > 0 && (
+              <div className="flex items-center">
+                <PaintBrushIcon className="h-4 w-4 mr-1 text-gray-500 dark:text-gray-400" />
+                <span className="text-gray-600 dark:text-gray-400">
+                  {carousel.image_prompts.length} images
+                </span>
+              </div>
+            )}
           </div>
-          <div className="flex items-center text-success-600 dark:text-success-400">
-            <CheckCircleIcon className="h-4 w-4 mr-1" />
-            <span className="text-sm font-medium">
-              {carousel.compliance.checks.length} checks passed
-            </span>
-          </div>
+          {carousel.compliance?.checks && (
+            <div className="flex items-center text-success-600 dark:text-success-400">
+              <CheckCircleIcon className="h-4 w-4 mr-1" />
+              <span className="text-sm font-medium">
+                {carousel.compliance.checks.length} checks passed
+              </span>
+            </div>
+          )}
         </div>
       </div>
     </div>
