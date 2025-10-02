@@ -35,17 +35,27 @@ const Topics: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [filterCategory, setFilterCategory] = useState('');
+  const [filterSubcategory, setFilterSubcategory] = useState('');
   const [filterStatus, setFilterStatus] = useState('');
   const [filterComplexity, setFilterComplexity] = useState('');
   const [filterCompany, setFilterCompany] = useState('');
+  const [filterTag, setFilterTag] = useState('');
+  const [filterTechnology, setFilterTechnology] = useState('');
   const [selectedTopic, setSelectedTopic] = useState<Topic | null>(null);
   const [selectedTopics, setSelectedTopics] = useState<Set<number>>(new Set());
   const [sortBy, setSortBy] = useState<'title' | 'difficulty' | 'created_date' | 'company'>('created_date');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [showFilters, setShowFilters] = useState(false);
+  
+  // Filter options from API
   const [categories, setCategories] = useState<string[]>([]);
+  const [subcategories, setSubcategories] = useState<string[]>([]);
   const [companies, setCompanies] = useState<string[]>([]);
+  const [complexityLevels, setComplexityLevels] = useState<string[]>([]);
+  const [statuses, setStatuses] = useState<string[]>([]);
+  const [tags, setTags] = useState<string[]>([]);
+  const [technologies, setTechnologies] = useState<string[]>([]);
   
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -60,10 +70,13 @@ const Topics: React.FC = () => {
       
       // Fetch topics using API service
       const response = await apiService.getTopics(size, offset, searchTerm, {
-        subcategory: filterCategory,
+        category: filterCategory,
+        subcategory: filterSubcategory,
         status: filterStatus,
         complexity: filterComplexity,
         company: filterCompany,
+        tag: filterTag,
+        technology: filterTechnology,
         sortBy: sortBy,
         sortOrder: sortOrder
       });
@@ -71,23 +84,34 @@ const Topics: React.FC = () => {
       setTopics(response.topics || []);
       setTotalTopics(response.total_count || 0);
       setTotalPages(Math.ceil((response.total_count || 0) / size));
-      
-      // Extract unique categories and companies from current results
-      // Note: For better UX, we could fetch all categories separately
-      const uniqueCategories = [
-        ...new Set(response.topics.map(topic => topic.subcategory).filter(Boolean))
-      ];
-      const uniqueCompanies = [...new Set(response.topics.map(topic => topic.company))];
-      setCategories(uniqueCategories);
-      setCompanies(uniqueCompanies);
     } catch (error) {
       toast.error('Failed to load topics');
     } finally {
       setLoading(false);
     }
   };
+  
+  // Load filter options on mount
+  const loadFilterOptions = async () => {
+    try {
+      const response = await apiService.getFilterOptions();
+      if (response.success && response.options) {
+        setCategories(response.options.categories);
+        setSubcategories(response.options.subcategories);
+        setCompanies(response.options.companies);
+        setComplexityLevels(response.options.complexity_levels);
+        setStatuses(response.options.statuses);
+        setTags(response.options.tags);
+        setTechnologies(response.options.technologies);
+      }
+    } catch (error) {
+      console.error('Failed to load filter options:', error);
+      // Don't show error toast for filter options, just log it
+    }
+  };
 
   useEffect(() => {
+    loadFilterOptions();
     loadTopics();
   }, []);
 
@@ -135,6 +159,9 @@ const Topics: React.FC = () => {
       case 'category':
         setFilterCategory(value);
         break;
+      case 'subcategory':
+        setFilterSubcategory(value);
+        break;
       case 'status':
         setFilterStatus(value);
         break;
@@ -144,9 +171,19 @@ const Topics: React.FC = () => {
       case 'company':
         setFilterCompany(value);
         break;
+      case 'tag':
+        setFilterTag(value);
+        break;
+      case 'technology':
+        setFilterTechnology(value);
+        break;
     }
     setCurrentPage(1); // Reset to first page
-    loadTopics(1, pageSize);
+    
+    // Use setTimeout to batch the state update and API call
+    setTimeout(() => {
+      loadTopics(1, pageSize);
+    }, 0);
   };
 
   // Handle sort changes
@@ -165,11 +202,16 @@ const Topics: React.FC = () => {
   const clearAllFilters = () => {
     setSearchTerm('');
     setFilterCategory('');
+    setFilterSubcategory('');
     setFilterStatus('');
     setFilterComplexity('');
     setFilterCompany('');
+    setFilterTag('');
+    setFilterTechnology('');
     setCurrentPage(1);
-    loadTopics(1, pageSize);
+    setTimeout(() => {
+      loadTopics(1, pageSize);
+    }, 0);
   };
 
   const handleDelete = async (id: number) => {
@@ -220,9 +262,15 @@ const Topics: React.FC = () => {
   const clearFilters = () => {
     setSearchTerm('');
     setFilterCategory('');
+    setFilterSubcategory('');
     setFilterStatus('');
     setFilterComplexity('');
     setFilterCompany('');
+    setFilterTag('');
+    setFilterTechnology('');
+    setTimeout(() => {
+      loadTopics(1, pageSize);
+    }, 0);
   };
 
   // Server-side filtering and sorting - no client-side logic needed
@@ -275,9 +323,9 @@ const Topics: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-950 dark:via-gray-900 dark:to-black flex items-center justify-center">
+      <div className="min-h-screen gradient-bg-subtle flex items-center justify-center">
         <div className="text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full mb-4 animate-pulse">
+          <div className="inline-flex items-center justify-center w-16 h-16 gradient-brand rounded-full mb-4 animate-pulse">
             <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-white"></div>
           </div>
           <p className="text-gray-600 dark:text-gray-300 text-lg font-medium">Loading all topics...</p>
@@ -287,7 +335,7 @@ const Topics: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-950 dark:via-gray-900 dark:to-black">
+    <div className="min-h-screen gradient-bg-subtle">
       {/* Animated Background */}
       <div className="fixed inset-0 -z-10">
         <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-primary-400/20 dark:bg-primary-500/10 rounded-full blur-3xl animate-pulse" />
@@ -306,7 +354,7 @@ const Topics: React.FC = () => {
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between">
               <div>
-                <h1 className="text-4xl font-bold text-white mb-2 gradient-text-primary">
+                <h1 className="text-4xl font-bold text-white mb-2">
                   Topics
                 </h1>
                 <p className="text-xl text-primary-100">
@@ -334,7 +382,7 @@ variant="ghost"
             <CardContent className="p-8">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center">
-                  <div className="p-2 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg mr-3">
+                  <div className="p-2 gradient-brand rounded-lg mr-3">
                     <FunnelIcon className="h-6 w-6 text-white" />
                   </div>
                   <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">Filters & Search</h2>
@@ -361,7 +409,7 @@ variant="ghost"
               </div>
               
               {/* Basic Filters */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">
                     Search Topics
@@ -400,6 +448,26 @@ variant="ghost"
 
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">
+                    Subcategory
+                  </label>
+                  <select
+                    className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-900/50 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 text-gray-900 dark:text-gray-100"
+                    value={filterSubcategory}
+                    onChange={(e) => handleFilterChange('subcategory', e.target.value)}
+                  >
+                    <option value="">All Subcategories</option>
+                    {subcategories.map(subcategory => (
+                      <option key={subcategory} value={subcategory}>
+                        {subcategory
+                          .replace(/_/g, ' ')
+                          .replace(/\b\w/g, l => l.toUpperCase())}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">
                     Status
                   </label>
                   <select
@@ -408,16 +476,18 @@ variant="ghost"
                     onChange={(e) => handleFilterChange('status', e.target.value)}
                   >
                     <option value="">All Statuses</option>
-                    <option value="completed">Completed</option>
-                    <option value="pending">Pending</option>
-                    <option value="failed">Failed</option>
+                    {statuses.map(status => (
+                      <option key={status} value={status}>
+                        {status.charAt(0).toUpperCase() + status.slice(1)}
+                      </option>
+                    ))}
                   </select>
                 </div>
               </div>
 
               {/* Advanced Filters */}
               {showFilters && (
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">
                       Complexity
@@ -428,10 +498,11 @@ variant="ghost"
                       onChange={(e) => handleFilterChange('complexity', e.target.value)}
                     >
                       <option value="">All Levels</option>
-                      <option value="beginner">Beginner</option>
-                      <option value="intermediate">Intermediate</option>
-                      <option value="advanced">Advanced</option>
-                      <option value="expert">Expert</option>
+                      {complexityLevels.map(level => (
+                        <option key={level} value={level}>
+                          {level.charAt(0).toUpperCase() + level.slice(1)}
+                        </option>
+                      ))}
                     </select>
                   </div>
 
@@ -455,29 +526,68 @@ variant="ghost"
 
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">
-                      Sort By
+                      Tag
                     </label>
-                    <div className="flex space-x-2">
-                      <select
-                        className="flex-1 px-4 py-3 bg-gray-50 dark:bg-gray-900/50 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 text-gray-900 dark:text-gray-100"
-                        value={sortBy}
-                        onChange={(e) => handleSortChange(e.target.value as any)}
-                      >
-                        <option value="created_date">Date Created</option>
-                        <option value="title">Title</option>
-                        <option value="difficulty">Difficulty</option>
-                        <option value="company">Company</option>
-                      </select>
-                      <button
-                        onClick={() => handleSortChange(sortBy)}
-                        className="px-3 py-3 bg-gray-50 dark:bg-gray-900/50 border border-gray-300 dark:border-gray-600 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
-                      >
-                        {sortOrder === 'asc' ? <ChevronUpIcon className="h-5 w-5" /> : <ChevronDownIcon className="h-5 w-5" />}
-                      </button>
-                    </div>
+                    <select
+                      className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-900/50 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 text-gray-900 dark:text-gray-100"
+                      value={filterTag}
+                      onChange={(e) => handleFilterChange('tag', e.target.value)}
+                    >
+                      <option value="">All Tags</option>
+                      {tags.map(tag => (
+                        <option key={tag} value={tag}>
+                          {tag}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">
+                      Technology
+                    </label>
+                    <select
+                      className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-900/50 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 text-gray-900 dark:text-gray-100"
+                      value={filterTechnology}
+                      onChange={(e) => handleFilterChange('technology', e.target.value)}
+                    >
+                      <option value="">All Technologies</option>
+                      {technologies.map(tech => (
+                        <option key={tech} value={tech}>
+                          {tech}
+                        </option>
+                      ))}
+                    </select>
                   </div>
                 </div>
               )}
+
+              {/* Sort Controls - Always Visible */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">
+                    Sort By
+                  </label>
+                  <div className="flex space-x-2">
+                    <select
+                      className="flex-1 px-4 py-3 bg-gray-50 dark:bg-gray-900/50 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 text-gray-900 dark:text-gray-100"
+                      value={sortBy}
+                      onChange={(e) => handleSortChange(e.target.value as any)}
+                    >
+                      <option value="created_date">Date Created</option>
+                      <option value="title">Title</option>
+                      <option value="difficulty">Difficulty</option>
+                      <option value="company">Company</option>
+                    </select>
+                    <button
+                      onClick={() => handleSortChange(sortBy)}
+                      className="px-3 py-3 bg-gray-50 dark:bg-gray-900/50 border border-gray-300 dark:border-gray-600 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
+                    >
+                      {sortOrder === 'asc' ? <ChevronUpIcon className="h-5 w-5" /> : <ChevronDownIcon className="h-5 w-5" />}
+                    </button>
+                  </div>
+                </div>
+              </div>
 
               {/* View Controls & Bulk Actions */}
               <div className="flex items-center justify-between pt-6 border-t border-gray-200 dark:border-gray-700">
@@ -748,7 +858,7 @@ variant="ghost"
             <div className="sticky top-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700 px-8 py-6 rounded-t-3xl">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
-                  <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-3 leading-tight gradient-text-primary">
+                  <h2 className="text-3xl font-bold text-primary-700 dark:text-primary-300 mb-3 leading-tight">
                     {selectedTopic.title}
                   </h2>
                   <div className="flex flex-wrap gap-2 mb-4">

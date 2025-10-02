@@ -47,6 +47,28 @@ export interface ProcessingStatus {
   event_log: string[];
 }
 
+export interface TopicProcessingStatus {
+  is_processing: boolean;
+  pending_count: number;
+  processing_count: number;
+  completed_count: number;
+  failed_count: number;
+  total_count: number;
+  recent_failures: Array<{
+    title: string;
+    error_message: string;
+    created_at: string;
+  }>;
+  show_status: boolean;
+}
+
+export interface WorkerStatus {
+  worker_running: boolean;
+  pending_topics: number;
+  processing_topics: number;
+  message: string;
+}
+
 export interface Stats {
   total_topics: number;
   status_breakdown: {
@@ -111,6 +133,8 @@ class ApiService {
     status?: string;
     complexity?: string;
     company?: string;
+    tag?: string;
+    technology?: string;
     sortBy?: string;
     sortOrder?: string;
   } = {}): Promise<{ topics: Topic[]; total_count: number; limit: number; offset: number }> {
@@ -125,6 +149,8 @@ class ApiService {
     if (filters.status) params.append('status', filters.status);
     if (filters.complexity) params.append('complexity', filters.complexity);
     if (filters.company) params.append('company', filters.company);
+    if (filters.tag) params.append('tag', filters.tag);
+    if (filters.technology) params.append('technology', filters.technology);
     if (filters.sortBy) params.append('sort_by', filters.sortBy);
     if (filters.sortOrder) params.append('sort_order', filters.sortOrder);
 
@@ -181,11 +207,6 @@ class ApiService {
     return this.request<{ success: boolean; message: string; cleaned_count: number }>('/cleanup-failed', {
       method: 'POST',
     });
-  }
-
-  // Processing Status
-  async getProcessingStatus(): Promise<ProcessingStatus> {
-    return this.request<ProcessingStatus>('/status');
   }
 
   // Topic Status Summary
@@ -251,6 +272,29 @@ class ApiService {
     }>;
   }> {
     return this.request(`/results/topic/${topicId}`);
+  }
+
+  async getProcessingStatus(): Promise<TopicProcessingStatus> {
+    return this.request('/processing-status');
+  }
+
+  async getWorkerStatus(): Promise<WorkerStatus> {
+    return this.request('/worker-status');
+  }
+
+  async getFilterOptions(): Promise<{
+    success: boolean;
+    options: {
+      categories: string[];
+      subcategories: string[];
+      companies: string[];
+      complexity_levels: string[];
+      technologies: string[];
+      tags: string[];
+      statuses: string[];
+    };
+  }> {
+    return this.request('/topics/filter-options');
   }
 }
 

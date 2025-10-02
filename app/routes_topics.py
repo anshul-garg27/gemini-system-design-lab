@@ -7,13 +7,15 @@ from typing import List, Optional, Dict, Any
 from pydantic import BaseModel
 import threading
 import time
+import json
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
 import copy
 import os
+import re
 
-from unified_database import unified_db
+from unified_database import UnifiedDatabase
 from gemini_client import GeminiClient
 from batch_processor import TopicBatchProcessor
 
@@ -60,7 +62,7 @@ def record_status_event(message: str, level: str = "info"):
             del event_log[:-50]
 
 # Initialize database and processor
-db = unified_db
+db = UnifiedDatabase()  # Create instance, not just reference to class
 processor = None
 
 
@@ -91,6 +93,17 @@ def process_single_batch(batch, batch_num, all_topic_ids):
         record_status_event(
             f"Batch {batch_num + 1} started on {thread_name} with {len(batch)} topics"
         )
+        
+        # Update status to processing for all topics in this batch
+        for topic in batch:
+            # Use topic_status_id if available (NO title cleaning needed!)
+            if 'topic_status_id' in topic and topic['topic_status_id']:
+                db.update_topic_status_by_id(topic['topic_status_id'], 'processing')
+                logger.debug("Updated topic_status_id=%s to 'processing'", topic['topic_status_id'])
+            else:
+                # Fallback: use raw title (should rarely happen)
+                db.save_topic_status(topic['title'], 'processing', None)
+        
         # Generate topics using Gemini
         generated_topics = processor.client.generate_topics(
             batch, 
@@ -169,36 +182,50 @@ def process_topics_background(topic_titles, batch_size=5):
         for i, title in enumerate(topic_titles):
             title = title.strip()
             
-            # Check if topic already exists
-            existing_topic = db.get_topic_by_title(title)
+            # Check if topic_status exists for this title
+            existing_status = db.get_topic_status_by_title(title)
+            topic_status_id = None
             
-            if existing_topic:
-                if existing_topic.get('status') == 'completed':
+            if existing_status:
+                topic_status_id = existing_status['id']
+                
+                if existing_status['status'] == 'completed':
                     skipped_topics.append(title)
                     logger.info("Skipping existing completed topic: %s", title)
                     record_status_event(f"Skipped already completed topic: {title}")
                     continue
-                elif existing_topic.get('status') in ['failed', 'pending']:
+                elif existing_status['status'] in ['failed', 'pending']:
+                    # Check if already in topics table
+                    existing_topic = db.get_topic_by_title(title)
+                    topic_id = existing_topic['id'] if existing_topic else (next_id + i)
+                    
                     retry_topics.append({
-                        'id': existing_topic['id'],
+                        'id': topic_id,
+                        'topic_status_id': topic_status_id,
                         'title': title,
                         'status': 'pending',
                         'created_at': datetime.now().isoformat()
                     })
                     logger.info(
-                        "Retrying existing topic with status '%s': %s",
-                        existing_topic.get('status'),
-                        title
+                        "Retrying existing topic with status '%s': %s (status_id=%s)",
+                        existing_status['status'],
+                        title,
+                        topic_status_id
                     )
                     record_status_event(
-                        f"Retrying topic {title} (status={existing_topic.get('status')})"
+                        f"Retrying topic {title} (status={existing_status['status']}, status_id={topic_status_id})"
                     )
                     continue
+            else:
+                # Create new topic_status entry
+                topic_status_id = db.add_topic_for_processing(title)
+                logger.info("Created new topic_status entry: %s (status_id=%s)", title, topic_status_id)
             
             # Use sequential IDs starting from next available ID
             topic_id = next_id + i
             topics_to_process.append({
                 'id': topic_id,
+                'topic_status_id': topic_status_id,
                 'title': title,
                 'status': 'pending',
                 'created_at': datetime.now().isoformat()
@@ -224,9 +251,10 @@ def process_topics_background(topic_titles, batch_size=5):
             logger.info("No topics to process; all %s topics were skipped", len(skipped_topics))
             return
         
-        # Save topics to process with pending status
-        for topic in all_topics_to_process:
-            db.save_topic_status(topic['title'], 'pending', None)
+        # Save topics to process with pending status (batch operation for better performance)
+        topics_batch = [(topic['title'], 'pending', None) for topic in all_topics_to_process]
+        db.save_topic_status_batch(topics_batch)
+        logger.info(f"Batch saved {len(topics_batch)} topics with 'pending' status")
         
         # Update status with skipped topics info
         if skipped_topics:
@@ -262,7 +290,7 @@ def process_topics_background(topic_titles, batch_size=5):
         all_topic_ids = [t['id'] for t in all_topics_to_process]
         
         # Calculate parallel processing parameters
-        parallel_batches = min(10, total_batches)  # Max 10 parallel batches
+        parallel_batches = min(80, total_batches)  # Max 10 parallel batches
         logger.info(
             "Parallel execution configured with up to %s concurrent batches",
             parallel_batches
@@ -357,19 +385,45 @@ def process_topics_background(topic_titles, batch_size=5):
                 for result in batch_results:
                     if result['success']:
                         generated_topics = result['topics']
+                        batch_num = result['batch_num']
+                        original_batch = batch_lookup.get(batch_num, [])
                         
                         # Save successful topics
-                        for topic in generated_topics:
+                        logger.info(f"Saving {len(generated_topics)} successful topics from batch {batch_num + 1}")
+                        for i, topic in enumerate(generated_topics):
                             try:
+                                # Get the original topic object to extract topic_status_id
+                                original_topic = original_batch[i] if i < len(original_batch) else None
+                                
                                 db.save_topic(topic, f"web_batch_{datetime.now().strftime('%Y%m%d_%H%M%S')}")
-                                db.save_topic_status(topic['title'], 'completed', None)
+                                
+                                # Use topic_status_id if available
+                                # Pass Gemini's cleaned title as current_title
+                                if original_topic and 'topic_status_id' in original_topic and original_topic['topic_status_id']:
+                                    db.update_topic_status_by_id(
+                                        original_topic['topic_status_id'], 
+                                        'completed',
+                                        current_title=topic['title']  # Gemini's cleaned title
+                                    )
+                                    logger.debug(
+                                        "Updated topic_status_id=%s to 'completed' with current_title='%s'", 
+                                        original_topic['topic_status_id'],
+                                        topic['title']
+                                    )
+                                else:
+                                    db.save_topic_status(topic['title'], 'completed', None)
                                 
                                 with status_lock:
                                     processing_status_copy = copy.deepcopy(processing_status)
                                     processing_status_copy['processed_topics'] += 1
                                     processing_status.update(processing_status_copy)
                             except Exception as e:
-                                db.save_topic_status(topic['title'], 'failed', str(e))
+                                # Handle failure with topic_status_id
+                                if original_topic and 'topic_status_id' in original_topic and original_topic['topic_status_id']:
+                                    db.update_topic_status_by_id(original_topic['topic_status_id'], 'failed', str(e))
+                                else:
+                                    db.save_topic_status(topic['title'], 'failed', str(e))
+                                    
                                 with status_lock:
                                     processing_status_copy = copy.deepcopy(processing_status)
                                     processing_status_copy['failed_topics'] += 1
@@ -485,7 +539,7 @@ class StatsResponse(BaseModel):
 # API Endpoints
 @router.post("/topics", response_model=Dict[str, Any])
 async def create_topics(request: CreateTopicsRequest, background_tasks: BackgroundTasks):
-    """Create topics from bulk input."""
+    """Create topics from bulk input - saves as pending for worker processing."""
     topic_titles = request.topics
     batch_size = request.batch_size
     logger.info(
@@ -503,35 +557,45 @@ async def create_topics(request: CreateTopicsRequest, background_tasks: Backgrou
         logger.warning("Rejected create_topics request due to missing topics")
         raise HTTPException(status_code=400, detail="No topics provided")
 
-    if processing_status['is_processing']:
-        logger.warning("Rejected create_topics request because processing is already in progress")
-        raise HTTPException(status_code=400, detail="Already processing topics")
-
-    # Mark processing as started before handing off to background thread
-    with status_lock:
-        processing_status.update({
-            'is_processing': True,
-            'current_batch': 0,
-            'total_batches': 0,
-            'processed_topics': 0,
-            'failed_topics': 0,
-            'skipped_topics': 0,
-            'skipped_titles': [],
-            'current_topic': 'Initializing topic processor...'
-        })
-    record_status_event(
-        f"Queued {len(topic_titles)} topics for processing (batch size {batch_size})"
-    )
-
-    # Start background processing
-    def run_processing():
-        logger.info("Background task thread started for create_topics request")
-        process_topics_background(topic_titles, batch_size)
-
-    background_tasks.add_task(run_processing)
-    logger.info("Background task queued; returning response to client")
-
-    return {"message": "Processing started", "total_topics": len(topic_titles)}
+    # Save all topics with pending status
+    saved_count = 0
+    skipped_count = 0
+    skipped_titles = []
+    
+    for title in topic_titles:
+        original_title = title.strip()  # Keep original with all formatting
+        
+        # Check if topic already exists (by original title)
+        existing_topic = db.get_topic_status_by_title(original_title)
+        
+        if existing_topic and existing_topic.get('status') == 'completed':
+            skipped_count += 1
+            skipped_titles.append(original_title)
+            logger.info(f"Skipping already completed topic: {original_title}")
+            continue
+        
+        # Save topic with ORIGINAL title (no cleaning!)
+        # Gemini will clean it later and save as current_title
+        success = db.save_topic_status(original_title, 'pending', None)
+        if success:
+            saved_count += 1
+            logger.info(f"Saved topic '{original_title}' with pending status")
+        else:
+            logger.error(f"Failed to save topic '{original_title}'")
+    
+    logger.info(f"Created {saved_count} pending topics, skipped {skipped_count} completed topics")
+    
+    response = {
+        "message": "Topics queued for processing",
+        "total_topics": len(topic_titles),
+        "saved_topics": saved_count,
+        "skipped_topics": skipped_count
+    }
+    
+    if skipped_titles:
+        response["skipped_titles"] = skipped_titles[:5]  # Show first 5 skipped
+    
+    return response
 
 
 @router.get("/topics", response_model=TopicsResponse)
@@ -542,41 +606,68 @@ async def get_topics(
     category: Optional[str] = Query(None),
     subcategory: Optional[str] = Query(None),
     status: Optional[str] = Query(None),
+    complexity: Optional[str] = Query(None),
     company: Optional[str] = Query(None),
+    tag: Optional[str] = Query(None),
+    technology: Optional[str] = Query(None),
     sort_by: str = Query("created_date"),
     sort_order: str = Query("desc")
 ):
     """Get topics with pagination, search, and filtering."""
-    # Get topics with search and filters
-    topics = db.get_topics_paginated(
-        offset=offset, 
-        limit=limit,
-        search=search,
-        category=category,
-        subcategory=subcategory,
-        status=status,
-        complexity=complexity,
-        company=company,
-        sort_by=sort_by,
-        sort_order=sort_order
-    )
-    
-    # Get total count for pagination (with same filters)
-    total_count = db.get_topics_count(
-        search=search,
-        category=category,
-        subcategory=subcategory,
-        status=status,
-        complexity=complexity,
-        company=company
-    )
-    
-    return TopicsResponse(
-        topics=topics,
-        total_count=total_count,
-        limit=limit,
-        offset=offset
-    )
+    try:
+        # Force minimum limit of 1 (frontend sometimes sends 0)
+        if limit < 1:
+            limit = 5
+        
+        # Get topics with search and filters
+        topics = db.get_topics_paginated(
+            offset=offset, 
+            limit=limit,
+            search=search,
+            category=category,
+            subcategory=subcategory,
+            status=status,
+            complexity=complexity,
+            company=company,
+            tag=tag,
+            technology=technology,
+            sort_by=sort_by,
+            sort_order=sort_order
+        )
+        
+        # Parse JSON fields for Pydantic validation
+        for topic in topics:
+            json_fields = ['technologies', 'tags', 'related_topics', 'metrics', 
+                          'implementation_details', 'learning_objectives', 'prerequisites']
+            for field in json_fields:
+                if field in topic and isinstance(topic[field], str):
+                    try:
+                        topic[field] = json.loads(topic[field])
+                    except (json.JSONDecodeError, TypeError):
+                        # Default to empty list/dict based on field type
+                        topic[field] = [] if field != 'metrics' and field != 'implementation_details' else {}
+        
+        # Get total count for pagination (with same filters)
+        total_count = db.get_topics_count(
+            search=search,
+            category=category,
+            subcategory=subcategory,
+            status=status,
+            complexity=complexity,
+            company=company,
+            tag=tag,
+            technology=technology
+        )
+        
+        return TopicsResponse(
+            topics=topics,
+            total_count=total_count,
+            limit=limit,
+            offset=offset
+        )
+    except Exception as e:
+        logger.error(f"Error in get_topics endpoint: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.get("/status", response_model=ProcessingStatusResponse)
@@ -586,6 +677,20 @@ async def get_status():
         status_snapshot = copy.deepcopy(processing_status)
         status_snapshot.setdefault('event_log', [])
     return ProcessingStatusResponse(**status_snapshot)
+
+
+@router.get("/topics/filter-options")
+async def get_filter_options():
+    """Get all available filter options for topics (categories, companies, etc.)."""
+    try:
+        options = db.get_filter_options()
+        return {
+            "success": True,
+            "options": options
+        }
+    except Exception as e:
+        logger.error(f"Error fetching filter options: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.get("/topics/{topic_id}", response_model=TopicResponse)
@@ -674,6 +779,51 @@ async def get_topic_status_summary():
         return {
             "success": True,
             "summary": summary
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/processing-status")
+async def get_processing_status():
+    """Get current processing status for frontend display."""
+    try:
+        # Get processing summary from database
+        summary = db.get_processing_summary()
+        
+        # Check if there are any pending or processing topics
+        is_processing = summary['pending'] > 0 or summary['processing'] > 0
+        
+        return {
+            "is_processing": is_processing,
+            "pending_count": summary['pending'],
+            "processing_count": summary['processing'],
+            "completed_count": summary['completed'],
+            "failed_count": summary['failed'],
+            "total_count": summary['total'],
+            "recent_failures": summary['recent_failures'],
+            "show_status": is_processing or summary['failed'] > 0  # Show status if processing or has failures
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/worker-status")
+async def get_worker_status():
+    """Get worker service status."""
+    try:
+        # This endpoint can be used to check if worker is running
+        # For now, we'll check if there are processing topics
+        summary = db.get_processing_summary()
+        
+        # If there are topics in 'processing' status, worker is likely running
+        worker_running = summary['processing'] > 0
+        
+        return {
+            "worker_running": worker_running,
+            "pending_topics": summary['pending'],
+            "processing_topics": summary['processing'],
+            "message": "Worker is processing topics" if worker_running else "Worker may be idle or not running"
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
