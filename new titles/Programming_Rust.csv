@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Programming,Rust,ownership & borrowing,Why Rust is still king for Indian interviews 👑
+Programming,Rust,lifetimes (intuition),How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,Result/Option & error handling,Rust in 60 seconds: the only Result/Option & error handling intuition you need
+Programming,Rust,traits & generics,"traits & generics in Rust — stop brute forcing, write idiomatic code"
+Programming,Rust,pattern matching,Rust pattern matching: top 7 mistakes that cost offers in India
+Programming,Rust,iterators & closures,From messy to clean: refactor your Rust iterators & closures live
+Programming,Rust,async/await (intro),Interview day checklist: Rust async/await (intro) in 5 bullets
+Programming,Rust,smart pointers & interior mutability,Whiteboard to code: Rust smart pointers & interior mutability with edge cases
+Programming,Rust,cargo & workspaces,Explain it like I’m 5: Rust cargo & workspaces without jargon
+Programming,Rust,testing & property tests,Speedrun Rust testing & property tests: archetypes you must know
+Programming,Rust,FFI basics,You’re overcomplicating it — simplify your Rust FFI basics
+Programming,Rust,ownership & borrowing,Performance 101: make Rust ownership & borrowing 10x faster (no hacks)
+Programming,Rust,lifetimes (intuition),Memory vs speed: tradeoffs in Rust lifetimes (intuition)
+Programming,Rust,Result/Option & error handling,Idiomatic Rust: do’s & don’ts for Result/Option & error handling
+Programming,Rust,traits & generics,Debugging live: fix a broken Rust traits & generics solution
+Programming,Rust,pattern matching,Unit tests that catch subtle bugs in Rust pattern matching
+Programming,Rust,iterators & closures,Rust iterators & closures cheat sheet — templates + pitfalls
+Programming,Rust,async/await (intro),Phone screen vs onsite: how Rust async/await (intro) questions differ
+Programming,Rust,smart pointers & interior mutability,Narrate your thinking: explain Rust smart pointers & interior mutability like a pro
+Programming,Rust,cargo & workspaces,Before you code: 4 questions for any Rust cargo & workspaces
+Programming,Rust,testing & property tests,From DSA to dev: where Rust testing & property tests shows up in real systems
+Programming,Rust,FFI basics,Edge cases that break 8/10 Rust FFI basics submissions
+Programming,Rust,ownership & borrowing,Back-of-the-envelope complexity: Rust ownership & borrowing
+Programming,Rust,lifetimes (intuition),Code smells in Rust lifetimes (intuition) — and quick fixes
+Programming,Rust,Result/Option & error handling,Template showdown: clean APIs for Rust Result/Option & error handling
+Programming,Rust,traits & generics,Interview kata: daily reps for Rust traits & generics
+Programming,Rust,pattern matching,Crash course: Rust pattern matching in 5 minutes
+Programming,Rust,iterators & closures,Top 5 questions around Rust iterators & closures this year
+Programming,Rust,async/await (intro),From CP to interviews: map async/await (intro) to idiomatic Rust
+Programming,Rust,smart pointers & interior mutability,Prove it: correctness for Rust smart pointers & interior mutability (plain English)
+Programming,Rust,cargo & workspaces,When not to use Rust features for cargo & workspaces (and what instead)
+Programming,Rust,testing & property tests,Why Rust is still king for Indian interviews 👑
+Programming,Rust,FFI basics,How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,ownership & borrowing,Rust in 60 seconds: the only ownership & borrowing intuition you need
+Programming,Rust,lifetimes (intuition),"lifetimes (intuition) in Rust — stop brute forcing, write idiomatic code"
+Programming,Rust,Result/Option & error handling,Rust Result/Option & error handling: top 7 mistakes that cost offers in India
+Programming,Rust,traits & generics,From messy to clean: refactor your Rust traits & generics live
+Programming,Rust,pattern matching,Interview day checklist: Rust pattern matching in 5 bullets
+Programming,Rust,iterators & closures,Whiteboard to code: Rust iterators & closures with edge cases
+Programming,Rust,async/await (intro),Explain it like I’m 5: Rust async/await (intro) without jargon
+Programming,Rust,smart pointers & interior mutability,Speedrun Rust smart pointers & interior mutability: archetypes you must know
+Programming,Rust,cargo & workspaces,You’re overcomplicating it — simplify your Rust cargo & workspaces
+Programming,Rust,testing & property tests,Performance 101: make Rust testing & property tests 10x faster (no hacks)
+Programming,Rust,FFI basics,Memory vs speed: tradeoffs in Rust FFI basics
+Programming,Rust,ownership & borrowing,Idiomatic Rust: do’s & don’ts for ownership & borrowing
+Programming,Rust,lifetimes (intuition),Debugging live: fix a broken Rust lifetimes (intuition) solution
+Programming,Rust,Result/Option & error handling,Unit tests that catch subtle bugs in Rust Result/Option & error handling
+Programming,Rust,traits & generics,Rust traits & generics cheat sheet — templates + pitfalls
+Programming,Rust,pattern matching,Phone screen vs onsite: how Rust pattern matching questions differ
+Programming,Rust,iterators & closures,Narrate your thinking: explain Rust iterators & closures like a pro
+Programming,Rust,async/await (intro),Before you code: 4 questions for any Rust async/await (intro)
+Programming,Rust,smart pointers & interior mutability,From DSA to dev: where Rust smart pointers & interior mutability shows up in real systems
+Programming,Rust,cargo & workspaces,Edge cases that break 8/10 Rust cargo & workspaces submissions
+Programming,Rust,testing & property tests,Back-of-the-envelope complexity: Rust testing & property tests
+Programming,Rust,FFI basics,Code smells in Rust FFI basics — and quick fixes
+Programming,Rust,ownership & borrowing,Template showdown: clean APIs for Rust ownership & borrowing
+Programming,Rust,lifetimes (intuition),Interview kata: daily reps for Rust lifetimes (intuition)
+Programming,Rust,Result/Option & error handling,Crash course: Rust Result/Option & error handling in 5 minutes
+Programming,Rust,traits & generics,Top 5 questions around Rust traits & generics this year
+Programming,Rust,pattern matching,From CP to interviews: map pattern matching to idiomatic Rust
+Programming,Rust,iterators & closures,Prove it: correctness for Rust iterators & closures (plain English)
+Programming,Rust,async/await (intro),When not to use Rust features for async/await (intro) (and what instead)
+Programming,Rust,smart pointers & interior mutability,Why Rust is still king for Indian interviews 👑
+Programming,Rust,cargo & workspaces,How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,testing & property tests,Rust in 60 seconds: the only testing & property tests intuition you need
+Programming,Rust,FFI basics,"FFI basics in Rust — stop brute forcing, write idiomatic code"
+Programming,Rust,ownership & borrowing,Rust ownership & borrowing: top 7 mistakes that cost offers in India
+Programming,Rust,lifetimes (intuition),From messy to clean: refactor your Rust lifetimes (intuition) live
+Programming,Rust,Result/Option & error handling,Interview day checklist: Rust Result/Option & error handling in 5 bullets
+Programming,Rust,traits & generics,Whiteboard to code: Rust traits & generics with edge cases
+Programming,Rust,pattern matching,Explain it like I’m 5: Rust pattern matching without jargon
+Programming,Rust,iterators & closures,Speedrun Rust iterators & closures: archetypes you must know
+Programming,Rust,async/await (intro),You’re overcomplicating it — simplify your Rust async/await (intro)
+Programming,Rust,smart pointers & interior mutability,Performance 101: make Rust smart pointers & interior mutability 10x faster (no hacks)
+Programming,Rust,cargo & workspaces,Memory vs speed: tradeoffs in Rust cargo & workspaces
+Programming,Rust,testing & property tests,Idiomatic Rust: do’s & don’ts for testing & property tests
+Programming,Rust,FFI basics,Debugging live: fix a broken Rust FFI basics solution
+Programming,Rust,ownership & borrowing,Unit tests that catch subtle bugs in Rust ownership & borrowing
+Programming,Rust,lifetimes (intuition),Rust lifetimes (intuition) cheat sheet — templates + pitfalls
+Programming,Rust,Result/Option & error handling,Phone screen vs onsite: how Rust Result/Option & error handling questions differ
+Programming,Rust,traits & generics,Narrate your thinking: explain Rust traits & generics like a pro
+Programming,Rust,pattern matching,Before you code: 4 questions for any Rust pattern matching
+Programming,Rust,iterators & closures,From DSA to dev: where Rust iterators & closures shows up in real systems
+Programming,Rust,async/await (intro),Edge cases that break 8/10 Rust async/await (intro) submissions
+Programming,Rust,smart pointers & interior mutability,Back-of-the-envelope complexity: Rust smart pointers & interior mutability
+Programming,Rust,cargo & workspaces,Code smells in Rust cargo & workspaces — and quick fixes
+Programming,Rust,testing & property tests,Template showdown: clean APIs for Rust testing & property tests
+Programming,Rust,FFI basics,Interview kata: daily reps for Rust FFI basics
+Programming,Rust,ownership & borrowing,Crash course: Rust ownership & borrowing in 5 minutes
+Programming,Rust,lifetimes (intuition),Top 5 questions around Rust lifetimes (intuition) this year
+Programming,Rust,Result/Option & error handling,From CP to interviews: map Result/Option & error handling to idiomatic Rust
+Programming,Rust,traits & generics,Prove it: correctness for Rust traits & generics (plain English)
+Programming,Rust,pattern matching,When not to use Rust features for pattern matching (and what instead)
+Programming,Rust,iterators & closures,Why Rust is still king for Indian interviews 👑
+Programming,Rust,async/await (intro),How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,smart pointers & interior mutability,Rust in 60 seconds: the only smart pointers & interior mutability intuition you need
+Programming,Rust,cargo & workspaces,"cargo & workspaces in Rust — stop brute forcing, write idiomatic code"
+Programming,Rust,testing & property tests,Rust testing & property tests: top 7 mistakes that cost offers in India
+Programming,Rust,FFI basics,From messy to clean: refactor your Rust FFI basics live
+Programming,Rust,ownership & borrowing,Interview day checklist: Rust ownership & borrowing in 5 bullets
+Programming,Rust,lifetimes (intuition),Whiteboard to code: Rust lifetimes (intuition) with edge cases
+Programming,Rust,Result/Option & error handling,Explain it like I’m 5: Rust Result/Option & error handling without jargon
+Programming,Rust,traits & generics,Speedrun Rust traits & generics: archetypes you must know
+Programming,Rust,pattern matching,You’re overcomplicating it — simplify your Rust pattern matching
+Programming,Rust,iterators & closures,Performance 101: make Rust iterators & closures 10x faster (no hacks)
+Programming,Rust,async/await (intro),Memory vs speed: tradeoffs in Rust async/await (intro)
+Programming,Rust,smart pointers & interior mutability,Idiomatic Rust: do’s & don’ts for smart pointers & interior mutability
+Programming,Rust,cargo & workspaces,Debugging live: fix a broken Rust cargo & workspaces solution
+Programming,Rust,testing & property tests,Unit tests that catch subtle bugs in Rust testing & property tests
+Programming,Rust,FFI basics,Rust FFI basics cheat sheet — templates + pitfalls
+Programming,Rust,ownership & borrowing,Phone screen vs onsite: how Rust ownership & borrowing questions differ
+Programming,Rust,lifetimes (intuition),Narrate your thinking: explain Rust lifetimes (intuition) like a pro
+Programming,Rust,Result/Option & error handling,Before you code: 4 questions for any Rust Result/Option & error handling
+Programming,Rust,traits & generics,From DSA to dev: where Rust traits & generics shows up in real systems
+Programming,Rust,pattern matching,Edge cases that break 8/10 Rust pattern matching submissions
+Programming,Rust,iterators & closures,Back-of-the-envelope complexity: Rust iterators & closures
+Programming,Rust,async/await (intro),Code smells in Rust async/await (intro) — and quick fixes
+Programming,Rust,smart pointers & interior mutability,Template showdown: clean APIs for Rust smart pointers & interior mutability
+Programming,Rust,cargo & workspaces,Interview kata: daily reps for Rust cargo & workspaces
+Programming,Rust,testing & property tests,Crash course: Rust testing & property tests in 5 minutes
+Programming,Rust,FFI basics,Top 5 questions around Rust FFI basics this year
+Programming,Rust,ownership & borrowing,From CP to interviews: map ownership & borrowing to idiomatic Rust
+Programming,Rust,lifetimes (intuition),Prove it: correctness for Rust lifetimes (intuition) (plain English)
+Programming,Rust,Result/Option & error handling,When not to use Rust features for Result/Option & error handling (and what instead)
+Programming,Rust,traits & generics,Why Rust is still king for Indian interviews 👑
+Programming,Rust,pattern matching,How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,iterators & closures,Rust in 60 seconds: the only iterators & closures intuition you need
+Programming,Rust,async/await (intro),"async/await (intro) in Rust — stop brute forcing, write idiomatic code"
+Programming,Rust,smart pointers & interior mutability,Rust smart pointers & interior mutability: top 7 mistakes that cost offers in India
+Programming,Rust,cargo & workspaces,From messy to clean: refactor your Rust cargo & workspaces live
+Programming,Rust,testing & property tests,Interview day checklist: Rust testing & property tests in 5 bullets
+Programming,Rust,FFI basics,Whiteboard to code: Rust FFI basics with edge cases
+Programming,Rust,ownership & borrowing,Explain it like I’m 5: Rust ownership & borrowing without jargon
+Programming,Rust,lifetimes (intuition),Speedrun Rust lifetimes (intuition): archetypes you must know
+Programming,Rust,Result/Option & error handling,You’re overcomplicating it — simplify your Rust Result/Option & error handling
+Programming,Rust,traits & generics,Performance 101: make Rust traits & generics 10x faster (no hacks)
+Programming,Rust,pattern matching,Memory vs speed: tradeoffs in Rust pattern matching
+Programming,Rust,iterators & closures,Idiomatic Rust: do’s & don’ts for iterators & closures
+Programming,Rust,async/await (intro),Debugging live: fix a broken Rust async/await (intro) solution
+Programming,Rust,smart pointers & interior mutability,Unit tests that catch subtle bugs in Rust smart pointers & interior mutability
+Programming,Rust,cargo & workspaces,Rust cargo & workspaces cheat sheet — templates + pitfalls
+Programming,Rust,testing & property tests,Phone screen vs onsite: how Rust testing & property tests questions differ
+Programming,Rust,FFI basics,Narrate your thinking: explain Rust FFI basics like a pro
+Programming,Rust,ownership & borrowing,Before you code: 4 questions for any Rust ownership & borrowing
+Programming,Rust,lifetimes (intuition),From DSA to dev: where Rust lifetimes (intuition) shows up in real systems
+Programming,Rust,Result/Option & error handling,Edge cases that break 8/10 Rust Result/Option & error handling submissions
+Programming,Rust,traits & generics,Back-of-the-envelope complexity: Rust traits & generics
+Programming,Rust,pattern matching,Code smells in Rust pattern matching — and quick fixes
+Programming,Rust,iterators & closures,Template showdown: clean APIs for Rust iterators & closures
+Programming,Rust,async/await (intro),Interview kata: daily reps for Rust async/await (intro)
+Programming,Rust,smart pointers & interior mutability,Crash course: Rust smart pointers & interior mutability in 5 minutes
+Programming,Rust,cargo & workspaces,Top 5 questions around Rust cargo & workspaces this year
+Programming,Rust,testing & property tests,From CP to interviews: map testing & property tests to idiomatic Rust
+Programming,Rust,FFI basics,Prove it: correctness for Rust FFI basics (plain English)
+Programming,Rust,ownership & borrowing,When not to use Rust features for ownership & borrowing (and what instead)
+Programming,Rust,lifetimes (intuition),Why Rust is still king for Indian interviews 👑
+Programming,Rust,Result/Option & error handling,How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,traits & generics,Rust in 60 seconds: the only traits & generics intuition you need
+Programming,Rust,pattern matching,"pattern matching in Rust — stop brute forcing, write idiomatic code"
+Programming,Rust,iterators & closures,Rust iterators & closures: top 7 mistakes that cost offers in India
+Programming,Rust,async/await (intro),From messy to clean: refactor your Rust async/await (intro) live
+Programming,Rust,smart pointers & interior mutability,Interview day checklist: Rust smart pointers & interior mutability in 5 bullets
+Programming,Rust,cargo & workspaces,Whiteboard to code: Rust cargo & workspaces with edge cases
+Programming,Rust,testing & property tests,Explain it like I’m 5: Rust testing & property tests without jargon
+Programming,Rust,FFI basics,Speedrun Rust FFI basics: archetypes you must know
+Programming,Rust,ownership & borrowing,You’re overcomplicating it — simplify your Rust ownership & borrowing
+Programming,Rust,lifetimes (intuition),Performance 101: make Rust lifetimes (intuition) 10x faster (no hacks)
+Programming,Rust,Result/Option & error handling,Memory vs speed: tradeoffs in Rust Result/Option & error handling
+Programming,Rust,traits & generics,Idiomatic Rust: do’s & don’ts for traits & generics
+Programming,Rust,pattern matching,Debugging live: fix a broken Rust pattern matching solution
+Programming,Rust,iterators & closures,Unit tests that catch subtle bugs in Rust iterators & closures
+Programming,Rust,async/await (intro),Rust async/await (intro) cheat sheet — templates + pitfalls
+Programming,Rust,smart pointers & interior mutability,Phone screen vs onsite: how Rust smart pointers & interior mutability questions differ
+Programming,Rust,cargo & workspaces,Narrate your thinking: explain Rust cargo & workspaces like a pro
+Programming,Rust,testing & property tests,Before you code: 4 questions for any Rust testing & property tests
+Programming,Rust,FFI basics,From DSA to dev: where Rust FFI basics shows up in real systems
+Programming,Rust,ownership & borrowing,Edge cases that break 8/10 Rust ownership & borrowing submissions
+Programming,Rust,lifetimes (intuition),Back-of-the-envelope complexity: Rust lifetimes (intuition)
+Programming,Rust,Result/Option & error handling,Code smells in Rust Result/Option & error handling — and quick fixes
+Programming,Rust,traits & generics,Template showdown: clean APIs for Rust traits & generics
+Programming,Rust,pattern matching,Interview kata: daily reps for Rust pattern matching
+Programming,Rust,iterators & closures,Crash course: Rust iterators & closures in 5 minutes
+Programming,Rust,async/await (intro),Top 5 questions around Rust async/await (intro) this year
+Programming,Rust,smart pointers & interior mutability,From CP to interviews: map smart pointers & interior mutability to idiomatic Rust
+Programming,Rust,cargo & workspaces,Prove it: correctness for Rust cargo & workspaces (plain English)
+Programming,Rust,testing & property tests,When not to use Rust features for testing & property tests (and what instead)
+Programming,Rust,FFI basics,Why Rust is still king for Indian interviews 👑
+Programming,Rust,ownership & borrowing,How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,lifetimes (intuition),Rust in 60 seconds: the only lifetimes (intuition) intuition you need
+Programming,Rust,Result/Option & error handling,"Result/Option & error handling in Rust — stop brute forcing, write idiomatic code"
+Programming,Rust,traits & generics,Rust traits & generics: top 7 mistakes that cost offers in India
+Programming,Rust,pattern matching,From messy to clean: refactor your Rust pattern matching live
+Programming,Rust,iterators & closures,Interview day checklist: Rust iterators & closures in 5 bullets
+Programming,Rust,async/await (intro),Whiteboard to code: Rust async/await (intro) with edge cases
+Programming,Rust,smart pointers & interior mutability,Explain it like I’m 5: Rust smart pointers & interior mutability without jargon
+Programming,Rust,cargo & workspaces,Speedrun Rust cargo & workspaces: archetypes you must know
+Programming,Rust,testing & property tests,You’re overcomplicating it — simplify your Rust testing & property tests
+Programming,Rust,FFI basics,Performance 101: make Rust FFI basics 10x faster (no hacks)
+Programming,Rust,ownership & borrowing,Memory vs speed: tradeoffs in Rust ownership & borrowing
+Programming,Rust,lifetimes (intuition),Idiomatic Rust: do’s & don’ts for lifetimes (intuition)
+Programming,Rust,Result/Option & error handling,Debugging live: fix a broken Rust Result/Option & error handling solution
+Programming,Rust,traits & generics,Unit tests that catch subtle bugs in Rust traits & generics
+Programming,Rust,pattern matching,Rust pattern matching cheat sheet — templates + pitfalls
+Programming,Rust,iterators & closures,Phone screen vs onsite: how Rust iterators & closures questions differ
+Programming,Rust,async/await (intro),Narrate your thinking: explain Rust async/await (intro) like a pro
+Programming,Rust,smart pointers & interior mutability,Before you code: 4 questions for any Rust smart pointers & interior mutability
+Programming,Rust,cargo & workspaces,From DSA to dev: where Rust cargo & workspaces shows up in real systems
+Programming,Rust,testing & property tests,Edge cases that break 8/10 Rust testing & property tests submissions
+Programming,Rust,FFI basics,Back-of-the-envelope complexity: Rust FFI basics
+Programming,Rust,ownership & borrowing,Code smells in Rust ownership & borrowing — and quick fixes
+Programming,Rust,lifetimes (intuition),Template showdown: clean APIs for Rust lifetimes (intuition)
+Programming,Rust,Result/Option & error handling,Interview kata: daily reps for Rust Result/Option & error handling
+Programming,Rust,traits & generics,Crash course: Rust traits & generics in 5 minutes
+Programming,Rust,pattern matching,Top 5 questions around Rust pattern matching this year
+Programming,Rust,iterators & closures,From CP to interviews: map iterators & closures to idiomatic Rust
+Programming,Rust,async/await (intro),Prove it: correctness for Rust async/await (intro) (plain English)
+Programming,Rust,smart pointers & interior mutability,When not to use Rust features for smart pointers & interior mutability (and what instead)
+Programming,Rust,cargo & workspaces,Why Rust is still king for Indian interviews 👑
+Programming,Rust,testing & property tests,How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,FFI basics,Rust in 60 seconds: the only FFI basics intuition you need
+Programming,Rust,ownership & borrowing,"ownership & borrowing in Rust — stop brute forcing, write idiomatic code"
+Programming,Rust,lifetimes (intuition),Rust lifetimes (intuition): top 7 mistakes that cost offers in India
+Programming,Rust,Result/Option & error handling,From messy to clean: refactor your Rust Result/Option & error handling live
+Programming,Rust,traits & generics,Interview day checklist: Rust traits & generics in 5 bullets
+Programming,Rust,pattern matching,Whiteboard to code: Rust pattern matching with edge cases
+Programming,Rust,iterators & closures,Explain it like I’m 5: Rust iterators & closures without jargon
+Programming,Rust,async/await (intro),Speedrun Rust async/await (intro): archetypes you must know
+Programming,Rust,smart pointers & interior mutability,You’re overcomplicating it — simplify your Rust smart pointers & interior mutability
+Programming,Rust,cargo & workspaces,Performance 101: make Rust cargo & workspaces 10x faster (no hacks)
+Programming,Rust,testing & property tests,Memory vs speed: tradeoffs in Rust testing & property tests
+Programming,Rust,FFI basics,Idiomatic Rust: do’s & don’ts for FFI basics
+Programming,Rust,ownership & borrowing,Debugging live: fix a broken Rust ownership & borrowing solution
+Programming,Rust,lifetimes (intuition),Unit tests that catch subtle bugs in Rust lifetimes (intuition)
+Programming,Rust,Result/Option & error handling,Rust Result/Option & error handling cheat sheet — templates + pitfalls
+Programming,Rust,traits & generics,Phone screen vs onsite: how Rust traits & generics questions differ
+Programming,Rust,pattern matching,Narrate your thinking: explain Rust pattern matching like a pro
+Programming,Rust,iterators & closures,Before you code: 4 questions for any Rust iterators & closures
+Programming,Rust,async/await (intro),From DSA to dev: where Rust async/await (intro) shows up in real systems
+Programming,Rust,smart pointers & interior mutability,Edge cases that break 8/10 Rust smart pointers & interior mutability submissions
+Programming,Rust,cargo & workspaces,Back-of-the-envelope complexity: Rust cargo & workspaces
+Programming,Rust,testing & property tests,Code smells in Rust testing & property tests — and quick fixes
+Programming,Rust,FFI basics,Template showdown: clean APIs for Rust FFI basics
+Programming,Rust,ownership & borrowing,Interview kata: daily reps for Rust ownership & borrowing
+Programming,Rust,lifetimes (intuition),Crash course: Rust lifetimes (intuition) in 5 minutes
+Programming,Rust,Result/Option & error handling,Top 5 questions around Rust Result/Option & error handling this year
+Programming,Rust,traits & generics,From CP to interviews: map traits & generics to idiomatic Rust
+Programming,Rust,pattern matching,Prove it: correctness for Rust pattern matching (plain English)
+Programming,Rust,iterators & closures,When not to use Rust features for iterators & closures (and what instead)
+Programming,Rust,async/await (intro),Why Rust is still king for Indian interviews 👑
+Programming,Rust,smart pointers & interior mutability,How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,cargo & workspaces,Rust in 60 seconds: the only cargo & workspaces intuition you need
+Programming,Rust,testing & property tests,"testing & property tests in Rust — stop brute forcing, write idiomatic code"
+Programming,Rust,FFI basics,Rust FFI basics: top 7 mistakes that cost offers in India
+Programming,Rust,ownership & borrowing,From messy to clean: refactor your Rust ownership & borrowing live
+Programming,Rust,lifetimes (intuition),Interview day checklist: Rust lifetimes (intuition) in 5 bullets
+Programming,Rust,Result/Option & error handling,Whiteboard to code: Rust Result/Option & error handling with edge cases
+Programming,Rust,traits & generics,Explain it like I’m 5: Rust traits & generics without jargon
+Programming,Rust,pattern matching,Speedrun Rust pattern matching: archetypes you must know
+Programming,Rust,iterators & closures,You’re overcomplicating it — simplify your Rust iterators & closures
+Programming,Rust,async/await (intro),Performance 101: make Rust async/await (intro) 10x faster (no hacks)
+Programming,Rust,smart pointers & interior mutability,Memory vs speed: tradeoffs in Rust smart pointers & interior mutability
+Programming,Rust,cargo & workspaces,Idiomatic Rust: do’s & don’ts for cargo & workspaces
+Programming,Rust,testing & property tests,Debugging live: fix a broken Rust testing & property tests solution
+Programming,Rust,FFI basics,Unit tests that catch subtle bugs in Rust FFI basics
+Programming,Rust,ownership & borrowing,Rust ownership & borrowing cheat sheet — templates + pitfalls
+Programming,Rust,lifetimes (intuition),Phone screen vs onsite: how Rust lifetimes (intuition) questions differ
+Programming,Rust,Result/Option & error handling,Narrate your thinking: explain Rust Result/Option & error handling like a pro
+Programming,Rust,traits & generics,Before you code: 4 questions for any Rust traits & generics
+Programming,Rust,pattern matching,From DSA to dev: where Rust pattern matching shows up in real systems
+Programming,Rust,iterators & closures,Edge cases that break 8/10 Rust iterators & closures submissions
+Programming,Rust,async/await (intro),Back-of-the-envelope complexity: Rust async/await (intro)
+Programming,Rust,smart pointers & interior mutability,Code smells in Rust smart pointers & interior mutability — and quick fixes
+Programming,Rust,cargo & workspaces,Template showdown: clean APIs for Rust cargo & workspaces
+Programming,Rust,testing & property tests,Interview kata: daily reps for Rust testing & property tests
+Programming,Rust,FFI basics,Crash course: Rust FFI basics in 5 minutes
+Programming,Rust,ownership & borrowing,Top 5 questions around Rust ownership & borrowing this year
+Programming,Rust,lifetimes (intuition),From CP to interviews: map lifetimes (intuition) to idiomatic Rust
+Programming,Rust,Result/Option & error handling,Prove it: correctness for Rust Result/Option & error handling (plain English)
+Programming,Rust,traits & generics,When not to use Rust features for traits & generics (and what instead)
+Programming,Rust,pattern matching,Why Rust is still king for Indian interviews 👑
+Programming,Rust,iterators & closures,How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,async/await (intro),Rust in 60 seconds: the only async/await (intro) intuition you need
+Programming,Rust,smart pointers & interior mutability,"smart pointers & interior mutability in Rust — stop brute forcing, write idiomatic code"
+Programming,Rust,cargo & workspaces,Rust cargo & workspaces: top 7 mistakes that cost offers in India
+Programming,Rust,testing & property tests,From messy to clean: refactor your Rust testing & property tests live
+Programming,Rust,FFI basics,Interview day checklist: Rust FFI basics in 5 bullets
+Programming,Rust,ownership & borrowing,Whiteboard to code: Rust ownership & borrowing with edge cases
+Programming,Rust,lifetimes (intuition),Explain it like I’m 5: Rust lifetimes (intuition) without jargon
+Programming,Rust,Result/Option & error handling,Speedrun Rust Result/Option & error handling: archetypes you must know
+Programming,Rust,traits & generics,You’re overcomplicating it — simplify your Rust traits & generics
+Programming,Rust,pattern matching,Performance 101: make Rust pattern matching 10x faster (no hacks)
+Programming,Rust,iterators & closures,Memory vs speed: tradeoffs in Rust iterators & closures
+Programming,Rust,async/await (intro),Idiomatic Rust: do’s & don’ts for async/await (intro)
+Programming,Rust,smart pointers & interior mutability,Debugging live: fix a broken Rust smart pointers & interior mutability solution
+Programming,Rust,cargo & workspaces,Unit tests that catch subtle bugs in Rust cargo & workspaces
+Programming,Rust,testing & property tests,Rust testing & property tests cheat sheet — templates + pitfalls
+Programming,Rust,FFI basics,Phone screen vs onsite: how Rust FFI basics questions differ
+Programming,Rust,ownership & borrowing,Narrate your thinking: explain Rust ownership & borrowing like a pro
+Programming,Rust,lifetimes (intuition),Before you code: 4 questions for any Rust lifetimes (intuition)
+Programming,Rust,Result/Option & error handling,From DSA to dev: where Rust Result/Option & error handling shows up in real systems
+Programming,Rust,traits & generics,Edge cases that break 8/10 Rust traits & generics submissions
+Programming,Rust,pattern matching,Back-of-the-envelope complexity: Rust pattern matching
+Programming,Rust,iterators & closures,Code smells in Rust iterators & closures — and quick fixes
+Programming,Rust,async/await (intro),Template showdown: clean APIs for Rust async/await (intro)
+Programming,Rust,smart pointers & interior mutability,Interview kata: daily reps for Rust smart pointers & interior mutability
+Programming,Rust,cargo & workspaces,Crash course: Rust cargo & workspaces in 5 minutes
+Programming,Rust,testing & property tests,Top 5 questions around Rust testing & property tests this year
+Programming,Rust,FFI basics,From CP to interviews: map FFI basics to idiomatic Rust
+Programming,Rust,ownership & borrowing,Prove it: correctness for Rust ownership & borrowing (plain English)
+Programming,Rust,lifetimes (intuition),When not to use Rust features for lifetimes (intuition) (and what instead)
+Programming,Rust,Result/Option & error handling,Why Rust is still king for Indian interviews 👑
+Programming,Rust,traits & generics,How Rust makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Rust,pattern matching,Bengaluru onsite-ready Rust pattern matching
+Programming,Rust,iterators & closures,Off-campus grind tips: Rust iterators & closures
+Programming,Rust,async/await (intro),Product vs service company: Rust async/await (intro) focus
+Programming,Rust,smart pointers & interior mutability,Startups vs MAANG expectations: Rust smart pointers & interior mutability
+Programming,Rust,cargo & workspaces,Campus placements: Rust cargo & workspaces in 2 rounds
+Programming,Rust,testing & property tests,System design tie-ins: Rust testing & property tests → prod
+Programming,Rust,FFI basics,Naukri/LinkedIn resume bullets from Rust FFI basics
+Programming,Rust,ownership & borrowing,DSA + Rust ownership & borrowing: what interviewers in India look for

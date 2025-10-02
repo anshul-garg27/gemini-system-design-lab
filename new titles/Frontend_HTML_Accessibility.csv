@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","HTML vs div soup — fix semantic HTML (headings, landmarks) like a pro"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Keyboard-first flows for forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Screen reader testing checklist for labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Design tokens in plain HTML: images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Forms that never fail on 2G: links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","SEO basics: meta, robots, sitemaps in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Stop guessing: battle-tested patterns for preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),From messy to clean: refactor your CSP & security headers (intro) live
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Top 7 mistakes in progressive enhancement (and quick fixes)
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Whiteboard → code: ship native dialogs & details/summary with guardrails
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Interview-ready: 5 bullets that explain semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Explain like I’m 5: forms & validation without jargon
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),When to pick A vs B inside labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Debugging live: fix a broken images: alt, srcset, picture in minutes"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Templates you’ll reuse for links, buttons & a11y traps all year"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","The mental model that unlocks SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Perf-first preload/prefetch/priorities: make it fast on low-end Android
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Accessibility-first CSP & security headers (intro): include everyone
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Cost-aware progressive enhancement: speed without burning cloud spend
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Real incidents I’ve seen because of bad native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Design reviews: what senior folks look for in semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,From junior to senior: how you talk about forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Before you code: 4 questions for any labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Do’s & don’ts cheat sheet for images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","UX wins: small tweaks in links, buttons & a11y traps with huge impact"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Platform tips: ship SEO basics: meta, robots, sitemaps to Insta Reels/Shorts"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,HTML vs div soup — fix preload/prefetch/priorities like a pro
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Keyboard-first flows for CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Screen reader testing checklist for progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Design tokens in plain HTML: native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Forms that never fail on 2G: semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,"forms & validation in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Stop guessing: battle-tested patterns for labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","From messy to clean: refactor your images: alt, srcset, picture live"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Top 7 mistakes in links, buttons & a11y traps (and quick fixes)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Whiteboard → code: ship SEO basics: meta, robots, sitemaps with guardrails"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Interview-ready: 5 bullets that explain preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Explain like I’m 5: CSP & security headers (intro) without jargon
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,When to pick A vs B inside progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Debugging live: fix a broken native dialogs & details/summary in minutes
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Templates you’ll reuse for semantic HTML (headings, landmarks) all year"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,The mental model that unlocks forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Perf-first labels & inputs (ARIA): make it fast on low-end Android
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Accessibility-first images: alt, srcset, picture: include everyone"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Cost-aware links, buttons & a11y traps: speed without burning cloud spend"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Real incidents I’ve seen because of bad SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Design reviews: what senior folks look for in preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),From junior to senior: how you talk about CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Before you code: 4 questions for any progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Do’s & don’ts cheat sheet for native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","UX wins: small tweaks in semantic HTML (headings, landmarks) with huge impact"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Platform tips: ship forms & validation to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),HTML vs div soup — fix labels & inputs (ARIA) like a pro
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Keyboard-first flows for images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Screen reader testing checklist for links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Design tokens in plain HTML: SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Forms that never fail on 2G: preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),"CSP & security headers (intro) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Stop guessing: battle-tested patterns for progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,From messy to clean: refactor your native dialogs & details/summary live
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Top 7 mistakes in semantic HTML (headings, landmarks) (and quick fixes)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Whiteboard → code: ship forms & validation with guardrails
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Interview-ready: 5 bullets that explain labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Explain like I’m 5: images: alt, srcset, picture without jargon"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","When to pick A vs B inside links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Debugging live: fix a broken SEO basics: meta, robots, sitemaps in minutes"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Templates you’ll reuse for preload/prefetch/priorities all year
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),The mental model that unlocks CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Perf-first progressive enhancement: make it fast on low-end Android
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Accessibility-first native dialogs & details/summary: include everyone
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Cost-aware semantic HTML (headings, landmarks): speed without burning cloud spend"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Real incidents I’ve seen because of bad forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Design reviews: what senior folks look for in labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","From junior to senior: how you talk about images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Before you code: 4 questions for any links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Do’s & don’ts cheat sheet for SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,UX wins: small tweaks in preload/prefetch/priorities with huge impact
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Platform tips: ship CSP & security headers (intro) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,HTML vs div soup — fix progressive enhancement like a pro
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Keyboard-first flows for native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Screen reader testing checklist for semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Design tokens in plain HTML: forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Forms that never fail on 2G: labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","images: alt, srcset, picture in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Stop guessing: battle-tested patterns for links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","From messy to clean: refactor your SEO basics: meta, robots, sitemaps live"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Top 7 mistakes in preload/prefetch/priorities (and quick fixes)
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Whiteboard → code: ship CSP & security headers (intro) with guardrails
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Interview-ready: 5 bullets that explain progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Explain like I’m 5: native dialogs & details/summary without jargon
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","When to pick A vs B inside semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Debugging live: fix a broken forms & validation in minutes
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Templates you’ll reuse for labels & inputs (ARIA) all year
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","The mental model that unlocks images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Perf-first links, buttons & a11y traps: make it fast on low-end Android"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Accessibility-first SEO basics: meta, robots, sitemaps: include everyone"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Cost-aware preload/prefetch/priorities: speed without burning cloud spend
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Real incidents I’ve seen because of bad CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Design reviews: what senior folks look for in progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,From junior to senior: how you talk about native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Before you code: 4 questions for any semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Do’s & don’ts cheat sheet for forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),UX wins: small tweaks in labels & inputs (ARIA) with huge impact
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Platform tips: ship images: alt, srcset, picture to Insta Reels/Shorts"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","HTML vs div soup — fix links, buttons & a11y traps like a pro"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Keyboard-first flows for SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Screen reader testing checklist for preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Design tokens in plain HTML: CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Forms that never fail on 2G: progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,"native dialogs & details/summary in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Stop guessing: battle-tested patterns for semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,From messy to clean: refactor your forms & validation live
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Top 7 mistakes in labels & inputs (ARIA) (and quick fixes)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Whiteboard → code: ship images: alt, srcset, picture with guardrails"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Interview-ready: 5 bullets that explain links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Explain like I’m 5: SEO basics: meta, robots, sitemaps without jargon"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,When to pick A vs B inside preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Debugging live: fix a broken CSP & security headers (intro) in minutes
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Templates you’ll reuse for progressive enhancement all year
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,The mental model that unlocks native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Perf-first semantic HTML (headings, landmarks): make it fast on low-end Android"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Accessibility-first forms & validation: include everyone
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Cost-aware labels & inputs (ARIA): speed without burning cloud spend
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Real incidents I’ve seen because of bad images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Design reviews: what senior folks look for in links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","From junior to senior: how you talk about SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Before you code: 4 questions for any preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Do’s & don’ts cheat sheet for CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,UX wins: small tweaks in progressive enhancement with huge impact
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Platform tips: ship native dialogs & details/summary to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","HTML vs div soup — fix semantic HTML (headings, landmarks) like a pro"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Keyboard-first flows for forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Screen reader testing checklist for labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Design tokens in plain HTML: images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Forms that never fail on 2G: links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","SEO basics: meta, robots, sitemaps in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Stop guessing: battle-tested patterns for preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),From messy to clean: refactor your CSP & security headers (intro) live
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Top 7 mistakes in progressive enhancement (and quick fixes)
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Whiteboard → code: ship native dialogs & details/summary with guardrails
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Interview-ready: 5 bullets that explain semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Explain like I’m 5: forms & validation without jargon
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),When to pick A vs B inside labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Debugging live: fix a broken images: alt, srcset, picture in minutes"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Templates you’ll reuse for links, buttons & a11y traps all year"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","The mental model that unlocks SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Perf-first preload/prefetch/priorities: make it fast on low-end Android
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Accessibility-first CSP & security headers (intro): include everyone
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Cost-aware progressive enhancement: speed without burning cloud spend
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Real incidents I’ve seen because of bad native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Design reviews: what senior folks look for in semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,From junior to senior: how you talk about forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Before you code: 4 questions for any labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Do’s & don’ts cheat sheet for images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","UX wins: small tweaks in links, buttons & a11y traps with huge impact"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Platform tips: ship SEO basics: meta, robots, sitemaps to Insta Reels/Shorts"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,HTML vs div soup — fix preload/prefetch/priorities like a pro
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Keyboard-first flows for CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Screen reader testing checklist for progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Design tokens in plain HTML: native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Forms that never fail on 2G: semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,"forms & validation in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Stop guessing: battle-tested patterns for labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","From messy to clean: refactor your images: alt, srcset, picture live"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Top 7 mistakes in links, buttons & a11y traps (and quick fixes)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Whiteboard → code: ship SEO basics: meta, robots, sitemaps with guardrails"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Interview-ready: 5 bullets that explain preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Explain like I’m 5: CSP & security headers (intro) without jargon
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,When to pick A vs B inside progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Debugging live: fix a broken native dialogs & details/summary in minutes
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Templates you’ll reuse for semantic HTML (headings, landmarks) all year"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,The mental model that unlocks forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Perf-first labels & inputs (ARIA): make it fast on low-end Android
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Accessibility-first images: alt, srcset, picture: include everyone"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Cost-aware links, buttons & a11y traps: speed without burning cloud spend"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Real incidents I’ve seen because of bad SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Design reviews: what senior folks look for in preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),From junior to senior: how you talk about CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Before you code: 4 questions for any progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Do’s & don’ts cheat sheet for native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","UX wins: small tweaks in semantic HTML (headings, landmarks) with huge impact"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Platform tips: ship forms & validation to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),HTML vs div soup — fix labels & inputs (ARIA) like a pro
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Keyboard-first flows for images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Screen reader testing checklist for links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Design tokens in plain HTML: SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Forms that never fail on 2G: preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),"CSP & security headers (intro) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Stop guessing: battle-tested patterns for progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,From messy to clean: refactor your native dialogs & details/summary live
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Top 7 mistakes in semantic HTML (headings, landmarks) (and quick fixes)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Whiteboard → code: ship forms & validation with guardrails
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Interview-ready: 5 bullets that explain labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Explain like I’m 5: images: alt, srcset, picture without jargon"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","When to pick A vs B inside links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Debugging live: fix a broken SEO basics: meta, robots, sitemaps in minutes"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Templates you’ll reuse for preload/prefetch/priorities all year
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),The mental model that unlocks CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Perf-first progressive enhancement: make it fast on low-end Android
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Accessibility-first native dialogs & details/summary: include everyone
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Cost-aware semantic HTML (headings, landmarks): speed without burning cloud spend"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Real incidents I’ve seen because of bad forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Design reviews: what senior folks look for in labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","From junior to senior: how you talk about images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Before you code: 4 questions for any links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Do’s & don’ts cheat sheet for SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,UX wins: small tweaks in preload/prefetch/priorities with huge impact
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Platform tips: ship CSP & security headers (intro) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,HTML vs div soup — fix progressive enhancement like a pro
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Keyboard-first flows for native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Screen reader testing checklist for semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Design tokens in plain HTML: forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Forms that never fail on 2G: labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","images: alt, srcset, picture in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Stop guessing: battle-tested patterns for links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","From messy to clean: refactor your SEO basics: meta, robots, sitemaps live"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Top 7 mistakes in preload/prefetch/priorities (and quick fixes)
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Whiteboard → code: ship CSP & security headers (intro) with guardrails
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Interview-ready: 5 bullets that explain progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Explain like I’m 5: native dialogs & details/summary without jargon
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","When to pick A vs B inside semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Debugging live: fix a broken forms & validation in minutes
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Templates you’ll reuse for labels & inputs (ARIA) all year
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","The mental model that unlocks images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Perf-first links, buttons & a11y traps: make it fast on low-end Android"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Accessibility-first SEO basics: meta, robots, sitemaps: include everyone"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Cost-aware preload/prefetch/priorities: speed without burning cloud spend
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Real incidents I’ve seen because of bad CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Design reviews: what senior folks look for in progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,From junior to senior: how you talk about native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Before you code: 4 questions for any semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Do’s & don’ts cheat sheet for forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),UX wins: small tweaks in labels & inputs (ARIA) with huge impact
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Platform tips: ship images: alt, srcset, picture to Insta Reels/Shorts"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","HTML vs div soup — fix links, buttons & a11y traps like a pro"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Keyboard-first flows for SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Screen reader testing checklist for preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Design tokens in plain HTML: CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Forms that never fail on 2G: progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,"native dialogs & details/summary in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Stop guessing: battle-tested patterns for semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,From messy to clean: refactor your forms & validation live
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Top 7 mistakes in labels & inputs (ARIA) (and quick fixes)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Whiteboard → code: ship images: alt, srcset, picture with guardrails"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Interview-ready: 5 bullets that explain links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Explain like I’m 5: SEO basics: meta, robots, sitemaps without jargon"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,When to pick A vs B inside preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Debugging live: fix a broken CSP & security headers (intro) in minutes
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Templates you’ll reuse for progressive enhancement all year
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,The mental model that unlocks native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Perf-first semantic HTML (headings, landmarks): make it fast on low-end Android"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Accessibility-first forms & validation: include everyone
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Cost-aware labels & inputs (ARIA): speed without burning cloud spend
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Real incidents I’ve seen because of bad images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Design reviews: what senior folks look for in links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","From junior to senior: how you talk about SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Before you code: 4 questions for any preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Do’s & don’ts cheat sheet for CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,UX wins: small tweaks in progressive enhancement with huge impact
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Platform tips: ship native dialogs & details/summary to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","HTML vs div soup — fix semantic HTML (headings, landmarks) like a pro"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Keyboard-first flows for forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Screen reader testing checklist for labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Design tokens in plain HTML: images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Forms that never fail on 2G: links, buttons & a11y traps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","SEO basics: meta, robots, sitemaps in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Stop guessing: battle-tested patterns for preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),From messy to clean: refactor your CSP & security headers (intro) live
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Top 7 mistakes in progressive enhancement (and quick fixes)
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Whiteboard → code: ship native dialogs & details/summary with guardrails
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Interview-ready: 5 bullets that explain semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Explain like I’m 5: forms & validation without jargon
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),When to pick A vs B inside labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Debugging live: fix a broken images: alt, srcset, picture in minutes"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Templates you’ll reuse for links, buttons & a11y traps all year"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","The mental model that unlocks SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Perf-first preload/prefetch/priorities: make it fast on low-end Android
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Accessibility-first CSP & security headers (intro): include everyone
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Cost-aware progressive enhancement: speed without burning cloud spend
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Real incidents I’ve seen because of bad native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Design reviews: what senior folks look for in semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,From junior to senior: how you talk about forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Before you code: 4 questions for any labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Do’s & don’ts cheat sheet for images: alt, srcset, picture"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","UX wins: small tweaks in links, buttons & a11y traps with huge impact"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Platform tips: ship SEO basics: meta, robots, sitemaps to Insta Reels/Shorts"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,HTML vs div soup — fix preload/prefetch/priorities like a pro
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Keyboard-first flows for CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Screen reader testing checklist for progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Design tokens in plain HTML: native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Forms that never fail on 2G: semantic HTML (headings, landmarks)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,"forms & validation in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Stop guessing: battle-tested patterns for labels & inputs (ARIA)
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","From messy to clean: refactor your images: alt, srcset, picture live"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Top 7 mistakes in links, buttons & a11y traps (and quick fixes)"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Whiteboard → code: ship SEO basics: meta, robots, sitemaps with guardrails"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Interview-ready: 5 bullets that explain preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Explain like I’m 5: CSP & security headers (intro) without jargon
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,When to pick A vs B inside progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Debugging live: fix a broken native dialogs & details/summary in minutes
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","Templates you’ll reuse for semantic HTML (headings, landmarks) all year"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,The mental model that unlocks forms & validation
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Perf-first labels & inputs (ARIA): make it fast on low-end Android
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","Accessibility-first images: alt, srcset, picture: include everyone"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","Cost-aware links, buttons & a11y traps: speed without burning cloud spend"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","Real incidents I’ve seen because of bad SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Design reviews: what senior folks look for in preload/prefetch/priorities
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),From junior to senior: how you talk about CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Before you code: 4 questions for any progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,Do’s & don’ts cheat sheet for native dialogs & details/summary
+Frontend & UI/UX,Frontend — HTML & Accessibility,"semantic HTML (headings, landmarks)","India-grade 4G: make semantic HTML (headings, landmarks) snappy on flaky networks"
+Frontend & UI/UX,Frontend — HTML & Accessibility,forms & validation,Low-end Android optimization for forms & validation (under ₹10k devices)
+Frontend & UI/UX,Frontend — HTML & Accessibility,labels & inputs (ARIA),Big Billion Days traffic: harden labels & inputs (ARIA) for peaks
+Frontend & UI/UX,Frontend — HTML & Accessibility,"images: alt, srcset, picture","IRCTC Tatkal mindset for images: alt, srcset, picture: fast paths only"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"links, buttons & a11y traps","UPI-like flows: error states in links, buttons & a11y traps done right"
+Frontend & UI/UX,Frontend — HTML & Accessibility,"SEO basics: meta, robots, sitemaps","IPL watch party: realtime-friendly SEO basics: meta, robots, sitemaps"
+Frontend & UI/UX,Frontend — HTML & Accessibility,preload/prefetch/priorities,Bengaluru ORR latency: preload/prefetch/priorities timeouts & fallbacks
+Frontend & UI/UX,Frontend — HTML & Accessibility,CSP & security headers (intro),Aadhaar/eKYC journeys: UX pitfalls in CSP & security headers (intro)
+Frontend & UI/UX,Frontend — HTML & Accessibility,progressive enhancement,Tier-2/3 devices: memory budget for progressive enhancement
+Frontend & UI/UX,Frontend — HTML & Accessibility,native dialogs & details/summary,WhatsApp-style micro-interactions for native dialogs & details/summary

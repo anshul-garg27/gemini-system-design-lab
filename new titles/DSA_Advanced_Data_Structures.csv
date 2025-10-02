@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Advanced Data Structures,Treap,Rotations & balancing intuition in Treap
+DSA,DSA — Advanced Data Structures,AVL Tree,Amortized vs worst-case analysis for AVL Tree
+DSA,DSA — Advanced Data Structures,Red-Black Tree,When Red-Black Tree shines in interviews
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Real systems using Splay Tree (concept)
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Implementation gotchas for B-Tree/B+Tree (concept)
+DSA,DSA — Advanced Data Structures,Skip list,Why Skip list scares 90% of interviewees (and how to master it)
+DSA,DSA — Advanced Data Structures,LRU cache,LRU cache in 60 seconds — intuition first
+DSA,DSA — Advanced Data Structures,LFU cache,Stop brute forcing: spot the LFU cache trigger words
+DSA,DSA — Advanced Data Structures,Bloom filter,Bloom filter vs brute force — when to switch and why
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Top 7 mistakes in Cuckoo filter that cost offers
+DSA,DSA — Advanced Data Structures,DSU with rollback,From O(N^2) → O(N): optimize your DSU with rollback
+DSA,DSA — Advanced Data Structures,Persistent segment tree,"Persistent segment tree for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Advanced Data Structures,Persistent vector,Think like an interviewer: how I grade your Persistent vector
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Whiteboard to code: Rope/Gap buffer with edge cases
+DSA,DSA — Advanced Data Structures,K-d tree,You don’t need to memorize — template for K-d tree
+DSA,DSA — Advanced Data Structures,Quad tree,"Quad tree cheat sheet: patterns, templates, tests"
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Interview day checklist for Union of intervals DS
+DSA,DSA — Advanced Data Structures,LinkedHashMap,Draw this first: diagram that unlocks LinkedHashMap
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),The ‘aha!’ intuition behind Lock-free DS (overview)
+DSA,DSA — Advanced Data Structures,Treap,Hidden constraints that break Treap
+DSA,DSA — Advanced Data Structures,AVL Tree,Dry run like a pro: AVL Tree on real inputs
+DSA,DSA — Advanced Data Structures,Red-Black Tree,"Refactor a messy Red-Black Tree into clean, fast code"
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Space vs time in Splay Tree (concept): what to trade off
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Edge cases that break 8/10 B-Tree/B+Tree (concept) submissions
+DSA,DSA — Advanced Data Structures,Skip list,Prove correctness for Skip list in plain English
+DSA,DSA — Advanced Data Structures,LRU cache,Speedrun LRU cache: archetypes you must know
+DSA,DSA — Advanced Data Structures,LFU cache,Complexity showdown: naive vs optimal LFU cache
+DSA,DSA — Advanced Data Structures,Bloom filter,Debugging live: fix a broken Bloom filter solution
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Simplify before you optimize: Cuckoo filter
+DSA,DSA — Advanced Data Structures,DSU with rollback,Unit tests that catch subtle DSU with rollback bugs
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Read the prompt: keywords that scream Persistent segment tree
+DSA,DSA — Advanced Data Structures,Persistent vector,One trick that simplifies most Persistent vector questions
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Stop re-deriving! Reusable template for Rope/Gap buffer
+DSA,DSA — Advanced Data Structures,K-d tree,Checklist before coding K-d tree
+DSA,DSA — Advanced Data Structures,Quad tree,Rotations & balancing intuition in Quad tree
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Amortized vs worst-case analysis for Union of intervals DS
+DSA,DSA — Advanced Data Structures,LinkedHashMap,When LinkedHashMap shines in interviews
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Real systems using Lock-free DS (overview)
+DSA,DSA — Advanced Data Structures,Treap,Implementation gotchas for Treap
+DSA,DSA — Advanced Data Structures,AVL Tree,Why AVL Tree scares 90% of interviewees (and how to master it)
+DSA,DSA — Advanced Data Structures,Red-Black Tree,Red-Black Tree in 60 seconds — intuition first
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Stop brute forcing: spot the Splay Tree (concept) trigger words
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),B-Tree/B+Tree (concept) vs brute force — when to switch and why
+DSA,DSA — Advanced Data Structures,Skip list,Top 7 mistakes in Skip list that cost offers
+DSA,DSA — Advanced Data Structures,LRU cache,From O(N^2) → O(N): optimize your LRU cache
+DSA,DSA — Advanced Data Structures,LFU cache,"LFU cache for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Advanced Data Structures,Bloom filter,Think like an interviewer: how I grade your Bloom filter
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Whiteboard to code: Cuckoo filter with edge cases
+DSA,DSA — Advanced Data Structures,DSU with rollback,You don’t need to memorize — template for DSU with rollback
+DSA,DSA — Advanced Data Structures,Persistent segment tree,"Persistent segment tree cheat sheet: patterns, templates, tests"
+DSA,DSA — Advanced Data Structures,Persistent vector,Interview day checklist for Persistent vector
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Draw this first: diagram that unlocks Rope/Gap buffer
+DSA,DSA — Advanced Data Structures,K-d tree,The ‘aha!’ intuition behind K-d tree
+DSA,DSA — Advanced Data Structures,Quad tree,Hidden constraints that break Quad tree
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Dry run like a pro: Union of intervals DS on real inputs
+DSA,DSA — Advanced Data Structures,LinkedHashMap,"Refactor a messy LinkedHashMap into clean, fast code"
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Space vs time in Lock-free DS (overview): what to trade off
+DSA,DSA — Advanced Data Structures,Treap,Edge cases that break 8/10 Treap submissions
+DSA,DSA — Advanced Data Structures,AVL Tree,Prove correctness for AVL Tree in plain English
+DSA,DSA — Advanced Data Structures,Red-Black Tree,Speedrun Red-Black Tree: archetypes you must know
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Complexity showdown: naive vs optimal Splay Tree (concept)
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Debugging live: fix a broken B-Tree/B+Tree (concept) solution
+DSA,DSA — Advanced Data Structures,Skip list,Simplify before you optimize: Skip list
+DSA,DSA — Advanced Data Structures,LRU cache,Unit tests that catch subtle LRU cache bugs
+DSA,DSA — Advanced Data Structures,LFU cache,Read the prompt: keywords that scream LFU cache
+DSA,DSA — Advanced Data Structures,Bloom filter,One trick that simplifies most Bloom filter questions
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Stop re-deriving! Reusable template for Cuckoo filter
+DSA,DSA — Advanced Data Structures,DSU with rollback,Checklist before coding DSU with rollback
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Rotations & balancing intuition in Persistent segment tree
+DSA,DSA — Advanced Data Structures,Persistent vector,Amortized vs worst-case analysis for Persistent vector
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,When Rope/Gap buffer shines in interviews
+DSA,DSA — Advanced Data Structures,K-d tree,Real systems using K-d tree
+DSA,DSA — Advanced Data Structures,Quad tree,Implementation gotchas for Quad tree
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Why Union of intervals DS scares 90% of interviewees (and how to master it)
+DSA,DSA — Advanced Data Structures,LinkedHashMap,LinkedHashMap in 60 seconds — intuition first
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Stop brute forcing: spot the Lock-free DS (overview) trigger words
+DSA,DSA — Advanced Data Structures,Treap,Treap vs brute force — when to switch and why
+DSA,DSA — Advanced Data Structures,AVL Tree,Top 7 mistakes in AVL Tree that cost offers
+DSA,DSA — Advanced Data Structures,Red-Black Tree,From O(N^2) → O(N): optimize your Red-Black Tree
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),"Splay Tree (concept) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Think like an interviewer: how I grade your B-Tree/B+Tree (concept)
+DSA,DSA — Advanced Data Structures,Skip list,Whiteboard to code: Skip list with edge cases
+DSA,DSA — Advanced Data Structures,LRU cache,You don’t need to memorize — template for LRU cache
+DSA,DSA — Advanced Data Structures,LFU cache,"LFU cache cheat sheet: patterns, templates, tests"
+DSA,DSA — Advanced Data Structures,Bloom filter,Interview day checklist for Bloom filter
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Draw this first: diagram that unlocks Cuckoo filter
+DSA,DSA — Advanced Data Structures,DSU with rollback,The ‘aha!’ intuition behind DSU with rollback
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Hidden constraints that break Persistent segment tree
+DSA,DSA — Advanced Data Structures,Persistent vector,Dry run like a pro: Persistent vector on real inputs
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,"Refactor a messy Rope/Gap buffer into clean, fast code"
+DSA,DSA — Advanced Data Structures,K-d tree,Space vs time in K-d tree: what to trade off
+DSA,DSA — Advanced Data Structures,Quad tree,Edge cases that break 8/10 Quad tree submissions
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Prove correctness for Union of intervals DS in plain English
+DSA,DSA — Advanced Data Structures,LinkedHashMap,Speedrun LinkedHashMap: archetypes you must know
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Complexity showdown: naive vs optimal Lock-free DS (overview)
+DSA,DSA — Advanced Data Structures,Treap,Debugging live: fix a broken Treap solution
+DSA,DSA — Advanced Data Structures,AVL Tree,Simplify before you optimize: AVL Tree
+DSA,DSA — Advanced Data Structures,Red-Black Tree,Unit tests that catch subtle Red-Black Tree bugs
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Read the prompt: keywords that scream Splay Tree (concept)
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),One trick that simplifies most B-Tree/B+Tree (concept) questions
+DSA,DSA — Advanced Data Structures,Skip list,Stop re-deriving! Reusable template for Skip list
+DSA,DSA — Advanced Data Structures,LRU cache,Checklist before coding LRU cache
+DSA,DSA — Advanced Data Structures,LFU cache,Rotations & balancing intuition in LFU cache
+DSA,DSA — Advanced Data Structures,Bloom filter,Amortized vs worst-case analysis for Bloom filter
+DSA,DSA — Advanced Data Structures,Cuckoo filter,When Cuckoo filter shines in interviews
+DSA,DSA — Advanced Data Structures,DSU with rollback,Real systems using DSU with rollback
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Implementation gotchas for Persistent segment tree
+DSA,DSA — Advanced Data Structures,Persistent vector,Why Persistent vector scares 90% of interviewees (and how to master it)
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Rope/Gap buffer in 60 seconds — intuition first
+DSA,DSA — Advanced Data Structures,K-d tree,Stop brute forcing: spot the K-d tree trigger words
+DSA,DSA — Advanced Data Structures,Quad tree,Quad tree vs brute force — when to switch and why
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Top 7 mistakes in Union of intervals DS that cost offers
+DSA,DSA — Advanced Data Structures,LinkedHashMap,From O(N^2) → O(N): optimize your LinkedHashMap
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),"Lock-free DS (overview) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Advanced Data Structures,Treap,Think like an interviewer: how I grade your Treap
+DSA,DSA — Advanced Data Structures,AVL Tree,Whiteboard to code: AVL Tree with edge cases
+DSA,DSA — Advanced Data Structures,Red-Black Tree,You don’t need to memorize — template for Red-Black Tree
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),"Splay Tree (concept) cheat sheet: patterns, templates, tests"
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Interview day checklist for B-Tree/B+Tree (concept)
+DSA,DSA — Advanced Data Structures,Skip list,Draw this first: diagram that unlocks Skip list
+DSA,DSA — Advanced Data Structures,LRU cache,The ‘aha!’ intuition behind LRU cache
+DSA,DSA — Advanced Data Structures,LFU cache,Hidden constraints that break LFU cache
+DSA,DSA — Advanced Data Structures,Bloom filter,Dry run like a pro: Bloom filter on real inputs
+DSA,DSA — Advanced Data Structures,Cuckoo filter,"Refactor a messy Cuckoo filter into clean, fast code"
+DSA,DSA — Advanced Data Structures,DSU with rollback,Space vs time in DSU with rollback: what to trade off
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Edge cases that break 8/10 Persistent segment tree submissions
+DSA,DSA — Advanced Data Structures,Persistent vector,Prove correctness for Persistent vector in plain English
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Speedrun Rope/Gap buffer: archetypes you must know
+DSA,DSA — Advanced Data Structures,K-d tree,Complexity showdown: naive vs optimal K-d tree
+DSA,DSA — Advanced Data Structures,Quad tree,Debugging live: fix a broken Quad tree solution
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Simplify before you optimize: Union of intervals DS
+DSA,DSA — Advanced Data Structures,LinkedHashMap,Unit tests that catch subtle LinkedHashMap bugs
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Read the prompt: keywords that scream Lock-free DS (overview)
+DSA,DSA — Advanced Data Structures,Treap,One trick that simplifies most Treap questions
+DSA,DSA — Advanced Data Structures,AVL Tree,Stop re-deriving! Reusable template for AVL Tree
+DSA,DSA — Advanced Data Structures,Red-Black Tree,Checklist before coding Red-Black Tree
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Rotations & balancing intuition in Splay Tree (concept)
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Amortized vs worst-case analysis for B-Tree/B+Tree (concept)
+DSA,DSA — Advanced Data Structures,Skip list,When Skip list shines in interviews
+DSA,DSA — Advanced Data Structures,LRU cache,Real systems using LRU cache
+DSA,DSA — Advanced Data Structures,LFU cache,Implementation gotchas for LFU cache
+DSA,DSA — Advanced Data Structures,Bloom filter,Why Bloom filter scares 90% of interviewees (and how to master it)
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Cuckoo filter in 60 seconds — intuition first
+DSA,DSA — Advanced Data Structures,DSU with rollback,Stop brute forcing: spot the DSU with rollback trigger words
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Persistent segment tree vs brute force — when to switch and why
+DSA,DSA — Advanced Data Structures,Persistent vector,Top 7 mistakes in Persistent vector that cost offers
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,From O(N^2) → O(N): optimize your Rope/Gap buffer
+DSA,DSA — Advanced Data Structures,K-d tree,"K-d tree for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Advanced Data Structures,Quad tree,Think like an interviewer: how I grade your Quad tree
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Whiteboard to code: Union of intervals DS with edge cases
+DSA,DSA — Advanced Data Structures,LinkedHashMap,You don’t need to memorize — template for LinkedHashMap
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),"Lock-free DS (overview) cheat sheet: patterns, templates, tests"
+DSA,DSA — Advanced Data Structures,Treap,Interview day checklist for Treap
+DSA,DSA — Advanced Data Structures,AVL Tree,Draw this first: diagram that unlocks AVL Tree
+DSA,DSA — Advanced Data Structures,Red-Black Tree,The ‘aha!’ intuition behind Red-Black Tree
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Hidden constraints that break Splay Tree (concept)
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Dry run like a pro: B-Tree/B+Tree (concept) on real inputs
+DSA,DSA — Advanced Data Structures,Skip list,"Refactor a messy Skip list into clean, fast code"
+DSA,DSA — Advanced Data Structures,LRU cache,Space vs time in LRU cache: what to trade off
+DSA,DSA — Advanced Data Structures,LFU cache,Edge cases that break 8/10 LFU cache submissions
+DSA,DSA — Advanced Data Structures,Bloom filter,Prove correctness for Bloom filter in plain English
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Speedrun Cuckoo filter: archetypes you must know
+DSA,DSA — Advanced Data Structures,DSU with rollback,Complexity showdown: naive vs optimal DSU with rollback
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Debugging live: fix a broken Persistent segment tree solution
+DSA,DSA — Advanced Data Structures,Persistent vector,Simplify before you optimize: Persistent vector
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Unit tests that catch subtle Rope/Gap buffer bugs
+DSA,DSA — Advanced Data Structures,K-d tree,Read the prompt: keywords that scream K-d tree
+DSA,DSA — Advanced Data Structures,Quad tree,One trick that simplifies most Quad tree questions
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Stop re-deriving! Reusable template for Union of intervals DS
+DSA,DSA — Advanced Data Structures,LinkedHashMap,Checklist before coding LinkedHashMap
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Rotations & balancing intuition in Lock-free DS (overview)
+DSA,DSA — Advanced Data Structures,Treap,Amortized vs worst-case analysis for Treap
+DSA,DSA — Advanced Data Structures,AVL Tree,When AVL Tree shines in interviews
+DSA,DSA — Advanced Data Structures,Red-Black Tree,Real systems using Red-Black Tree
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Implementation gotchas for Splay Tree (concept)
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Why B-Tree/B+Tree (concept) scares 90% of interviewees (and how to master it)
+DSA,DSA — Advanced Data Structures,Skip list,Skip list in 60 seconds — intuition first
+DSA,DSA — Advanced Data Structures,LRU cache,Stop brute forcing: spot the LRU cache trigger words
+DSA,DSA — Advanced Data Structures,LFU cache,LFU cache vs brute force — when to switch and why
+DSA,DSA — Advanced Data Structures,Bloom filter,Top 7 mistakes in Bloom filter that cost offers
+DSA,DSA — Advanced Data Structures,Cuckoo filter,From O(N^2) → O(N): optimize your Cuckoo filter
+DSA,DSA — Advanced Data Structures,DSU with rollback,"DSU with rollback for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Think like an interviewer: how I grade your Persistent segment tree
+DSA,DSA — Advanced Data Structures,Persistent vector,Whiteboard to code: Persistent vector with edge cases
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,You don’t need to memorize — template for Rope/Gap buffer
+DSA,DSA — Advanced Data Structures,K-d tree,"K-d tree cheat sheet: patterns, templates, tests"
+DSA,DSA — Advanced Data Structures,Quad tree,Interview day checklist for Quad tree
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Draw this first: diagram that unlocks Union of intervals DS
+DSA,DSA — Advanced Data Structures,LinkedHashMap,The ‘aha!’ intuition behind LinkedHashMap
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Hidden constraints that break Lock-free DS (overview)
+DSA,DSA — Advanced Data Structures,Treap,Dry run like a pro: Treap on real inputs
+DSA,DSA — Advanced Data Structures,AVL Tree,"Refactor a messy AVL Tree into clean, fast code"
+DSA,DSA — Advanced Data Structures,Red-Black Tree,Space vs time in Red-Black Tree: what to trade off
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Edge cases that break 8/10 Splay Tree (concept) submissions
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Prove correctness for B-Tree/B+Tree (concept) in plain English
+DSA,DSA — Advanced Data Structures,Skip list,Speedrun Skip list: archetypes you must know
+DSA,DSA — Advanced Data Structures,LRU cache,Complexity showdown: naive vs optimal LRU cache
+DSA,DSA — Advanced Data Structures,LFU cache,Debugging live: fix a broken LFU cache solution
+DSA,DSA — Advanced Data Structures,Bloom filter,Simplify before you optimize: Bloom filter
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Unit tests that catch subtle Cuckoo filter bugs
+DSA,DSA — Advanced Data Structures,DSU with rollback,Read the prompt: keywords that scream DSU with rollback
+DSA,DSA — Advanced Data Structures,Persistent segment tree,One trick that simplifies most Persistent segment tree questions
+DSA,DSA — Advanced Data Structures,Persistent vector,Stop re-deriving! Reusable template for Persistent vector
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Checklist before coding Rope/Gap buffer
+DSA,DSA — Advanced Data Structures,K-d tree,Rotations & balancing intuition in K-d tree
+DSA,DSA — Advanced Data Structures,Quad tree,Amortized vs worst-case analysis for Quad tree
+DSA,DSA — Advanced Data Structures,Union of intervals DS,When Union of intervals DS shines in interviews
+DSA,DSA — Advanced Data Structures,LinkedHashMap,Real systems using LinkedHashMap
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Implementation gotchas for Lock-free DS (overview)
+DSA,DSA — Advanced Data Structures,Treap,Why Treap scares 90% of interviewees (and how to master it)
+DSA,DSA — Advanced Data Structures,AVL Tree,AVL Tree in 60 seconds — intuition first
+DSA,DSA — Advanced Data Structures,Red-Black Tree,Stop brute forcing: spot the Red-Black Tree trigger words
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Splay Tree (concept) vs brute force — when to switch and why
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Top 7 mistakes in B-Tree/B+Tree (concept) that cost offers
+DSA,DSA — Advanced Data Structures,Skip list,From O(N^2) → O(N): optimize your Skip list
+DSA,DSA — Advanced Data Structures,LRU cache,"LRU cache for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Advanced Data Structures,LFU cache,Think like an interviewer: how I grade your LFU cache
+DSA,DSA — Advanced Data Structures,Bloom filter,Whiteboard to code: Bloom filter with edge cases
+DSA,DSA — Advanced Data Structures,Cuckoo filter,You don’t need to memorize — template for Cuckoo filter
+DSA,DSA — Advanced Data Structures,DSU with rollback,"DSU with rollback cheat sheet: patterns, templates, tests"
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Interview day checklist for Persistent segment tree
+DSA,DSA — Advanced Data Structures,Persistent vector,Draw this first: diagram that unlocks Persistent vector
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,The ‘aha!’ intuition behind Rope/Gap buffer
+DSA,DSA — Advanced Data Structures,K-d tree,Hidden constraints that break K-d tree
+DSA,DSA — Advanced Data Structures,Quad tree,Dry run like a pro: Quad tree on real inputs
+DSA,DSA — Advanced Data Structures,Union of intervals DS,"Refactor a messy Union of intervals DS into clean, fast code"
+DSA,DSA — Advanced Data Structures,LinkedHashMap,Space vs time in LinkedHashMap: what to trade off
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Edge cases that break 8/10 Lock-free DS (overview) submissions
+DSA,DSA — Advanced Data Structures,Treap,Prove correctness for Treap in plain English
+DSA,DSA — Advanced Data Structures,AVL Tree,Speedrun AVL Tree: archetypes you must know
+DSA,DSA — Advanced Data Structures,Red-Black Tree,Complexity showdown: naive vs optimal Red-Black Tree
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Debugging live: fix a broken Splay Tree (concept) solution
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Simplify before you optimize: B-Tree/B+Tree (concept)
+DSA,DSA — Advanced Data Structures,Skip list,Unit tests that catch subtle Skip list bugs
+DSA,DSA — Advanced Data Structures,LRU cache,Read the prompt: keywords that scream LRU cache
+DSA,DSA — Advanced Data Structures,LFU cache,One trick that simplifies most LFU cache questions
+DSA,DSA — Advanced Data Structures,Bloom filter,Stop re-deriving! Reusable template for Bloom filter
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Checklist before coding Cuckoo filter
+DSA,DSA — Advanced Data Structures,DSU with rollback,Rotations & balancing intuition in DSU with rollback
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Amortized vs worst-case analysis for Persistent segment tree
+DSA,DSA — Advanced Data Structures,Persistent vector,When Persistent vector shines in interviews
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Real systems using Rope/Gap buffer
+DSA,DSA — Advanced Data Structures,K-d tree,Implementation gotchas for K-d tree
+DSA,DSA — Advanced Data Structures,Quad tree,Why Quad tree scares 90% of interviewees (and how to master it)
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Union of intervals DS in 60 seconds — intuition first
+DSA,DSA — Advanced Data Structures,LinkedHashMap,Stop brute forcing: spot the LinkedHashMap trigger words
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Lock-free DS (overview) vs brute force — when to switch and why
+DSA,DSA — Advanced Data Structures,Treap,Top 7 mistakes in Treap that cost offers
+DSA,DSA — Advanced Data Structures,AVL Tree,From O(N^2) → O(N): optimize your AVL Tree
+DSA,DSA — Advanced Data Structures,Red-Black Tree,"Red-Black Tree for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Think like an interviewer: how I grade your Splay Tree (concept)
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Whiteboard to code: B-Tree/B+Tree (concept) with edge cases
+DSA,DSA — Advanced Data Structures,Skip list,You don’t need to memorize — template for Skip list
+DSA,DSA — Advanced Data Structures,LRU cache,"LRU cache cheat sheet: patterns, templates, tests"
+DSA,DSA — Advanced Data Structures,LFU cache,Interview day checklist for LFU cache
+DSA,DSA — Advanced Data Structures,Bloom filter,Draw this first: diagram that unlocks Bloom filter
+DSA,DSA — Advanced Data Structures,Cuckoo filter,The ‘aha!’ intuition behind Cuckoo filter
+DSA,DSA — Advanced Data Structures,DSU with rollback,Hidden constraints that break DSU with rollback
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Dry run like a pro: Persistent segment tree on real inputs
+DSA,DSA — Advanced Data Structures,Persistent vector,"Refactor a messy Persistent vector into clean, fast code"
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Space vs time in Rope/Gap buffer: what to trade off
+DSA,DSA — Advanced Data Structures,K-d tree,Edge cases that break 8/10 K-d tree submissions
+DSA,DSA — Advanced Data Structures,Quad tree,Prove correctness for Quad tree in plain English
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Speedrun Union of intervals DS: archetypes you must know
+DSA,DSA — Advanced Data Structures,LinkedHashMap,Complexity showdown: naive vs optimal LinkedHashMap
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Debugging live: fix a broken Lock-free DS (overview) solution
+DSA,DSA — Advanced Data Structures,Treap,Simplify before you optimize: Treap
+DSA,DSA — Advanced Data Structures,AVL Tree,Unit tests that catch subtle AVL Tree bugs
+DSA,DSA — Advanced Data Structures,Red-Black Tree,Read the prompt: keywords that scream Red-Black Tree
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),One trick that simplifies most Splay Tree (concept) questions
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Stop re-deriving! Reusable template for B-Tree/B+Tree (concept)
+DSA,DSA — Advanced Data Structures,Skip list,Checklist before coding Skip list
+DSA,DSA — Advanced Data Structures,LRU cache,Rotations & balancing intuition in LRU cache
+DSA,DSA — Advanced Data Structures,LFU cache,Amortized vs worst-case analysis for LFU cache
+DSA,DSA — Advanced Data Structures,Bloom filter,When Bloom filter shines in interviews
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Real systems using Cuckoo filter
+DSA,DSA — Advanced Data Structures,DSU with rollback,Implementation gotchas for DSU with rollback
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Why Persistent segment tree scares 90% of interviewees (and how to master it)
+DSA,DSA — Advanced Data Structures,Persistent vector,Persistent vector in 60 seconds — intuition first
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Stop brute forcing: spot the Rope/Gap buffer trigger words
+DSA,DSA — Advanced Data Structures,K-d tree,K-d tree vs brute force — when to switch and why
+DSA,DSA — Advanced Data Structures,Quad tree,Top 7 mistakes in Quad tree that cost offers
+DSA,DSA — Advanced Data Structures,Union of intervals DS,From O(N^2) → O(N): optimize your Union of intervals DS
+DSA,DSA — Advanced Data Structures,LinkedHashMap,"LinkedHashMap for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),Think like an interviewer: how I grade your Lock-free DS (overview)
+DSA,DSA — Advanced Data Structures,Treap,Whiteboard to code: Treap with edge cases
+DSA,DSA — Advanced Data Structures,AVL Tree,You don’t need to memorize — template for AVL Tree
+DSA,DSA — Advanced Data Structures,Red-Black Tree,"Red-Black Tree cheat sheet: patterns, templates, tests"
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Interview day checklist for Splay Tree (concept)
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Draw this first: diagram that unlocks B-Tree/B+Tree (concept)
+DSA,DSA — Advanced Data Structures,Skip list,The ‘aha!’ intuition behind Skip list
+DSA,DSA — Advanced Data Structures,LRU cache,Hidden constraints that break LRU cache
+DSA,DSA — Advanced Data Structures,LFU cache,Dry run like a pro: LFU cache on real inputs
+DSA,DSA — Advanced Data Structures,Bloom filter,"Refactor a messy Bloom filter into clean, fast code"
+DSA,DSA — Advanced Data Structures,Cuckoo filter,Space vs time in Cuckoo filter: what to trade off
+DSA,DSA — Advanced Data Structures,DSU with rollback,Edge cases that break 8/10 DSU with rollback submissions
+DSA,DSA — Advanced Data Structures,Persistent segment tree,Prove correctness for Persistent segment tree in plain English
+DSA,DSA — Advanced Data Structures,Persistent vector,Speedrun Persistent vector: archetypes you must know
+DSA,DSA — Advanced Data Structures,Rope/Gap buffer,Complexity showdown: naive vs optimal Rope/Gap buffer
+DSA,DSA — Advanced Data Structures,K-d tree,Debugging live: fix a broken K-d tree solution
+DSA,DSA — Advanced Data Structures,Quad tree,Simplify before you optimize: Quad tree
+DSA,DSA — Advanced Data Structures,Union of intervals DS,Unit tests that catch subtle Union of intervals DS bugs
+DSA,DSA — Advanced Data Structures,LinkedHashMap,Read the prompt: keywords that scream LinkedHashMap
+DSA,DSA — Advanced Data Structures,Lock-free DS (overview),One trick that simplifies most Lock-free DS (overview) questions
+DSA,DSA — Advanced Data Structures,Treap,Stop re-deriving! Reusable template for Treap
+DSA,DSA — Advanced Data Structures,AVL Tree,Checklist before coding AVL Tree
+DSA,DSA — Advanced Data Structures,Red-Black Tree,Rotations & balancing intuition in Red-Black Tree
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Amortized vs worst-case analysis for Splay Tree (concept)
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),When B-Tree/B+Tree (concept) shines in interviews
+DSA,DSA — Advanced Data Structures,Skip list,Real systems using Skip list
+DSA,DSA — Advanced Data Structures,LRU cache,Implementation gotchas for LRU cache
+DSA,DSA — Advanced Data Structures,LFU cache,Why LFU cache scares 90% of interviewees (and how to master it)
+DSA,DSA — Advanced Data Structures,Treap,Cricket scoreboards as Treap operations
+DSA,DSA — Advanced Data Structures,AVL Tree,Bengaluru traffic queues seen via AVL Tree
+DSA,DSA — Advanced Data Structures,Red-Black Tree,UPI cache hits as Red-Black Tree membership checks
+DSA,DSA — Advanced Data Structures,Splay Tree (concept),Dabbawala routes balanced like Splay Tree (concept)
+DSA,DSA — Advanced Data Structures,B-Tree/B+Tree (concept),Cricket scoreboards as B-Tree/B+Tree (concept) operations
+DSA,DSA — Advanced Data Structures,Skip list,Bengaluru traffic queues seen via Skip list
+DSA,DSA — Advanced Data Structures,LRU cache,UPI cache hits as LRU cache membership checks
+DSA,DSA — Advanced Data Structures,LFU cache,Dabbawala routes balanced like LFU cache

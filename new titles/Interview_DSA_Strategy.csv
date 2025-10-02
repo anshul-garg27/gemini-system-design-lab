@@ -1,0 +1,322 @@
+pillar,category,seed,title
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Warmup drills: 20-min problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing template for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Grading rubric perspective for brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Common traps & how to avoid in pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Post-round notes & reflection for complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,optimize & tradeoffs in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Stop winging it: battle-tested patterns for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Top 7 mistakes in test with edge cases (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,From confused to confident: how to prep debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Whiteboard → offer: ship communicate thinking with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Interview-ready: 5 bullets that explain problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Explain like I’m 5: clarifying constraints without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,What senior interviewers evaluate in brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Mock-interview debrief: the truth about pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Red flags & green flags I’ve seen in complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,"Psychology of optimize & tradeoffs: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing & structure: ace write code cleanly under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Proof of impact: quantify your test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Checklist before D-day: debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Honest prep: how to practice communicate thinking daily
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Pattern library you’ll reuse for problem read & restate all year
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,India-first prep tips: clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Common myths about brute force baseline — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Cold start → warm start: open your pattern recognition strong
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Close strong: how to end complexity analysis with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Warmup drills: 20-min optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing template for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Grading rubric perspective for test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Common traps & how to avoid in debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Post-round notes & reflection for communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,problem read & restate in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Stop winging it: battle-tested patterns for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Top 7 mistakes in brute force baseline (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,From confused to confident: how to prep pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Whiteboard → offer: ship complexity analysis with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Interview-ready: 5 bullets that explain optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Explain like I’m 5: write code cleanly without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,What senior interviewers evaluate in test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Mock-interview debrief: the truth about debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Red flags & green flags I’ve seen in communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,"Psychology of problem read & restate: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing & structure: ace clarifying constraints under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Proof of impact: quantify your brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Checklist before D-day: pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Honest prep: how to practice complexity analysis daily
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Pattern library you’ll reuse for optimize & tradeoffs all year
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,India-first prep tips: write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Common myths about test with edge cases — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Cold start → warm start: open your debug under pressure strong
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Close strong: how to end communicate thinking with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Warmup drills: 20-min problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing template for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Grading rubric perspective for brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Common traps & how to avoid in pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Post-round notes & reflection for complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,optimize & tradeoffs in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Stop winging it: battle-tested patterns for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Top 7 mistakes in test with edge cases (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,From confused to confident: how to prep debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Whiteboard → offer: ship communicate thinking with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Interview-ready: 5 bullets that explain problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Explain like I’m 5: clarifying constraints without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,What senior interviewers evaluate in brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Mock-interview debrief: the truth about pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Red flags & green flags I’ve seen in complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,"Psychology of optimize & tradeoffs: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing & structure: ace write code cleanly under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Proof of impact: quantify your test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Checklist before D-day: debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Honest prep: how to practice communicate thinking daily
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Pattern library you’ll reuse for problem read & restate all year
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,India-first prep tips: clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Common myths about brute force baseline — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Cold start → warm start: open your pattern recognition strong
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Close strong: how to end complexity analysis with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Warmup drills: 20-min optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing template for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Grading rubric perspective for test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Common traps & how to avoid in debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Post-round notes & reflection for communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,problem read & restate in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Stop winging it: battle-tested patterns for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Top 7 mistakes in brute force baseline (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,From confused to confident: how to prep pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Whiteboard → offer: ship complexity analysis with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Interview-ready: 5 bullets that explain optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Explain like I’m 5: write code cleanly without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,What senior interviewers evaluate in test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Mock-interview debrief: the truth about debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Red flags & green flags I’ve seen in communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,"Psychology of problem read & restate: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing & structure: ace clarifying constraints under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Proof of impact: quantify your brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Checklist before D-day: pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Honest prep: how to practice complexity analysis daily
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Pattern library you’ll reuse for optimize & tradeoffs all year
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,India-first prep tips: write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Common myths about test with edge cases — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Cold start → warm start: open your debug under pressure strong
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Close strong: how to end communicate thinking with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Warmup drills: 20-min problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing template for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Grading rubric perspective for brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Common traps & how to avoid in pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Post-round notes & reflection for complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,optimize & tradeoffs in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Stop winging it: battle-tested patterns for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Top 7 mistakes in test with edge cases (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,From confused to confident: how to prep debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Whiteboard → offer: ship communicate thinking with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Interview-ready: 5 bullets that explain problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Explain like I’m 5: clarifying constraints without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,What senior interviewers evaluate in brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Mock-interview debrief: the truth about pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Red flags & green flags I’ve seen in complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,"Psychology of optimize & tradeoffs: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing & structure: ace write code cleanly under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Proof of impact: quantify your test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Checklist before D-day: debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Honest prep: how to practice communicate thinking daily
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Pattern library you’ll reuse for problem read & restate all year
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,India-first prep tips: clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Common myths about brute force baseline — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Cold start → warm start: open your pattern recognition strong
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Close strong: how to end complexity analysis with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Warmup drills: 20-min optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing template for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Grading rubric perspective for test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Common traps & how to avoid in debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Post-round notes & reflection for communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,problem read & restate in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Stop winging it: battle-tested patterns for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Top 7 mistakes in brute force baseline (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,From confused to confident: how to prep pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Whiteboard → offer: ship complexity analysis with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Interview-ready: 5 bullets that explain optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Explain like I’m 5: write code cleanly without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,What senior interviewers evaluate in test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Mock-interview debrief: the truth about debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Red flags & green flags I’ve seen in communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,"Psychology of problem read & restate: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing & structure: ace clarifying constraints under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Proof of impact: quantify your brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Checklist before D-day: pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Honest prep: how to practice complexity analysis daily
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Pattern library you’ll reuse for optimize & tradeoffs all year
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,India-first prep tips: write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Common myths about test with edge cases — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Cold start → warm start: open your debug under pressure strong
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Close strong: how to end communicate thinking with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Warmup drills: 20-min problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing template for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Grading rubric perspective for brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Common traps & how to avoid in pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Post-round notes & reflection for complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,optimize & tradeoffs in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Stop winging it: battle-tested patterns for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Top 7 mistakes in test with edge cases (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,From confused to confident: how to prep debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Whiteboard → offer: ship communicate thinking with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Interview-ready: 5 bullets that explain problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Explain like I’m 5: clarifying constraints without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,What senior interviewers evaluate in brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Mock-interview debrief: the truth about pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Red flags & green flags I’ve seen in complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,"Psychology of optimize & tradeoffs: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing & structure: ace write code cleanly under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Proof of impact: quantify your test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Checklist before D-day: debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Honest prep: how to practice communicate thinking daily
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Pattern library you’ll reuse for problem read & restate all year
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,India-first prep tips: clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Common myths about brute force baseline — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Cold start → warm start: open your pattern recognition strong
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Close strong: how to end complexity analysis with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Warmup drills: 20-min optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing template for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Grading rubric perspective for test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Common traps & how to avoid in debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Post-round notes & reflection for communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,problem read & restate in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Stop winging it: battle-tested patterns for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Top 7 mistakes in brute force baseline (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,From confused to confident: how to prep pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Whiteboard → offer: ship complexity analysis with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Interview-ready: 5 bullets that explain optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Explain like I’m 5: write code cleanly without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,What senior interviewers evaluate in test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Mock-interview debrief: the truth about debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Red flags & green flags I’ve seen in communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,"Psychology of problem read & restate: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing & structure: ace clarifying constraints under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Proof of impact: quantify your brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Checklist before D-day: pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Honest prep: how to practice complexity analysis daily
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Pattern library you’ll reuse for optimize & tradeoffs all year
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,India-first prep tips: write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Common myths about test with edge cases — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Cold start → warm start: open your debug under pressure strong
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Close strong: how to end communicate thinking with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Warmup drills: 20-min problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing template for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Grading rubric perspective for brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Common traps & how to avoid in pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Post-round notes & reflection for complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,optimize & tradeoffs in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Stop winging it: battle-tested patterns for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Top 7 mistakes in test with edge cases (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,From confused to confident: how to prep debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Whiteboard → offer: ship communicate thinking with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Interview-ready: 5 bullets that explain problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Explain like I’m 5: clarifying constraints without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,What senior interviewers evaluate in brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Mock-interview debrief: the truth about pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Red flags & green flags I’ve seen in complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,"Psychology of optimize & tradeoffs: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing & structure: ace write code cleanly under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Proof of impact: quantify your test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Checklist before D-day: debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Honest prep: how to practice communicate thinking daily
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Pattern library you’ll reuse for problem read & restate all year
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,India-first prep tips: clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Common myths about brute force baseline — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Cold start → warm start: open your pattern recognition strong
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Close strong: how to end complexity analysis with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Warmup drills: 20-min optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing template for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Grading rubric perspective for test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Common traps & how to avoid in debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Post-round notes & reflection for communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,problem read & restate in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Stop winging it: battle-tested patterns for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Top 7 mistakes in brute force baseline (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,From confused to confident: how to prep pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Whiteboard → offer: ship complexity analysis with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Interview-ready: 5 bullets that explain optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Explain like I’m 5: write code cleanly without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,What senior interviewers evaluate in test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Mock-interview debrief: the truth about debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Red flags & green flags I’ve seen in communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,"Psychology of problem read & restate: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing & structure: ace clarifying constraints under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Proof of impact: quantify your brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Checklist before D-day: pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Honest prep: how to practice complexity analysis daily
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Pattern library you’ll reuse for optimize & tradeoffs all year
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,India-first prep tips: write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Common myths about test with edge cases — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Cold start → warm start: open your debug under pressure strong
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Close strong: how to end communicate thinking with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Warmup drills: 20-min problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing template for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Grading rubric perspective for brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Common traps & how to avoid in pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Post-round notes & reflection for complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,optimize & tradeoffs in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Stop winging it: battle-tested patterns for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Top 7 mistakes in test with edge cases (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,From confused to confident: how to prep debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Whiteboard → offer: ship communicate thinking with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Interview-ready: 5 bullets that explain problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Explain like I’m 5: clarifying constraints without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,What senior interviewers evaluate in brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Mock-interview debrief: the truth about pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Red flags & green flags I’ve seen in complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,"Psychology of optimize & tradeoffs: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing & structure: ace write code cleanly under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Proof of impact: quantify your test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Checklist before D-day: debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Honest prep: how to practice communicate thinking daily
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Pattern library you’ll reuse for problem read & restate all year
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,India-first prep tips: clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Common myths about brute force baseline — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Cold start → warm start: open your pattern recognition strong
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Close strong: how to end complexity analysis with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Warmup drills: 20-min optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Timeboxing template for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Grading rubric perspective for test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Common traps & how to avoid in debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Post-round notes & reflection for communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,problem read & restate in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Stop winging it: battle-tested patterns for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Top 7 mistakes in brute force baseline (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,From confused to confident: how to prep pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Whiteboard → offer: ship complexity analysis with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Interview-ready: 5 bullets that explain optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Explain like I’m 5: write code cleanly without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,What senior interviewers evaluate in test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Mock-interview debrief: the truth about debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Red flags & green flags I’ve seen in communicate thinking
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,"Psychology of problem read & restate: framing, tempo, control"
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing & structure: ace clarifying constraints under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Proof of impact: quantify your brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Checklist before D-day: pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Honest prep: how to practice complexity analysis daily
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,Pattern library you’ll reuse for optimize & tradeoffs all year
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,India-first prep tips: write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Common myths about test with edge cases — busted
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Cold start → warm start: open your debug under pressure strong
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Close strong: how to end communicate thinking with conviction
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Warmup drills: 20-min problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Timeboxing template for clarifying constraints
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Grading rubric perspective for brute force baseline
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Common traps & how to avoid in pattern recognition
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Post-round notes & reflection for complexity analysis
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,optimize & tradeoffs in 60 seconds — what interviewers really look for
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Stop winging it: battle-tested patterns for write code cleanly
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Top 7 mistakes in test with edge cases (and quick fixes)
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,From confused to confident: how to prep debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Whiteboard → offer: ship communicate thinking with guardrails
+Interview Preparation,Interview — DSA Rounds & Strategy,problem read & restate,Interview-ready: 5 bullets that explain problem read & restate
+Interview Preparation,Interview — DSA Rounds & Strategy,clarifying constraints,Explain like I’m 5: clarifying constraints without jargon
+Interview Preparation,Interview — DSA Rounds & Strategy,brute force baseline,Campus vs off-campus: brute force baseline differences in India
+Interview Preparation,Interview — DSA Rounds & Strategy,pattern recognition,Product vs service company: pattern recognition focus areas
+Interview Preparation,Interview — DSA Rounds & Strategy,complexity analysis,Aadhaar/e-KYC & fintech context in complexity analysis answers
+Interview Preparation,Interview — DSA Rounds & Strategy,optimize & tradeoffs,UPI-scale analogies to explain optimize & tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,IRCTC Tatkal analogy for write code cleanly tradeoffs
+Interview Preparation,Interview — DSA Rounds & Strategy,test with edge cases,Big Billion Days spikes: stress-talk your test with edge cases
+Interview Preparation,Interview — DSA Rounds & Strategy,debug under pressure,Cricket/IPL analogies to simplify debug under pressure
+Interview Preparation,Interview — DSA Rounds & Strategy,communicate thinking,Bengaluru startup vs MAANG: communicate thinking expectations
+Interview Preparation,Interview — DSA Rounds & Strategy,write code cleanly,Top 5 coding mistakes freshers make in interviews

@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Think like an interviewer: how I grade your Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Whiteboard to code: Sliding window heap (lazy deletes) with edge cases
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),You don’t need to memorize — template for Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Interview day checklist for Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Hidden constraints that break Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Speedrun Custom comparator design: archetypes you must know
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Complexity showdown: naive vs optimal Heapify vs push/pop performance
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,One trick that simplifies most Indexed heap questions
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,When heaps beat sorting for Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Tie-breakers & comparators in K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Memory/perf tradeoffs for Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),Real-time systems mapped to Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Common bugs to avoid in Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Why Dijkstra with PQ scares 90% of interviewees (and how to master it)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Event scheduling simulator in 60 seconds — intuition first
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,Stop brute forcing: spot the Custom comparator design trigger words
+DSA,DSA — Heaps/PQ Patterns (Advanced),Heapify vs push/pop performance,Heapify vs push/pop performance vs brute force — when to switch and why
+DSA,DSA — Heaps/PQ Patterns (Advanced),Indexed heap,Top 7 mistakes in Indexed heap that cost offers
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,From O(N^2) → O(N): optimize your Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,"K-way merge / external sort for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Heaps/PQ Patterns (Advanced),Top-K & Kth smallest,Match-day ticket queues as Top-K & Kth smallest
+DSA,DSA — Heaps/PQ Patterns (Advanced),K-way merge / external sort,Zomato delivery prioritization like K-way merge / external sort
+DSA,DSA — Heaps/PQ Patterns (Advanced),Streaming median,Airport runway slots via Streaming median
+DSA,DSA — Heaps/PQ Patterns (Advanced),Sliding window heap (lazy deletes),UPI transaction ordering as Sliding window heap (lazy deletes)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Frequency heap (reorganize string),Match-day ticket queues as Frequency heap (reorganize string)
+DSA,DSA — Heaps/PQ Patterns (Advanced),Dijkstra with PQ,Zomato delivery prioritization like Dijkstra with PQ
+DSA,DSA — Heaps/PQ Patterns (Advanced),Event scheduling simulator,Airport runway slots via Event scheduling simulator
+DSA,DSA — Heaps/PQ Patterns (Advanced),Custom comparator design,UPI transaction ordering as Custom comparator design

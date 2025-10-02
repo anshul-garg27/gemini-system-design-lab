@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Programming,Python,syntax & idioms,Why Python is still king for Indian interviews 👑
+Programming,Python,lists/dicts/sets/tuples,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,list/dict comprehensions,Python in 60 seconds: the only list/dict comprehensions intuition you need
+Programming,Python,iterators & generators,"iterators & generators in Python — stop brute forcing, write idiomatic code"
+Programming,Python,OOP & dataclasses,Python OOP & dataclasses: top 7 mistakes that cost offers in India
+Programming,Python,typing & mypy,From messy to clean: refactor your Python typing & mypy live
+Programming,Python,exceptions & context managers,Interview day checklist: Python exceptions & context managers in 5 bullets
+Programming,Python,files & pathlib,Whiteboard to code: Python files & pathlib with edge cases
+Programming,Python,asyncio vs threads vs multiprocessing,Explain it like I’m 5: Python asyncio vs threads vs multiprocessing without jargon
+Programming,Python,GIL — what actually matters,Speedrun Python GIL — what actually matters: archetypes you must know
+Programming,Python,profiling & optimization,You’re overcomplicating it — simplify your Python profiling & optimization
+Programming,Python,standard library power moves,Performance 101: make Python standard library power moves 10x faster (no hacks)
+Programming,Python,pytest & fixtures,Memory vs speed: tradeoffs in Python pytest & fixtures
+Programming,Python,packaging: pip/poetry,Idiomatic Python: do’s & don’ts for packaging: pip/poetry
+Programming,Python,logging & debugging,Debugging live: fix a broken Python logging & debugging solution
+Programming,Python,syntax & idioms,Unit tests that catch subtle bugs in Python syntax & idioms
+Programming,Python,lists/dicts/sets/tuples,Python lists/dicts/sets/tuples cheat sheet — templates + pitfalls
+Programming,Python,list/dict comprehensions,Phone screen vs onsite: how Python list/dict comprehensions questions differ
+Programming,Python,iterators & generators,Narrate your thinking: explain Python iterators & generators like a pro
+Programming,Python,OOP & dataclasses,Before you code: 4 questions for any Python OOP & dataclasses
+Programming,Python,typing & mypy,From DSA to dev: where Python typing & mypy shows up in real systems
+Programming,Python,exceptions & context managers,Edge cases that break 8/10 Python exceptions & context managers submissions
+Programming,Python,files & pathlib,Back-of-the-envelope complexity: Python files & pathlib
+Programming,Python,asyncio vs threads vs multiprocessing,Code smells in Python asyncio vs threads vs multiprocessing — and quick fixes
+Programming,Python,GIL — what actually matters,Template showdown: clean APIs for Python GIL — what actually matters
+Programming,Python,profiling & optimization,Interview kata: daily reps for Python profiling & optimization
+Programming,Python,standard library power moves,Crash course: Python standard library power moves in 5 minutes
+Programming,Python,pytest & fixtures,Top 5 questions around Python pytest & fixtures this year
+Programming,Python,packaging: pip/poetry,From CP to interviews: map packaging: pip/poetry to idiomatic Python
+Programming,Python,logging & debugging,Prove it: correctness for Python logging & debugging (plain English)
+Programming,Python,syntax & idioms,When not to use Python features for syntax & idioms (and what instead)
+Programming,Python,lists/dicts/sets/tuples,Why Python is still king for Indian interviews 👑
+Programming,Python,list/dict comprehensions,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,iterators & generators,Python in 60 seconds: the only iterators & generators intuition you need
+Programming,Python,OOP & dataclasses,"OOP & dataclasses in Python — stop brute forcing, write idiomatic code"
+Programming,Python,typing & mypy,Python typing & mypy: top 7 mistakes that cost offers in India
+Programming,Python,exceptions & context managers,From messy to clean: refactor your Python exceptions & context managers live
+Programming,Python,files & pathlib,Interview day checklist: Python files & pathlib in 5 bullets
+Programming,Python,asyncio vs threads vs multiprocessing,Whiteboard to code: Python asyncio vs threads vs multiprocessing with edge cases
+Programming,Python,GIL — what actually matters,Explain it like I’m 5: Python GIL — what actually matters without jargon
+Programming,Python,profiling & optimization,Speedrun Python profiling & optimization: archetypes you must know
+Programming,Python,standard library power moves,You’re overcomplicating it — simplify your Python standard library power moves
+Programming,Python,pytest & fixtures,Performance 101: make Python pytest & fixtures 10x faster (no hacks)
+Programming,Python,packaging: pip/poetry,Memory vs speed: tradeoffs in Python packaging: pip/poetry
+Programming,Python,logging & debugging,Idiomatic Python: do’s & don’ts for logging & debugging
+Programming,Python,syntax & idioms,Debugging live: fix a broken Python syntax & idioms solution
+Programming,Python,lists/dicts/sets/tuples,Unit tests that catch subtle bugs in Python lists/dicts/sets/tuples
+Programming,Python,list/dict comprehensions,Python list/dict comprehensions cheat sheet — templates + pitfalls
+Programming,Python,iterators & generators,Phone screen vs onsite: how Python iterators & generators questions differ
+Programming,Python,OOP & dataclasses,Narrate your thinking: explain Python OOP & dataclasses like a pro
+Programming,Python,typing & mypy,Before you code: 4 questions for any Python typing & mypy
+Programming,Python,exceptions & context managers,From DSA to dev: where Python exceptions & context managers shows up in real systems
+Programming,Python,files & pathlib,Edge cases that break 8/10 Python files & pathlib submissions
+Programming,Python,asyncio vs threads vs multiprocessing,Back-of-the-envelope complexity: Python asyncio vs threads vs multiprocessing
+Programming,Python,GIL — what actually matters,Code smells in Python GIL — what actually matters — and quick fixes
+Programming,Python,profiling & optimization,Template showdown: clean APIs for Python profiling & optimization
+Programming,Python,standard library power moves,Interview kata: daily reps for Python standard library power moves
+Programming,Python,pytest & fixtures,Crash course: Python pytest & fixtures in 5 minutes
+Programming,Python,packaging: pip/poetry,Top 5 questions around Python packaging: pip/poetry this year
+Programming,Python,logging & debugging,From CP to interviews: map logging & debugging to idiomatic Python
+Programming,Python,syntax & idioms,Prove it: correctness for Python syntax & idioms (plain English)
+Programming,Python,lists/dicts/sets/tuples,When not to use Python features for lists/dicts/sets/tuples (and what instead)
+Programming,Python,list/dict comprehensions,Why Python is still king for Indian interviews 👑
+Programming,Python,iterators & generators,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,OOP & dataclasses,Python in 60 seconds: the only OOP & dataclasses intuition you need
+Programming,Python,typing & mypy,"typing & mypy in Python — stop brute forcing, write idiomatic code"
+Programming,Python,exceptions & context managers,Python exceptions & context managers: top 7 mistakes that cost offers in India
+Programming,Python,files & pathlib,From messy to clean: refactor your Python files & pathlib live
+Programming,Python,asyncio vs threads vs multiprocessing,Interview day checklist: Python asyncio vs threads vs multiprocessing in 5 bullets
+Programming,Python,GIL — what actually matters,Whiteboard to code: Python GIL — what actually matters with edge cases
+Programming,Python,profiling & optimization,Explain it like I’m 5: Python profiling & optimization without jargon
+Programming,Python,standard library power moves,Speedrun Python standard library power moves: archetypes you must know
+Programming,Python,pytest & fixtures,You’re overcomplicating it — simplify your Python pytest & fixtures
+Programming,Python,packaging: pip/poetry,Performance 101: make Python packaging: pip/poetry 10x faster (no hacks)
+Programming,Python,logging & debugging,Memory vs speed: tradeoffs in Python logging & debugging
+Programming,Python,syntax & idioms,Idiomatic Python: do’s & don’ts for syntax & idioms
+Programming,Python,lists/dicts/sets/tuples,Debugging live: fix a broken Python lists/dicts/sets/tuples solution
+Programming,Python,list/dict comprehensions,Unit tests that catch subtle bugs in Python list/dict comprehensions
+Programming,Python,iterators & generators,Python iterators & generators cheat sheet — templates + pitfalls
+Programming,Python,OOP & dataclasses,Phone screen vs onsite: how Python OOP & dataclasses questions differ
+Programming,Python,typing & mypy,Narrate your thinking: explain Python typing & mypy like a pro
+Programming,Python,exceptions & context managers,Before you code: 4 questions for any Python exceptions & context managers
+Programming,Python,files & pathlib,From DSA to dev: where Python files & pathlib shows up in real systems
+Programming,Python,asyncio vs threads vs multiprocessing,Edge cases that break 8/10 Python asyncio vs threads vs multiprocessing submissions
+Programming,Python,GIL — what actually matters,Back-of-the-envelope complexity: Python GIL — what actually matters
+Programming,Python,profiling & optimization,Code smells in Python profiling & optimization — and quick fixes
+Programming,Python,standard library power moves,Template showdown: clean APIs for Python standard library power moves
+Programming,Python,pytest & fixtures,Interview kata: daily reps for Python pytest & fixtures
+Programming,Python,packaging: pip/poetry,Crash course: Python packaging: pip/poetry in 5 minutes
+Programming,Python,logging & debugging,Top 5 questions around Python logging & debugging this year
+Programming,Python,syntax & idioms,From CP to interviews: map syntax & idioms to idiomatic Python
+Programming,Python,lists/dicts/sets/tuples,Prove it: correctness for Python lists/dicts/sets/tuples (plain English)
+Programming,Python,list/dict comprehensions,When not to use Python features for list/dict comprehensions (and what instead)
+Programming,Python,iterators & generators,Why Python is still king for Indian interviews 👑
+Programming,Python,OOP & dataclasses,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,typing & mypy,Python in 60 seconds: the only typing & mypy intuition you need
+Programming,Python,exceptions & context managers,"exceptions & context managers in Python — stop brute forcing, write idiomatic code"
+Programming,Python,files & pathlib,Python files & pathlib: top 7 mistakes that cost offers in India
+Programming,Python,asyncio vs threads vs multiprocessing,From messy to clean: refactor your Python asyncio vs threads vs multiprocessing live
+Programming,Python,GIL — what actually matters,Interview day checklist: Python GIL — what actually matters in 5 bullets
+Programming,Python,profiling & optimization,Whiteboard to code: Python profiling & optimization with edge cases
+Programming,Python,standard library power moves,Explain it like I’m 5: Python standard library power moves without jargon
+Programming,Python,pytest & fixtures,Speedrun Python pytest & fixtures: archetypes you must know
+Programming,Python,packaging: pip/poetry,You’re overcomplicating it — simplify your Python packaging: pip/poetry
+Programming,Python,logging & debugging,Performance 101: make Python logging & debugging 10x faster (no hacks)
+Programming,Python,syntax & idioms,Memory vs speed: tradeoffs in Python syntax & idioms
+Programming,Python,lists/dicts/sets/tuples,Idiomatic Python: do’s & don’ts for lists/dicts/sets/tuples
+Programming,Python,list/dict comprehensions,Debugging live: fix a broken Python list/dict comprehensions solution
+Programming,Python,iterators & generators,Unit tests that catch subtle bugs in Python iterators & generators
+Programming,Python,OOP & dataclasses,Python OOP & dataclasses cheat sheet — templates + pitfalls
+Programming,Python,typing & mypy,Phone screen vs onsite: how Python typing & mypy questions differ
+Programming,Python,exceptions & context managers,Narrate your thinking: explain Python exceptions & context managers like a pro
+Programming,Python,files & pathlib,Before you code: 4 questions for any Python files & pathlib
+Programming,Python,asyncio vs threads vs multiprocessing,From DSA to dev: where Python asyncio vs threads vs multiprocessing shows up in real systems
+Programming,Python,GIL — what actually matters,Edge cases that break 8/10 Python GIL — what actually matters submissions
+Programming,Python,profiling & optimization,Back-of-the-envelope complexity: Python profiling & optimization
+Programming,Python,standard library power moves,Code smells in Python standard library power moves — and quick fixes
+Programming,Python,pytest & fixtures,Template showdown: clean APIs for Python pytest & fixtures
+Programming,Python,packaging: pip/poetry,Interview kata: daily reps for Python packaging: pip/poetry
+Programming,Python,logging & debugging,Crash course: Python logging & debugging in 5 minutes
+Programming,Python,syntax & idioms,Top 5 questions around Python syntax & idioms this year
+Programming,Python,lists/dicts/sets/tuples,From CP to interviews: map lists/dicts/sets/tuples to idiomatic Python
+Programming,Python,list/dict comprehensions,Prove it: correctness for Python list/dict comprehensions (plain English)
+Programming,Python,iterators & generators,When not to use Python features for iterators & generators (and what instead)
+Programming,Python,OOP & dataclasses,Why Python is still king for Indian interviews 👑
+Programming,Python,typing & mypy,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,exceptions & context managers,Python in 60 seconds: the only exceptions & context managers intuition you need
+Programming,Python,files & pathlib,"files & pathlib in Python — stop brute forcing, write idiomatic code"
+Programming,Python,asyncio vs threads vs multiprocessing,Python asyncio vs threads vs multiprocessing: top 7 mistakes that cost offers in India
+Programming,Python,GIL — what actually matters,From messy to clean: refactor your Python GIL — what actually matters live
+Programming,Python,profiling & optimization,Interview day checklist: Python profiling & optimization in 5 bullets
+Programming,Python,standard library power moves,Whiteboard to code: Python standard library power moves with edge cases
+Programming,Python,pytest & fixtures,Explain it like I’m 5: Python pytest & fixtures without jargon
+Programming,Python,packaging: pip/poetry,Speedrun Python packaging: pip/poetry: archetypes you must know
+Programming,Python,logging & debugging,You’re overcomplicating it — simplify your Python logging & debugging
+Programming,Python,syntax & idioms,Performance 101: make Python syntax & idioms 10x faster (no hacks)
+Programming,Python,lists/dicts/sets/tuples,Memory vs speed: tradeoffs in Python lists/dicts/sets/tuples
+Programming,Python,list/dict comprehensions,Idiomatic Python: do’s & don’ts for list/dict comprehensions
+Programming,Python,iterators & generators,Debugging live: fix a broken Python iterators & generators solution
+Programming,Python,OOP & dataclasses,Unit tests that catch subtle bugs in Python OOP & dataclasses
+Programming,Python,typing & mypy,Python typing & mypy cheat sheet — templates + pitfalls
+Programming,Python,exceptions & context managers,Phone screen vs onsite: how Python exceptions & context managers questions differ
+Programming,Python,files & pathlib,Narrate your thinking: explain Python files & pathlib like a pro
+Programming,Python,asyncio vs threads vs multiprocessing,Before you code: 4 questions for any Python asyncio vs threads vs multiprocessing
+Programming,Python,GIL — what actually matters,From DSA to dev: where Python GIL — what actually matters shows up in real systems
+Programming,Python,profiling & optimization,Edge cases that break 8/10 Python profiling & optimization submissions
+Programming,Python,standard library power moves,Back-of-the-envelope complexity: Python standard library power moves
+Programming,Python,pytest & fixtures,Code smells in Python pytest & fixtures — and quick fixes
+Programming,Python,packaging: pip/poetry,Template showdown: clean APIs for Python packaging: pip/poetry
+Programming,Python,logging & debugging,Interview kata: daily reps for Python logging & debugging
+Programming,Python,syntax & idioms,Crash course: Python syntax & idioms in 5 minutes
+Programming,Python,lists/dicts/sets/tuples,Top 5 questions around Python lists/dicts/sets/tuples this year
+Programming,Python,list/dict comprehensions,From CP to interviews: map list/dict comprehensions to idiomatic Python
+Programming,Python,iterators & generators,Prove it: correctness for Python iterators & generators (plain English)
+Programming,Python,OOP & dataclasses,When not to use Python features for OOP & dataclasses (and what instead)
+Programming,Python,typing & mypy,Why Python is still king for Indian interviews 👑
+Programming,Python,exceptions & context managers,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,files & pathlib,Python in 60 seconds: the only files & pathlib intuition you need
+Programming,Python,asyncio vs threads vs multiprocessing,"asyncio vs threads vs multiprocessing in Python — stop brute forcing, write idiomatic code"
+Programming,Python,GIL — what actually matters,Python GIL — what actually matters: top 7 mistakes that cost offers in India
+Programming,Python,profiling & optimization,From messy to clean: refactor your Python profiling & optimization live
+Programming,Python,standard library power moves,Interview day checklist: Python standard library power moves in 5 bullets
+Programming,Python,pytest & fixtures,Whiteboard to code: Python pytest & fixtures with edge cases
+Programming,Python,packaging: pip/poetry,Explain it like I’m 5: Python packaging: pip/poetry without jargon
+Programming,Python,logging & debugging,Speedrun Python logging & debugging: archetypes you must know
+Programming,Python,syntax & idioms,You’re overcomplicating it — simplify your Python syntax & idioms
+Programming,Python,lists/dicts/sets/tuples,Performance 101: make Python lists/dicts/sets/tuples 10x faster (no hacks)
+Programming,Python,list/dict comprehensions,Memory vs speed: tradeoffs in Python list/dict comprehensions
+Programming,Python,iterators & generators,Idiomatic Python: do’s & don’ts for iterators & generators
+Programming,Python,OOP & dataclasses,Debugging live: fix a broken Python OOP & dataclasses solution
+Programming,Python,typing & mypy,Unit tests that catch subtle bugs in Python typing & mypy
+Programming,Python,exceptions & context managers,Python exceptions & context managers cheat sheet — templates + pitfalls
+Programming,Python,files & pathlib,Phone screen vs onsite: how Python files & pathlib questions differ
+Programming,Python,asyncio vs threads vs multiprocessing,Narrate your thinking: explain Python asyncio vs threads vs multiprocessing like a pro
+Programming,Python,GIL — what actually matters,Before you code: 4 questions for any Python GIL — what actually matters
+Programming,Python,profiling & optimization,From DSA to dev: where Python profiling & optimization shows up in real systems
+Programming,Python,standard library power moves,Edge cases that break 8/10 Python standard library power moves submissions
+Programming,Python,pytest & fixtures,Back-of-the-envelope complexity: Python pytest & fixtures
+Programming,Python,packaging: pip/poetry,Code smells in Python packaging: pip/poetry — and quick fixes
+Programming,Python,logging & debugging,Template showdown: clean APIs for Python logging & debugging
+Programming,Python,syntax & idioms,Interview kata: daily reps for Python syntax & idioms
+Programming,Python,lists/dicts/sets/tuples,Crash course: Python lists/dicts/sets/tuples in 5 minutes
+Programming,Python,list/dict comprehensions,Top 5 questions around Python list/dict comprehensions this year
+Programming,Python,iterators & generators,From CP to interviews: map iterators & generators to idiomatic Python
+Programming,Python,OOP & dataclasses,Prove it: correctness for Python OOP & dataclasses (plain English)
+Programming,Python,typing & mypy,When not to use Python features for typing & mypy (and what instead)
+Programming,Python,exceptions & context managers,Why Python is still king for Indian interviews 👑
+Programming,Python,files & pathlib,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,asyncio vs threads vs multiprocessing,Python in 60 seconds: the only asyncio vs threads vs multiprocessing intuition you need
+Programming,Python,GIL — what actually matters,"GIL — what actually matters in Python — stop brute forcing, write idiomatic code"
+Programming,Python,profiling & optimization,Python profiling & optimization: top 7 mistakes that cost offers in India
+Programming,Python,standard library power moves,From messy to clean: refactor your Python standard library power moves live
+Programming,Python,pytest & fixtures,Interview day checklist: Python pytest & fixtures in 5 bullets
+Programming,Python,packaging: pip/poetry,Whiteboard to code: Python packaging: pip/poetry with edge cases
+Programming,Python,logging & debugging,Explain it like I’m 5: Python logging & debugging without jargon
+Programming,Python,syntax & idioms,Speedrun Python syntax & idioms: archetypes you must know
+Programming,Python,lists/dicts/sets/tuples,You’re overcomplicating it — simplify your Python lists/dicts/sets/tuples
+Programming,Python,list/dict comprehensions,Performance 101: make Python list/dict comprehensions 10x faster (no hacks)
+Programming,Python,iterators & generators,Memory vs speed: tradeoffs in Python iterators & generators
+Programming,Python,OOP & dataclasses,Idiomatic Python: do’s & don’ts for OOP & dataclasses
+Programming,Python,typing & mypy,Debugging live: fix a broken Python typing & mypy solution
+Programming,Python,exceptions & context managers,Unit tests that catch subtle bugs in Python exceptions & context managers
+Programming,Python,files & pathlib,Python files & pathlib cheat sheet — templates + pitfalls
+Programming,Python,asyncio vs threads vs multiprocessing,Phone screen vs onsite: how Python asyncio vs threads vs multiprocessing questions differ
+Programming,Python,GIL — what actually matters,Narrate your thinking: explain Python GIL — what actually matters like a pro
+Programming,Python,profiling & optimization,Before you code: 4 questions for any Python profiling & optimization
+Programming,Python,standard library power moves,From DSA to dev: where Python standard library power moves shows up in real systems
+Programming,Python,pytest & fixtures,Edge cases that break 8/10 Python pytest & fixtures submissions
+Programming,Python,packaging: pip/poetry,Back-of-the-envelope complexity: Python packaging: pip/poetry
+Programming,Python,logging & debugging,Code smells in Python logging & debugging — and quick fixes
+Programming,Python,syntax & idioms,Template showdown: clean APIs for Python syntax & idioms
+Programming,Python,lists/dicts/sets/tuples,Interview kata: daily reps for Python lists/dicts/sets/tuples
+Programming,Python,list/dict comprehensions,Crash course: Python list/dict comprehensions in 5 minutes
+Programming,Python,iterators & generators,Top 5 questions around Python iterators & generators this year
+Programming,Python,OOP & dataclasses,From CP to interviews: map OOP & dataclasses to idiomatic Python
+Programming,Python,typing & mypy,Prove it: correctness for Python typing & mypy (plain English)
+Programming,Python,exceptions & context managers,When not to use Python features for exceptions & context managers (and what instead)
+Programming,Python,files & pathlib,Why Python is still king for Indian interviews 👑
+Programming,Python,asyncio vs threads vs multiprocessing,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,GIL — what actually matters,Python in 60 seconds: the only GIL — what actually matters intuition you need
+Programming,Python,profiling & optimization,"profiling & optimization in Python — stop brute forcing, write idiomatic code"
+Programming,Python,standard library power moves,Python standard library power moves: top 7 mistakes that cost offers in India
+Programming,Python,pytest & fixtures,From messy to clean: refactor your Python pytest & fixtures live
+Programming,Python,packaging: pip/poetry,Interview day checklist: Python packaging: pip/poetry in 5 bullets
+Programming,Python,logging & debugging,Whiteboard to code: Python logging & debugging with edge cases
+Programming,Python,syntax & idioms,Explain it like I’m 5: Python syntax & idioms without jargon
+Programming,Python,lists/dicts/sets/tuples,Speedrun Python lists/dicts/sets/tuples: archetypes you must know
+Programming,Python,list/dict comprehensions,You’re overcomplicating it — simplify your Python list/dict comprehensions
+Programming,Python,iterators & generators,Performance 101: make Python iterators & generators 10x faster (no hacks)
+Programming,Python,OOP & dataclasses,Memory vs speed: tradeoffs in Python OOP & dataclasses
+Programming,Python,typing & mypy,Idiomatic Python: do’s & don’ts for typing & mypy
+Programming,Python,exceptions & context managers,Debugging live: fix a broken Python exceptions & context managers solution
+Programming,Python,files & pathlib,Unit tests that catch subtle bugs in Python files & pathlib
+Programming,Python,asyncio vs threads vs multiprocessing,Python asyncio vs threads vs multiprocessing cheat sheet — templates + pitfalls
+Programming,Python,GIL — what actually matters,Phone screen vs onsite: how Python GIL — what actually matters questions differ
+Programming,Python,profiling & optimization,Narrate your thinking: explain Python profiling & optimization like a pro
+Programming,Python,standard library power moves,Before you code: 4 questions for any Python standard library power moves
+Programming,Python,pytest & fixtures,From DSA to dev: where Python pytest & fixtures shows up in real systems
+Programming,Python,packaging: pip/poetry,Edge cases that break 8/10 Python packaging: pip/poetry submissions
+Programming,Python,logging & debugging,Back-of-the-envelope complexity: Python logging & debugging
+Programming,Python,syntax & idioms,Code smells in Python syntax & idioms — and quick fixes
+Programming,Python,lists/dicts/sets/tuples,Template showdown: clean APIs for Python lists/dicts/sets/tuples
+Programming,Python,list/dict comprehensions,Interview kata: daily reps for Python list/dict comprehensions
+Programming,Python,iterators & generators,Crash course: Python iterators & generators in 5 minutes
+Programming,Python,OOP & dataclasses,Top 5 questions around Python OOP & dataclasses this year
+Programming,Python,typing & mypy,From CP to interviews: map typing & mypy to idiomatic Python
+Programming,Python,exceptions & context managers,Prove it: correctness for Python exceptions & context managers (plain English)
+Programming,Python,files & pathlib,When not to use Python features for files & pathlib (and what instead)
+Programming,Python,asyncio vs threads vs multiprocessing,Why Python is still king for Indian interviews 👑
+Programming,Python,GIL — what actually matters,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,profiling & optimization,Python in 60 seconds: the only profiling & optimization intuition you need
+Programming,Python,standard library power moves,"standard library power moves in Python — stop brute forcing, write idiomatic code"
+Programming,Python,pytest & fixtures,Python pytest & fixtures: top 7 mistakes that cost offers in India
+Programming,Python,packaging: pip/poetry,From messy to clean: refactor your Python packaging: pip/poetry live
+Programming,Python,logging & debugging,Interview day checklist: Python logging & debugging in 5 bullets
+Programming,Python,syntax & idioms,Whiteboard to code: Python syntax & idioms with edge cases
+Programming,Python,lists/dicts/sets/tuples,Explain it like I’m 5: Python lists/dicts/sets/tuples without jargon
+Programming,Python,list/dict comprehensions,Speedrun Python list/dict comprehensions: archetypes you must know
+Programming,Python,iterators & generators,You’re overcomplicating it — simplify your Python iterators & generators
+Programming,Python,OOP & dataclasses,Performance 101: make Python OOP & dataclasses 10x faster (no hacks)
+Programming,Python,typing & mypy,Memory vs speed: tradeoffs in Python typing & mypy
+Programming,Python,exceptions & context managers,Idiomatic Python: do’s & don’ts for exceptions & context managers
+Programming,Python,files & pathlib,Debugging live: fix a broken Python files & pathlib solution
+Programming,Python,asyncio vs threads vs multiprocessing,Unit tests that catch subtle bugs in Python asyncio vs threads vs multiprocessing
+Programming,Python,GIL — what actually matters,Python GIL — what actually matters cheat sheet — templates + pitfalls
+Programming,Python,profiling & optimization,Phone screen vs onsite: how Python profiling & optimization questions differ
+Programming,Python,standard library power moves,Narrate your thinking: explain Python standard library power moves like a pro
+Programming,Python,pytest & fixtures,Before you code: 4 questions for any Python pytest & fixtures
+Programming,Python,packaging: pip/poetry,From DSA to dev: where Python packaging: pip/poetry shows up in real systems
+Programming,Python,logging & debugging,Edge cases that break 8/10 Python logging & debugging submissions
+Programming,Python,syntax & idioms,Back-of-the-envelope complexity: Python syntax & idioms
+Programming,Python,lists/dicts/sets/tuples,Code smells in Python lists/dicts/sets/tuples — and quick fixes
+Programming,Python,list/dict comprehensions,Template showdown: clean APIs for Python list/dict comprehensions
+Programming,Python,iterators & generators,Interview kata: daily reps for Python iterators & generators
+Programming,Python,OOP & dataclasses,Crash course: Python OOP & dataclasses in 5 minutes
+Programming,Python,typing & mypy,Top 5 questions around Python typing & mypy this year
+Programming,Python,exceptions & context managers,From CP to interviews: map exceptions & context managers to idiomatic Python
+Programming,Python,files & pathlib,Prove it: correctness for Python files & pathlib (plain English)
+Programming,Python,asyncio vs threads vs multiprocessing,When not to use Python features for asyncio vs threads vs multiprocessing (and what instead)
+Programming,Python,GIL — what actually matters,Why Python is still king for Indian interviews 👑
+Programming,Python,profiling & optimization,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,standard library power moves,Python in 60 seconds: the only standard library power moves intuition you need
+Programming,Python,pytest & fixtures,"pytest & fixtures in Python — stop brute forcing, write idiomatic code"
+Programming,Python,packaging: pip/poetry,Python packaging: pip/poetry: top 7 mistakes that cost offers in India
+Programming,Python,logging & debugging,From messy to clean: refactor your Python logging & debugging live
+Programming,Python,syntax & idioms,Interview day checklist: Python syntax & idioms in 5 bullets
+Programming,Python,lists/dicts/sets/tuples,Whiteboard to code: Python lists/dicts/sets/tuples with edge cases
+Programming,Python,list/dict comprehensions,Explain it like I’m 5: Python list/dict comprehensions without jargon
+Programming,Python,iterators & generators,Speedrun Python iterators & generators: archetypes you must know
+Programming,Python,OOP & dataclasses,You’re overcomplicating it — simplify your Python OOP & dataclasses
+Programming,Python,typing & mypy,Performance 101: make Python typing & mypy 10x faster (no hacks)
+Programming,Python,exceptions & context managers,Memory vs speed: tradeoffs in Python exceptions & context managers
+Programming,Python,files & pathlib,Idiomatic Python: do’s & don’ts for files & pathlib
+Programming,Python,asyncio vs threads vs multiprocessing,Debugging live: fix a broken Python asyncio vs threads vs multiprocessing solution
+Programming,Python,GIL — what actually matters,Unit tests that catch subtle bugs in Python GIL — what actually matters
+Programming,Python,profiling & optimization,Python profiling & optimization cheat sheet — templates + pitfalls
+Programming,Python,standard library power moves,Phone screen vs onsite: how Python standard library power moves questions differ
+Programming,Python,pytest & fixtures,Narrate your thinking: explain Python pytest & fixtures like a pro
+Programming,Python,packaging: pip/poetry,Before you code: 4 questions for any Python packaging: pip/poetry
+Programming,Python,logging & debugging,From DSA to dev: where Python logging & debugging shows up in real systems
+Programming,Python,syntax & idioms,Edge cases that break 8/10 Python syntax & idioms submissions
+Programming,Python,lists/dicts/sets/tuples,Back-of-the-envelope complexity: Python lists/dicts/sets/tuples
+Programming,Python,list/dict comprehensions,Code smells in Python list/dict comprehensions — and quick fixes
+Programming,Python,iterators & generators,Template showdown: clean APIs for Python iterators & generators
+Programming,Python,OOP & dataclasses,Interview kata: daily reps for Python OOP & dataclasses
+Programming,Python,typing & mypy,Crash course: Python typing & mypy in 5 minutes
+Programming,Python,exceptions & context managers,Top 5 questions around Python exceptions & context managers this year
+Programming,Python,files & pathlib,From CP to interviews: map files & pathlib to idiomatic Python
+Programming,Python,asyncio vs threads vs multiprocessing,Prove it: correctness for Python asyncio vs threads vs multiprocessing (plain English)
+Programming,Python,GIL — what actually matters,When not to use Python features for GIL — what actually matters (and what instead)
+Programming,Python,profiling & optimization,Why Python is still king for Indian interviews 👑
+Programming,Python,standard library power moves,How Python makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Python,pytest & fixtures,Bengaluru onsite-ready Python pytest & fixtures
+Programming,Python,packaging: pip/poetry,Off-campus grind tips: Python packaging: pip/poetry
+Programming,Python,logging & debugging,Product vs service company: Python logging & debugging focus
+Programming,Python,syntax & idioms,Startups vs MAANG expectations: Python syntax & idioms
+Programming,Python,lists/dicts/sets/tuples,Campus placements: Python lists/dicts/sets/tuples in 2 rounds
+Programming,Python,list/dict comprehensions,System design tie-ins: Python list/dict comprehensions → prod
+Programming,Python,iterators & generators,Naukri/LinkedIn resume bullets from Python iterators & generators
+Programming,Python,OOP & dataclasses,DSA + Python OOP & dataclasses: what interviewers in India look for

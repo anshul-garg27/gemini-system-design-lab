@@ -1,0 +1,322 @@
+pillar,category,seed,title
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Colocation strategy for React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,State charts & reducers in useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Derived state pitfalls in useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Form UX patterns that delight — useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Testing hooks & components around controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),"lists & keys (reconciliation) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Stop guessing: battle-tested patterns for Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,From messy to clean: refactor your component composition patterns live
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Top 7 mistakes in prop drilling alternatives (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Whiteboard → code: ship error boundaries (intro) with guardrails
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Interview-ready: 5 bullets that explain React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Explain like I’m 5: useState & useReducer without jargon
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),When to pick A vs B inside useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Debugging live: fix a broken useMemo & useCallback in minutes
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Templates you’ll reuse for controlled vs uncontrolled forms all year
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),The mental model that unlocks lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Perf-first Context API (when & when not): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Accessibility-first component composition patterns: include everyone
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Cost-aware prop drilling alternatives: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Real incidents I’ve seen because of bad error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Design reviews: what senior folks look for in React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,From junior to senior: how you talk about useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Before you code: 4 questions for any useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Do’s & don’ts cheat sheet for useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,UX wins: small tweaks in controlled vs uncontrolled forms with huge impact
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Platform tips: ship lists & keys (reconciliation) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Colocation strategy for Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,State charts & reducers in component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Derived state pitfalls in prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Form UX patterns that delight — error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Testing hooks & components around React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,"useState & useReducer in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Stop guessing: battle-tested patterns for useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,From messy to clean: refactor your useMemo & useCallback live
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Top 7 mistakes in controlled vs uncontrolled forms (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Whiteboard → code: ship lists & keys (reconciliation) with guardrails
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Interview-ready: 5 bullets that explain Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Explain like I’m 5: component composition patterns without jargon
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,When to pick A vs B inside prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Debugging live: fix a broken error boundaries (intro) in minutes
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Templates you’ll reuse for React state management explained in 60s all year
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,The mental model that unlocks useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Perf-first useEffect (cleanup & timing): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Accessibility-first useMemo & useCallback: include everyone
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Cost-aware controlled vs uncontrolled forms: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Real incidents I’ve seen because of bad lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Design reviews: what senior folks look for in Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,From junior to senior: how you talk about component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Before you code: 4 questions for any prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Do’s & don’ts cheat sheet for error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,UX wins: small tweaks in React state management explained in 60s with huge impact
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Platform tips: ship useState & useReducer to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Colocation strategy for useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,State charts & reducers in useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Derived state pitfalls in controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Form UX patterns that delight — lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Testing hooks & components around Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,"component composition patterns in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Stop guessing: battle-tested patterns for prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),From messy to clean: refactor your error boundaries (intro) live
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Top 7 mistakes in React state management explained in 60s (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Whiteboard → code: ship useState & useReducer with guardrails
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Interview-ready: 5 bullets that explain useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Explain like I’m 5: useMemo & useCallback without jargon
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,When to pick A vs B inside controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Debugging live: fix a broken lists & keys (reconciliation) in minutes
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Templates you’ll reuse for Context API (when & when not) all year
+Frontend & UI/UX,Frontend — React Core,component composition patterns,The mental model that unlocks component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Perf-first prop drilling alternatives: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Accessibility-first error boundaries (intro): include everyone
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Cost-aware React state management explained in 60s: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Real incidents I’ve seen because of bad useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Design reviews: what senior folks look for in useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,From junior to senior: how you talk about useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Before you code: 4 questions for any controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Do’s & don’ts cheat sheet for lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),UX wins: small tweaks in Context API (when & when not) with huge impact
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Platform tips: ship component composition patterns to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Colocation strategy for prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),State charts & reducers in error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Derived state pitfalls in React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Form UX patterns that delight — useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Testing hooks & components around useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,"useMemo & useCallback in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Stop guessing: battle-tested patterns for controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),From messy to clean: refactor your lists & keys (reconciliation) live
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Top 7 mistakes in Context API (when & when not) (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Whiteboard → code: ship component composition patterns with guardrails
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Interview-ready: 5 bullets that explain prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Explain like I’m 5: error boundaries (intro) without jargon
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,When to pick A vs B inside React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Debugging live: fix a broken useState & useReducer in minutes
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Templates you’ll reuse for useEffect (cleanup & timing) all year
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,The mental model that unlocks useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Perf-first controlled vs uncontrolled forms: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Accessibility-first lists & keys (reconciliation): include everyone
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Cost-aware Context API (when & when not): speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Real incidents I’ve seen because of bad component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Design reviews: what senior folks look for in prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),From junior to senior: how you talk about error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Before you code: 4 questions for any React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Do’s & don’ts cheat sheet for useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),UX wins: small tweaks in useEffect (cleanup & timing) with huge impact
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Platform tips: ship useMemo & useCallback to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Colocation strategy for controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),State charts & reducers in lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Derived state pitfalls in Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Form UX patterns that delight — component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Testing hooks & components around prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),"error boundaries (intro) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Stop guessing: battle-tested patterns for React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,From messy to clean: refactor your useState & useReducer live
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Top 7 mistakes in useEffect (cleanup & timing) (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Whiteboard → code: ship useMemo & useCallback with guardrails
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Interview-ready: 5 bullets that explain controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Explain like I’m 5: lists & keys (reconciliation) without jargon
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),When to pick A vs B inside Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Debugging live: fix a broken component composition patterns in minutes
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Templates you’ll reuse for prop drilling alternatives all year
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),The mental model that unlocks error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Perf-first React state management explained in 60s: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Accessibility-first useState & useReducer: include everyone
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Cost-aware useEffect (cleanup & timing): speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Real incidents I’ve seen because of bad useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Design reviews: what senior folks look for in controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),From junior to senior: how you talk about lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Before you code: 4 questions for any Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Do’s & don’ts cheat sheet for component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,UX wins: small tweaks in prop drilling alternatives with huge impact
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Platform tips: ship error boundaries (intro) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Colocation strategy for React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,State charts & reducers in useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Derived state pitfalls in useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Form UX patterns that delight — useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Testing hooks & components around controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),"lists & keys (reconciliation) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Stop guessing: battle-tested patterns for Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,From messy to clean: refactor your component composition patterns live
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Top 7 mistakes in prop drilling alternatives (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Whiteboard → code: ship error boundaries (intro) with guardrails
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Interview-ready: 5 bullets that explain React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Explain like I’m 5: useState & useReducer without jargon
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),When to pick A vs B inside useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Debugging live: fix a broken useMemo & useCallback in minutes
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Templates you’ll reuse for controlled vs uncontrolled forms all year
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),The mental model that unlocks lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Perf-first Context API (when & when not): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Accessibility-first component composition patterns: include everyone
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Cost-aware prop drilling alternatives: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Real incidents I’ve seen because of bad error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Design reviews: what senior folks look for in React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,From junior to senior: how you talk about useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Before you code: 4 questions for any useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Do’s & don’ts cheat sheet for useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,UX wins: small tweaks in controlled vs uncontrolled forms with huge impact
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Platform tips: ship lists & keys (reconciliation) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Colocation strategy for Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,State charts & reducers in component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Derived state pitfalls in prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Form UX patterns that delight — error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Testing hooks & components around React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,"useState & useReducer in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Stop guessing: battle-tested patterns for useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,From messy to clean: refactor your useMemo & useCallback live
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Top 7 mistakes in controlled vs uncontrolled forms (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Whiteboard → code: ship lists & keys (reconciliation) with guardrails
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Interview-ready: 5 bullets that explain Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Explain like I’m 5: component composition patterns without jargon
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,When to pick A vs B inside prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Debugging live: fix a broken error boundaries (intro) in minutes
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Templates you’ll reuse for React state management explained in 60s all year
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,The mental model that unlocks useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Perf-first useEffect (cleanup & timing): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Accessibility-first useMemo & useCallback: include everyone
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Cost-aware controlled vs uncontrolled forms: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Real incidents I’ve seen because of bad lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Design reviews: what senior folks look for in Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,From junior to senior: how you talk about component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Before you code: 4 questions for any prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Do’s & don’ts cheat sheet for error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,UX wins: small tweaks in React state management explained in 60s with huge impact
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Platform tips: ship useState & useReducer to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Colocation strategy for useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,State charts & reducers in useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Derived state pitfalls in controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Form UX patterns that delight — lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Testing hooks & components around Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,"component composition patterns in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Stop guessing: battle-tested patterns for prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),From messy to clean: refactor your error boundaries (intro) live
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Top 7 mistakes in React state management explained in 60s (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Whiteboard → code: ship useState & useReducer with guardrails
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Interview-ready: 5 bullets that explain useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Explain like I’m 5: useMemo & useCallback without jargon
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,When to pick A vs B inside controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Debugging live: fix a broken lists & keys (reconciliation) in minutes
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Templates you’ll reuse for Context API (when & when not) all year
+Frontend & UI/UX,Frontend — React Core,component composition patterns,The mental model that unlocks component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Perf-first prop drilling alternatives: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Accessibility-first error boundaries (intro): include everyone
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Cost-aware React state management explained in 60s: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Real incidents I’ve seen because of bad useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Design reviews: what senior folks look for in useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,From junior to senior: how you talk about useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Before you code: 4 questions for any controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Do’s & don’ts cheat sheet for lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),UX wins: small tweaks in Context API (when & when not) with huge impact
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Platform tips: ship component composition patterns to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Colocation strategy for prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),State charts & reducers in error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Derived state pitfalls in React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Form UX patterns that delight — useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Testing hooks & components around useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,"useMemo & useCallback in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Stop guessing: battle-tested patterns for controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),From messy to clean: refactor your lists & keys (reconciliation) live
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Top 7 mistakes in Context API (when & when not) (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Whiteboard → code: ship component composition patterns with guardrails
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Interview-ready: 5 bullets that explain prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Explain like I’m 5: error boundaries (intro) without jargon
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,When to pick A vs B inside React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Debugging live: fix a broken useState & useReducer in minutes
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Templates you’ll reuse for useEffect (cleanup & timing) all year
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,The mental model that unlocks useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Perf-first controlled vs uncontrolled forms: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Accessibility-first lists & keys (reconciliation): include everyone
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Cost-aware Context API (when & when not): speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Real incidents I’ve seen because of bad component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Design reviews: what senior folks look for in prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),From junior to senior: how you talk about error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Before you code: 4 questions for any React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Do’s & don’ts cheat sheet for useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),UX wins: small tweaks in useEffect (cleanup & timing) with huge impact
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Platform tips: ship useMemo & useCallback to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Colocation strategy for controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),State charts & reducers in lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Derived state pitfalls in Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Form UX patterns that delight — component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Testing hooks & components around prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),"error boundaries (intro) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Stop guessing: battle-tested patterns for React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,From messy to clean: refactor your useState & useReducer live
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Top 7 mistakes in useEffect (cleanup & timing) (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Whiteboard → code: ship useMemo & useCallback with guardrails
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Interview-ready: 5 bullets that explain controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Explain like I’m 5: lists & keys (reconciliation) without jargon
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),When to pick A vs B inside Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Debugging live: fix a broken component composition patterns in minutes
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Templates you’ll reuse for prop drilling alternatives all year
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),The mental model that unlocks error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Perf-first React state management explained in 60s: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Accessibility-first useState & useReducer: include everyone
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Cost-aware useEffect (cleanup & timing): speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Real incidents I’ve seen because of bad useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Design reviews: what senior folks look for in controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),From junior to senior: how you talk about lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Before you code: 4 questions for any Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Do’s & don’ts cheat sheet for component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,UX wins: small tweaks in prop drilling alternatives with huge impact
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Platform tips: ship error boundaries (intro) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Colocation strategy for React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,State charts & reducers in useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Derived state pitfalls in useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Form UX patterns that delight — useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Testing hooks & components around controlled vs uncontrolled forms
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),"lists & keys (reconciliation) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Stop guessing: battle-tested patterns for Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,From messy to clean: refactor your component composition patterns live
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Top 7 mistakes in prop drilling alternatives (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Whiteboard → code: ship error boundaries (intro) with guardrails
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Interview-ready: 5 bullets that explain React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Explain like I’m 5: useState & useReducer without jargon
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),When to pick A vs B inside useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Debugging live: fix a broken useMemo & useCallback in minutes
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Templates you’ll reuse for controlled vs uncontrolled forms all year
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),The mental model that unlocks lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Perf-first Context API (when & when not): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Accessibility-first component composition patterns: include everyone
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Cost-aware prop drilling alternatives: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Real incidents I’ve seen because of bad error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Design reviews: what senior folks look for in React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,From junior to senior: how you talk about useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Before you code: 4 questions for any useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Do’s & don’ts cheat sheet for useMemo & useCallback
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,UX wins: small tweaks in controlled vs uncontrolled forms with huge impact
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Platform tips: ship lists & keys (reconciliation) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Colocation strategy for Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,State charts & reducers in component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Derived state pitfalls in prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Form UX patterns that delight — error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Testing hooks & components around React state management explained in 60s
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,"useState & useReducer in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Stop guessing: battle-tested patterns for useEffect (cleanup & timing)
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,From messy to clean: refactor your useMemo & useCallback live
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Top 7 mistakes in controlled vs uncontrolled forms (and quick fixes)
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Whiteboard → code: ship lists & keys (reconciliation) with guardrails
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Interview-ready: 5 bullets that explain Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Explain like I’m 5: component composition patterns without jargon
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,When to pick A vs B inside prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Debugging live: fix a broken error boundaries (intro) in minutes
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,Templates you’ll reuse for React state management explained in 60s all year
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,The mental model that unlocks useState & useReducer
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Perf-first useEffect (cleanup & timing): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,Accessibility-first useMemo & useCallback: include everyone
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,Cost-aware controlled vs uncontrolled forms: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),Real incidents I’ve seen because of bad lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Design reviews: what senior folks look for in Context API (when & when not)
+Frontend & UI/UX,Frontend — React Core,component composition patterns,From junior to senior: how you talk about component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Before you code: 4 questions for any prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),Do’s & don’ts cheat sheet for error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,India-grade 4G: make React state management explained in 60s snappy on flaky networks
+Frontend & UI/UX,Frontend — React Core,useState & useReducer,Low-end Android optimization for useState & useReducer (under ₹10k devices)
+Frontend & UI/UX,Frontend — React Core,useEffect (cleanup & timing),Big Billion Days traffic: harden useEffect (cleanup & timing) for peaks
+Frontend & UI/UX,Frontend — React Core,useMemo & useCallback,IRCTC Tatkal mindset for useMemo & useCallback: fast paths only
+Frontend & UI/UX,Frontend — React Core,controlled vs uncontrolled forms,UPI-like flows: error states in controlled vs uncontrolled forms done right
+Frontend & UI/UX,Frontend — React Core,lists & keys (reconciliation),IPL watch party: realtime-friendly lists & keys (reconciliation)
+Frontend & UI/UX,Frontend — React Core,Context API (when & when not),Bengaluru ORR latency: Context API (when & when not) timeouts & fallbacks
+Frontend & UI/UX,Frontend — React Core,component composition patterns,Aadhaar/eKYC journeys: UX pitfalls in component composition patterns
+Frontend & UI/UX,Frontend — React Core,prop drilling alternatives,Tier-2/3 devices: memory budget for prop drilling alternatives
+Frontend & UI/UX,Frontend — React Core,error boundaries (intro),WhatsApp-style micro-interactions for error boundaries (intro)
+Frontend & UI/UX,Frontend — React Core,React state management explained in 60s,React state management explained in 60s

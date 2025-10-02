@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Choosing partition keys that age well — OLTP vs OLAP
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,From slow dashboards to fast — tune with star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,ETL vs ELT and where columnar storage & compression fits
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Data quality & governance for partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Observability for warehouses: metrics for materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),How query engines (Presto/Trino) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,"ClickHouse patterns in 60 seconds — intuition first, syntax second"
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Stop guessing: read query plans to master BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,From slow to snappy: refactor with Spark SQL & lakehouse live
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Top 7 mistakes in Z-ordering & data skipping that cost outages
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Edge cases that break 8/10 approximate queries (HyperLogLog/sketches) designs
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Naive vs optimal: complexity tradeoffs in broadcast vs shuffle joins
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,Whiteboard to prod: applying cost-based optimizer (CBO) basics with guardrails
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,Explain like I’m 5: OLTP vs OLAP without jargon
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Interview day checklist: star vs snowflake schema in 5 bullets
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,The mental model that unlocks columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,What every backend dev should know about partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,Common myths about materialized views & refresh — busted
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),Production checklists for query engines (Presto/Trino): observability & SLOs
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Cost traps: make ClickHouse patterns fast without burning cloud spend
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Pitfalls: consistency surprises inside BigQuery patterns
+Databases,Databases — Analytics & Warehousing,Spark SQL & lakehouse,Do’s & don’ts: clean APIs around Spark SQL & lakehouse
+Databases,Databases — Analytics & Warehousing,Z-ordering & data skipping,Debugging live: fix a broken Z-ordering & data skipping in minutes
+Databases,Databases — Analytics & Warehousing,approximate queries (HyperLogLog/sketches),Read/Write patterns that pair best with approximate queries (HyperLogLog/sketches)
+Databases,Databases — Analytics & Warehousing,broadcast vs shuffle joins,Tuning knobs for broadcast vs shuffle joins: safe defaults → power moves
+Databases,Databases — Analytics & Warehousing,cost-based optimizer (CBO) basics,How to demo cost-based optimizer (CBO) basics in an interview (with examples)
+Databases,Databases — Analytics & Warehousing,OLTP vs OLAP,OLTP vs OLAP explained with Bollywood marriages 💍
+Databases,Databases — Analytics & Warehousing,star vs snowflake schema,Tatkal rush mental model for star vs snowflake schema
+Databases,Databases — Analytics & Warehousing,columnar storage & compression,UPI ledger consistency meets columnar storage & compression
+Databases,Databases — Analytics & Warehousing,partitions & clustering,Zomato dinner rush mapped to partitions & clustering
+Databases,Databases — Analytics & Warehousing,materialized views & refresh,IPL match concurrency stress-tests materialized views & refresh
+Databases,Databases — Analytics & Warehousing,query engines (Presto/Trino),IRCTC queueing intuition for query engines (Presto/Trino)
+Databases,Databases — Analytics & Warehousing,ClickHouse patterns,Gully cricket teams = partitions in ClickHouse patterns
+Databases,Databases — Analytics & Warehousing,BigQuery patterns,Traffic on Bengaluru ORR as BigQuery patterns backpressure

@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Greedy & Intervals,Activity selection,Why proofs matter: exchange argument for Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Counterexamples: when Interval partitioning fails
+DSA,DSA — Greedy & Intervals,Merge intervals,Greedy + heap combo patterns for Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,Intervals visualization grid for Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Edge cases: overlaps/equals in Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,Why Huffman coding scares 90% of interviewees (and how to master it)
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Scheduling with deadlines in 60 seconds — intuition first
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Stop brute forcing: spot the Fractional vs 0/1 knapsack (contrast) trigger words
+DSA,DSA — Greedy & Intervals,Exchange argument,Exchange argument vs brute force — when to switch and why
+DSA,DSA — Greedy & Intervals,Jump game family,Top 7 mistakes in Jump game family that cost offers
+DSA,DSA — Greedy & Intervals,Candy/ratings,From O(N^2) → O(N): optimize your Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,"Monotone queues for extrema for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Greedy & Intervals,Activity selection,Think like an interviewer: how I grade your Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Whiteboard to code: Interval partitioning with edge cases
+DSA,DSA — Greedy & Intervals,Merge intervals,You don’t need to memorize — template for Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,"Minimum platforms cheat sheet: patterns, templates, tests"
+DSA,DSA — Greedy & Intervals,Gas station,Interview day checklist for Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,Draw this first: diagram that unlocks Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,The ‘aha!’ intuition behind Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Hidden constraints that break Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,Dry run like a pro: Exchange argument on real inputs
+DSA,DSA — Greedy & Intervals,Jump game family,"Refactor a messy Jump game family into clean, fast code"
+DSA,DSA — Greedy & Intervals,Candy/ratings,Space vs time in Candy/ratings: what to trade off
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Edge cases that break 8/10 Monotone queues for extrema submissions
+DSA,DSA — Greedy & Intervals,Activity selection,Prove correctness for Activity selection in plain English
+DSA,DSA — Greedy & Intervals,Interval partitioning,Phone screen vs onsite: Interval partitioning differences
+DSA,DSA — Greedy & Intervals,Merge intervals,Speedrun Merge intervals: archetypes you must know
+DSA,DSA — Greedy & Intervals,Minimum platforms,Complexity showdown: naive vs optimal Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Debugging live: fix a broken Gas station solution
+DSA,DSA — Greedy & Intervals,Huffman coding,"Off-by-one, bounds, and overflow in Huffman coding"
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Simplify before you optimize: Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),"Mock interview: one Fractional vs 0/1 knapsack (contrast) problem, full process"
+DSA,DSA — Greedy & Intervals,Exchange argument,Unit tests that catch subtle Exchange argument bugs
+DSA,DSA — Greedy & Intervals,Jump game family,When to use hash maps / sets with Jump game family
+DSA,DSA — Greedy & Intervals,Candy/ratings,Why your Candy/ratings TLEs at scale — and how to fix it
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Read the prompt: keywords that scream Monotone queues for extrema
+DSA,DSA — Greedy & Intervals,Activity selection,Back-of-the-envelope complexity for Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,One trick that simplifies most Interval partitioning questions
+DSA,DSA — Greedy & Intervals,Merge intervals,Stop re-deriving! Reusable template for Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,Edge vs corner cases — Minimum platforms edition
+DSA,DSA — Greedy & Intervals,Gas station,Checklist before coding Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,Why proofs matter: exchange argument for Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Counterexamples: when Scheduling with deadlines fails
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Greedy + heap combo patterns for Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,Intervals visualization grid for Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,Edge cases: overlaps/equals in Jump game family
+DSA,DSA — Greedy & Intervals,Candy/ratings,Why Candy/ratings scares 90% of interviewees (and how to master it)
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Monotone queues for extrema in 60 seconds — intuition first
+DSA,DSA — Greedy & Intervals,Activity selection,Stop brute forcing: spot the Activity selection trigger words
+DSA,DSA — Greedy & Intervals,Interval partitioning,Interval partitioning vs brute force — when to switch and why
+DSA,DSA — Greedy & Intervals,Merge intervals,Top 7 mistakes in Merge intervals that cost offers
+DSA,DSA — Greedy & Intervals,Minimum platforms,From O(N^2) → O(N): optimize your Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,"Gas station for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Greedy & Intervals,Huffman coding,Think like an interviewer: how I grade your Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Whiteboard to code: Scheduling with deadlines with edge cases
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),You don’t need to memorize — template for Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,"Exchange argument cheat sheet: patterns, templates, tests"
+DSA,DSA — Greedy & Intervals,Jump game family,Interview day checklist for Jump game family
+DSA,DSA — Greedy & Intervals,Candy/ratings,Draw this first: diagram that unlocks Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,The ‘aha!’ intuition behind Monotone queues for extrema
+DSA,DSA — Greedy & Intervals,Activity selection,Hidden constraints that break Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Dry run like a pro: Interval partitioning on real inputs
+DSA,DSA — Greedy & Intervals,Merge intervals,"Refactor a messy Merge intervals into clean, fast code"
+DSA,DSA — Greedy & Intervals,Minimum platforms,Space vs time in Minimum platforms: what to trade off
+DSA,DSA — Greedy & Intervals,Gas station,Edge cases that break 8/10 Gas station submissions
+DSA,DSA — Greedy & Intervals,Huffman coding,Prove correctness for Huffman coding in plain English
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Phone screen vs onsite: Scheduling with deadlines differences
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Speedrun Fractional vs 0/1 knapsack (contrast): archetypes you must know
+DSA,DSA — Greedy & Intervals,Exchange argument,Complexity showdown: naive vs optimal Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,Debugging live: fix a broken Jump game family solution
+DSA,DSA — Greedy & Intervals,Candy/ratings,"Off-by-one, bounds, and overflow in Candy/ratings"
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Simplify before you optimize: Monotone queues for extrema
+DSA,DSA — Greedy & Intervals,Activity selection,"Mock interview: one Activity selection problem, full process"
+DSA,DSA — Greedy & Intervals,Interval partitioning,Unit tests that catch subtle Interval partitioning bugs
+DSA,DSA — Greedy & Intervals,Merge intervals,When to use hash maps / sets with Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,Why your Minimum platforms TLEs at scale — and how to fix it
+DSA,DSA — Greedy & Intervals,Gas station,Read the prompt: keywords that scream Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,Back-of-the-envelope complexity for Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,One trick that simplifies most Scheduling with deadlines questions
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Stop re-deriving! Reusable template for Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,Edge vs corner cases — Exchange argument edition
+DSA,DSA — Greedy & Intervals,Jump game family,Checklist before coding Jump game family
+DSA,DSA — Greedy & Intervals,Candy/ratings,Why proofs matter: exchange argument for Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Counterexamples: when Monotone queues for extrema fails
+DSA,DSA — Greedy & Intervals,Activity selection,Greedy + heap combo patterns for Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Intervals visualization grid for Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,Edge cases: overlaps/equals in Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,Why Minimum platforms scares 90% of interviewees (and how to master it)
+DSA,DSA — Greedy & Intervals,Gas station,Gas station in 60 seconds — intuition first
+DSA,DSA — Greedy & Intervals,Huffman coding,Stop brute forcing: spot the Huffman coding trigger words
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Scheduling with deadlines vs brute force — when to switch and why
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Top 7 mistakes in Fractional vs 0/1 knapsack (contrast) that cost offers
+DSA,DSA — Greedy & Intervals,Exchange argument,From O(N^2) → O(N): optimize your Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,"Jump game family for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Greedy & Intervals,Candy/ratings,Think like an interviewer: how I grade your Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Whiteboard to code: Monotone queues for extrema with edge cases
+DSA,DSA — Greedy & Intervals,Activity selection,You don’t need to memorize — template for Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,"Interval partitioning cheat sheet: patterns, templates, tests"
+DSA,DSA — Greedy & Intervals,Merge intervals,Interview day checklist for Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,Draw this first: diagram that unlocks Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,The ‘aha!’ intuition behind Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,Hidden constraints that break Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Dry run like a pro: Scheduling with deadlines on real inputs
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),"Refactor a messy Fractional vs 0/1 knapsack (contrast) into clean, fast code"
+DSA,DSA — Greedy & Intervals,Exchange argument,Space vs time in Exchange argument: what to trade off
+DSA,DSA — Greedy & Intervals,Jump game family,Edge cases that break 8/10 Jump game family submissions
+DSA,DSA — Greedy & Intervals,Candy/ratings,Prove correctness for Candy/ratings in plain English
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Phone screen vs onsite: Monotone queues for extrema differences
+DSA,DSA — Greedy & Intervals,Activity selection,Speedrun Activity selection: archetypes you must know
+DSA,DSA — Greedy & Intervals,Interval partitioning,Complexity showdown: naive vs optimal Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,Debugging live: fix a broken Merge intervals solution
+DSA,DSA — Greedy & Intervals,Minimum platforms,"Off-by-one, bounds, and overflow in Minimum platforms"
+DSA,DSA — Greedy & Intervals,Gas station,Simplify before you optimize: Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,"Mock interview: one Huffman coding problem, full process"
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Unit tests that catch subtle Scheduling with deadlines bugs
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),When to use hash maps / sets with Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,Why your Exchange argument TLEs at scale — and how to fix it
+DSA,DSA — Greedy & Intervals,Jump game family,Read the prompt: keywords that scream Jump game family
+DSA,DSA — Greedy & Intervals,Candy/ratings,Back-of-the-envelope complexity for Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,One trick that simplifies most Monotone queues for extrema questions
+DSA,DSA — Greedy & Intervals,Activity selection,Stop re-deriving! Reusable template for Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Edge vs corner cases — Interval partitioning edition
+DSA,DSA — Greedy & Intervals,Merge intervals,Checklist before coding Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,Why proofs matter: exchange argument for Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Counterexamples: when Gas station fails
+DSA,DSA — Greedy & Intervals,Huffman coding,Greedy + heap combo patterns for Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Intervals visualization grid for Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Edge cases: overlaps/equals in Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,Why Exchange argument scares 90% of interviewees (and how to master it)
+DSA,DSA — Greedy & Intervals,Jump game family,Jump game family in 60 seconds — intuition first
+DSA,DSA — Greedy & Intervals,Candy/ratings,Stop brute forcing: spot the Candy/ratings trigger words
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Monotone queues for extrema vs brute force — when to switch and why
+DSA,DSA — Greedy & Intervals,Activity selection,Top 7 mistakes in Activity selection that cost offers
+DSA,DSA — Greedy & Intervals,Interval partitioning,From O(N^2) → O(N): optimize your Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,"Merge intervals for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Greedy & Intervals,Minimum platforms,Think like an interviewer: how I grade your Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Whiteboard to code: Gas station with edge cases
+DSA,DSA — Greedy & Intervals,Huffman coding,You don’t need to memorize — template for Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,"Scheduling with deadlines cheat sheet: patterns, templates, tests"
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Interview day checklist for Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,Draw this first: diagram that unlocks Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,The ‘aha!’ intuition behind Jump game family
+DSA,DSA — Greedy & Intervals,Candy/ratings,Hidden constraints that break Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Dry run like a pro: Monotone queues for extrema on real inputs
+DSA,DSA — Greedy & Intervals,Activity selection,"Refactor a messy Activity selection into clean, fast code"
+DSA,DSA — Greedy & Intervals,Interval partitioning,Space vs time in Interval partitioning: what to trade off
+DSA,DSA — Greedy & Intervals,Merge intervals,Edge cases that break 8/10 Merge intervals submissions
+DSA,DSA — Greedy & Intervals,Minimum platforms,Prove correctness for Minimum platforms in plain English
+DSA,DSA — Greedy & Intervals,Gas station,Phone screen vs onsite: Gas station differences
+DSA,DSA — Greedy & Intervals,Huffman coding,Speedrun Huffman coding: archetypes you must know
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Complexity showdown: naive vs optimal Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Debugging live: fix a broken Fractional vs 0/1 knapsack (contrast) solution
+DSA,DSA — Greedy & Intervals,Exchange argument,"Off-by-one, bounds, and overflow in Exchange argument"
+DSA,DSA — Greedy & Intervals,Jump game family,Simplify before you optimize: Jump game family
+DSA,DSA — Greedy & Intervals,Candy/ratings,"Mock interview: one Candy/ratings problem, full process"
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Unit tests that catch subtle Monotone queues for extrema bugs
+DSA,DSA — Greedy & Intervals,Activity selection,When to use hash maps / sets with Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Why your Interval partitioning TLEs at scale — and how to fix it
+DSA,DSA — Greedy & Intervals,Merge intervals,Read the prompt: keywords that scream Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,Back-of-the-envelope complexity for Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,One trick that simplifies most Gas station questions
+DSA,DSA — Greedy & Intervals,Huffman coding,Stop re-deriving! Reusable template for Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Edge vs corner cases — Scheduling with deadlines edition
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Checklist before coding Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,Why proofs matter: exchange argument for Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,Counterexamples: when Jump game family fails
+DSA,DSA — Greedy & Intervals,Candy/ratings,Greedy + heap combo patterns for Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Intervals visualization grid for Monotone queues for extrema
+DSA,DSA — Greedy & Intervals,Activity selection,Edge cases: overlaps/equals in Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Why Interval partitioning scares 90% of interviewees (and how to master it)
+DSA,DSA — Greedy & Intervals,Merge intervals,Merge intervals in 60 seconds — intuition first
+DSA,DSA — Greedy & Intervals,Minimum platforms,Stop brute forcing: spot the Minimum platforms trigger words
+DSA,DSA — Greedy & Intervals,Gas station,Gas station vs brute force — when to switch and why
+DSA,DSA — Greedy & Intervals,Huffman coding,Top 7 mistakes in Huffman coding that cost offers
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,From O(N^2) → O(N): optimize your Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),"Fractional vs 0/1 knapsack (contrast) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Greedy & Intervals,Exchange argument,Think like an interviewer: how I grade your Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,Whiteboard to code: Jump game family with edge cases
+DSA,DSA — Greedy & Intervals,Candy/ratings,You don’t need to memorize — template for Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,"Monotone queues for extrema cheat sheet: patterns, templates, tests"
+DSA,DSA — Greedy & Intervals,Activity selection,Interview day checklist for Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Draw this first: diagram that unlocks Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,The ‘aha!’ intuition behind Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,Hidden constraints that break Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Dry run like a pro: Gas station on real inputs
+DSA,DSA — Greedy & Intervals,Huffman coding,"Refactor a messy Huffman coding into clean, fast code"
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Space vs time in Scheduling with deadlines: what to trade off
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Edge cases that break 8/10 Fractional vs 0/1 knapsack (contrast) submissions
+DSA,DSA — Greedy & Intervals,Exchange argument,Prove correctness for Exchange argument in plain English
+DSA,DSA — Greedy & Intervals,Jump game family,Phone screen vs onsite: Jump game family differences
+DSA,DSA — Greedy & Intervals,Candy/ratings,Speedrun Candy/ratings: archetypes you must know
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Complexity showdown: naive vs optimal Monotone queues for extrema
+DSA,DSA — Greedy & Intervals,Activity selection,Debugging live: fix a broken Activity selection solution
+DSA,DSA — Greedy & Intervals,Interval partitioning,"Off-by-one, bounds, and overflow in Interval partitioning"
+DSA,DSA — Greedy & Intervals,Merge intervals,Simplify before you optimize: Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,"Mock interview: one Minimum platforms problem, full process"
+DSA,DSA — Greedy & Intervals,Gas station,Unit tests that catch subtle Gas station bugs
+DSA,DSA — Greedy & Intervals,Huffman coding,When to use hash maps / sets with Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Why your Scheduling with deadlines TLEs at scale — and how to fix it
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Read the prompt: keywords that scream Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,Back-of-the-envelope complexity for Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,One trick that simplifies most Jump game family questions
+DSA,DSA — Greedy & Intervals,Candy/ratings,Stop re-deriving! Reusable template for Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Edge vs corner cases — Monotone queues for extrema edition
+DSA,DSA — Greedy & Intervals,Activity selection,Checklist before coding Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Why proofs matter: exchange argument for Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,Counterexamples: when Merge intervals fails
+DSA,DSA — Greedy & Intervals,Minimum platforms,Greedy + heap combo patterns for Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Intervals visualization grid for Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,Edge cases: overlaps/equals in Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Why Scheduling with deadlines scares 90% of interviewees (and how to master it)
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Fractional vs 0/1 knapsack (contrast) in 60 seconds — intuition first
+DSA,DSA — Greedy & Intervals,Exchange argument,Stop brute forcing: spot the Exchange argument trigger words
+DSA,DSA — Greedy & Intervals,Jump game family,Jump game family vs brute force — when to switch and why
+DSA,DSA — Greedy & Intervals,Candy/ratings,Top 7 mistakes in Candy/ratings that cost offers
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,From O(N^2) → O(N): optimize your Monotone queues for extrema
+DSA,DSA — Greedy & Intervals,Activity selection,"Activity selection for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Greedy & Intervals,Interval partitioning,Think like an interviewer: how I grade your Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,Whiteboard to code: Merge intervals with edge cases
+DSA,DSA — Greedy & Intervals,Minimum platforms,You don’t need to memorize — template for Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,"Gas station cheat sheet: patterns, templates, tests"
+DSA,DSA — Greedy & Intervals,Huffman coding,Interview day checklist for Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Draw this first: diagram that unlocks Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),The ‘aha!’ intuition behind Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,Hidden constraints that break Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,Dry run like a pro: Jump game family on real inputs
+DSA,DSA — Greedy & Intervals,Candy/ratings,"Refactor a messy Candy/ratings into clean, fast code"
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Space vs time in Monotone queues for extrema: what to trade off
+DSA,DSA — Greedy & Intervals,Activity selection,Edge cases that break 8/10 Activity selection submissions
+DSA,DSA — Greedy & Intervals,Interval partitioning,Prove correctness for Interval partitioning in plain English
+DSA,DSA — Greedy & Intervals,Merge intervals,Phone screen vs onsite: Merge intervals differences
+DSA,DSA — Greedy & Intervals,Minimum platforms,Speedrun Minimum platforms: archetypes you must know
+DSA,DSA — Greedy & Intervals,Gas station,Complexity showdown: naive vs optimal Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,Debugging live: fix a broken Huffman coding solution
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,"Off-by-one, bounds, and overflow in Scheduling with deadlines"
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Simplify before you optimize: Fractional vs 0/1 knapsack (contrast)
+DSA,DSA — Greedy & Intervals,Exchange argument,"Mock interview: one Exchange argument problem, full process"
+DSA,DSA — Greedy & Intervals,Jump game family,Unit tests that catch subtle Jump game family bugs
+DSA,DSA — Greedy & Intervals,Candy/ratings,When to use hash maps / sets with Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Why your Monotone queues for extrema TLEs at scale — and how to fix it
+DSA,DSA — Greedy & Intervals,Activity selection,Read the prompt: keywords that scream Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Back-of-the-envelope complexity for Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,One trick that simplifies most Merge intervals questions
+DSA,DSA — Greedy & Intervals,Minimum platforms,Stop re-deriving! Reusable template for Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Edge vs corner cases — Gas station edition
+DSA,DSA — Greedy & Intervals,Huffman coding,Checklist before coding Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Why proofs matter: exchange argument for Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Counterexamples: when Fractional vs 0/1 knapsack (contrast) fails
+DSA,DSA — Greedy & Intervals,Exchange argument,Greedy + heap combo patterns for Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,Intervals visualization grid for Jump game family
+DSA,DSA — Greedy & Intervals,Candy/ratings,Edge cases: overlaps/equals in Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Why Monotone queues for extrema scares 90% of interviewees (and how to master it)
+DSA,DSA — Greedy & Intervals,Activity selection,Activity selection in 60 seconds — intuition first
+DSA,DSA — Greedy & Intervals,Interval partitioning,Stop brute forcing: spot the Interval partitioning trigger words
+DSA,DSA — Greedy & Intervals,Merge intervals,Merge intervals vs brute force — when to switch and why
+DSA,DSA — Greedy & Intervals,Minimum platforms,Top 7 mistakes in Minimum platforms that cost offers
+DSA,DSA — Greedy & Intervals,Gas station,From O(N^2) → O(N): optimize your Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,"Huffman coding for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Think like an interviewer: how I grade your Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Whiteboard to code: Fractional vs 0/1 knapsack (contrast) with edge cases
+DSA,DSA — Greedy & Intervals,Exchange argument,You don’t need to memorize — template for Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,"Jump game family cheat sheet: patterns, templates, tests"
+DSA,DSA — Greedy & Intervals,Candy/ratings,Interview day checklist for Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Draw this first: diagram that unlocks Monotone queues for extrema
+DSA,DSA — Greedy & Intervals,Activity selection,The ‘aha!’ intuition behind Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Hidden constraints that break Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,Dry run like a pro: Merge intervals on real inputs
+DSA,DSA — Greedy & Intervals,Minimum platforms,"Refactor a messy Minimum platforms into clean, fast code"
+DSA,DSA — Greedy & Intervals,Gas station,Space vs time in Gas station: what to trade off
+DSA,DSA — Greedy & Intervals,Huffman coding,Edge cases that break 8/10 Huffman coding submissions
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Prove correctness for Scheduling with deadlines in plain English
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Phone screen vs onsite: Fractional vs 0/1 knapsack (contrast) differences
+DSA,DSA — Greedy & Intervals,Exchange argument,Speedrun Exchange argument: archetypes you must know
+DSA,DSA — Greedy & Intervals,Jump game family,Complexity showdown: naive vs optimal Jump game family
+DSA,DSA — Greedy & Intervals,Candy/ratings,Debugging live: fix a broken Candy/ratings solution
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,"Off-by-one, bounds, and overflow in Monotone queues for extrema"
+DSA,DSA — Greedy & Intervals,Activity selection,Simplify before you optimize: Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,"Mock interview: one Interval partitioning problem, full process"
+DSA,DSA — Greedy & Intervals,Merge intervals,Unit tests that catch subtle Merge intervals bugs
+DSA,DSA — Greedy & Intervals,Minimum platforms,When to use hash maps / sets with Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Why your Gas station TLEs at scale — and how to fix it
+DSA,DSA — Greedy & Intervals,Huffman coding,Read the prompt: keywords that scream Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Back-of-the-envelope complexity for Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),One trick that simplifies most Fractional vs 0/1 knapsack (contrast) questions
+DSA,DSA — Greedy & Intervals,Exchange argument,Stop re-deriving! Reusable template for Exchange argument
+DSA,DSA — Greedy & Intervals,Jump game family,Edge vs corner cases — Jump game family edition
+DSA,DSA — Greedy & Intervals,Candy/ratings,Checklist before coding Candy/ratings
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Why proofs matter: exchange argument for Monotone queues for extrema
+DSA,DSA — Greedy & Intervals,Activity selection,Counterexamples: when Activity selection fails
+DSA,DSA — Greedy & Intervals,Interval partitioning,Greedy + heap combo patterns for Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,Intervals visualization grid for Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,Edge cases: overlaps/equals in Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Why Gas station scares 90% of interviewees (and how to master it)
+DSA,DSA — Greedy & Intervals,Huffman coding,Huffman coding in 60 seconds — intuition first
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Stop brute forcing: spot the Scheduling with deadlines trigger words
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Fractional vs 0/1 knapsack (contrast) vs brute force — when to switch and why
+DSA,DSA — Greedy & Intervals,Exchange argument,Top 7 mistakes in Exchange argument that cost offers
+DSA,DSA — Greedy & Intervals,Jump game family,From O(N^2) → O(N): optimize your Jump game family
+DSA,DSA — Greedy & Intervals,Candy/ratings,"Candy/ratings for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Think like an interviewer: how I grade your Monotone queues for extrema
+DSA,DSA — Greedy & Intervals,Activity selection,Whiteboard to code: Activity selection with edge cases
+DSA,DSA — Greedy & Intervals,Interval partitioning,You don’t need to memorize — template for Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,"Merge intervals cheat sheet: patterns, templates, tests"
+DSA,DSA — Greedy & Intervals,Minimum platforms,Interview day checklist for Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Draw this first: diagram that unlocks Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,The ‘aha!’ intuition behind Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Hidden constraints that break Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),Dry run like a pro: Fractional vs 0/1 knapsack (contrast) on real inputs
+DSA,DSA — Greedy & Intervals,Exchange argument,"Refactor a messy Exchange argument into clean, fast code"
+DSA,DSA — Greedy & Intervals,Jump game family,Space vs time in Jump game family: what to trade off
+DSA,DSA — Greedy & Intervals,Candy/ratings,Edge cases that break 8/10 Candy/ratings submissions
+DSA,DSA — Greedy & Intervals,Monotone queues for extrema,Prove correctness for Monotone queues for extrema in plain English
+DSA,DSA — Greedy & Intervals,Activity selection,Cricket powerplay planning as Activity selection
+DSA,DSA — Greedy & Intervals,Interval partitioning,Bengaluru metro transfers visualizing Interval partitioning
+DSA,DSA — Greedy & Intervals,Merge intervals,Dabbawala routing intuition for Merge intervals
+DSA,DSA — Greedy & Intervals,Minimum platforms,UPI retries mental model for Minimum platforms
+DSA,DSA — Greedy & Intervals,Gas station,Cricket powerplay planning as Gas station
+DSA,DSA — Greedy & Intervals,Huffman coding,Bengaluru metro transfers visualizing Huffman coding
+DSA,DSA — Greedy & Intervals,Scheduling with deadlines,Dabbawala routing intuition for Scheduling with deadlines
+DSA,DSA — Greedy & Intervals,Fractional vs 0/1 knapsack (contrast),UPI retries mental model for Fractional vs 0/1 knapsack (contrast)

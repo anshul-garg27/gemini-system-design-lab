@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Geometry,Orientation & cross product,Robustness: epsilons & integer geometry in Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Visual intuition first for Line intersection
+DSA,DSA — Geometry,Closest pair of points,Common traps: collinearity & degenerates in Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Templates & helpers for Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Interview picks that feature Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Why Sweep line (events) scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Point-in-polygon (ray/winding) in 60 seconds — intuition first
+DSA,DSA — Geometry,Polygon area (shoelace),Stop brute forcing: spot the Polygon area (shoelace) trigger words
+DSA,DSA — Geometry,Circle/rectangle overlap,Circle/rectangle overlap vs brute force — when to switch and why
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Top 7 mistakes in Grid geometry (BFS with diagonals) that cost offers
+DSA,DSA — Geometry,Knight moves (grid),From O(N^2) → O(N): optimize your Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,"Segment intersection for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Bounding boxes & pruning,Think like an interviewer: how I grade your Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Whiteboard to code: Orientation & cross product with edge cases
+DSA,DSA — Geometry,Line intersection,You don’t need to memorize — template for Line intersection
+DSA,DSA — Geometry,Closest pair of points,Interview day checklist for Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Hidden constraints that break Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Prove correctness for Rotating calipers in plain English
+DSA,DSA — Geometry,Sweep line (events),Speedrun Sweep line (events): archetypes you must know
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Complexity showdown: naive vs optimal Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),One trick that simplifies most Polygon area (shoelace) questions
+DSA,DSA — Geometry,Circle/rectangle overlap,Robustness: epsilons & integer geometry in Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Visual intuition first for Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Common traps: collinearity & degenerates in Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Templates & helpers for Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Interview picks that feature Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Why Orientation & cross product scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Line intersection,Line intersection in 60 seconds — intuition first
+DSA,DSA — Geometry,Closest pair of points,Stop brute forcing: spot the Closest pair of points trigger words
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Convex hull (Graham/Andrew) vs brute force — when to switch and why
+DSA,DSA — Geometry,Rotating calipers,Top 7 mistakes in Rotating calipers that cost offers
+DSA,DSA — Geometry,Sweep line (events),From O(N^2) → O(N): optimize your Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),"Point-in-polygon (ray/winding) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Polygon area (shoelace),Think like an interviewer: how I grade your Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,Whiteboard to code: Circle/rectangle overlap with edge cases
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),You don’t need to memorize — template for Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Interview day checklist for Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Hidden constraints that break Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Prove correctness for Bounding boxes & pruning in plain English
+DSA,DSA — Geometry,Orientation & cross product,Speedrun Orientation & cross product: archetypes you must know
+DSA,DSA — Geometry,Line intersection,Complexity showdown: naive vs optimal Line intersection
+DSA,DSA — Geometry,Closest pair of points,One trick that simplifies most Closest pair of points questions
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Robustness: epsilons & integer geometry in Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Visual intuition first for Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Common traps: collinearity & degenerates in Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Templates & helpers for Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),Interview picks that feature Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,Why Circle/rectangle overlap scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Grid geometry (BFS with diagonals) in 60 seconds — intuition first
+DSA,DSA — Geometry,Knight moves (grid),Stop brute forcing: spot the Knight moves (grid) trigger words
+DSA,DSA — Geometry,Segment intersection,Segment intersection vs brute force — when to switch and why
+DSA,DSA — Geometry,Bounding boxes & pruning,Top 7 mistakes in Bounding boxes & pruning that cost offers
+DSA,DSA — Geometry,Orientation & cross product,From O(N^2) → O(N): optimize your Orientation & cross product
+DSA,DSA — Geometry,Line intersection,"Line intersection for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Closest pair of points,Think like an interviewer: how I grade your Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Whiteboard to code: Convex hull (Graham/Andrew) with edge cases
+DSA,DSA — Geometry,Rotating calipers,You don’t need to memorize — template for Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Interview day checklist for Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Hidden constraints that break Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),Prove correctness for Polygon area (shoelace) in plain English
+DSA,DSA — Geometry,Circle/rectangle overlap,Speedrun Circle/rectangle overlap: archetypes you must know
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Complexity showdown: naive vs optimal Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),One trick that simplifies most Knight moves (grid) questions
+DSA,DSA — Geometry,Segment intersection,Robustness: epsilons & integer geometry in Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Visual intuition first for Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Common traps: collinearity & degenerates in Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Templates & helpers for Line intersection
+DSA,DSA — Geometry,Closest pair of points,Interview picks that feature Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Why Convex hull (Graham/Andrew) scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Rotating calipers,Rotating calipers in 60 seconds — intuition first
+DSA,DSA — Geometry,Sweep line (events),Stop brute forcing: spot the Sweep line (events) trigger words
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Point-in-polygon (ray/winding) vs brute force — when to switch and why
+DSA,DSA — Geometry,Polygon area (shoelace),Top 7 mistakes in Polygon area (shoelace) that cost offers
+DSA,DSA — Geometry,Circle/rectangle overlap,From O(N^2) → O(N): optimize your Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),"Grid geometry (BFS with diagonals) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Knight moves (grid),Think like an interviewer: how I grade your Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Whiteboard to code: Segment intersection with edge cases
+DSA,DSA — Geometry,Bounding boxes & pruning,You don’t need to memorize — template for Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Interview day checklist for Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Hidden constraints that break Line intersection
+DSA,DSA — Geometry,Closest pair of points,Prove correctness for Closest pair of points in plain English
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Speedrun Convex hull (Graham/Andrew): archetypes you must know
+DSA,DSA — Geometry,Rotating calipers,Complexity showdown: naive vs optimal Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),One trick that simplifies most Sweep line (events) questions
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Robustness: epsilons & integer geometry in Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),Visual intuition first for Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,Common traps: collinearity & degenerates in Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Templates & helpers for Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Interview picks that feature Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Why Segment intersection scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Bounding boxes & pruning,Bounding boxes & pruning in 60 seconds — intuition first
+DSA,DSA — Geometry,Orientation & cross product,Stop brute forcing: spot the Orientation & cross product trigger words
+DSA,DSA — Geometry,Line intersection,Line intersection vs brute force — when to switch and why
+DSA,DSA — Geometry,Closest pair of points,Top 7 mistakes in Closest pair of points that cost offers
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),From O(N^2) → O(N): optimize your Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,"Rotating calipers for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Sweep line (events),Think like an interviewer: how I grade your Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Whiteboard to code: Point-in-polygon (ray/winding) with edge cases
+DSA,DSA — Geometry,Polygon area (shoelace),You don’t need to memorize — template for Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,Interview day checklist for Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Hidden constraints that break Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Prove correctness for Knight moves (grid) in plain English
+DSA,DSA — Geometry,Segment intersection,Speedrun Segment intersection: archetypes you must know
+DSA,DSA — Geometry,Bounding boxes & pruning,Complexity showdown: naive vs optimal Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,One trick that simplifies most Orientation & cross product questions
+DSA,DSA — Geometry,Line intersection,Robustness: epsilons & integer geometry in Line intersection
+DSA,DSA — Geometry,Closest pair of points,Visual intuition first for Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Common traps: collinearity & degenerates in Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Templates & helpers for Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Interview picks that feature Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Why Point-in-polygon (ray/winding) scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Polygon area (shoelace),Polygon area (shoelace) in 60 seconds — intuition first
+DSA,DSA — Geometry,Circle/rectangle overlap,Stop brute forcing: spot the Circle/rectangle overlap trigger words
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Grid geometry (BFS with diagonals) vs brute force — when to switch and why
+DSA,DSA — Geometry,Knight moves (grid),Top 7 mistakes in Knight moves (grid) that cost offers
+DSA,DSA — Geometry,Segment intersection,From O(N^2) → O(N): optimize your Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,"Bounding boxes & pruning for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Orientation & cross product,Think like an interviewer: how I grade your Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Whiteboard to code: Line intersection with edge cases
+DSA,DSA — Geometry,Closest pair of points,You don’t need to memorize — template for Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Interview day checklist for Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Hidden constraints that break Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Prove correctness for Sweep line (events) in plain English
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Speedrun Point-in-polygon (ray/winding): archetypes you must know
+DSA,DSA — Geometry,Polygon area (shoelace),Complexity showdown: naive vs optimal Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,One trick that simplifies most Circle/rectangle overlap questions
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Robustness: epsilons & integer geometry in Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Visual intuition first for Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Common traps: collinearity & degenerates in Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Templates & helpers for Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Interview picks that feature Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Why Line intersection scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Closest pair of points,Closest pair of points in 60 seconds — intuition first
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Stop brute forcing: spot the Convex hull (Graham/Andrew) trigger words
+DSA,DSA — Geometry,Rotating calipers,Rotating calipers vs brute force — when to switch and why
+DSA,DSA — Geometry,Sweep line (events),Top 7 mistakes in Sweep line (events) that cost offers
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),From O(N^2) → O(N): optimize your Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),"Polygon area (shoelace) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Circle/rectangle overlap,Think like an interviewer: how I grade your Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Whiteboard to code: Grid geometry (BFS with diagonals) with edge cases
+DSA,DSA — Geometry,Knight moves (grid),You don’t need to memorize — template for Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Interview day checklist for Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Hidden constraints that break Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Prove correctness for Orientation & cross product in plain English
+DSA,DSA — Geometry,Line intersection,Speedrun Line intersection: archetypes you must know
+DSA,DSA — Geometry,Closest pair of points,Complexity showdown: naive vs optimal Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),One trick that simplifies most Convex hull (Graham/Andrew) questions
+DSA,DSA — Geometry,Rotating calipers,Robustness: epsilons & integer geometry in Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Visual intuition first for Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Common traps: collinearity & degenerates in Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),Templates & helpers for Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,Interview picks that feature Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Why Grid geometry (BFS with diagonals) scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Knight moves (grid),Knight moves (grid) in 60 seconds — intuition first
+DSA,DSA — Geometry,Segment intersection,Stop brute forcing: spot the Segment intersection trigger words
+DSA,DSA — Geometry,Bounding boxes & pruning,Bounding boxes & pruning vs brute force — when to switch and why
+DSA,DSA — Geometry,Orientation & cross product,Top 7 mistakes in Orientation & cross product that cost offers
+DSA,DSA — Geometry,Line intersection,From O(N^2) → O(N): optimize your Line intersection
+DSA,DSA — Geometry,Closest pair of points,"Closest pair of points for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Think like an interviewer: how I grade your Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Whiteboard to code: Rotating calipers with edge cases
+DSA,DSA — Geometry,Sweep line (events),You don’t need to memorize — template for Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Interview day checklist for Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),Hidden constraints that break Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,Prove correctness for Circle/rectangle overlap in plain English
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Speedrun Grid geometry (BFS with diagonals): archetypes you must know
+DSA,DSA — Geometry,Knight moves (grid),Complexity showdown: naive vs optimal Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,One trick that simplifies most Segment intersection questions
+DSA,DSA — Geometry,Bounding boxes & pruning,Robustness: epsilons & integer geometry in Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Visual intuition first for Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Common traps: collinearity & degenerates in Line intersection
+DSA,DSA — Geometry,Closest pair of points,Templates & helpers for Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Interview picks that feature Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Why Rotating calipers scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Sweep line (events),Sweep line (events) in 60 seconds — intuition first
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Stop brute forcing: spot the Point-in-polygon (ray/winding) trigger words
+DSA,DSA — Geometry,Polygon area (shoelace),Polygon area (shoelace) vs brute force — when to switch and why
+DSA,DSA — Geometry,Circle/rectangle overlap,Top 7 mistakes in Circle/rectangle overlap that cost offers
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),From O(N^2) → O(N): optimize your Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),"Knight moves (grid) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Segment intersection,Think like an interviewer: how I grade your Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Whiteboard to code: Bounding boxes & pruning with edge cases
+DSA,DSA — Geometry,Orientation & cross product,You don’t need to memorize — template for Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Interview day checklist for Line intersection
+DSA,DSA — Geometry,Closest pair of points,Hidden constraints that break Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Prove correctness for Convex hull (Graham/Andrew) in plain English
+DSA,DSA — Geometry,Rotating calipers,Speedrun Rotating calipers: archetypes you must know
+DSA,DSA — Geometry,Sweep line (events),Complexity showdown: naive vs optimal Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),One trick that simplifies most Point-in-polygon (ray/winding) questions
+DSA,DSA — Geometry,Polygon area (shoelace),Robustness: epsilons & integer geometry in Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,Visual intuition first for Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Common traps: collinearity & degenerates in Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Templates & helpers for Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Interview picks that feature Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Why Bounding boxes & pruning scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Orientation & cross product,Orientation & cross product in 60 seconds — intuition first
+DSA,DSA — Geometry,Line intersection,Stop brute forcing: spot the Line intersection trigger words
+DSA,DSA — Geometry,Closest pair of points,Closest pair of points vs brute force — when to switch and why
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Top 7 mistakes in Convex hull (Graham/Andrew) that cost offers
+DSA,DSA — Geometry,Rotating calipers,From O(N^2) → O(N): optimize your Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),"Sweep line (events) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Think like an interviewer: how I grade your Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),Whiteboard to code: Polygon area (shoelace) with edge cases
+DSA,DSA — Geometry,Circle/rectangle overlap,You don’t need to memorize — template for Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Interview day checklist for Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Hidden constraints that break Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Prove correctness for Segment intersection in plain English
+DSA,DSA — Geometry,Bounding boxes & pruning,Speedrun Bounding boxes & pruning: archetypes you must know
+DSA,DSA — Geometry,Orientation & cross product,Complexity showdown: naive vs optimal Orientation & cross product
+DSA,DSA — Geometry,Line intersection,One trick that simplifies most Line intersection questions
+DSA,DSA — Geometry,Closest pair of points,Robustness: epsilons & integer geometry in Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Visual intuition first for Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Common traps: collinearity & degenerates in Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Templates & helpers for Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Interview picks that feature Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),Why Polygon area (shoelace) scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Circle/rectangle overlap,Circle/rectangle overlap in 60 seconds — intuition first
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Stop brute forcing: spot the Grid geometry (BFS with diagonals) trigger words
+DSA,DSA — Geometry,Knight moves (grid),Knight moves (grid) vs brute force — when to switch and why
+DSA,DSA — Geometry,Segment intersection,Top 7 mistakes in Segment intersection that cost offers
+DSA,DSA — Geometry,Bounding boxes & pruning,From O(N^2) → O(N): optimize your Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,"Orientation & cross product for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Line intersection,Think like an interviewer: how I grade your Line intersection
+DSA,DSA — Geometry,Closest pair of points,Whiteboard to code: Closest pair of points with edge cases
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),You don’t need to memorize — template for Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Interview day checklist for Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Hidden constraints that break Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Prove correctness for Point-in-polygon (ray/winding) in plain English
+DSA,DSA — Geometry,Polygon area (shoelace),Speedrun Polygon area (shoelace): archetypes you must know
+DSA,DSA — Geometry,Circle/rectangle overlap,Complexity showdown: naive vs optimal Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),One trick that simplifies most Grid geometry (BFS with diagonals) questions
+DSA,DSA — Geometry,Knight moves (grid),Robustness: epsilons & integer geometry in Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Visual intuition first for Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Common traps: collinearity & degenerates in Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Templates & helpers for Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Interview picks that feature Line intersection
+DSA,DSA — Geometry,Closest pair of points,Why Closest pair of points scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Convex hull (Graham/Andrew) in 60 seconds — intuition first
+DSA,DSA — Geometry,Rotating calipers,Stop brute forcing: spot the Rotating calipers trigger words
+DSA,DSA — Geometry,Sweep line (events),Sweep line (events) vs brute force — when to switch and why
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Top 7 mistakes in Point-in-polygon (ray/winding) that cost offers
+DSA,DSA — Geometry,Polygon area (shoelace),From O(N^2) → O(N): optimize your Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,"Circle/rectangle overlap for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Think like an interviewer: how I grade your Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Whiteboard to code: Knight moves (grid) with edge cases
+DSA,DSA — Geometry,Segment intersection,You don’t need to memorize — template for Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Interview day checklist for Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Hidden constraints that break Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Prove correctness for Line intersection in plain English
+DSA,DSA — Geometry,Closest pair of points,Speedrun Closest pair of points: archetypes you must know
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Complexity showdown: naive vs optimal Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,One trick that simplifies most Rotating calipers questions
+DSA,DSA — Geometry,Sweep line (events),Robustness: epsilons & integer geometry in Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Visual intuition first for Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),Common traps: collinearity & degenerates in Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,Templates & helpers for Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Interview picks that feature Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Why Knight moves (grid) scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Segment intersection,Segment intersection in 60 seconds — intuition first
+DSA,DSA — Geometry,Bounding boxes & pruning,Stop brute forcing: spot the Bounding boxes & pruning trigger words
+DSA,DSA — Geometry,Orientation & cross product,Orientation & cross product vs brute force — when to switch and why
+DSA,DSA — Geometry,Line intersection,Top 7 mistakes in Line intersection that cost offers
+DSA,DSA — Geometry,Closest pair of points,From O(N^2) → O(N): optimize your Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),"Convex hull (Graham/Andrew) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Rotating calipers,Think like an interviewer: how I grade your Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Whiteboard to code: Sweep line (events) with edge cases
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),You don’t need to memorize — template for Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),Interview day checklist for Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,Hidden constraints that break Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Prove correctness for Grid geometry (BFS with diagonals) in plain English
+DSA,DSA — Geometry,Knight moves (grid),Speedrun Knight moves (grid): archetypes you must know
+DSA,DSA — Geometry,Segment intersection,Complexity showdown: naive vs optimal Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,One trick that simplifies most Bounding boxes & pruning questions
+DSA,DSA — Geometry,Orientation & cross product,Robustness: epsilons & integer geometry in Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Visual intuition first for Line intersection
+DSA,DSA — Geometry,Closest pair of points,Common traps: collinearity & degenerates in Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Templates & helpers for Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Interview picks that feature Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Why Sweep line (events) scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Point-in-polygon (ray/winding) in 60 seconds — intuition first
+DSA,DSA — Geometry,Polygon area (shoelace),Stop brute forcing: spot the Polygon area (shoelace) trigger words
+DSA,DSA — Geometry,Circle/rectangle overlap,Circle/rectangle overlap vs brute force — when to switch and why
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Top 7 mistakes in Grid geometry (BFS with diagonals) that cost offers
+DSA,DSA — Geometry,Knight moves (grid),From O(N^2) → O(N): optimize your Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,"Segment intersection for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Bounding boxes & pruning,Think like an interviewer: how I grade your Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Whiteboard to code: Orientation & cross product with edge cases
+DSA,DSA — Geometry,Line intersection,You don’t need to memorize — template for Line intersection
+DSA,DSA — Geometry,Closest pair of points,Interview day checklist for Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Hidden constraints that break Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,Prove correctness for Rotating calipers in plain English
+DSA,DSA — Geometry,Sweep line (events),Speedrun Sweep line (events): archetypes you must know
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Complexity showdown: naive vs optimal Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),One trick that simplifies most Polygon area (shoelace) questions
+DSA,DSA — Geometry,Circle/rectangle overlap,Robustness: epsilons & integer geometry in Circle/rectangle overlap
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),Visual intuition first for Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Common traps: collinearity & degenerates in Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Templates & helpers for Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Interview picks that feature Bounding boxes & pruning
+DSA,DSA — Geometry,Orientation & cross product,Why Orientation & cross product scares 90% of interviewees (and how to master it)
+DSA,DSA — Geometry,Line intersection,Line intersection in 60 seconds — intuition first
+DSA,DSA — Geometry,Closest pair of points,Stop brute forcing: spot the Closest pair of points trigger words
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Convex hull (Graham/Andrew) vs brute force — when to switch and why
+DSA,DSA — Geometry,Rotating calipers,Top 7 mistakes in Rotating calipers that cost offers
+DSA,DSA — Geometry,Sweep line (events),From O(N^2) → O(N): optimize your Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),"Point-in-polygon (ray/winding) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Geometry,Polygon area (shoelace),Think like an interviewer: how I grade your Polygon area (shoelace)
+DSA,DSA — Geometry,Circle/rectangle overlap,Whiteboard to code: Circle/rectangle overlap with edge cases
+DSA,DSA — Geometry,Grid geometry (BFS with diagonals),You don’t need to memorize — template for Grid geometry (BFS with diagonals)
+DSA,DSA — Geometry,Knight moves (grid),Interview day checklist for Knight moves (grid)
+DSA,DSA — Geometry,Segment intersection,Hidden constraints that break Segment intersection
+DSA,DSA — Geometry,Bounding boxes & pruning,Prove correctness for Bounding boxes & pruning in plain English
+DSA,DSA — Geometry,Orientation & cross product,City mapping & convex hull like Orientation & cross product
+DSA,DSA — Geometry,Line intersection,Cricket boundary lines as Line intersection
+DSA,DSA — Geometry,Closest pair of points,Metro lines & intersections via Closest pair of points
+DSA,DSA — Geometry,Convex hull (Graham/Andrew),Delivery zones & polygons as Convex hull (Graham/Andrew)
+DSA,DSA — Geometry,Rotating calipers,City mapping & convex hull like Rotating calipers
+DSA,DSA — Geometry,Sweep line (events),Cricket boundary lines as Sweep line (events)
+DSA,DSA — Geometry,Point-in-polygon (ray/winding),Metro lines & intersections via Point-in-polygon (ray/winding)
+DSA,DSA — Geometry,Polygon area (shoelace),Delivery zones & polygons as Polygon area (shoelace)

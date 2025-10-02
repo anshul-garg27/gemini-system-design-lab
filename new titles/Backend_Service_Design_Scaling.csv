@@ -1,0 +1,321 @@
+pillar,category,seed,title
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Why every Indian startup runs on APIs (and how they scale) — monolith vs microservices edition
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,"bounded contexts in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Stop building slow endpoints: CQRS/event sourcing patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,idempotent workflows vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Top 7 mistakes in multitenancy & tenant isolation that cost outages
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,"From flaky to reliable: retries, idempotency, timeouts for schema & contract evolution"
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,The mental model that unlocks data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Whiteboard to prod: shipping outbox pattern with guardrails
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Interview day checklist: read models & denormalization in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Explain like I’m 5: distributed locks without jargon
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,"Observability-first graceful degradation: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Cost-aware monolith vs microservices: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Do’s & don’ts: clean APIs around bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Backpressure and rate limits: taming spiky traffic in CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,API versioning & compatibility: zero-downtime decisions for idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,N+1 killers: caching & pagination patterns for multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,SLOs & SLAs: promise what you can keep with schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Blueprint: load test & stage rollouts for data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Security checklist before launch: outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Postmortem 101: learning from incidents in read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Why every Indian startup runs on APIs (and how they scale) — distributed locks edition
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,"graceful degradation in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Stop building slow endpoints: monolith vs microservices patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,bounded contexts vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Top 7 mistakes in CQRS/event sourcing that cost outages
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,"From flaky to reliable: retries, idempotency, timeouts for idempotent workflows"
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,The mental model that unlocks multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Whiteboard to prod: shipping schema & contract evolution with guardrails
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Interview day checklist: data ownership & anti-corruption in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Explain like I’m 5: outbox pattern without jargon
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,"Observability-first read models & denormalization: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Cost-aware distributed locks: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Do’s & don’ts: clean APIs around graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Backpressure and rate limits: taming spiky traffic in monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,API versioning & compatibility: zero-downtime decisions for bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,N+1 killers: caching & pagination patterns for CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,SLOs & SLAs: promise what you can keep with idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Blueprint: load test & stage rollouts for multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Security checklist before launch: schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Postmortem 101: learning from incidents in data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Why every Indian startup runs on APIs (and how they scale) — outbox pattern edition
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,"read models & denormalization in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Stop building slow endpoints: distributed locks patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,graceful degradation vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Top 7 mistakes in monolith vs microservices that cost outages
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,"From flaky to reliable: retries, idempotency, timeouts for bounded contexts"
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,The mental model that unlocks CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Whiteboard to prod: shipping idempotent workflows with guardrails
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Interview day checklist: multitenancy & tenant isolation in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Explain like I’m 5: schema & contract evolution without jargon
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,"Observability-first data ownership & anti-corruption: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Cost-aware outbox pattern: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Do’s & don’ts: clean APIs around read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Backpressure and rate limits: taming spiky traffic in distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,API versioning & compatibility: zero-downtime decisions for graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,N+1 killers: caching & pagination patterns for monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,SLOs & SLAs: promise what you can keep with bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Blueprint: load test & stage rollouts for CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Security checklist before launch: idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Postmortem 101: learning from incidents in multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Why every Indian startup runs on APIs (and how they scale) — schema & contract evolution edition
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,"data ownership & anti-corruption in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Stop building slow endpoints: outbox pattern patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,read models & denormalization vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Top 7 mistakes in distributed locks that cost outages
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,"From flaky to reliable: retries, idempotency, timeouts for graceful degradation"
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,The mental model that unlocks monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Whiteboard to prod: shipping bounded contexts with guardrails
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Interview day checklist: CQRS/event sourcing in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Explain like I’m 5: idempotent workflows without jargon
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,"Observability-first multitenancy & tenant isolation: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Cost-aware schema & contract evolution: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Do’s & don’ts: clean APIs around data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Backpressure and rate limits: taming spiky traffic in outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,API versioning & compatibility: zero-downtime decisions for read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,N+1 killers: caching & pagination patterns for distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,SLOs & SLAs: promise what you can keep with graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Blueprint: load test & stage rollouts for monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Security checklist before launch: bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Postmortem 101: learning from incidents in CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Why every Indian startup runs on APIs (and how they scale) — idempotent workflows edition
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,"multitenancy & tenant isolation in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Stop building slow endpoints: schema & contract evolution patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,data ownership & anti-corruption vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Top 7 mistakes in outbox pattern that cost outages
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,"From flaky to reliable: retries, idempotency, timeouts for read models & denormalization"
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,The mental model that unlocks distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Whiteboard to prod: shipping graceful degradation with guardrails
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Interview day checklist: monolith vs microservices in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Explain like I’m 5: bounded contexts without jargon
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,"Observability-first CQRS/event sourcing: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Cost-aware idempotent workflows: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Do’s & don’ts: clean APIs around multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Backpressure and rate limits: taming spiky traffic in schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,API versioning & compatibility: zero-downtime decisions for data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,N+1 killers: caching & pagination patterns for outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,SLOs & SLAs: promise what you can keep with read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Blueprint: load test & stage rollouts for distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Security checklist before launch: graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Postmortem 101: learning from incidents in monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Why every Indian startup runs on APIs (and how they scale) — bounded contexts edition
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,"CQRS/event sourcing in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Stop building slow endpoints: idempotent workflows patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,multitenancy & tenant isolation vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Top 7 mistakes in schema & contract evolution that cost outages
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,"From flaky to reliable: retries, idempotency, timeouts for data ownership & anti-corruption"
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,The mental model that unlocks outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Whiteboard to prod: shipping read models & denormalization with guardrails
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Interview day checklist: distributed locks in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Explain like I’m 5: graceful degradation without jargon
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,"Observability-first monolith vs microservices: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Cost-aware bounded contexts: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Do’s & don’ts: clean APIs around CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Backpressure and rate limits: taming spiky traffic in idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,API versioning & compatibility: zero-downtime decisions for multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,N+1 killers: caching & pagination patterns for schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,SLOs & SLAs: promise what you can keep with data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Blueprint: load test & stage rollouts for outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Security checklist before launch: read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Postmortem 101: learning from incidents in distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Why every Indian startup runs on APIs (and how they scale) — graceful degradation edition
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,"monolith vs microservices in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Stop building slow endpoints: bounded contexts patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,CQRS/event sourcing vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Top 7 mistakes in idempotent workflows that cost outages
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,"From flaky to reliable: retries, idempotency, timeouts for multitenancy & tenant isolation"
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,The mental model that unlocks schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Whiteboard to prod: shipping data ownership & anti-corruption with guardrails
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Interview day checklist: outbox pattern in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Explain like I’m 5: read models & denormalization without jargon
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,"Observability-first distributed locks: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Cost-aware graceful degradation: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Do’s & don’ts: clean APIs around monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Backpressure and rate limits: taming spiky traffic in bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,API versioning & compatibility: zero-downtime decisions for CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,N+1 killers: caching & pagination patterns for idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,SLOs & SLAs: promise what you can keep with multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Blueprint: load test & stage rollouts for schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Security checklist before launch: data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Postmortem 101: learning from incidents in outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Why every Indian startup runs on APIs (and how they scale) — read models & denormalization edition
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,"distributed locks in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Stop building slow endpoints: graceful degradation patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,monolith vs microservices vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Top 7 mistakes in bounded contexts that cost outages
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,"From flaky to reliable: retries, idempotency, timeouts for CQRS/event sourcing"
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,The mental model that unlocks idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Whiteboard to prod: shipping multitenancy & tenant isolation with guardrails
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Interview day checklist: schema & contract evolution in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Explain like I’m 5: data ownership & anti-corruption without jargon
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,"Observability-first outbox pattern: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Cost-aware read models & denormalization: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Do’s & don’ts: clean APIs around distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Backpressure and rate limits: taming spiky traffic in graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,API versioning & compatibility: zero-downtime decisions for monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,N+1 killers: caching & pagination patterns for bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,SLOs & SLAs: promise what you can keep with CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Blueprint: load test & stage rollouts for idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Security checklist before launch: multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Postmortem 101: learning from incidents in schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Why every Indian startup runs on APIs (and how they scale) — data ownership & anti-corruption edition
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,"outbox pattern in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Stop building slow endpoints: read models & denormalization patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,distributed locks vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Top 7 mistakes in graceful degradation that cost outages
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,"From flaky to reliable: retries, idempotency, timeouts for monolith vs microservices"
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,The mental model that unlocks bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Whiteboard to prod: shipping CQRS/event sourcing with guardrails
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Interview day checklist: idempotent workflows in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Explain like I’m 5: multitenancy & tenant isolation without jargon
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,"Observability-first schema & contract evolution: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Cost-aware data ownership & anti-corruption: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Do’s & don’ts: clean APIs around outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Backpressure and rate limits: taming spiky traffic in read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,API versioning & compatibility: zero-downtime decisions for distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,N+1 killers: caching & pagination patterns for graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,SLOs & SLAs: promise what you can keep with monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Blueprint: load test & stage rollouts for bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Security checklist before launch: CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Postmortem 101: learning from incidents in idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Why every Indian startup runs on APIs (and how they scale) — multitenancy & tenant isolation edition
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,"schema & contract evolution in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Stop building slow endpoints: data ownership & anti-corruption patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,outbox pattern vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Top 7 mistakes in read models & denormalization that cost outages
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,"From flaky to reliable: retries, idempotency, timeouts for distributed locks"
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,The mental model that unlocks graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Whiteboard to prod: shipping monolith vs microservices with guardrails
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Interview day checklist: bounded contexts in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Explain like I’m 5: CQRS/event sourcing without jargon
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,"Observability-first idempotent workflows: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Cost-aware multitenancy & tenant isolation: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Do’s & don’ts: clean APIs around schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Backpressure and rate limits: taming spiky traffic in data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,API versioning & compatibility: zero-downtime decisions for outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,N+1 killers: caching & pagination patterns for read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,SLOs & SLAs: promise what you can keep with distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Blueprint: load test & stage rollouts for graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Security checklist before launch: monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Postmortem 101: learning from incidents in bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Why every Indian startup runs on APIs (and how they scale) — CQRS/event sourcing edition
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,"idempotent workflows in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Stop building slow endpoints: multitenancy & tenant isolation patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,schema & contract evolution vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Top 7 mistakes in data ownership & anti-corruption that cost outages
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,"From flaky to reliable: retries, idempotency, timeouts for outbox pattern"
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,The mental model that unlocks read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Whiteboard to prod: shipping distributed locks with guardrails
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Interview day checklist: graceful degradation in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Explain like I’m 5: monolith vs microservices without jargon
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,"Observability-first bounded contexts: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Cost-aware CQRS/event sourcing: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Do’s & don’ts: clean APIs around idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Backpressure and rate limits: taming spiky traffic in multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,API versioning & compatibility: zero-downtime decisions for schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,N+1 killers: caching & pagination patterns for data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,SLOs & SLAs: promise what you can keep with outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Blueprint: load test & stage rollouts for read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Security checklist before launch: distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Postmortem 101: learning from incidents in graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Why every Indian startup runs on APIs (and how they scale) — monolith vs microservices edition
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,"bounded contexts in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Stop building slow endpoints: CQRS/event sourcing patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,idempotent workflows vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Top 7 mistakes in multitenancy & tenant isolation that cost outages
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,"From flaky to reliable: retries, idempotency, timeouts for schema & contract evolution"
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,The mental model that unlocks data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Whiteboard to prod: shipping outbox pattern with guardrails
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Interview day checklist: read models & denormalization in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Explain like I’m 5: distributed locks without jargon
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,"Observability-first graceful degradation: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Cost-aware monolith vs microservices: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Do’s & don’ts: clean APIs around bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Backpressure and rate limits: taming spiky traffic in CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,API versioning & compatibility: zero-downtime decisions for idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,N+1 killers: caching & pagination patterns for multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,SLOs & SLAs: promise what you can keep with schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Blueprint: load test & stage rollouts for data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Security checklist before launch: outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Postmortem 101: learning from incidents in read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Why every Indian startup runs on APIs (and how they scale) — distributed locks edition
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,"graceful degradation in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Stop building slow endpoints: monolith vs microservices patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,bounded contexts vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Top 7 mistakes in CQRS/event sourcing that cost outages
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,"From flaky to reliable: retries, idempotency, timeouts for idempotent workflows"
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,The mental model that unlocks multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Whiteboard to prod: shipping schema & contract evolution with guardrails
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Interview day checklist: data ownership & anti-corruption in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Explain like I’m 5: outbox pattern without jargon
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,"Observability-first read models & denormalization: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Cost-aware distributed locks: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Do’s & don’ts: clean APIs around graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Backpressure and rate limits: taming spiky traffic in monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,API versioning & compatibility: zero-downtime decisions for bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,N+1 killers: caching & pagination patterns for CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,SLOs & SLAs: promise what you can keep with idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Blueprint: load test & stage rollouts for multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Security checklist before launch: schema & contract evolution
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Postmortem 101: learning from incidents in data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Why every Indian startup runs on APIs (and how they scale) — outbox pattern edition
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,"read models & denormalization in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Stop building slow endpoints: distributed locks patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,graceful degradation vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Top 7 mistakes in monolith vs microservices that cost outages
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,"From flaky to reliable: retries, idempotency, timeouts for bounded contexts"
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,The mental model that unlocks CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Whiteboard to prod: shipping idempotent workflows with guardrails
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Interview day checklist: multitenancy & tenant isolation in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Explain like I’m 5: schema & contract evolution without jargon
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,"Observability-first data ownership & anti-corruption: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Cost-aware outbox pattern: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Do’s & don’ts: clean APIs around read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Backpressure and rate limits: taming spiky traffic in distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,API versioning & compatibility: zero-downtime decisions for graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,N+1 killers: caching & pagination patterns for monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,SLOs & SLAs: promise what you can keep with bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Blueprint: load test & stage rollouts for CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Security checklist before launch: idempotent workflows
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,Postmortem 101: learning from incidents in multitenancy & tenant isolation
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Why every Indian startup runs on APIs (and how they scale) — schema & contract evolution edition
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,"data ownership & anti-corruption in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Stop building slow endpoints: outbox pattern patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,read models & denormalization vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,Top 7 mistakes in distributed locks that cost outages
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,"From flaky to reliable: retries, idempotency, timeouts for graceful degradation"
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,The mental model that unlocks monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Whiteboard to prod: shipping bounded contexts with guardrails
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Interview day checklist: CQRS/event sourcing in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Explain like I’m 5: idempotent workflows without jargon
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,"Observability-first multitenancy & tenant isolation: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Cost-aware schema & contract evolution: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,Do’s & don’ts: clean APIs around data ownership & anti-corruption
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Backpressure and rate limits: taming spiky traffic in outbox pattern
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,API versioning & compatibility: zero-downtime decisions for read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,N+1 killers: caching & pagination patterns for distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,SLOs & SLAs: promise what you can keep with graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Blueprint: load test & stage rollouts for monolith vs microservices
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Security checklist before launch: bounded contexts
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,Postmortem 101: learning from incidents in CQRS/event sourcing
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Why every Indian startup runs on APIs (and how they scale) — idempotent workflows edition
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,"multitenancy & tenant isolation in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Stop building slow endpoints: schema & contract evolution patterns that actually scale
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,data ownership & anti-corruption vs brute integrations — when to switch and why
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Top 7 mistakes in outbox pattern that cost outages
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,"From flaky to reliable: retries, idempotency, timeouts for read models & denormalization"
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,The mental model that unlocks distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Whiteboard to prod: shipping graceful degradation with guardrails
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,Interview day checklist: monolith vs microservices in 5 bullets
+APIs & Backend,Backend — Service Design & Scalability,bounded contexts,Explain like I’m 5: bounded contexts without jargon
+APIs & Backend,Backend — Service Design & Scalability,CQRS/event sourcing,"Observability-first CQRS/event sourcing: logs, metrics, traces"
+APIs & Backend,Backend — Service Design & Scalability,idempotent workflows,Cost-aware idempotent workflows: make it fast without burning cloud spend
+APIs & Backend,Backend — Service Design & Scalability,multitenancy & tenant isolation,UPI-scale traffic: applying multitenancy & tenant isolation to payments in India
+APIs & Backend,Backend — Service Design & Scalability,schema & contract evolution,Big Billion Days spikes: schema & contract evolution hardening playbook
+APIs & Backend,Backend — Service Design & Scalability,data ownership & anti-corruption,IRCTC Tatkal surge: data ownership & anti-corruption throttling & queues
+APIs & Backend,Backend — Service Design & Scalability,outbox pattern,Bengaluru ORR latency: outbox pattern timeouts & fallbacks
+APIs & Backend,Backend — Service Design & Scalability,read models & denormalization,Zomato dinner rush mapped to read models & denormalization
+APIs & Backend,Backend — Service Design & Scalability,distributed locks,IPL watch party load tests for distributed locks
+APIs & Backend,Backend — Service Design & Scalability,graceful degradation,Aadhaar/e-KYC journeys and graceful degradation
+APIs & Backend,Backend — Service Design & Scalability,monolith vs microservices,India-grade flaky networks: offline-first monolith vs microservices

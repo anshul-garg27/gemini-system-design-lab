@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Perf budgets for Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Real-user monitoring (RUM) for lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Profiling with DevTools around code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Edge caching & CDNs for HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Instant UX wins checklist for Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,"offline-first patterns in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Stop guessing: battle-tested patterns for push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),From messy to clean: refactor your resource hints (preload/prefetch) live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Top 7 mistakes in image formats (AVIF/WebP) (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Whiteboard → code: ship font loading strategies with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Interview-ready: 5 bullets that explain Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Explain like I’m 5: lazy loading images & scripts without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,When to pick A vs B inside code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Debugging live: fix a broken HTTP/2 & HTTP/3 for frontend in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Templates you’ll reuse for Service Workers & caching all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,The mental model that unlocks offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Perf-first push notifications UX: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Accessibility-first resource hints (preload/prefetch): include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Cost-aware image formats (AVIF/WebP): speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Real incidents I’ve seen because of bad font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Design reviews: what senior folks look for in Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,From junior to senior: how you talk about lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Before you code: 4 questions for any code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Do’s & don’ts cheat sheet for HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,UX wins: small tweaks in Service Workers & caching with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Platform tips: ship offline-first patterns to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Perf budgets for push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Real-user monitoring (RUM) for resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Profiling with DevTools around image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Edge caching & CDNs for font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Instant UX wins checklist for Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,"lazy loading images & scripts in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Stop guessing: battle-tested patterns for code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,From messy to clean: refactor your HTTP/2 & HTTP/3 for frontend live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Top 7 mistakes in Service Workers & caching (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Whiteboard → code: ship offline-first patterns with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Interview-ready: 5 bullets that explain push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Explain like I’m 5: resource hints (preload/prefetch) without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),When to pick A vs B inside image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Debugging live: fix a broken font loading strategies in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Templates you’ll reuse for Core Web Vitals (LCP/CLS/INP) all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,The mental model that unlocks lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Perf-first code splitting & preloading: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Accessibility-first HTTP/2 & HTTP/3 for frontend: include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Cost-aware Service Workers & caching: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Real incidents I’ve seen because of bad offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Design reviews: what senior folks look for in push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),From junior to senior: how you talk about resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Before you code: 4 questions for any image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Do’s & don’ts cheat sheet for font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),UX wins: small tweaks in Core Web Vitals (LCP/CLS/INP) with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Platform tips: ship lazy loading images & scripts to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Perf budgets for code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Real-user monitoring (RUM) for HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Profiling with DevTools around Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Edge caching & CDNs for offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Instant UX wins checklist for push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),"resource hints (preload/prefetch) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Stop guessing: battle-tested patterns for image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,From messy to clean: refactor your font loading strategies live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Top 7 mistakes in Core Web Vitals (LCP/CLS/INP) (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Whiteboard → code: ship lazy loading images & scripts with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Interview-ready: 5 bullets that explain code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Explain like I’m 5: HTTP/2 & HTTP/3 for frontend without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,When to pick A vs B inside Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Debugging live: fix a broken offline-first patterns in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Templates you’ll reuse for push notifications UX all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),The mental model that unlocks resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Perf-first image formats (AVIF/WebP): make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Accessibility-first font loading strategies: include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Cost-aware Core Web Vitals (LCP/CLS/INP): speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Real incidents I’ve seen because of bad lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Design reviews: what senior folks look for in code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,From junior to senior: how you talk about HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Before you code: 4 questions for any Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Do’s & don’ts cheat sheet for offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,UX wins: small tweaks in push notifications UX with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Platform tips: ship resource hints (preload/prefetch) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Perf budgets for image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Real-user monitoring (RUM) for font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Profiling with DevTools around Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Edge caching & CDNs for lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Instant UX wins checklist for code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,"HTTP/2 & HTTP/3 for frontend in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Stop guessing: battle-tested patterns for Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,From messy to clean: refactor your offline-first patterns live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Top 7 mistakes in push notifications UX (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Whiteboard → code: ship resource hints (preload/prefetch) with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Interview-ready: 5 bullets that explain image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Explain like I’m 5: font loading strategies without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),When to pick A vs B inside Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Debugging live: fix a broken lazy loading images & scripts in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Templates you’ll reuse for code splitting & preloading all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,The mental model that unlocks HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Perf-first Service Workers & caching: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Accessibility-first offline-first patterns: include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Cost-aware push notifications UX: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Real incidents I’ve seen because of bad resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Design reviews: what senior folks look for in image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,From junior to senior: how you talk about font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Before you code: 4 questions for any Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Do’s & don’ts cheat sheet for lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,UX wins: small tweaks in code splitting & preloading with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Platform tips: ship HTTP/2 & HTTP/3 for frontend to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Perf budgets for Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Real-user monitoring (RUM) for offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Profiling with DevTools around push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Edge caching & CDNs for resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Instant UX wins checklist for image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,"font loading strategies in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Stop guessing: battle-tested patterns for Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,From messy to clean: refactor your lazy loading images & scripts live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Top 7 mistakes in code splitting & preloading (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Whiteboard → code: ship HTTP/2 & HTTP/3 for frontend with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Interview-ready: 5 bullets that explain Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Explain like I’m 5: offline-first patterns without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,When to pick A vs B inside push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Debugging live: fix a broken resource hints (preload/prefetch) in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Templates you’ll reuse for image formats (AVIF/WebP) all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,The mental model that unlocks font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Perf-first Core Web Vitals (LCP/CLS/INP): make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Accessibility-first lazy loading images & scripts: include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Cost-aware code splitting & preloading: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Real incidents I’ve seen because of bad HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Design reviews: what senior folks look for in Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,From junior to senior: how you talk about offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Before you code: 4 questions for any push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Do’s & don’ts cheat sheet for resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),UX wins: small tweaks in image formats (AVIF/WebP) with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Platform tips: ship font loading strategies to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Perf budgets for Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Real-user monitoring (RUM) for lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Profiling with DevTools around code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Edge caching & CDNs for HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Instant UX wins checklist for Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,"offline-first patterns in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Stop guessing: battle-tested patterns for push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),From messy to clean: refactor your resource hints (preload/prefetch) live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Top 7 mistakes in image formats (AVIF/WebP) (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Whiteboard → code: ship font loading strategies with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Interview-ready: 5 bullets that explain Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Explain like I’m 5: lazy loading images & scripts without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,When to pick A vs B inside code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Debugging live: fix a broken HTTP/2 & HTTP/3 for frontend in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Templates you’ll reuse for Service Workers & caching all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,The mental model that unlocks offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Perf-first push notifications UX: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Accessibility-first resource hints (preload/prefetch): include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Cost-aware image formats (AVIF/WebP): speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Real incidents I’ve seen because of bad font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Design reviews: what senior folks look for in Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,From junior to senior: how you talk about lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Before you code: 4 questions for any code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Do’s & don’ts cheat sheet for HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,UX wins: small tweaks in Service Workers & caching with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Platform tips: ship offline-first patterns to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Perf budgets for push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Real-user monitoring (RUM) for resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Profiling with DevTools around image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Edge caching & CDNs for font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Instant UX wins checklist for Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,"lazy loading images & scripts in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Stop guessing: battle-tested patterns for code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,From messy to clean: refactor your HTTP/2 & HTTP/3 for frontend live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Top 7 mistakes in Service Workers & caching (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Whiteboard → code: ship offline-first patterns with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Interview-ready: 5 bullets that explain push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Explain like I’m 5: resource hints (preload/prefetch) without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),When to pick A vs B inside image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Debugging live: fix a broken font loading strategies in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Templates you’ll reuse for Core Web Vitals (LCP/CLS/INP) all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,The mental model that unlocks lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Perf-first code splitting & preloading: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Accessibility-first HTTP/2 & HTTP/3 for frontend: include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Cost-aware Service Workers & caching: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Real incidents I’ve seen because of bad offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Design reviews: what senior folks look for in push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),From junior to senior: how you talk about resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Before you code: 4 questions for any image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Do’s & don’ts cheat sheet for font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),UX wins: small tweaks in Core Web Vitals (LCP/CLS/INP) with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Platform tips: ship lazy loading images & scripts to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Perf budgets for code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Real-user monitoring (RUM) for HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Profiling with DevTools around Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Edge caching & CDNs for offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Instant UX wins checklist for push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),"resource hints (preload/prefetch) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Stop guessing: battle-tested patterns for image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,From messy to clean: refactor your font loading strategies live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Top 7 mistakes in Core Web Vitals (LCP/CLS/INP) (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Whiteboard → code: ship lazy loading images & scripts with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Interview-ready: 5 bullets that explain code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Explain like I’m 5: HTTP/2 & HTTP/3 for frontend without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,When to pick A vs B inside Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Debugging live: fix a broken offline-first patterns in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Templates you’ll reuse for push notifications UX all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),The mental model that unlocks resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Perf-first image formats (AVIF/WebP): make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Accessibility-first font loading strategies: include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Cost-aware Core Web Vitals (LCP/CLS/INP): speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Real incidents I’ve seen because of bad lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Design reviews: what senior folks look for in code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,From junior to senior: how you talk about HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Before you code: 4 questions for any Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Do’s & don’ts cheat sheet for offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,UX wins: small tweaks in push notifications UX with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Platform tips: ship resource hints (preload/prefetch) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Perf budgets for image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Real-user monitoring (RUM) for font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Profiling with DevTools around Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Edge caching & CDNs for lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Instant UX wins checklist for code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,"HTTP/2 & HTTP/3 for frontend in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Stop guessing: battle-tested patterns for Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,From messy to clean: refactor your offline-first patterns live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Top 7 mistakes in push notifications UX (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Whiteboard → code: ship resource hints (preload/prefetch) with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Interview-ready: 5 bullets that explain image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Explain like I’m 5: font loading strategies without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),When to pick A vs B inside Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Debugging live: fix a broken lazy loading images & scripts in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Templates you’ll reuse for code splitting & preloading all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,The mental model that unlocks HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Perf-first Service Workers & caching: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Accessibility-first offline-first patterns: include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Cost-aware push notifications UX: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Real incidents I’ve seen because of bad resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Design reviews: what senior folks look for in image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,From junior to senior: how you talk about font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Before you code: 4 questions for any Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Do’s & don’ts cheat sheet for lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,UX wins: small tweaks in code splitting & preloading with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Platform tips: ship HTTP/2 & HTTP/3 for frontend to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Perf budgets for Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Real-user monitoring (RUM) for offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Profiling with DevTools around push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Edge caching & CDNs for resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Instant UX wins checklist for image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,"font loading strategies in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Stop guessing: battle-tested patterns for Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,From messy to clean: refactor your lazy loading images & scripts live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Top 7 mistakes in code splitting & preloading (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Whiteboard → code: ship HTTP/2 & HTTP/3 for frontend with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Interview-ready: 5 bullets that explain Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Explain like I’m 5: offline-first patterns without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,When to pick A vs B inside push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Debugging live: fix a broken resource hints (preload/prefetch) in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Templates you’ll reuse for image formats (AVIF/WebP) all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,The mental model that unlocks font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Perf-first Core Web Vitals (LCP/CLS/INP): make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Accessibility-first lazy loading images & scripts: include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Cost-aware code splitting & preloading: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Real incidents I’ve seen because of bad HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Design reviews: what senior folks look for in Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,From junior to senior: how you talk about offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Before you code: 4 questions for any push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Do’s & don’ts cheat sheet for resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),UX wins: small tweaks in image formats (AVIF/WebP) with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Platform tips: ship font loading strategies to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Perf budgets for Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Real-user monitoring (RUM) for lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Profiling with DevTools around code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Edge caching & CDNs for HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Instant UX wins checklist for Service Workers & caching
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,"offline-first patterns in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Stop guessing: battle-tested patterns for push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),From messy to clean: refactor your resource hints (preload/prefetch) live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Top 7 mistakes in image formats (AVIF/WebP) (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Whiteboard → code: ship font loading strategies with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Interview-ready: 5 bullets that explain Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Explain like I’m 5: lazy loading images & scripts without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,When to pick A vs B inside code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Debugging live: fix a broken HTTP/2 & HTTP/3 for frontend in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Templates you’ll reuse for Service Workers & caching all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,The mental model that unlocks offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Perf-first push notifications UX: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Accessibility-first resource hints (preload/prefetch): include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Cost-aware image formats (AVIF/WebP): speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Real incidents I’ve seen because of bad font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Design reviews: what senior folks look for in Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,From junior to senior: how you talk about lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Before you code: 4 questions for any code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Do’s & don’ts cheat sheet for HTTP/2 & HTTP/3 for frontend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,UX wins: small tweaks in Service Workers & caching with huge impact
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Platform tips: ship offline-first patterns to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Perf budgets for push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Real-user monitoring (RUM) for resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Profiling with DevTools around image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Edge caching & CDNs for font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Instant UX wins checklist for Core Web Vitals (LCP/CLS/INP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,"lazy loading images & scripts in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Stop guessing: battle-tested patterns for code splitting & preloading
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,From messy to clean: refactor your HTTP/2 & HTTP/3 for frontend live
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Top 7 mistakes in Service Workers & caching (and quick fixes)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Whiteboard → code: ship offline-first patterns with guardrails
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Interview-ready: 5 bullets that explain push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Explain like I’m 5: resource hints (preload/prefetch) without jargon
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),When to pick A vs B inside image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Debugging live: fix a broken font loading strategies in minutes
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),Templates you’ll reuse for Core Web Vitals (LCP/CLS/INP) all year
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,The mental model that unlocks lazy loading images & scripts
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Perf-first code splitting & preloading: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,Accessibility-first HTTP/2 & HTTP/3 for frontend: include everyone
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,Cost-aware Service Workers & caching: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,Real incidents I’ve seen because of bad offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Design reviews: what senior folks look for in push notifications UX
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),From junior to senior: how you talk about resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Before you code: 4 questions for any image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,Do’s & don’ts cheat sheet for font loading strategies
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Core Web Vitals (LCP/CLS/INP),India-grade 4G: make Core Web Vitals (LCP/CLS/INP) snappy on flaky networks
+Frontend & UI/UX,Frontend — Web Performance & PWAs,lazy loading images & scripts,Low-end Android optimization for lazy loading images & scripts (under ₹10k devices)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,code splitting & preloading,Big Billion Days traffic: harden code splitting & preloading for peaks
+Frontend & UI/UX,Frontend — Web Performance & PWAs,HTTP/2 & HTTP/3 for frontend,IRCTC Tatkal mindset for HTTP/2 & HTTP/3 for frontend: fast paths only
+Frontend & UI/UX,Frontend — Web Performance & PWAs,Service Workers & caching,UPI-like flows: error states in Service Workers & caching done right
+Frontend & UI/UX,Frontend — Web Performance & PWAs,offline-first patterns,IPL watch party: realtime-friendly offline-first patterns
+Frontend & UI/UX,Frontend — Web Performance & PWAs,push notifications UX,Bengaluru ORR latency: push notifications UX timeouts & fallbacks
+Frontend & UI/UX,Frontend — Web Performance & PWAs,resource hints (preload/prefetch),Aadhaar/eKYC journeys: UX pitfalls in resource hints (preload/prefetch)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,image formats (AVIF/WebP),Tier-2/3 devices: memory budget for image formats (AVIF/WebP)
+Frontend & UI/UX,Frontend — Web Performance & PWAs,font loading strategies,WhatsApp-style micro-interactions for font loading strategies

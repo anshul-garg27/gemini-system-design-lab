@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Race conditions in UI: event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Memory leaks & cleanup in async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Type-safe JS with JSDoc/TS hints for closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Perf budgets: 60fps this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Readable code patterns for modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,"fetch & AbortController in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Stop guessing: battle-tested patterns for DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,From messy to clean: refactor your debounce/throttle patterns live
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Top 7 mistakes in immutability & pure functions (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Whiteboard → code: ship error handling & retries with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Interview-ready: 5 bullets that explain event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Explain like I’m 5: async/await & promises without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,When to pick A vs B inside closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Debugging live: fix a broken this & prototypes in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Templates you’ll reuse for modules & bundling all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,The mental model that unlocks fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Perf-first DOM APIs & virtual DOM contrast: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Accessibility-first debounce/throttle patterns: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Cost-aware immutability & pure functions: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Real incidents I’ve seen because of bad error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Design reviews: what senior folks look for in event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,From junior to senior: how you talk about async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Before you code: 4 questions for any closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Do’s & don’ts cheat sheet for this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,UX wins: small tweaks in modules & bundling with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Platform tips: ship fetch & AbortController to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Race conditions in UI: DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Memory leaks & cleanup in debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Type-safe JS with JSDoc/TS hints for immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Perf budgets: 60fps error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Readable code patterns for event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,"async/await & promises in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Stop guessing: battle-tested patterns for closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,From messy to clean: refactor your this & prototypes live
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Top 7 mistakes in modules & bundling (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Whiteboard → code: ship fetch & AbortController with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Interview-ready: 5 bullets that explain DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Explain like I’m 5: debounce/throttle patterns without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,When to pick A vs B inside immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Debugging live: fix a broken error handling & retries in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Templates you’ll reuse for event loop & microtasks all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,The mental model that unlocks async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Perf-first closures & scope: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Accessibility-first this & prototypes: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Cost-aware modules & bundling: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Real incidents I’ve seen because of bad fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Design reviews: what senior folks look for in DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,From junior to senior: how you talk about debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Before you code: 4 questions for any immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Do’s & don’ts cheat sheet for error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,UX wins: small tweaks in event loop & microtasks with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Platform tips: ship async/await & promises to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Race conditions in UI: closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Memory leaks & cleanup in this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Type-safe JS with JSDoc/TS hints for modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Perf budgets: 60fps fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Readable code patterns for DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,"debounce/throttle patterns in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Stop guessing: battle-tested patterns for immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,From messy to clean: refactor your error handling & retries live
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Top 7 mistakes in event loop & microtasks (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Whiteboard → code: ship async/await & promises with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Interview-ready: 5 bullets that explain closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Explain like I’m 5: this & prototypes without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,When to pick A vs B inside modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Debugging live: fix a broken fetch & AbortController in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Templates you’ll reuse for DOM APIs & virtual DOM contrast all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,The mental model that unlocks debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Perf-first immutability & pure functions: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Accessibility-first error handling & retries: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Cost-aware event loop & microtasks: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Real incidents I’ve seen because of bad async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Design reviews: what senior folks look for in closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,From junior to senior: how you talk about this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Before you code: 4 questions for any modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Do’s & don’ts cheat sheet for fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,UX wins: small tweaks in DOM APIs & virtual DOM contrast with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Platform tips: ship debounce/throttle patterns to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Race conditions in UI: immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Memory leaks & cleanup in error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Type-safe JS with JSDoc/TS hints for event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Perf budgets: 60fps async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Readable code patterns for closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,"this & prototypes in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Stop guessing: battle-tested patterns for modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,From messy to clean: refactor your fetch & AbortController live
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Top 7 mistakes in DOM APIs & virtual DOM contrast (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Whiteboard → code: ship debounce/throttle patterns with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Interview-ready: 5 bullets that explain immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Explain like I’m 5: error handling & retries without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,When to pick A vs B inside event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Debugging live: fix a broken async/await & promises in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Templates you’ll reuse for closures & scope all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,The mental model that unlocks this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Perf-first modules & bundling: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Accessibility-first fetch & AbortController: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Cost-aware DOM APIs & virtual DOM contrast: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Real incidents I’ve seen because of bad debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Design reviews: what senior folks look for in immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,From junior to senior: how you talk about error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Before you code: 4 questions for any event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Do’s & don’ts cheat sheet for async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,UX wins: small tweaks in closures & scope with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Platform tips: ship this & prototypes to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Race conditions in UI: modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Memory leaks & cleanup in fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Type-safe JS with JSDoc/TS hints for DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Perf budgets: 60fps debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Readable code patterns for immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,"error handling & retries in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Stop guessing: battle-tested patterns for event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,From messy to clean: refactor your async/await & promises live
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Top 7 mistakes in closures & scope (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Whiteboard → code: ship this & prototypes with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Interview-ready: 5 bullets that explain modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Explain like I’m 5: fetch & AbortController without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,When to pick A vs B inside DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Debugging live: fix a broken debounce/throttle patterns in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Templates you’ll reuse for immutability & pure functions all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,The mental model that unlocks error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Perf-first event loop & microtasks: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Accessibility-first async/await & promises: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Cost-aware closures & scope: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Real incidents I’ve seen because of bad this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Design reviews: what senior folks look for in modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,From junior to senior: how you talk about fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Before you code: 4 questions for any DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Do’s & don’ts cheat sheet for debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,UX wins: small tweaks in immutability & pure functions with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Platform tips: ship error handling & retries to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Race conditions in UI: event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Memory leaks & cleanup in async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Type-safe JS with JSDoc/TS hints for closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Perf budgets: 60fps this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Readable code patterns for modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,"fetch & AbortController in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Stop guessing: battle-tested patterns for DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,From messy to clean: refactor your debounce/throttle patterns live
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Top 7 mistakes in immutability & pure functions (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Whiteboard → code: ship error handling & retries with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Interview-ready: 5 bullets that explain event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Explain like I’m 5: async/await & promises without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,When to pick A vs B inside closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Debugging live: fix a broken this & prototypes in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Templates you’ll reuse for modules & bundling all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,The mental model that unlocks fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Perf-first DOM APIs & virtual DOM contrast: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Accessibility-first debounce/throttle patterns: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Cost-aware immutability & pure functions: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Real incidents I’ve seen because of bad error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Design reviews: what senior folks look for in event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,From junior to senior: how you talk about async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Before you code: 4 questions for any closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Do’s & don’ts cheat sheet for this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,UX wins: small tweaks in modules & bundling with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Platform tips: ship fetch & AbortController to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Race conditions in UI: DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Memory leaks & cleanup in debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Type-safe JS with JSDoc/TS hints for immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Perf budgets: 60fps error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Readable code patterns for event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,"async/await & promises in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Stop guessing: battle-tested patterns for closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,From messy to clean: refactor your this & prototypes live
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Top 7 mistakes in modules & bundling (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Whiteboard → code: ship fetch & AbortController with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Interview-ready: 5 bullets that explain DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Explain like I’m 5: debounce/throttle patterns without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,When to pick A vs B inside immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Debugging live: fix a broken error handling & retries in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Templates you’ll reuse for event loop & microtasks all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,The mental model that unlocks async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Perf-first closures & scope: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Accessibility-first this & prototypes: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Cost-aware modules & bundling: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Real incidents I’ve seen because of bad fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Design reviews: what senior folks look for in DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,From junior to senior: how you talk about debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Before you code: 4 questions for any immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Do’s & don’ts cheat sheet for error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,UX wins: small tweaks in event loop & microtasks with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Platform tips: ship async/await & promises to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Race conditions in UI: closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Memory leaks & cleanup in this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Type-safe JS with JSDoc/TS hints for modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Perf budgets: 60fps fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Readable code patterns for DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,"debounce/throttle patterns in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Stop guessing: battle-tested patterns for immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,From messy to clean: refactor your error handling & retries live
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Top 7 mistakes in event loop & microtasks (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Whiteboard → code: ship async/await & promises with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Interview-ready: 5 bullets that explain closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Explain like I’m 5: this & prototypes without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,When to pick A vs B inside modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Debugging live: fix a broken fetch & AbortController in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Templates you’ll reuse for DOM APIs & virtual DOM contrast all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,The mental model that unlocks debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Perf-first immutability & pure functions: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Accessibility-first error handling & retries: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Cost-aware event loop & microtasks: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Real incidents I’ve seen because of bad async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Design reviews: what senior folks look for in closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,From junior to senior: how you talk about this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Before you code: 4 questions for any modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Do’s & don’ts cheat sheet for fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,UX wins: small tweaks in DOM APIs & virtual DOM contrast with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Platform tips: ship debounce/throttle patterns to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Race conditions in UI: immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Memory leaks & cleanup in error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Type-safe JS with JSDoc/TS hints for event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Perf budgets: 60fps async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Readable code patterns for closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,"this & prototypes in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Stop guessing: battle-tested patterns for modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,From messy to clean: refactor your fetch & AbortController live
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Top 7 mistakes in DOM APIs & virtual DOM contrast (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Whiteboard → code: ship debounce/throttle patterns with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Interview-ready: 5 bullets that explain immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Explain like I’m 5: error handling & retries without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,When to pick A vs B inside event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Debugging live: fix a broken async/await & promises in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Templates you’ll reuse for closures & scope all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,The mental model that unlocks this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Perf-first modules & bundling: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Accessibility-first fetch & AbortController: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Cost-aware DOM APIs & virtual DOM contrast: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Real incidents I’ve seen because of bad debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Design reviews: what senior folks look for in immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,From junior to senior: how you talk about error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Before you code: 4 questions for any event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Do’s & don’ts cheat sheet for async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,UX wins: small tweaks in closures & scope with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Platform tips: ship this & prototypes to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Race conditions in UI: modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Memory leaks & cleanup in fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Type-safe JS with JSDoc/TS hints for DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Perf budgets: 60fps debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Readable code patterns for immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,"error handling & retries in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Stop guessing: battle-tested patterns for event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,From messy to clean: refactor your async/await & promises live
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Top 7 mistakes in closures & scope (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Whiteboard → code: ship this & prototypes with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Interview-ready: 5 bullets that explain modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Explain like I’m 5: fetch & AbortController without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,When to pick A vs B inside DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Debugging live: fix a broken debounce/throttle patterns in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Templates you’ll reuse for immutability & pure functions all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,The mental model that unlocks error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Perf-first event loop & microtasks: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Accessibility-first async/await & promises: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Cost-aware closures & scope: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Real incidents I’ve seen because of bad this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Design reviews: what senior folks look for in modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,From junior to senior: how you talk about fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Before you code: 4 questions for any DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Do’s & don’ts cheat sheet for debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,UX wins: small tweaks in immutability & pure functions with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Platform tips: ship error handling & retries to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Race conditions in UI: event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Memory leaks & cleanup in async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Type-safe JS with JSDoc/TS hints for closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Perf budgets: 60fps this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Readable code patterns for modules & bundling
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,"fetch & AbortController in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Stop guessing: battle-tested patterns for DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,From messy to clean: refactor your debounce/throttle patterns live
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Top 7 mistakes in immutability & pure functions (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Whiteboard → code: ship error handling & retries with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Interview-ready: 5 bullets that explain event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Explain like I’m 5: async/await & promises without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,When to pick A vs B inside closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Debugging live: fix a broken this & prototypes in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Templates you’ll reuse for modules & bundling all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,The mental model that unlocks fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Perf-first DOM APIs & virtual DOM contrast: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Accessibility-first debounce/throttle patterns: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Cost-aware immutability & pure functions: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Real incidents I’ve seen because of bad error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Design reviews: what senior folks look for in event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,From junior to senior: how you talk about async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Before you code: 4 questions for any closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Do’s & don’ts cheat sheet for this & prototypes
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,UX wins: small tweaks in modules & bundling with huge impact
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Platform tips: ship fetch & AbortController to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Race conditions in UI: DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Memory leaks & cleanup in debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Type-safe JS with JSDoc/TS hints for immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Perf budgets: 60fps error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Readable code patterns for event loop & microtasks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,"async/await & promises in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Stop guessing: battle-tested patterns for closures & scope
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,From messy to clean: refactor your this & prototypes live
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Top 7 mistakes in modules & bundling (and quick fixes)
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Whiteboard → code: ship fetch & AbortController with guardrails
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Interview-ready: 5 bullets that explain DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Explain like I’m 5: debounce/throttle patterns without jargon
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,When to pick A vs B inside immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Debugging live: fix a broken error handling & retries in minutes
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,Templates you’ll reuse for event loop & microtasks all year
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,The mental model that unlocks async/await & promises
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Perf-first closures & scope: make it fast on low-end Android
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,Accessibility-first this & prototypes: include everyone
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,Cost-aware modules & bundling: speed without burning cloud spend
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,Real incidents I’ve seen because of bad fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Design reviews: what senior folks look for in DOM APIs & virtual DOM contrast
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,From junior to senior: how you talk about debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Before you code: 4 questions for any immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,Do’s & don’ts cheat sheet for error handling & retries
+Frontend & UI/UX,Frontend — JavaScript Essentials,event loop & microtasks,India-grade 4G: make event loop & microtasks snappy on flaky networks
+Frontend & UI/UX,Frontend — JavaScript Essentials,async/await & promises,Low-end Android optimization for async/await & promises (under ₹10k devices)
+Frontend & UI/UX,Frontend — JavaScript Essentials,closures & scope,Big Billion Days traffic: harden closures & scope for peaks
+Frontend & UI/UX,Frontend — JavaScript Essentials,this & prototypes,IRCTC Tatkal mindset for this & prototypes: fast paths only
+Frontend & UI/UX,Frontend — JavaScript Essentials,modules & bundling,UPI-like flows: error states in modules & bundling done right
+Frontend & UI/UX,Frontend — JavaScript Essentials,fetch & AbortController,IPL watch party: realtime-friendly fetch & AbortController
+Frontend & UI/UX,Frontend — JavaScript Essentials,DOM APIs & virtual DOM contrast,Bengaluru ORR latency: DOM APIs & virtual DOM contrast timeouts & fallbacks
+Frontend & UI/UX,Frontend — JavaScript Essentials,debounce/throttle patterns,Aadhaar/eKYC journeys: UX pitfalls in debounce/throttle patterns
+Frontend & UI/UX,Frontend — JavaScript Essentials,immutability & pure functions,Tier-2/3 devices: memory budget for immutability & pure functions
+Frontend & UI/UX,Frontend — JavaScript Essentials,error handling & retries,WhatsApp-style micro-interactions for error handling & retries

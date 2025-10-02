@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Databases,Databases — Transactions & Concurrency,ACID & durability,Designing retry loops that respect ACID & durability
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),From theory to prod: incident stories around isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Test harnesses to reproduce MVCC (multi-version concurrency control) failures
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Telemetry you need for locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,When ORMs hide/don’t hide deadlocks & detection from you
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,How optimistic vs pessimistic concurrency makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,"write skew & phantom reads in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Stop guessing: read query plans to master idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),From slow to snappy: refactor with two-phase commit (2PC) live
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Top 7 mistakes in Sagas & compensating transactions that cost outages
+Databases,Databases — Transactions & Concurrency,ACID & durability,Edge cases that break 8/10 ACID & durability designs
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Naive vs optimal: complexity tradeoffs in isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Whiteboard to prod: applying MVCC (multi-version concurrency control) with guardrails
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Explain like I’m 5: locks: row/table/page without jargon
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Interview day checklist: deadlocks & detection in 5 bullets
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,The mental model that unlocks optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,What every backend dev should know about write skew & phantom reads
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Common myths about idempotency & exactly-once illusions — busted
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Production checklists for two-phase commit (2PC): observability & SLOs
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Cost traps: make Sagas & compensating transactions fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,ACID & durability,Pitfalls: consistency surprises inside ACID & durability
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Do’s & don’ts: clean APIs around isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Debugging live: fix a broken MVCC (multi-version concurrency control) in minutes
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Read/Write patterns that pair best with locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Tuning knobs for deadlocks & detection: safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,How to demo optimistic vs pessimistic concurrency in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Designing retry loops that respect write skew & phantom reads
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,From theory to prod: incident stories around idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Test harnesses to reproduce two-phase commit (2PC) failures
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Telemetry you need for Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,When ORMs hide/don’t hide ACID & durability from you
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),How isolation levels (RU/RC/RR/Serializable) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),"MVCC (multi-version concurrency control) in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Stop guessing: read query plans to master locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,From slow to snappy: refactor with deadlocks & detection live
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Top 7 mistakes in optimistic vs pessimistic concurrency that cost outages
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Edge cases that break 8/10 write skew & phantom reads designs
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Naive vs optimal: complexity tradeoffs in idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Whiteboard to prod: applying two-phase commit (2PC) with guardrails
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Explain like I’m 5: Sagas & compensating transactions without jargon
+Databases,Databases — Transactions & Concurrency,ACID & durability,Interview day checklist: ACID & durability in 5 bullets
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),The mental model that unlocks isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),What every backend dev should know about MVCC (multi-version concurrency control)
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Common myths about locks: row/table/page — busted
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Production checklists for deadlocks & detection: observability & SLOs
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Cost traps: make optimistic vs pessimistic concurrency fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Pitfalls: consistency surprises inside write skew & phantom reads
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Do’s & don’ts: clean APIs around idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Debugging live: fix a broken two-phase commit (2PC) in minutes
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Read/Write patterns that pair best with Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,Tuning knobs for ACID & durability: safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),How to demo isolation levels (RU/RC/RR/Serializable) in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Designing retry loops that respect MVCC (multi-version concurrency control)
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,From theory to prod: incident stories around locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Test harnesses to reproduce deadlocks & detection failures
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Telemetry you need for optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,When ORMs hide/don’t hide write skew & phantom reads from you
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,How idempotency & exactly-once illusions makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),"two-phase commit (2PC) in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Stop guessing: read query plans to master Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,From slow to snappy: refactor with ACID & durability live
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Top 7 mistakes in isolation levels (RU/RC/RR/Serializable) that cost outages
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Edge cases that break 8/10 MVCC (multi-version concurrency control) designs
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Naive vs optimal: complexity tradeoffs in locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Whiteboard to prod: applying deadlocks & detection with guardrails
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Explain like I’m 5: optimistic vs pessimistic concurrency without jargon
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Interview day checklist: write skew & phantom reads in 5 bullets
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,The mental model that unlocks idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),What every backend dev should know about two-phase commit (2PC)
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Common myths about Sagas & compensating transactions — busted
+Databases,Databases — Transactions & Concurrency,ACID & durability,Production checklists for ACID & durability: observability & SLOs
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Cost traps: make isolation levels (RU/RC/RR/Serializable) fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Pitfalls: consistency surprises inside MVCC (multi-version concurrency control)
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Do’s & don’ts: clean APIs around locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Debugging live: fix a broken deadlocks & detection in minutes
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Read/Write patterns that pair best with optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Tuning knobs for write skew & phantom reads: safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,How to demo idempotency & exactly-once illusions in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Designing retry loops that respect two-phase commit (2PC)
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,From theory to prod: incident stories around Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,Test harnesses to reproduce ACID & durability failures
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Telemetry you need for isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),When ORMs hide/don’t hide MVCC (multi-version concurrency control) from you
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,How locks: row/table/page makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,"deadlocks & detection in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Stop guessing: read query plans to master optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,From slow to snappy: refactor with write skew & phantom reads live
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Top 7 mistakes in idempotency & exactly-once illusions that cost outages
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Edge cases that break 8/10 two-phase commit (2PC) designs
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Naive vs optimal: complexity tradeoffs in Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,Whiteboard to prod: applying ACID & durability with guardrails
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Explain like I’m 5: isolation levels (RU/RC/RR/Serializable) without jargon
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Interview day checklist: MVCC (multi-version concurrency control) in 5 bullets
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,The mental model that unlocks locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,What every backend dev should know about deadlocks & detection
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Common myths about optimistic vs pessimistic concurrency — busted
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Production checklists for write skew & phantom reads: observability & SLOs
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Cost traps: make idempotency & exactly-once illusions fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Pitfalls: consistency surprises inside two-phase commit (2PC)
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Do’s & don’ts: clean APIs around Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,Debugging live: fix a broken ACID & durability in minutes
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Read/Write patterns that pair best with isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Tuning knobs for MVCC (multi-version concurrency control): safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,How to demo locks: row/table/page in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Designing retry loops that respect deadlocks & detection
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,From theory to prod: incident stories around optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Test harnesses to reproduce write skew & phantom reads failures
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Telemetry you need for idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),When ORMs hide/don’t hide two-phase commit (2PC) from you
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,How Sagas & compensating transactions makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,ACID & durability,"ACID & durability in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Stop guessing: read query plans to master isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),From slow to snappy: refactor with MVCC (multi-version concurrency control) live
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Top 7 mistakes in locks: row/table/page that cost outages
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Edge cases that break 8/10 deadlocks & detection designs
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Naive vs optimal: complexity tradeoffs in optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Whiteboard to prod: applying write skew & phantom reads with guardrails
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Explain like I’m 5: idempotency & exactly-once illusions without jargon
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Interview day checklist: two-phase commit (2PC) in 5 bullets
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,The mental model that unlocks Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,What every backend dev should know about ACID & durability
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Common myths about isolation levels (RU/RC/RR/Serializable) — busted
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Production checklists for MVCC (multi-version concurrency control): observability & SLOs
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Cost traps: make locks: row/table/page fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Pitfalls: consistency surprises inside deadlocks & detection
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Do’s & don’ts: clean APIs around optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Debugging live: fix a broken write skew & phantom reads in minutes
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Read/Write patterns that pair best with idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Tuning knobs for two-phase commit (2PC): safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,How to demo Sagas & compensating transactions in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,ACID & durability,Designing retry loops that respect ACID & durability
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),From theory to prod: incident stories around isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Test harnesses to reproduce MVCC (multi-version concurrency control) failures
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Telemetry you need for locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,When ORMs hide/don’t hide deadlocks & detection from you
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,How optimistic vs pessimistic concurrency makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,"write skew & phantom reads in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Stop guessing: read query plans to master idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),From slow to snappy: refactor with two-phase commit (2PC) live
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Top 7 mistakes in Sagas & compensating transactions that cost outages
+Databases,Databases — Transactions & Concurrency,ACID & durability,Edge cases that break 8/10 ACID & durability designs
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Naive vs optimal: complexity tradeoffs in isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Whiteboard to prod: applying MVCC (multi-version concurrency control) with guardrails
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Explain like I’m 5: locks: row/table/page without jargon
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Interview day checklist: deadlocks & detection in 5 bullets
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,The mental model that unlocks optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,What every backend dev should know about write skew & phantom reads
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Common myths about idempotency & exactly-once illusions — busted
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Production checklists for two-phase commit (2PC): observability & SLOs
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Cost traps: make Sagas & compensating transactions fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,ACID & durability,Pitfalls: consistency surprises inside ACID & durability
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Do’s & don’ts: clean APIs around isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Debugging live: fix a broken MVCC (multi-version concurrency control) in minutes
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Read/Write patterns that pair best with locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Tuning knobs for deadlocks & detection: safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,How to demo optimistic vs pessimistic concurrency in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Designing retry loops that respect write skew & phantom reads
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,From theory to prod: incident stories around idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Test harnesses to reproduce two-phase commit (2PC) failures
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Telemetry you need for Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,When ORMs hide/don’t hide ACID & durability from you
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),How isolation levels (RU/RC/RR/Serializable) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),"MVCC (multi-version concurrency control) in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Stop guessing: read query plans to master locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,From slow to snappy: refactor with deadlocks & detection live
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Top 7 mistakes in optimistic vs pessimistic concurrency that cost outages
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Edge cases that break 8/10 write skew & phantom reads designs
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Naive vs optimal: complexity tradeoffs in idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Whiteboard to prod: applying two-phase commit (2PC) with guardrails
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Explain like I’m 5: Sagas & compensating transactions without jargon
+Databases,Databases — Transactions & Concurrency,ACID & durability,Interview day checklist: ACID & durability in 5 bullets
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),The mental model that unlocks isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),What every backend dev should know about MVCC (multi-version concurrency control)
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Common myths about locks: row/table/page — busted
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Production checklists for deadlocks & detection: observability & SLOs
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Cost traps: make optimistic vs pessimistic concurrency fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Pitfalls: consistency surprises inside write skew & phantom reads
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Do’s & don’ts: clean APIs around idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Debugging live: fix a broken two-phase commit (2PC) in minutes
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Read/Write patterns that pair best with Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,Tuning knobs for ACID & durability: safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),How to demo isolation levels (RU/RC/RR/Serializable) in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Designing retry loops that respect MVCC (multi-version concurrency control)
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,From theory to prod: incident stories around locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Test harnesses to reproduce deadlocks & detection failures
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Telemetry you need for optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,When ORMs hide/don’t hide write skew & phantom reads from you
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,How idempotency & exactly-once illusions makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),"two-phase commit (2PC) in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Stop guessing: read query plans to master Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,From slow to snappy: refactor with ACID & durability live
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Top 7 mistakes in isolation levels (RU/RC/RR/Serializable) that cost outages
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Edge cases that break 8/10 MVCC (multi-version concurrency control) designs
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Naive vs optimal: complexity tradeoffs in locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Whiteboard to prod: applying deadlocks & detection with guardrails
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Explain like I’m 5: optimistic vs pessimistic concurrency without jargon
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Interview day checklist: write skew & phantom reads in 5 bullets
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,The mental model that unlocks idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),What every backend dev should know about two-phase commit (2PC)
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Common myths about Sagas & compensating transactions — busted
+Databases,Databases — Transactions & Concurrency,ACID & durability,Production checklists for ACID & durability: observability & SLOs
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Cost traps: make isolation levels (RU/RC/RR/Serializable) fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Pitfalls: consistency surprises inside MVCC (multi-version concurrency control)
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Do’s & don’ts: clean APIs around locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Debugging live: fix a broken deadlocks & detection in minutes
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Read/Write patterns that pair best with optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Tuning knobs for write skew & phantom reads: safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,How to demo idempotency & exactly-once illusions in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Designing retry loops that respect two-phase commit (2PC)
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,From theory to prod: incident stories around Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,Test harnesses to reproduce ACID & durability failures
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Telemetry you need for isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),When ORMs hide/don’t hide MVCC (multi-version concurrency control) from you
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,How locks: row/table/page makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,"deadlocks & detection in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Stop guessing: read query plans to master optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,From slow to snappy: refactor with write skew & phantom reads live
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Top 7 mistakes in idempotency & exactly-once illusions that cost outages
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Edge cases that break 8/10 two-phase commit (2PC) designs
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Naive vs optimal: complexity tradeoffs in Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,Whiteboard to prod: applying ACID & durability with guardrails
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Explain like I’m 5: isolation levels (RU/RC/RR/Serializable) without jargon
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Interview day checklist: MVCC (multi-version concurrency control) in 5 bullets
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,The mental model that unlocks locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,What every backend dev should know about deadlocks & detection
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Common myths about optimistic vs pessimistic concurrency — busted
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Production checklists for write skew & phantom reads: observability & SLOs
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Cost traps: make idempotency & exactly-once illusions fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Pitfalls: consistency surprises inside two-phase commit (2PC)
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Do’s & don’ts: clean APIs around Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,Debugging live: fix a broken ACID & durability in minutes
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Read/Write patterns that pair best with isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Tuning knobs for MVCC (multi-version concurrency control): safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,How to demo locks: row/table/page in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Designing retry loops that respect deadlocks & detection
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,From theory to prod: incident stories around optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Test harnesses to reproduce write skew & phantom reads failures
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Telemetry you need for idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),When ORMs hide/don’t hide two-phase commit (2PC) from you
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,How Sagas & compensating transactions makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,ACID & durability,"ACID & durability in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Stop guessing: read query plans to master isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),From slow to snappy: refactor with MVCC (multi-version concurrency control) live
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Top 7 mistakes in locks: row/table/page that cost outages
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Edge cases that break 8/10 deadlocks & detection designs
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Naive vs optimal: complexity tradeoffs in optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Whiteboard to prod: applying write skew & phantom reads with guardrails
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Explain like I’m 5: idempotency & exactly-once illusions without jargon
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Interview day checklist: two-phase commit (2PC) in 5 bullets
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,The mental model that unlocks Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,What every backend dev should know about ACID & durability
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Common myths about isolation levels (RU/RC/RR/Serializable) — busted
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Production checklists for MVCC (multi-version concurrency control): observability & SLOs
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Cost traps: make locks: row/table/page fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Pitfalls: consistency surprises inside deadlocks & detection
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Do’s & don’ts: clean APIs around optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Debugging live: fix a broken write skew & phantom reads in minutes
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Read/Write patterns that pair best with idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Tuning knobs for two-phase commit (2PC): safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,How to demo Sagas & compensating transactions in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,ACID & durability,Designing retry loops that respect ACID & durability
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),From theory to prod: incident stories around isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Test harnesses to reproduce MVCC (multi-version concurrency control) failures
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Telemetry you need for locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,When ORMs hide/don’t hide deadlocks & detection from you
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,How optimistic vs pessimistic concurrency makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,"write skew & phantom reads in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Stop guessing: read query plans to master idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),From slow to snappy: refactor with two-phase commit (2PC) live
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Top 7 mistakes in Sagas & compensating transactions that cost outages
+Databases,Databases — Transactions & Concurrency,ACID & durability,Edge cases that break 8/10 ACID & durability designs
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Naive vs optimal: complexity tradeoffs in isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Whiteboard to prod: applying MVCC (multi-version concurrency control) with guardrails
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Explain like I’m 5: locks: row/table/page without jargon
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Interview day checklist: deadlocks & detection in 5 bullets
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,The mental model that unlocks optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,What every backend dev should know about write skew & phantom reads
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Common myths about idempotency & exactly-once illusions — busted
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Production checklists for two-phase commit (2PC): observability & SLOs
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Cost traps: make Sagas & compensating transactions fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,ACID & durability,Pitfalls: consistency surprises inside ACID & durability
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Do’s & don’ts: clean APIs around isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),Debugging live: fix a broken MVCC (multi-version concurrency control) in minutes
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Read/Write patterns that pair best with locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Tuning knobs for deadlocks & detection: safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,How to demo optimistic vs pessimistic concurrency in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Designing retry loops that respect write skew & phantom reads
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,From theory to prod: incident stories around idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Test harnesses to reproduce two-phase commit (2PC) failures
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Telemetry you need for Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,When ORMs hide/don’t hide ACID & durability from you
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),How isolation levels (RU/RC/RR/Serializable) makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),"MVCC (multi-version concurrency control) in 60 seconds — intuition first, syntax second"
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Stop guessing: read query plans to master locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,From slow to snappy: refactor with deadlocks & detection live
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Top 7 mistakes in optimistic vs pessimistic concurrency that cost outages
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Edge cases that break 8/10 write skew & phantom reads designs
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Naive vs optimal: complexity tradeoffs in idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Whiteboard to prod: applying two-phase commit (2PC) with guardrails
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Explain like I’m 5: Sagas & compensating transactions without jargon
+Databases,Databases — Transactions & Concurrency,ACID & durability,Interview day checklist: ACID & durability in 5 bullets
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),The mental model that unlocks isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),What every backend dev should know about MVCC (multi-version concurrency control)
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Common myths about locks: row/table/page — busted
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,Production checklists for deadlocks & detection: observability & SLOs
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,Cost traps: make optimistic vs pessimistic concurrency fast without burning cloud spend
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Pitfalls: consistency surprises inside write skew & phantom reads
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Do’s & don’ts: clean APIs around idempotency & exactly-once illusions
+Databases,Databases — Transactions & Concurrency,two-phase commit (2PC),Debugging live: fix a broken two-phase commit (2PC) in minutes
+Databases,Databases — Transactions & Concurrency,Sagas & compensating transactions,Read/Write patterns that pair best with Sagas & compensating transactions
+Databases,Databases — Transactions & Concurrency,ACID & durability,Tuning knobs for ACID & durability: safe defaults → power moves
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),How to demo isolation levels (RU/RC/RR/Serializable) in an interview (with examples)
+Databases,Databases — Transactions & Concurrency,ACID & durability,ACID & durability explained with Bollywood marriages 💍
+Databases,Databases — Transactions & Concurrency,isolation levels (RU/RC/RR/Serializable),Tatkal rush mental model for isolation levels (RU/RC/RR/Serializable)
+Databases,Databases — Transactions & Concurrency,MVCC (multi-version concurrency control),UPI ledger consistency meets MVCC (multi-version concurrency control)
+Databases,Databases — Transactions & Concurrency,locks: row/table/page,Zomato dinner rush mapped to locks: row/table/page
+Databases,Databases — Transactions & Concurrency,deadlocks & detection,IPL match concurrency stress-tests deadlocks & detection
+Databases,Databases — Transactions & Concurrency,optimistic vs pessimistic concurrency,IRCTC queueing intuition for optimistic vs pessimistic concurrency
+Databases,Databases — Transactions & Concurrency,write skew & phantom reads,Gully cricket teams = partitions in write skew & phantom reads
+Databases,Databases — Transactions & Concurrency,idempotency & exactly-once illusions,Traffic on Bengaluru ORR as idempotency & exactly-once illusions backpressure

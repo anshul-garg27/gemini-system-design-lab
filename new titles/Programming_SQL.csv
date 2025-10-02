@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Programming,SQL,joins deep dive,Why SQL is still king for Indian interviews 👑
+Programming,SQL,indexes & query plans,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,normal forms,SQL in 60 seconds: the only normal forms intuition you need
+Programming,SQL,transactions & ACID,"transactions & ACID in SQL — stop brute forcing, write idiomatic code"
+Programming,SQL,isolation levels & locks,SQL isolation levels & locks: top 7 mistakes that cost offers in India
+Programming,SQL,window functions,From messy to clean: refactor your SQL window functions live
+Programming,SQL,subqueries & CTEs,Interview day checklist: SQL subqueries & CTEs in 5 bullets
+Programming,SQL,grouping sets & rollups,Whiteboard to code: SQL grouping sets & rollups with edge cases
+Programming,SQL,schema design dos/donts,Explain it like I’m 5: SQL schema design dos/donts without jargon
+Programming,SQL,query anti-patterns,Speedrun SQL query anti-patterns: archetypes you must know
+Programming,SQL,performance tuning,You’re overcomplicating it — simplify your SQL performance tuning
+Programming,SQL,joins deep dive,Performance 101: make SQL joins deep dive 10x faster (no hacks)
+Programming,SQL,indexes & query plans,Memory vs speed: tradeoffs in SQL indexes & query plans
+Programming,SQL,normal forms,Idiomatic SQL: do’s & don’ts for normal forms
+Programming,SQL,transactions & ACID,Debugging live: fix a broken SQL transactions & ACID solution
+Programming,SQL,isolation levels & locks,Unit tests that catch subtle bugs in SQL isolation levels & locks
+Programming,SQL,window functions,SQL window functions cheat sheet — templates + pitfalls
+Programming,SQL,subqueries & CTEs,Phone screen vs onsite: how SQL subqueries & CTEs questions differ
+Programming,SQL,grouping sets & rollups,Narrate your thinking: explain SQL grouping sets & rollups like a pro
+Programming,SQL,schema design dos/donts,Before you code: 4 questions for any SQL schema design dos/donts
+Programming,SQL,query anti-patterns,From DSA to dev: where SQL query anti-patterns shows up in real systems
+Programming,SQL,performance tuning,Edge cases that break 8/10 SQL performance tuning submissions
+Programming,SQL,joins deep dive,Back-of-the-envelope complexity: SQL joins deep dive
+Programming,SQL,indexes & query plans,Code smells in SQL indexes & query plans — and quick fixes
+Programming,SQL,normal forms,Template showdown: clean APIs for SQL normal forms
+Programming,SQL,transactions & ACID,Interview kata: daily reps for SQL transactions & ACID
+Programming,SQL,isolation levels & locks,Crash course: SQL isolation levels & locks in 5 minutes
+Programming,SQL,window functions,Top 5 questions around SQL window functions this year
+Programming,SQL,subqueries & CTEs,From CP to interviews: map subqueries & CTEs to idiomatic SQL
+Programming,SQL,grouping sets & rollups,Prove it: correctness for SQL grouping sets & rollups (plain English)
+Programming,SQL,schema design dos/donts,When not to use SQL features for schema design dos/donts (and what instead)
+Programming,SQL,query anti-patterns,Why SQL is still king for Indian interviews 👑
+Programming,SQL,performance tuning,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,joins deep dive,SQL in 60 seconds: the only joins deep dive intuition you need
+Programming,SQL,indexes & query plans,"indexes & query plans in SQL — stop brute forcing, write idiomatic code"
+Programming,SQL,normal forms,SQL normal forms: top 7 mistakes that cost offers in India
+Programming,SQL,transactions & ACID,From messy to clean: refactor your SQL transactions & ACID live
+Programming,SQL,isolation levels & locks,Interview day checklist: SQL isolation levels & locks in 5 bullets
+Programming,SQL,window functions,Whiteboard to code: SQL window functions with edge cases
+Programming,SQL,subqueries & CTEs,Explain it like I’m 5: SQL subqueries & CTEs without jargon
+Programming,SQL,grouping sets & rollups,Speedrun SQL grouping sets & rollups: archetypes you must know
+Programming,SQL,schema design dos/donts,You’re overcomplicating it — simplify your SQL schema design dos/donts
+Programming,SQL,query anti-patterns,Performance 101: make SQL query anti-patterns 10x faster (no hacks)
+Programming,SQL,performance tuning,Memory vs speed: tradeoffs in SQL performance tuning
+Programming,SQL,joins deep dive,Idiomatic SQL: do’s & don’ts for joins deep dive
+Programming,SQL,indexes & query plans,Debugging live: fix a broken SQL indexes & query plans solution
+Programming,SQL,normal forms,Unit tests that catch subtle bugs in SQL normal forms
+Programming,SQL,transactions & ACID,SQL transactions & ACID cheat sheet — templates + pitfalls
+Programming,SQL,isolation levels & locks,Phone screen vs onsite: how SQL isolation levels & locks questions differ
+Programming,SQL,window functions,Narrate your thinking: explain SQL window functions like a pro
+Programming,SQL,subqueries & CTEs,Before you code: 4 questions for any SQL subqueries & CTEs
+Programming,SQL,grouping sets & rollups,From DSA to dev: where SQL grouping sets & rollups shows up in real systems
+Programming,SQL,schema design dos/donts,Edge cases that break 8/10 SQL schema design dos/donts submissions
+Programming,SQL,query anti-patterns,Back-of-the-envelope complexity: SQL query anti-patterns
+Programming,SQL,performance tuning,Code smells in SQL performance tuning — and quick fixes
+Programming,SQL,joins deep dive,Template showdown: clean APIs for SQL joins deep dive
+Programming,SQL,indexes & query plans,Interview kata: daily reps for SQL indexes & query plans
+Programming,SQL,normal forms,Crash course: SQL normal forms in 5 minutes
+Programming,SQL,transactions & ACID,Top 5 questions around SQL transactions & ACID this year
+Programming,SQL,isolation levels & locks,From CP to interviews: map isolation levels & locks to idiomatic SQL
+Programming,SQL,window functions,Prove it: correctness for SQL window functions (plain English)
+Programming,SQL,subqueries & CTEs,When not to use SQL features for subqueries & CTEs (and what instead)
+Programming,SQL,grouping sets & rollups,Why SQL is still king for Indian interviews 👑
+Programming,SQL,schema design dos/donts,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,query anti-patterns,SQL in 60 seconds: the only query anti-patterns intuition you need
+Programming,SQL,performance tuning,"performance tuning in SQL — stop brute forcing, write idiomatic code"
+Programming,SQL,joins deep dive,SQL joins deep dive: top 7 mistakes that cost offers in India
+Programming,SQL,indexes & query plans,From messy to clean: refactor your SQL indexes & query plans live
+Programming,SQL,normal forms,Interview day checklist: SQL normal forms in 5 bullets
+Programming,SQL,transactions & ACID,Whiteboard to code: SQL transactions & ACID with edge cases
+Programming,SQL,isolation levels & locks,Explain it like I’m 5: SQL isolation levels & locks without jargon
+Programming,SQL,window functions,Speedrun SQL window functions: archetypes you must know
+Programming,SQL,subqueries & CTEs,You’re overcomplicating it — simplify your SQL subqueries & CTEs
+Programming,SQL,grouping sets & rollups,Performance 101: make SQL grouping sets & rollups 10x faster (no hacks)
+Programming,SQL,schema design dos/donts,Memory vs speed: tradeoffs in SQL schema design dos/donts
+Programming,SQL,query anti-patterns,Idiomatic SQL: do’s & don’ts for query anti-patterns
+Programming,SQL,performance tuning,Debugging live: fix a broken SQL performance tuning solution
+Programming,SQL,joins deep dive,Unit tests that catch subtle bugs in SQL joins deep dive
+Programming,SQL,indexes & query plans,SQL indexes & query plans cheat sheet — templates + pitfalls
+Programming,SQL,normal forms,Phone screen vs onsite: how SQL normal forms questions differ
+Programming,SQL,transactions & ACID,Narrate your thinking: explain SQL transactions & ACID like a pro
+Programming,SQL,isolation levels & locks,Before you code: 4 questions for any SQL isolation levels & locks
+Programming,SQL,window functions,From DSA to dev: where SQL window functions shows up in real systems
+Programming,SQL,subqueries & CTEs,Edge cases that break 8/10 SQL subqueries & CTEs submissions
+Programming,SQL,grouping sets & rollups,Back-of-the-envelope complexity: SQL grouping sets & rollups
+Programming,SQL,schema design dos/donts,Code smells in SQL schema design dos/donts — and quick fixes
+Programming,SQL,query anti-patterns,Template showdown: clean APIs for SQL query anti-patterns
+Programming,SQL,performance tuning,Interview kata: daily reps for SQL performance tuning
+Programming,SQL,joins deep dive,Crash course: SQL joins deep dive in 5 minutes
+Programming,SQL,indexes & query plans,Top 5 questions around SQL indexes & query plans this year
+Programming,SQL,normal forms,From CP to interviews: map normal forms to idiomatic SQL
+Programming,SQL,transactions & ACID,Prove it: correctness for SQL transactions & ACID (plain English)
+Programming,SQL,isolation levels & locks,When not to use SQL features for isolation levels & locks (and what instead)
+Programming,SQL,window functions,Why SQL is still king for Indian interviews 👑
+Programming,SQL,subqueries & CTEs,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,grouping sets & rollups,SQL in 60 seconds: the only grouping sets & rollups intuition you need
+Programming,SQL,schema design dos/donts,"schema design dos/donts in SQL — stop brute forcing, write idiomatic code"
+Programming,SQL,query anti-patterns,SQL query anti-patterns: top 7 mistakes that cost offers in India
+Programming,SQL,performance tuning,From messy to clean: refactor your SQL performance tuning live
+Programming,SQL,joins deep dive,Interview day checklist: SQL joins deep dive in 5 bullets
+Programming,SQL,indexes & query plans,Whiteboard to code: SQL indexes & query plans with edge cases
+Programming,SQL,normal forms,Explain it like I’m 5: SQL normal forms without jargon
+Programming,SQL,transactions & ACID,Speedrun SQL transactions & ACID: archetypes you must know
+Programming,SQL,isolation levels & locks,You’re overcomplicating it — simplify your SQL isolation levels & locks
+Programming,SQL,window functions,Performance 101: make SQL window functions 10x faster (no hacks)
+Programming,SQL,subqueries & CTEs,Memory vs speed: tradeoffs in SQL subqueries & CTEs
+Programming,SQL,grouping sets & rollups,Idiomatic SQL: do’s & don’ts for grouping sets & rollups
+Programming,SQL,schema design dos/donts,Debugging live: fix a broken SQL schema design dos/donts solution
+Programming,SQL,query anti-patterns,Unit tests that catch subtle bugs in SQL query anti-patterns
+Programming,SQL,performance tuning,SQL performance tuning cheat sheet — templates + pitfalls
+Programming,SQL,joins deep dive,Phone screen vs onsite: how SQL joins deep dive questions differ
+Programming,SQL,indexes & query plans,Narrate your thinking: explain SQL indexes & query plans like a pro
+Programming,SQL,normal forms,Before you code: 4 questions for any SQL normal forms
+Programming,SQL,transactions & ACID,From DSA to dev: where SQL transactions & ACID shows up in real systems
+Programming,SQL,isolation levels & locks,Edge cases that break 8/10 SQL isolation levels & locks submissions
+Programming,SQL,window functions,Back-of-the-envelope complexity: SQL window functions
+Programming,SQL,subqueries & CTEs,Code smells in SQL subqueries & CTEs — and quick fixes
+Programming,SQL,grouping sets & rollups,Template showdown: clean APIs for SQL grouping sets & rollups
+Programming,SQL,schema design dos/donts,Interview kata: daily reps for SQL schema design dos/donts
+Programming,SQL,query anti-patterns,Crash course: SQL query anti-patterns in 5 minutes
+Programming,SQL,performance tuning,Top 5 questions around SQL performance tuning this year
+Programming,SQL,joins deep dive,From CP to interviews: map joins deep dive to idiomatic SQL
+Programming,SQL,indexes & query plans,Prove it: correctness for SQL indexes & query plans (plain English)
+Programming,SQL,normal forms,When not to use SQL features for normal forms (and what instead)
+Programming,SQL,transactions & ACID,Why SQL is still king for Indian interviews 👑
+Programming,SQL,isolation levels & locks,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,window functions,SQL in 60 seconds: the only window functions intuition you need
+Programming,SQL,subqueries & CTEs,"subqueries & CTEs in SQL — stop brute forcing, write idiomatic code"
+Programming,SQL,grouping sets & rollups,SQL grouping sets & rollups: top 7 mistakes that cost offers in India
+Programming,SQL,schema design dos/donts,From messy to clean: refactor your SQL schema design dos/donts live
+Programming,SQL,query anti-patterns,Interview day checklist: SQL query anti-patterns in 5 bullets
+Programming,SQL,performance tuning,Whiteboard to code: SQL performance tuning with edge cases
+Programming,SQL,joins deep dive,Explain it like I’m 5: SQL joins deep dive without jargon
+Programming,SQL,indexes & query plans,Speedrun SQL indexes & query plans: archetypes you must know
+Programming,SQL,normal forms,You’re overcomplicating it — simplify your SQL normal forms
+Programming,SQL,transactions & ACID,Performance 101: make SQL transactions & ACID 10x faster (no hacks)
+Programming,SQL,isolation levels & locks,Memory vs speed: tradeoffs in SQL isolation levels & locks
+Programming,SQL,window functions,Idiomatic SQL: do’s & don’ts for window functions
+Programming,SQL,subqueries & CTEs,Debugging live: fix a broken SQL subqueries & CTEs solution
+Programming,SQL,grouping sets & rollups,Unit tests that catch subtle bugs in SQL grouping sets & rollups
+Programming,SQL,schema design dos/donts,SQL schema design dos/donts cheat sheet — templates + pitfalls
+Programming,SQL,query anti-patterns,Phone screen vs onsite: how SQL query anti-patterns questions differ
+Programming,SQL,performance tuning,Narrate your thinking: explain SQL performance tuning like a pro
+Programming,SQL,joins deep dive,Before you code: 4 questions for any SQL joins deep dive
+Programming,SQL,indexes & query plans,From DSA to dev: where SQL indexes & query plans shows up in real systems
+Programming,SQL,normal forms,Edge cases that break 8/10 SQL normal forms submissions
+Programming,SQL,transactions & ACID,Back-of-the-envelope complexity: SQL transactions & ACID
+Programming,SQL,isolation levels & locks,Code smells in SQL isolation levels & locks — and quick fixes
+Programming,SQL,window functions,Template showdown: clean APIs for SQL window functions
+Programming,SQL,subqueries & CTEs,Interview kata: daily reps for SQL subqueries & CTEs
+Programming,SQL,grouping sets & rollups,Crash course: SQL grouping sets & rollups in 5 minutes
+Programming,SQL,schema design dos/donts,Top 5 questions around SQL schema design dos/donts this year
+Programming,SQL,query anti-patterns,From CP to interviews: map query anti-patterns to idiomatic SQL
+Programming,SQL,performance tuning,Prove it: correctness for SQL performance tuning (plain English)
+Programming,SQL,joins deep dive,When not to use SQL features for joins deep dive (and what instead)
+Programming,SQL,indexes & query plans,Why SQL is still king for Indian interviews 👑
+Programming,SQL,normal forms,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,transactions & ACID,SQL in 60 seconds: the only transactions & ACID intuition you need
+Programming,SQL,isolation levels & locks,"isolation levels & locks in SQL — stop brute forcing, write idiomatic code"
+Programming,SQL,window functions,SQL window functions: top 7 mistakes that cost offers in India
+Programming,SQL,subqueries & CTEs,From messy to clean: refactor your SQL subqueries & CTEs live
+Programming,SQL,grouping sets & rollups,Interview day checklist: SQL grouping sets & rollups in 5 bullets
+Programming,SQL,schema design dos/donts,Whiteboard to code: SQL schema design dos/donts with edge cases
+Programming,SQL,query anti-patterns,Explain it like I’m 5: SQL query anti-patterns without jargon
+Programming,SQL,performance tuning,Speedrun SQL performance tuning: archetypes you must know
+Programming,SQL,joins deep dive,You’re overcomplicating it — simplify your SQL joins deep dive
+Programming,SQL,indexes & query plans,Performance 101: make SQL indexes & query plans 10x faster (no hacks)
+Programming,SQL,normal forms,Memory vs speed: tradeoffs in SQL normal forms
+Programming,SQL,transactions & ACID,Idiomatic SQL: do’s & don’ts for transactions & ACID
+Programming,SQL,isolation levels & locks,Debugging live: fix a broken SQL isolation levels & locks solution
+Programming,SQL,window functions,Unit tests that catch subtle bugs in SQL window functions
+Programming,SQL,subqueries & CTEs,SQL subqueries & CTEs cheat sheet — templates + pitfalls
+Programming,SQL,grouping sets & rollups,Phone screen vs onsite: how SQL grouping sets & rollups questions differ
+Programming,SQL,schema design dos/donts,Narrate your thinking: explain SQL schema design dos/donts like a pro
+Programming,SQL,query anti-patterns,Before you code: 4 questions for any SQL query anti-patterns
+Programming,SQL,performance tuning,From DSA to dev: where SQL performance tuning shows up in real systems
+Programming,SQL,joins deep dive,Edge cases that break 8/10 SQL joins deep dive submissions
+Programming,SQL,indexes & query plans,Back-of-the-envelope complexity: SQL indexes & query plans
+Programming,SQL,normal forms,Code smells in SQL normal forms — and quick fixes
+Programming,SQL,transactions & ACID,Template showdown: clean APIs for SQL transactions & ACID
+Programming,SQL,isolation levels & locks,Interview kata: daily reps for SQL isolation levels & locks
+Programming,SQL,window functions,Crash course: SQL window functions in 5 minutes
+Programming,SQL,subqueries & CTEs,Top 5 questions around SQL subqueries & CTEs this year
+Programming,SQL,grouping sets & rollups,From CP to interviews: map grouping sets & rollups to idiomatic SQL
+Programming,SQL,schema design dos/donts,Prove it: correctness for SQL schema design dos/donts (plain English)
+Programming,SQL,query anti-patterns,When not to use SQL features for query anti-patterns (and what instead)
+Programming,SQL,performance tuning,Why SQL is still king for Indian interviews 👑
+Programming,SQL,joins deep dive,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,indexes & query plans,SQL in 60 seconds: the only indexes & query plans intuition you need
+Programming,SQL,normal forms,"normal forms in SQL — stop brute forcing, write idiomatic code"
+Programming,SQL,transactions & ACID,SQL transactions & ACID: top 7 mistakes that cost offers in India
+Programming,SQL,isolation levels & locks,From messy to clean: refactor your SQL isolation levels & locks live
+Programming,SQL,window functions,Interview day checklist: SQL window functions in 5 bullets
+Programming,SQL,subqueries & CTEs,Whiteboard to code: SQL subqueries & CTEs with edge cases
+Programming,SQL,grouping sets & rollups,Explain it like I’m 5: SQL grouping sets & rollups without jargon
+Programming,SQL,schema design dos/donts,Speedrun SQL schema design dos/donts: archetypes you must know
+Programming,SQL,query anti-patterns,You’re overcomplicating it — simplify your SQL query anti-patterns
+Programming,SQL,performance tuning,Performance 101: make SQL performance tuning 10x faster (no hacks)
+Programming,SQL,joins deep dive,Memory vs speed: tradeoffs in SQL joins deep dive
+Programming,SQL,indexes & query plans,Idiomatic SQL: do’s & don’ts for indexes & query plans
+Programming,SQL,normal forms,Debugging live: fix a broken SQL normal forms solution
+Programming,SQL,transactions & ACID,Unit tests that catch subtle bugs in SQL transactions & ACID
+Programming,SQL,isolation levels & locks,SQL isolation levels & locks cheat sheet — templates + pitfalls
+Programming,SQL,window functions,Phone screen vs onsite: how SQL window functions questions differ
+Programming,SQL,subqueries & CTEs,Narrate your thinking: explain SQL subqueries & CTEs like a pro
+Programming,SQL,grouping sets & rollups,Before you code: 4 questions for any SQL grouping sets & rollups
+Programming,SQL,schema design dos/donts,From DSA to dev: where SQL schema design dos/donts shows up in real systems
+Programming,SQL,query anti-patterns,Edge cases that break 8/10 SQL query anti-patterns submissions
+Programming,SQL,performance tuning,Back-of-the-envelope complexity: SQL performance tuning
+Programming,SQL,joins deep dive,Code smells in SQL joins deep dive — and quick fixes
+Programming,SQL,indexes & query plans,Template showdown: clean APIs for SQL indexes & query plans
+Programming,SQL,normal forms,Interview kata: daily reps for SQL normal forms
+Programming,SQL,transactions & ACID,Crash course: SQL transactions & ACID in 5 minutes
+Programming,SQL,isolation levels & locks,Top 5 questions around SQL isolation levels & locks this year
+Programming,SQL,window functions,From CP to interviews: map window functions to idiomatic SQL
+Programming,SQL,subqueries & CTEs,Prove it: correctness for SQL subqueries & CTEs (plain English)
+Programming,SQL,grouping sets & rollups,When not to use SQL features for grouping sets & rollups (and what instead)
+Programming,SQL,schema design dos/donts,Why SQL is still king for Indian interviews 👑
+Programming,SQL,query anti-patterns,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,performance tuning,SQL in 60 seconds: the only performance tuning intuition you need
+Programming,SQL,joins deep dive,"joins deep dive in SQL — stop brute forcing, write idiomatic code"
+Programming,SQL,indexes & query plans,SQL indexes & query plans: top 7 mistakes that cost offers in India
+Programming,SQL,normal forms,From messy to clean: refactor your SQL normal forms live
+Programming,SQL,transactions & ACID,Interview day checklist: SQL transactions & ACID in 5 bullets
+Programming,SQL,isolation levels & locks,Whiteboard to code: SQL isolation levels & locks with edge cases
+Programming,SQL,window functions,Explain it like I’m 5: SQL window functions without jargon
+Programming,SQL,subqueries & CTEs,Speedrun SQL subqueries & CTEs: archetypes you must know
+Programming,SQL,grouping sets & rollups,You’re overcomplicating it — simplify your SQL grouping sets & rollups
+Programming,SQL,schema design dos/donts,Performance 101: make SQL schema design dos/donts 10x faster (no hacks)
+Programming,SQL,query anti-patterns,Memory vs speed: tradeoffs in SQL query anti-patterns
+Programming,SQL,performance tuning,Idiomatic SQL: do’s & don’ts for performance tuning
+Programming,SQL,joins deep dive,Debugging live: fix a broken SQL joins deep dive solution
+Programming,SQL,indexes & query plans,Unit tests that catch subtle bugs in SQL indexes & query plans
+Programming,SQL,normal forms,SQL normal forms cheat sheet — templates + pitfalls
+Programming,SQL,transactions & ACID,Phone screen vs onsite: how SQL transactions & ACID questions differ
+Programming,SQL,isolation levels & locks,Narrate your thinking: explain SQL isolation levels & locks like a pro
+Programming,SQL,window functions,Before you code: 4 questions for any SQL window functions
+Programming,SQL,subqueries & CTEs,From DSA to dev: where SQL subqueries & CTEs shows up in real systems
+Programming,SQL,grouping sets & rollups,Edge cases that break 8/10 SQL grouping sets & rollups submissions
+Programming,SQL,schema design dos/donts,Back-of-the-envelope complexity: SQL schema design dos/donts
+Programming,SQL,query anti-patterns,Code smells in SQL query anti-patterns — and quick fixes
+Programming,SQL,performance tuning,Template showdown: clean APIs for SQL performance tuning
+Programming,SQL,joins deep dive,Interview kata: daily reps for SQL joins deep dive
+Programming,SQL,indexes & query plans,Crash course: SQL indexes & query plans in 5 minutes
+Programming,SQL,normal forms,Top 5 questions around SQL normal forms this year
+Programming,SQL,transactions & ACID,From CP to interviews: map transactions & ACID to idiomatic SQL
+Programming,SQL,isolation levels & locks,Prove it: correctness for SQL isolation levels & locks (plain English)
+Programming,SQL,window functions,When not to use SQL features for window functions (and what instead)
+Programming,SQL,subqueries & CTEs,Why SQL is still king for Indian interviews 👑
+Programming,SQL,grouping sets & rollups,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,schema design dos/donts,SQL in 60 seconds: the only schema design dos/donts intuition you need
+Programming,SQL,query anti-patterns,"query anti-patterns in SQL — stop brute forcing, write idiomatic code"
+Programming,SQL,performance tuning,SQL performance tuning: top 7 mistakes that cost offers in India
+Programming,SQL,joins deep dive,From messy to clean: refactor your SQL joins deep dive live
+Programming,SQL,indexes & query plans,Interview day checklist: SQL indexes & query plans in 5 bullets
+Programming,SQL,normal forms,Whiteboard to code: SQL normal forms with edge cases
+Programming,SQL,transactions & ACID,Explain it like I’m 5: SQL transactions & ACID without jargon
+Programming,SQL,isolation levels & locks,Speedrun SQL isolation levels & locks: archetypes you must know
+Programming,SQL,window functions,You’re overcomplicating it — simplify your SQL window functions
+Programming,SQL,subqueries & CTEs,Performance 101: make SQL subqueries & CTEs 10x faster (no hacks)
+Programming,SQL,grouping sets & rollups,Memory vs speed: tradeoffs in SQL grouping sets & rollups
+Programming,SQL,schema design dos/donts,Idiomatic SQL: do’s & don’ts for schema design dos/donts
+Programming,SQL,query anti-patterns,Debugging live: fix a broken SQL query anti-patterns solution
+Programming,SQL,performance tuning,Unit tests that catch subtle bugs in SQL performance tuning
+Programming,SQL,joins deep dive,SQL joins deep dive cheat sheet — templates + pitfalls
+Programming,SQL,indexes & query plans,Phone screen vs onsite: how SQL indexes & query plans questions differ
+Programming,SQL,normal forms,Narrate your thinking: explain SQL normal forms like a pro
+Programming,SQL,transactions & ACID,Before you code: 4 questions for any SQL transactions & ACID
+Programming,SQL,isolation levels & locks,From DSA to dev: where SQL isolation levels & locks shows up in real systems
+Programming,SQL,window functions,Edge cases that break 8/10 SQL window functions submissions
+Programming,SQL,subqueries & CTEs,Back-of-the-envelope complexity: SQL subqueries & CTEs
+Programming,SQL,grouping sets & rollups,Code smells in SQL grouping sets & rollups — and quick fixes
+Programming,SQL,schema design dos/donts,Template showdown: clean APIs for SQL schema design dos/donts
+Programming,SQL,query anti-patterns,Interview kata: daily reps for SQL query anti-patterns
+Programming,SQL,performance tuning,Crash course: SQL performance tuning in 5 minutes
+Programming,SQL,joins deep dive,Top 5 questions around SQL joins deep dive this year
+Programming,SQL,indexes & query plans,From CP to interviews: map indexes & query plans to idiomatic SQL
+Programming,SQL,normal forms,Prove it: correctness for SQL normal forms (plain English)
+Programming,SQL,transactions & ACID,When not to use SQL features for transactions & ACID (and what instead)
+Programming,SQL,isolation levels & locks,Why SQL is still king for Indian interviews 👑
+Programming,SQL,window functions,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,subqueries & CTEs,SQL in 60 seconds: the only subqueries & CTEs intuition you need
+Programming,SQL,grouping sets & rollups,"grouping sets & rollups in SQL — stop brute forcing, write idiomatic code"
+Programming,SQL,schema design dos/donts,SQL schema design dos/donts: top 7 mistakes that cost offers in India
+Programming,SQL,query anti-patterns,From messy to clean: refactor your SQL query anti-patterns live
+Programming,SQL,performance tuning,Interview day checklist: SQL performance tuning in 5 bullets
+Programming,SQL,joins deep dive,Whiteboard to code: SQL joins deep dive with edge cases
+Programming,SQL,indexes & query plans,Explain it like I’m 5: SQL indexes & query plans without jargon
+Programming,SQL,normal forms,Speedrun SQL normal forms: archetypes you must know
+Programming,SQL,transactions & ACID,You’re overcomplicating it — simplify your SQL transactions & ACID
+Programming,SQL,isolation levels & locks,Performance 101: make SQL isolation levels & locks 10x faster (no hacks)
+Programming,SQL,window functions,Memory vs speed: tradeoffs in SQL window functions
+Programming,SQL,subqueries & CTEs,Idiomatic SQL: do’s & don’ts for subqueries & CTEs
+Programming,SQL,grouping sets & rollups,Debugging live: fix a broken SQL grouping sets & rollups solution
+Programming,SQL,schema design dos/donts,Unit tests that catch subtle bugs in SQL schema design dos/donts
+Programming,SQL,query anti-patterns,SQL query anti-patterns cheat sheet — templates + pitfalls
+Programming,SQL,performance tuning,Phone screen vs onsite: how SQL performance tuning questions differ
+Programming,SQL,joins deep dive,Narrate your thinking: explain SQL joins deep dive like a pro
+Programming,SQL,indexes & query plans,Before you code: 4 questions for any SQL indexes & query plans
+Programming,SQL,normal forms,From DSA to dev: where SQL normal forms shows up in real systems
+Programming,SQL,transactions & ACID,Edge cases that break 8/10 SQL transactions & ACID submissions
+Programming,SQL,isolation levels & locks,Back-of-the-envelope complexity: SQL isolation levels & locks
+Programming,SQL,window functions,Code smells in SQL window functions — and quick fixes
+Programming,SQL,subqueries & CTEs,Template showdown: clean APIs for SQL subqueries & CTEs
+Programming,SQL,grouping sets & rollups,Interview kata: daily reps for SQL grouping sets & rollups
+Programming,SQL,schema design dos/donts,Crash course: SQL schema design dos/donts in 5 minutes
+Programming,SQL,query anti-patterns,Top 5 questions around SQL query anti-patterns this year
+Programming,SQL,performance tuning,From CP to interviews: map performance tuning to idiomatic SQL
+Programming,SQL,joins deep dive,Prove it: correctness for SQL joins deep dive (plain English)
+Programming,SQL,indexes & query plans,When not to use SQL features for indexes & query plans (and what instead)
+Programming,SQL,normal forms,Why SQL is still king for Indian interviews 👑
+Programming,SQL,transactions & ACID,How SQL makes coding rounds 2x faster — patterns you’ll reuse
+Programming,SQL,isolation levels & locks,Bengaluru onsite-ready SQL isolation levels & locks
+Programming,SQL,window functions,Off-campus grind tips: SQL window functions
+Programming,SQL,subqueries & CTEs,Product vs service company: SQL subqueries & CTEs focus
+Programming,SQL,grouping sets & rollups,Startups vs MAANG expectations: SQL grouping sets & rollups
+Programming,SQL,schema design dos/donts,Campus placements: SQL schema design dos/donts in 2 rounds
+Programming,SQL,query anti-patterns,System design tie-ins: SQL query anti-patterns → prod
+Programming,SQL,performance tuning,Naukri/LinkedIn resume bullets from SQL performance tuning
+Programming,SQL,joins deep dive,DSA + SQL joins deep dive: what interviewers in India look for

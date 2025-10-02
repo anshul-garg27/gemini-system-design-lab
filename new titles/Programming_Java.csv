@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Programming,Java,OOP & SOLID,Why Java is still king for Indian interviews 👑
+Programming,Java,Generics & type erasure,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,Collections & maps,Java in 60 seconds: the only Collections & maps intuition you need
+Programming,Java,Streams & lambdas,"Streams & lambdas in Java — stop brute forcing, write idiomatic code"
+Programming,Java,Concurrency: Executors/CompletableFuture,Java Concurrency: Executors/CompletableFuture: top 7 mistakes that cost offers in India
+Programming,Java,JVM/GC/JIT basics,From messy to clean: refactor your Java JVM/GC/JIT basics live
+Programming,Java,Records & sealed classes,Interview day checklist: Java Records & sealed classes in 5 bullets
+Programming,Java,Exceptions & best practices,Whiteboard to code: Java Exceptions & best practices with edge cases
+Programming,Java,Immutability & builders,Explain it like I’m 5: Java Immutability & builders without jargon
+Programming,Java,Testing with JUnit,Speedrun Java Testing with JUnit: archetypes you must know
+Programming,Java,Maven/Gradle basics,You’re overcomplicating it — simplify your Java Maven/Gradle basics
+Programming,Java,OOP & SOLID,Performance 101: make Java OOP & SOLID 10x faster (no hacks)
+Programming,Java,Generics & type erasure,Memory vs speed: tradeoffs in Java Generics & type erasure
+Programming,Java,Collections & maps,Idiomatic Java: do’s & don’ts for Collections & maps
+Programming,Java,Streams & lambdas,Debugging live: fix a broken Java Streams & lambdas solution
+Programming,Java,Concurrency: Executors/CompletableFuture,Unit tests that catch subtle bugs in Java Concurrency: Executors/CompletableFuture
+Programming,Java,JVM/GC/JIT basics,Java JVM/GC/JIT basics cheat sheet — templates + pitfalls
+Programming,Java,Records & sealed classes,Phone screen vs onsite: how Java Records & sealed classes questions differ
+Programming,Java,Exceptions & best practices,Narrate your thinking: explain Java Exceptions & best practices like a pro
+Programming,Java,Immutability & builders,Before you code: 4 questions for any Java Immutability & builders
+Programming,Java,Testing with JUnit,From DSA to dev: where Java Testing with JUnit shows up in real systems
+Programming,Java,Maven/Gradle basics,Edge cases that break 8/10 Java Maven/Gradle basics submissions
+Programming,Java,OOP & SOLID,Back-of-the-envelope complexity: Java OOP & SOLID
+Programming,Java,Generics & type erasure,Code smells in Java Generics & type erasure — and quick fixes
+Programming,Java,Collections & maps,Template showdown: clean APIs for Java Collections & maps
+Programming,Java,Streams & lambdas,Interview kata: daily reps for Java Streams & lambdas
+Programming,Java,Concurrency: Executors/CompletableFuture,Crash course: Java Concurrency: Executors/CompletableFuture in 5 minutes
+Programming,Java,JVM/GC/JIT basics,Top 5 questions around Java JVM/GC/JIT basics this year
+Programming,Java,Records & sealed classes,From CP to interviews: map Records & sealed classes to idiomatic Java
+Programming,Java,Exceptions & best practices,Prove it: correctness for Java Exceptions & best practices (plain English)
+Programming,Java,Immutability & builders,When not to use Java features for Immutability & builders (and what instead)
+Programming,Java,Testing with JUnit,Why Java is still king for Indian interviews 👑
+Programming,Java,Maven/Gradle basics,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,OOP & SOLID,Java in 60 seconds: the only OOP & SOLID intuition you need
+Programming,Java,Generics & type erasure,"Generics & type erasure in Java — stop brute forcing, write idiomatic code"
+Programming,Java,Collections & maps,Java Collections & maps: top 7 mistakes that cost offers in India
+Programming,Java,Streams & lambdas,From messy to clean: refactor your Java Streams & lambdas live
+Programming,Java,Concurrency: Executors/CompletableFuture,Interview day checklist: Java Concurrency: Executors/CompletableFuture in 5 bullets
+Programming,Java,JVM/GC/JIT basics,Whiteboard to code: Java JVM/GC/JIT basics with edge cases
+Programming,Java,Records & sealed classes,Explain it like I’m 5: Java Records & sealed classes without jargon
+Programming,Java,Exceptions & best practices,Speedrun Java Exceptions & best practices: archetypes you must know
+Programming,Java,Immutability & builders,You’re overcomplicating it — simplify your Java Immutability & builders
+Programming,Java,Testing with JUnit,Performance 101: make Java Testing with JUnit 10x faster (no hacks)
+Programming,Java,Maven/Gradle basics,Memory vs speed: tradeoffs in Java Maven/Gradle basics
+Programming,Java,OOP & SOLID,Idiomatic Java: do’s & don’ts for OOP & SOLID
+Programming,Java,Generics & type erasure,Debugging live: fix a broken Java Generics & type erasure solution
+Programming,Java,Collections & maps,Unit tests that catch subtle bugs in Java Collections & maps
+Programming,Java,Streams & lambdas,Java Streams & lambdas cheat sheet — templates + pitfalls
+Programming,Java,Concurrency: Executors/CompletableFuture,Phone screen vs onsite: how Java Concurrency: Executors/CompletableFuture questions differ
+Programming,Java,JVM/GC/JIT basics,Narrate your thinking: explain Java JVM/GC/JIT basics like a pro
+Programming,Java,Records & sealed classes,Before you code: 4 questions for any Java Records & sealed classes
+Programming,Java,Exceptions & best practices,From DSA to dev: where Java Exceptions & best practices shows up in real systems
+Programming,Java,Immutability & builders,Edge cases that break 8/10 Java Immutability & builders submissions
+Programming,Java,Testing with JUnit,Back-of-the-envelope complexity: Java Testing with JUnit
+Programming,Java,Maven/Gradle basics,Code smells in Java Maven/Gradle basics — and quick fixes
+Programming,Java,OOP & SOLID,Template showdown: clean APIs for Java OOP & SOLID
+Programming,Java,Generics & type erasure,Interview kata: daily reps for Java Generics & type erasure
+Programming,Java,Collections & maps,Crash course: Java Collections & maps in 5 minutes
+Programming,Java,Streams & lambdas,Top 5 questions around Java Streams & lambdas this year
+Programming,Java,Concurrency: Executors/CompletableFuture,From CP to interviews: map Concurrency: Executors/CompletableFuture to idiomatic Java
+Programming,Java,JVM/GC/JIT basics,Prove it: correctness for Java JVM/GC/JIT basics (plain English)
+Programming,Java,Records & sealed classes,When not to use Java features for Records & sealed classes (and what instead)
+Programming,Java,Exceptions & best practices,Why Java is still king for Indian interviews 👑
+Programming,Java,Immutability & builders,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,Testing with JUnit,Java in 60 seconds: the only Testing with JUnit intuition you need
+Programming,Java,Maven/Gradle basics,"Maven/Gradle basics in Java — stop brute forcing, write idiomatic code"
+Programming,Java,OOP & SOLID,Java OOP & SOLID: top 7 mistakes that cost offers in India
+Programming,Java,Generics & type erasure,From messy to clean: refactor your Java Generics & type erasure live
+Programming,Java,Collections & maps,Interview day checklist: Java Collections & maps in 5 bullets
+Programming,Java,Streams & lambdas,Whiteboard to code: Java Streams & lambdas with edge cases
+Programming,Java,Concurrency: Executors/CompletableFuture,Explain it like I’m 5: Java Concurrency: Executors/CompletableFuture without jargon
+Programming,Java,JVM/GC/JIT basics,Speedrun Java JVM/GC/JIT basics: archetypes you must know
+Programming,Java,Records & sealed classes,You’re overcomplicating it — simplify your Java Records & sealed classes
+Programming,Java,Exceptions & best practices,Performance 101: make Java Exceptions & best practices 10x faster (no hacks)
+Programming,Java,Immutability & builders,Memory vs speed: tradeoffs in Java Immutability & builders
+Programming,Java,Testing with JUnit,Idiomatic Java: do’s & don’ts for Testing with JUnit
+Programming,Java,Maven/Gradle basics,Debugging live: fix a broken Java Maven/Gradle basics solution
+Programming,Java,OOP & SOLID,Unit tests that catch subtle bugs in Java OOP & SOLID
+Programming,Java,Generics & type erasure,Java Generics & type erasure cheat sheet — templates + pitfalls
+Programming,Java,Collections & maps,Phone screen vs onsite: how Java Collections & maps questions differ
+Programming,Java,Streams & lambdas,Narrate your thinking: explain Java Streams & lambdas like a pro
+Programming,Java,Concurrency: Executors/CompletableFuture,Before you code: 4 questions for any Java Concurrency: Executors/CompletableFuture
+Programming,Java,JVM/GC/JIT basics,From DSA to dev: where Java JVM/GC/JIT basics shows up in real systems
+Programming,Java,Records & sealed classes,Edge cases that break 8/10 Java Records & sealed classes submissions
+Programming,Java,Exceptions & best practices,Back-of-the-envelope complexity: Java Exceptions & best practices
+Programming,Java,Immutability & builders,Code smells in Java Immutability & builders — and quick fixes
+Programming,Java,Testing with JUnit,Template showdown: clean APIs for Java Testing with JUnit
+Programming,Java,Maven/Gradle basics,Interview kata: daily reps for Java Maven/Gradle basics
+Programming,Java,OOP & SOLID,Crash course: Java OOP & SOLID in 5 minutes
+Programming,Java,Generics & type erasure,Top 5 questions around Java Generics & type erasure this year
+Programming,Java,Collections & maps,From CP to interviews: map Collections & maps to idiomatic Java
+Programming,Java,Streams & lambdas,Prove it: correctness for Java Streams & lambdas (plain English)
+Programming,Java,Concurrency: Executors/CompletableFuture,When not to use Java features for Concurrency: Executors/CompletableFuture (and what instead)
+Programming,Java,JVM/GC/JIT basics,Why Java is still king for Indian interviews 👑
+Programming,Java,Records & sealed classes,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,Exceptions & best practices,Java in 60 seconds: the only Exceptions & best practices intuition you need
+Programming,Java,Immutability & builders,"Immutability & builders in Java — stop brute forcing, write idiomatic code"
+Programming,Java,Testing with JUnit,Java Testing with JUnit: top 7 mistakes that cost offers in India
+Programming,Java,Maven/Gradle basics,From messy to clean: refactor your Java Maven/Gradle basics live
+Programming,Java,OOP & SOLID,Interview day checklist: Java OOP & SOLID in 5 bullets
+Programming,Java,Generics & type erasure,Whiteboard to code: Java Generics & type erasure with edge cases
+Programming,Java,Collections & maps,Explain it like I’m 5: Java Collections & maps without jargon
+Programming,Java,Streams & lambdas,Speedrun Java Streams & lambdas: archetypes you must know
+Programming,Java,Concurrency: Executors/CompletableFuture,You’re overcomplicating it — simplify your Java Concurrency: Executors/CompletableFuture
+Programming,Java,JVM/GC/JIT basics,Performance 101: make Java JVM/GC/JIT basics 10x faster (no hacks)
+Programming,Java,Records & sealed classes,Memory vs speed: tradeoffs in Java Records & sealed classes
+Programming,Java,Exceptions & best practices,Idiomatic Java: do’s & don’ts for Exceptions & best practices
+Programming,Java,Immutability & builders,Debugging live: fix a broken Java Immutability & builders solution
+Programming,Java,Testing with JUnit,Unit tests that catch subtle bugs in Java Testing with JUnit
+Programming,Java,Maven/Gradle basics,Java Maven/Gradle basics cheat sheet — templates + pitfalls
+Programming,Java,OOP & SOLID,Phone screen vs onsite: how Java OOP & SOLID questions differ
+Programming,Java,Generics & type erasure,Narrate your thinking: explain Java Generics & type erasure like a pro
+Programming,Java,Collections & maps,Before you code: 4 questions for any Java Collections & maps
+Programming,Java,Streams & lambdas,From DSA to dev: where Java Streams & lambdas shows up in real systems
+Programming,Java,Concurrency: Executors/CompletableFuture,Edge cases that break 8/10 Java Concurrency: Executors/CompletableFuture submissions
+Programming,Java,JVM/GC/JIT basics,Back-of-the-envelope complexity: Java JVM/GC/JIT basics
+Programming,Java,Records & sealed classes,Code smells in Java Records & sealed classes — and quick fixes
+Programming,Java,Exceptions & best practices,Template showdown: clean APIs for Java Exceptions & best practices
+Programming,Java,Immutability & builders,Interview kata: daily reps for Java Immutability & builders
+Programming,Java,Testing with JUnit,Crash course: Java Testing with JUnit in 5 minutes
+Programming,Java,Maven/Gradle basics,Top 5 questions around Java Maven/Gradle basics this year
+Programming,Java,OOP & SOLID,From CP to interviews: map OOP & SOLID to idiomatic Java
+Programming,Java,Generics & type erasure,Prove it: correctness for Java Generics & type erasure (plain English)
+Programming,Java,Collections & maps,When not to use Java features for Collections & maps (and what instead)
+Programming,Java,Streams & lambdas,Why Java is still king for Indian interviews 👑
+Programming,Java,Concurrency: Executors/CompletableFuture,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,JVM/GC/JIT basics,Java in 60 seconds: the only JVM/GC/JIT basics intuition you need
+Programming,Java,Records & sealed classes,"Records & sealed classes in Java — stop brute forcing, write idiomatic code"
+Programming,Java,Exceptions & best practices,Java Exceptions & best practices: top 7 mistakes that cost offers in India
+Programming,Java,Immutability & builders,From messy to clean: refactor your Java Immutability & builders live
+Programming,Java,Testing with JUnit,Interview day checklist: Java Testing with JUnit in 5 bullets
+Programming,Java,Maven/Gradle basics,Whiteboard to code: Java Maven/Gradle basics with edge cases
+Programming,Java,OOP & SOLID,Explain it like I’m 5: Java OOP & SOLID without jargon
+Programming,Java,Generics & type erasure,Speedrun Java Generics & type erasure: archetypes you must know
+Programming,Java,Collections & maps,You’re overcomplicating it — simplify your Java Collections & maps
+Programming,Java,Streams & lambdas,Performance 101: make Java Streams & lambdas 10x faster (no hacks)
+Programming,Java,Concurrency: Executors/CompletableFuture,Memory vs speed: tradeoffs in Java Concurrency: Executors/CompletableFuture
+Programming,Java,JVM/GC/JIT basics,Idiomatic Java: do’s & don’ts for JVM/GC/JIT basics
+Programming,Java,Records & sealed classes,Debugging live: fix a broken Java Records & sealed classes solution
+Programming,Java,Exceptions & best practices,Unit tests that catch subtle bugs in Java Exceptions & best practices
+Programming,Java,Immutability & builders,Java Immutability & builders cheat sheet — templates + pitfalls
+Programming,Java,Testing with JUnit,Phone screen vs onsite: how Java Testing with JUnit questions differ
+Programming,Java,Maven/Gradle basics,Narrate your thinking: explain Java Maven/Gradle basics like a pro
+Programming,Java,OOP & SOLID,Before you code: 4 questions for any Java OOP & SOLID
+Programming,Java,Generics & type erasure,From DSA to dev: where Java Generics & type erasure shows up in real systems
+Programming,Java,Collections & maps,Edge cases that break 8/10 Java Collections & maps submissions
+Programming,Java,Streams & lambdas,Back-of-the-envelope complexity: Java Streams & lambdas
+Programming,Java,Concurrency: Executors/CompletableFuture,Code smells in Java Concurrency: Executors/CompletableFuture — and quick fixes
+Programming,Java,JVM/GC/JIT basics,Template showdown: clean APIs for Java JVM/GC/JIT basics
+Programming,Java,Records & sealed classes,Interview kata: daily reps for Java Records & sealed classes
+Programming,Java,Exceptions & best practices,Crash course: Java Exceptions & best practices in 5 minutes
+Programming,Java,Immutability & builders,Top 5 questions around Java Immutability & builders this year
+Programming,Java,Testing with JUnit,From CP to interviews: map Testing with JUnit to idiomatic Java
+Programming,Java,Maven/Gradle basics,Prove it: correctness for Java Maven/Gradle basics (plain English)
+Programming,Java,OOP & SOLID,When not to use Java features for OOP & SOLID (and what instead)
+Programming,Java,Generics & type erasure,Why Java is still king for Indian interviews 👑
+Programming,Java,Collections & maps,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,Streams & lambdas,Java in 60 seconds: the only Streams & lambdas intuition you need
+Programming,Java,Concurrency: Executors/CompletableFuture,"Concurrency: Executors/CompletableFuture in Java — stop brute forcing, write idiomatic code"
+Programming,Java,JVM/GC/JIT basics,Java JVM/GC/JIT basics: top 7 mistakes that cost offers in India
+Programming,Java,Records & sealed classes,From messy to clean: refactor your Java Records & sealed classes live
+Programming,Java,Exceptions & best practices,Interview day checklist: Java Exceptions & best practices in 5 bullets
+Programming,Java,Immutability & builders,Whiteboard to code: Java Immutability & builders with edge cases
+Programming,Java,Testing with JUnit,Explain it like I’m 5: Java Testing with JUnit without jargon
+Programming,Java,Maven/Gradle basics,Speedrun Java Maven/Gradle basics: archetypes you must know
+Programming,Java,OOP & SOLID,You’re overcomplicating it — simplify your Java OOP & SOLID
+Programming,Java,Generics & type erasure,Performance 101: make Java Generics & type erasure 10x faster (no hacks)
+Programming,Java,Collections & maps,Memory vs speed: tradeoffs in Java Collections & maps
+Programming,Java,Streams & lambdas,Idiomatic Java: do’s & don’ts for Streams & lambdas
+Programming,Java,Concurrency: Executors/CompletableFuture,Debugging live: fix a broken Java Concurrency: Executors/CompletableFuture solution
+Programming,Java,JVM/GC/JIT basics,Unit tests that catch subtle bugs in Java JVM/GC/JIT basics
+Programming,Java,Records & sealed classes,Java Records & sealed classes cheat sheet — templates + pitfalls
+Programming,Java,Exceptions & best practices,Phone screen vs onsite: how Java Exceptions & best practices questions differ
+Programming,Java,Immutability & builders,Narrate your thinking: explain Java Immutability & builders like a pro
+Programming,Java,Testing with JUnit,Before you code: 4 questions for any Java Testing with JUnit
+Programming,Java,Maven/Gradle basics,From DSA to dev: where Java Maven/Gradle basics shows up in real systems
+Programming,Java,OOP & SOLID,Edge cases that break 8/10 Java OOP & SOLID submissions
+Programming,Java,Generics & type erasure,Back-of-the-envelope complexity: Java Generics & type erasure
+Programming,Java,Collections & maps,Code smells in Java Collections & maps — and quick fixes
+Programming,Java,Streams & lambdas,Template showdown: clean APIs for Java Streams & lambdas
+Programming,Java,Concurrency: Executors/CompletableFuture,Interview kata: daily reps for Java Concurrency: Executors/CompletableFuture
+Programming,Java,JVM/GC/JIT basics,Crash course: Java JVM/GC/JIT basics in 5 minutes
+Programming,Java,Records & sealed classes,Top 5 questions around Java Records & sealed classes this year
+Programming,Java,Exceptions & best practices,From CP to interviews: map Exceptions & best practices to idiomatic Java
+Programming,Java,Immutability & builders,Prove it: correctness for Java Immutability & builders (plain English)
+Programming,Java,Testing with JUnit,When not to use Java features for Testing with JUnit (and what instead)
+Programming,Java,Maven/Gradle basics,Why Java is still king for Indian interviews 👑
+Programming,Java,OOP & SOLID,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,Generics & type erasure,Java in 60 seconds: the only Generics & type erasure intuition you need
+Programming,Java,Collections & maps,"Collections & maps in Java — stop brute forcing, write idiomatic code"
+Programming,Java,Streams & lambdas,Java Streams & lambdas: top 7 mistakes that cost offers in India
+Programming,Java,Concurrency: Executors/CompletableFuture,From messy to clean: refactor your Java Concurrency: Executors/CompletableFuture live
+Programming,Java,JVM/GC/JIT basics,Interview day checklist: Java JVM/GC/JIT basics in 5 bullets
+Programming,Java,Records & sealed classes,Whiteboard to code: Java Records & sealed classes with edge cases
+Programming,Java,Exceptions & best practices,Explain it like I’m 5: Java Exceptions & best practices without jargon
+Programming,Java,Immutability & builders,Speedrun Java Immutability & builders: archetypes you must know
+Programming,Java,Testing with JUnit,You’re overcomplicating it — simplify your Java Testing with JUnit
+Programming,Java,Maven/Gradle basics,Performance 101: make Java Maven/Gradle basics 10x faster (no hacks)
+Programming,Java,OOP & SOLID,Memory vs speed: tradeoffs in Java OOP & SOLID
+Programming,Java,Generics & type erasure,Idiomatic Java: do’s & don’ts for Generics & type erasure
+Programming,Java,Collections & maps,Debugging live: fix a broken Java Collections & maps solution
+Programming,Java,Streams & lambdas,Unit tests that catch subtle bugs in Java Streams & lambdas
+Programming,Java,Concurrency: Executors/CompletableFuture,Java Concurrency: Executors/CompletableFuture cheat sheet — templates + pitfalls
+Programming,Java,JVM/GC/JIT basics,Phone screen vs onsite: how Java JVM/GC/JIT basics questions differ
+Programming,Java,Records & sealed classes,Narrate your thinking: explain Java Records & sealed classes like a pro
+Programming,Java,Exceptions & best practices,Before you code: 4 questions for any Java Exceptions & best practices
+Programming,Java,Immutability & builders,From DSA to dev: where Java Immutability & builders shows up in real systems
+Programming,Java,Testing with JUnit,Edge cases that break 8/10 Java Testing with JUnit submissions
+Programming,Java,Maven/Gradle basics,Back-of-the-envelope complexity: Java Maven/Gradle basics
+Programming,Java,OOP & SOLID,Code smells in Java OOP & SOLID — and quick fixes
+Programming,Java,Generics & type erasure,Template showdown: clean APIs for Java Generics & type erasure
+Programming,Java,Collections & maps,Interview kata: daily reps for Java Collections & maps
+Programming,Java,Streams & lambdas,Crash course: Java Streams & lambdas in 5 minutes
+Programming,Java,Concurrency: Executors/CompletableFuture,Top 5 questions around Java Concurrency: Executors/CompletableFuture this year
+Programming,Java,JVM/GC/JIT basics,From CP to interviews: map JVM/GC/JIT basics to idiomatic Java
+Programming,Java,Records & sealed classes,Prove it: correctness for Java Records & sealed classes (plain English)
+Programming,Java,Exceptions & best practices,When not to use Java features for Exceptions & best practices (and what instead)
+Programming,Java,Immutability & builders,Why Java is still king for Indian interviews 👑
+Programming,Java,Testing with JUnit,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,Maven/Gradle basics,Java in 60 seconds: the only Maven/Gradle basics intuition you need
+Programming,Java,OOP & SOLID,"OOP & SOLID in Java — stop brute forcing, write idiomatic code"
+Programming,Java,Generics & type erasure,Java Generics & type erasure: top 7 mistakes that cost offers in India
+Programming,Java,Collections & maps,From messy to clean: refactor your Java Collections & maps live
+Programming,Java,Streams & lambdas,Interview day checklist: Java Streams & lambdas in 5 bullets
+Programming,Java,Concurrency: Executors/CompletableFuture,Whiteboard to code: Java Concurrency: Executors/CompletableFuture with edge cases
+Programming,Java,JVM/GC/JIT basics,Explain it like I’m 5: Java JVM/GC/JIT basics without jargon
+Programming,Java,Records & sealed classes,Speedrun Java Records & sealed classes: archetypes you must know
+Programming,Java,Exceptions & best practices,You’re overcomplicating it — simplify your Java Exceptions & best practices
+Programming,Java,Immutability & builders,Performance 101: make Java Immutability & builders 10x faster (no hacks)
+Programming,Java,Testing with JUnit,Memory vs speed: tradeoffs in Java Testing with JUnit
+Programming,Java,Maven/Gradle basics,Idiomatic Java: do’s & don’ts for Maven/Gradle basics
+Programming,Java,OOP & SOLID,Debugging live: fix a broken Java OOP & SOLID solution
+Programming,Java,Generics & type erasure,Unit tests that catch subtle bugs in Java Generics & type erasure
+Programming,Java,Collections & maps,Java Collections & maps cheat sheet — templates + pitfalls
+Programming,Java,Streams & lambdas,Phone screen vs onsite: how Java Streams & lambdas questions differ
+Programming,Java,Concurrency: Executors/CompletableFuture,Narrate your thinking: explain Java Concurrency: Executors/CompletableFuture like a pro
+Programming,Java,JVM/GC/JIT basics,Before you code: 4 questions for any Java JVM/GC/JIT basics
+Programming,Java,Records & sealed classes,From DSA to dev: where Java Records & sealed classes shows up in real systems
+Programming,Java,Exceptions & best practices,Edge cases that break 8/10 Java Exceptions & best practices submissions
+Programming,Java,Immutability & builders,Back-of-the-envelope complexity: Java Immutability & builders
+Programming,Java,Testing with JUnit,Code smells in Java Testing with JUnit — and quick fixes
+Programming,Java,Maven/Gradle basics,Template showdown: clean APIs for Java Maven/Gradle basics
+Programming,Java,OOP & SOLID,Interview kata: daily reps for Java OOP & SOLID
+Programming,Java,Generics & type erasure,Crash course: Java Generics & type erasure in 5 minutes
+Programming,Java,Collections & maps,Top 5 questions around Java Collections & maps this year
+Programming,Java,Streams & lambdas,From CP to interviews: map Streams & lambdas to idiomatic Java
+Programming,Java,Concurrency: Executors/CompletableFuture,Prove it: correctness for Java Concurrency: Executors/CompletableFuture (plain English)
+Programming,Java,JVM/GC/JIT basics,When not to use Java features for JVM/GC/JIT basics (and what instead)
+Programming,Java,Records & sealed classes,Why Java is still king for Indian interviews 👑
+Programming,Java,Exceptions & best practices,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,Immutability & builders,Java in 60 seconds: the only Immutability & builders intuition you need
+Programming,Java,Testing with JUnit,"Testing with JUnit in Java — stop brute forcing, write idiomatic code"
+Programming,Java,Maven/Gradle basics,Java Maven/Gradle basics: top 7 mistakes that cost offers in India
+Programming,Java,OOP & SOLID,From messy to clean: refactor your Java OOP & SOLID live
+Programming,Java,Generics & type erasure,Interview day checklist: Java Generics & type erasure in 5 bullets
+Programming,Java,Collections & maps,Whiteboard to code: Java Collections & maps with edge cases
+Programming,Java,Streams & lambdas,Explain it like I’m 5: Java Streams & lambdas without jargon
+Programming,Java,Concurrency: Executors/CompletableFuture,Speedrun Java Concurrency: Executors/CompletableFuture: archetypes you must know
+Programming,Java,JVM/GC/JIT basics,You’re overcomplicating it — simplify your Java JVM/GC/JIT basics
+Programming,Java,Records & sealed classes,Performance 101: make Java Records & sealed classes 10x faster (no hacks)
+Programming,Java,Exceptions & best practices,Memory vs speed: tradeoffs in Java Exceptions & best practices
+Programming,Java,Immutability & builders,Idiomatic Java: do’s & don’ts for Immutability & builders
+Programming,Java,Testing with JUnit,Debugging live: fix a broken Java Testing with JUnit solution
+Programming,Java,Maven/Gradle basics,Unit tests that catch subtle bugs in Java Maven/Gradle basics
+Programming,Java,OOP & SOLID,Java OOP & SOLID cheat sheet — templates + pitfalls
+Programming,Java,Generics & type erasure,Phone screen vs onsite: how Java Generics & type erasure questions differ
+Programming,Java,Collections & maps,Narrate your thinking: explain Java Collections & maps like a pro
+Programming,Java,Streams & lambdas,Before you code: 4 questions for any Java Streams & lambdas
+Programming,Java,Concurrency: Executors/CompletableFuture,From DSA to dev: where Java Concurrency: Executors/CompletableFuture shows up in real systems
+Programming,Java,JVM/GC/JIT basics,Edge cases that break 8/10 Java JVM/GC/JIT basics submissions
+Programming,Java,Records & sealed classes,Back-of-the-envelope complexity: Java Records & sealed classes
+Programming,Java,Exceptions & best practices,Code smells in Java Exceptions & best practices — and quick fixes
+Programming,Java,Immutability & builders,Template showdown: clean APIs for Java Immutability & builders
+Programming,Java,Testing with JUnit,Interview kata: daily reps for Java Testing with JUnit
+Programming,Java,Maven/Gradle basics,Crash course: Java Maven/Gradle basics in 5 minutes
+Programming,Java,OOP & SOLID,Top 5 questions around Java OOP & SOLID this year
+Programming,Java,Generics & type erasure,From CP to interviews: map Generics & type erasure to idiomatic Java
+Programming,Java,Collections & maps,Prove it: correctness for Java Collections & maps (plain English)
+Programming,Java,Streams & lambdas,When not to use Java features for Streams & lambdas (and what instead)
+Programming,Java,Concurrency: Executors/CompletableFuture,Why Java is still king for Indian interviews 👑
+Programming,Java,JVM/GC/JIT basics,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,Records & sealed classes,Java in 60 seconds: the only Records & sealed classes intuition you need
+Programming,Java,Exceptions & best practices,"Exceptions & best practices in Java — stop brute forcing, write idiomatic code"
+Programming,Java,Immutability & builders,Java Immutability & builders: top 7 mistakes that cost offers in India
+Programming,Java,Testing with JUnit,From messy to clean: refactor your Java Testing with JUnit live
+Programming,Java,Maven/Gradle basics,Interview day checklist: Java Maven/Gradle basics in 5 bullets
+Programming,Java,OOP & SOLID,Whiteboard to code: Java OOP & SOLID with edge cases
+Programming,Java,Generics & type erasure,Explain it like I’m 5: Java Generics & type erasure without jargon
+Programming,Java,Collections & maps,Speedrun Java Collections & maps: archetypes you must know
+Programming,Java,Streams & lambdas,You’re overcomplicating it — simplify your Java Streams & lambdas
+Programming,Java,Concurrency: Executors/CompletableFuture,Performance 101: make Java Concurrency: Executors/CompletableFuture 10x faster (no hacks)
+Programming,Java,JVM/GC/JIT basics,Memory vs speed: tradeoffs in Java JVM/GC/JIT basics
+Programming,Java,Records & sealed classes,Idiomatic Java: do’s & don’ts for Records & sealed classes
+Programming,Java,Exceptions & best practices,Debugging live: fix a broken Java Exceptions & best practices solution
+Programming,Java,Immutability & builders,Unit tests that catch subtle bugs in Java Immutability & builders
+Programming,Java,Testing with JUnit,Java Testing with JUnit cheat sheet — templates + pitfalls
+Programming,Java,Maven/Gradle basics,Phone screen vs onsite: how Java Maven/Gradle basics questions differ
+Programming,Java,OOP & SOLID,Narrate your thinking: explain Java OOP & SOLID like a pro
+Programming,Java,Generics & type erasure,Before you code: 4 questions for any Java Generics & type erasure
+Programming,Java,Collections & maps,From DSA to dev: where Java Collections & maps shows up in real systems
+Programming,Java,Streams & lambdas,Edge cases that break 8/10 Java Streams & lambdas submissions
+Programming,Java,Concurrency: Executors/CompletableFuture,Back-of-the-envelope complexity: Java Concurrency: Executors/CompletableFuture
+Programming,Java,JVM/GC/JIT basics,Code smells in Java JVM/GC/JIT basics — and quick fixes
+Programming,Java,Records & sealed classes,Template showdown: clean APIs for Java Records & sealed classes
+Programming,Java,Exceptions & best practices,Interview kata: daily reps for Java Exceptions & best practices
+Programming,Java,Immutability & builders,Crash course: Java Immutability & builders in 5 minutes
+Programming,Java,Testing with JUnit,Top 5 questions around Java Testing with JUnit this year
+Programming,Java,Maven/Gradle basics,From CP to interviews: map Maven/Gradle basics to idiomatic Java
+Programming,Java,OOP & SOLID,Prove it: correctness for Java OOP & SOLID (plain English)
+Programming,Java,Generics & type erasure,When not to use Java features for Generics & type erasure (and what instead)
+Programming,Java,Collections & maps,Why Java is still king for Indian interviews 👑
+Programming,Java,Streams & lambdas,How Java makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Java,Concurrency: Executors/CompletableFuture,Bengaluru onsite-ready Java Concurrency: Executors/CompletableFuture
+Programming,Java,JVM/GC/JIT basics,Off-campus grind tips: Java JVM/GC/JIT basics
+Programming,Java,Records & sealed classes,Product vs service company: Java Records & sealed classes focus
+Programming,Java,Exceptions & best practices,Startups vs MAANG expectations: Java Exceptions & best practices
+Programming,Java,Immutability & builders,Campus placements: Java Immutability & builders in 2 rounds
+Programming,Java,Testing with JUnit,System design tie-ins: Java Testing with JUnit → prod
+Programming,Java,Maven/Gradle basics,Naukri/LinkedIn resume bullets from Java Maven/Gradle basics
+Programming,Java,OOP & SOLID,DSA + Java OOP & SOLID: what interviewers in India look for

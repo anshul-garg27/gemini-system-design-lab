@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Strings Mastery,KMP (prefix function),Visualize borders & periods for KMP (prefix function)
+DSA,DSA — Strings Mastery,Z-algorithm,When to choose Z-algorithm over hashing
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Pitfalls: modulo & collisions in Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Interview pattern map: substring vs subsequence via Manacher (longest palindrome)
+DSA,DSA — Strings Mastery,Suffix Array,Real-world: dedup & plagiarism with Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,Why Suffix Automaton scares 90% of interviewees (and how to master it)
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Suffix Tree (Ukkonen) in 60 seconds — intuition first
+DSA,DSA — Strings Mastery,Aho–Corasick,Stop brute forcing: spot the Aho–Corasick trigger words
+DSA,DSA — Strings Mastery,Trie (prefix tree),Trie (prefix tree) vs brute force — when to switch and why
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Top 7 mistakes in Radix Tree (compressed trie) that cost offers
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),From O(N^2) → O(N): optimize your Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),"Edit distance (Levenshtein) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Think like an interviewer: how I grade your Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,Whiteboard to code: Minimum window substring with edge cases
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),You don’t need to memorize — template for Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),"Burrows–Wheeler transform (concept) cheat sheet: patterns, templates, tests"
+DSA,DSA — Strings Mastery,KMP (prefix function),Interview day checklist for KMP (prefix function)
+DSA,DSA — Strings Mastery,Z-algorithm,Draw this first: diagram that unlocks Z-algorithm
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),The ‘aha!’ intuition behind Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Hidden constraints that break Manacher (longest palindrome)
+DSA,DSA — Strings Mastery,Suffix Array,Dry run like a pro: Suffix Array on real inputs
+DSA,DSA — Strings Mastery,Suffix Automaton,"Refactor a messy Suffix Automaton into clean, fast code"
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Space vs time in Suffix Tree (Ukkonen): what to trade off
+DSA,DSA — Strings Mastery,Aho–Corasick,Edge cases that break 8/10 Aho–Corasick submissions
+DSA,DSA — Strings Mastery,Trie (prefix tree),Prove correctness for Trie (prefix tree) in plain English
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Phone screen vs onsite: Radix Tree (compressed trie) differences
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Speedrun Rolling hash (collisions & double hashing): archetypes you must know
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Complexity showdown: naive vs optimal Edit distance (Levenshtein)
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Debugging live: fix a broken Wildcard/regex-like matching solution
+DSA,DSA — Strings Mastery,Minimum window substring,"Off-by-one, bounds, and overflow in Minimum window substring"
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Simplify before you optimize: Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),"Mock interview: one Burrows–Wheeler transform (concept) problem, full process"
+DSA,DSA — Strings Mastery,KMP (prefix function),Unit tests that catch subtle KMP (prefix function) bugs
+DSA,DSA — Strings Mastery,Z-algorithm,When to use hash maps / sets with Z-algorithm
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Why your Rabin–Karp (rolling hash) TLEs at scale — and how to fix it
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Translate to C++/Java/Python: fast Manacher (longest palindrome)
+DSA,DSA — Strings Mastery,Suffix Array,Read the prompt: keywords that scream Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,Back-of-the-envelope complexity for Suffix Automaton
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Roadmap: beginner → advanced Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,One trick that simplifies most Aho–Corasick questions
+DSA,DSA — Strings Mastery,Trie (prefix tree),Stop re-deriving! Reusable template for Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Edge vs corner cases — Radix Tree (compressed trie) edition
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Narrate your approach: explain Rolling hash (collisions & double hashing) confidently
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Checklist before coding Edit distance (Levenshtein)
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Interview kata: daily reps for Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,Constraint-driven design: pick the right Minimum window substring approach
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Visualize borders & periods for Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),When to choose Burrows–Wheeler transform (concept) over hashing
+DSA,DSA — Strings Mastery,KMP (prefix function),Pitfalls: modulo & collisions in KMP (prefix function)
+DSA,DSA — Strings Mastery,Z-algorithm,Interview pattern map: substring vs subsequence via Z-algorithm
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Real-world: dedup & plagiarism with Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Why Manacher (longest palindrome) scares 90% of interviewees (and how to master it)
+DSA,DSA — Strings Mastery,Suffix Array,Suffix Array in 60 seconds — intuition first
+DSA,DSA — Strings Mastery,Suffix Automaton,Stop brute forcing: spot the Suffix Automaton trigger words
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Suffix Tree (Ukkonen) vs brute force — when to switch and why
+DSA,DSA — Strings Mastery,Aho–Corasick,Top 7 mistakes in Aho–Corasick that cost offers
+DSA,DSA — Strings Mastery,Trie (prefix tree),From O(N^2) → O(N): optimize your Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),"Radix Tree (compressed trie) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Think like an interviewer: how I grade your Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Whiteboard to code: Edit distance (Levenshtein) with edge cases
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,You don’t need to memorize — template for Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,"Minimum window substring cheat sheet: patterns, templates, tests"
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Interview day checklist for Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Draw this first: diagram that unlocks Burrows–Wheeler transform (concept)
+DSA,DSA — Strings Mastery,KMP (prefix function),The ‘aha!’ intuition behind KMP (prefix function)
+DSA,DSA — Strings Mastery,Z-algorithm,Hidden constraints that break Z-algorithm
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Dry run like a pro: Rabin–Karp (rolling hash) on real inputs
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),"Refactor a messy Manacher (longest palindrome) into clean, fast code"
+DSA,DSA — Strings Mastery,Suffix Array,Space vs time in Suffix Array: what to trade off
+DSA,DSA — Strings Mastery,Suffix Automaton,Edge cases that break 8/10 Suffix Automaton submissions
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Prove correctness for Suffix Tree (Ukkonen) in plain English
+DSA,DSA — Strings Mastery,Aho–Corasick,Phone screen vs onsite: Aho–Corasick differences
+DSA,DSA — Strings Mastery,Trie (prefix tree),Speedrun Trie (prefix tree): archetypes you must know
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Complexity showdown: naive vs optimal Radix Tree (compressed trie)
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Debugging live: fix a broken Rolling hash (collisions & double hashing) solution
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),"Off-by-one, bounds, and overflow in Edit distance (Levenshtein)"
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Simplify before you optimize: Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,"Mock interview: one Minimum window substring problem, full process"
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Unit tests that catch subtle Palindromic Tree (Eertree) bugs
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),When to use hash maps / sets with Burrows–Wheeler transform (concept)
+DSA,DSA — Strings Mastery,KMP (prefix function),Why your KMP (prefix function) TLEs at scale — and how to fix it
+DSA,DSA — Strings Mastery,Z-algorithm,Translate to C++/Java/Python: fast Z-algorithm
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Read the prompt: keywords that scream Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Back-of-the-envelope complexity for Manacher (longest palindrome)
+DSA,DSA — Strings Mastery,Suffix Array,Roadmap: beginner → advanced Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,One trick that simplifies most Suffix Automaton questions
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Stop re-deriving! Reusable template for Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,Edge vs corner cases — Aho–Corasick edition
+DSA,DSA — Strings Mastery,Trie (prefix tree),Narrate your approach: explain Trie (prefix tree) confidently
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Checklist before coding Radix Tree (compressed trie)
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Interview kata: daily reps for Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Constraint-driven design: pick the right Edit distance (Levenshtein) approach
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Visualize borders & periods for Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,When to choose Minimum window substring over hashing
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Pitfalls: modulo & collisions in Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Interview pattern map: substring vs subsequence via Burrows–Wheeler transform (concept)
+DSA,DSA — Strings Mastery,KMP (prefix function),Real-world: dedup & plagiarism with KMP (prefix function)
+DSA,DSA — Strings Mastery,Z-algorithm,Why Z-algorithm scares 90% of interviewees (and how to master it)
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Rabin–Karp (rolling hash) in 60 seconds — intuition first
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Stop brute forcing: spot the Manacher (longest palindrome) trigger words
+DSA,DSA — Strings Mastery,Suffix Array,Suffix Array vs brute force — when to switch and why
+DSA,DSA — Strings Mastery,Suffix Automaton,Top 7 mistakes in Suffix Automaton that cost offers
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),From O(N^2) → O(N): optimize your Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,"Aho–Corasick for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Strings Mastery,Trie (prefix tree),Think like an interviewer: how I grade your Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Whiteboard to code: Radix Tree (compressed trie) with edge cases
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),You don’t need to memorize — template for Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),"Edit distance (Levenshtein) cheat sheet: patterns, templates, tests"
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Interview day checklist for Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,Draw this first: diagram that unlocks Minimum window substring
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),The ‘aha!’ intuition behind Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Hidden constraints that break Burrows–Wheeler transform (concept)
+DSA,DSA — Strings Mastery,KMP (prefix function),Dry run like a pro: KMP (prefix function) on real inputs
+DSA,DSA — Strings Mastery,Z-algorithm,"Refactor a messy Z-algorithm into clean, fast code"
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Space vs time in Rabin–Karp (rolling hash): what to trade off
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Edge cases that break 8/10 Manacher (longest palindrome) submissions
+DSA,DSA — Strings Mastery,Suffix Array,Prove correctness for Suffix Array in plain English
+DSA,DSA — Strings Mastery,Suffix Automaton,Phone screen vs onsite: Suffix Automaton differences
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Speedrun Suffix Tree (Ukkonen): archetypes you must know
+DSA,DSA — Strings Mastery,Aho–Corasick,Complexity showdown: naive vs optimal Aho–Corasick
+DSA,DSA — Strings Mastery,Trie (prefix tree),Debugging live: fix a broken Trie (prefix tree) solution
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),"Off-by-one, bounds, and overflow in Radix Tree (compressed trie)"
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Simplify before you optimize: Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),"Mock interview: one Edit distance (Levenshtein) problem, full process"
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Unit tests that catch subtle Wildcard/regex-like matching bugs
+DSA,DSA — Strings Mastery,Minimum window substring,When to use hash maps / sets with Minimum window substring
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Why your Palindromic Tree (Eertree) TLEs at scale — and how to fix it
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Translate to C++/Java/Python: fast Burrows–Wheeler transform (concept)
+DSA,DSA — Strings Mastery,KMP (prefix function),Read the prompt: keywords that scream KMP (prefix function)
+DSA,DSA — Strings Mastery,Z-algorithm,Back-of-the-envelope complexity for Z-algorithm
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Roadmap: beginner → advanced Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),One trick that simplifies most Manacher (longest palindrome) questions
+DSA,DSA — Strings Mastery,Suffix Array,Stop re-deriving! Reusable template for Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,Edge vs corner cases — Suffix Automaton edition
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Narrate your approach: explain Suffix Tree (Ukkonen) confidently
+DSA,DSA — Strings Mastery,Aho–Corasick,Checklist before coding Aho–Corasick
+DSA,DSA — Strings Mastery,Trie (prefix tree),Interview kata: daily reps for Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Constraint-driven design: pick the right Radix Tree (compressed trie) approach
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Visualize borders & periods for Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),When to choose Edit distance (Levenshtein) over hashing
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Pitfalls: modulo & collisions in Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,Interview pattern map: substring vs subsequence via Minimum window substring
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Real-world: dedup & plagiarism with Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Why Burrows–Wheeler transform (concept) scares 90% of interviewees (and how to master it)
+DSA,DSA — Strings Mastery,KMP (prefix function),KMP (prefix function) in 60 seconds — intuition first
+DSA,DSA — Strings Mastery,Z-algorithm,Stop brute forcing: spot the Z-algorithm trigger words
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Rabin–Karp (rolling hash) vs brute force — when to switch and why
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Top 7 mistakes in Manacher (longest palindrome) that cost offers
+DSA,DSA — Strings Mastery,Suffix Array,From O(N^2) → O(N): optimize your Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,"Suffix Automaton for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Think like an interviewer: how I grade your Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,Whiteboard to code: Aho–Corasick with edge cases
+DSA,DSA — Strings Mastery,Trie (prefix tree),You don’t need to memorize — template for Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),"Radix Tree (compressed trie) cheat sheet: patterns, templates, tests"
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Interview day checklist for Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Draw this first: diagram that unlocks Edit distance (Levenshtein)
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,The ‘aha!’ intuition behind Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,Hidden constraints that break Minimum window substring
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Dry run like a pro: Palindromic Tree (Eertree) on real inputs
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),"Refactor a messy Burrows–Wheeler transform (concept) into clean, fast code"
+DSA,DSA — Strings Mastery,KMP (prefix function),Space vs time in KMP (prefix function): what to trade off
+DSA,DSA — Strings Mastery,Z-algorithm,Edge cases that break 8/10 Z-algorithm submissions
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Prove correctness for Rabin–Karp (rolling hash) in plain English
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Phone screen vs onsite: Manacher (longest palindrome) differences
+DSA,DSA — Strings Mastery,Suffix Array,Speedrun Suffix Array: archetypes you must know
+DSA,DSA — Strings Mastery,Suffix Automaton,Complexity showdown: naive vs optimal Suffix Automaton
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Debugging live: fix a broken Suffix Tree (Ukkonen) solution
+DSA,DSA — Strings Mastery,Aho–Corasick,"Off-by-one, bounds, and overflow in Aho–Corasick"
+DSA,DSA — Strings Mastery,Trie (prefix tree),Simplify before you optimize: Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),"Mock interview: one Radix Tree (compressed trie) problem, full process"
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Unit tests that catch subtle Rolling hash (collisions & double hashing) bugs
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),When to use hash maps / sets with Edit distance (Levenshtein)
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Why your Wildcard/regex-like matching TLEs at scale — and how to fix it
+DSA,DSA — Strings Mastery,Minimum window substring,Translate to C++/Java/Python: fast Minimum window substring
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Read the prompt: keywords that scream Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Back-of-the-envelope complexity for Burrows–Wheeler transform (concept)
+DSA,DSA — Strings Mastery,KMP (prefix function),Roadmap: beginner → advanced KMP (prefix function)
+DSA,DSA — Strings Mastery,Z-algorithm,One trick that simplifies most Z-algorithm questions
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Stop re-deriving! Reusable template for Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Edge vs corner cases — Manacher (longest palindrome) edition
+DSA,DSA — Strings Mastery,Suffix Array,Narrate your approach: explain Suffix Array confidently
+DSA,DSA — Strings Mastery,Suffix Automaton,Checklist before coding Suffix Automaton
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Interview kata: daily reps for Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,Constraint-driven design: pick the right Aho–Corasick approach
+DSA,DSA — Strings Mastery,Trie (prefix tree),Visualize borders & periods for Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),When to choose Radix Tree (compressed trie) over hashing
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Pitfalls: modulo & collisions in Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Interview pattern map: substring vs subsequence via Edit distance (Levenshtein)
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Real-world: dedup & plagiarism with Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,Why Minimum window substring scares 90% of interviewees (and how to master it)
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Palindromic Tree (Eertree) in 60 seconds — intuition first
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Stop brute forcing: spot the Burrows–Wheeler transform (concept) trigger words
+DSA,DSA — Strings Mastery,KMP (prefix function),KMP (prefix function) vs brute force — when to switch and why
+DSA,DSA — Strings Mastery,Z-algorithm,Top 7 mistakes in Z-algorithm that cost offers
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),From O(N^2) → O(N): optimize your Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),"Manacher (longest palindrome) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Strings Mastery,Suffix Array,Think like an interviewer: how I grade your Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,Whiteboard to code: Suffix Automaton with edge cases
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),You don’t need to memorize — template for Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,"Aho–Corasick cheat sheet: patterns, templates, tests"
+DSA,DSA — Strings Mastery,Trie (prefix tree),Interview day checklist for Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Draw this first: diagram that unlocks Radix Tree (compressed trie)
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),The ‘aha!’ intuition behind Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Hidden constraints that break Edit distance (Levenshtein)
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Dry run like a pro: Wildcard/regex-like matching on real inputs
+DSA,DSA — Strings Mastery,Minimum window substring,"Refactor a messy Minimum window substring into clean, fast code"
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Space vs time in Palindromic Tree (Eertree): what to trade off
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Edge cases that break 8/10 Burrows–Wheeler transform (concept) submissions
+DSA,DSA — Strings Mastery,KMP (prefix function),Prove correctness for KMP (prefix function) in plain English
+DSA,DSA — Strings Mastery,Z-algorithm,Phone screen vs onsite: Z-algorithm differences
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Speedrun Rabin–Karp (rolling hash): archetypes you must know
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Complexity showdown: naive vs optimal Manacher (longest palindrome)
+DSA,DSA — Strings Mastery,Suffix Array,Debugging live: fix a broken Suffix Array solution
+DSA,DSA — Strings Mastery,Suffix Automaton,"Off-by-one, bounds, and overflow in Suffix Automaton"
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Simplify before you optimize: Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,"Mock interview: one Aho–Corasick problem, full process"
+DSA,DSA — Strings Mastery,Trie (prefix tree),Unit tests that catch subtle Trie (prefix tree) bugs
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),When to use hash maps / sets with Radix Tree (compressed trie)
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Why your Rolling hash (collisions & double hashing) TLEs at scale — and how to fix it
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Translate to C++/Java/Python: fast Edit distance (Levenshtein)
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Read the prompt: keywords that scream Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,Back-of-the-envelope complexity for Minimum window substring
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Roadmap: beginner → advanced Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),One trick that simplifies most Burrows–Wheeler transform (concept) questions
+DSA,DSA — Strings Mastery,KMP (prefix function),Stop re-deriving! Reusable template for KMP (prefix function)
+DSA,DSA — Strings Mastery,Z-algorithm,Edge vs corner cases — Z-algorithm edition
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Narrate your approach: explain Rabin–Karp (rolling hash) confidently
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Checklist before coding Manacher (longest palindrome)
+DSA,DSA — Strings Mastery,Suffix Array,Interview kata: daily reps for Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,Constraint-driven design: pick the right Suffix Automaton approach
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Visualize borders & periods for Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,When to choose Aho–Corasick over hashing
+DSA,DSA — Strings Mastery,Trie (prefix tree),Pitfalls: modulo & collisions in Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Interview pattern map: substring vs subsequence via Radix Tree (compressed trie)
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Real-world: dedup & plagiarism with Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Why Edit distance (Levenshtein) scares 90% of interviewees (and how to master it)
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Wildcard/regex-like matching in 60 seconds — intuition first
+DSA,DSA — Strings Mastery,Minimum window substring,Stop brute forcing: spot the Minimum window substring trigger words
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Palindromic Tree (Eertree) vs brute force — when to switch and why
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Top 7 mistakes in Burrows–Wheeler transform (concept) that cost offers
+DSA,DSA — Strings Mastery,KMP (prefix function),From O(N^2) → O(N): optimize your KMP (prefix function)
+DSA,DSA — Strings Mastery,Z-algorithm,"Z-algorithm for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Think like an interviewer: how I grade your Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Whiteboard to code: Manacher (longest palindrome) with edge cases
+DSA,DSA — Strings Mastery,Suffix Array,You don’t need to memorize — template for Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,"Suffix Automaton cheat sheet: patterns, templates, tests"
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Interview day checklist for Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,Draw this first: diagram that unlocks Aho–Corasick
+DSA,DSA — Strings Mastery,Trie (prefix tree),The ‘aha!’ intuition behind Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Hidden constraints that break Radix Tree (compressed trie)
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Dry run like a pro: Rolling hash (collisions & double hashing) on real inputs
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),"Refactor a messy Edit distance (Levenshtein) into clean, fast code"
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Space vs time in Wildcard/regex-like matching: what to trade off
+DSA,DSA — Strings Mastery,Minimum window substring,Edge cases that break 8/10 Minimum window substring submissions
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Prove correctness for Palindromic Tree (Eertree) in plain English
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Phone screen vs onsite: Burrows–Wheeler transform (concept) differences
+DSA,DSA — Strings Mastery,KMP (prefix function),Speedrun KMP (prefix function): archetypes you must know
+DSA,DSA — Strings Mastery,Z-algorithm,Complexity showdown: naive vs optimal Z-algorithm
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Debugging live: fix a broken Rabin–Karp (rolling hash) solution
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),"Off-by-one, bounds, and overflow in Manacher (longest palindrome)"
+DSA,DSA — Strings Mastery,Suffix Array,Simplify before you optimize: Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,"Mock interview: one Suffix Automaton problem, full process"
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Unit tests that catch subtle Suffix Tree (Ukkonen) bugs
+DSA,DSA — Strings Mastery,Aho–Corasick,When to use hash maps / sets with Aho–Corasick
+DSA,DSA — Strings Mastery,Trie (prefix tree),Why your Trie (prefix tree) TLEs at scale — and how to fix it
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Translate to C++/Java/Python: fast Radix Tree (compressed trie)
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Read the prompt: keywords that scream Rolling hash (collisions & double hashing)
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Back-of-the-envelope complexity for Edit distance (Levenshtein)
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Roadmap: beginner → advanced Wildcard/regex-like matching
+DSA,DSA — Strings Mastery,Minimum window substring,One trick that simplifies most Minimum window substring questions
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Stop re-deriving! Reusable template for Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Edge vs corner cases — Burrows–Wheeler transform (concept) edition
+DSA,DSA — Strings Mastery,KMP (prefix function),Narrate your approach: explain KMP (prefix function) confidently
+DSA,DSA — Strings Mastery,Z-algorithm,Checklist before coding Z-algorithm
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Interview kata: daily reps for Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Constraint-driven design: pick the right Manacher (longest palindrome) approach
+DSA,DSA — Strings Mastery,Suffix Array,Visualize borders & periods for Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,When to choose Suffix Automaton over hashing
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Pitfalls: modulo & collisions in Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,Interview pattern map: substring vs subsequence via Aho–Corasick
+DSA,DSA — Strings Mastery,Trie (prefix tree),Real-world: dedup & plagiarism with Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),Why Radix Tree (compressed trie) scares 90% of interviewees (and how to master it)
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Rolling hash (collisions & double hashing) in 60 seconds — intuition first
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Stop brute forcing: spot the Edit distance (Levenshtein) trigger words
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Wildcard/regex-like matching vs brute force — when to switch and why
+DSA,DSA — Strings Mastery,Minimum window substring,Top 7 mistakes in Minimum window substring that cost offers
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),From O(N^2) → O(N): optimize your Palindromic Tree (Eertree)
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),"Burrows–Wheeler transform (concept) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Strings Mastery,KMP (prefix function),Think like an interviewer: how I grade your KMP (prefix function)
+DSA,DSA — Strings Mastery,Z-algorithm,Whiteboard to code: Z-algorithm with edge cases
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),You don’t need to memorize — template for Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),"Manacher (longest palindrome) cheat sheet: patterns, templates, tests"
+DSA,DSA — Strings Mastery,Suffix Array,Interview day checklist for Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,Draw this first: diagram that unlocks Suffix Automaton
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),The ‘aha!’ intuition behind Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,Hidden constraints that break Aho–Corasick
+DSA,DSA — Strings Mastery,Trie (prefix tree),Dry run like a pro: Trie (prefix tree) on real inputs
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),"Refactor a messy Radix Tree (compressed trie) into clean, fast code"
+DSA,DSA — Strings Mastery,Rolling hash (collisions & double hashing),Space vs time in Rolling hash (collisions & double hashing): what to trade off
+DSA,DSA — Strings Mastery,Edit distance (Levenshtein),Edge cases that break 8/10 Edit distance (Levenshtein) submissions
+DSA,DSA — Strings Mastery,Wildcard/regex-like matching,Prove correctness for Wildcard/regex-like matching in plain English
+DSA,DSA — Strings Mastery,Minimum window substring,Phone screen vs onsite: Minimum window substring differences
+DSA,DSA — Strings Mastery,Palindromic Tree (Eertree),Speedrun Palindromic Tree (Eertree): archetypes you must know
+DSA,DSA — Strings Mastery,Burrows–Wheeler transform (concept),Complexity showdown: naive vs optimal Burrows–Wheeler transform (concept)
+DSA,DSA — Strings Mastery,KMP (prefix function),Debugging live: fix a broken KMP (prefix function) solution
+DSA,DSA — Strings Mastery,Z-algorithm,"Off-by-one, bounds, and overflow in Z-algorithm"
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Simplify before you optimize: Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),"Mock interview: one Manacher (longest palindrome) problem, full process"
+DSA,DSA — Strings Mastery,Suffix Array,Unit tests that catch subtle Suffix Array bugs
+DSA,DSA — Strings Mastery,Suffix Automaton,When to use hash maps / sets with Suffix Automaton
+DSA,DSA — Strings Mastery,KMP (prefix function),ORR traffic lanes as KMP (prefix function) (Bengaluru analogy)
+DSA,DSA — Strings Mastery,Z-algorithm,Cricket powerplay planning as Z-algorithm
+DSA,DSA — Strings Mastery,Rabin–Karp (rolling hash),Bengaluru metro transfers visualizing Rabin–Karp (rolling hash)
+DSA,DSA — Strings Mastery,Manacher (longest palindrome),Dabbawala routing intuition for Manacher (longest palindrome)
+DSA,DSA — Strings Mastery,Suffix Array,UPI retries mental model for Suffix Array
+DSA,DSA — Strings Mastery,Suffix Automaton,ORR traffic lanes as Suffix Automaton (Bengaluru analogy)
+DSA,DSA — Strings Mastery,Suffix Tree (Ukkonen),Cricket powerplay planning as Suffix Tree (Ukkonen)
+DSA,DSA — Strings Mastery,Aho–Corasick,Bengaluru metro transfers visualizing Aho–Corasick
+DSA,DSA — Strings Mastery,Trie (prefix tree),Dabbawala routing intuition for Trie (prefix tree)
+DSA,DSA — Strings Mastery,Radix Tree (compressed trie),UPI retries mental model for Radix Tree (compressed trie)

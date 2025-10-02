@@ -1,0 +1,321 @@
+pillar,category,seed,title
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Why every Indian startup runs on APIs (and how they scale) — SLOs/SLIs for APIs edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,"timeouts/retries/backoff in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Stop building slow endpoints: circuit breakers & bulkheads patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,distributed tracing vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Top 7 mistakes in structured logging that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,"From flaky to reliable: retries, idempotency, timeouts for metrics & RED/USE"
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,The mental model that unlocks chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Whiteboard to prod: shipping blue/green & canaries with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Interview day checklist: load testing (k6) in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Explain like I’m 5: perf budgets & profiling without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),"Observability-first cold starts (serverless): logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Cost-aware SLOs/SLIs for APIs: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Do’s & don’ts: clean APIs around timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Backpressure and rate limits: taming spiky traffic in circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,API versioning & compatibility: zero-downtime decisions for distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,N+1 killers: caching & pagination patterns for structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,SLOs & SLAs: promise what you can keep with metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Blueprint: load test & stage rollouts for chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Security checklist before launch: blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Postmortem 101: learning from incidents in load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Why every Indian startup runs on APIs (and how they scale) — perf budgets & profiling edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),"cold starts (serverless) in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Stop building slow endpoints: SLOs/SLIs for APIs patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,timeouts/retries/backoff vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Top 7 mistakes in circuit breakers & bulkheads that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,"From flaky to reliable: retries, idempotency, timeouts for distributed tracing"
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,The mental model that unlocks structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Whiteboard to prod: shipping metrics & RED/USE with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Interview day checklist: chaos testing in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Explain like I’m 5: blue/green & canaries without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),"Observability-first load testing (k6): logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Cost-aware perf budgets & profiling: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Do’s & don’ts: clean APIs around cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Backpressure and rate limits: taming spiky traffic in SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,API versioning & compatibility: zero-downtime decisions for timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,N+1 killers: caching & pagination patterns for circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,SLOs & SLAs: promise what you can keep with distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Blueprint: load test & stage rollouts for structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Security checklist before launch: metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Postmortem 101: learning from incidents in chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Why every Indian startup runs on APIs (and how they scale) — blue/green & canaries edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),"load testing (k6) in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Stop building slow endpoints: perf budgets & profiling patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),cold starts (serverless) vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Top 7 mistakes in SLOs/SLIs for APIs that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,"From flaky to reliable: retries, idempotency, timeouts for timeouts/retries/backoff"
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,The mental model that unlocks circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Whiteboard to prod: shipping distributed tracing with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Interview day checklist: structured logging in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Explain like I’m 5: metrics & RED/USE without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,"Observability-first chaos testing: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Cost-aware blue/green & canaries: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Do’s & don’ts: clean APIs around load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Backpressure and rate limits: taming spiky traffic in perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),API versioning & compatibility: zero-downtime decisions for cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,N+1 killers: caching & pagination patterns for SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,SLOs & SLAs: promise what you can keep with timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Blueprint: load test & stage rollouts for circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Security checklist before launch: distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Postmortem 101: learning from incidents in structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Why every Indian startup runs on APIs (and how they scale) — metrics & RED/USE edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,"chaos testing in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Stop building slow endpoints: blue/green & canaries patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),load testing (k6) vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Top 7 mistakes in perf budgets & profiling that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),"From flaky to reliable: retries, idempotency, timeouts for cold starts (serverless)"
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,The mental model that unlocks SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Whiteboard to prod: shipping timeouts/retries/backoff with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Interview day checklist: circuit breakers & bulkheads in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Explain like I’m 5: distributed tracing without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,"Observability-first structured logging: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Cost-aware metrics & RED/USE: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Do’s & don’ts: clean APIs around chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Backpressure and rate limits: taming spiky traffic in blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),API versioning & compatibility: zero-downtime decisions for load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,N+1 killers: caching & pagination patterns for perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),SLOs & SLAs: promise what you can keep with cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Blueprint: load test & stage rollouts for SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Security checklist before launch: timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Postmortem 101: learning from incidents in circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Why every Indian startup runs on APIs (and how they scale) — distributed tracing edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,"structured logging in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Stop building slow endpoints: metrics & RED/USE patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,chaos testing vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Top 7 mistakes in blue/green & canaries that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),"From flaky to reliable: retries, idempotency, timeouts for load testing (k6)"
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,The mental model that unlocks perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Whiteboard to prod: shipping cold starts (serverless) with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Interview day checklist: SLOs/SLIs for APIs in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Explain like I’m 5: timeouts/retries/backoff without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,"Observability-first circuit breakers & bulkheads: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Cost-aware distributed tracing: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Do’s & don’ts: clean APIs around structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Backpressure and rate limits: taming spiky traffic in metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,API versioning & compatibility: zero-downtime decisions for chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,N+1 killers: caching & pagination patterns for blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),SLOs & SLAs: promise what you can keep with load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Blueprint: load test & stage rollouts for perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Security checklist before launch: cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Postmortem 101: learning from incidents in SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Why every Indian startup runs on APIs (and how they scale) — timeouts/retries/backoff edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,"circuit breakers & bulkheads in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Stop building slow endpoints: distributed tracing patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,structured logging vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Top 7 mistakes in metrics & RED/USE that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,"From flaky to reliable: retries, idempotency, timeouts for chaos testing"
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,The mental model that unlocks blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Whiteboard to prod: shipping load testing (k6) with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Interview day checklist: perf budgets & profiling in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Explain like I’m 5: cold starts (serverless) without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,"Observability-first SLOs/SLIs for APIs: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Cost-aware timeouts/retries/backoff: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Do’s & don’ts: clean APIs around circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Backpressure and rate limits: taming spiky traffic in distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,API versioning & compatibility: zero-downtime decisions for structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,N+1 killers: caching & pagination patterns for metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,SLOs & SLAs: promise what you can keep with chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Blueprint: load test & stage rollouts for blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Security checklist before launch: load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Postmortem 101: learning from incidents in perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Why every Indian startup runs on APIs (and how they scale) — cold starts (serverless) edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,"SLOs/SLIs for APIs in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Stop building slow endpoints: timeouts/retries/backoff patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,circuit breakers & bulkheads vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Top 7 mistakes in distributed tracing that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,"From flaky to reliable: retries, idempotency, timeouts for structured logging"
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,The mental model that unlocks metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Whiteboard to prod: shipping chaos testing with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Interview day checklist: blue/green & canaries in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Explain like I’m 5: load testing (k6) without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,"Observability-first perf budgets & profiling: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Cost-aware cold starts (serverless): make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Do’s & don’ts: clean APIs around SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Backpressure and rate limits: taming spiky traffic in timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,API versioning & compatibility: zero-downtime decisions for circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,N+1 killers: caching & pagination patterns for distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,SLOs & SLAs: promise what you can keep with structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Blueprint: load test & stage rollouts for metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Security checklist before launch: chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Postmortem 101: learning from incidents in blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Why every Indian startup runs on APIs (and how they scale) — load testing (k6) edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,"perf budgets & profiling in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Stop building slow endpoints: cold starts (serverless) patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,SLOs/SLIs for APIs vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Top 7 mistakes in timeouts/retries/backoff that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,"From flaky to reliable: retries, idempotency, timeouts for circuit breakers & bulkheads"
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,The mental model that unlocks distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Whiteboard to prod: shipping structured logging with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Interview day checklist: metrics & RED/USE in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Explain like I’m 5: chaos testing without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,"Observability-first blue/green & canaries: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Cost-aware load testing (k6): make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Do’s & don’ts: clean APIs around perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Backpressure and rate limits: taming spiky traffic in cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,API versioning & compatibility: zero-downtime decisions for SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,N+1 killers: caching & pagination patterns for timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,SLOs & SLAs: promise what you can keep with circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Blueprint: load test & stage rollouts for distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Security checklist before launch: structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Postmortem 101: learning from incidents in metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Why every Indian startup runs on APIs (and how they scale) — chaos testing edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,"blue/green & canaries in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Stop building slow endpoints: load testing (k6) patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,perf budgets & profiling vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Top 7 mistakes in cold starts (serverless) that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,"From flaky to reliable: retries, idempotency, timeouts for SLOs/SLIs for APIs"
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,The mental model that unlocks timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Whiteboard to prod: shipping circuit breakers & bulkheads with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Interview day checklist: distributed tracing in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Explain like I’m 5: structured logging without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,"Observability-first metrics & RED/USE: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Cost-aware chaos testing: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Do’s & don’ts: clean APIs around blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Backpressure and rate limits: taming spiky traffic in load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,API versioning & compatibility: zero-downtime decisions for perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),N+1 killers: caching & pagination patterns for cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,SLOs & SLAs: promise what you can keep with SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Blueprint: load test & stage rollouts for timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Security checklist before launch: circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Postmortem 101: learning from incidents in distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Why every Indian startup runs on APIs (and how they scale) — structured logging edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,"metrics & RED/USE in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Stop building slow endpoints: chaos testing patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,blue/green & canaries vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Top 7 mistakes in load testing (k6) that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,"From flaky to reliable: retries, idempotency, timeouts for perf budgets & profiling"
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),The mental model that unlocks cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Whiteboard to prod: shipping SLOs/SLIs for APIs with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Interview day checklist: timeouts/retries/backoff in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Explain like I’m 5: circuit breakers & bulkheads without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,"Observability-first distributed tracing: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Cost-aware structured logging: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Do’s & don’ts: clean APIs around metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Backpressure and rate limits: taming spiky traffic in chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,API versioning & compatibility: zero-downtime decisions for blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),N+1 killers: caching & pagination patterns for load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,SLOs & SLAs: promise what you can keep with perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Blueprint: load test & stage rollouts for cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Security checklist before launch: SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Postmortem 101: learning from incidents in timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Why every Indian startup runs on APIs (and how they scale) — circuit breakers & bulkheads edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,"distributed tracing in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Stop building slow endpoints: structured logging patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,metrics & RED/USE vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Top 7 mistakes in chaos testing that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,"From flaky to reliable: retries, idempotency, timeouts for blue/green & canaries"
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),The mental model that unlocks load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Whiteboard to prod: shipping perf budgets & profiling with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Interview day checklist: cold starts (serverless) in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Explain like I’m 5: SLOs/SLIs for APIs without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,"Observability-first timeouts/retries/backoff: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Cost-aware circuit breakers & bulkheads: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Do’s & don’ts: clean APIs around distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Backpressure and rate limits: taming spiky traffic in structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,API versioning & compatibility: zero-downtime decisions for metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,N+1 killers: caching & pagination patterns for chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,SLOs & SLAs: promise what you can keep with blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Blueprint: load test & stage rollouts for load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Security checklist before launch: perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Postmortem 101: learning from incidents in cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Why every Indian startup runs on APIs (and how they scale) — SLOs/SLIs for APIs edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,"timeouts/retries/backoff in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Stop building slow endpoints: circuit breakers & bulkheads patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,distributed tracing vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Top 7 mistakes in structured logging that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,"From flaky to reliable: retries, idempotency, timeouts for metrics & RED/USE"
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,The mental model that unlocks chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Whiteboard to prod: shipping blue/green & canaries with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Interview day checklist: load testing (k6) in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Explain like I’m 5: perf budgets & profiling without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),"Observability-first cold starts (serverless): logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Cost-aware SLOs/SLIs for APIs: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Do’s & don’ts: clean APIs around timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Backpressure and rate limits: taming spiky traffic in circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,API versioning & compatibility: zero-downtime decisions for distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,N+1 killers: caching & pagination patterns for structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,SLOs & SLAs: promise what you can keep with metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Blueprint: load test & stage rollouts for chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Security checklist before launch: blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Postmortem 101: learning from incidents in load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Why every Indian startup runs on APIs (and how they scale) — perf budgets & profiling edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),"cold starts (serverless) in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Stop building slow endpoints: SLOs/SLIs for APIs patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,timeouts/retries/backoff vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Top 7 mistakes in circuit breakers & bulkheads that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,"From flaky to reliable: retries, idempotency, timeouts for distributed tracing"
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,The mental model that unlocks structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Whiteboard to prod: shipping metrics & RED/USE with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Interview day checklist: chaos testing in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Explain like I’m 5: blue/green & canaries without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),"Observability-first load testing (k6): logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Cost-aware perf budgets & profiling: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Do’s & don’ts: clean APIs around cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Backpressure and rate limits: taming spiky traffic in SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,API versioning & compatibility: zero-downtime decisions for timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,N+1 killers: caching & pagination patterns for circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,SLOs & SLAs: promise what you can keep with distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Blueprint: load test & stage rollouts for structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Security checklist before launch: metrics & RED/USE
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Postmortem 101: learning from incidents in chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Why every Indian startup runs on APIs (and how they scale) — blue/green & canaries edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),"load testing (k6) in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Stop building slow endpoints: perf budgets & profiling patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),cold starts (serverless) vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Top 7 mistakes in SLOs/SLIs for APIs that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,"From flaky to reliable: retries, idempotency, timeouts for timeouts/retries/backoff"
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,The mental model that unlocks circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Whiteboard to prod: shipping distributed tracing with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Interview day checklist: structured logging in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Explain like I’m 5: metrics & RED/USE without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,"Observability-first chaos testing: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Cost-aware blue/green & canaries: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Do’s & don’ts: clean APIs around load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Backpressure and rate limits: taming spiky traffic in perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),API versioning & compatibility: zero-downtime decisions for cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,N+1 killers: caching & pagination patterns for SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,SLOs & SLAs: promise what you can keep with timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Blueprint: load test & stage rollouts for circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Security checklist before launch: distributed tracing
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,Postmortem 101: learning from incidents in structured logging
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Why every Indian startup runs on APIs (and how they scale) — metrics & RED/USE edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,"chaos testing in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Stop building slow endpoints: blue/green & canaries patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),load testing (k6) vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,Top 7 mistakes in perf budgets & profiling that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),"From flaky to reliable: retries, idempotency, timeouts for cold starts (serverless)"
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,The mental model that unlocks SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Whiteboard to prod: shipping timeouts/retries/backoff with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Interview day checklist: circuit breakers & bulkheads in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Explain like I’m 5: distributed tracing without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,"Observability-first structured logging: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Cost-aware metrics & RED/USE: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,Do’s & don’ts: clean APIs around chaos testing
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Backpressure and rate limits: taming spiky traffic in blue/green & canaries
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),API versioning & compatibility: zero-downtime decisions for load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,N+1 killers: caching & pagination patterns for perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),SLOs & SLAs: promise what you can keep with cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Blueprint: load test & stage rollouts for SLOs/SLIs for APIs
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Security checklist before launch: timeouts/retries/backoff
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,Postmortem 101: learning from incidents in circuit breakers & bulkheads
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Why every Indian startup runs on APIs (and how they scale) — distributed tracing edition
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,"structured logging in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Stop building slow endpoints: metrics & RED/USE patterns that actually scale
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,chaos testing vs brute integrations — when to switch and why
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Top 7 mistakes in blue/green & canaries that cost outages
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),"From flaky to reliable: retries, idempotency, timeouts for load testing (k6)"
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,The mental model that unlocks perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Whiteboard to prod: shipping cold starts (serverless) with guardrails
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,Interview day checklist: SLOs/SLIs for APIs in 5 bullets
+APIs & Backend,"Backend — Reliability, Observability & Performance",timeouts/retries/backoff,Explain like I’m 5: timeouts/retries/backoff without jargon
+APIs & Backend,"Backend — Reliability, Observability & Performance",circuit breakers & bulkheads,"Observability-first circuit breakers & bulkheads: logs, metrics, traces"
+APIs & Backend,"Backend — Reliability, Observability & Performance",distributed tracing,Cost-aware distributed tracing: make it fast without burning cloud spend
+APIs & Backend,"Backend — Reliability, Observability & Performance",structured logging,UPI-scale traffic: applying structured logging to payments in India
+APIs & Backend,"Backend — Reliability, Observability & Performance",metrics & RED/USE,Big Billion Days spikes: metrics & RED/USE hardening playbook
+APIs & Backend,"Backend — Reliability, Observability & Performance",chaos testing,IRCTC Tatkal surge: chaos testing throttling & queues
+APIs & Backend,"Backend — Reliability, Observability & Performance",blue/green & canaries,Bengaluru ORR latency: blue/green & canaries timeouts & fallbacks
+APIs & Backend,"Backend — Reliability, Observability & Performance",load testing (k6),Zomato dinner rush mapped to load testing (k6)
+APIs & Backend,"Backend — Reliability, Observability & Performance",perf budgets & profiling,IPL watch party load tests for perf budgets & profiling
+APIs & Backend,"Backend — Reliability, Observability & Performance",cold starts (serverless),Aadhaar/e-KYC journeys and cold starts (serverless)
+APIs & Backend,"Backend — Reliability, Observability & Performance",SLOs/SLIs for APIs,India-grade flaky networks: offline-first SLOs/SLIs for APIs

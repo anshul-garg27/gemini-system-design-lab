@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Right index for the job: mapping queries → B-Tree & B+Tree indexes
+Databases,Databases — Indexing & Query Tuning,hash indexes,Cardinality traps & stale stats in hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,Sargability rules that make composite indexes shine
+Databases,Databases — Indexing & Query Tuning,covering indexes,Write amplification tradeoffs with covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Covering vs composite: choosing partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,How clustered vs nonclustered indexes makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — Indexing & Query Tuning,index-only scans,"index-only scans in 60 seconds — intuition first, syntax second"
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Stop guessing: read query plans to master statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,From slow to snappy: refactor with optimizer & cost estimates live
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Top 7 mistakes in join order & predicate pushdown that cost outages
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Edge cases that break 8/10 EXPLAIN / EXPLAIN ANALYZE designs
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Naive vs optimal: complexity tradeoffs in bloom filters & bitmap indexes
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,Whiteboard to prod: applying vector indexes (HNSW/IVF) — intro with guardrails
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,Explain like I’m 5: B-Tree & B+Tree indexes without jargon
+Databases,Databases — Indexing & Query Tuning,hash indexes,Interview day checklist: hash indexes in 5 bullets
+Databases,Databases — Indexing & Query Tuning,composite indexes,The mental model that unlocks composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,What every backend dev should know about covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,Common myths about partial & filtered indexes — busted
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,Production checklists for clustered vs nonclustered indexes: observability & SLOs
+Databases,Databases — Indexing & Query Tuning,index-only scans,Cost traps: make index-only scans fast without burning cloud spend
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Pitfalls: consistency surprises inside statistics & histograms
+Databases,Databases — Indexing & Query Tuning,optimizer & cost estimates,Do’s & don’ts: clean APIs around optimizer & cost estimates
+Databases,Databases — Indexing & Query Tuning,join order & predicate pushdown,Debugging live: fix a broken join order & predicate pushdown in minutes
+Databases,Databases — Indexing & Query Tuning,EXPLAIN / EXPLAIN ANALYZE,Read/Write patterns that pair best with EXPLAIN / EXPLAIN ANALYZE
+Databases,Databases — Indexing & Query Tuning,bloom filters & bitmap indexes,Tuning knobs for bloom filters & bitmap indexes: safe defaults → power moves
+Databases,Databases — Indexing & Query Tuning,vector indexes (HNSW/IVF) — intro,How to demo vector indexes (HNSW/IVF) — intro in an interview (with examples)
+Databases,Databases — Indexing & Query Tuning,B-Tree & B+Tree indexes,B-Tree & B+Tree indexes explained with Bollywood marriages 💍
+Databases,Databases — Indexing & Query Tuning,hash indexes,Tatkal rush mental model for hash indexes
+Databases,Databases — Indexing & Query Tuning,composite indexes,UPI ledger consistency meets composite indexes
+Databases,Databases — Indexing & Query Tuning,covering indexes,Zomato dinner rush mapped to covering indexes
+Databases,Databases — Indexing & Query Tuning,partial & filtered indexes,IPL match concurrency stress-tests partial & filtered indexes
+Databases,Databases — Indexing & Query Tuning,clustered vs nonclustered indexes,IRCTC queueing intuition for clustered vs nonclustered indexes
+Databases,Databases — Indexing & Query Tuning,index-only scans,Gully cricket teams = partitions in index-only scans
+Databases,Databases — Indexing & Query Tuning,statistics & histograms,Traffic on Bengaluru ORR as statistics & histograms backpressure

@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Programming,C++,STL containers,Why C++ is still king for Indian interviews 👑
+Programming,C++,iterators & algorithms,How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,pointers & references,C++ in 60 seconds: the only pointers & references intuition you need
+Programming,C++,RAII & smart pointers,"RAII & smart pointers in C++ — stop brute forcing, write idiomatic code"
+Programming,C++,move semantics,C++ move semantics: top 7 mistakes that cost offers in India
+Programming,C++,templates & SFINAE (intro),From messy to clean: refactor your C++ templates & SFINAE (intro) live
+Programming,C++,chrono & formatting,Interview day checklist: C++ chrono & formatting in 5 bullets
+Programming,C++,I/O speed tricks,Whiteboard to code: C++ I/O speed tricks with edge cases
+Programming,C++,std::thread & atomics (intro),Explain it like I’m 5: C++ std::thread & atomics (intro) without jargon
+Programming,C++,cmake basics,Speedrun C++ cmake basics: archetypes you must know
+Programming,C++,debugging & UB traps,You’re overcomplicating it — simplify your C++ debugging & UB traps
+Programming,C++,STL containers,Performance 101: make C++ STL containers 10x faster (no hacks)
+Programming,C++,iterators & algorithms,Memory vs speed: tradeoffs in C++ iterators & algorithms
+Programming,C++,pointers & references,Idiomatic C++: do’s & don’ts for pointers & references
+Programming,C++,RAII & smart pointers,Debugging live: fix a broken C++ RAII & smart pointers solution
+Programming,C++,move semantics,Unit tests that catch subtle bugs in C++ move semantics
+Programming,C++,templates & SFINAE (intro),C++ templates & SFINAE (intro) cheat sheet — templates + pitfalls
+Programming,C++,chrono & formatting,Phone screen vs onsite: how C++ chrono & formatting questions differ
+Programming,C++,I/O speed tricks,Narrate your thinking: explain C++ I/O speed tricks like a pro
+Programming,C++,std::thread & atomics (intro),Before you code: 4 questions for any C++ std::thread & atomics (intro)
+Programming,C++,cmake basics,From DSA to dev: where C++ cmake basics shows up in real systems
+Programming,C++,debugging & UB traps,Edge cases that break 8/10 C++ debugging & UB traps submissions
+Programming,C++,STL containers,Back-of-the-envelope complexity: C++ STL containers
+Programming,C++,iterators & algorithms,Code smells in C++ iterators & algorithms — and quick fixes
+Programming,C++,pointers & references,Template showdown: clean APIs for C++ pointers & references
+Programming,C++,RAII & smart pointers,Interview kata: daily reps for C++ RAII & smart pointers
+Programming,C++,move semantics,Crash course: C++ move semantics in 5 minutes
+Programming,C++,templates & SFINAE (intro),Top 5 questions around C++ templates & SFINAE (intro) this year
+Programming,C++,chrono & formatting,From CP to interviews: map chrono & formatting to idiomatic C++
+Programming,C++,I/O speed tricks,Prove it: correctness for C++ I/O speed tricks (plain English)
+Programming,C++,std::thread & atomics (intro),When not to use C++ features for std::thread & atomics (intro) (and what instead)
+Programming,C++,cmake basics,Why C++ is still king for Indian interviews 👑
+Programming,C++,debugging & UB traps,How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,STL containers,C++ in 60 seconds: the only STL containers intuition you need
+Programming,C++,iterators & algorithms,"iterators & algorithms in C++ — stop brute forcing, write idiomatic code"
+Programming,C++,pointers & references,C++ pointers & references: top 7 mistakes that cost offers in India
+Programming,C++,RAII & smart pointers,From messy to clean: refactor your C++ RAII & smart pointers live
+Programming,C++,move semantics,Interview day checklist: C++ move semantics in 5 bullets
+Programming,C++,templates & SFINAE (intro),Whiteboard to code: C++ templates & SFINAE (intro) with edge cases
+Programming,C++,chrono & formatting,Explain it like I’m 5: C++ chrono & formatting without jargon
+Programming,C++,I/O speed tricks,Speedrun C++ I/O speed tricks: archetypes you must know
+Programming,C++,std::thread & atomics (intro),You’re overcomplicating it — simplify your C++ std::thread & atomics (intro)
+Programming,C++,cmake basics,Performance 101: make C++ cmake basics 10x faster (no hacks)
+Programming,C++,debugging & UB traps,Memory vs speed: tradeoffs in C++ debugging & UB traps
+Programming,C++,STL containers,Idiomatic C++: do’s & don’ts for STL containers
+Programming,C++,iterators & algorithms,Debugging live: fix a broken C++ iterators & algorithms solution
+Programming,C++,pointers & references,Unit tests that catch subtle bugs in C++ pointers & references
+Programming,C++,RAII & smart pointers,C++ RAII & smart pointers cheat sheet — templates + pitfalls
+Programming,C++,move semantics,Phone screen vs onsite: how C++ move semantics questions differ
+Programming,C++,templates & SFINAE (intro),Narrate your thinking: explain C++ templates & SFINAE (intro) like a pro
+Programming,C++,chrono & formatting,Before you code: 4 questions for any C++ chrono & formatting
+Programming,C++,I/O speed tricks,From DSA to dev: where C++ I/O speed tricks shows up in real systems
+Programming,C++,std::thread & atomics (intro),Edge cases that break 8/10 C++ std::thread & atomics (intro) submissions
+Programming,C++,cmake basics,Back-of-the-envelope complexity: C++ cmake basics
+Programming,C++,debugging & UB traps,Code smells in C++ debugging & UB traps — and quick fixes
+Programming,C++,STL containers,Template showdown: clean APIs for C++ STL containers
+Programming,C++,iterators & algorithms,Interview kata: daily reps for C++ iterators & algorithms
+Programming,C++,pointers & references,Crash course: C++ pointers & references in 5 minutes
+Programming,C++,RAII & smart pointers,Top 5 questions around C++ RAII & smart pointers this year
+Programming,C++,move semantics,From CP to interviews: map move semantics to idiomatic C++
+Programming,C++,templates & SFINAE (intro),Prove it: correctness for C++ templates & SFINAE (intro) (plain English)
+Programming,C++,chrono & formatting,When not to use C++ features for chrono & formatting (and what instead)
+Programming,C++,I/O speed tricks,Why C++ is still king for Indian interviews 👑
+Programming,C++,std::thread & atomics (intro),How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,cmake basics,C++ in 60 seconds: the only cmake basics intuition you need
+Programming,C++,debugging & UB traps,"debugging & UB traps in C++ — stop brute forcing, write idiomatic code"
+Programming,C++,STL containers,C++ STL containers: top 7 mistakes that cost offers in India
+Programming,C++,iterators & algorithms,From messy to clean: refactor your C++ iterators & algorithms live
+Programming,C++,pointers & references,Interview day checklist: C++ pointers & references in 5 bullets
+Programming,C++,RAII & smart pointers,Whiteboard to code: C++ RAII & smart pointers with edge cases
+Programming,C++,move semantics,Explain it like I’m 5: C++ move semantics without jargon
+Programming,C++,templates & SFINAE (intro),Speedrun C++ templates & SFINAE (intro): archetypes you must know
+Programming,C++,chrono & formatting,You’re overcomplicating it — simplify your C++ chrono & formatting
+Programming,C++,I/O speed tricks,Performance 101: make C++ I/O speed tricks 10x faster (no hacks)
+Programming,C++,std::thread & atomics (intro),Memory vs speed: tradeoffs in C++ std::thread & atomics (intro)
+Programming,C++,cmake basics,Idiomatic C++: do’s & don’ts for cmake basics
+Programming,C++,debugging & UB traps,Debugging live: fix a broken C++ debugging & UB traps solution
+Programming,C++,STL containers,Unit tests that catch subtle bugs in C++ STL containers
+Programming,C++,iterators & algorithms,C++ iterators & algorithms cheat sheet — templates + pitfalls
+Programming,C++,pointers & references,Phone screen vs onsite: how C++ pointers & references questions differ
+Programming,C++,RAII & smart pointers,Narrate your thinking: explain C++ RAII & smart pointers like a pro
+Programming,C++,move semantics,Before you code: 4 questions for any C++ move semantics
+Programming,C++,templates & SFINAE (intro),From DSA to dev: where C++ templates & SFINAE (intro) shows up in real systems
+Programming,C++,chrono & formatting,Edge cases that break 8/10 C++ chrono & formatting submissions
+Programming,C++,I/O speed tricks,Back-of-the-envelope complexity: C++ I/O speed tricks
+Programming,C++,std::thread & atomics (intro),Code smells in C++ std::thread & atomics (intro) — and quick fixes
+Programming,C++,cmake basics,Template showdown: clean APIs for C++ cmake basics
+Programming,C++,debugging & UB traps,Interview kata: daily reps for C++ debugging & UB traps
+Programming,C++,STL containers,Crash course: C++ STL containers in 5 minutes
+Programming,C++,iterators & algorithms,Top 5 questions around C++ iterators & algorithms this year
+Programming,C++,pointers & references,From CP to interviews: map pointers & references to idiomatic C++
+Programming,C++,RAII & smart pointers,Prove it: correctness for C++ RAII & smart pointers (plain English)
+Programming,C++,move semantics,When not to use C++ features for move semantics (and what instead)
+Programming,C++,templates & SFINAE (intro),Why C++ is still king for Indian interviews 👑
+Programming,C++,chrono & formatting,How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,I/O speed tricks,C++ in 60 seconds: the only I/O speed tricks intuition you need
+Programming,C++,std::thread & atomics (intro),"std::thread & atomics (intro) in C++ — stop brute forcing, write idiomatic code"
+Programming,C++,cmake basics,C++ cmake basics: top 7 mistakes that cost offers in India
+Programming,C++,debugging & UB traps,From messy to clean: refactor your C++ debugging & UB traps live
+Programming,C++,STL containers,Interview day checklist: C++ STL containers in 5 bullets
+Programming,C++,iterators & algorithms,Whiteboard to code: C++ iterators & algorithms with edge cases
+Programming,C++,pointers & references,Explain it like I’m 5: C++ pointers & references without jargon
+Programming,C++,RAII & smart pointers,Speedrun C++ RAII & smart pointers: archetypes you must know
+Programming,C++,move semantics,You’re overcomplicating it — simplify your C++ move semantics
+Programming,C++,templates & SFINAE (intro),Performance 101: make C++ templates & SFINAE (intro) 10x faster (no hacks)
+Programming,C++,chrono & formatting,Memory vs speed: tradeoffs in C++ chrono & formatting
+Programming,C++,I/O speed tricks,Idiomatic C++: do’s & don’ts for I/O speed tricks
+Programming,C++,std::thread & atomics (intro),Debugging live: fix a broken C++ std::thread & atomics (intro) solution
+Programming,C++,cmake basics,Unit tests that catch subtle bugs in C++ cmake basics
+Programming,C++,debugging & UB traps,C++ debugging & UB traps cheat sheet — templates + pitfalls
+Programming,C++,STL containers,Phone screen vs onsite: how C++ STL containers questions differ
+Programming,C++,iterators & algorithms,Narrate your thinking: explain C++ iterators & algorithms like a pro
+Programming,C++,pointers & references,Before you code: 4 questions for any C++ pointers & references
+Programming,C++,RAII & smart pointers,From DSA to dev: where C++ RAII & smart pointers shows up in real systems
+Programming,C++,move semantics,Edge cases that break 8/10 C++ move semantics submissions
+Programming,C++,templates & SFINAE (intro),Back-of-the-envelope complexity: C++ templates & SFINAE (intro)
+Programming,C++,chrono & formatting,Code smells in C++ chrono & formatting — and quick fixes
+Programming,C++,I/O speed tricks,Template showdown: clean APIs for C++ I/O speed tricks
+Programming,C++,std::thread & atomics (intro),Interview kata: daily reps for C++ std::thread & atomics (intro)
+Programming,C++,cmake basics,Crash course: C++ cmake basics in 5 minutes
+Programming,C++,debugging & UB traps,Top 5 questions around C++ debugging & UB traps this year
+Programming,C++,STL containers,From CP to interviews: map STL containers to idiomatic C++
+Programming,C++,iterators & algorithms,Prove it: correctness for C++ iterators & algorithms (plain English)
+Programming,C++,pointers & references,When not to use C++ features for pointers & references (and what instead)
+Programming,C++,RAII & smart pointers,Why C++ is still king for Indian interviews 👑
+Programming,C++,move semantics,How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,templates & SFINAE (intro),C++ in 60 seconds: the only templates & SFINAE (intro) intuition you need
+Programming,C++,chrono & formatting,"chrono & formatting in C++ — stop brute forcing, write idiomatic code"
+Programming,C++,I/O speed tricks,C++ I/O speed tricks: top 7 mistakes that cost offers in India
+Programming,C++,std::thread & atomics (intro),From messy to clean: refactor your C++ std::thread & atomics (intro) live
+Programming,C++,cmake basics,Interview day checklist: C++ cmake basics in 5 bullets
+Programming,C++,debugging & UB traps,Whiteboard to code: C++ debugging & UB traps with edge cases
+Programming,C++,STL containers,Explain it like I’m 5: C++ STL containers without jargon
+Programming,C++,iterators & algorithms,Speedrun C++ iterators & algorithms: archetypes you must know
+Programming,C++,pointers & references,You’re overcomplicating it — simplify your C++ pointers & references
+Programming,C++,RAII & smart pointers,Performance 101: make C++ RAII & smart pointers 10x faster (no hacks)
+Programming,C++,move semantics,Memory vs speed: tradeoffs in C++ move semantics
+Programming,C++,templates & SFINAE (intro),Idiomatic C++: do’s & don’ts for templates & SFINAE (intro)
+Programming,C++,chrono & formatting,Debugging live: fix a broken C++ chrono & formatting solution
+Programming,C++,I/O speed tricks,Unit tests that catch subtle bugs in C++ I/O speed tricks
+Programming,C++,std::thread & atomics (intro),C++ std::thread & atomics (intro) cheat sheet — templates + pitfalls
+Programming,C++,cmake basics,Phone screen vs onsite: how C++ cmake basics questions differ
+Programming,C++,debugging & UB traps,Narrate your thinking: explain C++ debugging & UB traps like a pro
+Programming,C++,STL containers,Before you code: 4 questions for any C++ STL containers
+Programming,C++,iterators & algorithms,From DSA to dev: where C++ iterators & algorithms shows up in real systems
+Programming,C++,pointers & references,Edge cases that break 8/10 C++ pointers & references submissions
+Programming,C++,RAII & smart pointers,Back-of-the-envelope complexity: C++ RAII & smart pointers
+Programming,C++,move semantics,Code smells in C++ move semantics — and quick fixes
+Programming,C++,templates & SFINAE (intro),Template showdown: clean APIs for C++ templates & SFINAE (intro)
+Programming,C++,chrono & formatting,Interview kata: daily reps for C++ chrono & formatting
+Programming,C++,I/O speed tricks,Crash course: C++ I/O speed tricks in 5 minutes
+Programming,C++,std::thread & atomics (intro),Top 5 questions around C++ std::thread & atomics (intro) this year
+Programming,C++,cmake basics,From CP to interviews: map cmake basics to idiomatic C++
+Programming,C++,debugging & UB traps,Prove it: correctness for C++ debugging & UB traps (plain English)
+Programming,C++,STL containers,When not to use C++ features for STL containers (and what instead)
+Programming,C++,iterators & algorithms,Why C++ is still king for Indian interviews 👑
+Programming,C++,pointers & references,How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,RAII & smart pointers,C++ in 60 seconds: the only RAII & smart pointers intuition you need
+Programming,C++,move semantics,"move semantics in C++ — stop brute forcing, write idiomatic code"
+Programming,C++,templates & SFINAE (intro),C++ templates & SFINAE (intro): top 7 mistakes that cost offers in India
+Programming,C++,chrono & formatting,From messy to clean: refactor your C++ chrono & formatting live
+Programming,C++,I/O speed tricks,Interview day checklist: C++ I/O speed tricks in 5 bullets
+Programming,C++,std::thread & atomics (intro),Whiteboard to code: C++ std::thread & atomics (intro) with edge cases
+Programming,C++,cmake basics,Explain it like I’m 5: C++ cmake basics without jargon
+Programming,C++,debugging & UB traps,Speedrun C++ debugging & UB traps: archetypes you must know
+Programming,C++,STL containers,You’re overcomplicating it — simplify your C++ STL containers
+Programming,C++,iterators & algorithms,Performance 101: make C++ iterators & algorithms 10x faster (no hacks)
+Programming,C++,pointers & references,Memory vs speed: tradeoffs in C++ pointers & references
+Programming,C++,RAII & smart pointers,Idiomatic C++: do’s & don’ts for RAII & smart pointers
+Programming,C++,move semantics,Debugging live: fix a broken C++ move semantics solution
+Programming,C++,templates & SFINAE (intro),Unit tests that catch subtle bugs in C++ templates & SFINAE (intro)
+Programming,C++,chrono & formatting,C++ chrono & formatting cheat sheet — templates + pitfalls
+Programming,C++,I/O speed tricks,Phone screen vs onsite: how C++ I/O speed tricks questions differ
+Programming,C++,std::thread & atomics (intro),Narrate your thinking: explain C++ std::thread & atomics (intro) like a pro
+Programming,C++,cmake basics,Before you code: 4 questions for any C++ cmake basics
+Programming,C++,debugging & UB traps,From DSA to dev: where C++ debugging & UB traps shows up in real systems
+Programming,C++,STL containers,Edge cases that break 8/10 C++ STL containers submissions
+Programming,C++,iterators & algorithms,Back-of-the-envelope complexity: C++ iterators & algorithms
+Programming,C++,pointers & references,Code smells in C++ pointers & references — and quick fixes
+Programming,C++,RAII & smart pointers,Template showdown: clean APIs for C++ RAII & smart pointers
+Programming,C++,move semantics,Interview kata: daily reps for C++ move semantics
+Programming,C++,templates & SFINAE (intro),Crash course: C++ templates & SFINAE (intro) in 5 minutes
+Programming,C++,chrono & formatting,Top 5 questions around C++ chrono & formatting this year
+Programming,C++,I/O speed tricks,From CP to interviews: map I/O speed tricks to idiomatic C++
+Programming,C++,std::thread & atomics (intro),Prove it: correctness for C++ std::thread & atomics (intro) (plain English)
+Programming,C++,cmake basics,When not to use C++ features for cmake basics (and what instead)
+Programming,C++,debugging & UB traps,Why C++ is still king for Indian interviews 👑
+Programming,C++,STL containers,How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,iterators & algorithms,C++ in 60 seconds: the only iterators & algorithms intuition you need
+Programming,C++,pointers & references,"pointers & references in C++ — stop brute forcing, write idiomatic code"
+Programming,C++,RAII & smart pointers,C++ RAII & smart pointers: top 7 mistakes that cost offers in India
+Programming,C++,move semantics,From messy to clean: refactor your C++ move semantics live
+Programming,C++,templates & SFINAE (intro),Interview day checklist: C++ templates & SFINAE (intro) in 5 bullets
+Programming,C++,chrono & formatting,Whiteboard to code: C++ chrono & formatting with edge cases
+Programming,C++,I/O speed tricks,Explain it like I’m 5: C++ I/O speed tricks without jargon
+Programming,C++,std::thread & atomics (intro),Speedrun C++ std::thread & atomics (intro): archetypes you must know
+Programming,C++,cmake basics,You’re overcomplicating it — simplify your C++ cmake basics
+Programming,C++,debugging & UB traps,Performance 101: make C++ debugging & UB traps 10x faster (no hacks)
+Programming,C++,STL containers,Memory vs speed: tradeoffs in C++ STL containers
+Programming,C++,iterators & algorithms,Idiomatic C++: do’s & don’ts for iterators & algorithms
+Programming,C++,pointers & references,Debugging live: fix a broken C++ pointers & references solution
+Programming,C++,RAII & smart pointers,Unit tests that catch subtle bugs in C++ RAII & smart pointers
+Programming,C++,move semantics,C++ move semantics cheat sheet — templates + pitfalls
+Programming,C++,templates & SFINAE (intro),Phone screen vs onsite: how C++ templates & SFINAE (intro) questions differ
+Programming,C++,chrono & formatting,Narrate your thinking: explain C++ chrono & formatting like a pro
+Programming,C++,I/O speed tricks,Before you code: 4 questions for any C++ I/O speed tricks
+Programming,C++,std::thread & atomics (intro),From DSA to dev: where C++ std::thread & atomics (intro) shows up in real systems
+Programming,C++,cmake basics,Edge cases that break 8/10 C++ cmake basics submissions
+Programming,C++,debugging & UB traps,Back-of-the-envelope complexity: C++ debugging & UB traps
+Programming,C++,STL containers,Code smells in C++ STL containers — and quick fixes
+Programming,C++,iterators & algorithms,Template showdown: clean APIs for C++ iterators & algorithms
+Programming,C++,pointers & references,Interview kata: daily reps for C++ pointers & references
+Programming,C++,RAII & smart pointers,Crash course: C++ RAII & smart pointers in 5 minutes
+Programming,C++,move semantics,Top 5 questions around C++ move semantics this year
+Programming,C++,templates & SFINAE (intro),From CP to interviews: map templates & SFINAE (intro) to idiomatic C++
+Programming,C++,chrono & formatting,Prove it: correctness for C++ chrono & formatting (plain English)
+Programming,C++,I/O speed tricks,When not to use C++ features for I/O speed tricks (and what instead)
+Programming,C++,std::thread & atomics (intro),Why C++ is still king for Indian interviews 👑
+Programming,C++,cmake basics,How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,debugging & UB traps,C++ in 60 seconds: the only debugging & UB traps intuition you need
+Programming,C++,STL containers,"STL containers in C++ — stop brute forcing, write idiomatic code"
+Programming,C++,iterators & algorithms,C++ iterators & algorithms: top 7 mistakes that cost offers in India
+Programming,C++,pointers & references,From messy to clean: refactor your C++ pointers & references live
+Programming,C++,RAII & smart pointers,Interview day checklist: C++ RAII & smart pointers in 5 bullets
+Programming,C++,move semantics,Whiteboard to code: C++ move semantics with edge cases
+Programming,C++,templates & SFINAE (intro),Explain it like I’m 5: C++ templates & SFINAE (intro) without jargon
+Programming,C++,chrono & formatting,Speedrun C++ chrono & formatting: archetypes you must know
+Programming,C++,I/O speed tricks,You’re overcomplicating it — simplify your C++ I/O speed tricks
+Programming,C++,std::thread & atomics (intro),Performance 101: make C++ std::thread & atomics (intro) 10x faster (no hacks)
+Programming,C++,cmake basics,Memory vs speed: tradeoffs in C++ cmake basics
+Programming,C++,debugging & UB traps,Idiomatic C++: do’s & don’ts for debugging & UB traps
+Programming,C++,STL containers,Debugging live: fix a broken C++ STL containers solution
+Programming,C++,iterators & algorithms,Unit tests that catch subtle bugs in C++ iterators & algorithms
+Programming,C++,pointers & references,C++ pointers & references cheat sheet — templates + pitfalls
+Programming,C++,RAII & smart pointers,Phone screen vs onsite: how C++ RAII & smart pointers questions differ
+Programming,C++,move semantics,Narrate your thinking: explain C++ move semantics like a pro
+Programming,C++,templates & SFINAE (intro),Before you code: 4 questions for any C++ templates & SFINAE (intro)
+Programming,C++,chrono & formatting,From DSA to dev: where C++ chrono & formatting shows up in real systems
+Programming,C++,I/O speed tricks,Edge cases that break 8/10 C++ I/O speed tricks submissions
+Programming,C++,std::thread & atomics (intro),Back-of-the-envelope complexity: C++ std::thread & atomics (intro)
+Programming,C++,cmake basics,Code smells in C++ cmake basics — and quick fixes
+Programming,C++,debugging & UB traps,Template showdown: clean APIs for C++ debugging & UB traps
+Programming,C++,STL containers,Interview kata: daily reps for C++ STL containers
+Programming,C++,iterators & algorithms,Crash course: C++ iterators & algorithms in 5 minutes
+Programming,C++,pointers & references,Top 5 questions around C++ pointers & references this year
+Programming,C++,RAII & smart pointers,From CP to interviews: map RAII & smart pointers to idiomatic C++
+Programming,C++,move semantics,Prove it: correctness for C++ move semantics (plain English)
+Programming,C++,templates & SFINAE (intro),When not to use C++ features for templates & SFINAE (intro) (and what instead)
+Programming,C++,chrono & formatting,Why C++ is still king for Indian interviews 👑
+Programming,C++,I/O speed tricks,How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,std::thread & atomics (intro),C++ in 60 seconds: the only std::thread & atomics (intro) intuition you need
+Programming,C++,cmake basics,"cmake basics in C++ — stop brute forcing, write idiomatic code"
+Programming,C++,debugging & UB traps,C++ debugging & UB traps: top 7 mistakes that cost offers in India
+Programming,C++,STL containers,From messy to clean: refactor your C++ STL containers live
+Programming,C++,iterators & algorithms,Interview day checklist: C++ iterators & algorithms in 5 bullets
+Programming,C++,pointers & references,Whiteboard to code: C++ pointers & references with edge cases
+Programming,C++,RAII & smart pointers,Explain it like I’m 5: C++ RAII & smart pointers without jargon
+Programming,C++,move semantics,Speedrun C++ move semantics: archetypes you must know
+Programming,C++,templates & SFINAE (intro),You’re overcomplicating it — simplify your C++ templates & SFINAE (intro)
+Programming,C++,chrono & formatting,Performance 101: make C++ chrono & formatting 10x faster (no hacks)
+Programming,C++,I/O speed tricks,Memory vs speed: tradeoffs in C++ I/O speed tricks
+Programming,C++,std::thread & atomics (intro),Idiomatic C++: do’s & don’ts for std::thread & atomics (intro)
+Programming,C++,cmake basics,Debugging live: fix a broken C++ cmake basics solution
+Programming,C++,debugging & UB traps,Unit tests that catch subtle bugs in C++ debugging & UB traps
+Programming,C++,STL containers,C++ STL containers cheat sheet — templates + pitfalls
+Programming,C++,iterators & algorithms,Phone screen vs onsite: how C++ iterators & algorithms questions differ
+Programming,C++,pointers & references,Narrate your thinking: explain C++ pointers & references like a pro
+Programming,C++,RAII & smart pointers,Before you code: 4 questions for any C++ RAII & smart pointers
+Programming,C++,move semantics,From DSA to dev: where C++ move semantics shows up in real systems
+Programming,C++,templates & SFINAE (intro),Edge cases that break 8/10 C++ templates & SFINAE (intro) submissions
+Programming,C++,chrono & formatting,Back-of-the-envelope complexity: C++ chrono & formatting
+Programming,C++,I/O speed tricks,Code smells in C++ I/O speed tricks — and quick fixes
+Programming,C++,std::thread & atomics (intro),Template showdown: clean APIs for C++ std::thread & atomics (intro)
+Programming,C++,cmake basics,Interview kata: daily reps for C++ cmake basics
+Programming,C++,debugging & UB traps,Crash course: C++ debugging & UB traps in 5 minutes
+Programming,C++,STL containers,Top 5 questions around C++ STL containers this year
+Programming,C++,iterators & algorithms,From CP to interviews: map iterators & algorithms to idiomatic C++
+Programming,C++,pointers & references,Prove it: correctness for C++ pointers & references (plain English)
+Programming,C++,RAII & smart pointers,When not to use C++ features for RAII & smart pointers (and what instead)
+Programming,C++,move semantics,Why C++ is still king for Indian interviews 👑
+Programming,C++,templates & SFINAE (intro),How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,chrono & formatting,C++ in 60 seconds: the only chrono & formatting intuition you need
+Programming,C++,I/O speed tricks,"I/O speed tricks in C++ — stop brute forcing, write idiomatic code"
+Programming,C++,std::thread & atomics (intro),C++ std::thread & atomics (intro): top 7 mistakes that cost offers in India
+Programming,C++,cmake basics,From messy to clean: refactor your C++ cmake basics live
+Programming,C++,debugging & UB traps,Interview day checklist: C++ debugging & UB traps in 5 bullets
+Programming,C++,STL containers,Whiteboard to code: C++ STL containers with edge cases
+Programming,C++,iterators & algorithms,Explain it like I’m 5: C++ iterators & algorithms without jargon
+Programming,C++,pointers & references,Speedrun C++ pointers & references: archetypes you must know
+Programming,C++,RAII & smart pointers,You’re overcomplicating it — simplify your C++ RAII & smart pointers
+Programming,C++,move semantics,Performance 101: make C++ move semantics 10x faster (no hacks)
+Programming,C++,templates & SFINAE (intro),Memory vs speed: tradeoffs in C++ templates & SFINAE (intro)
+Programming,C++,chrono & formatting,Idiomatic C++: do’s & don’ts for chrono & formatting
+Programming,C++,I/O speed tricks,Debugging live: fix a broken C++ I/O speed tricks solution
+Programming,C++,std::thread & atomics (intro),Unit tests that catch subtle bugs in C++ std::thread & atomics (intro)
+Programming,C++,cmake basics,C++ cmake basics cheat sheet — templates + pitfalls
+Programming,C++,debugging & UB traps,Phone screen vs onsite: how C++ debugging & UB traps questions differ
+Programming,C++,STL containers,Narrate your thinking: explain C++ STL containers like a pro
+Programming,C++,iterators & algorithms,Before you code: 4 questions for any C++ iterators & algorithms
+Programming,C++,pointers & references,From DSA to dev: where C++ pointers & references shows up in real systems
+Programming,C++,RAII & smart pointers,Edge cases that break 8/10 C++ RAII & smart pointers submissions
+Programming,C++,move semantics,Back-of-the-envelope complexity: C++ move semantics
+Programming,C++,templates & SFINAE (intro),Code smells in C++ templates & SFINAE (intro) — and quick fixes
+Programming,C++,chrono & formatting,Template showdown: clean APIs for C++ chrono & formatting
+Programming,C++,I/O speed tricks,Interview kata: daily reps for C++ I/O speed tricks
+Programming,C++,std::thread & atomics (intro),Crash course: C++ std::thread & atomics (intro) in 5 minutes
+Programming,C++,cmake basics,Top 5 questions around C++ cmake basics this year
+Programming,C++,debugging & UB traps,From CP to interviews: map debugging & UB traps to idiomatic C++
+Programming,C++,STL containers,Prove it: correctness for C++ STL containers (plain English)
+Programming,C++,iterators & algorithms,When not to use C++ features for iterators & algorithms (and what instead)
+Programming,C++,pointers & references,Why C++ is still king for Indian interviews 👑
+Programming,C++,RAII & smart pointers,How C++ makes coding rounds 2x faster — patterns you’ll reuse
+Programming,C++,move semantics,Bengaluru onsite-ready C++ move semantics
+Programming,C++,templates & SFINAE (intro),Off-campus grind tips: C++ templates & SFINAE (intro)
+Programming,C++,chrono & formatting,Product vs service company: C++ chrono & formatting focus
+Programming,C++,I/O speed tricks,Startups vs MAANG expectations: C++ I/O speed tricks
+Programming,C++,std::thread & atomics (intro),Campus placements: C++ std::thread & atomics (intro) in 2 rounds
+Programming,C++,cmake basics,System design tie-ins: C++ cmake basics → prod
+Programming,C++,debugging & UB traps,Naukri/LinkedIn resume bullets from C++ debugging & UB traps
+Programming,C++,STL containers,DSA + C++ STL containers: what interviewers in India look for

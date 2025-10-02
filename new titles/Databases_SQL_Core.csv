@@ -1,0 +1,322 @@
+pillar,category,seed,title
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),When to denormalize without regret — schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,From ERD to tables: mapping primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Battle-tested naming & indexing conventions for SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,Query smells that reveal broken subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Explain plan walkthroughs for window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","How grouping sets, rollups & cubes makes your queries 100x faster (with proofs you can explain)"
+Databases,Databases — SQL Core,views & materialized views,"views & materialized views in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,stored procedures & functions,Stop guessing: read query plans to master stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),From slow to snappy: refactor with transactions (ACID basics) live
+Databases,Databases — SQL Core,error handling & retries,Top 7 mistakes in error handling & retries that cost outages
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Edge cases that break 8/10 schema design & normalization (1NF/2NF/3NF/BCNF) designs
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Naive vs optimal: complexity tradeoffs in primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Whiteboard to prod: applying SQL joins (inner/left/right/full) with guardrails
+Databases,Databases — SQL Core,subqueries & CTEs,Explain like I’m 5: subqueries & CTEs without jargon
+Databases,Databases — SQL Core,window functions,Interview day checklist: window functions in 5 bullets
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","The mental model that unlocks grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,What every backend dev should know about views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,Common myths about stored procedures & functions — busted
+Databases,Databases — SQL Core,transactions (ACID basics),Production checklists for transactions (ACID basics): observability & SLOs
+Databases,Databases — SQL Core,error handling & retries,Cost traps: make error handling & retries fast without burning cloud spend
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Pitfalls: consistency surprises inside schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Do’s & don’ts: clean APIs around primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Debugging live: fix a broken SQL joins (inner/left/right/full) in minutes
+Databases,Databases — SQL Core,subqueries & CTEs,Read/Write patterns that pair best with subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Tuning knobs for window functions: safe defaults → power moves
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","How to demo grouping sets, rollups & cubes in an interview (with examples)"
+Databases,Databases — SQL Core,views & materialized views,When to denormalize without regret — views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,From ERD to tables: mapping stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Battle-tested naming & indexing conventions for transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,Query smells that reveal broken error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Explain plan walkthroughs for schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,How primary/foreign keys & constraints makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),"SQL joins (inner/left/right/full) in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,subqueries & CTEs,Stop guessing: read query plans to master subqueries & CTEs
+Databases,Databases — SQL Core,window functions,From slow to snappy: refactor with window functions live
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Top 7 mistakes in grouping sets, rollups & cubes that cost outages"
+Databases,Databases — SQL Core,views & materialized views,Edge cases that break 8/10 views & materialized views designs
+Databases,Databases — SQL Core,stored procedures & functions,Naive vs optimal: complexity tradeoffs in stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Whiteboard to prod: applying transactions (ACID basics) with guardrails
+Databases,Databases — SQL Core,error handling & retries,Explain like I’m 5: error handling & retries without jargon
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Interview day checklist: schema design & normalization (1NF/2NF/3NF/BCNF) in 5 bullets
+Databases,Databases — SQL Core,primary/foreign keys & constraints,The mental model that unlocks primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),What every backend dev should know about SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,Common myths about subqueries & CTEs — busted
+Databases,Databases — SQL Core,window functions,Production checklists for window functions: observability & SLOs
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Cost traps: make grouping sets, rollups & cubes fast without burning cloud spend"
+Databases,Databases — SQL Core,views & materialized views,Pitfalls: consistency surprises inside views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,Do’s & don’ts: clean APIs around stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Debugging live: fix a broken transactions (ACID basics) in minutes
+Databases,Databases — SQL Core,error handling & retries,Read/Write patterns that pair best with error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Tuning knobs for schema design & normalization (1NF/2NF/3NF/BCNF): safe defaults → power moves
+Databases,Databases — SQL Core,primary/foreign keys & constraints,How to demo primary/foreign keys & constraints in an interview (with examples)
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),When to denormalize without regret — SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,From ERD to tables: mapping subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Battle-tested naming & indexing conventions for window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Query smells that reveal broken grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Explain plan walkthroughs for views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,How stored procedures & functions makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — SQL Core,transactions (ACID basics),"transactions (ACID basics) in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,error handling & retries,Stop guessing: read query plans to master error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),From slow to snappy: refactor with schema design & normalization (1NF/2NF/3NF/BCNF) live
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Top 7 mistakes in primary/foreign keys & constraints that cost outages
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Edge cases that break 8/10 SQL joins (inner/left/right/full) designs
+Databases,Databases — SQL Core,subqueries & CTEs,Naive vs optimal: complexity tradeoffs in subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Whiteboard to prod: applying window functions with guardrails
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Explain like I’m 5: grouping sets, rollups & cubes without jargon"
+Databases,Databases — SQL Core,views & materialized views,Interview day checklist: views & materialized views in 5 bullets
+Databases,Databases — SQL Core,stored procedures & functions,The mental model that unlocks stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),What every backend dev should know about transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,Common myths about error handling & retries — busted
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Production checklists for schema design & normalization (1NF/2NF/3NF/BCNF): observability & SLOs
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Cost traps: make primary/foreign keys & constraints fast without burning cloud spend
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Pitfalls: consistency surprises inside SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,Do’s & don’ts: clean APIs around subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Debugging live: fix a broken window functions in minutes
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Read/Write patterns that pair best with grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Tuning knobs for views & materialized views: safe defaults → power moves
+Databases,Databases — SQL Core,stored procedures & functions,How to demo stored procedures & functions in an interview (with examples)
+Databases,Databases — SQL Core,transactions (ACID basics),When to denormalize without regret — transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,From ERD to tables: mapping error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Battle-tested naming & indexing conventions for schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Query smells that reveal broken primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Explain plan walkthroughs for SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,How subqueries & CTEs makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — SQL Core,window functions,"window functions in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Stop guessing: read query plans to master grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,From slow to snappy: refactor with views & materialized views live
+Databases,Databases — SQL Core,stored procedures & functions,Top 7 mistakes in stored procedures & functions that cost outages
+Databases,Databases — SQL Core,transactions (ACID basics),Edge cases that break 8/10 transactions (ACID basics) designs
+Databases,Databases — SQL Core,error handling & retries,Naive vs optimal: complexity tradeoffs in error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Whiteboard to prod: applying schema design & normalization (1NF/2NF/3NF/BCNF) with guardrails
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Explain like I’m 5: primary/foreign keys & constraints without jargon
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Interview day checklist: SQL joins (inner/left/right/full) in 5 bullets
+Databases,Databases — SQL Core,subqueries & CTEs,The mental model that unlocks subqueries & CTEs
+Databases,Databases — SQL Core,window functions,What every backend dev should know about window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Common myths about grouping sets, rollups & cubes — busted"
+Databases,Databases — SQL Core,views & materialized views,Production checklists for views & materialized views: observability & SLOs
+Databases,Databases — SQL Core,stored procedures & functions,Cost traps: make stored procedures & functions fast without burning cloud spend
+Databases,Databases — SQL Core,transactions (ACID basics),Pitfalls: consistency surprises inside transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,Do’s & don’ts: clean APIs around error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Debugging live: fix a broken schema design & normalization (1NF/2NF/3NF/BCNF) in minutes
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Read/Write patterns that pair best with primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Tuning knobs for SQL joins (inner/left/right/full): safe defaults → power moves
+Databases,Databases — SQL Core,subqueries & CTEs,How to demo subqueries & CTEs in an interview (with examples)
+Databases,Databases — SQL Core,window functions,When to denormalize without regret — window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","From ERD to tables: mapping grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Battle-tested naming & indexing conventions for views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,Query smells that reveal broken stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Explain plan walkthroughs for transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,How error handling & retries makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),"schema design & normalization (1NF/2NF/3NF/BCNF) in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Stop guessing: read query plans to master primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),From slow to snappy: refactor with SQL joins (inner/left/right/full) live
+Databases,Databases — SQL Core,subqueries & CTEs,Top 7 mistakes in subqueries & CTEs that cost outages
+Databases,Databases — SQL Core,window functions,Edge cases that break 8/10 window functions designs
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Naive vs optimal: complexity tradeoffs in grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Whiteboard to prod: applying views & materialized views with guardrails
+Databases,Databases — SQL Core,stored procedures & functions,Explain like I’m 5: stored procedures & functions without jargon
+Databases,Databases — SQL Core,transactions (ACID basics),Interview day checklist: transactions (ACID basics) in 5 bullets
+Databases,Databases — SQL Core,error handling & retries,The mental model that unlocks error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),What every backend dev should know about schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Common myths about primary/foreign keys & constraints — busted
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Production checklists for SQL joins (inner/left/right/full): observability & SLOs
+Databases,Databases — SQL Core,subqueries & CTEs,Cost traps: make subqueries & CTEs fast without burning cloud spend
+Databases,Databases — SQL Core,window functions,Pitfalls: consistency surprises inside window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Do’s & don’ts: clean APIs around grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Debugging live: fix a broken views & materialized views in minutes
+Databases,Databases — SQL Core,stored procedures & functions,Read/Write patterns that pair best with stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Tuning knobs for transactions (ACID basics): safe defaults → power moves
+Databases,Databases — SQL Core,error handling & retries,How to demo error handling & retries in an interview (with examples)
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),When to denormalize without regret — schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,From ERD to tables: mapping primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Battle-tested naming & indexing conventions for SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,Query smells that reveal broken subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Explain plan walkthroughs for window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","How grouping sets, rollups & cubes makes your queries 100x faster (with proofs you can explain)"
+Databases,Databases — SQL Core,views & materialized views,"views & materialized views in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,stored procedures & functions,Stop guessing: read query plans to master stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),From slow to snappy: refactor with transactions (ACID basics) live
+Databases,Databases — SQL Core,error handling & retries,Top 7 mistakes in error handling & retries that cost outages
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Edge cases that break 8/10 schema design & normalization (1NF/2NF/3NF/BCNF) designs
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Naive vs optimal: complexity tradeoffs in primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Whiteboard to prod: applying SQL joins (inner/left/right/full) with guardrails
+Databases,Databases — SQL Core,subqueries & CTEs,Explain like I’m 5: subqueries & CTEs without jargon
+Databases,Databases — SQL Core,window functions,Interview day checklist: window functions in 5 bullets
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","The mental model that unlocks grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,What every backend dev should know about views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,Common myths about stored procedures & functions — busted
+Databases,Databases — SQL Core,transactions (ACID basics),Production checklists for transactions (ACID basics): observability & SLOs
+Databases,Databases — SQL Core,error handling & retries,Cost traps: make error handling & retries fast without burning cloud spend
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Pitfalls: consistency surprises inside schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Do’s & don’ts: clean APIs around primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Debugging live: fix a broken SQL joins (inner/left/right/full) in minutes
+Databases,Databases — SQL Core,subqueries & CTEs,Read/Write patterns that pair best with subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Tuning knobs for window functions: safe defaults → power moves
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","How to demo grouping sets, rollups & cubes in an interview (with examples)"
+Databases,Databases — SQL Core,views & materialized views,When to denormalize without regret — views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,From ERD to tables: mapping stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Battle-tested naming & indexing conventions for transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,Query smells that reveal broken error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Explain plan walkthroughs for schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,How primary/foreign keys & constraints makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),"SQL joins (inner/left/right/full) in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,subqueries & CTEs,Stop guessing: read query plans to master subqueries & CTEs
+Databases,Databases — SQL Core,window functions,From slow to snappy: refactor with window functions live
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Top 7 mistakes in grouping sets, rollups & cubes that cost outages"
+Databases,Databases — SQL Core,views & materialized views,Edge cases that break 8/10 views & materialized views designs
+Databases,Databases — SQL Core,stored procedures & functions,Naive vs optimal: complexity tradeoffs in stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Whiteboard to prod: applying transactions (ACID basics) with guardrails
+Databases,Databases — SQL Core,error handling & retries,Explain like I’m 5: error handling & retries without jargon
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Interview day checklist: schema design & normalization (1NF/2NF/3NF/BCNF) in 5 bullets
+Databases,Databases — SQL Core,primary/foreign keys & constraints,The mental model that unlocks primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),What every backend dev should know about SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,Common myths about subqueries & CTEs — busted
+Databases,Databases — SQL Core,window functions,Production checklists for window functions: observability & SLOs
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Cost traps: make grouping sets, rollups & cubes fast without burning cloud spend"
+Databases,Databases — SQL Core,views & materialized views,Pitfalls: consistency surprises inside views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,Do’s & don’ts: clean APIs around stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Debugging live: fix a broken transactions (ACID basics) in minutes
+Databases,Databases — SQL Core,error handling & retries,Read/Write patterns that pair best with error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Tuning knobs for schema design & normalization (1NF/2NF/3NF/BCNF): safe defaults → power moves
+Databases,Databases — SQL Core,primary/foreign keys & constraints,How to demo primary/foreign keys & constraints in an interview (with examples)
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),When to denormalize without regret — SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,From ERD to tables: mapping subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Battle-tested naming & indexing conventions for window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Query smells that reveal broken grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Explain plan walkthroughs for views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,How stored procedures & functions makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — SQL Core,transactions (ACID basics),"transactions (ACID basics) in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,error handling & retries,Stop guessing: read query plans to master error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),From slow to snappy: refactor with schema design & normalization (1NF/2NF/3NF/BCNF) live
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Top 7 mistakes in primary/foreign keys & constraints that cost outages
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Edge cases that break 8/10 SQL joins (inner/left/right/full) designs
+Databases,Databases — SQL Core,subqueries & CTEs,Naive vs optimal: complexity tradeoffs in subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Whiteboard to prod: applying window functions with guardrails
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Explain like I’m 5: grouping sets, rollups & cubes without jargon"
+Databases,Databases — SQL Core,views & materialized views,Interview day checklist: views & materialized views in 5 bullets
+Databases,Databases — SQL Core,stored procedures & functions,The mental model that unlocks stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),What every backend dev should know about transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,Common myths about error handling & retries — busted
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Production checklists for schema design & normalization (1NF/2NF/3NF/BCNF): observability & SLOs
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Cost traps: make primary/foreign keys & constraints fast without burning cloud spend
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Pitfalls: consistency surprises inside SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,Do’s & don’ts: clean APIs around subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Debugging live: fix a broken window functions in minutes
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Read/Write patterns that pair best with grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Tuning knobs for views & materialized views: safe defaults → power moves
+Databases,Databases — SQL Core,stored procedures & functions,How to demo stored procedures & functions in an interview (with examples)
+Databases,Databases — SQL Core,transactions (ACID basics),When to denormalize without regret — transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,From ERD to tables: mapping error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Battle-tested naming & indexing conventions for schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Query smells that reveal broken primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Explain plan walkthroughs for SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,How subqueries & CTEs makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — SQL Core,window functions,"window functions in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Stop guessing: read query plans to master grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,From slow to snappy: refactor with views & materialized views live
+Databases,Databases — SQL Core,stored procedures & functions,Top 7 mistakes in stored procedures & functions that cost outages
+Databases,Databases — SQL Core,transactions (ACID basics),Edge cases that break 8/10 transactions (ACID basics) designs
+Databases,Databases — SQL Core,error handling & retries,Naive vs optimal: complexity tradeoffs in error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Whiteboard to prod: applying schema design & normalization (1NF/2NF/3NF/BCNF) with guardrails
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Explain like I’m 5: primary/foreign keys & constraints without jargon
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Interview day checklist: SQL joins (inner/left/right/full) in 5 bullets
+Databases,Databases — SQL Core,subqueries & CTEs,The mental model that unlocks subqueries & CTEs
+Databases,Databases — SQL Core,window functions,What every backend dev should know about window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Common myths about grouping sets, rollups & cubes — busted"
+Databases,Databases — SQL Core,views & materialized views,Production checklists for views & materialized views: observability & SLOs
+Databases,Databases — SQL Core,stored procedures & functions,Cost traps: make stored procedures & functions fast without burning cloud spend
+Databases,Databases — SQL Core,transactions (ACID basics),Pitfalls: consistency surprises inside transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,Do’s & don’ts: clean APIs around error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Debugging live: fix a broken schema design & normalization (1NF/2NF/3NF/BCNF) in minutes
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Read/Write patterns that pair best with primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Tuning knobs for SQL joins (inner/left/right/full): safe defaults → power moves
+Databases,Databases — SQL Core,subqueries & CTEs,How to demo subqueries & CTEs in an interview (with examples)
+Databases,Databases — SQL Core,window functions,When to denormalize without regret — window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","From ERD to tables: mapping grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Battle-tested naming & indexing conventions for views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,Query smells that reveal broken stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Explain plan walkthroughs for transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,How error handling & retries makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),"schema design & normalization (1NF/2NF/3NF/BCNF) in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Stop guessing: read query plans to master primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),From slow to snappy: refactor with SQL joins (inner/left/right/full) live
+Databases,Databases — SQL Core,subqueries & CTEs,Top 7 mistakes in subqueries & CTEs that cost outages
+Databases,Databases — SQL Core,window functions,Edge cases that break 8/10 window functions designs
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Naive vs optimal: complexity tradeoffs in grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Whiteboard to prod: applying views & materialized views with guardrails
+Databases,Databases — SQL Core,stored procedures & functions,Explain like I’m 5: stored procedures & functions without jargon
+Databases,Databases — SQL Core,transactions (ACID basics),Interview day checklist: transactions (ACID basics) in 5 bullets
+Databases,Databases — SQL Core,error handling & retries,The mental model that unlocks error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),What every backend dev should know about schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Common myths about primary/foreign keys & constraints — busted
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Production checklists for SQL joins (inner/left/right/full): observability & SLOs
+Databases,Databases — SQL Core,subqueries & CTEs,Cost traps: make subqueries & CTEs fast without burning cloud spend
+Databases,Databases — SQL Core,window functions,Pitfalls: consistency surprises inside window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Do’s & don’ts: clean APIs around grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Debugging live: fix a broken views & materialized views in minutes
+Databases,Databases — SQL Core,stored procedures & functions,Read/Write patterns that pair best with stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Tuning knobs for transactions (ACID basics): safe defaults → power moves
+Databases,Databases — SQL Core,error handling & retries,How to demo error handling & retries in an interview (with examples)
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),When to denormalize without regret — schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,From ERD to tables: mapping primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Battle-tested naming & indexing conventions for SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,Query smells that reveal broken subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Explain plan walkthroughs for window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","How grouping sets, rollups & cubes makes your queries 100x faster (with proofs you can explain)"
+Databases,Databases — SQL Core,views & materialized views,"views & materialized views in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,stored procedures & functions,Stop guessing: read query plans to master stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),From slow to snappy: refactor with transactions (ACID basics) live
+Databases,Databases — SQL Core,error handling & retries,Top 7 mistakes in error handling & retries that cost outages
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Edge cases that break 8/10 schema design & normalization (1NF/2NF/3NF/BCNF) designs
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Naive vs optimal: complexity tradeoffs in primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Whiteboard to prod: applying SQL joins (inner/left/right/full) with guardrails
+Databases,Databases — SQL Core,subqueries & CTEs,Explain like I’m 5: subqueries & CTEs without jargon
+Databases,Databases — SQL Core,window functions,Interview day checklist: window functions in 5 bullets
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","The mental model that unlocks grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,What every backend dev should know about views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,Common myths about stored procedures & functions — busted
+Databases,Databases — SQL Core,transactions (ACID basics),Production checklists for transactions (ACID basics): observability & SLOs
+Databases,Databases — SQL Core,error handling & retries,Cost traps: make error handling & retries fast without burning cloud spend
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Pitfalls: consistency surprises inside schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Do’s & don’ts: clean APIs around primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),Debugging live: fix a broken SQL joins (inner/left/right/full) in minutes
+Databases,Databases — SQL Core,subqueries & CTEs,Read/Write patterns that pair best with subqueries & CTEs
+Databases,Databases — SQL Core,window functions,Tuning knobs for window functions: safe defaults → power moves
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","How to demo grouping sets, rollups & cubes in an interview (with examples)"
+Databases,Databases — SQL Core,views & materialized views,When to denormalize without regret — views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,From ERD to tables: mapping stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Battle-tested naming & indexing conventions for transactions (ACID basics)
+Databases,Databases — SQL Core,error handling & retries,Query smells that reveal broken error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Explain plan walkthroughs for schema design & normalization (1NF/2NF/3NF/BCNF)
+Databases,Databases — SQL Core,primary/foreign keys & constraints,How primary/foreign keys & constraints makes your queries 100x faster (with proofs you can explain)
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),"SQL joins (inner/left/right/full) in 60 seconds — intuition first, syntax second"
+Databases,Databases — SQL Core,subqueries & CTEs,Stop guessing: read query plans to master subqueries & CTEs
+Databases,Databases — SQL Core,window functions,From slow to snappy: refactor with window functions live
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Top 7 mistakes in grouping sets, rollups & cubes that cost outages"
+Databases,Databases — SQL Core,views & materialized views,Edge cases that break 8/10 views & materialized views designs
+Databases,Databases — SQL Core,stored procedures & functions,Naive vs optimal: complexity tradeoffs in stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Whiteboard to prod: applying transactions (ACID basics) with guardrails
+Databases,Databases — SQL Core,error handling & retries,Explain like I’m 5: error handling & retries without jargon
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Interview day checklist: schema design & normalization (1NF/2NF/3NF/BCNF) in 5 bullets
+Databases,Databases — SQL Core,primary/foreign keys & constraints,The mental model that unlocks primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),What every backend dev should know about SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,Common myths about subqueries & CTEs — busted
+Databases,Databases — SQL Core,window functions,Production checklists for window functions: observability & SLOs
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","Cost traps: make grouping sets, rollups & cubes fast without burning cloud spend"
+Databases,Databases — SQL Core,views & materialized views,Pitfalls: consistency surprises inside views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,Do’s & don’ts: clean APIs around stored procedures & functions
+Databases,Databases — SQL Core,transactions (ACID basics),Debugging live: fix a broken transactions (ACID basics) in minutes
+Databases,Databases — SQL Core,error handling & retries,Read/Write patterns that pair best with error handling & retries
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),Tuning knobs for schema design & normalization (1NF/2NF/3NF/BCNF): safe defaults → power moves
+Databases,Databases — SQL Core,primary/foreign keys & constraints,How to demo primary/foreign keys & constraints in an interview (with examples)
+Databases,Databases — SQL Core,schema design & normalization (1NF/2NF/3NF/BCNF),schema design & normalization (1NF/2NF/3NF/BCNF) explained with Bollywood marriages 💍
+Databases,Databases — SQL Core,primary/foreign keys & constraints,Tatkal rush mental model for primary/foreign keys & constraints
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),UPI ledger consistency meets SQL joins (inner/left/right/full)
+Databases,Databases — SQL Core,subqueries & CTEs,Zomato dinner rush mapped to subqueries & CTEs
+Databases,Databases — SQL Core,window functions,IPL match concurrency stress-tests window functions
+Databases,Databases — SQL Core,"grouping sets, rollups & cubes","IRCTC queueing intuition for grouping sets, rollups & cubes"
+Databases,Databases — SQL Core,views & materialized views,Gully cricket teams = partitions in views & materialized views
+Databases,Databases — SQL Core,stored procedures & functions,Traffic on Bengaluru ORR as stored procedures & functions backpressure
+Databases,Databases — SQL Core,SQL joins (inner/left/right/full),SQL Joins explained with Bollywood marriages 💍

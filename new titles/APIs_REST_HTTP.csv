@@ -1,0 +1,322 @@
+pillar,category,seed,title
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Why every Indian startup runs on APIs (and how they scale) — HTTP verbs & idempotency edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,"status codes & error design in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Stop building slow endpoints: resources vs RPC patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,pagination & filtering vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Top 7 mistakes in conditional requests (ETag/If-None-Match) that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),"From flaky to reliable: retries, idempotency, timeouts for caching (Cache-Control/ETag)"
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),The mental model that unlocks HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Whiteboard to prod: shipping content negotiation with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Interview day checklist: multipart uploads & large files in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Explain like I’m 5: validation & contracts without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,"Observability-first OpenAPI/Swagger: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Cost-aware HTTP verbs & idempotency: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Do’s & don’ts: clean APIs around status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Backpressure and rate limits: taming spiky traffic in resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,API versioning & compatibility: zero-downtime decisions for pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),N+1 killers: caching & pagination patterns for conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),SLOs & SLAs: promise what you can keep with caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Blueprint: load test & stage rollouts for HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Security checklist before launch: content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Postmortem 101: learning from incidents in multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Why every Indian startup runs on APIs (and how they scale) — validation & contracts edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,"OpenAPI/Swagger in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Stop building slow endpoints: HTTP verbs & idempotency patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,status codes & error design vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Top 7 mistakes in resources vs RPC that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,"From flaky to reliable: retries, idempotency, timeouts for pagination & filtering"
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),The mental model that unlocks conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Whiteboard to prod: shipping caching (Cache-Control/ETag) with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Interview day checklist: HATEOAS (concept) in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Explain like I’m 5: content negotiation without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,"Observability-first multipart uploads & large files: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Cost-aware validation & contracts: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Do’s & don’ts: clean APIs around OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Backpressure and rate limits: taming spiky traffic in HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,API versioning & compatibility: zero-downtime decisions for status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,N+1 killers: caching & pagination patterns for resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,SLOs & SLAs: promise what you can keep with pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Blueprint: load test & stage rollouts for conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Security checklist before launch: caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Postmortem 101: learning from incidents in HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Why every Indian startup runs on APIs (and how they scale) — content negotiation edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,"multipart uploads & large files in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Stop building slow endpoints: validation & contracts patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,OpenAPI/Swagger vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Top 7 mistakes in HTTP verbs & idempotency that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,"From flaky to reliable: retries, idempotency, timeouts for status codes & error design"
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,The mental model that unlocks resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Whiteboard to prod: shipping pagination & filtering with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Interview day checklist: conditional requests (ETag/If-None-Match) in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Explain like I’m 5: caching (Cache-Control/ETag) without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),"Observability-first HATEOAS (concept): logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Cost-aware content negotiation: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Do’s & don’ts: clean APIs around multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Backpressure and rate limits: taming spiky traffic in validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,API versioning & compatibility: zero-downtime decisions for OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,N+1 killers: caching & pagination patterns for HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,SLOs & SLAs: promise what you can keep with status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Blueprint: load test & stage rollouts for resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Security checklist before launch: pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Postmortem 101: learning from incidents in conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Why every Indian startup runs on APIs (and how they scale) — caching (Cache-Control/ETag) edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),"HATEOAS (concept) in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Stop building slow endpoints: content negotiation patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,multipart uploads & large files vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Top 7 mistakes in validation & contracts that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,"From flaky to reliable: retries, idempotency, timeouts for OpenAPI/Swagger"
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,The mental model that unlocks HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Whiteboard to prod: shipping status codes & error design with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Interview day checklist: resources vs RPC in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Explain like I’m 5: pagination & filtering without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),"Observability-first conditional requests (ETag/If-None-Match): logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Cost-aware caching (Cache-Control/ETag): make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Do’s & don’ts: clean APIs around HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Backpressure and rate limits: taming spiky traffic in content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,API versioning & compatibility: zero-downtime decisions for multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,N+1 killers: caching & pagination patterns for validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,SLOs & SLAs: promise what you can keep with OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Blueprint: load test & stage rollouts for HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Security checklist before launch: status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Postmortem 101: learning from incidents in resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Why every Indian startup runs on APIs (and how they scale) — pagination & filtering edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),"conditional requests (ETag/If-None-Match) in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Stop building slow endpoints: caching (Cache-Control/ETag) patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),HATEOAS (concept) vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Top 7 mistakes in content negotiation that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,"From flaky to reliable: retries, idempotency, timeouts for multipart uploads & large files"
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,The mental model that unlocks validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Whiteboard to prod: shipping OpenAPI/Swagger with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Interview day checklist: HTTP verbs & idempotency in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Explain like I’m 5: status codes & error design without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,"Observability-first resources vs RPC: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Cost-aware pagination & filtering: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Do’s & don’ts: clean APIs around conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Backpressure and rate limits: taming spiky traffic in caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),API versioning & compatibility: zero-downtime decisions for HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,N+1 killers: caching & pagination patterns for content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,SLOs & SLAs: promise what you can keep with multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Blueprint: load test & stage rollouts for validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Security checklist before launch: OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Postmortem 101: learning from incidents in HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Why every Indian startup runs on APIs (and how they scale) — status codes & error design edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,"resources vs RPC in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Stop building slow endpoints: pagination & filtering patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),conditional requests (ETag/If-None-Match) vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Top 7 mistakes in caching (Cache-Control/ETag) that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),"From flaky to reliable: retries, idempotency, timeouts for HATEOAS (concept)"
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,The mental model that unlocks content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Whiteboard to prod: shipping multipart uploads & large files with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Interview day checklist: validation & contracts in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Explain like I’m 5: OpenAPI/Swagger without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,"Observability-first HTTP verbs & idempotency: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Cost-aware status codes & error design: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Do’s & don’ts: clean APIs around resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Backpressure and rate limits: taming spiky traffic in pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),API versioning & compatibility: zero-downtime decisions for conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),N+1 killers: caching & pagination patterns for caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),SLOs & SLAs: promise what you can keep with HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Blueprint: load test & stage rollouts for content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Security checklist before launch: multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Postmortem 101: learning from incidents in validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Why every Indian startup runs on APIs (and how they scale) — OpenAPI/Swagger edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,"HTTP verbs & idempotency in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Stop building slow endpoints: status codes & error design patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,resources vs RPC vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Top 7 mistakes in pagination & filtering that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),"From flaky to reliable: retries, idempotency, timeouts for conditional requests (ETag/If-None-Match)"
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),The mental model that unlocks caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Whiteboard to prod: shipping HATEOAS (concept) with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Interview day checklist: content negotiation in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Explain like I’m 5: multipart uploads & large files without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,"Observability-first validation & contracts: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Cost-aware OpenAPI/Swagger: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Do’s & don’ts: clean APIs around HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Backpressure and rate limits: taming spiky traffic in status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,API versioning & compatibility: zero-downtime decisions for resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,N+1 killers: caching & pagination patterns for pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),SLOs & SLAs: promise what you can keep with conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Blueprint: load test & stage rollouts for caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Security checklist before launch: HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Postmortem 101: learning from incidents in content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Why every Indian startup runs on APIs (and how they scale) — multipart uploads & large files edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,"validation & contracts in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Stop building slow endpoints: OpenAPI/Swagger patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,HTTP verbs & idempotency vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Top 7 mistakes in status codes & error design that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,"From flaky to reliable: retries, idempotency, timeouts for resources vs RPC"
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,The mental model that unlocks pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Whiteboard to prod: shipping conditional requests (ETag/If-None-Match) with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Interview day checklist: caching (Cache-Control/ETag) in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Explain like I’m 5: HATEOAS (concept) without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,"Observability-first content negotiation: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Cost-aware multipart uploads & large files: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Do’s & don’ts: clean APIs around validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Backpressure and rate limits: taming spiky traffic in OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,API versioning & compatibility: zero-downtime decisions for HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,N+1 killers: caching & pagination patterns for status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,SLOs & SLAs: promise what you can keep with resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Blueprint: load test & stage rollouts for pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Security checklist before launch: conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Postmortem 101: learning from incidents in caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Why every Indian startup runs on APIs (and how they scale) — HATEOAS (concept) edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,"content negotiation in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Stop building slow endpoints: multipart uploads & large files patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,validation & contracts vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Top 7 mistakes in OpenAPI/Swagger that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,"From flaky to reliable: retries, idempotency, timeouts for HTTP verbs & idempotency"
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,The mental model that unlocks status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Whiteboard to prod: shipping resources vs RPC with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Interview day checklist: pagination & filtering in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Explain like I’m 5: conditional requests (ETag/If-None-Match) without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),"Observability-first caching (Cache-Control/ETag): logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Cost-aware HATEOAS (concept): make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Do’s & don’ts: clean APIs around content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Backpressure and rate limits: taming spiky traffic in multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,API versioning & compatibility: zero-downtime decisions for validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,N+1 killers: caching & pagination patterns for OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,SLOs & SLAs: promise what you can keep with HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Blueprint: load test & stage rollouts for status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Security checklist before launch: resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Postmortem 101: learning from incidents in pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Why every Indian startup runs on APIs (and how they scale) — conditional requests (ETag/If-None-Match) edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),"caching (Cache-Control/ETag) in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Stop building slow endpoints: HATEOAS (concept) patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,content negotiation vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Top 7 mistakes in multipart uploads & large files that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,"From flaky to reliable: retries, idempotency, timeouts for validation & contracts"
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,The mental model that unlocks OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Whiteboard to prod: shipping HTTP verbs & idempotency with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Interview day checklist: status codes & error design in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Explain like I’m 5: resources vs RPC without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,"Observability-first pagination & filtering: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Cost-aware conditional requests (ETag/If-None-Match): make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Do’s & don’ts: clean APIs around caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Backpressure and rate limits: taming spiky traffic in HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,API versioning & compatibility: zero-downtime decisions for content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,N+1 killers: caching & pagination patterns for multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,SLOs & SLAs: promise what you can keep with validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Blueprint: load test & stage rollouts for OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Security checklist before launch: HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Postmortem 101: learning from incidents in status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Why every Indian startup runs on APIs (and how they scale) — resources vs RPC edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,"pagination & filtering in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Stop building slow endpoints: conditional requests (ETag/If-None-Match) patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),caching (Cache-Control/ETag) vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Top 7 mistakes in HATEOAS (concept) that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,"From flaky to reliable: retries, idempotency, timeouts for content negotiation"
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,The mental model that unlocks multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Whiteboard to prod: shipping validation & contracts with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Interview day checklist: OpenAPI/Swagger in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Explain like I’m 5: HTTP verbs & idempotency without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,"Observability-first status codes & error design: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Cost-aware resources vs RPC: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Do’s & don’ts: clean APIs around pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Backpressure and rate limits: taming spiky traffic in conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),API versioning & compatibility: zero-downtime decisions for caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),N+1 killers: caching & pagination patterns for HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,SLOs & SLAs: promise what you can keep with content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Blueprint: load test & stage rollouts for multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Security checklist before launch: validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Postmortem 101: learning from incidents in OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Why every Indian startup runs on APIs (and how they scale) — HTTP verbs & idempotency edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,"status codes & error design in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Stop building slow endpoints: resources vs RPC patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,pagination & filtering vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Top 7 mistakes in conditional requests (ETag/If-None-Match) that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),"From flaky to reliable: retries, idempotency, timeouts for caching (Cache-Control/ETag)"
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),The mental model that unlocks HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Whiteboard to prod: shipping content negotiation with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Interview day checklist: multipart uploads & large files in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Explain like I’m 5: validation & contracts without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,"Observability-first OpenAPI/Swagger: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Cost-aware HTTP verbs & idempotency: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Do’s & don’ts: clean APIs around status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Backpressure and rate limits: taming spiky traffic in resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,API versioning & compatibility: zero-downtime decisions for pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),N+1 killers: caching & pagination patterns for conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),SLOs & SLAs: promise what you can keep with caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Blueprint: load test & stage rollouts for HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Security checklist before launch: content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Postmortem 101: learning from incidents in multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Why every Indian startup runs on APIs (and how they scale) — validation & contracts edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,"OpenAPI/Swagger in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Stop building slow endpoints: HTTP verbs & idempotency patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,status codes & error design vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Top 7 mistakes in resources vs RPC that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,"From flaky to reliable: retries, idempotency, timeouts for pagination & filtering"
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),The mental model that unlocks conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Whiteboard to prod: shipping caching (Cache-Control/ETag) with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Interview day checklist: HATEOAS (concept) in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Explain like I’m 5: content negotiation without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,"Observability-first multipart uploads & large files: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Cost-aware validation & contracts: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Do’s & don’ts: clean APIs around OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Backpressure and rate limits: taming spiky traffic in HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,API versioning & compatibility: zero-downtime decisions for status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,N+1 killers: caching & pagination patterns for resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,SLOs & SLAs: promise what you can keep with pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Blueprint: load test & stage rollouts for conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Security checklist before launch: caching (Cache-Control/ETag)
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Postmortem 101: learning from incidents in HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Why every Indian startup runs on APIs (and how they scale) — content negotiation edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,"multipart uploads & large files in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Stop building slow endpoints: validation & contracts patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,OpenAPI/Swagger vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Top 7 mistakes in HTTP verbs & idempotency that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,"From flaky to reliable: retries, idempotency, timeouts for status codes & error design"
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,The mental model that unlocks resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Whiteboard to prod: shipping pagination & filtering with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Interview day checklist: conditional requests (ETag/If-None-Match) in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Explain like I’m 5: caching (Cache-Control/ETag) without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),"Observability-first HATEOAS (concept): logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Cost-aware content negotiation: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Do’s & don’ts: clean APIs around multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Backpressure and rate limits: taming spiky traffic in validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,API versioning & compatibility: zero-downtime decisions for OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,N+1 killers: caching & pagination patterns for HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,SLOs & SLAs: promise what you can keep with status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Blueprint: load test & stage rollouts for resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Security checklist before launch: pagination & filtering
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),Postmortem 101: learning from incidents in conditional requests (ETag/If-None-Match)
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Why every Indian startup runs on APIs (and how they scale) — caching (Cache-Control/ETag) edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),"HATEOAS (concept) in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Stop building slow endpoints: content negotiation patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,multipart uploads & large files vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,Top 7 mistakes in validation & contracts that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,"From flaky to reliable: retries, idempotency, timeouts for OpenAPI/Swagger"
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,The mental model that unlocks HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Whiteboard to prod: shipping status codes & error design with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Interview day checklist: resources vs RPC in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Explain like I’m 5: pagination & filtering without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),"Observability-first conditional requests (ETag/If-None-Match): logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Cost-aware caching (Cache-Control/ETag): make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),Do’s & don’ts: clean APIs around HATEOAS (concept)
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Backpressure and rate limits: taming spiky traffic in content negotiation
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,API versioning & compatibility: zero-downtime decisions for multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,N+1 killers: caching & pagination patterns for validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,SLOs & SLAs: promise what you can keep with OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Blueprint: load test & stage rollouts for HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Security checklist before launch: status codes & error design
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,Postmortem 101: learning from incidents in resources vs RPC
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Why every Indian startup runs on APIs (and how they scale) — pagination & filtering edition
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),"conditional requests (ETag/If-None-Match) in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Stop building slow endpoints: caching (Cache-Control/ETag) patterns that actually scale
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),HATEOAS (concept) vs brute integrations — when to switch and why
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Top 7 mistakes in content negotiation that cost outages
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,"From flaky to reliable: retries, idempotency, timeouts for multipart uploads & large files"
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,The mental model that unlocks validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Whiteboard to prod: shipping OpenAPI/Swagger with guardrails
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,Interview day checklist: HTTP verbs & idempotency in 5 bullets
+APIs & Backend,APIs — REST & HTTP Fundamentals,status codes & error design,Explain like I’m 5: status codes & error design without jargon
+APIs & Backend,APIs — REST & HTTP Fundamentals,resources vs RPC,"Observability-first resources vs RPC: logs, metrics, traces"
+APIs & Backend,APIs — REST & HTTP Fundamentals,pagination & filtering,Cost-aware pagination & filtering: make it fast without burning cloud spend
+APIs & Backend,APIs — REST & HTTP Fundamentals,conditional requests (ETag/If-None-Match),UPI-scale traffic: applying conditional requests (ETag/If-None-Match) to payments in India
+APIs & Backend,APIs — REST & HTTP Fundamentals,caching (Cache-Control/ETag),Big Billion Days spikes: caching (Cache-Control/ETag) hardening playbook
+APIs & Backend,APIs — REST & HTTP Fundamentals,HATEOAS (concept),IRCTC Tatkal surge: HATEOAS (concept) throttling & queues
+APIs & Backend,APIs — REST & HTTP Fundamentals,content negotiation,Bengaluru ORR latency: content negotiation timeouts & fallbacks
+APIs & Backend,APIs — REST & HTTP Fundamentals,multipart uploads & large files,Zomato dinner rush mapped to multipart uploads & large files
+APIs & Backend,APIs — REST & HTTP Fundamentals,validation & contracts,IPL watch party load tests for validation & contracts
+APIs & Backend,APIs — REST & HTTP Fundamentals,OpenAPI/Swagger,Aadhaar/e-KYC journeys and OpenAPI/Swagger
+APIs & Backend,APIs — REST & HTTP Fundamentals,HTTP verbs & idempotency,India-grade flaky networks: offline-first HTTP verbs & idempotency
+APIs & Backend,APIs — REST & HTTP Fundamentals,gRPC vs REST,gRPC vs REST: Which one will get you hired?

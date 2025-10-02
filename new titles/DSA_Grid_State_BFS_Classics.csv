@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Think like an interviewer: how I grade your 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Whiteboard to code: Teleporters/portals with edge cases
+DSA,DSA — Grid/State BFS Classics,Island counting variants,You don’t need to memorize — template for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Interview day checklist for Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Hidden constraints that break Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Speedrun Minimum pushes (box/push BFS): archetypes you must know
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Complexity showdown: naive vs optimal Obstacles elimination (k removals)
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),One trick that simplifies most Shortest path with weighted cells (Dijkstra on grid) questions
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),State design for Walls & gates (multi-source BFS) — encode position + extras
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Visited sets & pruning in Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),When to shift to 0-1 BFS for 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Trace the path back: parents in Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Edge cases in grids for Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Why Fire spread (two-phase BFS) scares 90% of interviewees (and how to master it)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Knight moves in 60 seconds — intuition first
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Stop brute forcing: spot the Minimum pushes (box/push BFS) trigger words
+DSA,DSA — Grid/State BFS Classics,Obstacles elimination (k removals),Obstacles elimination (k removals) vs brute force — when to switch and why
+DSA,DSA — Grid/State BFS Classics,Shortest path with weighted cells (Dijkstra on grid),Top 7 mistakes in Shortest path with weighted cells (Dijkstra on grid) that cost offers
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),From O(N^2) → O(N): optimize your Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,"Keys/locks grid with bitmask for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Grid/State BFS Classics,Walls & gates (multi-source BFS),Metro grid navigation as Walls & gates (multi-source BFS)
+DSA,DSA — Grid/State BFS Classics,Keys/locks grid with bitmask,Flood-fill like monsoon maps via Keys/locks grid with bitmask
+DSA,DSA — Grid/State BFS Classics,0/1 grid costs (0-1 BFS),Mall floor plans & 0/1 grid costs (0-1 BFS)
+DSA,DSA — Grid/State BFS Classics,Teleporters/portals,Fire drill evacuations mirror Teleporters/portals
+DSA,DSA — Grid/State BFS Classics,Island counting variants,Metro grid navigation as Island counting variants
+DSA,DSA — Grid/State BFS Classics,Fire spread (two-phase BFS),Flood-fill like monsoon maps via Fire spread (two-phase BFS)
+DSA,DSA — Grid/State BFS Classics,Knight moves,Mall floor plans & Knight moves
+DSA,DSA — Grid/State BFS Classics,Minimum pushes (box/push BFS),Fire drill evacuations mirror Minimum pushes (box/push BFS)

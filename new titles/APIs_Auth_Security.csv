@@ -1,0 +1,321 @@
+pillar,category,seed,title
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Why every Indian startup runs on APIs (and how they scale) — OAuth2/OIDC basics edition
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,"PKCE & SPA flows in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Stop building slow endpoints: JWT vs opaque tokens patterns that actually scale
+APIs & Backend,APIs — Auth & Security,scopes & permissions,scopes & permissions vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Top 7 mistakes in mTLS & mutual auth that cost outages
+APIs & Backend,APIs — Auth & Security,API keys rotation,"From flaky to reliable: retries, idempotency, timeouts for API keys rotation"
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,The mental model that unlocks HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Whiteboard to prod: shipping RBAC/ABAC with guardrails
+APIs & Backend,APIs — Auth & Security,secrets management,Interview day checklist: secrets management in 5 bullets
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Explain like I’m 5: OWASP API Top 10 without jargon
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,"Observability-first rate limiting for abuse: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Cost-aware OAuth2/OIDC basics: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Do’s & don’ts: clean APIs around PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Backpressure and rate limits: taming spiky traffic in JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,API versioning & compatibility: zero-downtime decisions for scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,N+1 killers: caching & pagination patterns for mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,SLOs & SLAs: promise what you can keep with API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Blueprint: load test & stage rollouts for HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Security checklist before launch: RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,Postmortem 101: learning from incidents in secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Why every Indian startup runs on APIs (and how they scale) — OWASP API Top 10 edition
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,"rate limiting for abuse in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Stop building slow endpoints: OAuth2/OIDC basics patterns that actually scale
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,PKCE & SPA flows vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Top 7 mistakes in JWT vs opaque tokens that cost outages
+APIs & Backend,APIs — Auth & Security,scopes & permissions,"From flaky to reliable: retries, idempotency, timeouts for scopes & permissions"
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,The mental model that unlocks mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,Whiteboard to prod: shipping API keys rotation with guardrails
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Interview day checklist: HMAC signatures & webhooks in 5 bullets
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Explain like I’m 5: RBAC/ABAC without jargon
+APIs & Backend,APIs — Auth & Security,secrets management,"Observability-first secrets management: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Cost-aware OWASP API Top 10: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Do’s & don’ts: clean APIs around rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Backpressure and rate limits: taming spiky traffic in OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,API versioning & compatibility: zero-downtime decisions for PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,N+1 killers: caching & pagination patterns for JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,SLOs & SLAs: promise what you can keep with scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Blueprint: load test & stage rollouts for mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,Security checklist before launch: API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Postmortem 101: learning from incidents in HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Why every Indian startup runs on APIs (and how they scale) — RBAC/ABAC edition
+APIs & Backend,APIs — Auth & Security,secrets management,"secrets management in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Stop building slow endpoints: OWASP API Top 10 patterns that actually scale
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,rate limiting for abuse vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Top 7 mistakes in OAuth2/OIDC basics that cost outages
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,"From flaky to reliable: retries, idempotency, timeouts for PKCE & SPA flows"
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,The mental model that unlocks JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Whiteboard to prod: shipping scopes & permissions with guardrails
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Interview day checklist: mTLS & mutual auth in 5 bullets
+APIs & Backend,APIs — Auth & Security,API keys rotation,Explain like I’m 5: API keys rotation without jargon
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,"Observability-first HMAC signatures & webhooks: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Cost-aware RBAC/ABAC: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,secrets management,Do’s & don’ts: clean APIs around secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Backpressure and rate limits: taming spiky traffic in OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,API versioning & compatibility: zero-downtime decisions for rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,N+1 killers: caching & pagination patterns for OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,SLOs & SLAs: promise what you can keep with PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Blueprint: load test & stage rollouts for JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Security checklist before launch: scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Postmortem 101: learning from incidents in mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,Why every Indian startup runs on APIs (and how they scale) — API keys rotation edition
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,"HMAC signatures & webhooks in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Stop building slow endpoints: RBAC/ABAC patterns that actually scale
+APIs & Backend,APIs — Auth & Security,secrets management,secrets management vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Top 7 mistakes in OWASP API Top 10 that cost outages
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,"From flaky to reliable: retries, idempotency, timeouts for rate limiting for abuse"
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,The mental model that unlocks OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Whiteboard to prod: shipping PKCE & SPA flows with guardrails
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Interview day checklist: JWT vs opaque tokens in 5 bullets
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Explain like I’m 5: scopes & permissions without jargon
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,"Observability-first mTLS & mutual auth: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,API keys rotation,Cost-aware API keys rotation: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Do’s & don’ts: clean APIs around HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Backpressure and rate limits: taming spiky traffic in RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,API versioning & compatibility: zero-downtime decisions for secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,N+1 killers: caching & pagination patterns for OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,SLOs & SLAs: promise what you can keep with rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Blueprint: load test & stage rollouts for OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Security checklist before launch: PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Postmortem 101: learning from incidents in JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Why every Indian startup runs on APIs (and how they scale) — scopes & permissions edition
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,"mTLS & mutual auth in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,API keys rotation,Stop building slow endpoints: API keys rotation patterns that actually scale
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,HMAC signatures & webhooks vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Top 7 mistakes in RBAC/ABAC that cost outages
+APIs & Backend,APIs — Auth & Security,secrets management,"From flaky to reliable: retries, idempotency, timeouts for secrets management"
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,The mental model that unlocks OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Whiteboard to prod: shipping rate limiting for abuse with guardrails
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Interview day checklist: OAuth2/OIDC basics in 5 bullets
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Explain like I’m 5: PKCE & SPA flows without jargon
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,"Observability-first JWT vs opaque tokens: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Cost-aware scopes & permissions: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Do’s & don’ts: clean APIs around mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,Backpressure and rate limits: taming spiky traffic in API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,API versioning & compatibility: zero-downtime decisions for HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,N+1 killers: caching & pagination patterns for RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,SLOs & SLAs: promise what you can keep with secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Blueprint: load test & stage rollouts for OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Security checklist before launch: rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Postmortem 101: learning from incidents in OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Why every Indian startup runs on APIs (and how they scale) — PKCE & SPA flows edition
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,"JWT vs opaque tokens in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Stop building slow endpoints: scopes & permissions patterns that actually scale
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,mTLS & mutual auth vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,API keys rotation,Top 7 mistakes in API keys rotation that cost outages
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,"From flaky to reliable: retries, idempotency, timeouts for HMAC signatures & webhooks"
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,The mental model that unlocks RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,Whiteboard to prod: shipping secrets management with guardrails
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Interview day checklist: OWASP API Top 10 in 5 bullets
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Explain like I’m 5: rate limiting for abuse without jargon
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,"Observability-first OAuth2/OIDC basics: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Cost-aware PKCE & SPA flows: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Do’s & don’ts: clean APIs around JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Backpressure and rate limits: taming spiky traffic in scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,API versioning & compatibility: zero-downtime decisions for mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,N+1 killers: caching & pagination patterns for API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,SLOs & SLAs: promise what you can keep with HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Blueprint: load test & stage rollouts for RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,Security checklist before launch: secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Postmortem 101: learning from incidents in OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Why every Indian startup runs on APIs (and how they scale) — rate limiting for abuse edition
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,"OAuth2/OIDC basics in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Stop building slow endpoints: PKCE & SPA flows patterns that actually scale
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,JWT vs opaque tokens vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Top 7 mistakes in scopes & permissions that cost outages
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,"From flaky to reliable: retries, idempotency, timeouts for mTLS & mutual auth"
+APIs & Backend,APIs — Auth & Security,API keys rotation,The mental model that unlocks API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Whiteboard to prod: shipping HMAC signatures & webhooks with guardrails
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Interview day checklist: RBAC/ABAC in 5 bullets
+APIs & Backend,APIs — Auth & Security,secrets management,Explain like I’m 5: secrets management without jargon
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,"Observability-first OWASP API Top 10: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Cost-aware rate limiting for abuse: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Do’s & don’ts: clean APIs around OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Backpressure and rate limits: taming spiky traffic in PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,API versioning & compatibility: zero-downtime decisions for JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,N+1 killers: caching & pagination patterns for scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,SLOs & SLAs: promise what you can keep with mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,Blueprint: load test & stage rollouts for API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Security checklist before launch: HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Postmortem 101: learning from incidents in RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,Why every Indian startup runs on APIs (and how they scale) — secrets management edition
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,"OWASP API Top 10 in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Stop building slow endpoints: rate limiting for abuse patterns that actually scale
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,OAuth2/OIDC basics vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Top 7 mistakes in PKCE & SPA flows that cost outages
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,"From flaky to reliable: retries, idempotency, timeouts for JWT vs opaque tokens"
+APIs & Backend,APIs — Auth & Security,scopes & permissions,The mental model that unlocks scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Whiteboard to prod: shipping mTLS & mutual auth with guardrails
+APIs & Backend,APIs — Auth & Security,API keys rotation,Interview day checklist: API keys rotation in 5 bullets
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Explain like I’m 5: HMAC signatures & webhooks without jargon
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,"Observability-first RBAC/ABAC: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,secrets management,Cost-aware secrets management: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Do’s & don’ts: clean APIs around OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Backpressure and rate limits: taming spiky traffic in rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,API versioning & compatibility: zero-downtime decisions for OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,N+1 killers: caching & pagination patterns for PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,SLOs & SLAs: promise what you can keep with JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Blueprint: load test & stage rollouts for scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Security checklist before launch: mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,Postmortem 101: learning from incidents in API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Why every Indian startup runs on APIs (and how they scale) — HMAC signatures & webhooks edition
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,"RBAC/ABAC in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,secrets management,Stop building slow endpoints: secrets management patterns that actually scale
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,OWASP API Top 10 vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Top 7 mistakes in rate limiting for abuse that cost outages
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,"From flaky to reliable: retries, idempotency, timeouts for OAuth2/OIDC basics"
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,The mental model that unlocks PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Whiteboard to prod: shipping JWT vs opaque tokens with guardrails
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Interview day checklist: scopes & permissions in 5 bullets
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Explain like I’m 5: mTLS & mutual auth without jargon
+APIs & Backend,APIs — Auth & Security,API keys rotation,"Observability-first API keys rotation: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Cost-aware HMAC signatures & webhooks: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Do’s & don’ts: clean APIs around RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,Backpressure and rate limits: taming spiky traffic in secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,API versioning & compatibility: zero-downtime decisions for OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,N+1 killers: caching & pagination patterns for rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,SLOs & SLAs: promise what you can keep with OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Blueprint: load test & stage rollouts for PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Security checklist before launch: JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Postmortem 101: learning from incidents in scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Why every Indian startup runs on APIs (and how they scale) — mTLS & mutual auth edition
+APIs & Backend,APIs — Auth & Security,API keys rotation,"API keys rotation in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Stop building slow endpoints: HMAC signatures & webhooks patterns that actually scale
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,RBAC/ABAC vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,secrets management,Top 7 mistakes in secrets management that cost outages
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,"From flaky to reliable: retries, idempotency, timeouts for OWASP API Top 10"
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,The mental model that unlocks rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Whiteboard to prod: shipping OAuth2/OIDC basics with guardrails
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Interview day checklist: PKCE & SPA flows in 5 bullets
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Explain like I’m 5: JWT vs opaque tokens without jargon
+APIs & Backend,APIs — Auth & Security,scopes & permissions,"Observability-first scopes & permissions: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Cost-aware mTLS & mutual auth: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,API keys rotation,Do’s & don’ts: clean APIs around API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Backpressure and rate limits: taming spiky traffic in HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,API versioning & compatibility: zero-downtime decisions for RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,N+1 killers: caching & pagination patterns for secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,SLOs & SLAs: promise what you can keep with OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Blueprint: load test & stage rollouts for rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Security checklist before launch: OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Postmortem 101: learning from incidents in PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Why every Indian startup runs on APIs (and how they scale) — JWT vs opaque tokens edition
+APIs & Backend,APIs — Auth & Security,scopes & permissions,"scopes & permissions in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Stop building slow endpoints: mTLS & mutual auth patterns that actually scale
+APIs & Backend,APIs — Auth & Security,API keys rotation,API keys rotation vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Top 7 mistakes in HMAC signatures & webhooks that cost outages
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,"From flaky to reliable: retries, idempotency, timeouts for RBAC/ABAC"
+APIs & Backend,APIs — Auth & Security,secrets management,The mental model that unlocks secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Whiteboard to prod: shipping OWASP API Top 10 with guardrails
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Interview day checklist: rate limiting for abuse in 5 bullets
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Explain like I’m 5: OAuth2/OIDC basics without jargon
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,"Observability-first PKCE & SPA flows: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Cost-aware JWT vs opaque tokens: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Do’s & don’ts: clean APIs around scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Backpressure and rate limits: taming spiky traffic in mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,API versioning & compatibility: zero-downtime decisions for API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,N+1 killers: caching & pagination patterns for HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,SLOs & SLAs: promise what you can keep with RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,Blueprint: load test & stage rollouts for secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Security checklist before launch: OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Postmortem 101: learning from incidents in rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Why every Indian startup runs on APIs (and how they scale) — OAuth2/OIDC basics edition
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,"PKCE & SPA flows in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Stop building slow endpoints: JWT vs opaque tokens patterns that actually scale
+APIs & Backend,APIs — Auth & Security,scopes & permissions,scopes & permissions vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Top 7 mistakes in mTLS & mutual auth that cost outages
+APIs & Backend,APIs — Auth & Security,API keys rotation,"From flaky to reliable: retries, idempotency, timeouts for API keys rotation"
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,The mental model that unlocks HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Whiteboard to prod: shipping RBAC/ABAC with guardrails
+APIs & Backend,APIs — Auth & Security,secrets management,Interview day checklist: secrets management in 5 bullets
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Explain like I’m 5: OWASP API Top 10 without jargon
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,"Observability-first rate limiting for abuse: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Cost-aware OAuth2/OIDC basics: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Do’s & don’ts: clean APIs around PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Backpressure and rate limits: taming spiky traffic in JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,API versioning & compatibility: zero-downtime decisions for scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,N+1 killers: caching & pagination patterns for mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,SLOs & SLAs: promise what you can keep with API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Blueprint: load test & stage rollouts for HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Security checklist before launch: RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,Postmortem 101: learning from incidents in secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Why every Indian startup runs on APIs (and how they scale) — OWASP API Top 10 edition
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,"rate limiting for abuse in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Stop building slow endpoints: OAuth2/OIDC basics patterns that actually scale
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,PKCE & SPA flows vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Top 7 mistakes in JWT vs opaque tokens that cost outages
+APIs & Backend,APIs — Auth & Security,scopes & permissions,"From flaky to reliable: retries, idempotency, timeouts for scopes & permissions"
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,The mental model that unlocks mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,Whiteboard to prod: shipping API keys rotation with guardrails
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Interview day checklist: HMAC signatures & webhooks in 5 bullets
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Explain like I’m 5: RBAC/ABAC without jargon
+APIs & Backend,APIs — Auth & Security,secrets management,"Observability-first secrets management: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Cost-aware OWASP API Top 10: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Do’s & don’ts: clean APIs around rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Backpressure and rate limits: taming spiky traffic in OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,API versioning & compatibility: zero-downtime decisions for PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,N+1 killers: caching & pagination patterns for JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,SLOs & SLAs: promise what you can keep with scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Blueprint: load test & stage rollouts for mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,Security checklist before launch: API keys rotation
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Postmortem 101: learning from incidents in HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Why every Indian startup runs on APIs (and how they scale) — RBAC/ABAC edition
+APIs & Backend,APIs — Auth & Security,secrets management,"secrets management in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Stop building slow endpoints: OWASP API Top 10 patterns that actually scale
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,rate limiting for abuse vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Top 7 mistakes in OAuth2/OIDC basics that cost outages
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,"From flaky to reliable: retries, idempotency, timeouts for PKCE & SPA flows"
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,The mental model that unlocks JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Whiteboard to prod: shipping scopes & permissions with guardrails
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Interview day checklist: mTLS & mutual auth in 5 bullets
+APIs & Backend,APIs — Auth & Security,API keys rotation,Explain like I’m 5: API keys rotation without jargon
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,"Observability-first HMAC signatures & webhooks: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Cost-aware RBAC/ABAC: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,secrets management,Do’s & don’ts: clean APIs around secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Backpressure and rate limits: taming spiky traffic in OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,API versioning & compatibility: zero-downtime decisions for rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,N+1 killers: caching & pagination patterns for OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,SLOs & SLAs: promise what you can keep with PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Blueprint: load test & stage rollouts for JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Security checklist before launch: scopes & permissions
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,Postmortem 101: learning from incidents in mTLS & mutual auth
+APIs & Backend,APIs — Auth & Security,API keys rotation,Why every Indian startup runs on APIs (and how they scale) — API keys rotation edition
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,"HMAC signatures & webhooks in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Stop building slow endpoints: RBAC/ABAC patterns that actually scale
+APIs & Backend,APIs — Auth & Security,secrets management,secrets management vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,Top 7 mistakes in OWASP API Top 10 that cost outages
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,"From flaky to reliable: retries, idempotency, timeouts for rate limiting for abuse"
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,The mental model that unlocks OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Whiteboard to prod: shipping PKCE & SPA flows with guardrails
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Interview day checklist: JWT vs opaque tokens in 5 bullets
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Explain like I’m 5: scopes & permissions without jargon
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,"Observability-first mTLS & mutual auth: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,API keys rotation,Cost-aware API keys rotation: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,Do’s & don’ts: clean APIs around HMAC signatures & webhooks
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Backpressure and rate limits: taming spiky traffic in RBAC/ABAC
+APIs & Backend,APIs — Auth & Security,secrets management,API versioning & compatibility: zero-downtime decisions for secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,N+1 killers: caching & pagination patterns for OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,SLOs & SLAs: promise what you can keep with rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Blueprint: load test & stage rollouts for OAuth2/OIDC basics
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Security checklist before launch: PKCE & SPA flows
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,Postmortem 101: learning from incidents in JWT vs opaque tokens
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Why every Indian startup runs on APIs (and how they scale) — scopes & permissions edition
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,"mTLS & mutual auth in 60 seconds — intuition first, headers/bytes later"
+APIs & Backend,APIs — Auth & Security,API keys rotation,Stop building slow endpoints: API keys rotation patterns that actually scale
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,HMAC signatures & webhooks vs brute integrations — when to switch and why
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Top 7 mistakes in RBAC/ABAC that cost outages
+APIs & Backend,APIs — Auth & Security,secrets management,"From flaky to reliable: retries, idempotency, timeouts for secrets management"
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,The mental model that unlocks OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Whiteboard to prod: shipping rate limiting for abuse with guardrails
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,Interview day checklist: OAuth2/OIDC basics in 5 bullets
+APIs & Backend,APIs — Auth & Security,PKCE & SPA flows,Explain like I’m 5: PKCE & SPA flows without jargon
+APIs & Backend,APIs — Auth & Security,JWT vs opaque tokens,"Observability-first JWT vs opaque tokens: logs, metrics, traces"
+APIs & Backend,APIs — Auth & Security,scopes & permissions,Cost-aware scopes & permissions: make it fast without burning cloud spend
+APIs & Backend,APIs — Auth & Security,mTLS & mutual auth,UPI-scale traffic: applying mTLS & mutual auth to payments in India
+APIs & Backend,APIs — Auth & Security,API keys rotation,Big Billion Days spikes: API keys rotation hardening playbook
+APIs & Backend,APIs — Auth & Security,HMAC signatures & webhooks,IRCTC Tatkal surge: HMAC signatures & webhooks throttling & queues
+APIs & Backend,APIs — Auth & Security,RBAC/ABAC,Bengaluru ORR latency: RBAC/ABAC timeouts & fallbacks
+APIs & Backend,APIs — Auth & Security,secrets management,Zomato dinner rush mapped to secrets management
+APIs & Backend,APIs — Auth & Security,OWASP API Top 10,IPL watch party load tests for OWASP API Top 10
+APIs & Backend,APIs — Auth & Security,rate limiting for abuse,Aadhaar/e-KYC journeys and rate limiting for abuse
+APIs & Backend,APIs — Auth & Security,OAuth2/OIDC basics,India-grade flaky networks: offline-first OAuth2/OIDC basics

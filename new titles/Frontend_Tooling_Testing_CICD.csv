@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,DX wins: fast feedback loops for Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Mocking network & time in Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Contract tests & schema validation for Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Monorepo setups and ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Release trains & migrations with Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,"feature flags & A/B tests in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Stop guessing: battle-tested patterns for analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,From messy to clean: refactor your CI pipelines & caching live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Top 7 mistakes in feature toggles & canaries (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Whiteboard → code: ship error tracking & logging with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Interview-ready: 5 bullets that explain Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Explain like I’m 5: Cypress & Playwright without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,When to pick A vs B inside Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Debugging live: fix a broken ESLint & Prettier in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Templates you’ll reuse for Vite/Webpack/Rollup all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,The mental model that unlocks feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Perf-first analytics & event hygiene: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Accessibility-first CI pipelines & caching: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Cost-aware feature toggles & canaries: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Real incidents I’ve seen because of bad error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Design reviews: what senior folks look for in Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,From junior to senior: how you talk about Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Before you code: 4 questions for any Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Do’s & don’ts cheat sheet for ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,UX wins: small tweaks in Vite/Webpack/Rollup with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Platform tips: ship feature flags & A/B tests to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,DX wins: fast feedback loops for analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Mocking network & time in CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Contract tests & schema validation for feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Monorepo setups and error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Release trains & migrations with Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,"Cypress & Playwright in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Stop guessing: battle-tested patterns for Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,From messy to clean: refactor your ESLint & Prettier live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Top 7 mistakes in Vite/Webpack/Rollup (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Whiteboard → code: ship feature flags & A/B tests with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Interview-ready: 5 bullets that explain analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Explain like I’m 5: CI pipelines & caching without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,When to pick A vs B inside feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Debugging live: fix a broken error tracking & logging in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Templates you’ll reuse for Jest & Testing Library all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,The mental model that unlocks Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Perf-first Storybook & visual tests: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Accessibility-first ESLint & Prettier: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Cost-aware Vite/Webpack/Rollup: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Real incidents I’ve seen because of bad feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Design reviews: what senior folks look for in analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,From junior to senior: how you talk about CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Before you code: 4 questions for any feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Do’s & don’ts cheat sheet for error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,UX wins: small tweaks in Jest & Testing Library with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Platform tips: ship Cypress & Playwright to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,DX wins: fast feedback loops for Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Mocking network & time in ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Contract tests & schema validation for Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Monorepo setups and feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Release trains & migrations with analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,"CI pipelines & caching in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Stop guessing: battle-tested patterns for feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,From messy to clean: refactor your error tracking & logging live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Top 7 mistakes in Jest & Testing Library (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Whiteboard → code: ship Cypress & Playwright with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Interview-ready: 5 bullets that explain Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Explain like I’m 5: ESLint & Prettier without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,When to pick A vs B inside Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Debugging live: fix a broken feature flags & A/B tests in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Templates you’ll reuse for analytics & event hygiene all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,The mental model that unlocks CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Perf-first feature toggles & canaries: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Accessibility-first error tracking & logging: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Cost-aware Jest & Testing Library: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Real incidents I’ve seen because of bad Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Design reviews: what senior folks look for in Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,From junior to senior: how you talk about ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Before you code: 4 questions for any Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Do’s & don’ts cheat sheet for feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,UX wins: small tweaks in analytics & event hygiene with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Platform tips: ship CI pipelines & caching to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,DX wins: fast feedback loops for feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Mocking network & time in error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Contract tests & schema validation for Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Monorepo setups and Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Release trains & migrations with Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,"ESLint & Prettier in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Stop guessing: battle-tested patterns for Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,From messy to clean: refactor your feature flags & A/B tests live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Top 7 mistakes in analytics & event hygiene (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Whiteboard → code: ship CI pipelines & caching with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Interview-ready: 5 bullets that explain feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Explain like I’m 5: error tracking & logging without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,When to pick A vs B inside Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Debugging live: fix a broken Cypress & Playwright in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Templates you’ll reuse for Storybook & visual tests all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,The mental model that unlocks ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Perf-first Vite/Webpack/Rollup: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Accessibility-first feature flags & A/B tests: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Cost-aware analytics & event hygiene: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Real incidents I’ve seen because of bad CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Design reviews: what senior folks look for in feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,From junior to senior: how you talk about error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Before you code: 4 questions for any Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Do’s & don’ts cheat sheet for Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,UX wins: small tweaks in Storybook & visual tests with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Platform tips: ship ESLint & Prettier to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,DX wins: fast feedback loops for Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Mocking network & time in feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Contract tests & schema validation for analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Monorepo setups and CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Release trains & migrations with feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,"error tracking & logging in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Stop guessing: battle-tested patterns for Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,From messy to clean: refactor your Cypress & Playwright live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Top 7 mistakes in Storybook & visual tests (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Whiteboard → code: ship ESLint & Prettier with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Interview-ready: 5 bullets that explain Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Explain like I’m 5: feature flags & A/B tests without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,When to pick A vs B inside analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Debugging live: fix a broken CI pipelines & caching in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Templates you’ll reuse for feature toggles & canaries all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,The mental model that unlocks error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Perf-first Jest & Testing Library: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Accessibility-first Cypress & Playwright: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Cost-aware Storybook & visual tests: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Real incidents I’ve seen because of bad ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Design reviews: what senior folks look for in Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,From junior to senior: how you talk about feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Before you code: 4 questions for any analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Do’s & don’ts cheat sheet for CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,UX wins: small tweaks in feature toggles & canaries with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Platform tips: ship error tracking & logging to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,DX wins: fast feedback loops for Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Mocking network & time in Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Contract tests & schema validation for Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Monorepo setups and ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Release trains & migrations with Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,"feature flags & A/B tests in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Stop guessing: battle-tested patterns for analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,From messy to clean: refactor your CI pipelines & caching live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Top 7 mistakes in feature toggles & canaries (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Whiteboard → code: ship error tracking & logging with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Interview-ready: 5 bullets that explain Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Explain like I’m 5: Cypress & Playwright without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,When to pick A vs B inside Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Debugging live: fix a broken ESLint & Prettier in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Templates you’ll reuse for Vite/Webpack/Rollup all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,The mental model that unlocks feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Perf-first analytics & event hygiene: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Accessibility-first CI pipelines & caching: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Cost-aware feature toggles & canaries: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Real incidents I’ve seen because of bad error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Design reviews: what senior folks look for in Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,From junior to senior: how you talk about Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Before you code: 4 questions for any Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Do’s & don’ts cheat sheet for ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,UX wins: small tweaks in Vite/Webpack/Rollup with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Platform tips: ship feature flags & A/B tests to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,DX wins: fast feedback loops for analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Mocking network & time in CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Contract tests & schema validation for feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Monorepo setups and error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Release trains & migrations with Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,"Cypress & Playwright in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Stop guessing: battle-tested patterns for Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,From messy to clean: refactor your ESLint & Prettier live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Top 7 mistakes in Vite/Webpack/Rollup (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Whiteboard → code: ship feature flags & A/B tests with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Interview-ready: 5 bullets that explain analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Explain like I’m 5: CI pipelines & caching without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,When to pick A vs B inside feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Debugging live: fix a broken error tracking & logging in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Templates you’ll reuse for Jest & Testing Library all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,The mental model that unlocks Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Perf-first Storybook & visual tests: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Accessibility-first ESLint & Prettier: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Cost-aware Vite/Webpack/Rollup: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Real incidents I’ve seen because of bad feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Design reviews: what senior folks look for in analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,From junior to senior: how you talk about CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Before you code: 4 questions for any feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Do’s & don’ts cheat sheet for error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,UX wins: small tweaks in Jest & Testing Library with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Platform tips: ship Cypress & Playwright to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,DX wins: fast feedback loops for Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Mocking network & time in ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Contract tests & schema validation for Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Monorepo setups and feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Release trains & migrations with analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,"CI pipelines & caching in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Stop guessing: battle-tested patterns for feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,From messy to clean: refactor your error tracking & logging live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Top 7 mistakes in Jest & Testing Library (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Whiteboard → code: ship Cypress & Playwright with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Interview-ready: 5 bullets that explain Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Explain like I’m 5: ESLint & Prettier without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,When to pick A vs B inside Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Debugging live: fix a broken feature flags & A/B tests in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Templates you’ll reuse for analytics & event hygiene all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,The mental model that unlocks CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Perf-first feature toggles & canaries: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Accessibility-first error tracking & logging: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Cost-aware Jest & Testing Library: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Real incidents I’ve seen because of bad Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Design reviews: what senior folks look for in Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,From junior to senior: how you talk about ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Before you code: 4 questions for any Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Do’s & don’ts cheat sheet for feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,UX wins: small tweaks in analytics & event hygiene with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Platform tips: ship CI pipelines & caching to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,DX wins: fast feedback loops for feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Mocking network & time in error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Contract tests & schema validation for Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Monorepo setups and Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Release trains & migrations with Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,"ESLint & Prettier in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Stop guessing: battle-tested patterns for Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,From messy to clean: refactor your feature flags & A/B tests live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Top 7 mistakes in analytics & event hygiene (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Whiteboard → code: ship CI pipelines & caching with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Interview-ready: 5 bullets that explain feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Explain like I’m 5: error tracking & logging without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,When to pick A vs B inside Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Debugging live: fix a broken Cypress & Playwright in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Templates you’ll reuse for Storybook & visual tests all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,The mental model that unlocks ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Perf-first Vite/Webpack/Rollup: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Accessibility-first feature flags & A/B tests: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Cost-aware analytics & event hygiene: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Real incidents I’ve seen because of bad CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Design reviews: what senior folks look for in feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,From junior to senior: how you talk about error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Before you code: 4 questions for any Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Do’s & don’ts cheat sheet for Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,UX wins: small tweaks in Storybook & visual tests with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Platform tips: ship ESLint & Prettier to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,DX wins: fast feedback loops for Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Mocking network & time in feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Contract tests & schema validation for analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Monorepo setups and CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Release trains & migrations with feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,"error tracking & logging in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Stop guessing: battle-tested patterns for Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,From messy to clean: refactor your Cypress & Playwright live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Top 7 mistakes in Storybook & visual tests (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Whiteboard → code: ship ESLint & Prettier with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Interview-ready: 5 bullets that explain Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Explain like I’m 5: feature flags & A/B tests without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,When to pick A vs B inside analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Debugging live: fix a broken CI pipelines & caching in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Templates you’ll reuse for feature toggles & canaries all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,The mental model that unlocks error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Perf-first Jest & Testing Library: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Accessibility-first Cypress & Playwright: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Cost-aware Storybook & visual tests: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Real incidents I’ve seen because of bad ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Design reviews: what senior folks look for in Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,From junior to senior: how you talk about feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Before you code: 4 questions for any analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Do’s & don’ts cheat sheet for CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,UX wins: small tweaks in feature toggles & canaries with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Platform tips: ship error tracking & logging to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,DX wins: fast feedback loops for Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Mocking network & time in Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Contract tests & schema validation for Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Monorepo setups and ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Release trains & migrations with Vite/Webpack/Rollup
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,"feature flags & A/B tests in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Stop guessing: battle-tested patterns for analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,From messy to clean: refactor your CI pipelines & caching live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Top 7 mistakes in feature toggles & canaries (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Whiteboard → code: ship error tracking & logging with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Interview-ready: 5 bullets that explain Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Explain like I’m 5: Cypress & Playwright without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,When to pick A vs B inside Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Debugging live: fix a broken ESLint & Prettier in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Templates you’ll reuse for Vite/Webpack/Rollup all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,The mental model that unlocks feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Perf-first analytics & event hygiene: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Accessibility-first CI pipelines & caching: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Cost-aware feature toggles & canaries: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Real incidents I’ve seen because of bad error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Design reviews: what senior folks look for in Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,From junior to senior: how you talk about Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Before you code: 4 questions for any Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Do’s & don’ts cheat sheet for ESLint & Prettier
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,UX wins: small tweaks in Vite/Webpack/Rollup with huge impact
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Platform tips: ship feature flags & A/B tests to Insta Reels/Shorts
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,DX wins: fast feedback loops for analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Mocking network & time in CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Contract tests & schema validation for feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Monorepo setups and error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Release trains & migrations with Jest & Testing Library
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,"Cypress & Playwright in 60 seconds — intuition first, code second"
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Stop guessing: battle-tested patterns for Storybook & visual tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,From messy to clean: refactor your ESLint & Prettier live
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Top 7 mistakes in Vite/Webpack/Rollup (and quick fixes)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Whiteboard → code: ship feature flags & A/B tests with guardrails
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Interview-ready: 5 bullets that explain analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Explain like I’m 5: CI pipelines & caching without jargon
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,When to pick A vs B inside feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Debugging live: fix a broken error tracking & logging in minutes
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,Templates you’ll reuse for Jest & Testing Library all year
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,The mental model that unlocks Cypress & Playwright
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Perf-first Storybook & visual tests: make it fast on low-end Android
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,Accessibility-first ESLint & Prettier: include everyone
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,Cost-aware Vite/Webpack/Rollup: speed without burning cloud spend
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,Real incidents I’ve seen because of bad feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Design reviews: what senior folks look for in analytics & event hygiene
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,From junior to senior: how you talk about CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Before you code: 4 questions for any feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,Do’s & don’ts cheat sheet for error tracking & logging
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Jest & Testing Library,India-grade 4G: make Jest & Testing Library snappy on flaky networks
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Cypress & Playwright,Low-end Android optimization for Cypress & Playwright (under ₹10k devices)
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Storybook & visual tests,Big Billion Days traffic: harden Storybook & visual tests for peaks
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",ESLint & Prettier,IRCTC Tatkal mindset for ESLint & Prettier: fast paths only
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",Vite/Webpack/Rollup,UPI-like flows: error states in Vite/Webpack/Rollup done right
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature flags & A/B tests,IPL watch party: realtime-friendly feature flags & A/B tests
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",analytics & event hygiene,Bengaluru ORR latency: analytics & event hygiene timeouts & fallbacks
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",CI pipelines & caching,Aadhaar/eKYC journeys: UX pitfalls in CI pipelines & caching
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",feature toggles & canaries,Tier-2/3 devices: memory budget for feature toggles & canaries
+Frontend & UI/UX,"Frontend — Testing, Tooling & CI/CD",error tracking & logging,WhatsApp-style micro-interactions for error tracking & logging

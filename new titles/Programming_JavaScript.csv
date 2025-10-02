@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Programming,JavaScript,ES6+ essentials,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,closures & scope,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,this & prototypes,JavaScript in 60 seconds: the only this & prototypes intuition you need
+Programming,JavaScript,async/await & promises,"async/await & promises in JavaScript — stop brute forcing, write idiomatic code"
+Programming,JavaScript,event loop & microtasks,JavaScript event loop & microtasks: top 7 mistakes that cost offers in India
+Programming,JavaScript,fetch & APIs,From messy to clean: refactor your JavaScript fetch & APIs live
+Programming,JavaScript,Map/Set & iterables,Interview day checklist: JavaScript Map/Set & iterables in 5 bullets
+Programming,JavaScript,modules & bundling,Whiteboard to code: JavaScript modules & bundling with edge cases
+Programming,JavaScript,node vs browser differences,Explain it like I’m 5: JavaScript node vs browser differences without jargon
+Programming,JavaScript,testing with jest,Speedrun JavaScript testing with jest: archetypes you must know
+Programming,JavaScript,perf & memory basics,You’re overcomplicating it — simplify your JavaScript perf & memory basics
+Programming,JavaScript,ES6+ essentials,Performance 101: make JavaScript ES6+ essentials 10x faster (no hacks)
+Programming,JavaScript,closures & scope,Memory vs speed: tradeoffs in JavaScript closures & scope
+Programming,JavaScript,this & prototypes,Idiomatic JavaScript: do’s & don’ts for this & prototypes
+Programming,JavaScript,async/await & promises,Debugging live: fix a broken JavaScript async/await & promises solution
+Programming,JavaScript,event loop & microtasks,Unit tests that catch subtle bugs in JavaScript event loop & microtasks
+Programming,JavaScript,fetch & APIs,JavaScript fetch & APIs cheat sheet — templates + pitfalls
+Programming,JavaScript,Map/Set & iterables,Phone screen vs onsite: how JavaScript Map/Set & iterables questions differ
+Programming,JavaScript,modules & bundling,Narrate your thinking: explain JavaScript modules & bundling like a pro
+Programming,JavaScript,node vs browser differences,Before you code: 4 questions for any JavaScript node vs browser differences
+Programming,JavaScript,testing with jest,From DSA to dev: where JavaScript testing with jest shows up in real systems
+Programming,JavaScript,perf & memory basics,Edge cases that break 8/10 JavaScript perf & memory basics submissions
+Programming,JavaScript,ES6+ essentials,Back-of-the-envelope complexity: JavaScript ES6+ essentials
+Programming,JavaScript,closures & scope,Code smells in JavaScript closures & scope — and quick fixes
+Programming,JavaScript,this & prototypes,Template showdown: clean APIs for JavaScript this & prototypes
+Programming,JavaScript,async/await & promises,Interview kata: daily reps for JavaScript async/await & promises
+Programming,JavaScript,event loop & microtasks,Crash course: JavaScript event loop & microtasks in 5 minutes
+Programming,JavaScript,fetch & APIs,Top 5 questions around JavaScript fetch & APIs this year
+Programming,JavaScript,Map/Set & iterables,From CP to interviews: map Map/Set & iterables to idiomatic JavaScript
+Programming,JavaScript,modules & bundling,Prove it: correctness for JavaScript modules & bundling (plain English)
+Programming,JavaScript,node vs browser differences,When not to use JavaScript features for node vs browser differences (and what instead)
+Programming,JavaScript,testing with jest,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,perf & memory basics,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,ES6+ essentials,JavaScript in 60 seconds: the only ES6+ essentials intuition you need
+Programming,JavaScript,closures & scope,"closures & scope in JavaScript — stop brute forcing, write idiomatic code"
+Programming,JavaScript,this & prototypes,JavaScript this & prototypes: top 7 mistakes that cost offers in India
+Programming,JavaScript,async/await & promises,From messy to clean: refactor your JavaScript async/await & promises live
+Programming,JavaScript,event loop & microtasks,Interview day checklist: JavaScript event loop & microtasks in 5 bullets
+Programming,JavaScript,fetch & APIs,Whiteboard to code: JavaScript fetch & APIs with edge cases
+Programming,JavaScript,Map/Set & iterables,Explain it like I’m 5: JavaScript Map/Set & iterables without jargon
+Programming,JavaScript,modules & bundling,Speedrun JavaScript modules & bundling: archetypes you must know
+Programming,JavaScript,node vs browser differences,You’re overcomplicating it — simplify your JavaScript node vs browser differences
+Programming,JavaScript,testing with jest,Performance 101: make JavaScript testing with jest 10x faster (no hacks)
+Programming,JavaScript,perf & memory basics,Memory vs speed: tradeoffs in JavaScript perf & memory basics
+Programming,JavaScript,ES6+ essentials,Idiomatic JavaScript: do’s & don’ts for ES6+ essentials
+Programming,JavaScript,closures & scope,Debugging live: fix a broken JavaScript closures & scope solution
+Programming,JavaScript,this & prototypes,Unit tests that catch subtle bugs in JavaScript this & prototypes
+Programming,JavaScript,async/await & promises,JavaScript async/await & promises cheat sheet — templates + pitfalls
+Programming,JavaScript,event loop & microtasks,Phone screen vs onsite: how JavaScript event loop & microtasks questions differ
+Programming,JavaScript,fetch & APIs,Narrate your thinking: explain JavaScript fetch & APIs like a pro
+Programming,JavaScript,Map/Set & iterables,Before you code: 4 questions for any JavaScript Map/Set & iterables
+Programming,JavaScript,modules & bundling,From DSA to dev: where JavaScript modules & bundling shows up in real systems
+Programming,JavaScript,node vs browser differences,Edge cases that break 8/10 JavaScript node vs browser differences submissions
+Programming,JavaScript,testing with jest,Back-of-the-envelope complexity: JavaScript testing with jest
+Programming,JavaScript,perf & memory basics,Code smells in JavaScript perf & memory basics — and quick fixes
+Programming,JavaScript,ES6+ essentials,Template showdown: clean APIs for JavaScript ES6+ essentials
+Programming,JavaScript,closures & scope,Interview kata: daily reps for JavaScript closures & scope
+Programming,JavaScript,this & prototypes,Crash course: JavaScript this & prototypes in 5 minutes
+Programming,JavaScript,async/await & promises,Top 5 questions around JavaScript async/await & promises this year
+Programming,JavaScript,event loop & microtasks,From CP to interviews: map event loop & microtasks to idiomatic JavaScript
+Programming,JavaScript,fetch & APIs,Prove it: correctness for JavaScript fetch & APIs (plain English)
+Programming,JavaScript,Map/Set & iterables,When not to use JavaScript features for Map/Set & iterables (and what instead)
+Programming,JavaScript,modules & bundling,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,node vs browser differences,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,testing with jest,JavaScript in 60 seconds: the only testing with jest intuition you need
+Programming,JavaScript,perf & memory basics,"perf & memory basics in JavaScript — stop brute forcing, write idiomatic code"
+Programming,JavaScript,ES6+ essentials,JavaScript ES6+ essentials: top 7 mistakes that cost offers in India
+Programming,JavaScript,closures & scope,From messy to clean: refactor your JavaScript closures & scope live
+Programming,JavaScript,this & prototypes,Interview day checklist: JavaScript this & prototypes in 5 bullets
+Programming,JavaScript,async/await & promises,Whiteboard to code: JavaScript async/await & promises with edge cases
+Programming,JavaScript,event loop & microtasks,Explain it like I’m 5: JavaScript event loop & microtasks without jargon
+Programming,JavaScript,fetch & APIs,Speedrun JavaScript fetch & APIs: archetypes you must know
+Programming,JavaScript,Map/Set & iterables,You’re overcomplicating it — simplify your JavaScript Map/Set & iterables
+Programming,JavaScript,modules & bundling,Performance 101: make JavaScript modules & bundling 10x faster (no hacks)
+Programming,JavaScript,node vs browser differences,Memory vs speed: tradeoffs in JavaScript node vs browser differences
+Programming,JavaScript,testing with jest,Idiomatic JavaScript: do’s & don’ts for testing with jest
+Programming,JavaScript,perf & memory basics,Debugging live: fix a broken JavaScript perf & memory basics solution
+Programming,JavaScript,ES6+ essentials,Unit tests that catch subtle bugs in JavaScript ES6+ essentials
+Programming,JavaScript,closures & scope,JavaScript closures & scope cheat sheet — templates + pitfalls
+Programming,JavaScript,this & prototypes,Phone screen vs onsite: how JavaScript this & prototypes questions differ
+Programming,JavaScript,async/await & promises,Narrate your thinking: explain JavaScript async/await & promises like a pro
+Programming,JavaScript,event loop & microtasks,Before you code: 4 questions for any JavaScript event loop & microtasks
+Programming,JavaScript,fetch & APIs,From DSA to dev: where JavaScript fetch & APIs shows up in real systems
+Programming,JavaScript,Map/Set & iterables,Edge cases that break 8/10 JavaScript Map/Set & iterables submissions
+Programming,JavaScript,modules & bundling,Back-of-the-envelope complexity: JavaScript modules & bundling
+Programming,JavaScript,node vs browser differences,Code smells in JavaScript node vs browser differences — and quick fixes
+Programming,JavaScript,testing with jest,Template showdown: clean APIs for JavaScript testing with jest
+Programming,JavaScript,perf & memory basics,Interview kata: daily reps for JavaScript perf & memory basics
+Programming,JavaScript,ES6+ essentials,Crash course: JavaScript ES6+ essentials in 5 minutes
+Programming,JavaScript,closures & scope,Top 5 questions around JavaScript closures & scope this year
+Programming,JavaScript,this & prototypes,From CP to interviews: map this & prototypes to idiomatic JavaScript
+Programming,JavaScript,async/await & promises,Prove it: correctness for JavaScript async/await & promises (plain English)
+Programming,JavaScript,event loop & microtasks,When not to use JavaScript features for event loop & microtasks (and what instead)
+Programming,JavaScript,fetch & APIs,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,Map/Set & iterables,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,modules & bundling,JavaScript in 60 seconds: the only modules & bundling intuition you need
+Programming,JavaScript,node vs browser differences,"node vs browser differences in JavaScript — stop brute forcing, write idiomatic code"
+Programming,JavaScript,testing with jest,JavaScript testing with jest: top 7 mistakes that cost offers in India
+Programming,JavaScript,perf & memory basics,From messy to clean: refactor your JavaScript perf & memory basics live
+Programming,JavaScript,ES6+ essentials,Interview day checklist: JavaScript ES6+ essentials in 5 bullets
+Programming,JavaScript,closures & scope,Whiteboard to code: JavaScript closures & scope with edge cases
+Programming,JavaScript,this & prototypes,Explain it like I’m 5: JavaScript this & prototypes without jargon
+Programming,JavaScript,async/await & promises,Speedrun JavaScript async/await & promises: archetypes you must know
+Programming,JavaScript,event loop & microtasks,You’re overcomplicating it — simplify your JavaScript event loop & microtasks
+Programming,JavaScript,fetch & APIs,Performance 101: make JavaScript fetch & APIs 10x faster (no hacks)
+Programming,JavaScript,Map/Set & iterables,Memory vs speed: tradeoffs in JavaScript Map/Set & iterables
+Programming,JavaScript,modules & bundling,Idiomatic JavaScript: do’s & don’ts for modules & bundling
+Programming,JavaScript,node vs browser differences,Debugging live: fix a broken JavaScript node vs browser differences solution
+Programming,JavaScript,testing with jest,Unit tests that catch subtle bugs in JavaScript testing with jest
+Programming,JavaScript,perf & memory basics,JavaScript perf & memory basics cheat sheet — templates + pitfalls
+Programming,JavaScript,ES6+ essentials,Phone screen vs onsite: how JavaScript ES6+ essentials questions differ
+Programming,JavaScript,closures & scope,Narrate your thinking: explain JavaScript closures & scope like a pro
+Programming,JavaScript,this & prototypes,Before you code: 4 questions for any JavaScript this & prototypes
+Programming,JavaScript,async/await & promises,From DSA to dev: where JavaScript async/await & promises shows up in real systems
+Programming,JavaScript,event loop & microtasks,Edge cases that break 8/10 JavaScript event loop & microtasks submissions
+Programming,JavaScript,fetch & APIs,Back-of-the-envelope complexity: JavaScript fetch & APIs
+Programming,JavaScript,Map/Set & iterables,Code smells in JavaScript Map/Set & iterables — and quick fixes
+Programming,JavaScript,modules & bundling,Template showdown: clean APIs for JavaScript modules & bundling
+Programming,JavaScript,node vs browser differences,Interview kata: daily reps for JavaScript node vs browser differences
+Programming,JavaScript,testing with jest,Crash course: JavaScript testing with jest in 5 minutes
+Programming,JavaScript,perf & memory basics,Top 5 questions around JavaScript perf & memory basics this year
+Programming,JavaScript,ES6+ essentials,From CP to interviews: map ES6+ essentials to idiomatic JavaScript
+Programming,JavaScript,closures & scope,Prove it: correctness for JavaScript closures & scope (plain English)
+Programming,JavaScript,this & prototypes,When not to use JavaScript features for this & prototypes (and what instead)
+Programming,JavaScript,async/await & promises,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,event loop & microtasks,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,fetch & APIs,JavaScript in 60 seconds: the only fetch & APIs intuition you need
+Programming,JavaScript,Map/Set & iterables,"Map/Set & iterables in JavaScript — stop brute forcing, write idiomatic code"
+Programming,JavaScript,modules & bundling,JavaScript modules & bundling: top 7 mistakes that cost offers in India
+Programming,JavaScript,node vs browser differences,From messy to clean: refactor your JavaScript node vs browser differences live
+Programming,JavaScript,testing with jest,Interview day checklist: JavaScript testing with jest in 5 bullets
+Programming,JavaScript,perf & memory basics,Whiteboard to code: JavaScript perf & memory basics with edge cases
+Programming,JavaScript,ES6+ essentials,Explain it like I’m 5: JavaScript ES6+ essentials without jargon
+Programming,JavaScript,closures & scope,Speedrun JavaScript closures & scope: archetypes you must know
+Programming,JavaScript,this & prototypes,You’re overcomplicating it — simplify your JavaScript this & prototypes
+Programming,JavaScript,async/await & promises,Performance 101: make JavaScript async/await & promises 10x faster (no hacks)
+Programming,JavaScript,event loop & microtasks,Memory vs speed: tradeoffs in JavaScript event loop & microtasks
+Programming,JavaScript,fetch & APIs,Idiomatic JavaScript: do’s & don’ts for fetch & APIs
+Programming,JavaScript,Map/Set & iterables,Debugging live: fix a broken JavaScript Map/Set & iterables solution
+Programming,JavaScript,modules & bundling,Unit tests that catch subtle bugs in JavaScript modules & bundling
+Programming,JavaScript,node vs browser differences,JavaScript node vs browser differences cheat sheet — templates + pitfalls
+Programming,JavaScript,testing with jest,Phone screen vs onsite: how JavaScript testing with jest questions differ
+Programming,JavaScript,perf & memory basics,Narrate your thinking: explain JavaScript perf & memory basics like a pro
+Programming,JavaScript,ES6+ essentials,Before you code: 4 questions for any JavaScript ES6+ essentials
+Programming,JavaScript,closures & scope,From DSA to dev: where JavaScript closures & scope shows up in real systems
+Programming,JavaScript,this & prototypes,Edge cases that break 8/10 JavaScript this & prototypes submissions
+Programming,JavaScript,async/await & promises,Back-of-the-envelope complexity: JavaScript async/await & promises
+Programming,JavaScript,event loop & microtasks,Code smells in JavaScript event loop & microtasks — and quick fixes
+Programming,JavaScript,fetch & APIs,Template showdown: clean APIs for JavaScript fetch & APIs
+Programming,JavaScript,Map/Set & iterables,Interview kata: daily reps for JavaScript Map/Set & iterables
+Programming,JavaScript,modules & bundling,Crash course: JavaScript modules & bundling in 5 minutes
+Programming,JavaScript,node vs browser differences,Top 5 questions around JavaScript node vs browser differences this year
+Programming,JavaScript,testing with jest,From CP to interviews: map testing with jest to idiomatic JavaScript
+Programming,JavaScript,perf & memory basics,Prove it: correctness for JavaScript perf & memory basics (plain English)
+Programming,JavaScript,ES6+ essentials,When not to use JavaScript features for ES6+ essentials (and what instead)
+Programming,JavaScript,closures & scope,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,this & prototypes,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,async/await & promises,JavaScript in 60 seconds: the only async/await & promises intuition you need
+Programming,JavaScript,event loop & microtasks,"event loop & microtasks in JavaScript — stop brute forcing, write idiomatic code"
+Programming,JavaScript,fetch & APIs,JavaScript fetch & APIs: top 7 mistakes that cost offers in India
+Programming,JavaScript,Map/Set & iterables,From messy to clean: refactor your JavaScript Map/Set & iterables live
+Programming,JavaScript,modules & bundling,Interview day checklist: JavaScript modules & bundling in 5 bullets
+Programming,JavaScript,node vs browser differences,Whiteboard to code: JavaScript node vs browser differences with edge cases
+Programming,JavaScript,testing with jest,Explain it like I’m 5: JavaScript testing with jest without jargon
+Programming,JavaScript,perf & memory basics,Speedrun JavaScript perf & memory basics: archetypes you must know
+Programming,JavaScript,ES6+ essentials,You’re overcomplicating it — simplify your JavaScript ES6+ essentials
+Programming,JavaScript,closures & scope,Performance 101: make JavaScript closures & scope 10x faster (no hacks)
+Programming,JavaScript,this & prototypes,Memory vs speed: tradeoffs in JavaScript this & prototypes
+Programming,JavaScript,async/await & promises,Idiomatic JavaScript: do’s & don’ts for async/await & promises
+Programming,JavaScript,event loop & microtasks,Debugging live: fix a broken JavaScript event loop & microtasks solution
+Programming,JavaScript,fetch & APIs,Unit tests that catch subtle bugs in JavaScript fetch & APIs
+Programming,JavaScript,Map/Set & iterables,JavaScript Map/Set & iterables cheat sheet — templates + pitfalls
+Programming,JavaScript,modules & bundling,Phone screen vs onsite: how JavaScript modules & bundling questions differ
+Programming,JavaScript,node vs browser differences,Narrate your thinking: explain JavaScript node vs browser differences like a pro
+Programming,JavaScript,testing with jest,Before you code: 4 questions for any JavaScript testing with jest
+Programming,JavaScript,perf & memory basics,From DSA to dev: where JavaScript perf & memory basics shows up in real systems
+Programming,JavaScript,ES6+ essentials,Edge cases that break 8/10 JavaScript ES6+ essentials submissions
+Programming,JavaScript,closures & scope,Back-of-the-envelope complexity: JavaScript closures & scope
+Programming,JavaScript,this & prototypes,Code smells in JavaScript this & prototypes — and quick fixes
+Programming,JavaScript,async/await & promises,Template showdown: clean APIs for JavaScript async/await & promises
+Programming,JavaScript,event loop & microtasks,Interview kata: daily reps for JavaScript event loop & microtasks
+Programming,JavaScript,fetch & APIs,Crash course: JavaScript fetch & APIs in 5 minutes
+Programming,JavaScript,Map/Set & iterables,Top 5 questions around JavaScript Map/Set & iterables this year
+Programming,JavaScript,modules & bundling,From CP to interviews: map modules & bundling to idiomatic JavaScript
+Programming,JavaScript,node vs browser differences,Prove it: correctness for JavaScript node vs browser differences (plain English)
+Programming,JavaScript,testing with jest,When not to use JavaScript features for testing with jest (and what instead)
+Programming,JavaScript,perf & memory basics,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,ES6+ essentials,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,closures & scope,JavaScript in 60 seconds: the only closures & scope intuition you need
+Programming,JavaScript,this & prototypes,"this & prototypes in JavaScript — stop brute forcing, write idiomatic code"
+Programming,JavaScript,async/await & promises,JavaScript async/await & promises: top 7 mistakes that cost offers in India
+Programming,JavaScript,event loop & microtasks,From messy to clean: refactor your JavaScript event loop & microtasks live
+Programming,JavaScript,fetch & APIs,Interview day checklist: JavaScript fetch & APIs in 5 bullets
+Programming,JavaScript,Map/Set & iterables,Whiteboard to code: JavaScript Map/Set & iterables with edge cases
+Programming,JavaScript,modules & bundling,Explain it like I’m 5: JavaScript modules & bundling without jargon
+Programming,JavaScript,node vs browser differences,Speedrun JavaScript node vs browser differences: archetypes you must know
+Programming,JavaScript,testing with jest,You’re overcomplicating it — simplify your JavaScript testing with jest
+Programming,JavaScript,perf & memory basics,Performance 101: make JavaScript perf & memory basics 10x faster (no hacks)
+Programming,JavaScript,ES6+ essentials,Memory vs speed: tradeoffs in JavaScript ES6+ essentials
+Programming,JavaScript,closures & scope,Idiomatic JavaScript: do’s & don’ts for closures & scope
+Programming,JavaScript,this & prototypes,Debugging live: fix a broken JavaScript this & prototypes solution
+Programming,JavaScript,async/await & promises,Unit tests that catch subtle bugs in JavaScript async/await & promises
+Programming,JavaScript,event loop & microtasks,JavaScript event loop & microtasks cheat sheet — templates + pitfalls
+Programming,JavaScript,fetch & APIs,Phone screen vs onsite: how JavaScript fetch & APIs questions differ
+Programming,JavaScript,Map/Set & iterables,Narrate your thinking: explain JavaScript Map/Set & iterables like a pro
+Programming,JavaScript,modules & bundling,Before you code: 4 questions for any JavaScript modules & bundling
+Programming,JavaScript,node vs browser differences,From DSA to dev: where JavaScript node vs browser differences shows up in real systems
+Programming,JavaScript,testing with jest,Edge cases that break 8/10 JavaScript testing with jest submissions
+Programming,JavaScript,perf & memory basics,Back-of-the-envelope complexity: JavaScript perf & memory basics
+Programming,JavaScript,ES6+ essentials,Code smells in JavaScript ES6+ essentials — and quick fixes
+Programming,JavaScript,closures & scope,Template showdown: clean APIs for JavaScript closures & scope
+Programming,JavaScript,this & prototypes,Interview kata: daily reps for JavaScript this & prototypes
+Programming,JavaScript,async/await & promises,Crash course: JavaScript async/await & promises in 5 minutes
+Programming,JavaScript,event loop & microtasks,Top 5 questions around JavaScript event loop & microtasks this year
+Programming,JavaScript,fetch & APIs,From CP to interviews: map fetch & APIs to idiomatic JavaScript
+Programming,JavaScript,Map/Set & iterables,Prove it: correctness for JavaScript Map/Set & iterables (plain English)
+Programming,JavaScript,modules & bundling,When not to use JavaScript features for modules & bundling (and what instead)
+Programming,JavaScript,node vs browser differences,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,testing with jest,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,perf & memory basics,JavaScript in 60 seconds: the only perf & memory basics intuition you need
+Programming,JavaScript,ES6+ essentials,"ES6+ essentials in JavaScript — stop brute forcing, write idiomatic code"
+Programming,JavaScript,closures & scope,JavaScript closures & scope: top 7 mistakes that cost offers in India
+Programming,JavaScript,this & prototypes,From messy to clean: refactor your JavaScript this & prototypes live
+Programming,JavaScript,async/await & promises,Interview day checklist: JavaScript async/await & promises in 5 bullets
+Programming,JavaScript,event loop & microtasks,Whiteboard to code: JavaScript event loop & microtasks with edge cases
+Programming,JavaScript,fetch & APIs,Explain it like I’m 5: JavaScript fetch & APIs without jargon
+Programming,JavaScript,Map/Set & iterables,Speedrun JavaScript Map/Set & iterables: archetypes you must know
+Programming,JavaScript,modules & bundling,You’re overcomplicating it — simplify your JavaScript modules & bundling
+Programming,JavaScript,node vs browser differences,Performance 101: make JavaScript node vs browser differences 10x faster (no hacks)
+Programming,JavaScript,testing with jest,Memory vs speed: tradeoffs in JavaScript testing with jest
+Programming,JavaScript,perf & memory basics,Idiomatic JavaScript: do’s & don’ts for perf & memory basics
+Programming,JavaScript,ES6+ essentials,Debugging live: fix a broken JavaScript ES6+ essentials solution
+Programming,JavaScript,closures & scope,Unit tests that catch subtle bugs in JavaScript closures & scope
+Programming,JavaScript,this & prototypes,JavaScript this & prototypes cheat sheet — templates + pitfalls
+Programming,JavaScript,async/await & promises,Phone screen vs onsite: how JavaScript async/await & promises questions differ
+Programming,JavaScript,event loop & microtasks,Narrate your thinking: explain JavaScript event loop & microtasks like a pro
+Programming,JavaScript,fetch & APIs,Before you code: 4 questions for any JavaScript fetch & APIs
+Programming,JavaScript,Map/Set & iterables,From DSA to dev: where JavaScript Map/Set & iterables shows up in real systems
+Programming,JavaScript,modules & bundling,Edge cases that break 8/10 JavaScript modules & bundling submissions
+Programming,JavaScript,node vs browser differences,Back-of-the-envelope complexity: JavaScript node vs browser differences
+Programming,JavaScript,testing with jest,Code smells in JavaScript testing with jest — and quick fixes
+Programming,JavaScript,perf & memory basics,Template showdown: clean APIs for JavaScript perf & memory basics
+Programming,JavaScript,ES6+ essentials,Interview kata: daily reps for JavaScript ES6+ essentials
+Programming,JavaScript,closures & scope,Crash course: JavaScript closures & scope in 5 minutes
+Programming,JavaScript,this & prototypes,Top 5 questions around JavaScript this & prototypes this year
+Programming,JavaScript,async/await & promises,From CP to interviews: map async/await & promises to idiomatic JavaScript
+Programming,JavaScript,event loop & microtasks,Prove it: correctness for JavaScript event loop & microtasks (plain English)
+Programming,JavaScript,fetch & APIs,When not to use JavaScript features for fetch & APIs (and what instead)
+Programming,JavaScript,Map/Set & iterables,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,modules & bundling,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,node vs browser differences,JavaScript in 60 seconds: the only node vs browser differences intuition you need
+Programming,JavaScript,testing with jest,"testing with jest in JavaScript — stop brute forcing, write idiomatic code"
+Programming,JavaScript,perf & memory basics,JavaScript perf & memory basics: top 7 mistakes that cost offers in India
+Programming,JavaScript,ES6+ essentials,From messy to clean: refactor your JavaScript ES6+ essentials live
+Programming,JavaScript,closures & scope,Interview day checklist: JavaScript closures & scope in 5 bullets
+Programming,JavaScript,this & prototypes,Whiteboard to code: JavaScript this & prototypes with edge cases
+Programming,JavaScript,async/await & promises,Explain it like I’m 5: JavaScript async/await & promises without jargon
+Programming,JavaScript,event loop & microtasks,Speedrun JavaScript event loop & microtasks: archetypes you must know
+Programming,JavaScript,fetch & APIs,You’re overcomplicating it — simplify your JavaScript fetch & APIs
+Programming,JavaScript,Map/Set & iterables,Performance 101: make JavaScript Map/Set & iterables 10x faster (no hacks)
+Programming,JavaScript,modules & bundling,Memory vs speed: tradeoffs in JavaScript modules & bundling
+Programming,JavaScript,node vs browser differences,Idiomatic JavaScript: do’s & don’ts for node vs browser differences
+Programming,JavaScript,testing with jest,Debugging live: fix a broken JavaScript testing with jest solution
+Programming,JavaScript,perf & memory basics,Unit tests that catch subtle bugs in JavaScript perf & memory basics
+Programming,JavaScript,ES6+ essentials,JavaScript ES6+ essentials cheat sheet — templates + pitfalls
+Programming,JavaScript,closures & scope,Phone screen vs onsite: how JavaScript closures & scope questions differ
+Programming,JavaScript,this & prototypes,Narrate your thinking: explain JavaScript this & prototypes like a pro
+Programming,JavaScript,async/await & promises,Before you code: 4 questions for any JavaScript async/await & promises
+Programming,JavaScript,event loop & microtasks,From DSA to dev: where JavaScript event loop & microtasks shows up in real systems
+Programming,JavaScript,fetch & APIs,Edge cases that break 8/10 JavaScript fetch & APIs submissions
+Programming,JavaScript,Map/Set & iterables,Back-of-the-envelope complexity: JavaScript Map/Set & iterables
+Programming,JavaScript,modules & bundling,Code smells in JavaScript modules & bundling — and quick fixes
+Programming,JavaScript,node vs browser differences,Template showdown: clean APIs for JavaScript node vs browser differences
+Programming,JavaScript,testing with jest,Interview kata: daily reps for JavaScript testing with jest
+Programming,JavaScript,perf & memory basics,Crash course: JavaScript perf & memory basics in 5 minutes
+Programming,JavaScript,ES6+ essentials,Top 5 questions around JavaScript ES6+ essentials this year
+Programming,JavaScript,closures & scope,From CP to interviews: map closures & scope to idiomatic JavaScript
+Programming,JavaScript,this & prototypes,Prove it: correctness for JavaScript this & prototypes (plain English)
+Programming,JavaScript,async/await & promises,When not to use JavaScript features for async/await & promises (and what instead)
+Programming,JavaScript,event loop & microtasks,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,fetch & APIs,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,Map/Set & iterables,JavaScript in 60 seconds: the only Map/Set & iterables intuition you need
+Programming,JavaScript,modules & bundling,"modules & bundling in JavaScript — stop brute forcing, write idiomatic code"
+Programming,JavaScript,node vs browser differences,JavaScript node vs browser differences: top 7 mistakes that cost offers in India
+Programming,JavaScript,testing with jest,From messy to clean: refactor your JavaScript testing with jest live
+Programming,JavaScript,perf & memory basics,Interview day checklist: JavaScript perf & memory basics in 5 bullets
+Programming,JavaScript,ES6+ essentials,Whiteboard to code: JavaScript ES6+ essentials with edge cases
+Programming,JavaScript,closures & scope,Explain it like I’m 5: JavaScript closures & scope without jargon
+Programming,JavaScript,this & prototypes,Speedrun JavaScript this & prototypes: archetypes you must know
+Programming,JavaScript,async/await & promises,You’re overcomplicating it — simplify your JavaScript async/await & promises
+Programming,JavaScript,event loop & microtasks,Performance 101: make JavaScript event loop & microtasks 10x faster (no hacks)
+Programming,JavaScript,fetch & APIs,Memory vs speed: tradeoffs in JavaScript fetch & APIs
+Programming,JavaScript,Map/Set & iterables,Idiomatic JavaScript: do’s & don’ts for Map/Set & iterables
+Programming,JavaScript,modules & bundling,Debugging live: fix a broken JavaScript modules & bundling solution
+Programming,JavaScript,node vs browser differences,Unit tests that catch subtle bugs in JavaScript node vs browser differences
+Programming,JavaScript,testing with jest,JavaScript testing with jest cheat sheet — templates + pitfalls
+Programming,JavaScript,perf & memory basics,Phone screen vs onsite: how JavaScript perf & memory basics questions differ
+Programming,JavaScript,ES6+ essentials,Narrate your thinking: explain JavaScript ES6+ essentials like a pro
+Programming,JavaScript,closures & scope,Before you code: 4 questions for any JavaScript closures & scope
+Programming,JavaScript,this & prototypes,From DSA to dev: where JavaScript this & prototypes shows up in real systems
+Programming,JavaScript,async/await & promises,Edge cases that break 8/10 JavaScript async/await & promises submissions
+Programming,JavaScript,event loop & microtasks,Back-of-the-envelope complexity: JavaScript event loop & microtasks
+Programming,JavaScript,fetch & APIs,Code smells in JavaScript fetch & APIs — and quick fixes
+Programming,JavaScript,Map/Set & iterables,Template showdown: clean APIs for JavaScript Map/Set & iterables
+Programming,JavaScript,modules & bundling,Interview kata: daily reps for JavaScript modules & bundling
+Programming,JavaScript,node vs browser differences,Crash course: JavaScript node vs browser differences in 5 minutes
+Programming,JavaScript,testing with jest,Top 5 questions around JavaScript testing with jest this year
+Programming,JavaScript,perf & memory basics,From CP to interviews: map perf & memory basics to idiomatic JavaScript
+Programming,JavaScript,ES6+ essentials,Prove it: correctness for JavaScript ES6+ essentials (plain English)
+Programming,JavaScript,closures & scope,When not to use JavaScript features for closures & scope (and what instead)
+Programming,JavaScript,this & prototypes,Why JavaScript is still king for Indian interviews 👑
+Programming,JavaScript,async/await & promises,How JavaScript makes coding rounds 2x faster — patterns you’ll reuse
+Programming,JavaScript,event loop & microtasks,Bengaluru onsite-ready JavaScript event loop & microtasks
+Programming,JavaScript,fetch & APIs,Off-campus grind tips: JavaScript fetch & APIs
+Programming,JavaScript,Map/Set & iterables,Product vs service company: JavaScript Map/Set & iterables focus
+Programming,JavaScript,modules & bundling,Startups vs MAANG expectations: JavaScript modules & bundling
+Programming,JavaScript,node vs browser differences,Campus placements: JavaScript node vs browser differences in 2 rounds
+Programming,JavaScript,testing with jest,System design tie-ins: JavaScript testing with jest → prod
+Programming,JavaScript,perf & memory basics,Naukri/LinkedIn resume bullets from JavaScript perf & memory basics
+Programming,JavaScript,ES6+ essentials,DSA + JavaScript ES6+ essentials: what interviewers in India look for

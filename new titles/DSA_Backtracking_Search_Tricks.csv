@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Backtracking & Search Tricks,Permutations,Decision tree mental model for Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,Pruning & ordering that 5x speeds Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Recursion → backtracking framework for Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Common pitfalls: duplicates & indices in N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Visualize recursion for Sudoku Solver (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Word Search,Why Word Search scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Combination Sum I/II/III in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Stop brute forcing: spot the Palindrome Partitioning trigger words
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Restore IP addresses vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Top 7 mistakes in Branch & bound that cost offers
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),From O(N^2) → O(N): optimize your IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,"Constraint ordering for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Think like an interviewer: how I grade your Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,Whiteboard to code: Permutations with edge cases
+DSA,DSA — Backtracking & Search Tricks,Combinations,You don’t need to memorize — template for Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Interview day checklist for Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Hidden constraints that break N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Prove correctness for Sudoku Solver in plain English
+DSA,DSA — Backtracking & Search Tricks,Word Search,Speedrun Word Search: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Complexity showdown: naive vs optimal Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,One trick that simplifies most Palindrome Partitioning questions
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Decision tree mental model for Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Pruning & ordering that 5x speeds Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Recursion → backtracking framework for IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Common pitfalls: duplicates & indices in Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Visualize recursion for Pruning strategies (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Permutations,Why Permutations scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Combinations,Combinations in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Subsets,Stop brute forcing: spot the Subsets trigger words
+DSA,DSA — Backtracking & Search Tricks,N-Queens,N-Queens vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Top 7 mistakes in Sudoku Solver that cost offers
+DSA,DSA — Backtracking & Search Tricks,Word Search,From O(N^2) → O(N): optimize your Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,"Combination Sum I/II/III for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Think like an interviewer: how I grade your Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Whiteboard to code: Restore IP addresses with edge cases
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,You don’t need to memorize — template for Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Interview day checklist for IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Hidden constraints that break Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Prove correctness for Pruning strategies in plain English
+DSA,DSA — Backtracking & Search Tricks,Permutations,Speedrun Permutations: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Combinations,Complexity showdown: naive vs optimal Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,One trick that simplifies most Subsets questions
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Decision tree mental model for N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Pruning & ordering that 5x speeds Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,Recursion → backtracking framework for Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Common pitfalls: duplicates & indices in Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Visualize recursion for Palindrome Partitioning (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Why Restore IP addresses scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Branch & bound in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Stop brute forcing: spot the IDDFS (iterative deepening) trigger words
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Constraint ordering vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Top 7 mistakes in Pruning strategies that cost offers
+DSA,DSA — Backtracking & Search Tricks,Permutations,From O(N^2) → O(N): optimize your Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,"Combinations for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Subsets,Think like an interviewer: how I grade your Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Whiteboard to code: N-Queens with edge cases
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,You don’t need to memorize — template for Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,Interview day checklist for Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Hidden constraints that break Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Prove correctness for Palindrome Partitioning in plain English
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Speedrun Restore IP addresses: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Complexity showdown: naive vs optimal Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),One trick that simplifies most IDDFS (iterative deepening) questions
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Decision tree mental model for Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Pruning & ordering that 5x speeds Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,Recursion → backtracking framework for Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,Common pitfalls: duplicates & indices in Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Visualize recursion for Subsets (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Why N-Queens scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Sudoku Solver in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Word Search,Stop brute forcing: spot the Word Search trigger words
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Combination Sum I/II/III vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Top 7 mistakes in Palindrome Partitioning that cost offers
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,From O(N^2) → O(N): optimize your Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,"Branch & bound for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Think like an interviewer: how I grade your IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Whiteboard to code: Constraint ordering with edge cases
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,You don’t need to memorize — template for Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,Interview day checklist for Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,Hidden constraints that break Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Prove correctness for Subsets in plain English
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Speedrun N-Queens: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Complexity showdown: naive vs optimal Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,One trick that simplifies most Word Search questions
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Decision tree mental model for Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Pruning & ordering that 5x speeds Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Recursion → backtracking framework for Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Common pitfalls: duplicates & indices in Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Visualize recursion for IDDFS (iterative deepening) (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Why Constraint ordering scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Pruning strategies in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Permutations,Stop brute forcing: spot the Permutations trigger words
+DSA,DSA — Backtracking & Search Tricks,Combinations,Combinations vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Subsets,Top 7 mistakes in Subsets that cost offers
+DSA,DSA — Backtracking & Search Tricks,N-Queens,From O(N^2) → O(N): optimize your N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,"Sudoku Solver for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Word Search,Think like an interviewer: how I grade your Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Whiteboard to code: Combination Sum I/II/III with edge cases
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,You don’t need to memorize — template for Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Interview day checklist for Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Hidden constraints that break Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Prove correctness for IDDFS (iterative deepening) in plain English
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Speedrun Constraint ordering: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Complexity showdown: naive vs optimal Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,One trick that simplifies most Permutations questions
+DSA,DSA — Backtracking & Search Tricks,Combinations,Decision tree mental model for Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Pruning & ordering that 5x speeds Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Recursion → backtracking framework for N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Common pitfalls: duplicates & indices in Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,Visualize recursion for Word Search (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Why Combination Sum I/II/III scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Palindrome Partitioning in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Stop brute forcing: spot the Restore IP addresses trigger words
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Branch & bound vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Top 7 mistakes in IDDFS (iterative deepening) that cost offers
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,From O(N^2) → O(N): optimize your Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,"Pruning strategies for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Permutations,Think like an interviewer: how I grade your Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,Whiteboard to code: Combinations with edge cases
+DSA,DSA — Backtracking & Search Tricks,Subsets,You don’t need to memorize — template for Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Interview day checklist for N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Hidden constraints that break Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,Prove correctness for Word Search in plain English
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Speedrun Combination Sum I/II/III: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Complexity showdown: naive vs optimal Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,One trick that simplifies most Restore IP addresses questions
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Decision tree mental model for Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Pruning & ordering that 5x speeds IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Recursion → backtracking framework for Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Common pitfalls: duplicates & indices in Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,Visualize recursion for Permutations (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Combinations,Why Combinations scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Subsets,Subsets in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Stop brute forcing: spot the N-Queens trigger words
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Sudoku Solver vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Word Search,Top 7 mistakes in Word Search that cost offers
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,From O(N^2) → O(N): optimize your Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,"Palindrome Partitioning for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Think like an interviewer: how I grade your Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Whiteboard to code: Branch & bound with edge cases
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),You don’t need to memorize — template for IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Interview day checklist for Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Hidden constraints that break Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,Prove correctness for Permutations in plain English
+DSA,DSA — Backtracking & Search Tricks,Combinations,Speedrun Combinations: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Subsets,Complexity showdown: naive vs optimal Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,One trick that simplifies most N-Queens questions
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Decision tree mental model for Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,Pruning & ordering that 5x speeds Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Recursion → backtracking framework for Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Common pitfalls: duplicates & indices in Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Visualize recursion for Restore IP addresses (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Why Branch & bound scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),IDDFS (iterative deepening) in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Stop brute forcing: spot the Constraint ordering trigger words
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Pruning strategies vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Permutations,Top 7 mistakes in Permutations that cost offers
+DSA,DSA — Backtracking & Search Tricks,Combinations,From O(N^2) → O(N): optimize your Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,"Subsets for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Think like an interviewer: how I grade your N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Whiteboard to code: Sudoku Solver with edge cases
+DSA,DSA — Backtracking & Search Tricks,Word Search,You don’t need to memorize — template for Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Interview day checklist for Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Hidden constraints that break Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Prove correctness for Restore IP addresses in plain English
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Speedrun Branch & bound: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Complexity showdown: naive vs optimal IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,One trick that simplifies most Constraint ordering questions
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Decision tree mental model for Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,Pruning & ordering that 5x speeds Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,Recursion → backtracking framework for Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Common pitfalls: duplicates & indices in Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Visualize recursion for N-Queens (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Why Sudoku Solver scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Word Search,Word Search in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Stop brute forcing: spot the Combination Sum I/II/III trigger words
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Palindrome Partitioning vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Top 7 mistakes in Restore IP addresses that cost offers
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,From O(N^2) → O(N): optimize your Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),"IDDFS (iterative deepening) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Think like an interviewer: how I grade your Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Whiteboard to code: Pruning strategies with edge cases
+DSA,DSA — Backtracking & Search Tricks,Permutations,You don’t need to memorize — template for Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,Interview day checklist for Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Hidden constraints that break Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Prove correctness for N-Queens in plain English
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Speedrun Sudoku Solver: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Word Search,Complexity showdown: naive vs optimal Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,One trick that simplifies most Combination Sum I/II/III questions
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Decision tree mental model for Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Pruning & ordering that 5x speeds Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Recursion → backtracking framework for Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Common pitfalls: duplicates & indices in IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Visualize recursion for Constraint ordering (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Why Pruning strategies scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Permutations,Permutations in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Combinations,Stop brute forcing: spot the Combinations trigger words
+DSA,DSA — Backtracking & Search Tricks,Subsets,Subsets vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Top 7 mistakes in N-Queens that cost offers
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,From O(N^2) → O(N): optimize your Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,"Word Search for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Think like an interviewer: how I grade your Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Whiteboard to code: Palindrome Partitioning with edge cases
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,You don’t need to memorize — template for Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Interview day checklist for Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Hidden constraints that break IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Prove correctness for Constraint ordering in plain English
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Speedrun Pruning strategies: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Permutations,Complexity showdown: naive vs optimal Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,One trick that simplifies most Combinations questions
+DSA,DSA — Backtracking & Search Tricks,Subsets,Decision tree mental model for Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Pruning & ordering that 5x speeds N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Recursion → backtracking framework for Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,Common pitfalls: duplicates & indices in Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Visualize recursion for Combination Sum I/II/III (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Why Palindrome Partitioning scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Restore IP addresses in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Stop brute forcing: spot the Branch & bound trigger words
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),IDDFS (iterative deepening) vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Top 7 mistakes in Constraint ordering that cost offers
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,From O(N^2) → O(N): optimize your Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,"Permutations for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Combinations,Think like an interviewer: how I grade your Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Whiteboard to code: Subsets with edge cases
+DSA,DSA — Backtracking & Search Tricks,N-Queens,You don’t need to memorize — template for N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Interview day checklist for Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,Hidden constraints that break Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Prove correctness for Combination Sum I/II/III in plain English
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Speedrun Palindrome Partitioning: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Complexity showdown: naive vs optimal Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,One trick that simplifies most Branch & bound questions
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Decision tree mental model for IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Pruning & ordering that 5x speeds Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Recursion → backtracking framework for Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,Common pitfalls: duplicates & indices in Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,Visualize recursion for Combinations (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Subsets,Why Subsets scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,N-Queens,N-Queens in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Stop brute forcing: spot the Sudoku Solver trigger words
+DSA,DSA — Backtracking & Search Tricks,Word Search,Word Search vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Top 7 mistakes in Combination Sum I/II/III that cost offers
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,From O(N^2) → O(N): optimize your Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,"Restore IP addresses for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Think like an interviewer: how I grade your Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Whiteboard to code: IDDFS (iterative deepening) with edge cases
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,You don’t need to memorize — template for Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Interview day checklist for Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,Hidden constraints that break Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,Prove correctness for Combinations in plain English
+DSA,DSA — Backtracking & Search Tricks,Subsets,Speedrun Subsets: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Complexity showdown: naive vs optimal N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,One trick that simplifies most Sudoku Solver questions
+DSA,DSA — Backtracking & Search Tricks,Word Search,Decision tree mental model for Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Pruning & ordering that 5x speeds Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Recursion → backtracking framework for Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Common pitfalls: duplicates & indices in Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Visualize recursion for Branch & bound (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Why IDDFS (iterative deepening) scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Constraint ordering in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Stop brute forcing: spot the Pruning strategies trigger words
+DSA,DSA — Backtracking & Search Tricks,Permutations,Permutations vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Combinations,Top 7 mistakes in Combinations that cost offers
+DSA,DSA — Backtracking & Search Tricks,Subsets,From O(N^2) → O(N): optimize your Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,"N-Queens for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Think like an interviewer: how I grade your Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,Whiteboard to code: Word Search with edge cases
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,You don’t need to memorize — template for Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Interview day checklist for Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Hidden constraints that break Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Prove correctness for Branch & bound in plain English
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Speedrun IDDFS (iterative deepening): archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Complexity showdown: naive vs optimal Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,One trick that simplifies most Pruning strategies questions
+DSA,DSA — Backtracking & Search Tricks,Permutations,Decision tree mental model for Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,Pruning & ordering that 5x speeds Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Recursion → backtracking framework for Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Common pitfalls: duplicates & indices in N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Visualize recursion for Sudoku Solver (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Word Search,Why Word Search scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Combination Sum I/II/III in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Stop brute forcing: spot the Palindrome Partitioning trigger words
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Restore IP addresses vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Top 7 mistakes in Branch & bound that cost offers
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),From O(N^2) → O(N): optimize your IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,"Constraint ordering for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Think like an interviewer: how I grade your Pruning strategies
+DSA,DSA — Backtracking & Search Tricks,Permutations,Whiteboard to code: Permutations with edge cases
+DSA,DSA — Backtracking & Search Tricks,Combinations,You don’t need to memorize — template for Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Interview day checklist for Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Hidden constraints that break N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Prove correctness for Sudoku Solver in plain English
+DSA,DSA — Backtracking & Search Tricks,Word Search,Speedrun Word Search: archetypes you must know
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Complexity showdown: naive vs optimal Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,One trick that simplifies most Palindrome Partitioning questions
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Decision tree mental model for Restore IP addresses
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,Pruning & ordering that 5x speeds Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Recursion → backtracking framework for IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Common pitfalls: duplicates & indices in Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Visualize recursion for Pruning strategies (tree sketches)
+DSA,DSA — Backtracking & Search Tricks,Permutations,Why Permutations scares 90% of interviewees (and how to master it)
+DSA,DSA — Backtracking & Search Tricks,Combinations,Combinations in 60 seconds — intuition first
+DSA,DSA — Backtracking & Search Tricks,Subsets,Stop brute forcing: spot the Subsets trigger words
+DSA,DSA — Backtracking & Search Tricks,N-Queens,N-Queens vs brute force — when to switch and why
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Top 7 mistakes in Sudoku Solver that cost offers
+DSA,DSA — Backtracking & Search Tricks,Word Search,From O(N^2) → O(N): optimize your Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,"Combination Sum I/II/III for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Think like an interviewer: how I grade your Palindrome Partitioning
+DSA,DSA — Backtracking & Search Tricks,Restore IP addresses,Whiteboard to code: Restore IP addresses with edge cases
+DSA,DSA — Backtracking & Search Tricks,Branch & bound,You don’t need to memorize — template for Branch & bound
+DSA,DSA — Backtracking & Search Tricks,IDDFS (iterative deepening),Interview day checklist for IDDFS (iterative deepening)
+DSA,DSA — Backtracking & Search Tricks,Constraint ordering,Hidden constraints that break Constraint ordering
+DSA,DSA — Backtracking & Search Tricks,Pruning strategies,Prove correctness for Pruning strategies in plain English
+DSA,DSA — Backtracking & Search Tricks,Permutations,Festival seating plans as Permutations
+DSA,DSA — Backtracking & Search Tricks,Combinations,Cricket batting orders via Combinations
+DSA,DSA — Backtracking & Search Tricks,Subsets,Metro route choices as Subsets
+DSA,DSA — Backtracking & Search Tricks,N-Queens,Ticket booking combos as N-Queens
+DSA,DSA — Backtracking & Search Tricks,Sudoku Solver,Festival seating plans as Sudoku Solver
+DSA,DSA — Backtracking & Search Tricks,Word Search,Cricket batting orders via Word Search
+DSA,DSA — Backtracking & Search Tricks,Combination Sum I/II/III,Metro route choices as Combination Sum I/II/III
+DSA,DSA — Backtracking & Search Tricks,Palindrome Partitioning,Ticket booking combos as Palindrome Partitioning

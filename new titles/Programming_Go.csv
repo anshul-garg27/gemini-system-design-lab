@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Programming,Go,syntax & slices/maps,Why Go is still king for Indian interviews 👑
+Programming,Go,interfaces (implicit),How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,goroutines & channels,Go in 60 seconds: the only goroutines & channels intuition you need
+Programming,Go,context cancellation,"context cancellation in Go — stop brute forcing, write idiomatic code"
+Programming,Go,errors vs panics,Go errors vs panics: top 7 mistakes that cost offers in India
+Programming,Go,testing & benchmarks,From messy to clean: refactor your Go testing & benchmarks live
+Programming,Go,modules & workspaces,Interview day checklist: Go modules & workspaces in 5 bullets
+Programming,Go,pprof & optimization,Whiteboard to code: Go pprof & optimization with edge cases
+Programming,Go,http servers & handlers,Explain it like I’m 5: Go http servers & handlers without jargon
+Programming,Go,generics (intro),Speedrun Go generics (intro): archetypes you must know
+Programming,Go,concurrency patterns,You’re overcomplicating it — simplify your Go concurrency patterns
+Programming,Go,syntax & slices/maps,Performance 101: make Go syntax & slices/maps 10x faster (no hacks)
+Programming,Go,interfaces (implicit),Memory vs speed: tradeoffs in Go interfaces (implicit)
+Programming,Go,goroutines & channels,Idiomatic Go: do’s & don’ts for goroutines & channels
+Programming,Go,context cancellation,Debugging live: fix a broken Go context cancellation solution
+Programming,Go,errors vs panics,Unit tests that catch subtle bugs in Go errors vs panics
+Programming,Go,testing & benchmarks,Go testing & benchmarks cheat sheet — templates + pitfalls
+Programming,Go,modules & workspaces,Phone screen vs onsite: how Go modules & workspaces questions differ
+Programming,Go,pprof & optimization,Narrate your thinking: explain Go pprof & optimization like a pro
+Programming,Go,http servers & handlers,Before you code: 4 questions for any Go http servers & handlers
+Programming,Go,generics (intro),From DSA to dev: where Go generics (intro) shows up in real systems
+Programming,Go,concurrency patterns,Edge cases that break 8/10 Go concurrency patterns submissions
+Programming,Go,syntax & slices/maps,Back-of-the-envelope complexity: Go syntax & slices/maps
+Programming,Go,interfaces (implicit),Code smells in Go interfaces (implicit) — and quick fixes
+Programming,Go,goroutines & channels,Template showdown: clean APIs for Go goroutines & channels
+Programming,Go,context cancellation,Interview kata: daily reps for Go context cancellation
+Programming,Go,errors vs panics,Crash course: Go errors vs panics in 5 minutes
+Programming,Go,testing & benchmarks,Top 5 questions around Go testing & benchmarks this year
+Programming,Go,modules & workspaces,From CP to interviews: map modules & workspaces to idiomatic Go
+Programming,Go,pprof & optimization,Prove it: correctness for Go pprof & optimization (plain English)
+Programming,Go,http servers & handlers,When not to use Go features for http servers & handlers (and what instead)
+Programming,Go,generics (intro),Why Go is still king for Indian interviews 👑
+Programming,Go,concurrency patterns,How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,syntax & slices/maps,Go in 60 seconds: the only syntax & slices/maps intuition you need
+Programming,Go,interfaces (implicit),"interfaces (implicit) in Go — stop brute forcing, write idiomatic code"
+Programming,Go,goroutines & channels,Go goroutines & channels: top 7 mistakes that cost offers in India
+Programming,Go,context cancellation,From messy to clean: refactor your Go context cancellation live
+Programming,Go,errors vs panics,Interview day checklist: Go errors vs panics in 5 bullets
+Programming,Go,testing & benchmarks,Whiteboard to code: Go testing & benchmarks with edge cases
+Programming,Go,modules & workspaces,Explain it like I’m 5: Go modules & workspaces without jargon
+Programming,Go,pprof & optimization,Speedrun Go pprof & optimization: archetypes you must know
+Programming,Go,http servers & handlers,You’re overcomplicating it — simplify your Go http servers & handlers
+Programming,Go,generics (intro),Performance 101: make Go generics (intro) 10x faster (no hacks)
+Programming,Go,concurrency patterns,Memory vs speed: tradeoffs in Go concurrency patterns
+Programming,Go,syntax & slices/maps,Idiomatic Go: do’s & don’ts for syntax & slices/maps
+Programming,Go,interfaces (implicit),Debugging live: fix a broken Go interfaces (implicit) solution
+Programming,Go,goroutines & channels,Unit tests that catch subtle bugs in Go goroutines & channels
+Programming,Go,context cancellation,Go context cancellation cheat sheet — templates + pitfalls
+Programming,Go,errors vs panics,Phone screen vs onsite: how Go errors vs panics questions differ
+Programming,Go,testing & benchmarks,Narrate your thinking: explain Go testing & benchmarks like a pro
+Programming,Go,modules & workspaces,Before you code: 4 questions for any Go modules & workspaces
+Programming,Go,pprof & optimization,From DSA to dev: where Go pprof & optimization shows up in real systems
+Programming,Go,http servers & handlers,Edge cases that break 8/10 Go http servers & handlers submissions
+Programming,Go,generics (intro),Back-of-the-envelope complexity: Go generics (intro)
+Programming,Go,concurrency patterns,Code smells in Go concurrency patterns — and quick fixes
+Programming,Go,syntax & slices/maps,Template showdown: clean APIs for Go syntax & slices/maps
+Programming,Go,interfaces (implicit),Interview kata: daily reps for Go interfaces (implicit)
+Programming,Go,goroutines & channels,Crash course: Go goroutines & channels in 5 minutes
+Programming,Go,context cancellation,Top 5 questions around Go context cancellation this year
+Programming,Go,errors vs panics,From CP to interviews: map errors vs panics to idiomatic Go
+Programming,Go,testing & benchmarks,Prove it: correctness for Go testing & benchmarks (plain English)
+Programming,Go,modules & workspaces,When not to use Go features for modules & workspaces (and what instead)
+Programming,Go,pprof & optimization,Why Go is still king for Indian interviews 👑
+Programming,Go,http servers & handlers,How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,generics (intro),Go in 60 seconds: the only generics (intro) intuition you need
+Programming,Go,concurrency patterns,"concurrency patterns in Go — stop brute forcing, write idiomatic code"
+Programming,Go,syntax & slices/maps,Go syntax & slices/maps: top 7 mistakes that cost offers in India
+Programming,Go,interfaces (implicit),From messy to clean: refactor your Go interfaces (implicit) live
+Programming,Go,goroutines & channels,Interview day checklist: Go goroutines & channels in 5 bullets
+Programming,Go,context cancellation,Whiteboard to code: Go context cancellation with edge cases
+Programming,Go,errors vs panics,Explain it like I’m 5: Go errors vs panics without jargon
+Programming,Go,testing & benchmarks,Speedrun Go testing & benchmarks: archetypes you must know
+Programming,Go,modules & workspaces,You’re overcomplicating it — simplify your Go modules & workspaces
+Programming,Go,pprof & optimization,Performance 101: make Go pprof & optimization 10x faster (no hacks)
+Programming,Go,http servers & handlers,Memory vs speed: tradeoffs in Go http servers & handlers
+Programming,Go,generics (intro),Idiomatic Go: do’s & don’ts for generics (intro)
+Programming,Go,concurrency patterns,Debugging live: fix a broken Go concurrency patterns solution
+Programming,Go,syntax & slices/maps,Unit tests that catch subtle bugs in Go syntax & slices/maps
+Programming,Go,interfaces (implicit),Go interfaces (implicit) cheat sheet — templates + pitfalls
+Programming,Go,goroutines & channels,Phone screen vs onsite: how Go goroutines & channels questions differ
+Programming,Go,context cancellation,Narrate your thinking: explain Go context cancellation like a pro
+Programming,Go,errors vs panics,Before you code: 4 questions for any Go errors vs panics
+Programming,Go,testing & benchmarks,From DSA to dev: where Go testing & benchmarks shows up in real systems
+Programming,Go,modules & workspaces,Edge cases that break 8/10 Go modules & workspaces submissions
+Programming,Go,pprof & optimization,Back-of-the-envelope complexity: Go pprof & optimization
+Programming,Go,http servers & handlers,Code smells in Go http servers & handlers — and quick fixes
+Programming,Go,generics (intro),Template showdown: clean APIs for Go generics (intro)
+Programming,Go,concurrency patterns,Interview kata: daily reps for Go concurrency patterns
+Programming,Go,syntax & slices/maps,Crash course: Go syntax & slices/maps in 5 minutes
+Programming,Go,interfaces (implicit),Top 5 questions around Go interfaces (implicit) this year
+Programming,Go,goroutines & channels,From CP to interviews: map goroutines & channels to idiomatic Go
+Programming,Go,context cancellation,Prove it: correctness for Go context cancellation (plain English)
+Programming,Go,errors vs panics,When not to use Go features for errors vs panics (and what instead)
+Programming,Go,testing & benchmarks,Why Go is still king for Indian interviews 👑
+Programming,Go,modules & workspaces,How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,pprof & optimization,Go in 60 seconds: the only pprof & optimization intuition you need
+Programming,Go,http servers & handlers,"http servers & handlers in Go — stop brute forcing, write idiomatic code"
+Programming,Go,generics (intro),Go generics (intro): top 7 mistakes that cost offers in India
+Programming,Go,concurrency patterns,From messy to clean: refactor your Go concurrency patterns live
+Programming,Go,syntax & slices/maps,Interview day checklist: Go syntax & slices/maps in 5 bullets
+Programming,Go,interfaces (implicit),Whiteboard to code: Go interfaces (implicit) with edge cases
+Programming,Go,goroutines & channels,Explain it like I’m 5: Go goroutines & channels without jargon
+Programming,Go,context cancellation,Speedrun Go context cancellation: archetypes you must know
+Programming,Go,errors vs panics,You’re overcomplicating it — simplify your Go errors vs panics
+Programming,Go,testing & benchmarks,Performance 101: make Go testing & benchmarks 10x faster (no hacks)
+Programming,Go,modules & workspaces,Memory vs speed: tradeoffs in Go modules & workspaces
+Programming,Go,pprof & optimization,Idiomatic Go: do’s & don’ts for pprof & optimization
+Programming,Go,http servers & handlers,Debugging live: fix a broken Go http servers & handlers solution
+Programming,Go,generics (intro),Unit tests that catch subtle bugs in Go generics (intro)
+Programming,Go,concurrency patterns,Go concurrency patterns cheat sheet — templates + pitfalls
+Programming,Go,syntax & slices/maps,Phone screen vs onsite: how Go syntax & slices/maps questions differ
+Programming,Go,interfaces (implicit),Narrate your thinking: explain Go interfaces (implicit) like a pro
+Programming,Go,goroutines & channels,Before you code: 4 questions for any Go goroutines & channels
+Programming,Go,context cancellation,From DSA to dev: where Go context cancellation shows up in real systems
+Programming,Go,errors vs panics,Edge cases that break 8/10 Go errors vs panics submissions
+Programming,Go,testing & benchmarks,Back-of-the-envelope complexity: Go testing & benchmarks
+Programming,Go,modules & workspaces,Code smells in Go modules & workspaces — and quick fixes
+Programming,Go,pprof & optimization,Template showdown: clean APIs for Go pprof & optimization
+Programming,Go,http servers & handlers,Interview kata: daily reps for Go http servers & handlers
+Programming,Go,generics (intro),Crash course: Go generics (intro) in 5 minutes
+Programming,Go,concurrency patterns,Top 5 questions around Go concurrency patterns this year
+Programming,Go,syntax & slices/maps,From CP to interviews: map syntax & slices/maps to idiomatic Go
+Programming,Go,interfaces (implicit),Prove it: correctness for Go interfaces (implicit) (plain English)
+Programming,Go,goroutines & channels,When not to use Go features for goroutines & channels (and what instead)
+Programming,Go,context cancellation,Why Go is still king for Indian interviews 👑
+Programming,Go,errors vs panics,How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,testing & benchmarks,Go in 60 seconds: the only testing & benchmarks intuition you need
+Programming,Go,modules & workspaces,"modules & workspaces in Go — stop brute forcing, write idiomatic code"
+Programming,Go,pprof & optimization,Go pprof & optimization: top 7 mistakes that cost offers in India
+Programming,Go,http servers & handlers,From messy to clean: refactor your Go http servers & handlers live
+Programming,Go,generics (intro),Interview day checklist: Go generics (intro) in 5 bullets
+Programming,Go,concurrency patterns,Whiteboard to code: Go concurrency patterns with edge cases
+Programming,Go,syntax & slices/maps,Explain it like I’m 5: Go syntax & slices/maps without jargon
+Programming,Go,interfaces (implicit),Speedrun Go interfaces (implicit): archetypes you must know
+Programming,Go,goroutines & channels,You’re overcomplicating it — simplify your Go goroutines & channels
+Programming,Go,context cancellation,Performance 101: make Go context cancellation 10x faster (no hacks)
+Programming,Go,errors vs panics,Memory vs speed: tradeoffs in Go errors vs panics
+Programming,Go,testing & benchmarks,Idiomatic Go: do’s & don’ts for testing & benchmarks
+Programming,Go,modules & workspaces,Debugging live: fix a broken Go modules & workspaces solution
+Programming,Go,pprof & optimization,Unit tests that catch subtle bugs in Go pprof & optimization
+Programming,Go,http servers & handlers,Go http servers & handlers cheat sheet — templates + pitfalls
+Programming,Go,generics (intro),Phone screen vs onsite: how Go generics (intro) questions differ
+Programming,Go,concurrency patterns,Narrate your thinking: explain Go concurrency patterns like a pro
+Programming,Go,syntax & slices/maps,Before you code: 4 questions for any Go syntax & slices/maps
+Programming,Go,interfaces (implicit),From DSA to dev: where Go interfaces (implicit) shows up in real systems
+Programming,Go,goroutines & channels,Edge cases that break 8/10 Go goroutines & channels submissions
+Programming,Go,context cancellation,Back-of-the-envelope complexity: Go context cancellation
+Programming,Go,errors vs panics,Code smells in Go errors vs panics — and quick fixes
+Programming,Go,testing & benchmarks,Template showdown: clean APIs for Go testing & benchmarks
+Programming,Go,modules & workspaces,Interview kata: daily reps for Go modules & workspaces
+Programming,Go,pprof & optimization,Crash course: Go pprof & optimization in 5 minutes
+Programming,Go,http servers & handlers,Top 5 questions around Go http servers & handlers this year
+Programming,Go,generics (intro),From CP to interviews: map generics (intro) to idiomatic Go
+Programming,Go,concurrency patterns,Prove it: correctness for Go concurrency patterns (plain English)
+Programming,Go,syntax & slices/maps,When not to use Go features for syntax & slices/maps (and what instead)
+Programming,Go,interfaces (implicit),Why Go is still king for Indian interviews 👑
+Programming,Go,goroutines & channels,How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,context cancellation,Go in 60 seconds: the only context cancellation intuition you need
+Programming,Go,errors vs panics,"errors vs panics in Go — stop brute forcing, write idiomatic code"
+Programming,Go,testing & benchmarks,Go testing & benchmarks: top 7 mistakes that cost offers in India
+Programming,Go,modules & workspaces,From messy to clean: refactor your Go modules & workspaces live
+Programming,Go,pprof & optimization,Interview day checklist: Go pprof & optimization in 5 bullets
+Programming,Go,http servers & handlers,Whiteboard to code: Go http servers & handlers with edge cases
+Programming,Go,generics (intro),Explain it like I’m 5: Go generics (intro) without jargon
+Programming,Go,concurrency patterns,Speedrun Go concurrency patterns: archetypes you must know
+Programming,Go,syntax & slices/maps,You’re overcomplicating it — simplify your Go syntax & slices/maps
+Programming,Go,interfaces (implicit),Performance 101: make Go interfaces (implicit) 10x faster (no hacks)
+Programming,Go,goroutines & channels,Memory vs speed: tradeoffs in Go goroutines & channels
+Programming,Go,context cancellation,Idiomatic Go: do’s & don’ts for context cancellation
+Programming,Go,errors vs panics,Debugging live: fix a broken Go errors vs panics solution
+Programming,Go,testing & benchmarks,Unit tests that catch subtle bugs in Go testing & benchmarks
+Programming,Go,modules & workspaces,Go modules & workspaces cheat sheet — templates + pitfalls
+Programming,Go,pprof & optimization,Phone screen vs onsite: how Go pprof & optimization questions differ
+Programming,Go,http servers & handlers,Narrate your thinking: explain Go http servers & handlers like a pro
+Programming,Go,generics (intro),Before you code: 4 questions for any Go generics (intro)
+Programming,Go,concurrency patterns,From DSA to dev: where Go concurrency patterns shows up in real systems
+Programming,Go,syntax & slices/maps,Edge cases that break 8/10 Go syntax & slices/maps submissions
+Programming,Go,interfaces (implicit),Back-of-the-envelope complexity: Go interfaces (implicit)
+Programming,Go,goroutines & channels,Code smells in Go goroutines & channels — and quick fixes
+Programming,Go,context cancellation,Template showdown: clean APIs for Go context cancellation
+Programming,Go,errors vs panics,Interview kata: daily reps for Go errors vs panics
+Programming,Go,testing & benchmarks,Crash course: Go testing & benchmarks in 5 minutes
+Programming,Go,modules & workspaces,Top 5 questions around Go modules & workspaces this year
+Programming,Go,pprof & optimization,From CP to interviews: map pprof & optimization to idiomatic Go
+Programming,Go,http servers & handlers,Prove it: correctness for Go http servers & handlers (plain English)
+Programming,Go,generics (intro),When not to use Go features for generics (intro) (and what instead)
+Programming,Go,concurrency patterns,Why Go is still king for Indian interviews 👑
+Programming,Go,syntax & slices/maps,How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,interfaces (implicit),Go in 60 seconds: the only interfaces (implicit) intuition you need
+Programming,Go,goroutines & channels,"goroutines & channels in Go — stop brute forcing, write idiomatic code"
+Programming,Go,context cancellation,Go context cancellation: top 7 mistakes that cost offers in India
+Programming,Go,errors vs panics,From messy to clean: refactor your Go errors vs panics live
+Programming,Go,testing & benchmarks,Interview day checklist: Go testing & benchmarks in 5 bullets
+Programming,Go,modules & workspaces,Whiteboard to code: Go modules & workspaces with edge cases
+Programming,Go,pprof & optimization,Explain it like I’m 5: Go pprof & optimization without jargon
+Programming,Go,http servers & handlers,Speedrun Go http servers & handlers: archetypes you must know
+Programming,Go,generics (intro),You’re overcomplicating it — simplify your Go generics (intro)
+Programming,Go,concurrency patterns,Performance 101: make Go concurrency patterns 10x faster (no hacks)
+Programming,Go,syntax & slices/maps,Memory vs speed: tradeoffs in Go syntax & slices/maps
+Programming,Go,interfaces (implicit),Idiomatic Go: do’s & don’ts for interfaces (implicit)
+Programming,Go,goroutines & channels,Debugging live: fix a broken Go goroutines & channels solution
+Programming,Go,context cancellation,Unit tests that catch subtle bugs in Go context cancellation
+Programming,Go,errors vs panics,Go errors vs panics cheat sheet — templates + pitfalls
+Programming,Go,testing & benchmarks,Phone screen vs onsite: how Go testing & benchmarks questions differ
+Programming,Go,modules & workspaces,Narrate your thinking: explain Go modules & workspaces like a pro
+Programming,Go,pprof & optimization,Before you code: 4 questions for any Go pprof & optimization
+Programming,Go,http servers & handlers,From DSA to dev: where Go http servers & handlers shows up in real systems
+Programming,Go,generics (intro),Edge cases that break 8/10 Go generics (intro) submissions
+Programming,Go,concurrency patterns,Back-of-the-envelope complexity: Go concurrency patterns
+Programming,Go,syntax & slices/maps,Code smells in Go syntax & slices/maps — and quick fixes
+Programming,Go,interfaces (implicit),Template showdown: clean APIs for Go interfaces (implicit)
+Programming,Go,goroutines & channels,Interview kata: daily reps for Go goroutines & channels
+Programming,Go,context cancellation,Crash course: Go context cancellation in 5 minutes
+Programming,Go,errors vs panics,Top 5 questions around Go errors vs panics this year
+Programming,Go,testing & benchmarks,From CP to interviews: map testing & benchmarks to idiomatic Go
+Programming,Go,modules & workspaces,Prove it: correctness for Go modules & workspaces (plain English)
+Programming,Go,pprof & optimization,When not to use Go features for pprof & optimization (and what instead)
+Programming,Go,http servers & handlers,Why Go is still king for Indian interviews 👑
+Programming,Go,generics (intro),How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,concurrency patterns,Go in 60 seconds: the only concurrency patterns intuition you need
+Programming,Go,syntax & slices/maps,"syntax & slices/maps in Go — stop brute forcing, write idiomatic code"
+Programming,Go,interfaces (implicit),Go interfaces (implicit): top 7 mistakes that cost offers in India
+Programming,Go,goroutines & channels,From messy to clean: refactor your Go goroutines & channels live
+Programming,Go,context cancellation,Interview day checklist: Go context cancellation in 5 bullets
+Programming,Go,errors vs panics,Whiteboard to code: Go errors vs panics with edge cases
+Programming,Go,testing & benchmarks,Explain it like I’m 5: Go testing & benchmarks without jargon
+Programming,Go,modules & workspaces,Speedrun Go modules & workspaces: archetypes you must know
+Programming,Go,pprof & optimization,You’re overcomplicating it — simplify your Go pprof & optimization
+Programming,Go,http servers & handlers,Performance 101: make Go http servers & handlers 10x faster (no hacks)
+Programming,Go,generics (intro),Memory vs speed: tradeoffs in Go generics (intro)
+Programming,Go,concurrency patterns,Idiomatic Go: do’s & don’ts for concurrency patterns
+Programming,Go,syntax & slices/maps,Debugging live: fix a broken Go syntax & slices/maps solution
+Programming,Go,interfaces (implicit),Unit tests that catch subtle bugs in Go interfaces (implicit)
+Programming,Go,goroutines & channels,Go goroutines & channels cheat sheet — templates + pitfalls
+Programming,Go,context cancellation,Phone screen vs onsite: how Go context cancellation questions differ
+Programming,Go,errors vs panics,Narrate your thinking: explain Go errors vs panics like a pro
+Programming,Go,testing & benchmarks,Before you code: 4 questions for any Go testing & benchmarks
+Programming,Go,modules & workspaces,From DSA to dev: where Go modules & workspaces shows up in real systems
+Programming,Go,pprof & optimization,Edge cases that break 8/10 Go pprof & optimization submissions
+Programming,Go,http servers & handlers,Back-of-the-envelope complexity: Go http servers & handlers
+Programming,Go,generics (intro),Code smells in Go generics (intro) — and quick fixes
+Programming,Go,concurrency patterns,Template showdown: clean APIs for Go concurrency patterns
+Programming,Go,syntax & slices/maps,Interview kata: daily reps for Go syntax & slices/maps
+Programming,Go,interfaces (implicit),Crash course: Go interfaces (implicit) in 5 minutes
+Programming,Go,goroutines & channels,Top 5 questions around Go goroutines & channels this year
+Programming,Go,context cancellation,From CP to interviews: map context cancellation to idiomatic Go
+Programming,Go,errors vs panics,Prove it: correctness for Go errors vs panics (plain English)
+Programming,Go,testing & benchmarks,When not to use Go features for testing & benchmarks (and what instead)
+Programming,Go,modules & workspaces,Why Go is still king for Indian interviews 👑
+Programming,Go,pprof & optimization,How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,http servers & handlers,Go in 60 seconds: the only http servers & handlers intuition you need
+Programming,Go,generics (intro),"generics (intro) in Go — stop brute forcing, write idiomatic code"
+Programming,Go,concurrency patterns,Go concurrency patterns: top 7 mistakes that cost offers in India
+Programming,Go,syntax & slices/maps,From messy to clean: refactor your Go syntax & slices/maps live
+Programming,Go,interfaces (implicit),Interview day checklist: Go interfaces (implicit) in 5 bullets
+Programming,Go,goroutines & channels,Whiteboard to code: Go goroutines & channels with edge cases
+Programming,Go,context cancellation,Explain it like I’m 5: Go context cancellation without jargon
+Programming,Go,errors vs panics,Speedrun Go errors vs panics: archetypes you must know
+Programming,Go,testing & benchmarks,You’re overcomplicating it — simplify your Go testing & benchmarks
+Programming,Go,modules & workspaces,Performance 101: make Go modules & workspaces 10x faster (no hacks)
+Programming,Go,pprof & optimization,Memory vs speed: tradeoffs in Go pprof & optimization
+Programming,Go,http servers & handlers,Idiomatic Go: do’s & don’ts for http servers & handlers
+Programming,Go,generics (intro),Debugging live: fix a broken Go generics (intro) solution
+Programming,Go,concurrency patterns,Unit tests that catch subtle bugs in Go concurrency patterns
+Programming,Go,syntax & slices/maps,Go syntax & slices/maps cheat sheet — templates + pitfalls
+Programming,Go,interfaces (implicit),Phone screen vs onsite: how Go interfaces (implicit) questions differ
+Programming,Go,goroutines & channels,Narrate your thinking: explain Go goroutines & channels like a pro
+Programming,Go,context cancellation,Before you code: 4 questions for any Go context cancellation
+Programming,Go,errors vs panics,From DSA to dev: where Go errors vs panics shows up in real systems
+Programming,Go,testing & benchmarks,Edge cases that break 8/10 Go testing & benchmarks submissions
+Programming,Go,modules & workspaces,Back-of-the-envelope complexity: Go modules & workspaces
+Programming,Go,pprof & optimization,Code smells in Go pprof & optimization — and quick fixes
+Programming,Go,http servers & handlers,Template showdown: clean APIs for Go http servers & handlers
+Programming,Go,generics (intro),Interview kata: daily reps for Go generics (intro)
+Programming,Go,concurrency patterns,Crash course: Go concurrency patterns in 5 minutes
+Programming,Go,syntax & slices/maps,Top 5 questions around Go syntax & slices/maps this year
+Programming,Go,interfaces (implicit),From CP to interviews: map interfaces (implicit) to idiomatic Go
+Programming,Go,goroutines & channels,Prove it: correctness for Go goroutines & channels (plain English)
+Programming,Go,context cancellation,When not to use Go features for context cancellation (and what instead)
+Programming,Go,errors vs panics,Why Go is still king for Indian interviews 👑
+Programming,Go,testing & benchmarks,How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,modules & workspaces,Go in 60 seconds: the only modules & workspaces intuition you need
+Programming,Go,pprof & optimization,"pprof & optimization in Go — stop brute forcing, write idiomatic code"
+Programming,Go,http servers & handlers,Go http servers & handlers: top 7 mistakes that cost offers in India
+Programming,Go,generics (intro),From messy to clean: refactor your Go generics (intro) live
+Programming,Go,concurrency patterns,Interview day checklist: Go concurrency patterns in 5 bullets
+Programming,Go,syntax & slices/maps,Whiteboard to code: Go syntax & slices/maps with edge cases
+Programming,Go,interfaces (implicit),Explain it like I’m 5: Go interfaces (implicit) without jargon
+Programming,Go,goroutines & channels,Speedrun Go goroutines & channels: archetypes you must know
+Programming,Go,context cancellation,You’re overcomplicating it — simplify your Go context cancellation
+Programming,Go,errors vs panics,Performance 101: make Go errors vs panics 10x faster (no hacks)
+Programming,Go,testing & benchmarks,Memory vs speed: tradeoffs in Go testing & benchmarks
+Programming,Go,modules & workspaces,Idiomatic Go: do’s & don’ts for modules & workspaces
+Programming,Go,pprof & optimization,Debugging live: fix a broken Go pprof & optimization solution
+Programming,Go,http servers & handlers,Unit tests that catch subtle bugs in Go http servers & handlers
+Programming,Go,generics (intro),Go generics (intro) cheat sheet — templates + pitfalls
+Programming,Go,concurrency patterns,Phone screen vs onsite: how Go concurrency patterns questions differ
+Programming,Go,syntax & slices/maps,Narrate your thinking: explain Go syntax & slices/maps like a pro
+Programming,Go,interfaces (implicit),Before you code: 4 questions for any Go interfaces (implicit)
+Programming,Go,goroutines & channels,From DSA to dev: where Go goroutines & channels shows up in real systems
+Programming,Go,context cancellation,Edge cases that break 8/10 Go context cancellation submissions
+Programming,Go,errors vs panics,Back-of-the-envelope complexity: Go errors vs panics
+Programming,Go,testing & benchmarks,Code smells in Go testing & benchmarks — and quick fixes
+Programming,Go,modules & workspaces,Template showdown: clean APIs for Go modules & workspaces
+Programming,Go,pprof & optimization,Interview kata: daily reps for Go pprof & optimization
+Programming,Go,http servers & handlers,Crash course: Go http servers & handlers in 5 minutes
+Programming,Go,generics (intro),Top 5 questions around Go generics (intro) this year
+Programming,Go,concurrency patterns,From CP to interviews: map concurrency patterns to idiomatic Go
+Programming,Go,syntax & slices/maps,Prove it: correctness for Go syntax & slices/maps (plain English)
+Programming,Go,interfaces (implicit),When not to use Go features for interfaces (implicit) (and what instead)
+Programming,Go,goroutines & channels,Why Go is still king for Indian interviews 👑
+Programming,Go,context cancellation,How Go makes coding rounds 2x faster — patterns you’ll reuse
+Programming,Go,errors vs panics,Bengaluru onsite-ready Go errors vs panics
+Programming,Go,testing & benchmarks,Off-campus grind tips: Go testing & benchmarks
+Programming,Go,modules & workspaces,Product vs service company: Go modules & workspaces focus
+Programming,Go,pprof & optimization,Startups vs MAANG expectations: Go pprof & optimization
+Programming,Go,http servers & handlers,Campus placements: Go http servers & handlers in 2 rounds
+Programming,Go,generics (intro),System design tie-ins: Go generics (intro) → prod
+Programming,Go,concurrency patterns,Naukri/LinkedIn resume bullets from Go concurrency patterns
+Programming,Go,syntax & slices/maps,DSA + Go syntax & slices/maps: what interviewers in India look for

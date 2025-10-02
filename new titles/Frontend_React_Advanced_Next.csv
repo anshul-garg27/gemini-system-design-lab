@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),API boundaries for Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Edge rendering & CDN for SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),User-perceived latency wins in React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Accessibility audits around Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Observability for frontend code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,"image optimization & fonts in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Stop guessing: battle-tested patterns for hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,From messy to clean: refactor your performance & memoization live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Top 7 mistakes in TanStack Query & caching (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Whiteboard → code: ship i18n & multi-tenant theming with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Interview-ready: 5 bullets that explain Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Explain like I’m 5: SSR/SSG/ISR tradeoffs without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),When to pick A vs B inside React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Debugging live: fix a broken Suspense & streaming UIs in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Templates you’ll reuse for code splitting & lazy all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,The mental model that unlocks image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Perf-first hydration & partial re-render: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Accessibility-first performance & memoization: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Cost-aware TanStack Query & caching: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Real incidents I’ve seen because of bad i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Design reviews: what senior folks look for in Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,From junior to senior: how you talk about SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Before you code: 4 questions for any React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Do’s & don’ts cheat sheet for Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,UX wins: small tweaks in code splitting & lazy with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Platform tips: ship image optimization & fonts to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,API boundaries for hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Edge rendering & CDN for performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,User-perceived latency wins in TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Accessibility audits around i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Observability for frontend Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,"SSR/SSG/ISR tradeoffs in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Stop guessing: battle-tested patterns for React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,From messy to clean: refactor your Suspense & streaming UIs live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Top 7 mistakes in code splitting & lazy (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Whiteboard → code: ship image optimization & fonts with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Interview-ready: 5 bullets that explain hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Explain like I’m 5: performance & memoization without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,When to pick A vs B inside TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Debugging live: fix a broken i18n & multi-tenant theming in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Templates you’ll reuse for Next.js routing & layouts (app router) all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,The mental model that unlocks SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Perf-first React Server Components (intro): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Accessibility-first Suspense & streaming UIs: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Cost-aware code splitting & lazy: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Real incidents I’ve seen because of bad image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Design reviews: what senior folks look for in hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,From junior to senior: how you talk about performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Before you code: 4 questions for any TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Do’s & don’ts cheat sheet for i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),UX wins: small tweaks in Next.js routing & layouts (app router) with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Platform tips: ship SSR/SSG/ISR tradeoffs to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),API boundaries for React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Edge rendering & CDN for Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,User-perceived latency wins in code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Accessibility audits around image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Observability for frontend hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,"performance & memoization in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Stop guessing: battle-tested patterns for TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,From messy to clean: refactor your i18n & multi-tenant theming live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Top 7 mistakes in Next.js routing & layouts (app router) (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Whiteboard → code: ship SSR/SSG/ISR tradeoffs with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Interview-ready: 5 bullets that explain React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Explain like I’m 5: Suspense & streaming UIs without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,When to pick A vs B inside code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Debugging live: fix a broken image optimization & fonts in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Templates you’ll reuse for hydration & partial re-render all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,The mental model that unlocks performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Perf-first TanStack Query & caching: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Accessibility-first i18n & multi-tenant theming: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Cost-aware Next.js routing & layouts (app router): speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Real incidents I’ve seen because of bad SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Design reviews: what senior folks look for in React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,From junior to senior: how you talk about Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Before you code: 4 questions for any code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Do’s & don’ts cheat sheet for image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,UX wins: small tweaks in hydration & partial re-render with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Platform tips: ship performance & memoization to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,API boundaries for TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Edge rendering & CDN for i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),User-perceived latency wins in Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Accessibility audits around SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Observability for frontend React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,"Suspense & streaming UIs in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Stop guessing: battle-tested patterns for code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,From messy to clean: refactor your image optimization & fonts live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Top 7 mistakes in hydration & partial re-render (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Whiteboard → code: ship performance & memoization with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Interview-ready: 5 bullets that explain TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Explain like I’m 5: i18n & multi-tenant theming without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),When to pick A vs B inside Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Debugging live: fix a broken SSR/SSG/ISR tradeoffs in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Templates you’ll reuse for React Server Components (intro) all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,The mental model that unlocks Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Perf-first code splitting & lazy: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Accessibility-first image optimization & fonts: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Cost-aware hydration & partial re-render: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Real incidents I’ve seen because of bad performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Design reviews: what senior folks look for in TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,From junior to senior: how you talk about i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Before you code: 4 questions for any Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Do’s & don’ts cheat sheet for SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),UX wins: small tweaks in React Server Components (intro) with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Platform tips: ship Suspense & streaming UIs to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,API boundaries for code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Edge rendering & CDN for image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,User-perceived latency wins in hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Accessibility audits around performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Observability for frontend TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,"i18n & multi-tenant theming in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Stop guessing: battle-tested patterns for Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,From messy to clean: refactor your SSR/SSG/ISR tradeoffs live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Top 7 mistakes in React Server Components (intro) (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Whiteboard → code: ship Suspense & streaming UIs with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Interview-ready: 5 bullets that explain code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Explain like I’m 5: image optimization & fonts without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,When to pick A vs B inside hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Debugging live: fix a broken performance & memoization in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Templates you’ll reuse for TanStack Query & caching all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,The mental model that unlocks i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Perf-first Next.js routing & layouts (app router): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Accessibility-first SSR/SSG/ISR tradeoffs: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Cost-aware React Server Components (intro): speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Real incidents I’ve seen because of bad Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Design reviews: what senior folks look for in code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,From junior to senior: how you talk about image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Before you code: 4 questions for any hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Do’s & don’ts cheat sheet for performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,UX wins: small tweaks in TanStack Query & caching with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Platform tips: ship i18n & multi-tenant theming to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),API boundaries for Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Edge rendering & CDN for SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),User-perceived latency wins in React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Accessibility audits around Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Observability for frontend code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,"image optimization & fonts in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Stop guessing: battle-tested patterns for hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,From messy to clean: refactor your performance & memoization live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Top 7 mistakes in TanStack Query & caching (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Whiteboard → code: ship i18n & multi-tenant theming with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Interview-ready: 5 bullets that explain Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Explain like I’m 5: SSR/SSG/ISR tradeoffs without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),When to pick A vs B inside React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Debugging live: fix a broken Suspense & streaming UIs in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Templates you’ll reuse for code splitting & lazy all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,The mental model that unlocks image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Perf-first hydration & partial re-render: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Accessibility-first performance & memoization: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Cost-aware TanStack Query & caching: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Real incidents I’ve seen because of bad i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Design reviews: what senior folks look for in Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,From junior to senior: how you talk about SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Before you code: 4 questions for any React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Do’s & don’ts cheat sheet for Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,UX wins: small tweaks in code splitting & lazy with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Platform tips: ship image optimization & fonts to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,API boundaries for hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Edge rendering & CDN for performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,User-perceived latency wins in TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Accessibility audits around i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Observability for frontend Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,"SSR/SSG/ISR tradeoffs in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Stop guessing: battle-tested patterns for React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,From messy to clean: refactor your Suspense & streaming UIs live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Top 7 mistakes in code splitting & lazy (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Whiteboard → code: ship image optimization & fonts with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Interview-ready: 5 bullets that explain hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Explain like I’m 5: performance & memoization without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,When to pick A vs B inside TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Debugging live: fix a broken i18n & multi-tenant theming in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Templates you’ll reuse for Next.js routing & layouts (app router) all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,The mental model that unlocks SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Perf-first React Server Components (intro): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Accessibility-first Suspense & streaming UIs: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Cost-aware code splitting & lazy: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Real incidents I’ve seen because of bad image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Design reviews: what senior folks look for in hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,From junior to senior: how you talk about performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Before you code: 4 questions for any TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Do’s & don’ts cheat sheet for i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),UX wins: small tweaks in Next.js routing & layouts (app router) with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Platform tips: ship SSR/SSG/ISR tradeoffs to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),API boundaries for React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Edge rendering & CDN for Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,User-perceived latency wins in code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Accessibility audits around image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Observability for frontend hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,"performance & memoization in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Stop guessing: battle-tested patterns for TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,From messy to clean: refactor your i18n & multi-tenant theming live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Top 7 mistakes in Next.js routing & layouts (app router) (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Whiteboard → code: ship SSR/SSG/ISR tradeoffs with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Interview-ready: 5 bullets that explain React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Explain like I’m 5: Suspense & streaming UIs without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,When to pick A vs B inside code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Debugging live: fix a broken image optimization & fonts in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Templates you’ll reuse for hydration & partial re-render all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,The mental model that unlocks performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Perf-first TanStack Query & caching: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Accessibility-first i18n & multi-tenant theming: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Cost-aware Next.js routing & layouts (app router): speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Real incidents I’ve seen because of bad SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Design reviews: what senior folks look for in React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,From junior to senior: how you talk about Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Before you code: 4 questions for any code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Do’s & don’ts cheat sheet for image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,UX wins: small tweaks in hydration & partial re-render with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Platform tips: ship performance & memoization to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,API boundaries for TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Edge rendering & CDN for i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),User-perceived latency wins in Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Accessibility audits around SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Observability for frontend React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,"Suspense & streaming UIs in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Stop guessing: battle-tested patterns for code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,From messy to clean: refactor your image optimization & fonts live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Top 7 mistakes in hydration & partial re-render (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Whiteboard → code: ship performance & memoization with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Interview-ready: 5 bullets that explain TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Explain like I’m 5: i18n & multi-tenant theming without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),When to pick A vs B inside Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Debugging live: fix a broken SSR/SSG/ISR tradeoffs in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Templates you’ll reuse for React Server Components (intro) all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,The mental model that unlocks Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Perf-first code splitting & lazy: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Accessibility-first image optimization & fonts: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Cost-aware hydration & partial re-render: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Real incidents I’ve seen because of bad performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Design reviews: what senior folks look for in TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,From junior to senior: how you talk about i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Before you code: 4 questions for any Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Do’s & don’ts cheat sheet for SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),UX wins: small tweaks in React Server Components (intro) with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Platform tips: ship Suspense & streaming UIs to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,API boundaries for code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Edge rendering & CDN for image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,User-perceived latency wins in hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Accessibility audits around performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Observability for frontend TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,"i18n & multi-tenant theming in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Stop guessing: battle-tested patterns for Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,From messy to clean: refactor your SSR/SSG/ISR tradeoffs live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Top 7 mistakes in React Server Components (intro) (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Whiteboard → code: ship Suspense & streaming UIs with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Interview-ready: 5 bullets that explain code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Explain like I’m 5: image optimization & fonts without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,When to pick A vs B inside hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Debugging live: fix a broken performance & memoization in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Templates you’ll reuse for TanStack Query & caching all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,The mental model that unlocks i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Perf-first Next.js routing & layouts (app router): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Accessibility-first SSR/SSG/ISR tradeoffs: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Cost-aware React Server Components (intro): speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Real incidents I’ve seen because of bad Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Design reviews: what senior folks look for in code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,From junior to senior: how you talk about image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Before you code: 4 questions for any hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Do’s & don’ts cheat sheet for performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,UX wins: small tweaks in TanStack Query & caching with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Platform tips: ship i18n & multi-tenant theming to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),API boundaries for Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Edge rendering & CDN for SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),User-perceived latency wins in React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Accessibility audits around Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Observability for frontend code splitting & lazy
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,"image optimization & fonts in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Stop guessing: battle-tested patterns for hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,From messy to clean: refactor your performance & memoization live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Top 7 mistakes in TanStack Query & caching (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Whiteboard → code: ship i18n & multi-tenant theming with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Interview-ready: 5 bullets that explain Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Explain like I’m 5: SSR/SSG/ISR tradeoffs without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),When to pick A vs B inside React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Debugging live: fix a broken Suspense & streaming UIs in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Templates you’ll reuse for code splitting & lazy all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,The mental model that unlocks image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Perf-first hydration & partial re-render: make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Accessibility-first performance & memoization: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Cost-aware TanStack Query & caching: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Real incidents I’ve seen because of bad i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Design reviews: what senior folks look for in Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,From junior to senior: how you talk about SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Before you code: 4 questions for any React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Do’s & don’ts cheat sheet for Suspense & streaming UIs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,UX wins: small tweaks in code splitting & lazy with huge impact
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Platform tips: ship image optimization & fonts to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,API boundaries for hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Edge rendering & CDN for performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,User-perceived latency wins in TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Accessibility audits around i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Observability for frontend Next.js routing & layouts (app router)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,"SSR/SSG/ISR tradeoffs in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Stop guessing: battle-tested patterns for React Server Components (intro)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,From messy to clean: refactor your Suspense & streaming UIs live
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Top 7 mistakes in code splitting & lazy (and quick fixes)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Whiteboard → code: ship image optimization & fonts with guardrails
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Interview-ready: 5 bullets that explain hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Explain like I’m 5: performance & memoization without jargon
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,When to pick A vs B inside TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Debugging live: fix a broken i18n & multi-tenant theming in minutes
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),Templates you’ll reuse for Next.js routing & layouts (app router) all year
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,The mental model that unlocks SSR/SSG/ISR tradeoffs
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Perf-first React Server Components (intro): make it fast on low-end Android
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,Accessibility-first Suspense & streaming UIs: include everyone
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,Cost-aware code splitting & lazy: speed without burning cloud spend
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,Real incidents I’ve seen because of bad image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Design reviews: what senior folks look for in hydration & partial re-render
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,From junior to senior: how you talk about performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Before you code: 4 questions for any TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,Do’s & don’ts cheat sheet for i18n & multi-tenant theming
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Next.js routing & layouts (app router),India-grade 4G: make Next.js routing & layouts (app router) snappy on flaky networks
+Frontend & UI/UX,Frontend — React Advanced & Next.js,SSR/SSG/ISR tradeoffs,Low-end Android optimization for SSR/SSG/ISR tradeoffs (under ₹10k devices)
+Frontend & UI/UX,Frontend — React Advanced & Next.js,React Server Components (intro),Big Billion Days traffic: harden React Server Components (intro) for peaks
+Frontend & UI/UX,Frontend — React Advanced & Next.js,Suspense & streaming UIs,IRCTC Tatkal mindset for Suspense & streaming UIs: fast paths only
+Frontend & UI/UX,Frontend — React Advanced & Next.js,code splitting & lazy,UPI-like flows: error states in code splitting & lazy done right
+Frontend & UI/UX,Frontend — React Advanced & Next.js,image optimization & fonts,IPL watch party: realtime-friendly image optimization & fonts
+Frontend & UI/UX,Frontend — React Advanced & Next.js,hydration & partial re-render,Bengaluru ORR latency: hydration & partial re-render timeouts & fallbacks
+Frontend & UI/UX,Frontend — React Advanced & Next.js,performance & memoization,Aadhaar/eKYC journeys: UX pitfalls in performance & memoization
+Frontend & UI/UX,Frontend — React Advanced & Next.js,TanStack Query & caching,Tier-2/3 devices: memory budget for TanStack Query & caching
+Frontend & UI/UX,Frontend — React Advanced & Next.js,i18n & multi-tenant theming,WhatsApp-style micro-interactions for i18n & multi-tenant theming

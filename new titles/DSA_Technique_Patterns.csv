@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Interview taxonomy: route any problem via Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Failure modes & counterexamples in Monotonic stack/queue
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Design reusable templates around Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,When to switch patterns mid-solution — Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Timeboxing: make Randomization (reservoir/Fisher–Yates) work in 35 minutes
+DSA,DSA — Technique Patterns,Decompose by value vs index,Why Decompose by value vs index scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Coordinate compression,Coordinate compression in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Stop brute forcing: spot the Binary lifting beyond LCA trigger words
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Parametric search (BS on answer) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Top 7 mistakes in Ternary search (unimodal) that cost offers
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,From O(N^2) → O(N): optimize your Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,"Map problem to known pattern for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Think like an interviewer: how I grade your Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Whiteboard to code: Monotonic stack/queue with edge cases
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,You don’t need to memorize — template for Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,Interview day checklist for Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Hidden constraints that break Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Speedrun Decompose by value vs index: archetypes you must know
+DSA,DSA — Technique Patterns,Coordinate compression,Complexity showdown: naive vs optimal Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,One trick that simplifies most Binary lifting beyond LCA questions
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Interview taxonomy: route any problem via Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Failure modes & counterexamples in Ternary search (unimodal)
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Design reusable templates around Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,When to switch patterns mid-solution — Map problem to known pattern
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Timeboxing: make Two pointers vs sliding window decision work in 35 minutes
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Why Monotonic stack/queue scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Hashing vs sorting tradeoffs in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Offline vs online strategies,Stop brute forcing: spot the Offline vs online strategies trigger words
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Randomization (reservoir/Fisher–Yates) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Decompose by value vs index,Top 7 mistakes in Decompose by value vs index that cost offers
+DSA,DSA — Technique Patterns,Coordinate compression,From O(N^2) → O(N): optimize your Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,"Binary lifting beyond LCA for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Think like an interviewer: how I grade your Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Whiteboard to code: Ternary search (unimodal) with edge cases
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,You don’t need to memorize — template for Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,Interview day checklist for Map problem to known pattern
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Hidden constraints that break Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Speedrun Monotonic stack/queue: archetypes you must know
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Complexity showdown: naive vs optimal Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,One trick that simplifies most Offline vs online strategies questions
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Interview taxonomy: route any problem via Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Failure modes & counterexamples in Decompose by value vs index
+DSA,DSA — Technique Patterns,Coordinate compression,Design reusable templates around Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,When to switch patterns mid-solution — Binary lifting beyond LCA
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Timeboxing: make Parametric search (BS on answer) work in 35 minutes
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Why Ternary search (unimodal) scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Prefix function vs Z — when which in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Map problem to known pattern,Stop brute forcing: spot the Map problem to known pattern trigger words
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Two pointers vs sliding window decision vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Top 7 mistakes in Monotonic stack/queue that cost offers
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,From O(N^2) → O(N): optimize your Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,"Offline vs online strategies for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Think like an interviewer: how I grade your Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Whiteboard to code: Decompose by value vs index with edge cases
+DSA,DSA — Technique Patterns,Coordinate compression,You don’t need to memorize — template for Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Interview day checklist for Binary lifting beyond LCA
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Hidden constraints that break Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Speedrun Ternary search (unimodal): archetypes you must know
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Complexity showdown: naive vs optimal Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,One trick that simplifies most Map problem to known pattern questions
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Interview taxonomy: route any problem via Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Failure modes & counterexamples in Monotonic stack/queue
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Design reusable templates around Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,When to switch patterns mid-solution — Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Timeboxing: make Randomization (reservoir/Fisher–Yates) work in 35 minutes
+DSA,DSA — Technique Patterns,Decompose by value vs index,Why Decompose by value vs index scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Coordinate compression,Coordinate compression in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Stop brute forcing: spot the Binary lifting beyond LCA trigger words
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Parametric search (BS on answer) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Top 7 mistakes in Ternary search (unimodal) that cost offers
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,From O(N^2) → O(N): optimize your Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,"Map problem to known pattern for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Think like an interviewer: how I grade your Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Whiteboard to code: Monotonic stack/queue with edge cases
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,You don’t need to memorize — template for Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,Interview day checklist for Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Hidden constraints that break Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Speedrun Decompose by value vs index: archetypes you must know
+DSA,DSA — Technique Patterns,Coordinate compression,Complexity showdown: naive vs optimal Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,One trick that simplifies most Binary lifting beyond LCA questions
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Interview taxonomy: route any problem via Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Failure modes & counterexamples in Ternary search (unimodal)
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Design reusable templates around Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,When to switch patterns mid-solution — Map problem to known pattern
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Timeboxing: make Two pointers vs sliding window decision work in 35 minutes
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Why Monotonic stack/queue scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Hashing vs sorting tradeoffs in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Offline vs online strategies,Stop brute forcing: spot the Offline vs online strategies trigger words
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Randomization (reservoir/Fisher–Yates) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Decompose by value vs index,Top 7 mistakes in Decompose by value vs index that cost offers
+DSA,DSA — Technique Patterns,Coordinate compression,From O(N^2) → O(N): optimize your Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,"Binary lifting beyond LCA for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Think like an interviewer: how I grade your Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Whiteboard to code: Ternary search (unimodal) with edge cases
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,You don’t need to memorize — template for Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,Interview day checklist for Map problem to known pattern
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Hidden constraints that break Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Speedrun Monotonic stack/queue: archetypes you must know
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Complexity showdown: naive vs optimal Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,One trick that simplifies most Offline vs online strategies questions
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Interview taxonomy: route any problem via Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Failure modes & counterexamples in Decompose by value vs index
+DSA,DSA — Technique Patterns,Coordinate compression,Design reusable templates around Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,When to switch patterns mid-solution — Binary lifting beyond LCA
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Timeboxing: make Parametric search (BS on answer) work in 35 minutes
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Why Ternary search (unimodal) scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Prefix function vs Z — when which in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Map problem to known pattern,Stop brute forcing: spot the Map problem to known pattern trigger words
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Two pointers vs sliding window decision vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Top 7 mistakes in Monotonic stack/queue that cost offers
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,From O(N^2) → O(N): optimize your Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,"Offline vs online strategies for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Think like an interviewer: how I grade your Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Whiteboard to code: Decompose by value vs index with edge cases
+DSA,DSA — Technique Patterns,Coordinate compression,You don’t need to memorize — template for Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Interview day checklist for Binary lifting beyond LCA
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Hidden constraints that break Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Speedrun Ternary search (unimodal): archetypes you must know
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Complexity showdown: naive vs optimal Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,One trick that simplifies most Map problem to known pattern questions
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Interview taxonomy: route any problem via Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Failure modes & counterexamples in Monotonic stack/queue
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Design reusable templates around Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,When to switch patterns mid-solution — Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Timeboxing: make Randomization (reservoir/Fisher–Yates) work in 35 minutes
+DSA,DSA — Technique Patterns,Decompose by value vs index,Why Decompose by value vs index scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Coordinate compression,Coordinate compression in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Stop brute forcing: spot the Binary lifting beyond LCA trigger words
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Parametric search (BS on answer) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Top 7 mistakes in Ternary search (unimodal) that cost offers
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,From O(N^2) → O(N): optimize your Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,"Map problem to known pattern for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Think like an interviewer: how I grade your Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Whiteboard to code: Monotonic stack/queue with edge cases
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,You don’t need to memorize — template for Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,Interview day checklist for Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Hidden constraints that break Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Speedrun Decompose by value vs index: archetypes you must know
+DSA,DSA — Technique Patterns,Coordinate compression,Complexity showdown: naive vs optimal Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,One trick that simplifies most Binary lifting beyond LCA questions
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Interview taxonomy: route any problem via Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Failure modes & counterexamples in Ternary search (unimodal)
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Design reusable templates around Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,When to switch patterns mid-solution — Map problem to known pattern
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Timeboxing: make Two pointers vs sliding window decision work in 35 minutes
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Why Monotonic stack/queue scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Hashing vs sorting tradeoffs in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Offline vs online strategies,Stop brute forcing: spot the Offline vs online strategies trigger words
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Randomization (reservoir/Fisher–Yates) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Decompose by value vs index,Top 7 mistakes in Decompose by value vs index that cost offers
+DSA,DSA — Technique Patterns,Coordinate compression,From O(N^2) → O(N): optimize your Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,"Binary lifting beyond LCA for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Think like an interviewer: how I grade your Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Whiteboard to code: Ternary search (unimodal) with edge cases
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,You don’t need to memorize — template for Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,Interview day checklist for Map problem to known pattern
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Hidden constraints that break Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Speedrun Monotonic stack/queue: archetypes you must know
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Complexity showdown: naive vs optimal Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,One trick that simplifies most Offline vs online strategies questions
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Interview taxonomy: route any problem via Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Failure modes & counterexamples in Decompose by value vs index
+DSA,DSA — Technique Patterns,Coordinate compression,Design reusable templates around Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,When to switch patterns mid-solution — Binary lifting beyond LCA
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Timeboxing: make Parametric search (BS on answer) work in 35 minutes
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Why Ternary search (unimodal) scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Prefix function vs Z — when which in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Map problem to known pattern,Stop brute forcing: spot the Map problem to known pattern trigger words
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Two pointers vs sliding window decision vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Top 7 mistakes in Monotonic stack/queue that cost offers
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,From O(N^2) → O(N): optimize your Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,"Offline vs online strategies for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Think like an interviewer: how I grade your Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Whiteboard to code: Decompose by value vs index with edge cases
+DSA,DSA — Technique Patterns,Coordinate compression,You don’t need to memorize — template for Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Interview day checklist for Binary lifting beyond LCA
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Hidden constraints that break Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Speedrun Ternary search (unimodal): archetypes you must know
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Complexity showdown: naive vs optimal Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,One trick that simplifies most Map problem to known pattern questions
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Interview taxonomy: route any problem via Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Failure modes & counterexamples in Monotonic stack/queue
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Design reusable templates around Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,When to switch patterns mid-solution — Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Timeboxing: make Randomization (reservoir/Fisher–Yates) work in 35 minutes
+DSA,DSA — Technique Patterns,Decompose by value vs index,Why Decompose by value vs index scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Coordinate compression,Coordinate compression in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Stop brute forcing: spot the Binary lifting beyond LCA trigger words
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Parametric search (BS on answer) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Top 7 mistakes in Ternary search (unimodal) that cost offers
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,From O(N^2) → O(N): optimize your Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,"Map problem to known pattern for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Think like an interviewer: how I grade your Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Whiteboard to code: Monotonic stack/queue with edge cases
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,You don’t need to memorize — template for Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,Interview day checklist for Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Hidden constraints that break Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Speedrun Decompose by value vs index: archetypes you must know
+DSA,DSA — Technique Patterns,Coordinate compression,Complexity showdown: naive vs optimal Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,One trick that simplifies most Binary lifting beyond LCA questions
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Interview taxonomy: route any problem via Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Failure modes & counterexamples in Ternary search (unimodal)
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Design reusable templates around Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,When to switch patterns mid-solution — Map problem to known pattern
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Timeboxing: make Two pointers vs sliding window decision work in 35 minutes
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Why Monotonic stack/queue scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Hashing vs sorting tradeoffs in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Offline vs online strategies,Stop brute forcing: spot the Offline vs online strategies trigger words
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Randomization (reservoir/Fisher–Yates) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Decompose by value vs index,Top 7 mistakes in Decompose by value vs index that cost offers
+DSA,DSA — Technique Patterns,Coordinate compression,From O(N^2) → O(N): optimize your Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,"Binary lifting beyond LCA for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Think like an interviewer: how I grade your Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Whiteboard to code: Ternary search (unimodal) with edge cases
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,You don’t need to memorize — template for Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,Interview day checklist for Map problem to known pattern
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Hidden constraints that break Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Speedrun Monotonic stack/queue: archetypes you must know
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Complexity showdown: naive vs optimal Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,One trick that simplifies most Offline vs online strategies questions
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Interview taxonomy: route any problem via Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Failure modes & counterexamples in Decompose by value vs index
+DSA,DSA — Technique Patterns,Coordinate compression,Design reusable templates around Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,When to switch patterns mid-solution — Binary lifting beyond LCA
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Timeboxing: make Parametric search (BS on answer) work in 35 minutes
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Why Ternary search (unimodal) scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Prefix function vs Z — when which in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Map problem to known pattern,Stop brute forcing: spot the Map problem to known pattern trigger words
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Two pointers vs sliding window decision vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Top 7 mistakes in Monotonic stack/queue that cost offers
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,From O(N^2) → O(N): optimize your Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,"Offline vs online strategies for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Think like an interviewer: how I grade your Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Whiteboard to code: Decompose by value vs index with edge cases
+DSA,DSA — Technique Patterns,Coordinate compression,You don’t need to memorize — template for Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Interview day checklist for Binary lifting beyond LCA
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Hidden constraints that break Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Speedrun Ternary search (unimodal): archetypes you must know
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Complexity showdown: naive vs optimal Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,One trick that simplifies most Map problem to known pattern questions
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Interview taxonomy: route any problem via Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Failure modes & counterexamples in Monotonic stack/queue
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Design reusable templates around Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,When to switch patterns mid-solution — Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Timeboxing: make Randomization (reservoir/Fisher–Yates) work in 35 minutes
+DSA,DSA — Technique Patterns,Decompose by value vs index,Why Decompose by value vs index scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Coordinate compression,Coordinate compression in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Stop brute forcing: spot the Binary lifting beyond LCA trigger words
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Parametric search (BS on answer) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Top 7 mistakes in Ternary search (unimodal) that cost offers
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,From O(N^2) → O(N): optimize your Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,"Map problem to known pattern for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Think like an interviewer: how I grade your Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Whiteboard to code: Monotonic stack/queue with edge cases
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,You don’t need to memorize — template for Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,Interview day checklist for Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Hidden constraints that break Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Speedrun Decompose by value vs index: archetypes you must know
+DSA,DSA — Technique Patterns,Coordinate compression,Complexity showdown: naive vs optimal Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,One trick that simplifies most Binary lifting beyond LCA questions
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Interview taxonomy: route any problem via Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Failure modes & counterexamples in Ternary search (unimodal)
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Design reusable templates around Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,When to switch patterns mid-solution — Map problem to known pattern
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Timeboxing: make Two pointers vs sliding window decision work in 35 minutes
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Why Monotonic stack/queue scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Hashing vs sorting tradeoffs in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Offline vs online strategies,Stop brute forcing: spot the Offline vs online strategies trigger words
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Randomization (reservoir/Fisher–Yates) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Decompose by value vs index,Top 7 mistakes in Decompose by value vs index that cost offers
+DSA,DSA — Technique Patterns,Coordinate compression,From O(N^2) → O(N): optimize your Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,"Binary lifting beyond LCA for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Think like an interviewer: how I grade your Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Whiteboard to code: Ternary search (unimodal) with edge cases
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,You don’t need to memorize — template for Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,Interview day checklist for Map problem to known pattern
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Hidden constraints that break Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Speedrun Monotonic stack/queue: archetypes you must know
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Complexity showdown: naive vs optimal Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,One trick that simplifies most Offline vs online strategies questions
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Interview taxonomy: route any problem via Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Failure modes & counterexamples in Decompose by value vs index
+DSA,DSA — Technique Patterns,Coordinate compression,Design reusable templates around Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,When to switch patterns mid-solution — Binary lifting beyond LCA
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Timeboxing: make Parametric search (BS on answer) work in 35 minutes
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Why Ternary search (unimodal) scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Prefix function vs Z — when which in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Map problem to known pattern,Stop brute forcing: spot the Map problem to known pattern trigger words
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Two pointers vs sliding window decision vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Top 7 mistakes in Monotonic stack/queue that cost offers
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,From O(N^2) → O(N): optimize your Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,"Offline vs online strategies for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Think like an interviewer: how I grade your Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Whiteboard to code: Decompose by value vs index with edge cases
+DSA,DSA — Technique Patterns,Coordinate compression,You don’t need to memorize — template for Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Interview day checklist for Binary lifting beyond LCA
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Hidden constraints that break Parametric search (BS on answer)
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Speedrun Ternary search (unimodal): archetypes you must know
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,Complexity showdown: naive vs optimal Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,One trick that simplifies most Map problem to known pattern questions
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Interview taxonomy: route any problem via Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Failure modes & counterexamples in Monotonic stack/queue
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Design reusable templates around Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,When to switch patterns mid-solution — Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Timeboxing: make Randomization (reservoir/Fisher–Yates) work in 35 minutes
+DSA,DSA — Technique Patterns,Decompose by value vs index,Why Decompose by value vs index scares 90% of interviewees (and how to master it)
+DSA,DSA — Technique Patterns,Coordinate compression,Coordinate compression in 60 seconds — intuition first
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,Stop brute forcing: spot the Binary lifting beyond LCA trigger words
+DSA,DSA — Technique Patterns,Parametric search (BS on answer),Parametric search (BS on answer) vs brute force — when to switch and why
+DSA,DSA — Technique Patterns,Ternary search (unimodal),Top 7 mistakes in Ternary search (unimodal) that cost offers
+DSA,DSA — Technique Patterns,Prefix function vs Z — when which,From O(N^2) → O(N): optimize your Prefix function vs Z — when which
+DSA,DSA — Technique Patterns,Map problem to known pattern,"Map problem to known pattern for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Technique Patterns,Two pointers vs sliding window decision,Cricket chase strategy as Two pointers vs sliding window decision
+DSA,DSA — Technique Patterns,Monotonic stack/queue,Bengaluru commute planning via Monotonic stack/queue
+DSA,DSA — Technique Patterns,Hashing vs sorting tradeoffs,Big Billion Day queueing meets Hashing vs sorting tradeoffs
+DSA,DSA — Technique Patterns,Offline vs online strategies,UPI retry logic mirrors Offline vs online strategies
+DSA,DSA — Technique Patterns,Randomization (reservoir/Fisher–Yates),Cricket chase strategy as Randomization (reservoir/Fisher–Yates)
+DSA,DSA — Technique Patterns,Decompose by value vs index,Bengaluru commute planning via Decompose by value vs index
+DSA,DSA — Technique Patterns,Coordinate compression,Big Billion Day queueing meets Coordinate compression
+DSA,DSA — Technique Patterns,Binary lifting beyond LCA,UPI retry logic mirrors Binary lifting beyond LCA

@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,When to choose Prefix/suffix sums over segment tree
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Memory layouts: arrays & trees for Difference arrays (Imos)
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Idempotent vs non-idempotent ops in 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Pitfalls: 0/1-indexing & ranges in Sparse table (RMQ)
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Template showdown: clean API for Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,Why Segment tree scares 90% of interviewees (and how to master it)
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Lazy propagation in 60 seconds — intuition first
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Stop brute forcing: spot the Segment tree beats (concept) trigger words
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Merge sort tree vs brute force — when to switch and why
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Top 7 mistakes in Order statistic tree that cost offers
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,From O(N^2) → O(N): optimize your Sqrt decomposition
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,"Mo’s algorithm for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Think like an interviewer: how I grade your Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Whiteboard to code: Range gcd/min/max with edge cases
+DSA,DSA — Range Queries & Indexing,K-frequent in range,You don’t need to memorize — template for K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,"Prefix/suffix sums cheat sheet: patterns, templates, tests"
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Interview day checklist for Difference arrays (Imos)
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Draw this first: diagram that unlocks 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),The ‘aha!’ intuition behind Sparse table (RMQ)
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Hidden constraints that break Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,Dry run like a pro: Segment tree on real inputs
+DSA,DSA — Range Queries & Indexing,Lazy propagation,"Refactor a messy Lazy propagation into clean, fast code"
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Space vs time in Segment tree beats (concept): what to trade off
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Edge cases that break 8/10 Merge sort tree submissions
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Prove correctness for Order statistic tree in plain English
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Phone screen vs onsite: Sqrt decomposition differences
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Speedrun Mo’s algorithm: archetypes you must know
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Complexity showdown: naive vs optimal Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Debugging live: fix a broken Range gcd/min/max solution
+DSA,DSA — Range Queries & Indexing,K-frequent in range,"Off-by-one, bounds, and overflow in K-frequent in range"
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Simplify before you optimize: Prefix/suffix sums
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Unit tests that catch subtle Difference arrays (Imos) bugs
+DSA,DSA — Range Queries & Indexing,2D prefix sums,When to use hash maps / sets with 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Why your Sparse table (RMQ) TLEs at scale — and how to fix it
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Read the prompt: keywords that scream Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,Back-of-the-envelope complexity for Segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,One trick that simplifies most Lazy propagation questions
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Stop re-deriving! Reusable template for Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Edge vs corner cases — Merge sort tree edition
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Checklist before coding Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,When to choose Sqrt decomposition over segment tree
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Memory layouts: arrays & trees for Mo’s algorithm
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Idempotent vs non-idempotent ops in Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Pitfalls: 0/1-indexing & ranges in Range gcd/min/max
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Template showdown: clean API for K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Why Prefix/suffix sums scares 90% of interviewees (and how to master it)
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Difference arrays (Imos) in 60 seconds — intuition first
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Stop brute forcing: spot the 2D prefix sums trigger words
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Sparse table (RMQ) vs brute force — when to switch and why
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Top 7 mistakes in Fenwick/BIT that cost offers
+DSA,DSA — Range Queries & Indexing,Segment tree,From O(N^2) → O(N): optimize your Segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,"Lazy propagation for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Think like an interviewer: how I grade your Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Whiteboard to code: Merge sort tree with edge cases
+DSA,DSA — Range Queries & Indexing,Order statistic tree,You don’t need to memorize — template for Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,"Sqrt decomposition cheat sheet: patterns, templates, tests"
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Interview day checklist for Mo’s algorithm
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Draw this first: diagram that unlocks Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,The ‘aha!’ intuition behind Range gcd/min/max
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Hidden constraints that break K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Dry run like a pro: Prefix/suffix sums on real inputs
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),"Refactor a messy Difference arrays (Imos) into clean, fast code"
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Space vs time in 2D prefix sums: what to trade off
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Edge cases that break 8/10 Sparse table (RMQ) submissions
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Prove correctness for Fenwick/BIT in plain English
+DSA,DSA — Range Queries & Indexing,Segment tree,Phone screen vs onsite: Segment tree differences
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Speedrun Lazy propagation: archetypes you must know
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Complexity showdown: naive vs optimal Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Debugging live: fix a broken Merge sort tree solution
+DSA,DSA — Range Queries & Indexing,Order statistic tree,"Off-by-one, bounds, and overflow in Order statistic tree"
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Simplify before you optimize: Sqrt decomposition
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Unit tests that catch subtle Mo’s algorithm bugs
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,When to use hash maps / sets with Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Why your Range gcd/min/max TLEs at scale — and how to fix it
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Read the prompt: keywords that scream K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Back-of-the-envelope complexity for Prefix/suffix sums
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),One trick that simplifies most Difference arrays (Imos) questions
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Stop re-deriving! Reusable template for 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Edge vs corner cases — Sparse table (RMQ) edition
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Checklist before coding Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,When to choose Segment tree over segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Memory layouts: arrays & trees for Lazy propagation
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Idempotent vs non-idempotent ops in Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Pitfalls: 0/1-indexing & ranges in Merge sort tree
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Template showdown: clean API for Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Why Sqrt decomposition scares 90% of interviewees (and how to master it)
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Mo’s algorithm in 60 seconds — intuition first
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Stop brute forcing: spot the Offline queries with updates trigger words
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Range gcd/min/max vs brute force — when to switch and why
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Top 7 mistakes in K-frequent in range that cost offers
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,From O(N^2) → O(N): optimize your Prefix/suffix sums
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),"Difference arrays (Imos) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Think like an interviewer: how I grade your 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Whiteboard to code: Sparse table (RMQ) with edge cases
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,You don’t need to memorize — template for Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,"Segment tree cheat sheet: patterns, templates, tests"
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Interview day checklist for Lazy propagation
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Draw this first: diagram that unlocks Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,The ‘aha!’ intuition behind Merge sort tree
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Hidden constraints that break Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Dry run like a pro: Sqrt decomposition on real inputs
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,"Refactor a messy Mo’s algorithm into clean, fast code"
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Space vs time in Offline queries with updates: what to trade off
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Edge cases that break 8/10 Range gcd/min/max submissions
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Prove correctness for K-frequent in range in plain English
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Phone screen vs onsite: Prefix/suffix sums differences
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Speedrun Difference arrays (Imos): archetypes you must know
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Complexity showdown: naive vs optimal 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Debugging live: fix a broken Sparse table (RMQ) solution
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,"Off-by-one, bounds, and overflow in Fenwick/BIT"
+DSA,DSA — Range Queries & Indexing,Segment tree,Simplify before you optimize: Segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Unit tests that catch subtle Lazy propagation bugs
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),When to use hash maps / sets with Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Why your Merge sort tree TLEs at scale — and how to fix it
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Read the prompt: keywords that scream Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Back-of-the-envelope complexity for Sqrt decomposition
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,One trick that simplifies most Mo’s algorithm questions
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Stop re-deriving! Reusable template for Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Edge vs corner cases — Range gcd/min/max edition
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Checklist before coding K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,When to choose Prefix/suffix sums over segment tree
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Memory layouts: arrays & trees for Difference arrays (Imos)
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Idempotent vs non-idempotent ops in 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Pitfalls: 0/1-indexing & ranges in Sparse table (RMQ)
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Template showdown: clean API for Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,Why Segment tree scares 90% of interviewees (and how to master it)
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Lazy propagation in 60 seconds — intuition first
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Stop brute forcing: spot the Segment tree beats (concept) trigger words
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Merge sort tree vs brute force — when to switch and why
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Top 7 mistakes in Order statistic tree that cost offers
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,From O(N^2) → O(N): optimize your Sqrt decomposition
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,"Mo’s algorithm for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Think like an interviewer: how I grade your Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Whiteboard to code: Range gcd/min/max with edge cases
+DSA,DSA — Range Queries & Indexing,K-frequent in range,You don’t need to memorize — template for K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,"Prefix/suffix sums cheat sheet: patterns, templates, tests"
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Interview day checklist for Difference arrays (Imos)
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Draw this first: diagram that unlocks 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),The ‘aha!’ intuition behind Sparse table (RMQ)
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Hidden constraints that break Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,Dry run like a pro: Segment tree on real inputs
+DSA,DSA — Range Queries & Indexing,Lazy propagation,"Refactor a messy Lazy propagation into clean, fast code"
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Space vs time in Segment tree beats (concept): what to trade off
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Edge cases that break 8/10 Merge sort tree submissions
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Prove correctness for Order statistic tree in plain English
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Phone screen vs onsite: Sqrt decomposition differences
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Speedrun Mo’s algorithm: archetypes you must know
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Complexity showdown: naive vs optimal Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Debugging live: fix a broken Range gcd/min/max solution
+DSA,DSA — Range Queries & Indexing,K-frequent in range,"Off-by-one, bounds, and overflow in K-frequent in range"
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Simplify before you optimize: Prefix/suffix sums
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Unit tests that catch subtle Difference arrays (Imos) bugs
+DSA,DSA — Range Queries & Indexing,2D prefix sums,When to use hash maps / sets with 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Why your Sparse table (RMQ) TLEs at scale — and how to fix it
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Read the prompt: keywords that scream Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,Back-of-the-envelope complexity for Segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,One trick that simplifies most Lazy propagation questions
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Stop re-deriving! Reusable template for Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Edge vs corner cases — Merge sort tree edition
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Checklist before coding Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,When to choose Sqrt decomposition over segment tree
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Memory layouts: arrays & trees for Mo’s algorithm
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Idempotent vs non-idempotent ops in Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Pitfalls: 0/1-indexing & ranges in Range gcd/min/max
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Template showdown: clean API for K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Why Prefix/suffix sums scares 90% of interviewees (and how to master it)
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Difference arrays (Imos) in 60 seconds — intuition first
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Stop brute forcing: spot the 2D prefix sums trigger words
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Sparse table (RMQ) vs brute force — when to switch and why
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Top 7 mistakes in Fenwick/BIT that cost offers
+DSA,DSA — Range Queries & Indexing,Segment tree,From O(N^2) → O(N): optimize your Segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,"Lazy propagation for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Think like an interviewer: how I grade your Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Whiteboard to code: Merge sort tree with edge cases
+DSA,DSA — Range Queries & Indexing,Order statistic tree,You don’t need to memorize — template for Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,"Sqrt decomposition cheat sheet: patterns, templates, tests"
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Interview day checklist for Mo’s algorithm
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Draw this first: diagram that unlocks Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,The ‘aha!’ intuition behind Range gcd/min/max
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Hidden constraints that break K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Dry run like a pro: Prefix/suffix sums on real inputs
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),"Refactor a messy Difference arrays (Imos) into clean, fast code"
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Space vs time in 2D prefix sums: what to trade off
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Edge cases that break 8/10 Sparse table (RMQ) submissions
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Prove correctness for Fenwick/BIT in plain English
+DSA,DSA — Range Queries & Indexing,Segment tree,Phone screen vs onsite: Segment tree differences
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Speedrun Lazy propagation: archetypes you must know
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Complexity showdown: naive vs optimal Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Debugging live: fix a broken Merge sort tree solution
+DSA,DSA — Range Queries & Indexing,Order statistic tree,"Off-by-one, bounds, and overflow in Order statistic tree"
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Simplify before you optimize: Sqrt decomposition
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Unit tests that catch subtle Mo’s algorithm bugs
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,When to use hash maps / sets with Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Why your Range gcd/min/max TLEs at scale — and how to fix it
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Read the prompt: keywords that scream K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Back-of-the-envelope complexity for Prefix/suffix sums
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),One trick that simplifies most Difference arrays (Imos) questions
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Stop re-deriving! Reusable template for 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Edge vs corner cases — Sparse table (RMQ) edition
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Checklist before coding Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,When to choose Segment tree over segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Memory layouts: arrays & trees for Lazy propagation
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Idempotent vs non-idempotent ops in Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Pitfalls: 0/1-indexing & ranges in Merge sort tree
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Template showdown: clean API for Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Why Sqrt decomposition scares 90% of interviewees (and how to master it)
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Mo’s algorithm in 60 seconds — intuition first
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Stop brute forcing: spot the Offline queries with updates trigger words
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Range gcd/min/max vs brute force — when to switch and why
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Top 7 mistakes in K-frequent in range that cost offers
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,From O(N^2) → O(N): optimize your Prefix/suffix sums
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),"Difference arrays (Imos) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Think like an interviewer: how I grade your 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Whiteboard to code: Sparse table (RMQ) with edge cases
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,You don’t need to memorize — template for Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,"Segment tree cheat sheet: patterns, templates, tests"
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Interview day checklist for Lazy propagation
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Draw this first: diagram that unlocks Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,The ‘aha!’ intuition behind Merge sort tree
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Hidden constraints that break Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Dry run like a pro: Sqrt decomposition on real inputs
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,"Refactor a messy Mo’s algorithm into clean, fast code"
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Space vs time in Offline queries with updates: what to trade off
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Edge cases that break 8/10 Range gcd/min/max submissions
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Prove correctness for K-frequent in range in plain English
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Phone screen vs onsite: Prefix/suffix sums differences
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Speedrun Difference arrays (Imos): archetypes you must know
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Complexity showdown: naive vs optimal 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Debugging live: fix a broken Sparse table (RMQ) solution
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,"Off-by-one, bounds, and overflow in Fenwick/BIT"
+DSA,DSA — Range Queries & Indexing,Segment tree,Simplify before you optimize: Segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Unit tests that catch subtle Lazy propagation bugs
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),When to use hash maps / sets with Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Why your Merge sort tree TLEs at scale — and how to fix it
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Read the prompt: keywords that scream Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Back-of-the-envelope complexity for Sqrt decomposition
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,One trick that simplifies most Mo’s algorithm questions
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Stop re-deriving! Reusable template for Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Edge vs corner cases — Range gcd/min/max edition
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Checklist before coding K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,When to choose Prefix/suffix sums over segment tree
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Memory layouts: arrays & trees for Difference arrays (Imos)
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Idempotent vs non-idempotent ops in 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Pitfalls: 0/1-indexing & ranges in Sparse table (RMQ)
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Template showdown: clean API for Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,Why Segment tree scares 90% of interviewees (and how to master it)
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Lazy propagation in 60 seconds — intuition first
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Stop brute forcing: spot the Segment tree beats (concept) trigger words
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Merge sort tree vs brute force — when to switch and why
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Top 7 mistakes in Order statistic tree that cost offers
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,From O(N^2) → O(N): optimize your Sqrt decomposition
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,"Mo’s algorithm for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Think like an interviewer: how I grade your Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Whiteboard to code: Range gcd/min/max with edge cases
+DSA,DSA — Range Queries & Indexing,K-frequent in range,You don’t need to memorize — template for K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,"Prefix/suffix sums cheat sheet: patterns, templates, tests"
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Interview day checklist for Difference arrays (Imos)
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Draw this first: diagram that unlocks 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),The ‘aha!’ intuition behind Sparse table (RMQ)
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Hidden constraints that break Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,Dry run like a pro: Segment tree on real inputs
+DSA,DSA — Range Queries & Indexing,Lazy propagation,"Refactor a messy Lazy propagation into clean, fast code"
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Space vs time in Segment tree beats (concept): what to trade off
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Edge cases that break 8/10 Merge sort tree submissions
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Prove correctness for Order statistic tree in plain English
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Phone screen vs onsite: Sqrt decomposition differences
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Speedrun Mo’s algorithm: archetypes you must know
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Complexity showdown: naive vs optimal Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Debugging live: fix a broken Range gcd/min/max solution
+DSA,DSA — Range Queries & Indexing,K-frequent in range,"Off-by-one, bounds, and overflow in K-frequent in range"
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Simplify before you optimize: Prefix/suffix sums
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Unit tests that catch subtle Difference arrays (Imos) bugs
+DSA,DSA — Range Queries & Indexing,2D prefix sums,When to use hash maps / sets with 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Why your Sparse table (RMQ) TLEs at scale — and how to fix it
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Read the prompt: keywords that scream Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,Back-of-the-envelope complexity for Segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,One trick that simplifies most Lazy propagation questions
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Stop re-deriving! Reusable template for Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Edge vs corner cases — Merge sort tree edition
+DSA,DSA — Range Queries & Indexing,Order statistic tree,Checklist before coding Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,When to choose Sqrt decomposition over segment tree
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Memory layouts: arrays & trees for Mo’s algorithm
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Idempotent vs non-idempotent ops in Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,Pitfalls: 0/1-indexing & ranges in Range gcd/min/max
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Template showdown: clean API for K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Why Prefix/suffix sums scares 90% of interviewees (and how to master it)
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Difference arrays (Imos) in 60 seconds — intuition first
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Stop brute forcing: spot the 2D prefix sums trigger words
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Sparse table (RMQ) vs brute force — when to switch and why
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Top 7 mistakes in Fenwick/BIT that cost offers
+DSA,DSA — Range Queries & Indexing,Segment tree,From O(N^2) → O(N): optimize your Segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,"Lazy propagation for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Think like an interviewer: how I grade your Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Whiteboard to code: Merge sort tree with edge cases
+DSA,DSA — Range Queries & Indexing,Order statistic tree,You don’t need to memorize — template for Order statistic tree
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,"Sqrt decomposition cheat sheet: patterns, templates, tests"
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Interview day checklist for Mo’s algorithm
+DSA,DSA — Range Queries & Indexing,Offline queries with updates,Draw this first: diagram that unlocks Offline queries with updates
+DSA,DSA — Range Queries & Indexing,Range gcd/min/max,The ‘aha!’ intuition behind Range gcd/min/max
+DSA,DSA — Range Queries & Indexing,K-frequent in range,Hidden constraints that break K-frequent in range
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Dry run like a pro: Prefix/suffix sums on real inputs
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),"Refactor a messy Difference arrays (Imos) into clean, fast code"
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Space vs time in 2D prefix sums: what to trade off
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),Edge cases that break 8/10 Sparse table (RMQ) submissions
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Prove correctness for Fenwick/BIT in plain English
+DSA,DSA — Range Queries & Indexing,Segment tree,Phone screen vs onsite: Segment tree differences
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Speedrun Lazy propagation: archetypes you must know
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),Complexity showdown: naive vs optimal Segment tree beats (concept)
+DSA,DSA — Range Queries & Indexing,Merge sort tree,Debugging live: fix a broken Merge sort tree solution
+DSA,DSA — Range Queries & Indexing,Order statistic tree,"Off-by-one, bounds, and overflow in Order statistic tree"
+DSA,DSA — Range Queries & Indexing,Sqrt decomposition,Simplify before you optimize: Sqrt decomposition
+DSA,DSA — Range Queries & Indexing,Mo’s algorithm,Unit tests that catch subtle Mo’s algorithm bugs
+DSA,DSA — Range Queries & Indexing,Prefix/suffix sums,Cricket over-by-over stats as Prefix/suffix sums
+DSA,DSA — Range Queries & Indexing,Difference arrays (Imos),Warehouse inventory deltas as Difference arrays (Imos)
+DSA,DSA — Range Queries & Indexing,2D prefix sums,Traffic flow snapshots as 2D prefix sums
+DSA,DSA — Range Queries & Indexing,Sparse table (RMQ),UPI daily totals rolling up via Sparse table (RMQ)
+DSA,DSA — Range Queries & Indexing,Fenwick/BIT,Cricket over-by-over stats as Fenwick/BIT
+DSA,DSA — Range Queries & Indexing,Segment tree,Warehouse inventory deltas as Segment tree
+DSA,DSA — Range Queries & Indexing,Lazy propagation,Traffic flow snapshots as Lazy propagation
+DSA,DSA — Range Queries & Indexing,Segment tree beats (concept),UPI daily totals rolling up via Segment tree beats (concept)

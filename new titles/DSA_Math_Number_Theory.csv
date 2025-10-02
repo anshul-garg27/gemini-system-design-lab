@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Math & Number Theory,GCD/LCM,Overflow-safe math patterns for GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,Mod math pitfalls: negatives & wrapping in Extended Euclid
+DSA,DSA — Math & Number Theory,Modular exponentiation,Proof sketch you can explain for Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,When to precompute vs on-the-fly for Modular inverse
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Brute → optimized journey for Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,Why Segmented sieve scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Euler’s totient (phi) in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Stop brute forcing: spot the CRT (Chinese remainder) trigger words
+DSA,DSA — Math & Number Theory,nCr modulo,nCr modulo vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Top 7 mistakes in Fermat/Lucas theorems (intro) that cost offers
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,From O(N^2) → O(N): optimize your Miller–Rabin primality
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),"Pollard Rho (concept) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Think like an interviewer: how I grade your Inclusion–exclusion
+DSA,DSA — Math & Number Theory,Derangements,Whiteboard to code: Derangements with edge cases
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,You don’t need to memorize — template for Meet-in-the-middle
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),"Fast Walsh–Hadamard (XOR conv) (mention) cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,GCD/LCM,Interview day checklist for GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,The ‘aha!’ intuition behind Extended Euclid
+DSA,DSA — Math & Number Theory,Modular exponentiation,Hidden constraints that break Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,Prove correctness for Modular inverse in plain English
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Speedrun Sieve of Eratosthenes: archetypes you must know
+DSA,DSA — Math & Number Theory,Segmented sieve,Complexity showdown: naive vs optimal Segmented sieve
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Unit tests that catch subtle Euler’s totient (phi) bugs
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Back-of-the-envelope complexity for CRT (Chinese remainder)
+DSA,DSA — Math & Number Theory,nCr modulo,One trick that simplifies most nCr modulo questions
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Overflow-safe math patterns for Fermat/Lucas theorems (intro)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Mod math pitfalls: negatives & wrapping in Miller–Rabin primality
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Proof sketch you can explain for Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,When to precompute vs on-the-fly for Inclusion–exclusion
+DSA,DSA — Math & Number Theory,Derangements,Brute → optimized journey for Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Why Meet-in-the-middle scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Fast Walsh–Hadamard (XOR conv) (mention) in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,GCD/LCM,Stop brute forcing: spot the GCD/LCM trigger words
+DSA,DSA — Math & Number Theory,Extended Euclid,Extended Euclid vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Modular exponentiation,Top 7 mistakes in Modular exponentiation that cost offers
+DSA,DSA — Math & Number Theory,Modular inverse,From O(N^2) → O(N): optimize your Modular inverse
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,"Sieve of Eratosthenes for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,Segmented sieve,Think like an interviewer: how I grade your Segmented sieve
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Whiteboard to code: Euler’s totient (phi) with edge cases
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),You don’t need to memorize — template for CRT (Chinese remainder)
+DSA,DSA — Math & Number Theory,nCr modulo,"nCr modulo cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Interview day checklist for Fermat/Lucas theorems (intro)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,The ‘aha!’ intuition behind Miller–Rabin primality
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Hidden constraints that break Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Prove correctness for Inclusion–exclusion in plain English
+DSA,DSA — Math & Number Theory,Derangements,Speedrun Derangements: archetypes you must know
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Complexity showdown: naive vs optimal Meet-in-the-middle
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Unit tests that catch subtle Fast Walsh–Hadamard (XOR conv) (mention) bugs
+DSA,DSA — Math & Number Theory,GCD/LCM,Back-of-the-envelope complexity for GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,One trick that simplifies most Extended Euclid questions
+DSA,DSA — Math & Number Theory,Modular exponentiation,Overflow-safe math patterns for Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,Mod math pitfalls: negatives & wrapping in Modular inverse
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Proof sketch you can explain for Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,When to precompute vs on-the-fly for Segmented sieve
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Brute → optimized journey for Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Why CRT (Chinese remainder) scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,nCr modulo,nCr modulo in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Stop brute forcing: spot the Fermat/Lucas theorems (intro) trigger words
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Miller–Rabin primality vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Top 7 mistakes in Pollard Rho (concept) that cost offers
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,From O(N^2) → O(N): optimize your Inclusion–exclusion
+DSA,DSA — Math & Number Theory,Derangements,"Derangements for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Think like an interviewer: how I grade your Meet-in-the-middle
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Whiteboard to code: Fast Walsh–Hadamard (XOR conv) (mention) with edge cases
+DSA,DSA — Math & Number Theory,GCD/LCM,You don’t need to memorize — template for GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,"Extended Euclid cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,Modular exponentiation,Interview day checklist for Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,The ‘aha!’ intuition behind Modular inverse
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Hidden constraints that break Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,Prove correctness for Segmented sieve in plain English
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Speedrun Euler’s totient (phi): archetypes you must know
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Complexity showdown: naive vs optimal CRT (Chinese remainder)
+DSA,DSA — Math & Number Theory,nCr modulo,Unit tests that catch subtle nCr modulo bugs
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Back-of-the-envelope complexity for Fermat/Lucas theorems (intro)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,One trick that simplifies most Miller–Rabin primality questions
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Overflow-safe math patterns for Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Mod math pitfalls: negatives & wrapping in Inclusion–exclusion
+DSA,DSA — Math & Number Theory,Derangements,Proof sketch you can explain for Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,When to precompute vs on-the-fly for Meet-in-the-middle
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Brute → optimized journey for Fast Walsh–Hadamard (XOR conv) (mention)
+DSA,DSA — Math & Number Theory,GCD/LCM,Why GCD/LCM scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,Extended Euclid,Extended Euclid in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,Modular exponentiation,Stop brute forcing: spot the Modular exponentiation trigger words
+DSA,DSA — Math & Number Theory,Modular inverse,Modular inverse vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Top 7 mistakes in Sieve of Eratosthenes that cost offers
+DSA,DSA — Math & Number Theory,Segmented sieve,From O(N^2) → O(N): optimize your Segmented sieve
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),"Euler’s totient (phi) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Think like an interviewer: how I grade your CRT (Chinese remainder)
+DSA,DSA — Math & Number Theory,nCr modulo,Whiteboard to code: nCr modulo with edge cases
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),You don’t need to memorize — template for Fermat/Lucas theorems (intro)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,"Miller–Rabin primality cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Interview day checklist for Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,The ‘aha!’ intuition behind Inclusion–exclusion
+DSA,DSA — Math & Number Theory,Derangements,Hidden constraints that break Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Prove correctness for Meet-in-the-middle in plain English
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Speedrun Fast Walsh–Hadamard (XOR conv) (mention): archetypes you must know
+DSA,DSA — Math & Number Theory,GCD/LCM,Complexity showdown: naive vs optimal GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,Unit tests that catch subtle Extended Euclid bugs
+DSA,DSA — Math & Number Theory,Modular exponentiation,Back-of-the-envelope complexity for Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,One trick that simplifies most Modular inverse questions
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Overflow-safe math patterns for Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,Mod math pitfalls: negatives & wrapping in Segmented sieve
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Proof sketch you can explain for Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),When to precompute vs on-the-fly for CRT (Chinese remainder)
+DSA,DSA — Math & Number Theory,nCr modulo,Brute → optimized journey for nCr modulo
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Why Fermat/Lucas theorems (intro) scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Miller–Rabin primality in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Stop brute forcing: spot the Pollard Rho (concept) trigger words
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Inclusion–exclusion vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Derangements,Top 7 mistakes in Derangements that cost offers
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,From O(N^2) → O(N): optimize your Meet-in-the-middle
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),"Fast Walsh–Hadamard (XOR conv) (mention) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,GCD/LCM,Think like an interviewer: how I grade your GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,Whiteboard to code: Extended Euclid with edge cases
+DSA,DSA — Math & Number Theory,Modular exponentiation,You don’t need to memorize — template for Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,"Modular inverse cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Interview day checklist for Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,The ‘aha!’ intuition behind Segmented sieve
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Hidden constraints that break Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Prove correctness for CRT (Chinese remainder) in plain English
+DSA,DSA — Math & Number Theory,nCr modulo,Speedrun nCr modulo: archetypes you must know
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Complexity showdown: naive vs optimal Fermat/Lucas theorems (intro)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Unit tests that catch subtle Miller–Rabin primality bugs
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Back-of-the-envelope complexity for Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,One trick that simplifies most Inclusion–exclusion questions
+DSA,DSA — Math & Number Theory,Derangements,Overflow-safe math patterns for Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Mod math pitfalls: negatives & wrapping in Meet-in-the-middle
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Proof sketch you can explain for Fast Walsh–Hadamard (XOR conv) (mention)
+DSA,DSA — Math & Number Theory,GCD/LCM,When to precompute vs on-the-fly for GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,Brute → optimized journey for Extended Euclid
+DSA,DSA — Math & Number Theory,Modular exponentiation,Why Modular exponentiation scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,Modular inverse,Modular inverse in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Stop brute forcing: spot the Sieve of Eratosthenes trigger words
+DSA,DSA — Math & Number Theory,Segmented sieve,Segmented sieve vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Top 7 mistakes in Euler’s totient (phi) that cost offers
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),From O(N^2) → O(N): optimize your CRT (Chinese remainder)
+DSA,DSA — Math & Number Theory,nCr modulo,"nCr modulo for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Think like an interviewer: how I grade your Fermat/Lucas theorems (intro)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Whiteboard to code: Miller–Rabin primality with edge cases
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),You don’t need to memorize — template for Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,"Inclusion–exclusion cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,Derangements,Interview day checklist for Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,The ‘aha!’ intuition behind Meet-in-the-middle
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Hidden constraints that break Fast Walsh–Hadamard (XOR conv) (mention)
+DSA,DSA — Math & Number Theory,GCD/LCM,Prove correctness for GCD/LCM in plain English
+DSA,DSA — Math & Number Theory,Extended Euclid,Speedrun Extended Euclid: archetypes you must know
+DSA,DSA — Math & Number Theory,Modular exponentiation,Complexity showdown: naive vs optimal Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,Unit tests that catch subtle Modular inverse bugs
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Back-of-the-envelope complexity for Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,One trick that simplifies most Segmented sieve questions
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Overflow-safe math patterns for Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Mod math pitfalls: negatives & wrapping in CRT (Chinese remainder)
+DSA,DSA — Math & Number Theory,nCr modulo,Proof sketch you can explain for nCr modulo
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),When to precompute vs on-the-fly for Fermat/Lucas theorems (intro)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Brute → optimized journey for Miller–Rabin primality
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Why Pollard Rho (concept) scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Inclusion–exclusion in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,Derangements,Stop brute forcing: spot the Derangements trigger words
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Meet-in-the-middle vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Top 7 mistakes in Fast Walsh–Hadamard (XOR conv) (mention) that cost offers
+DSA,DSA — Math & Number Theory,GCD/LCM,From O(N^2) → O(N): optimize your GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,"Extended Euclid for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,Modular exponentiation,Think like an interviewer: how I grade your Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,Whiteboard to code: Modular inverse with edge cases
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,You don’t need to memorize — template for Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,"Segmented sieve cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Interview day checklist for Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),The ‘aha!’ intuition behind CRT (Chinese remainder)
+DSA,DSA — Math & Number Theory,nCr modulo,Hidden constraints that break nCr modulo
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Prove correctness for Fermat/Lucas theorems (intro) in plain English
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Speedrun Miller–Rabin primality: archetypes you must know
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Complexity showdown: naive vs optimal Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Unit tests that catch subtle Inclusion–exclusion bugs
+DSA,DSA — Math & Number Theory,Derangements,Back-of-the-envelope complexity for Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,One trick that simplifies most Meet-in-the-middle questions
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Overflow-safe math patterns for Fast Walsh–Hadamard (XOR conv) (mention)
+DSA,DSA — Math & Number Theory,GCD/LCM,Mod math pitfalls: negatives & wrapping in GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,Proof sketch you can explain for Extended Euclid
+DSA,DSA — Math & Number Theory,Modular exponentiation,When to precompute vs on-the-fly for Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,Brute → optimized journey for Modular inverse
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Why Sieve of Eratosthenes scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,Segmented sieve,Segmented sieve in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Stop brute forcing: spot the Euler’s totient (phi) trigger words
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),CRT (Chinese remainder) vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,nCr modulo,Top 7 mistakes in nCr modulo that cost offers
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),From O(N^2) → O(N): optimize your Fermat/Lucas theorems (intro)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,"Miller–Rabin primality for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Think like an interviewer: how I grade your Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Whiteboard to code: Inclusion–exclusion with edge cases
+DSA,DSA — Math & Number Theory,Derangements,You don’t need to memorize — template for Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,"Meet-in-the-middle cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Interview day checklist for Fast Walsh–Hadamard (XOR conv) (mention)
+DSA,DSA — Math & Number Theory,GCD/LCM,The ‘aha!’ intuition behind GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,Hidden constraints that break Extended Euclid
+DSA,DSA — Math & Number Theory,Modular exponentiation,Prove correctness for Modular exponentiation in plain English
+DSA,DSA — Math & Number Theory,Modular inverse,Speedrun Modular inverse: archetypes you must know
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Complexity showdown: naive vs optimal Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,Unit tests that catch subtle Segmented sieve bugs
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Back-of-the-envelope complexity for Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),One trick that simplifies most CRT (Chinese remainder) questions
+DSA,DSA — Math & Number Theory,nCr modulo,Overflow-safe math patterns for nCr modulo
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Mod math pitfalls: negatives & wrapping in Fermat/Lucas theorems (intro)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Proof sketch you can explain for Miller–Rabin primality
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),When to precompute vs on-the-fly for Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Brute → optimized journey for Inclusion–exclusion
+DSA,DSA — Math & Number Theory,Derangements,Why Derangements scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Meet-in-the-middle in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Stop brute forcing: spot the Fast Walsh–Hadamard (XOR conv) (mention) trigger words
+DSA,DSA — Math & Number Theory,GCD/LCM,GCD/LCM vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Extended Euclid,Top 7 mistakes in Extended Euclid that cost offers
+DSA,DSA — Math & Number Theory,Modular exponentiation,From O(N^2) → O(N): optimize your Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,"Modular inverse for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Think like an interviewer: how I grade your Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,Whiteboard to code: Segmented sieve with edge cases
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),You don’t need to memorize — template for Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),"CRT (Chinese remainder) cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,nCr modulo,Interview day checklist for nCr modulo
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),The ‘aha!’ intuition behind Fermat/Lucas theorems (intro)
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Hidden constraints that break Miller–Rabin primality
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Prove correctness for Pollard Rho (concept) in plain English
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Speedrun Inclusion–exclusion: archetypes you must know
+DSA,DSA — Math & Number Theory,Derangements,Complexity showdown: naive vs optimal Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Unit tests that catch subtle Meet-in-the-middle bugs
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Back-of-the-envelope complexity for Fast Walsh–Hadamard (XOR conv) (mention)
+DSA,DSA — Math & Number Theory,GCD/LCM,One trick that simplifies most GCD/LCM questions
+DSA,DSA — Math & Number Theory,Extended Euclid,Overflow-safe math patterns for Extended Euclid
+DSA,DSA — Math & Number Theory,Modular exponentiation,Mod math pitfalls: negatives & wrapping in Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,Proof sketch you can explain for Modular inverse
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,When to precompute vs on-the-fly for Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,Brute → optimized journey for Segmented sieve
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Why Euler’s totient (phi) scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),CRT (Chinese remainder) in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,nCr modulo,Stop brute forcing: spot the nCr modulo trigger words
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Fermat/Lucas theorems (intro) vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Top 7 mistakes in Miller–Rabin primality that cost offers
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),From O(N^2) → O(N): optimize your Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,"Inclusion–exclusion for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,Derangements,Think like an interviewer: how I grade your Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Whiteboard to code: Meet-in-the-middle with edge cases
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),You don’t need to memorize — template for Fast Walsh–Hadamard (XOR conv) (mention)
+DSA,DSA — Math & Number Theory,GCD/LCM,"GCD/LCM cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,Extended Euclid,Interview day checklist for Extended Euclid
+DSA,DSA — Math & Number Theory,Modular exponentiation,The ‘aha!’ intuition behind Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,Hidden constraints that break Modular inverse
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Prove correctness for Sieve of Eratosthenes in plain English
+DSA,DSA — Math & Number Theory,Segmented sieve,Speedrun Segmented sieve: archetypes you must know
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Complexity showdown: naive vs optimal Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Unit tests that catch subtle CRT (Chinese remainder) bugs
+DSA,DSA — Math & Number Theory,nCr modulo,Back-of-the-envelope complexity for nCr modulo
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),One trick that simplifies most Fermat/Lucas theorems (intro) questions
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Overflow-safe math patterns for Miller–Rabin primality
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Mod math pitfalls: negatives & wrapping in Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Proof sketch you can explain for Inclusion–exclusion
+DSA,DSA — Math & Number Theory,Derangements,When to precompute vs on-the-fly for Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Brute → optimized journey for Meet-in-the-middle
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Why Fast Walsh–Hadamard (XOR conv) (mention) scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,GCD/LCM,GCD/LCM in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,Extended Euclid,Stop brute forcing: spot the Extended Euclid trigger words
+DSA,DSA — Math & Number Theory,Modular exponentiation,Modular exponentiation vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Modular inverse,Top 7 mistakes in Modular inverse that cost offers
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,From O(N^2) → O(N): optimize your Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,"Segmented sieve for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Think like an interviewer: how I grade your Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Whiteboard to code: CRT (Chinese remainder) with edge cases
+DSA,DSA — Math & Number Theory,nCr modulo,You don’t need to memorize — template for nCr modulo
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),"Fermat/Lucas theorems (intro) cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Interview day checklist for Miller–Rabin primality
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),The ‘aha!’ intuition behind Pollard Rho (concept)
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Hidden constraints that break Inclusion–exclusion
+DSA,DSA — Math & Number Theory,Derangements,Prove correctness for Derangements in plain English
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Speedrun Meet-in-the-middle: archetypes you must know
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Complexity showdown: naive vs optimal Fast Walsh–Hadamard (XOR conv) (mention)
+DSA,DSA — Math & Number Theory,GCD/LCM,Unit tests that catch subtle GCD/LCM bugs
+DSA,DSA — Math & Number Theory,Extended Euclid,Back-of-the-envelope complexity for Extended Euclid
+DSA,DSA — Math & Number Theory,Modular exponentiation,One trick that simplifies most Modular exponentiation questions
+DSA,DSA — Math & Number Theory,Modular inverse,Overflow-safe math patterns for Modular inverse
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Mod math pitfalls: negatives & wrapping in Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,Proof sketch you can explain for Segmented sieve
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),When to precompute vs on-the-fly for Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Brute → optimized journey for CRT (Chinese remainder)
+DSA,DSA — Math & Number Theory,nCr modulo,Why nCr modulo scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Fermat/Lucas theorems (intro) in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Stop brute forcing: spot the Miller–Rabin primality trigger words
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),Pollard Rho (concept) vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Top 7 mistakes in Inclusion–exclusion that cost offers
+DSA,DSA — Math & Number Theory,Derangements,From O(N^2) → O(N): optimize your Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,"Meet-in-the-middle for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),Think like an interviewer: how I grade your Fast Walsh–Hadamard (XOR conv) (mention)
+DSA,DSA — Math & Number Theory,GCD/LCM,Whiteboard to code: GCD/LCM with edge cases
+DSA,DSA — Math & Number Theory,Extended Euclid,You don’t need to memorize — template for Extended Euclid
+DSA,DSA — Math & Number Theory,Modular exponentiation,"Modular exponentiation cheat sheet: patterns, templates, tests"
+DSA,DSA — Math & Number Theory,Modular inverse,Interview day checklist for Modular inverse
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,The ‘aha!’ intuition behind Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,Hidden constraints that break Segmented sieve
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Prove correctness for Euler’s totient (phi) in plain English
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Speedrun CRT (Chinese remainder): archetypes you must know
+DSA,DSA — Math & Number Theory,nCr modulo,Complexity showdown: naive vs optimal nCr modulo
+DSA,DSA — Math & Number Theory,Fermat/Lucas theorems (intro),Unit tests that catch subtle Fermat/Lucas theorems (intro) bugs
+DSA,DSA — Math & Number Theory,Miller–Rabin primality,Back-of-the-envelope complexity for Miller–Rabin primality
+DSA,DSA — Math & Number Theory,Pollard Rho (concept),One trick that simplifies most Pollard Rho (concept) questions
+DSA,DSA — Math & Number Theory,Inclusion–exclusion,Overflow-safe math patterns for Inclusion–exclusion
+DSA,DSA — Math & Number Theory,Derangements,Mod math pitfalls: negatives & wrapping in Derangements
+DSA,DSA — Math & Number Theory,Meet-in-the-middle,Proof sketch you can explain for Meet-in-the-middle
+DSA,DSA — Math & Number Theory,Fast Walsh–Hadamard (XOR conv) (mention),When to precompute vs on-the-fly for Fast Walsh–Hadamard (XOR conv) (mention)
+DSA,DSA — Math & Number Theory,GCD/LCM,Brute → optimized journey for GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,Why Extended Euclid scares 90% of interviewees (and how to master it)
+DSA,DSA — Math & Number Theory,Modular exponentiation,Modular exponentiation in 60 seconds — intuition first
+DSA,DSA — Math & Number Theory,Modular inverse,Stop brute forcing: spot the Modular inverse trigger words
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,Sieve of Eratosthenes vs brute force — when to switch and why
+DSA,DSA — Math & Number Theory,Segmented sieve,Top 7 mistakes in Segmented sieve that cost offers
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),From O(N^2) → O(N): optimize your Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),"CRT (Chinese remainder) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Math & Number Theory,GCD/LCM,GST bills & modulo in GCD/LCM
+DSA,DSA — Math & Number Theory,Extended Euclid,UPI transaction IDs & primes in Extended Euclid
+DSA,DSA — Math & Number Theory,Modular exponentiation,Cricket combinations and Modular exponentiation
+DSA,DSA — Math & Number Theory,Modular inverse,Traffic gcd/lcm cycles as Modular inverse
+DSA,DSA — Math & Number Theory,Sieve of Eratosthenes,GST bills & modulo in Sieve of Eratosthenes
+DSA,DSA — Math & Number Theory,Segmented sieve,UPI transaction IDs & primes in Segmented sieve
+DSA,DSA — Math & Number Theory,Euler’s totient (phi),Cricket combinations and Euler’s totient (phi)
+DSA,DSA — Math & Number Theory,CRT (Chinese remainder),Traffic gcd/lcm cycles as CRT (Chinese remainder)

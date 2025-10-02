@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Choosing the right shard key — leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Hot partitions & how synchronous vs asynchronous replication mitigates them
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Blueprint: blue/green & rolling upgrades with quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Chaos drills to validate read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Cost/perf tradeoffs in geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,How partitioning vs sharding makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,"range vs hash sharding in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Stop guessing: read query plans to master consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,From slow to snappy: refactor with failover & elections live
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Top 7 mistakes in backups & PITR (point-in-time recovery) that cost outages
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Edge cases that break 8/10 CDC (change data capture) designs
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Naive vs optimal: complexity tradeoffs in leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Whiteboard to prod: applying synchronous vs asynchronous replication with guardrails
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Explain like I’m 5: quorums & consensus (Raft/Paxos) without jargon
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Interview day checklist: read replicas & lag in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,The mental model that unlocks geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,What every backend dev should know about partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Common myths about range vs hash sharding — busted
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Production checklists for consistent hashing: observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Cost traps: make failover & elections fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Pitfalls: consistency surprises inside backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Do’s & don’ts: clean APIs around CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Debugging live: fix a broken leader-follower replication in minutes
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Read/Write patterns that pair best with synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Tuning knobs for quorums & consensus (Raft/Paxos): safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,How to demo read replicas & lag in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Choosing the right shard key — geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Hot partitions & how partitioning vs sharding mitigates them
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Blueprint: blue/green & rolling upgrades with range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Chaos drills to validate consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Cost/perf tradeoffs in failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),How backups & PITR (point-in-time recovery) makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),"CDC (change data capture) in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Stop guessing: read query plans to master leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,From slow to snappy: refactor with synchronous vs asynchronous replication live
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Top 7 mistakes in quorums & consensus (Raft/Paxos) that cost outages
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Edge cases that break 8/10 read replicas & lag designs
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Naive vs optimal: complexity tradeoffs in geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Whiteboard to prod: applying partitioning vs sharding with guardrails
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Explain like I’m 5: range vs hash sharding without jargon
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Interview day checklist: consistent hashing in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",failover & elections,The mental model that unlocks failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),What every backend dev should know about backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Common myths about CDC (change data capture) — busted
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Production checklists for leader-follower replication: observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Cost traps: make synchronous vs asynchronous replication fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Pitfalls: consistency surprises inside quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Do’s & don’ts: clean APIs around read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Debugging live: fix a broken geo-replication & latency in minutes
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Read/Write patterns that pair best with partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Tuning knobs for range vs hash sharding: safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,How to demo consistent hashing in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Choosing the right shard key — failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Hot partitions & how backups & PITR (point-in-time recovery) mitigates them
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Blueprint: blue/green & rolling upgrades with CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Chaos drills to validate leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Cost/perf tradeoffs in synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),How quorums & consensus (Raft/Paxos) makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,"read replicas & lag in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Stop guessing: read query plans to master geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,From slow to snappy: refactor with partitioning vs sharding live
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Top 7 mistakes in range vs hash sharding that cost outages
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Edge cases that break 8/10 consistent hashing designs
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Naive vs optimal: complexity tradeoffs in failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Whiteboard to prod: applying backups & PITR (point-in-time recovery) with guardrails
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Explain like I’m 5: CDC (change data capture) without jargon
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Interview day checklist: leader-follower replication in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,The mental model that unlocks synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),What every backend dev should know about quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Common myths about read replicas & lag — busted
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Production checklists for geo-replication & latency: observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Cost traps: make partitioning vs sharding fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Pitfalls: consistency surprises inside range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Do’s & don’ts: clean APIs around consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Debugging live: fix a broken failover & elections in minutes
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Read/Write patterns that pair best with backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Tuning knobs for CDC (change data capture): safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,How to demo leader-follower replication in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Choosing the right shard key — synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Hot partitions & how quorums & consensus (Raft/Paxos) mitigates them
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Blueprint: blue/green & rolling upgrades with read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Chaos drills to validate geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Cost/perf tradeoffs in partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,How range vs hash sharding makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,"consistent hashing in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Stop guessing: read query plans to master failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),From slow to snappy: refactor with backups & PITR (point-in-time recovery) live
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Top 7 mistakes in CDC (change data capture) that cost outages
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Edge cases that break 8/10 leader-follower replication designs
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Naive vs optimal: complexity tradeoffs in synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Whiteboard to prod: applying quorums & consensus (Raft/Paxos) with guardrails
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Explain like I’m 5: read replicas & lag without jargon
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Interview day checklist: geo-replication & latency in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,The mental model that unlocks partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,What every backend dev should know about range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Common myths about consistent hashing — busted
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Production checklists for failover & elections: observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Cost traps: make backups & PITR (point-in-time recovery) fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Pitfalls: consistency surprises inside CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Do’s & don’ts: clean APIs around leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Debugging live: fix a broken synchronous vs asynchronous replication in minutes
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Read/Write patterns that pair best with quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Tuning knobs for read replicas & lag: safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,How to demo geo-replication & latency in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Choosing the right shard key — partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Hot partitions & how range vs hash sharding mitigates them
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Blueprint: blue/green & rolling upgrades with consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Chaos drills to validate failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Cost/perf tradeoffs in backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),How CDC (change data capture) makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,"leader-follower replication in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Stop guessing: read query plans to master synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),From slow to snappy: refactor with quorums & consensus (Raft/Paxos) live
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Top 7 mistakes in read replicas & lag that cost outages
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Edge cases that break 8/10 geo-replication & latency designs
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Naive vs optimal: complexity tradeoffs in partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Whiteboard to prod: applying range vs hash sharding with guardrails
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Explain like I’m 5: consistent hashing without jargon
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Interview day checklist: failover & elections in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),The mental model that unlocks backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),What every backend dev should know about CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Common myths about leader-follower replication — busted
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Production checklists for synchronous vs asynchronous replication: observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Cost traps: make quorums & consensus (Raft/Paxos) fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Pitfalls: consistency surprises inside read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Do’s & don’ts: clean APIs around geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Debugging live: fix a broken partitioning vs sharding in minutes
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Read/Write patterns that pair best with range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Tuning knobs for consistent hashing: safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",failover & elections,How to demo failover & elections in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Choosing the right shard key — backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Hot partitions & how CDC (change data capture) mitigates them
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Blueprint: blue/green & rolling upgrades with leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Chaos drills to validate synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Cost/perf tradeoffs in quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,How read replicas & lag makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,"geo-replication & latency in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Stop guessing: read query plans to master partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,From slow to snappy: refactor with range vs hash sharding live
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Top 7 mistakes in consistent hashing that cost outages
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Edge cases that break 8/10 failover & elections designs
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Naive vs optimal: complexity tradeoffs in backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Whiteboard to prod: applying CDC (change data capture) with guardrails
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Explain like I’m 5: leader-follower replication without jargon
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Interview day checklist: synchronous vs asynchronous replication in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),The mental model that unlocks quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,What every backend dev should know about read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Common myths about geo-replication & latency — busted
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Production checklists for partitioning vs sharding: observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Cost traps: make range vs hash sharding fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Pitfalls: consistency surprises inside consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Do’s & don’ts: clean APIs around failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Debugging live: fix a broken backups & PITR (point-in-time recovery) in minutes
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Read/Write patterns that pair best with CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Tuning knobs for leader-follower replication: safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,How to demo synchronous vs asynchronous replication in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Choosing the right shard key — quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Hot partitions & how read replicas & lag mitigates them
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Blueprint: blue/green & rolling upgrades with geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Chaos drills to validate partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Cost/perf tradeoffs in range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,How consistent hashing makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",failover & elections,"failover & elections in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Stop guessing: read query plans to master backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),From slow to snappy: refactor with CDC (change data capture) live
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Top 7 mistakes in leader-follower replication that cost outages
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Edge cases that break 8/10 synchronous vs asynchronous replication designs
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Naive vs optimal: complexity tradeoffs in quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Whiteboard to prod: applying read replicas & lag with guardrails
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Explain like I’m 5: geo-replication & latency without jargon
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Interview day checklist: partitioning vs sharding in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,The mental model that unlocks range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,What every backend dev should know about consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Common myths about failover & elections — busted
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Production checklists for backups & PITR (point-in-time recovery): observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Cost traps: make CDC (change data capture) fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Pitfalls: consistency surprises inside leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Do’s & don’ts: clean APIs around synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Debugging live: fix a broken quorums & consensus (Raft/Paxos) in minutes
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Read/Write patterns that pair best with read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Tuning knobs for geo-replication & latency: safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,How to demo partitioning vs sharding in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Choosing the right shard key — range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Hot partitions & how consistent hashing mitigates them
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Blueprint: blue/green & rolling upgrades with failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Chaos drills to validate backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Cost/perf tradeoffs in CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,How leader-follower replication makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,"synchronous vs asynchronous replication in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Stop guessing: read query plans to master quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,From slow to snappy: refactor with read replicas & lag live
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Top 7 mistakes in geo-replication & latency that cost outages
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Edge cases that break 8/10 partitioning vs sharding designs
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Naive vs optimal: complexity tradeoffs in range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Whiteboard to prod: applying consistent hashing with guardrails
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Explain like I’m 5: failover & elections without jargon
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Interview day checklist: backups & PITR (point-in-time recovery) in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),The mental model that unlocks CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,What every backend dev should know about leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Common myths about synchronous vs asynchronous replication — busted
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Production checklists for quorums & consensus (Raft/Paxos): observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Cost traps: make read replicas & lag fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Pitfalls: consistency surprises inside geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Do’s & don’ts: clean APIs around partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Debugging live: fix a broken range vs hash sharding in minutes
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Read/Write patterns that pair best with consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Tuning knobs for failover & elections: safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),How to demo backups & PITR (point-in-time recovery) in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Choosing the right shard key — CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Hot partitions & how leader-follower replication mitigates them
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Blueprint: blue/green & rolling upgrades with synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Chaos drills to validate quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Cost/perf tradeoffs in read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,How geo-replication & latency makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,"partitioning vs sharding in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Stop guessing: read query plans to master range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,From slow to snappy: refactor with consistent hashing live
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Top 7 mistakes in failover & elections that cost outages
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Edge cases that break 8/10 backups & PITR (point-in-time recovery) designs
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Naive vs optimal: complexity tradeoffs in CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Whiteboard to prod: applying leader-follower replication with guardrails
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Explain like I’m 5: synchronous vs asynchronous replication without jargon
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Interview day checklist: quorums & consensus (Raft/Paxos) in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,The mental model that unlocks read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,What every backend dev should know about geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Common myths about partitioning vs sharding — busted
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Production checklists for range vs hash sharding: observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Cost traps: make consistent hashing fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Pitfalls: consistency surprises inside failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Do’s & don’ts: clean APIs around backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Debugging live: fix a broken CDC (change data capture) in minutes
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Read/Write patterns that pair best with leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Tuning knobs for synchronous vs asynchronous replication: safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),How to demo quorums & consensus (Raft/Paxos) in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Choosing the right shard key — read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Hot partitions & how geo-replication & latency mitigates them
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Blueprint: blue/green & rolling upgrades with partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Chaos drills to validate range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Cost/perf tradeoffs in consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,How failover & elections makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),"backups & PITR (point-in-time recovery) in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Stop guessing: read query plans to master CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,From slow to snappy: refactor with leader-follower replication live
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Top 7 mistakes in synchronous vs asynchronous replication that cost outages
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Edge cases that break 8/10 quorums & consensus (Raft/Paxos) designs
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Naive vs optimal: complexity tradeoffs in read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Whiteboard to prod: applying geo-replication & latency with guardrails
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Explain like I’m 5: partitioning vs sharding without jargon
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Interview day checklist: range vs hash sharding in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,The mental model that unlocks consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,What every backend dev should know about failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Common myths about backups & PITR (point-in-time recovery) — busted
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Production checklists for CDC (change data capture): observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Cost traps: make leader-follower replication fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Pitfalls: consistency surprises inside synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Do’s & don’ts: clean APIs around quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Debugging live: fix a broken read replicas & lag in minutes
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Read/Write patterns that pair best with geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Tuning knobs for partitioning vs sharding: safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,How to demo range vs hash sharding in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Choosing the right shard key — consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Hot partitions & how failover & elections mitigates them
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Blueprint: blue/green & rolling upgrades with backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Chaos drills to validate CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Cost/perf tradeoffs in leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,How synchronous vs asynchronous replication makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),"quorums & consensus (Raft/Paxos) in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Stop guessing: read query plans to master read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,From slow to snappy: refactor with geo-replication & latency live
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Top 7 mistakes in partitioning vs sharding that cost outages
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Edge cases that break 8/10 range vs hash sharding designs
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Naive vs optimal: complexity tradeoffs in consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Whiteboard to prod: applying failover & elections with guardrails
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Explain like I’m 5: backups & PITR (point-in-time recovery) without jargon
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Interview day checklist: CDC (change data capture) in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,The mental model that unlocks leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,What every backend dev should know about synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Common myths about quorums & consensus (Raft/Paxos) — busted
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Production checklists for read replicas & lag: observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Cost traps: make geo-replication & latency fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,Pitfalls: consistency surprises inside partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Do’s & don’ts: clean APIs around range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Debugging live: fix a broken consistent hashing in minutes
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Read/Write patterns that pair best with failover & elections
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Tuning knobs for backups & PITR (point-in-time recovery): safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),How to demo CDC (change data capture) in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Choosing the right shard key — leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Hot partitions & how synchronous vs asynchronous replication mitigates them
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Blueprint: blue/green & rolling upgrades with quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Chaos drills to validate read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,Cost/perf tradeoffs in geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,How partitioning vs sharding makes your queries 100x faster (with proofs you can explain)
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,"range vs hash sharding in 60 seconds — intuition first, syntax second"
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Stop guessing: read query plans to master consistent hashing
+Databases,"Databases — Replication, Sharding & HA",failover & elections,From slow to snappy: refactor with failover & elections live
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Top 7 mistakes in backups & PITR (point-in-time recovery) that cost outages
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Edge cases that break 8/10 CDC (change data capture) designs
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Naive vs optimal: complexity tradeoffs in leader-follower replication
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Whiteboard to prod: applying synchronous vs asynchronous replication with guardrails
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Explain like I’m 5: quorums & consensus (Raft/Paxos) without jargon
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Interview day checklist: read replicas & lag in 5 bullets
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,The mental model that unlocks geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,What every backend dev should know about partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Common myths about range vs hash sharding — busted
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Production checklists for consistent hashing: observability & SLOs
+Databases,"Databases — Replication, Sharding & HA",failover & elections,Cost traps: make failover & elections fast without burning cloud spend
+Databases,"Databases — Replication, Sharding & HA",backups & PITR (point-in-time recovery),Pitfalls: consistency surprises inside backups & PITR (point-in-time recovery)
+Databases,"Databases — Replication, Sharding & HA",CDC (change data capture),Do’s & don’ts: clean APIs around CDC (change data capture)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,Debugging live: fix a broken leader-follower replication in minutes
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Read/Write patterns that pair best with synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),Tuning knobs for quorums & consensus (Raft/Paxos): safe defaults → power moves
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,How to demo read replicas & lag in an interview (with examples)
+Databases,"Databases — Replication, Sharding & HA",leader-follower replication,leader-follower replication explained with Bollywood marriages 💍
+Databases,"Databases — Replication, Sharding & HA",synchronous vs asynchronous replication,Tatkal rush mental model for synchronous vs asynchronous replication
+Databases,"Databases — Replication, Sharding & HA",quorums & consensus (Raft/Paxos),UPI ledger consistency meets quorums & consensus (Raft/Paxos)
+Databases,"Databases — Replication, Sharding & HA",read replicas & lag,Zomato dinner rush mapped to read replicas & lag
+Databases,"Databases — Replication, Sharding & HA",geo-replication & latency,IPL match concurrency stress-tests geo-replication & latency
+Databases,"Databases — Replication, Sharding & HA",partitioning vs sharding,IRCTC queueing intuition for partitioning vs sharding
+Databases,"Databases — Replication, Sharding & HA",range vs hash sharding,Gully cricket teams = partitions in range vs hash sharding
+Databases,"Databases — Replication, Sharding & HA",consistent hashing,Traffic on Bengaluru ORR as consistent hashing backpressure

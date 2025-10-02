@@ -1,0 +1,321 @@
+pillar,category,seed,title
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Error handling with Rx for standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Component communication patterns in DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Performance profiling & CD in change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Migrating legacy codebases with signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Testing strategies around RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,"async pipe & memory leaks in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Stop guessing: battle-tested patterns for forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,From messy to clean: refactor your routing & guards live
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Top 7 mistakes in pipes & directives (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Whiteboard → code: ship state management (NgRx, Akita) with guardrails"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Interview-ready: 5 bullets that explain standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Explain like I’m 5: DI & providers without jargon
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,When to pick A vs B inside change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Debugging live: fix a broken signals & OnPush (intro) in minutes
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Templates you’ll reuse for RxJS observables & subjects all year
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,The mental model that unlocks async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Perf-first forms: template vs reactive: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Accessibility-first routing & guards: include everyone
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Cost-aware pipes & directives: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Real incidents I’ve seen because of bad state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Design reviews: what senior folks look for in standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,From junior to senior: how you talk about DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Before you code: 4 questions for any change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Do’s & don’ts cheat sheet for signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,UX wins: small tweaks in RxJS observables & subjects with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Platform tips: ship async pipe & memory leaks to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Error handling with Rx for forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Component communication patterns in routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Performance profiling & CD in pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Migrating legacy codebases with state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Testing strategies around standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,"DI & providers in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Stop guessing: battle-tested patterns for change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),From messy to clean: refactor your signals & OnPush (intro) live
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Top 7 mistakes in RxJS observables & subjects (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Whiteboard → code: ship async pipe & memory leaks with guardrails
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Interview-ready: 5 bullets that explain forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Explain like I’m 5: routing & guards without jargon
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,When to pick A vs B inside pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Debugging live: fix a broken state management (NgRx, Akita) in minutes"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Templates you’ll reuse for standalone components & modules all year
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,The mental model that unlocks DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Perf-first change detection & zones: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Accessibility-first signals & OnPush (intro): include everyone
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Cost-aware RxJS observables & subjects: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Real incidents I’ve seen because of bad async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Design reviews: what senior folks look for in forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,From junior to senior: how you talk about routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Before you code: 4 questions for any pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Do’s & don’ts cheat sheet for state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,UX wins: small tweaks in standalone components & modules with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Platform tips: ship DI & providers to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Error handling with Rx for change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Component communication patterns in signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Performance profiling & CD in RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Migrating legacy codebases with async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Testing strategies around forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,"routing & guards in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Stop guessing: battle-tested patterns for pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","From messy to clean: refactor your state management (NgRx, Akita) live"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Top 7 mistakes in standalone components & modules (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Whiteboard → code: ship DI & providers with guardrails
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Interview-ready: 5 bullets that explain change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Explain like I’m 5: signals & OnPush (intro) without jargon
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,When to pick A vs B inside RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Debugging live: fix a broken async pipe & memory leaks in minutes
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Templates you’ll reuse for forms: template vs reactive all year
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,The mental model that unlocks routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Perf-first pipes & directives: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Accessibility-first state management (NgRx, Akita): include everyone"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Cost-aware standalone components & modules: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Real incidents I’ve seen because of bad DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Design reviews: what senior folks look for in change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),From junior to senior: how you talk about signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Before you code: 4 questions for any RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Do’s & don’ts cheat sheet for async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,UX wins: small tweaks in forms: template vs reactive with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Platform tips: ship routing & guards to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Error handling with Rx for pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Component communication patterns in state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Performance profiling & CD in standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Migrating legacy codebases with DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Testing strategies around change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),"signals & OnPush (intro) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Stop guessing: battle-tested patterns for RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,From messy to clean: refactor your async pipe & memory leaks live
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Top 7 mistakes in forms: template vs reactive (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Whiteboard → code: ship routing & guards with guardrails
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Interview-ready: 5 bullets that explain pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Explain like I’m 5: state management (NgRx, Akita) without jargon"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,When to pick A vs B inside standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Debugging live: fix a broken DI & providers in minutes
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Templates you’ll reuse for change detection & zones all year
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),The mental model that unlocks signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Perf-first RxJS observables & subjects: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Accessibility-first async pipe & memory leaks: include everyone
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Cost-aware forms: template vs reactive: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Real incidents I’ve seen because of bad routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Design reviews: what senior folks look for in pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","From junior to senior: how you talk about state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Before you code: 4 questions for any standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Do’s & don’ts cheat sheet for DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,UX wins: small tweaks in change detection & zones with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Platform tips: ship signals & OnPush (intro) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Error handling with Rx for RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Component communication patterns in async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Performance profiling & CD in forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Migrating legacy codebases with routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Testing strategies around pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","state management (NgRx, Akita) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Stop guessing: battle-tested patterns for standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,From messy to clean: refactor your DI & providers live
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Top 7 mistakes in change detection & zones (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Whiteboard → code: ship signals & OnPush (intro) with guardrails
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Interview-ready: 5 bullets that explain RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Explain like I’m 5: async pipe & memory leaks without jargon
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,When to pick A vs B inside forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Debugging live: fix a broken routing & guards in minutes
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Templates you’ll reuse for pipes & directives all year
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","The mental model that unlocks state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Perf-first standalone components & modules: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Accessibility-first DI & providers: include everyone
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Cost-aware change detection & zones: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Real incidents I’ve seen because of bad signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Design reviews: what senior folks look for in RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,From junior to senior: how you talk about async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Before you code: 4 questions for any forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Do’s & don’ts cheat sheet for routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,UX wins: small tweaks in pipes & directives with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Platform tips: ship state management (NgRx, Akita) to Insta Reels/Shorts"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Error handling with Rx for standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Component communication patterns in DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Performance profiling & CD in change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Migrating legacy codebases with signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Testing strategies around RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,"async pipe & memory leaks in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Stop guessing: battle-tested patterns for forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,From messy to clean: refactor your routing & guards live
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Top 7 mistakes in pipes & directives (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Whiteboard → code: ship state management (NgRx, Akita) with guardrails"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Interview-ready: 5 bullets that explain standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Explain like I’m 5: DI & providers without jargon
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,When to pick A vs B inside change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Debugging live: fix a broken signals & OnPush (intro) in minutes
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Templates you’ll reuse for RxJS observables & subjects all year
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,The mental model that unlocks async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Perf-first forms: template vs reactive: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Accessibility-first routing & guards: include everyone
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Cost-aware pipes & directives: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Real incidents I’ve seen because of bad state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Design reviews: what senior folks look for in standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,From junior to senior: how you talk about DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Before you code: 4 questions for any change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Do’s & don’ts cheat sheet for signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,UX wins: small tweaks in RxJS observables & subjects with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Platform tips: ship async pipe & memory leaks to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Error handling with Rx for forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Component communication patterns in routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Performance profiling & CD in pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Migrating legacy codebases with state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Testing strategies around standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,"DI & providers in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Stop guessing: battle-tested patterns for change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),From messy to clean: refactor your signals & OnPush (intro) live
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Top 7 mistakes in RxJS observables & subjects (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Whiteboard → code: ship async pipe & memory leaks with guardrails
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Interview-ready: 5 bullets that explain forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Explain like I’m 5: routing & guards without jargon
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,When to pick A vs B inside pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Debugging live: fix a broken state management (NgRx, Akita) in minutes"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Templates you’ll reuse for standalone components & modules all year
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,The mental model that unlocks DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Perf-first change detection & zones: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Accessibility-first signals & OnPush (intro): include everyone
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Cost-aware RxJS observables & subjects: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Real incidents I’ve seen because of bad async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Design reviews: what senior folks look for in forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,From junior to senior: how you talk about routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Before you code: 4 questions for any pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Do’s & don’ts cheat sheet for state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,UX wins: small tweaks in standalone components & modules with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Platform tips: ship DI & providers to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Error handling with Rx for change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Component communication patterns in signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Performance profiling & CD in RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Migrating legacy codebases with async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Testing strategies around forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,"routing & guards in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Stop guessing: battle-tested patterns for pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","From messy to clean: refactor your state management (NgRx, Akita) live"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Top 7 mistakes in standalone components & modules (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Whiteboard → code: ship DI & providers with guardrails
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Interview-ready: 5 bullets that explain change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Explain like I’m 5: signals & OnPush (intro) without jargon
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,When to pick A vs B inside RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Debugging live: fix a broken async pipe & memory leaks in minutes
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Templates you’ll reuse for forms: template vs reactive all year
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,The mental model that unlocks routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Perf-first pipes & directives: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Accessibility-first state management (NgRx, Akita): include everyone"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Cost-aware standalone components & modules: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Real incidents I’ve seen because of bad DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Design reviews: what senior folks look for in change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),From junior to senior: how you talk about signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Before you code: 4 questions for any RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Do’s & don’ts cheat sheet for async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,UX wins: small tweaks in forms: template vs reactive with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Platform tips: ship routing & guards to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Error handling with Rx for pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Component communication patterns in state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Performance profiling & CD in standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Migrating legacy codebases with DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Testing strategies around change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),"signals & OnPush (intro) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Stop guessing: battle-tested patterns for RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,From messy to clean: refactor your async pipe & memory leaks live
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Top 7 mistakes in forms: template vs reactive (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Whiteboard → code: ship routing & guards with guardrails
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Interview-ready: 5 bullets that explain pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Explain like I’m 5: state management (NgRx, Akita) without jargon"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,When to pick A vs B inside standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Debugging live: fix a broken DI & providers in minutes
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Templates you’ll reuse for change detection & zones all year
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),The mental model that unlocks signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Perf-first RxJS observables & subjects: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Accessibility-first async pipe & memory leaks: include everyone
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Cost-aware forms: template vs reactive: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Real incidents I’ve seen because of bad routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Design reviews: what senior folks look for in pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","From junior to senior: how you talk about state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Before you code: 4 questions for any standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Do’s & don’ts cheat sheet for DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,UX wins: small tweaks in change detection & zones with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Platform tips: ship signals & OnPush (intro) to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Error handling with Rx for RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Component communication patterns in async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Performance profiling & CD in forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Migrating legacy codebases with routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Testing strategies around pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","state management (NgRx, Akita) in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Stop guessing: battle-tested patterns for standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,From messy to clean: refactor your DI & providers live
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Top 7 mistakes in change detection & zones (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Whiteboard → code: ship signals & OnPush (intro) with guardrails
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Interview-ready: 5 bullets that explain RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Explain like I’m 5: async pipe & memory leaks without jargon
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,When to pick A vs B inside forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Debugging live: fix a broken routing & guards in minutes
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Templates you’ll reuse for pipes & directives all year
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","The mental model that unlocks state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Perf-first standalone components & modules: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Accessibility-first DI & providers: include everyone
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Cost-aware change detection & zones: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Real incidents I’ve seen because of bad signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Design reviews: what senior folks look for in RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,From junior to senior: how you talk about async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Before you code: 4 questions for any forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Do’s & don’ts cheat sheet for routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,UX wins: small tweaks in pipes & directives with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Platform tips: ship state management (NgRx, Akita) to Insta Reels/Shorts"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Error handling with Rx for standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Component communication patterns in DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Performance profiling & CD in change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Migrating legacy codebases with signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Testing strategies around RxJS observables & subjects
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,"async pipe & memory leaks in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Stop guessing: battle-tested patterns for forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,From messy to clean: refactor your routing & guards live
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Top 7 mistakes in pipes & directives (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Whiteboard → code: ship state management (NgRx, Akita) with guardrails"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Interview-ready: 5 bullets that explain standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Explain like I’m 5: DI & providers without jargon
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,When to pick A vs B inside change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Debugging live: fix a broken signals & OnPush (intro) in minutes
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Templates you’ll reuse for RxJS observables & subjects all year
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,The mental model that unlocks async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Perf-first forms: template vs reactive: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Accessibility-first routing & guards: include everyone
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Cost-aware pipes & directives: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Real incidents I’ve seen because of bad state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Design reviews: what senior folks look for in standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,From junior to senior: how you talk about DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Before you code: 4 questions for any change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Do’s & don’ts cheat sheet for signals & OnPush (intro)
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,UX wins: small tweaks in RxJS observables & subjects with huge impact
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Platform tips: ship async pipe & memory leaks to Insta Reels/Shorts
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Error handling with Rx for forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Component communication patterns in routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Performance profiling & CD in pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Migrating legacy codebases with state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Testing strategies around standalone components & modules
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,"DI & providers in 60 seconds — intuition first, code second"
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Stop guessing: battle-tested patterns for change detection & zones
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),From messy to clean: refactor your signals & OnPush (intro) live
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Top 7 mistakes in RxJS observables & subjects (and quick fixes)
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Whiteboard → code: ship async pipe & memory leaks with guardrails
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Interview-ready: 5 bullets that explain forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Explain like I’m 5: routing & guards without jargon
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,When to pick A vs B inside pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Debugging live: fix a broken state management (NgRx, Akita) in minutes"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,Templates you’ll reuse for standalone components & modules all year
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,The mental model that unlocks DI & providers
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Perf-first change detection & zones: make it fast on low-end Android
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),Accessibility-first signals & OnPush (intro): include everyone
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,Cost-aware RxJS observables & subjects: speed without burning cloud spend
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,Real incidents I’ve seen because of bad async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Design reviews: what senior folks look for in forms: template vs reactive
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,From junior to senior: how you talk about routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Before you code: 4 questions for any pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","Do’s & don’ts cheat sheet for state management (NgRx, Akita)"
+Frontend & UI/UX,Frontend — Angular & RxJS,standalone components & modules,India-grade 4G: make standalone components & modules snappy on flaky networks
+Frontend & UI/UX,Frontend — Angular & RxJS,DI & providers,Low-end Android optimization for DI & providers (under ₹10k devices)
+Frontend & UI/UX,Frontend — Angular & RxJS,change detection & zones,Big Billion Days traffic: harden change detection & zones for peaks
+Frontend & UI/UX,Frontend — Angular & RxJS,signals & OnPush (intro),IRCTC Tatkal mindset for signals & OnPush (intro): fast paths only
+Frontend & UI/UX,Frontend — Angular & RxJS,RxJS observables & subjects,UPI-like flows: error states in RxJS observables & subjects done right
+Frontend & UI/UX,Frontend — Angular & RxJS,async pipe & memory leaks,IPL watch party: realtime-friendly async pipe & memory leaks
+Frontend & UI/UX,Frontend — Angular & RxJS,forms: template vs reactive,Bengaluru ORR latency: forms: template vs reactive timeouts & fallbacks
+Frontend & UI/UX,Frontend — Angular & RxJS,routing & guards,Aadhaar/eKYC journeys: UX pitfalls in routing & guards
+Frontend & UI/UX,Frontend — Angular & RxJS,pipes & directives,Tier-2/3 devices: memory budget for pipes & directives
+Frontend & UI/UX,Frontend — Angular & RxJS,"state management (NgRx, Akita)","WhatsApp-style micro-interactions for state management (NgRx, Akita)"

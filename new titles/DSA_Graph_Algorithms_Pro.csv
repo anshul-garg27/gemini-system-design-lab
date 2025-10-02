@@ -1,0 +1,321 @@
+pillar,category,seed,title
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Shortest path with state: keys/doors via BFS/DFS patterns
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,When to swap Multi-source BFS for a simpler BFS
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Debugging 0-1 BFS: parent arrays & reconstructions
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Edge cases: negative edges & cycles in Dijkstra
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Visual heuristics: when graphs scream Bellman–Ford
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,Why Floyd–Warshall scares 90% of interviewees (and how to master it)
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Topological Sort (Kahn/DFS) in 60 seconds — intuition first
+DSA,DSA — Graph Algorithms Pro,DAG DP,Stop brute forcing: spot the DAG DP trigger words
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Bridges & Articulation (Tarjan) vs brute force — when to switch and why
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),Top 7 mistakes in SCC (Kosaraju/Tarjan) that cost offers
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,From O(N^2) → O(N): optimize your Euler path/cycle
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),"MST (Kruskal/Prim + DSU) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Think like an interviewer: how I grade your Union-Find (DSU)
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,Whiteboard to code: Bipartite check & coloring with edge cases
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),You don’t need to memorize — template for Hopcroft–Karp (bipartite matching)
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),"Max Flow (Dinic) cheat sheet: patterns, templates, tests"
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Interview day checklist for Min-Cost Max-Flow
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),Draw this first: diagram that unlocks LCA (binary lifting)
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,The ‘aha!’ intuition behind Heavy-Light Decomposition
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,Hidden constraints that break Tree diameter/centroid
+DSA,DSA — Graph Algorithms Pro,DSU on tree,Dry run like a pro: DSU on tree on real inputs
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),"Refactor a messy Tree flattening (Euler tour) into clean, fast code"
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Space vs time in BFS/DFS patterns: what to trade off
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,Edge cases that break 8/10 Multi-source BFS submissions
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Prove correctness for 0-1 BFS in plain English
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Phone screen vs onsite: Dijkstra differences
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Speedrun Bellman–Ford: archetypes you must know
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,Complexity showdown: naive vs optimal Floyd–Warshall
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Debugging live: fix a broken Topological Sort (Kahn/DFS) solution
+DSA,DSA — Graph Algorithms Pro,DAG DP,"Off-by-one, bounds, and overflow in DAG DP"
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Simplify before you optimize: Bridges & Articulation (Tarjan)
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),"Mock interview: one SCC (Kosaraju/Tarjan) problem, full process"
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Unit tests that catch subtle Euler path/cycle bugs
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),When to use hash maps / sets with MST (Kruskal/Prim + DSU)
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Why your Union-Find (DSU) TLEs at scale — and how to fix it
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,Translate to C++/Java/Python: fast Bipartite check & coloring
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Read the prompt: keywords that scream Hopcroft–Karp (bipartite matching)
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),Back-of-the-envelope complexity for Max Flow (Dinic)
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Roadmap: beginner → advanced Min-Cost Max-Flow
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),One trick that simplifies most LCA (binary lifting) questions
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Stop re-deriving! Reusable template for Heavy-Light Decomposition
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,Edge vs corner cases — Tree diameter/centroid edition
+DSA,DSA — Graph Algorithms Pro,DSU on tree,Narrate your approach: explain DSU on tree confidently
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),Checklist before coding Tree flattening (Euler tour)
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Interview kata: daily reps for BFS/DFS patterns
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,Constraint-driven design: pick the right Multi-source BFS approach
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Shortest path with state: keys/doors via 0-1 BFS
+DSA,DSA — Graph Algorithms Pro,Dijkstra,When to swap Dijkstra for a simpler BFS
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Debugging Bellman–Ford: parent arrays & reconstructions
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,Edge cases: negative edges & cycles in Floyd–Warshall
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Visual heuristics: when graphs scream Topological Sort (Kahn/DFS)
+DSA,DSA — Graph Algorithms Pro,DAG DP,Why DAG DP scares 90% of interviewees (and how to master it)
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Bridges & Articulation (Tarjan) in 60 seconds — intuition first
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),Stop brute forcing: spot the SCC (Kosaraju/Tarjan) trigger words
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Euler path/cycle vs brute force — when to switch and why
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),Top 7 mistakes in MST (Kruskal/Prim + DSU) that cost offers
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),From O(N^2) → O(N): optimize your Union-Find (DSU)
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,"Bipartite check & coloring for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Think like an interviewer: how I grade your Hopcroft–Karp (bipartite matching)
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),Whiteboard to code: Max Flow (Dinic) with edge cases
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,You don’t need to memorize — template for Min-Cost Max-Flow
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),"LCA (binary lifting) cheat sheet: patterns, templates, tests"
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Interview day checklist for Heavy-Light Decomposition
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,Draw this first: diagram that unlocks Tree diameter/centroid
+DSA,DSA — Graph Algorithms Pro,DSU on tree,The ‘aha!’ intuition behind DSU on tree
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),Hidden constraints that break Tree flattening (Euler tour)
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Dry run like a pro: BFS/DFS patterns on real inputs
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,"Refactor a messy Multi-source BFS into clean, fast code"
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Space vs time in 0-1 BFS: what to trade off
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Edge cases that break 8/10 Dijkstra submissions
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Prove correctness for Bellman–Ford in plain English
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,Phone screen vs onsite: Floyd–Warshall differences
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Speedrun Topological Sort (Kahn/DFS): archetypes you must know
+DSA,DSA — Graph Algorithms Pro,DAG DP,Complexity showdown: naive vs optimal DAG DP
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Debugging live: fix a broken Bridges & Articulation (Tarjan) solution
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),"Off-by-one, bounds, and overflow in SCC (Kosaraju/Tarjan)"
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Simplify before you optimize: Euler path/cycle
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),"Mock interview: one MST (Kruskal/Prim + DSU) problem, full process"
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Unit tests that catch subtle Union-Find (DSU) bugs
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,When to use hash maps / sets with Bipartite check & coloring
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Why your Hopcroft–Karp (bipartite matching) TLEs at scale — and how to fix it
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),Translate to C++/Java/Python: fast Max Flow (Dinic)
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Read the prompt: keywords that scream Min-Cost Max-Flow
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),Back-of-the-envelope complexity for LCA (binary lifting)
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Roadmap: beginner → advanced Heavy-Light Decomposition
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,One trick that simplifies most Tree diameter/centroid questions
+DSA,DSA — Graph Algorithms Pro,DSU on tree,Stop re-deriving! Reusable template for DSU on tree
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),Edge vs corner cases — Tree flattening (Euler tour) edition
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Narrate your approach: explain BFS/DFS patterns confidently
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,Checklist before coding Multi-source BFS
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Interview kata: daily reps for 0-1 BFS
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Constraint-driven design: pick the right Dijkstra approach
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Shortest path with state: keys/doors via Bellman–Ford
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,When to swap Floyd–Warshall for a simpler BFS
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Debugging Topological Sort (Kahn/DFS): parent arrays & reconstructions
+DSA,DSA — Graph Algorithms Pro,DAG DP,Edge cases: negative edges & cycles in DAG DP
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Visual heuristics: when graphs scream Bridges & Articulation (Tarjan)
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),Why SCC (Kosaraju/Tarjan) scares 90% of interviewees (and how to master it)
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Euler path/cycle in 60 seconds — intuition first
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),Stop brute forcing: spot the MST (Kruskal/Prim + DSU) trigger words
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Union-Find (DSU) vs brute force — when to switch and why
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,Top 7 mistakes in Bipartite check & coloring that cost offers
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),From O(N^2) → O(N): optimize your Hopcroft–Karp (bipartite matching)
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),"Max Flow (Dinic) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Think like an interviewer: how I grade your Min-Cost Max-Flow
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),Whiteboard to code: LCA (binary lifting) with edge cases
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,You don’t need to memorize — template for Heavy-Light Decomposition
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,"Tree diameter/centroid cheat sheet: patterns, templates, tests"
+DSA,DSA — Graph Algorithms Pro,DSU on tree,Interview day checklist for DSU on tree
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),Draw this first: diagram that unlocks Tree flattening (Euler tour)
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,The ‘aha!’ intuition behind BFS/DFS patterns
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,Hidden constraints that break Multi-source BFS
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Dry run like a pro: 0-1 BFS on real inputs
+DSA,DSA — Graph Algorithms Pro,Dijkstra,"Refactor a messy Dijkstra into clean, fast code"
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Space vs time in Bellman–Ford: what to trade off
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,Edge cases that break 8/10 Floyd–Warshall submissions
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Prove correctness for Topological Sort (Kahn/DFS) in plain English
+DSA,DSA — Graph Algorithms Pro,DAG DP,Phone screen vs onsite: DAG DP differences
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Speedrun Bridges & Articulation (Tarjan): archetypes you must know
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),Complexity showdown: naive vs optimal SCC (Kosaraju/Tarjan)
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Debugging live: fix a broken Euler path/cycle solution
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),"Off-by-one, bounds, and overflow in MST (Kruskal/Prim + DSU)"
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Simplify before you optimize: Union-Find (DSU)
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,"Mock interview: one Bipartite check & coloring problem, full process"
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Unit tests that catch subtle Hopcroft–Karp (bipartite matching) bugs
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),When to use hash maps / sets with Max Flow (Dinic)
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Why your Min-Cost Max-Flow TLEs at scale — and how to fix it
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),Translate to C++/Java/Python: fast LCA (binary lifting)
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Read the prompt: keywords that scream Heavy-Light Decomposition
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,Back-of-the-envelope complexity for Tree diameter/centroid
+DSA,DSA — Graph Algorithms Pro,DSU on tree,Roadmap: beginner → advanced DSU on tree
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),One trick that simplifies most Tree flattening (Euler tour) questions
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Stop re-deriving! Reusable template for BFS/DFS patterns
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,Edge vs corner cases — Multi-source BFS edition
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Narrate your approach: explain 0-1 BFS confidently
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Checklist before coding Dijkstra
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Interview kata: daily reps for Bellman–Ford
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,Constraint-driven design: pick the right Floyd–Warshall approach
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Shortest path with state: keys/doors via Topological Sort (Kahn/DFS)
+DSA,DSA — Graph Algorithms Pro,DAG DP,When to swap DAG DP for a simpler BFS
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Debugging Bridges & Articulation (Tarjan): parent arrays & reconstructions
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),Edge cases: negative edges & cycles in SCC (Kosaraju/Tarjan)
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Visual heuristics: when graphs scream Euler path/cycle
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),Why MST (Kruskal/Prim + DSU) scares 90% of interviewees (and how to master it)
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Union-Find (DSU) in 60 seconds — intuition first
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,Stop brute forcing: spot the Bipartite check & coloring trigger words
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Hopcroft–Karp (bipartite matching) vs brute force — when to switch and why
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),Top 7 mistakes in Max Flow (Dinic) that cost offers
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,From O(N^2) → O(N): optimize your Min-Cost Max-Flow
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),"LCA (binary lifting) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Think like an interviewer: how I grade your Heavy-Light Decomposition
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,Whiteboard to code: Tree diameter/centroid with edge cases
+DSA,DSA — Graph Algorithms Pro,DSU on tree,You don’t need to memorize — template for DSU on tree
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),"Tree flattening (Euler tour) cheat sheet: patterns, templates, tests"
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Interview day checklist for BFS/DFS patterns
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,Draw this first: diagram that unlocks Multi-source BFS
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,The ‘aha!’ intuition behind 0-1 BFS
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Hidden constraints that break Dijkstra
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Dry run like a pro: Bellman–Ford on real inputs
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,"Refactor a messy Floyd–Warshall into clean, fast code"
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Space vs time in Topological Sort (Kahn/DFS): what to trade off
+DSA,DSA — Graph Algorithms Pro,DAG DP,Edge cases that break 8/10 DAG DP submissions
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Prove correctness for Bridges & Articulation (Tarjan) in plain English
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),Phone screen vs onsite: SCC (Kosaraju/Tarjan) differences
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Speedrun Euler path/cycle: archetypes you must know
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),Complexity showdown: naive vs optimal MST (Kruskal/Prim + DSU)
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Debugging live: fix a broken Union-Find (DSU) solution
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,"Off-by-one, bounds, and overflow in Bipartite check & coloring"
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Simplify before you optimize: Hopcroft–Karp (bipartite matching)
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),"Mock interview: one Max Flow (Dinic) problem, full process"
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Unit tests that catch subtle Min-Cost Max-Flow bugs
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),When to use hash maps / sets with LCA (binary lifting)
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Why your Heavy-Light Decomposition TLEs at scale — and how to fix it
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,Translate to C++/Java/Python: fast Tree diameter/centroid
+DSA,DSA — Graph Algorithms Pro,DSU on tree,Read the prompt: keywords that scream DSU on tree
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),Back-of-the-envelope complexity for Tree flattening (Euler tour)
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Roadmap: beginner → advanced BFS/DFS patterns
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,One trick that simplifies most Multi-source BFS questions
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Stop re-deriving! Reusable template for 0-1 BFS
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Edge vs corner cases — Dijkstra edition
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Narrate your approach: explain Bellman–Ford confidently
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,Checklist before coding Floyd–Warshall
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Interview kata: daily reps for Topological Sort (Kahn/DFS)
+DSA,DSA — Graph Algorithms Pro,DAG DP,Constraint-driven design: pick the right DAG DP approach
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Shortest path with state: keys/doors via Bridges & Articulation (Tarjan)
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),When to swap SCC (Kosaraju/Tarjan) for a simpler BFS
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Debugging Euler path/cycle: parent arrays & reconstructions
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),Edge cases: negative edges & cycles in MST (Kruskal/Prim + DSU)
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Visual heuristics: when graphs scream Union-Find (DSU)
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,Why Bipartite check & coloring scares 90% of interviewees (and how to master it)
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Hopcroft–Karp (bipartite matching) in 60 seconds — intuition first
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),Stop brute forcing: spot the Max Flow (Dinic) trigger words
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Min-Cost Max-Flow vs brute force — when to switch and why
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),Top 7 mistakes in LCA (binary lifting) that cost offers
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,From O(N^2) → O(N): optimize your Heavy-Light Decomposition
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,"Tree diameter/centroid for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Graph Algorithms Pro,DSU on tree,Think like an interviewer: how I grade your DSU on tree
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),Whiteboard to code: Tree flattening (Euler tour) with edge cases
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,You don’t need to memorize — template for BFS/DFS patterns
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,"Multi-source BFS cheat sheet: patterns, templates, tests"
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Interview day checklist for 0-1 BFS
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Draw this first: diagram that unlocks Dijkstra
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,The ‘aha!’ intuition behind Bellman–Ford
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,Hidden constraints that break Floyd–Warshall
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Dry run like a pro: Topological Sort (Kahn/DFS) on real inputs
+DSA,DSA — Graph Algorithms Pro,DAG DP,"Refactor a messy DAG DP into clean, fast code"
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Space vs time in Bridges & Articulation (Tarjan): what to trade off
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),Edge cases that break 8/10 SCC (Kosaraju/Tarjan) submissions
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Prove correctness for Euler path/cycle in plain English
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),Phone screen vs onsite: MST (Kruskal/Prim + DSU) differences
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Speedrun Union-Find (DSU): archetypes you must know
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,Complexity showdown: naive vs optimal Bipartite check & coloring
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Debugging live: fix a broken Hopcroft–Karp (bipartite matching) solution
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),"Off-by-one, bounds, and overflow in Max Flow (Dinic)"
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Simplify before you optimize: Min-Cost Max-Flow
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),"Mock interview: one LCA (binary lifting) problem, full process"
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Unit tests that catch subtle Heavy-Light Decomposition bugs
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,When to use hash maps / sets with Tree diameter/centroid
+DSA,DSA — Graph Algorithms Pro,DSU on tree,Why your DSU on tree TLEs at scale — and how to fix it
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),Translate to C++/Java/Python: fast Tree flattening (Euler tour)
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Read the prompt: keywords that scream BFS/DFS patterns
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,Back-of-the-envelope complexity for Multi-source BFS
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Roadmap: beginner → advanced 0-1 BFS
+DSA,DSA — Graph Algorithms Pro,Dijkstra,One trick that simplifies most Dijkstra questions
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Stop re-deriving! Reusable template for Bellman–Ford
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,Edge vs corner cases — Floyd–Warshall edition
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Narrate your approach: explain Topological Sort (Kahn/DFS) confidently
+DSA,DSA — Graph Algorithms Pro,DAG DP,Checklist before coding DAG DP
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Interview kata: daily reps for Bridges & Articulation (Tarjan)
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),Constraint-driven design: pick the right SCC (Kosaraju/Tarjan) approach
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Shortest path with state: keys/doors via Euler path/cycle
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),When to swap MST (Kruskal/Prim + DSU) for a simpler BFS
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Debugging Union-Find (DSU): parent arrays & reconstructions
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,Edge cases: negative edges & cycles in Bipartite check & coloring
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Visual heuristics: when graphs scream Hopcroft–Karp (bipartite matching)
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),Why Max Flow (Dinic) scares 90% of interviewees (and how to master it)
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Min-Cost Max-Flow in 60 seconds — intuition first
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),Stop brute forcing: spot the LCA (binary lifting) trigger words
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Heavy-Light Decomposition vs brute force — when to switch and why
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,Top 7 mistakes in Tree diameter/centroid that cost offers
+DSA,DSA — Graph Algorithms Pro,DSU on tree,From O(N^2) → O(N): optimize your DSU on tree
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),"Tree flattening (Euler tour) for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Think like an interviewer: how I grade your BFS/DFS patterns
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,Whiteboard to code: Multi-source BFS with edge cases
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,You don’t need to memorize — template for 0-1 BFS
+DSA,DSA — Graph Algorithms Pro,Dijkstra,"Dijkstra cheat sheet: patterns, templates, tests"
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Interview day checklist for Bellman–Ford
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,Draw this first: diagram that unlocks Floyd–Warshall
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),The ‘aha!’ intuition behind Topological Sort (Kahn/DFS)
+DSA,DSA — Graph Algorithms Pro,DAG DP,Hidden constraints that break DAG DP
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Dry run like a pro: Bridges & Articulation (Tarjan) on real inputs
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),"Refactor a messy SCC (Kosaraju/Tarjan) into clean, fast code"
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Space vs time in Euler path/cycle: what to trade off
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),Edge cases that break 8/10 MST (Kruskal/Prim + DSU) submissions
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Prove correctness for Union-Find (DSU) in plain English
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,Phone screen vs onsite: Bipartite check & coloring differences
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Speedrun Hopcroft–Karp (bipartite matching): archetypes you must know
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),Complexity showdown: naive vs optimal Max Flow (Dinic)
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Debugging live: fix a broken Min-Cost Max-Flow solution
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),"Off-by-one, bounds, and overflow in LCA (binary lifting)"
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Simplify before you optimize: Heavy-Light Decomposition
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,"Mock interview: one Tree diameter/centroid problem, full process"
+DSA,DSA — Graph Algorithms Pro,DSU on tree,Unit tests that catch subtle DSU on tree bugs
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),When to use hash maps / sets with Tree flattening (Euler tour)
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Why your BFS/DFS patterns TLEs at scale — and how to fix it
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,Translate to C++/Java/Python: fast Multi-source BFS
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Read the prompt: keywords that scream 0-1 BFS
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Back-of-the-envelope complexity for Dijkstra
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,Roadmap: beginner → advanced Bellman–Ford
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,One trick that simplifies most Floyd–Warshall questions
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Stop re-deriving! Reusable template for Topological Sort (Kahn/DFS)
+DSA,DSA — Graph Algorithms Pro,DAG DP,Edge vs corner cases — DAG DP edition
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Narrate your approach: explain Bridges & Articulation (Tarjan) confidently
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),Checklist before coding SCC (Kosaraju/Tarjan)
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Interview kata: daily reps for Euler path/cycle
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),Constraint-driven design: pick the right MST (Kruskal/Prim + DSU) approach
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Shortest path with state: keys/doors via Union-Find (DSU)
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,When to swap Bipartite check & coloring for a simpler BFS
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Debugging Hopcroft–Karp (bipartite matching): parent arrays & reconstructions
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),Edge cases: negative edges & cycles in Max Flow (Dinic)
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Visual heuristics: when graphs scream Min-Cost Max-Flow
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),Why LCA (binary lifting) scares 90% of interviewees (and how to master it)
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Heavy-Light Decomposition in 60 seconds — intuition first
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,Stop brute forcing: spot the Tree diameter/centroid trigger words
+DSA,DSA — Graph Algorithms Pro,DSU on tree,DSU on tree vs brute force — when to switch and why
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),Top 7 mistakes in Tree flattening (Euler tour) that cost offers
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,From O(N^2) → O(N): optimize your BFS/DFS patterns
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,"Multi-source BFS for beginners: visuals, patterns, pitfalls"
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Think like an interviewer: how I grade your 0-1 BFS
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Whiteboard to code: Dijkstra with edge cases
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,You don’t need to memorize — template for Bellman–Ford
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,"Floyd–Warshall cheat sheet: patterns, templates, tests"
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Interview day checklist for Topological Sort (Kahn/DFS)
+DSA,DSA — Graph Algorithms Pro,DAG DP,Draw this first: diagram that unlocks DAG DP
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),The ‘aha!’ intuition behind Bridges & Articulation (Tarjan)
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),Hidden constraints that break SCC (Kosaraju/Tarjan)
+DSA,DSA — Graph Algorithms Pro,Euler path/cycle,Dry run like a pro: Euler path/cycle on real inputs
+DSA,DSA — Graph Algorithms Pro,MST (Kruskal/Prim + DSU),"Refactor a messy MST (Kruskal/Prim + DSU) into clean, fast code"
+DSA,DSA — Graph Algorithms Pro,Union-Find (DSU),Space vs time in Union-Find (DSU): what to trade off
+DSA,DSA — Graph Algorithms Pro,Bipartite check & coloring,Edge cases that break 8/10 Bipartite check & coloring submissions
+DSA,DSA — Graph Algorithms Pro,Hopcroft–Karp (bipartite matching),Prove correctness for Hopcroft–Karp (bipartite matching) in plain English
+DSA,DSA — Graph Algorithms Pro,Max Flow (Dinic),Phone screen vs onsite: Max Flow (Dinic) differences
+DSA,DSA — Graph Algorithms Pro,Min-Cost Max-Flow,Speedrun Min-Cost Max-Flow: archetypes you must know
+DSA,DSA — Graph Algorithms Pro,LCA (binary lifting),Complexity showdown: naive vs optimal LCA (binary lifting)
+DSA,DSA — Graph Algorithms Pro,Heavy-Light Decomposition,Debugging live: fix a broken Heavy-Light Decomposition solution
+DSA,DSA — Graph Algorithms Pro,Tree diameter/centroid,"Off-by-one, bounds, and overflow in Tree diameter/centroid"
+DSA,DSA — Graph Algorithms Pro,DSU on tree,Simplify before you optimize: DSU on tree
+DSA,DSA — Graph Algorithms Pro,Tree flattening (Euler tour),"Mock interview: one Tree flattening (Euler tour) problem, full process"
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,Unit tests that catch subtle BFS/DFS patterns bugs
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,When to use hash maps / sets with Multi-source BFS
+DSA,DSA — Graph Algorithms Pro,BFS/DFS patterns,ORR traffic lanes as BFS/DFS patterns (Bengaluru analogy)
+DSA,DSA — Graph Algorithms Pro,Multi-source BFS,Cricket powerplay planning as Multi-source BFS
+DSA,DSA — Graph Algorithms Pro,0-1 BFS,Bengaluru metro transfers visualizing 0-1 BFS
+DSA,DSA — Graph Algorithms Pro,Dijkstra,Dabbawala routing intuition for Dijkstra
+DSA,DSA — Graph Algorithms Pro,Bellman–Ford,UPI retries mental model for Bellman–Ford
+DSA,DSA — Graph Algorithms Pro,Floyd–Warshall,ORR traffic lanes as Floyd–Warshall (Bengaluru analogy)
+DSA,DSA — Graph Algorithms Pro,Topological Sort (Kahn/DFS),Cricket powerplay planning as Topological Sort (Kahn/DFS)
+DSA,DSA — Graph Algorithms Pro,DAG DP,Bengaluru metro transfers visualizing DAG DP
+DSA,DSA — Graph Algorithms Pro,Bridges & Articulation (Tarjan),Dabbawala routing intuition for Bridges & Articulation (Tarjan)
+DSA,DSA — Graph Algorithms Pro,SCC (Kosaraju/Tarjan),UPI retries mental model for SCC (Kosaraju/Tarjan)
