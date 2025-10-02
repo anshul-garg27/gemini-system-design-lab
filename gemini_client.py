@@ -48,8 +48,9 @@ class GeminiClient:
         self._key_queue: SimpleQueue[str] = SimpleQueue()
         for key in shuffled_keys:
             self._key_queue.put(key)
-        self.base_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent"
-        
+        self.base_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent"
+        # self.base_url = "https://aiplatform.googleapis.com/v1/publishers/google/models/gemini-flash-latest:generateContent"
+
         # Load the JSON schema for validation
         self.schema = self._load_schema()
     
@@ -159,7 +160,36 @@ Your job:
 - `estimated_read_time` must be in format "X minutes" or "X.Y hours" (e.g., "15 minutes", "1.5 hours", "1 hour").
 - `related_topics` must contain 2–3 distinct integer IDs (not including the topic's own id), preferably from the provided `all_topic_ids`.
 - Dates must be ISO `YYYY-MM-DD`. Use the supplied `created_date` and `updated_date`.
-- Return a JSON object with a "topics" array containing all generated topics."""
+- Return a JSON object with a "topics" array containing all generated topics.
+
+IMPORTANT - Title Cleaning Rules:
+- Clean the input `title` by removing ALL formatting artifacts:
+  * Remove numbering prefixes (e.g., "24. ", "167. ", "450. ")
+  * Remove ALL markdown formatting (**, *, `, ##, etc.)
+  * Remove verbose phrases like "Give me 10 seconds", "I'll show you", "Let's explore"
+  * Remove emoji or special characters (✨, 🚀, →, etc.)
+  * Remove quotes around the title
+- Create a professional, descriptive title that:
+  * Uses proper Title Case
+  * Is clear and specific about the technical concept
+  * Includes relevant technology names when applicable
+  * Is between 40-100 characters
+  * Focuses on the core technical concept
+  
+Examples of title cleaning:
+  Input: "24. **Why memory generations optimize GC for different object lifetime patterns**"
+  Output: "Memory Generations and Garbage Collection Optimization Patterns"
+  
+  Input: "28. Give me 10 seconds, I'll show how **consistent error handling with structured JSON errors improves client resilience** ."
+  Output: "Consistent Error Handling with Structured JSON Responses"
+  
+  Input: "167. How Netflix CDN Works"
+  Output: "How Netflix's Global CDN Architecture Delivers Content at Scale"
+  
+  Input: "🚀 How Kubernetes Auto-Scaling Works"
+  Output: "Kubernetes Horizontal Pod Autoscaling Mechanisms"
+  
+The cleaned title should be professional, search-friendly, and reflect the actual technical depth of the content."""
     
     def _build_user_prompt(self, topics: List[Dict[str, Any]], all_topic_ids: List[int], 
                           created_date: str, updated_date: str) -> str:
@@ -168,14 +198,17 @@ Your job:
         all_ids_json = json.dumps(all_topic_ids)
         
         return f"""You will receive:
-        - `topics`: a list (1–5) of {{id, title}} pairs
+        - `topics`: a list (1–5) of {{id, title}} pairs (titles may contain numbering, markdown, or formatting)
         - `all_topic_ids`: all IDs available for cross-linking
         - `created_date` and `updated_date` strings (YYYY-MM-DD)
 
 Instructions:
-For each topic in `topics`, generate one JSON object following the schema.
-Return a JSON object with a "topics" array containing all generated topics.
-Return JSON ONLY.
+1. For each topic in `topics`, CLEAN the title first according to the Title Cleaning Rules in the system instruction
+2. Generate one complete JSON object following the schema with the CLEANED title
+3. Return a JSON object with a "topics" array containing all generated topics
+4. Return JSON ONLY - no markdown, no code fences, no explanations
+
+REMEMBER: The `title` field in your output must be the CLEANED version, not the raw input title.
 
 Input:
 topics: {topics_json}
@@ -245,7 +278,7 @@ updated_date: "{updated_date}" """
                     if response.ok:
                         break
                     elif response.status_code == 429:  # Rate limited
-                        print("Rate limited, rotating API key...")
+                        print("Rate limited, rotating API key... %s", api_key)
                         if attempt < max_retries - 1:
                             continue
                     else:
@@ -254,7 +287,7 @@ updated_date: "{updated_date}" """
                 except requests.RequestException as e:
                     last_error = e
                     if attempt < max_retries - 1:
-                        print("Request failed, rotating API key...")
+                        print("Request failed, rotating API key... %s", api_key)
                         print(e)
                         continue
                     else:

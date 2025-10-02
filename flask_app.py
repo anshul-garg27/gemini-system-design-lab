@@ -348,46 +348,55 @@ def create_topics():
 @app.route('/api/topics', methods=['GET'])
 def get_topics():
     """API endpoint to get topics with pagination, search, and filtering."""
-    limit = request.args.get('limit', 5, type=int)
-    offset = request.args.get('offset', 0, type=int)
-    
-    # Search and filter parameters
-    search = request.args.get('search', '').strip()
-    category = request.args.get('category', '').strip()
-    status = request.args.get('status', '').strip()
-    complexity = request.args.get('complexity', '').strip()
-    company = request.args.get('company', '').strip()
-    sort_by = request.args.get('sort_by', 'created_date').strip()
-    sort_order = request.args.get('sort_order', 'desc').strip()
-    
-    # Get topics with search and filters
-    topics = db.get_topics_paginated(
-        offset=offset, 
-        limit=limit,
-        search=search,
-        category=category,
-        status=status,
-        complexity=complexity,
-        company=company,
-        sort_by=sort_by,
-        sort_order=sort_order
-    )
-    
-    # Get total count for pagination (with same filters)
-    total_count = db.get_topics_count(
-        search=search,
-        category=category,
-        status=status,
-        complexity=complexity,
-        company=company
-    )
-    
-    return jsonify({
-        'topics': topics,
-        'total_count': total_count,
-        'limit': limit,
-        'offset': offset
-    })
+    try:
+        limit = request.args.get('limit', 5, type=int)
+        offset = request.args.get('offset', 0, type=int)
+        
+        # Ensure limit is at least 1 (0 causes issues)
+        if limit < 1:
+            limit = 5
+        
+        # Search and filter parameters
+        search = request.args.get('search', '').strip()
+        category = request.args.get('category', '').strip()
+        status = request.args.get('status', '').strip()
+        complexity = request.args.get('complexity', '').strip()
+        company = request.args.get('company', '').strip()
+        sort_by = request.args.get('sort_by', 'created_date').strip()
+        sort_order = request.args.get('sort_order', 'desc').strip()
+        
+        # Get topics with search and filters
+        topics = db.get_topics_paginated(
+            offset=offset, 
+            limit=limit,
+            search=search or None,
+            category=category or None,
+            status=status or None,
+            complexity=complexity or None,
+            company=company or None,
+            sort_by=sort_by,
+            sort_order=sort_order
+        )
+        
+        # Get total count for pagination (with same filters)
+        total_count = db.get_topics_count(
+            search=search or None,
+            category=category or None,
+            status=status or None,
+            complexity=complexity or None,
+            company=company or None
+        )
+        
+        return jsonify({
+            'topics': topics,
+            'total_count': total_count,
+            'limit': limit,
+            'offset': offset
+        })
+    except Exception as e:
+        import logging
+        logging.error(f"Error in get_topics endpoint: {e}", exc_info=True)
+        return jsonify({'error': str(e)}), 500
 
 
 @app.route('/api/status')

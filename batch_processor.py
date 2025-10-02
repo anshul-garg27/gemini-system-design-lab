@@ -7,6 +7,7 @@ Handles reading topics from files, processing in batches, and saving results.
 import json
 import os
 import sys
+import logging
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 from datetime import datetime
@@ -15,6 +16,9 @@ import time
 
 from gemini_client import GeminiClient
 from database import TopicsDatabase
+
+# Configure logging
+logger = logging.getLogger(__name__)
 
 
 class TopicBatchProcessor:
@@ -62,11 +66,14 @@ class TopicBatchProcessor:
                 if not isinstance(topic['title'], str):
                     raise ValueError(f"Topic {i} 'title' must be a string")
             
+            logger.info(f"Loaded {len(topics)} topics from {topics_file}")
             return topics
             
         except FileNotFoundError:
+            logger.error(f"Topics file not found: {topics_file}")
             raise FileNotFoundError(f"Topics file not found: {topics_file}")
         except json.JSONDecodeError as e:
+            logger.error(f"Invalid JSON in topics file: {e}")
             raise ValueError(f"Invalid JSON in topics file: {e}")
     
     def get_all_topic_ids(self, topics: List[Dict[str, Any]]) -> List[int]:
@@ -100,7 +107,7 @@ class TopicBatchProcessor:
         if not topics_batch:
             return []
         
-        print(f"Processing batch of {len(topics_batch)} topics...")
+        logger.info(f"Processing batch of {len(topics_batch)} topics...")
         
         try:
             result = self.client.generate_topics(
@@ -119,7 +126,7 @@ class TopicBatchProcessor:
                 raise ValueError(f"Unexpected result type: {type(result)}")
                 
         except Exception as e:
-            print(f"Error processing batch: {e}", file=sys.stderr)
+            logger.error(f"Error processing batch: {e}", exc_info=True)
             return []
         finally:
             # Add delay to avoid rate limiting
@@ -141,7 +148,7 @@ class TopicBatchProcessor:
         db_success = self.db.save_topic(topic, batch_id)
         
         if not db_success:
-            print(f"Warning: Failed to save topic {topic['id']} to database")
+            logger.warning(f"Failed to save topic {topic['id']} to database")
         
         # Optionally save to file
         if save_to_file:
@@ -152,9 +159,10 @@ class TopicBatchProcessor:
             try:
                 with open(filepath, 'w') as f:
                     json.dump(topic, f, indent=2)
+                logger.debug(f"Saved topic {topic_id} to file {filepath}")
                 return str(filepath)
             except Exception as e:
-                print(f"Warning: Failed to save topic {topic_id} to file: {e}")
+                logger.warning(f"Failed to save topic {topic_id} to file: {e}")
                 return f"Database only (file save failed)"
         else:
             return "Database only"
@@ -182,8 +190,8 @@ class TopicBatchProcessor:
         topics = self.load_topics(topics_file)
         all_topic_ids = self.get_all_topic_ids(topics)
         
-        print(f"Loaded {len(topics)} topics from {topics_file}")
-        print(f"Processing in batches of {min(batch_size, 5)}")
+        logger.info(f"Loaded {len(topics)} topics from {topics_file}")
+        logger.info(f"Processing in batches of {min(batch_size, 5)}")
         
         # Set default dates
         today = datetime.now().strftime("%Y-%m-%d")
@@ -200,7 +208,7 @@ class TopicBatchProcessor:
             batch_num = (i // batch_size) + 1
             total_batches = (len(topics) + batch_size - 1) // batch_size
             
-            print(f"\nBatch {batch_num}/{total_batches}: {[t['id'] for t in batch]}")
+            logger.info(f"Processing batch {batch_num}/{total_batches}: {[t['id'] for t in batch]}")
             
             generated_topics = self.process_batch(
                 batch, 
@@ -219,14 +227,14 @@ class TopicBatchProcessor:
                         'title': topic['title'],
                         'file': filepath
                     })
-                    print(f"  ✓ Saved topic {topic['id']}: {topic['title']}")
+                    logger.info(f"✓ Saved topic {topic['id']}: {topic['title']}")
                 except Exception as e:
                     failed_topics.append({
                         'id': topic.get('id', 'unknown'),
                         'title': topic.get('title', 'unknown'),
                         'error': str(e)
                     })
-                    print(f"  ✗ Failed to save topic {topic.get('id', 'unknown')}: {e}")
+                    logger.error(f"✗ Failed to save topic {topic.get('id', 'unknown')}: {e}")
         
         # Get database stats
         db_stats = self.db.get_topics_stats()
@@ -247,6 +255,16 @@ class TopicBatchProcessor:
 
 def main():
     """Command-line interface for the batch processor."""
+    # Configure logging
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler('batch_processor.log'),
+            logging.StreamHandler(sys.stdout)
+        ]
+    )
+    
     parser = argparse.ArgumentParser(
         description="Generate system design topics using Gemini 2.5 Flash"
     )
@@ -298,7 +316,7 @@ def main():
     
     # Validate batch size
     if args.batch_size > 5:
-        print("Warning: Batch size limited to 5 by Gemini API", file=sys.stderr)
+        logger.warning("Batch size limited to 5 by Gemini API")
         args.batch_size = 5
     
     try:
@@ -341,7 +359,7 @@ def main():
                 print(f"  - {failed['id']}: {failed['error']}")
         
     except Exception as e:
-        print(f"Error: {e}", file=sys.stderr)
+        logger.error(f"Fatal error: {e}", exc_info=True)
         sys.exit(1)
 
 
