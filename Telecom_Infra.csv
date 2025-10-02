@@ -1,0 +1,321 @@
+pillar,category,seed,title
+System Design,Telecom_Infra,india-company-scenario,How Jio handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How Jio survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How Jio delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How Jio streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How Jio books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How Jio handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How Jio manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How Jio delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How Jio balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How Jio streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How Jio prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How Jio runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How Jio ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How Jio assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How Jio streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How Jio processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How Jio delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How Jio handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How Jio manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How Jio delivers fashion orders during End of Reason Sale?
+System Design,Telecom_Infra,india-company-scenario,How Jio keeps systems up during Independence Day midnight traffic surge?
+System Design,Telecom_Infra,india-company-scenario,How Jio survives Holi weekend delivery spikes?
+System Design,Telecom_Infra,india-company-scenario,How Jio optimizes surge pricing during floods and heavy rains?
+System Design,Telecom_Infra,india-company-scenario,How Jio streams Republic Day parade live without downtime?
+System Design,Telecom_Infra,india-company-scenario,How Jio keeps Black Friday shopping smooth in India?
+System Design,Telecom_Infra,india-company-scenario,How Jio delivers wedding season orders when demand skyrockets?
+System Design,Telecom_Infra,india-company-scenario,How Jio handles OTT load during India vs Pakistan match?
+System Design,Telecom_Infra,india-company-scenario,How Jio keeps grocery supply chain running during lockdown-like rush?
+System Design,Telecom_Infra,india-company-scenario,How Jio prevents downtime during G20 summit streaming?
+System Design,Telecom_Infra,india-company-scenario,How Jio processes crores of recharge requests during network outages?
+System Design,Telecom_Infra,india-company-scenario,How Airtel handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How Airtel survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How Airtel delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How Airtel streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How Airtel books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How Airtel handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How Airtel manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How Airtel delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How Airtel balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How Airtel streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How Airtel prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How Airtel runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How Airtel ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How Airtel assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How Airtel streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How Airtel processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How Airtel delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How Airtel handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How Airtel manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How Airtel delivers fashion orders during End of Reason Sale?
+System Design,Telecom_Infra,india-company-scenario,How Airtel keeps systems up during Independence Day midnight traffic surge?
+System Design,Telecom_Infra,india-company-scenario,How Airtel survives Holi weekend delivery spikes?
+System Design,Telecom_Infra,india-company-scenario,How Airtel optimizes surge pricing during floods and heavy rains?
+System Design,Telecom_Infra,india-company-scenario,How Airtel streams Republic Day parade live without downtime?
+System Design,Telecom_Infra,india-company-scenario,How Airtel keeps Black Friday shopping smooth in India?
+System Design,Telecom_Infra,india-company-scenario,How Airtel delivers wedding season orders when demand skyrockets?
+System Design,Telecom_Infra,india-company-scenario,How Airtel handles OTT load during India vs Pakistan match?
+System Design,Telecom_Infra,india-company-scenario,How Airtel keeps grocery supply chain running during lockdown-like rush?
+System Design,Telecom_Infra,india-company-scenario,How Airtel prevents downtime during G20 summit streaming?
+System Design,Telecom_Infra,india-company-scenario,How Airtel processes crores of recharge requests during network outages?
+System Design,Telecom_Infra,india-company-scenario,How Vi handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How Vi survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How Vi delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How Vi streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How Vi books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How Vi handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How Vi manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How Vi delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How Vi balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How Vi streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How Vi prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How Vi runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How Vi ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How Vi assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How Vi streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How Vi processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How Vi delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How Vi handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How Vi manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How Vi delivers fashion orders during End of Reason Sale?
+System Design,Telecom_Infra,india-company-scenario,How Vi keeps systems up during Independence Day midnight traffic surge?
+System Design,Telecom_Infra,india-company-scenario,How Vi survives Holi weekend delivery spikes?
+System Design,Telecom_Infra,india-company-scenario,How Vi optimizes surge pricing during floods and heavy rains?
+System Design,Telecom_Infra,india-company-scenario,How Vi streams Republic Day parade live without downtime?
+System Design,Telecom_Infra,india-company-scenario,How Vi keeps Black Friday shopping smooth in India?
+System Design,Telecom_Infra,india-company-scenario,How Vi delivers wedding season orders when demand skyrockets?
+System Design,Telecom_Infra,india-company-scenario,How Vi handles OTT load during India vs Pakistan match?
+System Design,Telecom_Infra,india-company-scenario,How Vi keeps grocery supply chain running during lockdown-like rush?
+System Design,Telecom_Infra,india-company-scenario,How Vi prevents downtime during G20 summit streaming?
+System Design,Telecom_Infra,india-company-scenario,How Vi processes crores of recharge requests during network outages?
+System Design,Telecom_Infra,india-company-scenario,How FASTag handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How FASTag survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How FASTag delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How FASTag streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How FASTag books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How FASTag handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How FASTag manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How FASTag delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How FASTag balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How FASTag streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How FASTag prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How FASTag runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How FASTag ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How FASTag assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How FASTag streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How FASTag processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How FASTag delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How FASTag handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How FASTag manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How FASTag delivers fashion orders during End of Reason Sale?
+System Design,Telecom_Infra,india-company-scenario,How FASTag keeps systems up during Independence Day midnight traffic surge?
+System Design,Telecom_Infra,india-company-scenario,How FASTag survives Holi weekend delivery spikes?
+System Design,Telecom_Infra,india-company-scenario,How FASTag optimizes surge pricing during floods and heavy rains?
+System Design,Telecom_Infra,india-company-scenario,How FASTag streams Republic Day parade live without downtime?
+System Design,Telecom_Infra,india-company-scenario,How FASTag keeps Black Friday shopping smooth in India?
+System Design,Telecom_Infra,india-company-scenario,How FASTag delivers wedding season orders when demand skyrockets?
+System Design,Telecom_Infra,india-company-scenario,How FASTag handles OTT load during India vs Pakistan match?
+System Design,Telecom_Infra,india-company-scenario,How FASTag keeps grocery supply chain running during lockdown-like rush?
+System Design,Telecom_Infra,india-company-scenario,How FASTag prevents downtime during G20 summit streaming?
+System Design,Telecom_Infra,india-company-scenario,How FASTag processes crores of recharge requests during network outages?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery delivers fashion orders during End of Reason Sale?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery keeps systems up during Independence Day midnight traffic surge?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery survives Holi weekend delivery spikes?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery optimizes surge pricing during floods and heavy rains?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery streams Republic Day parade live without downtime?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery keeps Black Friday shopping smooth in India?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery delivers wedding season orders when demand skyrockets?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery handles OTT load during India vs Pakistan match?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery keeps grocery supply chain running during lockdown-like rush?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery prevents downtime during G20 summit streaming?
+System Design,Telecom_Infra,india-company-scenario,How Delhivery processes crores of recharge requests during network outages?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax delivers fashion orders during End of Reason Sale?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax keeps systems up during Independence Day midnight traffic surge?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax survives Holi weekend delivery spikes?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax optimizes surge pricing during floods and heavy rains?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax streams Republic Day parade live without downtime?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax keeps Black Friday shopping smooth in India?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax delivers wedding season orders when demand skyrockets?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax handles OTT load during India vs Pakistan match?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax keeps grocery supply chain running during lockdown-like rush?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax prevents downtime during G20 summit streaming?
+System Design,Telecom_Infra,india-company-scenario,How Shadowfax processes crores of recharge requests during network outages?
+System Design,Telecom_Infra,india-company-scenario,How AWS handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How AWS survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How AWS delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How AWS streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How AWS books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How AWS handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How AWS manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How AWS delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How AWS balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How AWS streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How AWS prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How AWS runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How AWS ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How AWS assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How AWS streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How AWS processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How AWS delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How AWS handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How AWS manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How AWS delivers fashion orders during End of Reason Sale?
+System Design,Telecom_Infra,india-company-scenario,How AWS keeps systems up during Independence Day midnight traffic surge?
+System Design,Telecom_Infra,india-company-scenario,How AWS survives Holi weekend delivery spikes?
+System Design,Telecom_Infra,india-company-scenario,How AWS optimizes surge pricing during floods and heavy rains?
+System Design,Telecom_Infra,india-company-scenario,How AWS streams Republic Day parade live without downtime?
+System Design,Telecom_Infra,india-company-scenario,How AWS keeps Black Friday shopping smooth in India?
+System Design,Telecom_Infra,india-company-scenario,How AWS delivers wedding season orders when demand skyrockets?
+System Design,Telecom_Infra,india-company-scenario,How AWS handles OTT load during India vs Pakistan match?
+System Design,Telecom_Infra,india-company-scenario,How AWS keeps grocery supply chain running during lockdown-like rush?
+System Design,Telecom_Infra,india-company-scenario,How AWS prevents downtime during G20 summit streaming?
+System Design,Telecom_Infra,india-company-scenario,How AWS processes crores of recharge requests during network outages?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare delivers fashion orders during End of Reason Sale?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare keeps systems up during Independence Day midnight traffic surge?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare survives Holi weekend delivery spikes?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare optimizes surge pricing during floods and heavy rains?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare streams Republic Day parade live without downtime?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare keeps Black Friday shopping smooth in India?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare delivers wedding season orders when demand skyrockets?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare handles OTT load during India vs Pakistan match?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare keeps grocery supply chain running during lockdown-like rush?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare prevents downtime during G20 summit streaming?
+System Design,Telecom_Infra,india-company-scenario,How Cloudflare processes crores of recharge requests during network outages?
+System Design,Telecom_Infra,india-company-scenario,How Jio handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How Jio survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How Jio delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How Jio streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How Jio books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How Jio handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How Jio manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How Jio delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How Jio balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How Jio streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How Jio prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How Jio runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How Jio ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How Jio assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How Jio streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How Jio processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How Jio delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How Jio handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How Jio manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How Jio delivers fashion orders during End of Reason Sale?
+System Design,Telecom_Infra,india-company-scenario,How Jio keeps systems up during Independence Day midnight traffic surge?
+System Design,Telecom_Infra,india-company-scenario,How Jio survives Holi weekend delivery spikes?
+System Design,Telecom_Infra,india-company-scenario,How Jio optimizes surge pricing during floods and heavy rains?
+System Design,Telecom_Infra,india-company-scenario,How Jio streams Republic Day parade live without downtime?
+System Design,Telecom_Infra,india-company-scenario,How Jio keeps Black Friday shopping smooth in India?
+System Design,Telecom_Infra,india-company-scenario,How Jio delivers wedding season orders when demand skyrockets?
+System Design,Telecom_Infra,india-company-scenario,How Jio handles OTT load during India vs Pakistan match?
+System Design,Telecom_Infra,india-company-scenario,How Jio keeps grocery supply chain running during lockdown-like rush?
+System Design,Telecom_Infra,india-company-scenario,How Jio prevents downtime during G20 summit streaming?
+System Design,Telecom_Infra,india-company-scenario,How Jio processes crores of recharge requests during network outages?
+System Design,Telecom_Infra,india-company-scenario,How Airtel handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How Airtel survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How Airtel delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How Airtel streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How Airtel books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How Airtel handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How Airtel manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How Airtel delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How Airtel balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How Airtel streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How Airtel prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How Airtel runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How Airtel ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How Airtel assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How Airtel streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How Airtel processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How Airtel delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How Airtel handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How Airtel manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How Airtel delivers fashion orders during End of Reason Sale?
+System Design,Telecom_Infra,india-company-scenario,How Airtel keeps systems up during Independence Day midnight traffic surge?
+System Design,Telecom_Infra,india-company-scenario,How Airtel survives Holi weekend delivery spikes?
+System Design,Telecom_Infra,india-company-scenario,How Airtel optimizes surge pricing during floods and heavy rains?
+System Design,Telecom_Infra,india-company-scenario,How Airtel streams Republic Day parade live without downtime?
+System Design,Telecom_Infra,india-company-scenario,How Airtel keeps Black Friday shopping smooth in India?
+System Design,Telecom_Infra,india-company-scenario,How Airtel delivers wedding season orders when demand skyrockets?
+System Design,Telecom_Infra,india-company-scenario,How Airtel handles OTT load during India vs Pakistan match?
+System Design,Telecom_Infra,india-company-scenario,How Airtel keeps grocery supply chain running during lockdown-like rush?
+System Design,Telecom_Infra,india-company-scenario,How Airtel prevents downtime during G20 summit streaming?
+System Design,Telecom_Infra,india-company-scenario,How Airtel processes crores of recharge requests during network outages?
+System Design,Telecom_Infra,india-company-scenario,How Vi handles crores of UPI payments during Diwali shopping?
+System Design,Telecom_Infra,india-company-scenario,How Vi survives Big Billion Day sales without crashing?
+System Design,Telecom_Infra,india-company-scenario,How Vi delivers food during IPL finals when millions order at once?
+System Design,Telecom_Infra,india-company-scenario,How Vi streams cricket to 30 million concurrent viewers?
+System Design,Telecom_Infra,india-company-scenario,How Vi books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Telecom_Infra,india-company-scenario,How Vi handles traffic surge during Coldplay concert ticket sales?
+System Design,Telecom_Infra,india-company-scenario,How Vi manages cashback and offers during festive rush?
+System Design,Telecom_Infra,india-company-scenario,How Vi delivers groceries in 10 minutes during monsoon season?
+System Design,Telecom_Infra,india-company-scenario,How Vi balances rides during Bangalore peak traffic?
+System Design,Telecom_Infra,india-company-scenario,How Vi streams Bollywood blockbusters to millions on Friday night?
+System Design,Telecom_Infra,india-company-scenario,How Vi prevents fraud during massive transaction spikes?
+System Design,Telecom_Infra,india-company-scenario,How Vi runs fantasy leagues for crores of users in IPL finals?
+System Design,Telecom_Infra,india-company-scenario,How Vi ships lakhs of orders during Great Indian Festival?
+System Design,Telecom_Infra,india-company-scenario,How Vi assigns cabs instantly during New Year’s Eve?
+System Design,Telecom_Infra,india-company-scenario,How Vi streams live World Cup cricket matches without buffering?
+System Design,Telecom_Infra,india-company-scenario,How Vi processes lakhs of stock trades during Budget Day?
+System Design,Telecom_Infra,india-company-scenario,How Vi delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Telecom_Infra,india-company-scenario,How Vi handles school exam traffic on edtech live platforms?
+System Design,Telecom_Infra,india-company-scenario,How Vi manages FASTag tolls for millions of cars daily?
+System Design,Telecom_Infra,india-company-scenario,How Vi delivers fashion orders during End of Reason Sale?

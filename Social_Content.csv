@@ -1,0 +1,321 @@
+pillar,category,seed,title
+System Design,Social_Content,india-company-scenario,How ShareChat handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How ShareChat survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How ShareChat delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How ShareChat streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How ShareChat books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How ShareChat handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How ShareChat manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How ShareChat delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How ShareChat balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How ShareChat streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How ShareChat prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How ShareChat runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How ShareChat ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How ShareChat assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How ShareChat streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How ShareChat processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How ShareChat delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How ShareChat handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How ShareChat manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How ShareChat delivers fashion orders during End of Reason Sale?
+System Design,Social_Content,india-company-scenario,How ShareChat keeps systems up during Independence Day midnight traffic surge?
+System Design,Social_Content,india-company-scenario,How ShareChat survives Holi weekend delivery spikes?
+System Design,Social_Content,india-company-scenario,How ShareChat optimizes surge pricing during floods and heavy rains?
+System Design,Social_Content,india-company-scenario,How ShareChat streams Republic Day parade live without downtime?
+System Design,Social_Content,india-company-scenario,How ShareChat keeps Black Friday shopping smooth in India?
+System Design,Social_Content,india-company-scenario,How ShareChat delivers wedding season orders when demand skyrockets?
+System Design,Social_Content,india-company-scenario,How ShareChat handles OTT load during India vs Pakistan match?
+System Design,Social_Content,india-company-scenario,How ShareChat keeps grocery supply chain running during lockdown-like rush?
+System Design,Social_Content,india-company-scenario,How ShareChat prevents downtime during G20 summit streaming?
+System Design,Social_Content,india-company-scenario,How ShareChat processes crores of recharge requests during network outages?
+System Design,Social_Content,india-company-scenario,How Koo handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How Koo survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How Koo delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How Koo streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How Koo books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How Koo handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How Koo manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How Koo delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How Koo balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How Koo streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How Koo prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How Koo runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How Koo ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How Koo assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How Koo streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How Koo processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How Koo delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How Koo handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How Koo manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How Koo delivers fashion orders during End of Reason Sale?
+System Design,Social_Content,india-company-scenario,How Koo keeps systems up during Independence Day midnight traffic surge?
+System Design,Social_Content,india-company-scenario,How Koo survives Holi weekend delivery spikes?
+System Design,Social_Content,india-company-scenario,How Koo optimizes surge pricing during floods and heavy rains?
+System Design,Social_Content,india-company-scenario,How Koo streams Republic Day parade live without downtime?
+System Design,Social_Content,india-company-scenario,How Koo keeps Black Friday shopping smooth in India?
+System Design,Social_Content,india-company-scenario,How Koo delivers wedding season orders when demand skyrockets?
+System Design,Social_Content,india-company-scenario,How Koo handles OTT load during India vs Pakistan match?
+System Design,Social_Content,india-company-scenario,How Koo keeps grocery supply chain running during lockdown-like rush?
+System Design,Social_Content,india-company-scenario,How Koo prevents downtime during G20 summit streaming?
+System Design,Social_Content,india-company-scenario,How Koo processes crores of recharge requests during network outages?
+System Design,Social_Content,india-company-scenario,How DailyHunt handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How DailyHunt survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How DailyHunt delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How DailyHunt streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How DailyHunt books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How DailyHunt handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How DailyHunt manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How DailyHunt delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How DailyHunt balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How DailyHunt streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How DailyHunt prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How DailyHunt runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How DailyHunt ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How DailyHunt assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How DailyHunt streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How DailyHunt processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How DailyHunt delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How DailyHunt handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How DailyHunt manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How DailyHunt delivers fashion orders during End of Reason Sale?
+System Design,Social_Content,india-company-scenario,How DailyHunt keeps systems up during Independence Day midnight traffic surge?
+System Design,Social_Content,india-company-scenario,How DailyHunt survives Holi weekend delivery spikes?
+System Design,Social_Content,india-company-scenario,How DailyHunt optimizes surge pricing during floods and heavy rains?
+System Design,Social_Content,india-company-scenario,How DailyHunt streams Republic Day parade live without downtime?
+System Design,Social_Content,india-company-scenario,How DailyHunt keeps Black Friday shopping smooth in India?
+System Design,Social_Content,india-company-scenario,How DailyHunt delivers wedding season orders when demand skyrockets?
+System Design,Social_Content,india-company-scenario,How DailyHunt handles OTT load during India vs Pakistan match?
+System Design,Social_Content,india-company-scenario,How DailyHunt keeps grocery supply chain running during lockdown-like rush?
+System Design,Social_Content,india-company-scenario,How DailyHunt prevents downtime during G20 summit streaming?
+System Design,Social_Content,india-company-scenario,How DailyHunt processes crores of recharge requests during network outages?
+System Design,Social_Content,india-company-scenario,How Moj handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How Moj survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How Moj delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How Moj streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How Moj books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How Moj handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How Moj manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How Moj delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How Moj balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How Moj streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How Moj prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How Moj runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How Moj ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How Moj assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How Moj streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How Moj processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How Moj delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How Moj handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How Moj manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How Moj delivers fashion orders during End of Reason Sale?
+System Design,Social_Content,india-company-scenario,How Moj keeps systems up during Independence Day midnight traffic surge?
+System Design,Social_Content,india-company-scenario,How Moj survives Holi weekend delivery spikes?
+System Design,Social_Content,india-company-scenario,How Moj optimizes surge pricing during floods and heavy rains?
+System Design,Social_Content,india-company-scenario,How Moj streams Republic Day parade live without downtime?
+System Design,Social_Content,india-company-scenario,How Moj keeps Black Friday shopping smooth in India?
+System Design,Social_Content,india-company-scenario,How Moj delivers wedding season orders when demand skyrockets?
+System Design,Social_Content,india-company-scenario,How Moj handles OTT load during India vs Pakistan match?
+System Design,Social_Content,india-company-scenario,How Moj keeps grocery supply chain running during lockdown-like rush?
+System Design,Social_Content,india-company-scenario,How Moj prevents downtime during G20 summit streaming?
+System Design,Social_Content,india-company-scenario,How Moj processes crores of recharge requests during network outages?
+System Design,Social_Content,india-company-scenario,How Josh handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How Josh survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How Josh delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How Josh streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How Josh books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How Josh handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How Josh manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How Josh delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How Josh balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How Josh streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How Josh prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How Josh runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How Josh ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How Josh assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How Josh streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How Josh processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How Josh delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How Josh handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How Josh manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How Josh delivers fashion orders during End of Reason Sale?
+System Design,Social_Content,india-company-scenario,How Josh keeps systems up during Independence Day midnight traffic surge?
+System Design,Social_Content,india-company-scenario,How Josh survives Holi weekend delivery spikes?
+System Design,Social_Content,india-company-scenario,How Josh optimizes surge pricing during floods and heavy rains?
+System Design,Social_Content,india-company-scenario,How Josh streams Republic Day parade live without downtime?
+System Design,Social_Content,india-company-scenario,How Josh keeps Black Friday shopping smooth in India?
+System Design,Social_Content,india-company-scenario,How Josh delivers wedding season orders when demand skyrockets?
+System Design,Social_Content,india-company-scenario,How Josh handles OTT load during India vs Pakistan match?
+System Design,Social_Content,india-company-scenario,How Josh keeps grocery supply chain running during lockdown-like rush?
+System Design,Social_Content,india-company-scenario,How Josh prevents downtime during G20 summit streaming?
+System Design,Social_Content,india-company-scenario,How Josh processes crores of recharge requests during network outages?
+System Design,Social_Content,india-company-scenario,How Chingari handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How Chingari survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How Chingari delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How Chingari streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How Chingari books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How Chingari handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How Chingari manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How Chingari delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How Chingari balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How Chingari streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How Chingari prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How Chingari runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How Chingari ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How Chingari assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How Chingari streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How Chingari processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How Chingari delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How Chingari handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How Chingari manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How Chingari delivers fashion orders during End of Reason Sale?
+System Design,Social_Content,india-company-scenario,How Chingari keeps systems up during Independence Day midnight traffic surge?
+System Design,Social_Content,india-company-scenario,How Chingari survives Holi weekend delivery spikes?
+System Design,Social_Content,india-company-scenario,How Chingari optimizes surge pricing during floods and heavy rains?
+System Design,Social_Content,india-company-scenario,How Chingari streams Republic Day parade live without downtime?
+System Design,Social_Content,india-company-scenario,How Chingari keeps Black Friday shopping smooth in India?
+System Design,Social_Content,india-company-scenario,How Chingari delivers wedding season orders when demand skyrockets?
+System Design,Social_Content,india-company-scenario,How Chingari handles OTT load during India vs Pakistan match?
+System Design,Social_Content,india-company-scenario,How Chingari keeps grocery supply chain running during lockdown-like rush?
+System Design,Social_Content,india-company-scenario,How Chingari prevents downtime during G20 summit streaming?
+System Design,Social_Content,india-company-scenario,How Chingari processes crores of recharge requests during network outages?
+System Design,Social_Content,india-company-scenario,How Instagram handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How Instagram survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How Instagram delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How Instagram streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How Instagram books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How Instagram handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How Instagram manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How Instagram delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How Instagram balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How Instagram streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How Instagram prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How Instagram runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How Instagram ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How Instagram assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How Instagram streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How Instagram processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How Instagram delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How Instagram handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How Instagram manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How Instagram delivers fashion orders during End of Reason Sale?
+System Design,Social_Content,india-company-scenario,How Instagram keeps systems up during Independence Day midnight traffic surge?
+System Design,Social_Content,india-company-scenario,How Instagram survives Holi weekend delivery spikes?
+System Design,Social_Content,india-company-scenario,How Instagram optimizes surge pricing during floods and heavy rains?
+System Design,Social_Content,india-company-scenario,How Instagram streams Republic Day parade live without downtime?
+System Design,Social_Content,india-company-scenario,How Instagram keeps Black Friday shopping smooth in India?
+System Design,Social_Content,india-company-scenario,How Instagram delivers wedding season orders when demand skyrockets?
+System Design,Social_Content,india-company-scenario,How Instagram handles OTT load during India vs Pakistan match?
+System Design,Social_Content,india-company-scenario,How Instagram keeps grocery supply chain running during lockdown-like rush?
+System Design,Social_Content,india-company-scenario,How Instagram prevents downtime during G20 summit streaming?
+System Design,Social_Content,india-company-scenario,How Instagram processes crores of recharge requests during network outages?
+System Design,Social_Content,india-company-scenario,How WhatsApp handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How WhatsApp survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How WhatsApp delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How WhatsApp streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How WhatsApp books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How WhatsApp handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How WhatsApp manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How WhatsApp delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How WhatsApp balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How WhatsApp streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How WhatsApp prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How WhatsApp runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How WhatsApp ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How WhatsApp assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How WhatsApp streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How WhatsApp processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How WhatsApp delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How WhatsApp handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How WhatsApp manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How WhatsApp delivers fashion orders during End of Reason Sale?
+System Design,Social_Content,india-company-scenario,How WhatsApp keeps systems up during Independence Day midnight traffic surge?
+System Design,Social_Content,india-company-scenario,How WhatsApp survives Holi weekend delivery spikes?
+System Design,Social_Content,india-company-scenario,How WhatsApp optimizes surge pricing during floods and heavy rains?
+System Design,Social_Content,india-company-scenario,How WhatsApp streams Republic Day parade live without downtime?
+System Design,Social_Content,india-company-scenario,How WhatsApp keeps Black Friday shopping smooth in India?
+System Design,Social_Content,india-company-scenario,How WhatsApp delivers wedding season orders when demand skyrockets?
+System Design,Social_Content,india-company-scenario,How WhatsApp handles OTT load during India vs Pakistan match?
+System Design,Social_Content,india-company-scenario,How WhatsApp keeps grocery supply chain running during lockdown-like rush?
+System Design,Social_Content,india-company-scenario,How WhatsApp prevents downtime during G20 summit streaming?
+System Design,Social_Content,india-company-scenario,How WhatsApp processes crores of recharge requests during network outages?
+System Design,Social_Content,india-company-scenario,How ShareChat handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How ShareChat survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How ShareChat delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How ShareChat streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How ShareChat books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How ShareChat handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How ShareChat manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How ShareChat delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How ShareChat balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How ShareChat streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How ShareChat prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How ShareChat runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How ShareChat ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How ShareChat assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How ShareChat streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How ShareChat processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How ShareChat delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How ShareChat handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How ShareChat manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How ShareChat delivers fashion orders during End of Reason Sale?
+System Design,Social_Content,india-company-scenario,How ShareChat keeps systems up during Independence Day midnight traffic surge?
+System Design,Social_Content,india-company-scenario,How ShareChat survives Holi weekend delivery spikes?
+System Design,Social_Content,india-company-scenario,How ShareChat optimizes surge pricing during floods and heavy rains?
+System Design,Social_Content,india-company-scenario,How ShareChat streams Republic Day parade live without downtime?
+System Design,Social_Content,india-company-scenario,How ShareChat keeps Black Friday shopping smooth in India?
+System Design,Social_Content,india-company-scenario,How ShareChat delivers wedding season orders when demand skyrockets?
+System Design,Social_Content,india-company-scenario,How ShareChat handles OTT load during India vs Pakistan match?
+System Design,Social_Content,india-company-scenario,How ShareChat keeps grocery supply chain running during lockdown-like rush?
+System Design,Social_Content,india-company-scenario,How ShareChat prevents downtime during G20 summit streaming?
+System Design,Social_Content,india-company-scenario,How ShareChat processes crores of recharge requests during network outages?
+System Design,Social_Content,india-company-scenario,How Koo handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How Koo survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How Koo delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How Koo streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How Koo books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How Koo handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How Koo manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How Koo delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How Koo balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How Koo streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How Koo prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How Koo runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How Koo ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How Koo assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How Koo streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How Koo processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How Koo delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How Koo handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How Koo manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How Koo delivers fashion orders during End of Reason Sale?
+System Design,Social_Content,india-company-scenario,How Koo keeps systems up during Independence Day midnight traffic surge?
+System Design,Social_Content,india-company-scenario,How Koo survives Holi weekend delivery spikes?
+System Design,Social_Content,india-company-scenario,How Koo optimizes surge pricing during floods and heavy rains?
+System Design,Social_Content,india-company-scenario,How Koo streams Republic Day parade live without downtime?
+System Design,Social_Content,india-company-scenario,How Koo keeps Black Friday shopping smooth in India?
+System Design,Social_Content,india-company-scenario,How Koo delivers wedding season orders when demand skyrockets?
+System Design,Social_Content,india-company-scenario,How Koo handles OTT load during India vs Pakistan match?
+System Design,Social_Content,india-company-scenario,How Koo keeps grocery supply chain running during lockdown-like rush?
+System Design,Social_Content,india-company-scenario,How Koo prevents downtime during G20 summit streaming?
+System Design,Social_Content,india-company-scenario,How Koo processes crores of recharge requests during network outages?
+System Design,Social_Content,india-company-scenario,How DailyHunt handles crores of UPI payments during Diwali shopping?
+System Design,Social_Content,india-company-scenario,How DailyHunt survives Big Billion Day sales without crashing?
+System Design,Social_Content,india-company-scenario,How DailyHunt delivers food during IPL finals when millions order at once?
+System Design,Social_Content,india-company-scenario,How DailyHunt streams cricket to 30 million concurrent viewers?
+System Design,Social_Content,india-company-scenario,How DailyHunt books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Social_Content,india-company-scenario,How DailyHunt handles traffic surge during Coldplay concert ticket sales?
+System Design,Social_Content,india-company-scenario,How DailyHunt manages cashback and offers during festive rush?
+System Design,Social_Content,india-company-scenario,How DailyHunt delivers groceries in 10 minutes during monsoon season?
+System Design,Social_Content,india-company-scenario,How DailyHunt balances rides during Bangalore peak traffic?
+System Design,Social_Content,india-company-scenario,How DailyHunt streams Bollywood blockbusters to millions on Friday night?
+System Design,Social_Content,india-company-scenario,How DailyHunt prevents fraud during massive transaction spikes?
+System Design,Social_Content,india-company-scenario,How DailyHunt runs fantasy leagues for crores of users in IPL finals?
+System Design,Social_Content,india-company-scenario,How DailyHunt ships lakhs of orders during Great Indian Festival?
+System Design,Social_Content,india-company-scenario,How DailyHunt assigns cabs instantly during New Year’s Eve?
+System Design,Social_Content,india-company-scenario,How DailyHunt streams live World Cup cricket matches without buffering?
+System Design,Social_Content,india-company-scenario,How DailyHunt processes lakhs of stock trades during Budget Day?
+System Design,Social_Content,india-company-scenario,How DailyHunt delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Social_Content,india-company-scenario,How DailyHunt handles school exam traffic on edtech live platforms?
+System Design,Social_Content,india-company-scenario,How DailyHunt manages FASTag tolls for millions of cars daily?
+System Design,Social_Content,india-company-scenario,How DailyHunt delivers fashion orders during End of Reason Sale?

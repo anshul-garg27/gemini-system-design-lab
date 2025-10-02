@@ -1,0 +1,321 @@
+pillar,category,seed,title
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar delivers fashion orders during End of Reason Sale?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar keeps systems up during Independence Day midnight traffic surge?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar survives Holi weekend delivery spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar optimizes surge pricing during floods and heavy rains?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar streams Republic Day parade live without downtime?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar keeps Black Friday shopping smooth in India?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar delivers wedding season orders when demand skyrockets?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar handles OTT load during India vs Pakistan match?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar keeps grocery supply chain running during lockdown-like rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar prevents downtime during G20 summit streaming?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar processes crores of recharge requests during network outages?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema delivers fashion orders during End of Reason Sale?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema keeps systems up during Independence Day midnight traffic surge?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema survives Holi weekend delivery spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema optimizes surge pricing during floods and heavy rains?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema streams Republic Day parade live without downtime?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema keeps Black Friday shopping smooth in India?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema delivers wedding season orders when demand skyrockets?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema handles OTT load during India vs Pakistan match?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema keeps grocery supply chain running during lockdown-like rush?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema prevents downtime during G20 summit streaming?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema processes crores of recharge requests during network outages?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv delivers fashion orders during End of Reason Sale?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv keeps systems up during Independence Day midnight traffic surge?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv survives Holi weekend delivery spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv optimizes surge pricing during floods and heavy rains?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv streams Republic Day parade live without downtime?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv keeps Black Friday shopping smooth in India?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv delivers wedding season orders when demand skyrockets?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv handles OTT load during India vs Pakistan match?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv keeps grocery supply chain running during lockdown-like rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv prevents downtime during G20 summit streaming?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv processes crores of recharge requests during network outages?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow delivers fashion orders during End of Reason Sale?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow keeps systems up during Independence Day midnight traffic surge?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow survives Holi weekend delivery spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow optimizes surge pricing during floods and heavy rains?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow streams Republic Day parade live without downtime?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow keeps Black Friday shopping smooth in India?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow delivers wedding season orders when demand skyrockets?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow handles OTT load during India vs Pakistan match?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow keeps grocery supply chain running during lockdown-like rush?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow prevents downtime during G20 summit streaming?
+System Design,Streaming_Entertainment,india-company-scenario,How BookMyShow processes crores of recharge requests during network outages?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana delivers fashion orders during End of Reason Sale?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana keeps systems up during Independence Day midnight traffic surge?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana survives Holi weekend delivery spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana optimizes surge pricing during floods and heavy rains?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana streams Republic Day parade live without downtime?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana keeps Black Friday shopping smooth in India?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana delivers wedding season orders when demand skyrockets?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana handles OTT load during India vs Pakistan match?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana keeps grocery supply chain running during lockdown-like rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana prevents downtime during G20 summit streaming?
+System Design,Streaming_Entertainment,india-company-scenario,How Gaana processes crores of recharge requests during network outages?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn delivers fashion orders during End of Reason Sale?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn keeps systems up during Independence Day midnight traffic surge?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn survives Holi weekend delivery spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn optimizes surge pricing during floods and heavy rains?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn streams Republic Day parade live without downtime?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn keeps Black Friday shopping smooth in India?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn delivers wedding season orders when demand skyrockets?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn handles OTT load during India vs Pakistan match?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn keeps grocery supply chain running during lockdown-like rush?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn prevents downtime during G20 summit streaming?
+System Design,Streaming_Entertainment,india-company-scenario,How JioSaavn processes crores of recharge requests during network outages?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix delivers fashion orders during End of Reason Sale?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix keeps systems up during Independence Day midnight traffic surge?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix survives Holi weekend delivery spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix optimizes surge pricing during floods and heavy rains?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix streams Republic Day parade live without downtime?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix keeps Black Friday shopping smooth in India?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix delivers wedding season orders when demand skyrockets?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix handles OTT load during India vs Pakistan match?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix keeps grocery supply chain running during lockdown-like rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix prevents downtime during G20 summit streaming?
+System Design,Streaming_Entertainment,india-company-scenario,How Netflix processes crores of recharge requests during network outages?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube delivers fashion orders during End of Reason Sale?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube keeps systems up during Independence Day midnight traffic surge?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube survives Holi weekend delivery spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube optimizes surge pricing during floods and heavy rains?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube streams Republic Day parade live without downtime?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube keeps Black Friday shopping smooth in India?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube delivers wedding season orders when demand skyrockets?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube handles OTT load during India vs Pakistan match?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube keeps grocery supply chain running during lockdown-like rush?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube prevents downtime during G20 summit streaming?
+System Design,Streaming_Entertainment,india-company-scenario,How YouTube processes crores of recharge requests during network outages?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar delivers fashion orders during End of Reason Sale?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar keeps systems up during Independence Day midnight traffic surge?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar survives Holi weekend delivery spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar optimizes surge pricing during floods and heavy rains?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar streams Republic Day parade live without downtime?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar keeps Black Friday shopping smooth in India?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar delivers wedding season orders when demand skyrockets?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar handles OTT load during India vs Pakistan match?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar keeps grocery supply chain running during lockdown-like rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar prevents downtime during G20 summit streaming?
+System Design,Streaming_Entertainment,india-company-scenario,How Hotstar processes crores of recharge requests during network outages?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema delivers fashion orders during End of Reason Sale?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema keeps systems up during Independence Day midnight traffic surge?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema survives Holi weekend delivery spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema optimizes surge pricing during floods and heavy rains?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema streams Republic Day parade live without downtime?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema keeps Black Friday shopping smooth in India?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema delivers wedding season orders when demand skyrockets?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema handles OTT load during India vs Pakistan match?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema keeps grocery supply chain running during lockdown-like rush?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema prevents downtime during G20 summit streaming?
+System Design,Streaming_Entertainment,india-company-scenario,How JioCinema processes crores of recharge requests during network outages?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv handles crores of UPI payments during Diwali shopping?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv survives Big Billion Day sales without crashing?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv delivers food during IPL finals when millions order at once?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv streams cricket to 30 million concurrent viewers?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv handles traffic surge during Coldplay concert ticket sales?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv manages cashback and offers during festive rush?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv delivers groceries in 10 minutes during monsoon season?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv balances rides during Bangalore peak traffic?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv streams Bollywood blockbusters to millions on Friday night?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv prevents fraud during massive transaction spikes?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv runs fantasy leagues for crores of users in IPL finals?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv ships lakhs of orders during Great Indian Festival?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv assigns cabs instantly during New Year’s Eve?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv streams live World Cup cricket matches without buffering?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv processes lakhs of stock trades during Budget Day?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv handles school exam traffic on edtech live platforms?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv manages FASTag tolls for millions of cars daily?
+System Design,Streaming_Entertainment,india-company-scenario,How Sony Liv delivers fashion orders during End of Reason Sale?

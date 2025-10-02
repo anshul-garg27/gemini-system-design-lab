@@ -1,0 +1,321 @@
+pillar,category,seed,title
+System Design,EdTech,india-company-scenario,How BYJU's handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How BYJU's survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How BYJU's delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How BYJU's streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How BYJU's books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How BYJU's handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How BYJU's manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How BYJU's delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How BYJU's balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How BYJU's streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How BYJU's prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How BYJU's runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How BYJU's ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How BYJU's assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How BYJU's streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How BYJU's processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How BYJU's delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How BYJU's handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How BYJU's manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How BYJU's delivers fashion orders during End of Reason Sale?
+System Design,EdTech,india-company-scenario,How BYJU's keeps systems up during Independence Day midnight traffic surge?
+System Design,EdTech,india-company-scenario,How BYJU's survives Holi weekend delivery spikes?
+System Design,EdTech,india-company-scenario,How BYJU's optimizes surge pricing during floods and heavy rains?
+System Design,EdTech,india-company-scenario,How BYJU's streams Republic Day parade live without downtime?
+System Design,EdTech,india-company-scenario,How BYJU's keeps Black Friday shopping smooth in India?
+System Design,EdTech,india-company-scenario,How BYJU's delivers wedding season orders when demand skyrockets?
+System Design,EdTech,india-company-scenario,How BYJU's handles OTT load during India vs Pakistan match?
+System Design,EdTech,india-company-scenario,How BYJU's keeps grocery supply chain running during lockdown-like rush?
+System Design,EdTech,india-company-scenario,How BYJU's prevents downtime during G20 summit streaming?
+System Design,EdTech,india-company-scenario,How BYJU's processes crores of recharge requests during network outages?
+System Design,EdTech,india-company-scenario,How Unacademy handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How Unacademy survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How Unacademy delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How Unacademy streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How Unacademy books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How Unacademy handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How Unacademy manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How Unacademy delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How Unacademy balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How Unacademy streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How Unacademy prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How Unacademy runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How Unacademy ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How Unacademy assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How Unacademy streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How Unacademy processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How Unacademy delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How Unacademy handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How Unacademy manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How Unacademy delivers fashion orders during End of Reason Sale?
+System Design,EdTech,india-company-scenario,How Unacademy keeps systems up during Independence Day midnight traffic surge?
+System Design,EdTech,india-company-scenario,How Unacademy survives Holi weekend delivery spikes?
+System Design,EdTech,india-company-scenario,How Unacademy optimizes surge pricing during floods and heavy rains?
+System Design,EdTech,india-company-scenario,How Unacademy streams Republic Day parade live without downtime?
+System Design,EdTech,india-company-scenario,How Unacademy keeps Black Friday shopping smooth in India?
+System Design,EdTech,india-company-scenario,How Unacademy delivers wedding season orders when demand skyrockets?
+System Design,EdTech,india-company-scenario,How Unacademy handles OTT load during India vs Pakistan match?
+System Design,EdTech,india-company-scenario,How Unacademy keeps grocery supply chain running during lockdown-like rush?
+System Design,EdTech,india-company-scenario,How Unacademy prevents downtime during G20 summit streaming?
+System Design,EdTech,india-company-scenario,How Unacademy processes crores of recharge requests during network outages?
+System Design,EdTech,india-company-scenario,How PhysicsWallah handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How PhysicsWallah survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How PhysicsWallah delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How PhysicsWallah streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How PhysicsWallah books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How PhysicsWallah handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How PhysicsWallah manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How PhysicsWallah delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How PhysicsWallah balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How PhysicsWallah streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How PhysicsWallah prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How PhysicsWallah runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How PhysicsWallah ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How PhysicsWallah assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How PhysicsWallah streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How PhysicsWallah processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How PhysicsWallah delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How PhysicsWallah handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How PhysicsWallah manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How PhysicsWallah delivers fashion orders during End of Reason Sale?
+System Design,EdTech,india-company-scenario,How PhysicsWallah keeps systems up during Independence Day midnight traffic surge?
+System Design,EdTech,india-company-scenario,How PhysicsWallah survives Holi weekend delivery spikes?
+System Design,EdTech,india-company-scenario,How PhysicsWallah optimizes surge pricing during floods and heavy rains?
+System Design,EdTech,india-company-scenario,How PhysicsWallah streams Republic Day parade live without downtime?
+System Design,EdTech,india-company-scenario,How PhysicsWallah keeps Black Friday shopping smooth in India?
+System Design,EdTech,india-company-scenario,How PhysicsWallah delivers wedding season orders when demand skyrockets?
+System Design,EdTech,india-company-scenario,How PhysicsWallah handles OTT load during India vs Pakistan match?
+System Design,EdTech,india-company-scenario,How PhysicsWallah keeps grocery supply chain running during lockdown-like rush?
+System Design,EdTech,india-company-scenario,How PhysicsWallah prevents downtime during G20 summit streaming?
+System Design,EdTech,india-company-scenario,How PhysicsWallah processes crores of recharge requests during network outages?
+System Design,EdTech,india-company-scenario,How Vedantu handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How Vedantu survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How Vedantu delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How Vedantu streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How Vedantu books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How Vedantu handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How Vedantu manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How Vedantu delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How Vedantu balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How Vedantu streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How Vedantu prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How Vedantu runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How Vedantu ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How Vedantu assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How Vedantu streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How Vedantu processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How Vedantu delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How Vedantu handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How Vedantu manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How Vedantu delivers fashion orders during End of Reason Sale?
+System Design,EdTech,india-company-scenario,How Vedantu keeps systems up during Independence Day midnight traffic surge?
+System Design,EdTech,india-company-scenario,How Vedantu survives Holi weekend delivery spikes?
+System Design,EdTech,india-company-scenario,How Vedantu optimizes surge pricing during floods and heavy rains?
+System Design,EdTech,india-company-scenario,How Vedantu streams Republic Day parade live without downtime?
+System Design,EdTech,india-company-scenario,How Vedantu keeps Black Friday shopping smooth in India?
+System Design,EdTech,india-company-scenario,How Vedantu delivers wedding season orders when demand skyrockets?
+System Design,EdTech,india-company-scenario,How Vedantu handles OTT load during India vs Pakistan match?
+System Design,EdTech,india-company-scenario,How Vedantu keeps grocery supply chain running during lockdown-like rush?
+System Design,EdTech,india-company-scenario,How Vedantu prevents downtime during G20 summit streaming?
+System Design,EdTech,india-company-scenario,How Vedantu processes crores of recharge requests during network outages?
+System Design,EdTech,india-company-scenario,How Coursera handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How Coursera survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How Coursera delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How Coursera streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How Coursera books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How Coursera handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How Coursera manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How Coursera delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How Coursera balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How Coursera streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How Coursera prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How Coursera runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How Coursera ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How Coursera assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How Coursera streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How Coursera processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How Coursera delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How Coursera handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How Coursera manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How Coursera delivers fashion orders during End of Reason Sale?
+System Design,EdTech,india-company-scenario,How Coursera keeps systems up during Independence Day midnight traffic surge?
+System Design,EdTech,india-company-scenario,How Coursera survives Holi weekend delivery spikes?
+System Design,EdTech,india-company-scenario,How Coursera optimizes surge pricing during floods and heavy rains?
+System Design,EdTech,india-company-scenario,How Coursera streams Republic Day parade live without downtime?
+System Design,EdTech,india-company-scenario,How Coursera keeps Black Friday shopping smooth in India?
+System Design,EdTech,india-company-scenario,How Coursera delivers wedding season orders when demand skyrockets?
+System Design,EdTech,india-company-scenario,How Coursera handles OTT load during India vs Pakistan match?
+System Design,EdTech,india-company-scenario,How Coursera keeps grocery supply chain running during lockdown-like rush?
+System Design,EdTech,india-company-scenario,How Coursera prevents downtime during G20 summit streaming?
+System Design,EdTech,india-company-scenario,How Coursera processes crores of recharge requests during network outages?
+System Design,EdTech,india-company-scenario,How Khan Academy handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How Khan Academy survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How Khan Academy delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How Khan Academy streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How Khan Academy books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How Khan Academy handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How Khan Academy manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How Khan Academy delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How Khan Academy balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How Khan Academy streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How Khan Academy prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How Khan Academy runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How Khan Academy ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How Khan Academy assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How Khan Academy streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How Khan Academy processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How Khan Academy delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How Khan Academy handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How Khan Academy manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How Khan Academy delivers fashion orders during End of Reason Sale?
+System Design,EdTech,india-company-scenario,How Khan Academy keeps systems up during Independence Day midnight traffic surge?
+System Design,EdTech,india-company-scenario,How Khan Academy survives Holi weekend delivery spikes?
+System Design,EdTech,india-company-scenario,How Khan Academy optimizes surge pricing during floods and heavy rains?
+System Design,EdTech,india-company-scenario,How Khan Academy streams Republic Day parade live without downtime?
+System Design,EdTech,india-company-scenario,How Khan Academy keeps Black Friday shopping smooth in India?
+System Design,EdTech,india-company-scenario,How Khan Academy delivers wedding season orders when demand skyrockets?
+System Design,EdTech,india-company-scenario,How Khan Academy handles OTT load during India vs Pakistan match?
+System Design,EdTech,india-company-scenario,How Khan Academy keeps grocery supply chain running during lockdown-like rush?
+System Design,EdTech,india-company-scenario,How Khan Academy prevents downtime during G20 summit streaming?
+System Design,EdTech,india-company-scenario,How Khan Academy processes crores of recharge requests during network outages?
+System Design,EdTech,india-company-scenario,How BYJU's handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How BYJU's survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How BYJU's delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How BYJU's streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How BYJU's books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How BYJU's handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How BYJU's manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How BYJU's delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How BYJU's balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How BYJU's streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How BYJU's prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How BYJU's runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How BYJU's ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How BYJU's assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How BYJU's streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How BYJU's processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How BYJU's delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How BYJU's handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How BYJU's manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How BYJU's delivers fashion orders during End of Reason Sale?
+System Design,EdTech,india-company-scenario,How BYJU's keeps systems up during Independence Day midnight traffic surge?
+System Design,EdTech,india-company-scenario,How BYJU's survives Holi weekend delivery spikes?
+System Design,EdTech,india-company-scenario,How BYJU's optimizes surge pricing during floods and heavy rains?
+System Design,EdTech,india-company-scenario,How BYJU's streams Republic Day parade live without downtime?
+System Design,EdTech,india-company-scenario,How BYJU's keeps Black Friday shopping smooth in India?
+System Design,EdTech,india-company-scenario,How BYJU's delivers wedding season orders when demand skyrockets?
+System Design,EdTech,india-company-scenario,How BYJU's handles OTT load during India vs Pakistan match?
+System Design,EdTech,india-company-scenario,How BYJU's keeps grocery supply chain running during lockdown-like rush?
+System Design,EdTech,india-company-scenario,How BYJU's prevents downtime during G20 summit streaming?
+System Design,EdTech,india-company-scenario,How BYJU's processes crores of recharge requests during network outages?
+System Design,EdTech,india-company-scenario,How Unacademy handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How Unacademy survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How Unacademy delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How Unacademy streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How Unacademy books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How Unacademy handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How Unacademy manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How Unacademy delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How Unacademy balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How Unacademy streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How Unacademy prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How Unacademy runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How Unacademy ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How Unacademy assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How Unacademy streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How Unacademy processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How Unacademy delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How Unacademy handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How Unacademy manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How Unacademy delivers fashion orders during End of Reason Sale?
+System Design,EdTech,india-company-scenario,How Unacademy keeps systems up during Independence Day midnight traffic surge?
+System Design,EdTech,india-company-scenario,How Unacademy survives Holi weekend delivery spikes?
+System Design,EdTech,india-company-scenario,How Unacademy optimizes surge pricing during floods and heavy rains?
+System Design,EdTech,india-company-scenario,How Unacademy streams Republic Day parade live without downtime?
+System Design,EdTech,india-company-scenario,How Unacademy keeps Black Friday shopping smooth in India?
+System Design,EdTech,india-company-scenario,How Unacademy delivers wedding season orders when demand skyrockets?
+System Design,EdTech,india-company-scenario,How Unacademy handles OTT load during India vs Pakistan match?
+System Design,EdTech,india-company-scenario,How Unacademy keeps grocery supply chain running during lockdown-like rush?
+System Design,EdTech,india-company-scenario,How Unacademy prevents downtime during G20 summit streaming?
+System Design,EdTech,india-company-scenario,How Unacademy processes crores of recharge requests during network outages?
+System Design,EdTech,india-company-scenario,How PhysicsWallah handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How PhysicsWallah survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How PhysicsWallah delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How PhysicsWallah streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How PhysicsWallah books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How PhysicsWallah handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How PhysicsWallah manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How PhysicsWallah delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How PhysicsWallah balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How PhysicsWallah streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How PhysicsWallah prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How PhysicsWallah runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How PhysicsWallah ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How PhysicsWallah assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How PhysicsWallah streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How PhysicsWallah processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How PhysicsWallah delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How PhysicsWallah handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How PhysicsWallah manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How PhysicsWallah delivers fashion orders during End of Reason Sale?
+System Design,EdTech,india-company-scenario,How PhysicsWallah keeps systems up during Independence Day midnight traffic surge?
+System Design,EdTech,india-company-scenario,How PhysicsWallah survives Holi weekend delivery spikes?
+System Design,EdTech,india-company-scenario,How PhysicsWallah optimizes surge pricing during floods and heavy rains?
+System Design,EdTech,india-company-scenario,How PhysicsWallah streams Republic Day parade live without downtime?
+System Design,EdTech,india-company-scenario,How PhysicsWallah keeps Black Friday shopping smooth in India?
+System Design,EdTech,india-company-scenario,How PhysicsWallah delivers wedding season orders when demand skyrockets?
+System Design,EdTech,india-company-scenario,How PhysicsWallah handles OTT load during India vs Pakistan match?
+System Design,EdTech,india-company-scenario,How PhysicsWallah keeps grocery supply chain running during lockdown-like rush?
+System Design,EdTech,india-company-scenario,How PhysicsWallah prevents downtime during G20 summit streaming?
+System Design,EdTech,india-company-scenario,How PhysicsWallah processes crores of recharge requests during network outages?
+System Design,EdTech,india-company-scenario,How Vedantu handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How Vedantu survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How Vedantu delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How Vedantu streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How Vedantu books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How Vedantu handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How Vedantu manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How Vedantu delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How Vedantu balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How Vedantu streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How Vedantu prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How Vedantu runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How Vedantu ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How Vedantu assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How Vedantu streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How Vedantu processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How Vedantu delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How Vedantu handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How Vedantu manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How Vedantu delivers fashion orders during End of Reason Sale?
+System Design,EdTech,india-company-scenario,How Vedantu keeps systems up during Independence Day midnight traffic surge?
+System Design,EdTech,india-company-scenario,How Vedantu survives Holi weekend delivery spikes?
+System Design,EdTech,india-company-scenario,How Vedantu optimizes surge pricing during floods and heavy rains?
+System Design,EdTech,india-company-scenario,How Vedantu streams Republic Day parade live without downtime?
+System Design,EdTech,india-company-scenario,How Vedantu keeps Black Friday shopping smooth in India?
+System Design,EdTech,india-company-scenario,How Vedantu delivers wedding season orders when demand skyrockets?
+System Design,EdTech,india-company-scenario,How Vedantu handles OTT load during India vs Pakistan match?
+System Design,EdTech,india-company-scenario,How Vedantu keeps grocery supply chain running during lockdown-like rush?
+System Design,EdTech,india-company-scenario,How Vedantu prevents downtime during G20 summit streaming?
+System Design,EdTech,india-company-scenario,How Vedantu processes crores of recharge requests during network outages?
+System Design,EdTech,india-company-scenario,How Coursera handles crores of UPI payments during Diwali shopping?
+System Design,EdTech,india-company-scenario,How Coursera survives Big Billion Day sales without crashing?
+System Design,EdTech,india-company-scenario,How Coursera delivers food during IPL finals when millions order at once?
+System Design,EdTech,india-company-scenario,How Coursera streams cricket to 30 million concurrent viewers?
+System Design,EdTech,india-company-scenario,How Coursera books Tatkal tickets at 10 AM for lakhs of users?
+System Design,EdTech,india-company-scenario,How Coursera handles traffic surge during Coldplay concert ticket sales?
+System Design,EdTech,india-company-scenario,How Coursera manages cashback and offers during festive rush?
+System Design,EdTech,india-company-scenario,How Coursera delivers groceries in 10 minutes during monsoon season?
+System Design,EdTech,india-company-scenario,How Coursera balances rides during Bangalore peak traffic?
+System Design,EdTech,india-company-scenario,How Coursera streams Bollywood blockbusters to millions on Friday night?
+System Design,EdTech,india-company-scenario,How Coursera prevents fraud during massive transaction spikes?
+System Design,EdTech,india-company-scenario,How Coursera runs fantasy leagues for crores of users in IPL finals?
+System Design,EdTech,india-company-scenario,How Coursera ships lakhs of orders during Great Indian Festival?
+System Design,EdTech,india-company-scenario,How Coursera assigns cabs instantly during New Year’s Eve?
+System Design,EdTech,india-company-scenario,How Coursera streams live World Cup cricket matches without buffering?
+System Design,EdTech,india-company-scenario,How Coursera processes lakhs of stock trades during Budget Day?
+System Design,EdTech,india-company-scenario,How Coursera delivers sweets and gifts during Raksha Bandhan spike?
+System Design,EdTech,india-company-scenario,How Coursera handles school exam traffic on edtech live platforms?
+System Design,EdTech,india-company-scenario,How Coursera manages FASTag tolls for millions of cars daily?
+System Design,EdTech,india-company-scenario,How Coursera delivers fashion orders during End of Reason Sale?

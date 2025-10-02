@@ -1,0 +1,321 @@
+pillar,category,seed,title
+System Design,Food_Delivery,india-company-scenario,How Zomato handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How Zomato survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How Zomato delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How Zomato streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How Zomato books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How Zomato handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How Zomato manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How Zomato delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How Zomato balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How Zomato streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How Zomato prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How Zomato runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How Zomato ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How Zomato assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How Zomato streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How Zomato processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How Zomato delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How Zomato handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How Zomato manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How Zomato delivers fashion orders during End of Reason Sale?
+System Design,Food_Delivery,india-company-scenario,How Zomato keeps systems up during Independence Day midnight traffic surge?
+System Design,Food_Delivery,india-company-scenario,How Zomato survives Holi weekend delivery spikes?
+System Design,Food_Delivery,india-company-scenario,How Zomato optimizes surge pricing during floods and heavy rains?
+System Design,Food_Delivery,india-company-scenario,How Zomato streams Republic Day parade live without downtime?
+System Design,Food_Delivery,india-company-scenario,How Zomato keeps Black Friday shopping smooth in India?
+System Design,Food_Delivery,india-company-scenario,How Zomato delivers wedding season orders when demand skyrockets?
+System Design,Food_Delivery,india-company-scenario,How Zomato handles OTT load during India vs Pakistan match?
+System Design,Food_Delivery,india-company-scenario,How Zomato keeps grocery supply chain running during lockdown-like rush?
+System Design,Food_Delivery,india-company-scenario,How Zomato prevents downtime during G20 summit streaming?
+System Design,Food_Delivery,india-company-scenario,How Zomato processes crores of recharge requests during network outages?
+System Design,Food_Delivery,india-company-scenario,How Swiggy handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How Swiggy survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How Swiggy delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How Swiggy streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How Swiggy books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How Swiggy handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How Swiggy manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How Swiggy delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How Swiggy balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How Swiggy streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How Swiggy prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How Swiggy runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How Swiggy ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How Swiggy assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How Swiggy streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How Swiggy processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How Swiggy delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How Swiggy handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How Swiggy manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How Swiggy delivers fashion orders during End of Reason Sale?
+System Design,Food_Delivery,india-company-scenario,How Swiggy keeps systems up during Independence Day midnight traffic surge?
+System Design,Food_Delivery,india-company-scenario,How Swiggy survives Holi weekend delivery spikes?
+System Design,Food_Delivery,india-company-scenario,How Swiggy optimizes surge pricing during floods and heavy rains?
+System Design,Food_Delivery,india-company-scenario,How Swiggy streams Republic Day parade live without downtime?
+System Design,Food_Delivery,india-company-scenario,How Swiggy keeps Black Friday shopping smooth in India?
+System Design,Food_Delivery,india-company-scenario,How Swiggy delivers wedding season orders when demand skyrockets?
+System Design,Food_Delivery,india-company-scenario,How Swiggy handles OTT load during India vs Pakistan match?
+System Design,Food_Delivery,india-company-scenario,How Swiggy keeps grocery supply chain running during lockdown-like rush?
+System Design,Food_Delivery,india-company-scenario,How Swiggy prevents downtime during G20 summit streaming?
+System Design,Food_Delivery,india-company-scenario,How Swiggy processes crores of recharge requests during network outages?
+System Design,Food_Delivery,india-company-scenario,How Blinkit handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How Blinkit survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How Blinkit delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How Blinkit streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How Blinkit books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How Blinkit handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How Blinkit manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How Blinkit delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How Blinkit balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How Blinkit streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How Blinkit prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How Blinkit runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How Blinkit ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How Blinkit assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How Blinkit streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How Blinkit processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How Blinkit delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How Blinkit handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How Blinkit manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How Blinkit delivers fashion orders during End of Reason Sale?
+System Design,Food_Delivery,india-company-scenario,How Blinkit keeps systems up during Independence Day midnight traffic surge?
+System Design,Food_Delivery,india-company-scenario,How Blinkit survives Holi weekend delivery spikes?
+System Design,Food_Delivery,india-company-scenario,How Blinkit optimizes surge pricing during floods and heavy rains?
+System Design,Food_Delivery,india-company-scenario,How Blinkit streams Republic Day parade live without downtime?
+System Design,Food_Delivery,india-company-scenario,How Blinkit keeps Black Friday shopping smooth in India?
+System Design,Food_Delivery,india-company-scenario,How Blinkit delivers wedding season orders when demand skyrockets?
+System Design,Food_Delivery,india-company-scenario,How Blinkit handles OTT load during India vs Pakistan match?
+System Design,Food_Delivery,india-company-scenario,How Blinkit keeps grocery supply chain running during lockdown-like rush?
+System Design,Food_Delivery,india-company-scenario,How Blinkit prevents downtime during G20 summit streaming?
+System Design,Food_Delivery,india-company-scenario,How Blinkit processes crores of recharge requests during network outages?
+System Design,Food_Delivery,india-company-scenario,How Dunzo handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How Dunzo survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How Dunzo delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How Dunzo streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How Dunzo books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How Dunzo handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How Dunzo manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How Dunzo delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How Dunzo balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How Dunzo streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How Dunzo prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How Dunzo runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How Dunzo ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How Dunzo assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How Dunzo streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How Dunzo processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How Dunzo delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How Dunzo handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How Dunzo manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How Dunzo delivers fashion orders during End of Reason Sale?
+System Design,Food_Delivery,india-company-scenario,How Dunzo keeps systems up during Independence Day midnight traffic surge?
+System Design,Food_Delivery,india-company-scenario,How Dunzo survives Holi weekend delivery spikes?
+System Design,Food_Delivery,india-company-scenario,How Dunzo optimizes surge pricing during floods and heavy rains?
+System Design,Food_Delivery,india-company-scenario,How Dunzo streams Republic Day parade live without downtime?
+System Design,Food_Delivery,india-company-scenario,How Dunzo keeps Black Friday shopping smooth in India?
+System Design,Food_Delivery,india-company-scenario,How Dunzo delivers wedding season orders when demand skyrockets?
+System Design,Food_Delivery,india-company-scenario,How Dunzo handles OTT load during India vs Pakistan match?
+System Design,Food_Delivery,india-company-scenario,How Dunzo keeps grocery supply chain running during lockdown-like rush?
+System Design,Food_Delivery,india-company-scenario,How Dunzo prevents downtime during G20 summit streaming?
+System Design,Food_Delivery,india-company-scenario,How Dunzo processes crores of recharge requests during network outages?
+System Design,Food_Delivery,india-company-scenario,How BigBasket handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How BigBasket survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How BigBasket delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How BigBasket streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How BigBasket books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How BigBasket handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How BigBasket manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How BigBasket delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How BigBasket balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How BigBasket streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How BigBasket prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How BigBasket runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How BigBasket ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How BigBasket assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How BigBasket streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How BigBasket processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How BigBasket delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How BigBasket handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How BigBasket manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How BigBasket delivers fashion orders during End of Reason Sale?
+System Design,Food_Delivery,india-company-scenario,How BigBasket keeps systems up during Independence Day midnight traffic surge?
+System Design,Food_Delivery,india-company-scenario,How BigBasket survives Holi weekend delivery spikes?
+System Design,Food_Delivery,india-company-scenario,How BigBasket optimizes surge pricing during floods and heavy rains?
+System Design,Food_Delivery,india-company-scenario,How BigBasket streams Republic Day parade live without downtime?
+System Design,Food_Delivery,india-company-scenario,How BigBasket keeps Black Friday shopping smooth in India?
+System Design,Food_Delivery,india-company-scenario,How BigBasket delivers wedding season orders when demand skyrockets?
+System Design,Food_Delivery,india-company-scenario,How BigBasket handles OTT load during India vs Pakistan match?
+System Design,Food_Delivery,india-company-scenario,How BigBasket keeps grocery supply chain running during lockdown-like rush?
+System Design,Food_Delivery,india-company-scenario,How BigBasket prevents downtime during G20 summit streaming?
+System Design,Food_Delivery,india-company-scenario,How BigBasket processes crores of recharge requests during network outages?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome delivers fashion orders during End of Reason Sale?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome keeps systems up during Independence Day midnight traffic surge?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome survives Holi weekend delivery spikes?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome optimizes surge pricing during floods and heavy rains?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome streams Republic Day parade live without downtime?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome keeps Black Friday shopping smooth in India?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome delivers wedding season orders when demand skyrockets?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome handles OTT load during India vs Pakistan match?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome keeps grocery supply chain running during lockdown-like rush?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome prevents downtime during G20 summit streaming?
+System Design,Food_Delivery,india-company-scenario,How FreshToHome processes crores of recharge requests during network outages?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats delivers fashion orders during End of Reason Sale?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats keeps systems up during Independence Day midnight traffic surge?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats survives Holi weekend delivery spikes?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats optimizes surge pricing during floods and heavy rains?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats streams Republic Day parade live without downtime?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats keeps Black Friday shopping smooth in India?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats delivers wedding season orders when demand skyrockets?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats handles OTT load during India vs Pakistan match?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats keeps grocery supply chain running during lockdown-like rush?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats prevents downtime during G20 summit streaming?
+System Design,Food_Delivery,india-company-scenario,How Uber Eats processes crores of recharge requests during network outages?
+System Design,Food_Delivery,india-company-scenario,How Instacart handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How Instacart survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How Instacart delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How Instacart streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How Instacart books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How Instacart handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How Instacart manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How Instacart delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How Instacart balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How Instacart streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How Instacart prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How Instacart runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How Instacart ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How Instacart assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How Instacart streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How Instacart processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How Instacart delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How Instacart handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How Instacart manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How Instacart delivers fashion orders during End of Reason Sale?
+System Design,Food_Delivery,india-company-scenario,How Instacart keeps systems up during Independence Day midnight traffic surge?
+System Design,Food_Delivery,india-company-scenario,How Instacart survives Holi weekend delivery spikes?
+System Design,Food_Delivery,india-company-scenario,How Instacart optimizes surge pricing during floods and heavy rains?
+System Design,Food_Delivery,india-company-scenario,How Instacart streams Republic Day parade live without downtime?
+System Design,Food_Delivery,india-company-scenario,How Instacart keeps Black Friday shopping smooth in India?
+System Design,Food_Delivery,india-company-scenario,How Instacart delivers wedding season orders when demand skyrockets?
+System Design,Food_Delivery,india-company-scenario,How Instacart handles OTT load during India vs Pakistan match?
+System Design,Food_Delivery,india-company-scenario,How Instacart keeps grocery supply chain running during lockdown-like rush?
+System Design,Food_Delivery,india-company-scenario,How Instacart prevents downtime during G20 summit streaming?
+System Design,Food_Delivery,india-company-scenario,How Instacart processes crores of recharge requests during network outages?
+System Design,Food_Delivery,india-company-scenario,How Zomato handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How Zomato survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How Zomato delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How Zomato streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How Zomato books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How Zomato handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How Zomato manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How Zomato delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How Zomato balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How Zomato streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How Zomato prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How Zomato runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How Zomato ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How Zomato assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How Zomato streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How Zomato processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How Zomato delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How Zomato handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How Zomato manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How Zomato delivers fashion orders during End of Reason Sale?
+System Design,Food_Delivery,india-company-scenario,How Zomato keeps systems up during Independence Day midnight traffic surge?
+System Design,Food_Delivery,india-company-scenario,How Zomato survives Holi weekend delivery spikes?
+System Design,Food_Delivery,india-company-scenario,How Zomato optimizes surge pricing during floods and heavy rains?
+System Design,Food_Delivery,india-company-scenario,How Zomato streams Republic Day parade live without downtime?
+System Design,Food_Delivery,india-company-scenario,How Zomato keeps Black Friday shopping smooth in India?
+System Design,Food_Delivery,india-company-scenario,How Zomato delivers wedding season orders when demand skyrockets?
+System Design,Food_Delivery,india-company-scenario,How Zomato handles OTT load during India vs Pakistan match?
+System Design,Food_Delivery,india-company-scenario,How Zomato keeps grocery supply chain running during lockdown-like rush?
+System Design,Food_Delivery,india-company-scenario,How Zomato prevents downtime during G20 summit streaming?
+System Design,Food_Delivery,india-company-scenario,How Zomato processes crores of recharge requests during network outages?
+System Design,Food_Delivery,india-company-scenario,How Swiggy handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How Swiggy survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How Swiggy delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How Swiggy streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How Swiggy books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How Swiggy handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How Swiggy manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How Swiggy delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How Swiggy balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How Swiggy streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How Swiggy prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How Swiggy runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How Swiggy ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How Swiggy assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How Swiggy streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How Swiggy processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How Swiggy delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How Swiggy handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How Swiggy manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How Swiggy delivers fashion orders during End of Reason Sale?
+System Design,Food_Delivery,india-company-scenario,How Swiggy keeps systems up during Independence Day midnight traffic surge?
+System Design,Food_Delivery,india-company-scenario,How Swiggy survives Holi weekend delivery spikes?
+System Design,Food_Delivery,india-company-scenario,How Swiggy optimizes surge pricing during floods and heavy rains?
+System Design,Food_Delivery,india-company-scenario,How Swiggy streams Republic Day parade live without downtime?
+System Design,Food_Delivery,india-company-scenario,How Swiggy keeps Black Friday shopping smooth in India?
+System Design,Food_Delivery,india-company-scenario,How Swiggy delivers wedding season orders when demand skyrockets?
+System Design,Food_Delivery,india-company-scenario,How Swiggy handles OTT load during India vs Pakistan match?
+System Design,Food_Delivery,india-company-scenario,How Swiggy keeps grocery supply chain running during lockdown-like rush?
+System Design,Food_Delivery,india-company-scenario,How Swiggy prevents downtime during G20 summit streaming?
+System Design,Food_Delivery,india-company-scenario,How Swiggy processes crores of recharge requests during network outages?
+System Design,Food_Delivery,india-company-scenario,How Blinkit handles crores of UPI payments during Diwali shopping?
+System Design,Food_Delivery,india-company-scenario,How Blinkit survives Big Billion Day sales without crashing?
+System Design,Food_Delivery,india-company-scenario,How Blinkit delivers food during IPL finals when millions order at once?
+System Design,Food_Delivery,india-company-scenario,How Blinkit streams cricket to 30 million concurrent viewers?
+System Design,Food_Delivery,india-company-scenario,How Blinkit books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Food_Delivery,india-company-scenario,How Blinkit handles traffic surge during Coldplay concert ticket sales?
+System Design,Food_Delivery,india-company-scenario,How Blinkit manages cashback and offers during festive rush?
+System Design,Food_Delivery,india-company-scenario,How Blinkit delivers groceries in 10 minutes during monsoon season?
+System Design,Food_Delivery,india-company-scenario,How Blinkit balances rides during Bangalore peak traffic?
+System Design,Food_Delivery,india-company-scenario,How Blinkit streams Bollywood blockbusters to millions on Friday night?
+System Design,Food_Delivery,india-company-scenario,How Blinkit prevents fraud during massive transaction spikes?
+System Design,Food_Delivery,india-company-scenario,How Blinkit runs fantasy leagues for crores of users in IPL finals?
+System Design,Food_Delivery,india-company-scenario,How Blinkit ships lakhs of orders during Great Indian Festival?
+System Design,Food_Delivery,india-company-scenario,How Blinkit assigns cabs instantly during New Year’s Eve?
+System Design,Food_Delivery,india-company-scenario,How Blinkit streams live World Cup cricket matches without buffering?
+System Design,Food_Delivery,india-company-scenario,How Blinkit processes lakhs of stock trades during Budget Day?
+System Design,Food_Delivery,india-company-scenario,How Blinkit delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Food_Delivery,india-company-scenario,How Blinkit handles school exam traffic on edtech live platforms?
+System Design,Food_Delivery,india-company-scenario,How Blinkit manages FASTag tolls for millions of cars daily?
+System Design,Food_Delivery,india-company-scenario,How Blinkit delivers fashion orders during End of Reason Sale?

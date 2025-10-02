@@ -1,0 +1,1001 @@
+pillar,category,seed,title
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,"Give me 10 seconds—HLD: During Diwali rush, how would Aadhaar eKYC stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,"HLD: Aadhaar eKYC on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,"HLD: Abuse & bot defense for Aadhaar eKYC — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,HLD: CDN & edge caching plan for Aadhaar eKYC across India.
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,HLD: Data sharding & hot‑key mitigation strategies for Aadhaar eKYC.
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,"HLD: Event‑driven Aadhaar eKYC — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,HLD: How should Aadhaar eKYC handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,HLD: Multi‑region & multi‑AZ setup for Aadhaar eKYC with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,"HLD: Payments at Aadhaar eKYC — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,"HLD: Real‑time updates in Aadhaar eKYC — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Aadhaar eKYC,"HLD: Search, autocomplete & vernacular support for Aadhaar eKYC under 100 ms."
+HLD/LLD Scenarios (India),LLD,Aadhaar eKYC,Give me 10 seconds—LLD: API contracts & versioning for Aadhaar eKYC (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Aadhaar eKYC,"LLD: Background jobs & schedulers that power Aadhaar eKYC (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Aadhaar eKYC,LLD: Caching layers & TTL/invalidation plan for Aadhaar eKYC.
+HLD/LLD Scenarios (India),LLD,Aadhaar eKYC,LLD: Idempotency keys & safe retries inside Aadhaar eKYC (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Aadhaar eKYC,LLD: Localization & i18n in Aadhaar eKYC — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Aadhaar eKYC,"LLD: Observability blueprint for Aadhaar eKYC: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Aadhaar eKYC,LLD: Offline‑first & flaky‑network UX for Aadhaar eKYC (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Aadhaar eKYC,LLD: Schema & indexing for Aadhaar eKYC hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Aadhaar eKYC,"LLD: Webhooks for Aadhaar eKYC — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Ajio,"Give me 10 seconds—HLD: During Diwali rush, how would Ajio stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Ajio,"HLD: Abuse & bot defense for Ajio — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Ajio,"HLD: Ajio on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Ajio,HLD: CDN & edge caching plan for Ajio across India.
+HLD/LLD Scenarios (India),HLD,Ajio,HLD: Data sharding & hot‑key mitigation strategies for Ajio.
+HLD/LLD Scenarios (India),HLD,Ajio,"HLD: Event‑driven Ajio — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Ajio,HLD: How should Ajio handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Ajio,HLD: Multi‑region & multi‑AZ setup for Ajio with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Ajio,"HLD: Payments at Ajio — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Ajio,"HLD: Real‑time updates in Ajio — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Ajio,"HLD: Search, autocomplete & vernacular support for Ajio under 100 ms."
+HLD/LLD Scenarios (India),LLD,Ajio,Give me 10 seconds—LLD: API contracts & versioning for Ajio (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Ajio,"LLD: Background jobs & schedulers that power Ajio (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Ajio,LLD: Caching layers & TTL/invalidation plan for Ajio.
+HLD/LLD Scenarios (India),LLD,Ajio,LLD: Idempotency keys & safe retries inside Ajio (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Ajio,LLD: Localization & i18n in Ajio — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Ajio,"LLD: Observability blueprint for Ajio: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Ajio,LLD: Offline‑first & flaky‑network UX for Ajio (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Ajio,LLD: Schema & indexing for Ajio hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Ajio,"LLD: Webhooks for Ajio — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),"Give me 10 seconds—HLD: During Diwali rush, how would Amazon India (Great Indian Festival) stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),"HLD: Abuse & bot defense for Amazon India (Great Indian Festival) — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),"HLD: Amazon India (Great Indian Festival) on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),HLD: CDN & edge caching plan for Amazon India (Great Indian Festival) across India.
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),HLD: Data sharding & hot‑key mitigation strategies for Amazon India (Great Indian Festival).
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),"HLD: Event‑driven Amazon India (Great Indian Festival) — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),HLD: How should Amazon India (Great Indian Festival) handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),HLD: Multi‑region & multi‑AZ setup for Amazon India (Great Indian Festival) with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),"HLD: Payments at Amazon India (Great Indian Festival) — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),"HLD: Real‑time updates in Amazon India (Great Indian Festival) — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Amazon India (Great Indian Festival),"HLD: Search, autocomplete & vernacular support for Amazon India (Great Indian Festival) under 100 ms."
+HLD/LLD Scenarios (India),LLD,Amazon India (Great Indian Festival),Give me 10 seconds—LLD: API contracts & versioning for Amazon India (Great Indian Festival) (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Amazon India (Great Indian Festival),"LLD: Background jobs & schedulers that power Amazon India (Great Indian Festival) (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Amazon India (Great Indian Festival),LLD: Caching layers & TTL/invalidation plan for Amazon India (Great Indian Festival).
+HLD/LLD Scenarios (India),LLD,Amazon India (Great Indian Festival),LLD: Idempotency keys & safe retries inside Amazon India (Great Indian Festival) (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Amazon India (Great Indian Festival),LLD: Localization & i18n in Amazon India (Great Indian Festival) — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Amazon India (Great Indian Festival),"LLD: Observability blueprint for Amazon India (Great Indian Festival): logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Amazon India (Great Indian Festival),LLD: Offline‑first & flaky‑network UX for Amazon India (Great Indian Festival) (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Amazon India (Great Indian Festival),LLD: Schema & indexing for Amazon India (Great Indian Festival) hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Amazon India (Great Indian Festival),"LLD: Webhooks for Amazon India (Great Indian Festival) — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,BHIM,"Give me 10 seconds—HLD: During Diwali rush, how would BHIM stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,BHIM,"HLD: Abuse & bot defense for BHIM — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,BHIM,"HLD: BHIM on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,BHIM,HLD: CDN & edge caching plan for BHIM across India.
+HLD/LLD Scenarios (India),HLD,BHIM,HLD: Data sharding & hot‑key mitigation strategies for BHIM.
+HLD/LLD Scenarios (India),HLD,BHIM,"HLD: Event‑driven BHIM — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,BHIM,HLD: How should BHIM handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,BHIM,HLD: Multi‑region & multi‑AZ setup for BHIM with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,BHIM,"HLD: Payments at BHIM — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,BHIM,"HLD: Real‑time updates in BHIM — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,BHIM,"HLD: Search, autocomplete & vernacular support for BHIM under 100 ms."
+HLD/LLD Scenarios (India),LLD,BHIM,Give me 10 seconds—LLD: API contracts & versioning for BHIM (mobile‑first).
+HLD/LLD Scenarios (India),LLD,BHIM,"LLD: Background jobs & schedulers that power BHIM (cron, queues)."
+HLD/LLD Scenarios (India),LLD,BHIM,LLD: Caching layers & TTL/invalidation plan for BHIM.
+HLD/LLD Scenarios (India),LLD,BHIM,LLD: Idempotency keys & safe retries inside BHIM (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,BHIM,LLD: Localization & i18n in BHIM — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,BHIM,"LLD: Observability blueprint for BHIM: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,BHIM,LLD: Offline‑first & flaky‑network UX for BHIM (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,BHIM,LLD: Schema & indexing for BHIM hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,BHIM,"LLD: Webhooks for BHIM — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,BigBasket,"Give me 10 seconds—HLD: During Diwali rush, how would BigBasket stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,BigBasket,"HLD: Abuse & bot defense for BigBasket — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,BigBasket,"HLD: BigBasket on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,BigBasket,HLD: CDN & edge caching plan for BigBasket across India.
+HLD/LLD Scenarios (India),HLD,BigBasket,HLD: Data sharding & hot‑key mitigation strategies for BigBasket.
+HLD/LLD Scenarios (India),HLD,BigBasket,"HLD: Event‑driven BigBasket — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,BigBasket,HLD: How should BigBasket handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,BigBasket,HLD: Multi‑region & multi‑AZ setup for BigBasket with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,BigBasket,"HLD: Payments at BigBasket — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,BigBasket,"HLD: Real‑time updates in BigBasket — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,BigBasket,"HLD: Search, autocomplete & vernacular support for BigBasket under 100 ms."
+HLD/LLD Scenarios (India),LLD,BigBasket,Give me 10 seconds—LLD: API contracts & versioning for BigBasket (mobile‑first).
+HLD/LLD Scenarios (India),LLD,BigBasket,"LLD: Background jobs & schedulers that power BigBasket (cron, queues)."
+HLD/LLD Scenarios (India),LLD,BigBasket,LLD: Caching layers & TTL/invalidation plan for BigBasket.
+HLD/LLD Scenarios (India),LLD,BigBasket,LLD: Idempotency keys & safe retries inside BigBasket (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,BigBasket,LLD: Localization & i18n in BigBasket — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,BigBasket,"LLD: Observability blueprint for BigBasket: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,BigBasket,LLD: Offline‑first & flaky‑network UX for BigBasket (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,BigBasket,LLD: Schema & indexing for BigBasket hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,BigBasket,"LLD: Webhooks for BigBasket — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,BillDesk,"Give me 10 seconds—HLD: During Diwali rush, how would BillDesk stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,BillDesk,"HLD: Abuse & bot defense for BillDesk — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,BillDesk,"HLD: BillDesk on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,BillDesk,HLD: CDN & edge caching plan for BillDesk across India.
+HLD/LLD Scenarios (India),HLD,BillDesk,HLD: Data sharding & hot‑key mitigation strategies for BillDesk.
+HLD/LLD Scenarios (India),HLD,BillDesk,"HLD: Event‑driven BillDesk — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,BillDesk,HLD: How should BillDesk handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,BillDesk,HLD: Multi‑region & multi‑AZ setup for BillDesk with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,BillDesk,"HLD: Payments at BillDesk — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,BillDesk,"HLD: Real‑time updates in BillDesk — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,BillDesk,"HLD: Search, autocomplete & vernacular support for BillDesk under 100 ms."
+HLD/LLD Scenarios (India),LLD,BillDesk,Give me 10 seconds—LLD: API contracts & versioning for BillDesk (mobile‑first).
+HLD/LLD Scenarios (India),LLD,BillDesk,"LLD: Background jobs & schedulers that power BillDesk (cron, queues)."
+HLD/LLD Scenarios (India),LLD,BillDesk,LLD: Caching layers & TTL/invalidation plan for BillDesk.
+HLD/LLD Scenarios (India),LLD,BillDesk,LLD: Idempotency keys & safe retries inside BillDesk (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,BillDesk,LLD: Localization & i18n in BillDesk — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,BillDesk,"LLD: Observability blueprint for BillDesk: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,BillDesk,LLD: Offline‑first & flaky‑network UX for BillDesk (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,BillDesk,LLD: Schema & indexing for BillDesk hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,BillDesk,"LLD: Webhooks for BillDesk — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Blinkit,"Give me 10 seconds—HLD: During Diwali rush, how would Blinkit stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Blinkit,"HLD: Abuse & bot defense for Blinkit — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Blinkit,"HLD: Blinkit on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Blinkit,HLD: CDN & edge caching plan for Blinkit across India.
+HLD/LLD Scenarios (India),HLD,Blinkit,HLD: Data sharding & hot‑key mitigation strategies for Blinkit.
+HLD/LLD Scenarios (India),HLD,Blinkit,"HLD: Event‑driven Blinkit — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Blinkit,HLD: How should Blinkit handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Blinkit,HLD: Multi‑region & multi‑AZ setup for Blinkit with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Blinkit,"HLD: Payments at Blinkit — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Blinkit,"HLD: Real‑time updates in Blinkit — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Blinkit,"HLD: Search, autocomplete & vernacular support for Blinkit under 100 ms."
+HLD/LLD Scenarios (India),LLD,Blinkit,Give me 10 seconds—LLD: API contracts & versioning for Blinkit (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Blinkit,"LLD: Background jobs & schedulers that power Blinkit (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Blinkit,LLD: Caching layers & TTL/invalidation plan for Blinkit.
+HLD/LLD Scenarios (India),LLD,Blinkit,LLD: Idempotency keys & safe retries inside Blinkit (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Blinkit,LLD: Localization & i18n in Blinkit — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Blinkit,"LLD: Observability blueprint for Blinkit: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Blinkit,LLD: Offline‑first & flaky‑network UX for Blinkit (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Blinkit,LLD: Schema & indexing for Blinkit hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Blinkit,"LLD: Webhooks for Blinkit — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,BookMyShow,"Give me 10 seconds—HLD: During Diwali rush, how would BookMyShow stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,BookMyShow,"HLD: Abuse & bot defense for BookMyShow — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,BookMyShow,"HLD: BookMyShow on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,BookMyShow,HLD: CDN & edge caching plan for BookMyShow across India.
+HLD/LLD Scenarios (India),HLD,BookMyShow,HLD: Data sharding & hot‑key mitigation strategies for BookMyShow.
+HLD/LLD Scenarios (India),HLD,BookMyShow,"HLD: Event‑driven BookMyShow — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,BookMyShow,HLD: How should BookMyShow handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,BookMyShow,HLD: Multi‑region & multi‑AZ setup for BookMyShow with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,BookMyShow,"HLD: Payments at BookMyShow — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,BookMyShow,"HLD: Real‑time updates in BookMyShow — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,BookMyShow,"HLD: Search, autocomplete & vernacular support for BookMyShow under 100 ms."
+HLD/LLD Scenarios (India),LLD,BookMyShow,Give me 10 seconds—LLD: API contracts & versioning for BookMyShow (mobile‑first).
+HLD/LLD Scenarios (India),LLD,BookMyShow,"LLD: Background jobs & schedulers that power BookMyShow (cron, queues)."
+HLD/LLD Scenarios (India),LLD,BookMyShow,LLD: Caching layers & TTL/invalidation plan for BookMyShow.
+HLD/LLD Scenarios (India),LLD,BookMyShow,LLD: Idempotency keys & safe retries inside BookMyShow (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,BookMyShow,LLD: Localization & i18n in BookMyShow — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,BookMyShow,"LLD: Observability blueprint for BookMyShow: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,BookMyShow,LLD: Offline‑first & flaky‑network UX for BookMyShow (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,BookMyShow,LLD: Schema & indexing for BookMyShow hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,BookMyShow,"LLD: Webhooks for BookMyShow — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,"Give me 10 seconds—HLD: During Diwali rush, how would Cashfree Payments stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,"HLD: Abuse & bot defense for Cashfree Payments — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,HLD: CDN & edge caching plan for Cashfree Payments across India.
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,"HLD: Cashfree Payments on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,HLD: Data sharding & hot‑key mitigation strategies for Cashfree Payments.
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,"HLD: Event‑driven Cashfree Payments — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,HLD: How should Cashfree Payments handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,HLD: Multi‑region & multi‑AZ setup for Cashfree Payments with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,"HLD: Payments at Cashfree Payments — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,"HLD: Real‑time updates in Cashfree Payments — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Cashfree Payments,"HLD: Search, autocomplete & vernacular support for Cashfree Payments under 100 ms."
+HLD/LLD Scenarios (India),LLD,Cashfree Payments,Give me 10 seconds—LLD: API contracts & versioning for Cashfree Payments (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Cashfree Payments,"LLD: Background jobs & schedulers that power Cashfree Payments (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Cashfree Payments,LLD: Caching layers & TTL/invalidation plan for Cashfree Payments.
+HLD/LLD Scenarios (India),LLD,Cashfree Payments,LLD: Idempotency keys & safe retries inside Cashfree Payments (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Cashfree Payments,LLD: Localization & i18n in Cashfree Payments — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Cashfree Payments,"LLD: Observability blueprint for Cashfree Payments: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Cashfree Payments,LLD: Offline‑first & flaky‑network UX for Cashfree Payments (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Cashfree Payments,LLD: Schema & indexing for Cashfree Payments hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Cashfree Payments,"LLD: Webhooks for Cashfree Payments — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,CoWIN,"Give me 10 seconds—HLD: During Diwali rush, how would CoWIN stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,CoWIN,"HLD: Abuse & bot defense for CoWIN — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,CoWIN,HLD: CDN & edge caching plan for CoWIN across India.
+HLD/LLD Scenarios (India),HLD,CoWIN,"HLD: CoWIN on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,CoWIN,HLD: Data sharding & hot‑key mitigation strategies for CoWIN.
+HLD/LLD Scenarios (India),HLD,CoWIN,"HLD: Event‑driven CoWIN — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,CoWIN,HLD: How should CoWIN handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,CoWIN,HLD: Multi‑region & multi‑AZ setup for CoWIN with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,CoWIN,"HLD: Payments at CoWIN — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,CoWIN,"HLD: Real‑time updates in CoWIN — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,CoWIN,"HLD: Search, autocomplete & vernacular support for CoWIN under 100 ms."
+HLD/LLD Scenarios (India),LLD,CoWIN,Give me 10 seconds—LLD: API contracts & versioning for CoWIN (mobile‑first).
+HLD/LLD Scenarios (India),LLD,CoWIN,"LLD: Background jobs & schedulers that power CoWIN (cron, queues)."
+HLD/LLD Scenarios (India),LLD,CoWIN,LLD: Caching layers & TTL/invalidation plan for CoWIN.
+HLD/LLD Scenarios (India),LLD,CoWIN,LLD: Idempotency keys & safe retries inside CoWIN (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,CoWIN,LLD: Localization & i18n in CoWIN — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,CoWIN,"LLD: Observability blueprint for CoWIN: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,CoWIN,LLD: Offline‑first & flaky‑network UX for CoWIN (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,CoWIN,LLD: Schema & indexing for CoWIN hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,CoWIN,"LLD: Webhooks for CoWIN — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Delhivery,"Give me 10 seconds—HLD: During Diwali rush, how would Delhivery stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Delhivery,"HLD: Abuse & bot defense for Delhivery — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Delhivery,HLD: CDN & edge caching plan for Delhivery across India.
+HLD/LLD Scenarios (India),HLD,Delhivery,HLD: Data sharding & hot‑key mitigation strategies for Delhivery.
+HLD/LLD Scenarios (India),HLD,Delhivery,"HLD: Delhivery on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Delhivery,"HLD: Event‑driven Delhivery — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Delhivery,HLD: How should Delhivery handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Delhivery,HLD: Multi‑region & multi‑AZ setup for Delhivery with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Delhivery,"HLD: Payments at Delhivery — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Delhivery,"HLD: Real‑time updates in Delhivery — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Delhivery,"HLD: Search, autocomplete & vernacular support for Delhivery under 100 ms."
+HLD/LLD Scenarios (India),LLD,Delhivery,Give me 10 seconds—LLD: API contracts & versioning for Delhivery (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Delhivery,"LLD: Background jobs & schedulers that power Delhivery (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Delhivery,LLD: Caching layers & TTL/invalidation plan for Delhivery.
+HLD/LLD Scenarios (India),LLD,Delhivery,LLD: Idempotency keys & safe retries inside Delhivery (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Delhivery,LLD: Localization & i18n in Delhivery — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Delhivery,"LLD: Observability blueprint for Delhivery: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Delhivery,LLD: Offline‑first & flaky‑network UX for Delhivery (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Delhivery,LLD: Schema & indexing for Delhivery hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Delhivery,"LLD: Webhooks for Delhivery — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,DigiLocker,"Give me 10 seconds—HLD: During Diwali rush, how would DigiLocker stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,DigiLocker,"HLD: Abuse & bot defense for DigiLocker — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,DigiLocker,HLD: CDN & edge caching plan for DigiLocker across India.
+HLD/LLD Scenarios (India),HLD,DigiLocker,HLD: Data sharding & hot‑key mitigation strategies for DigiLocker.
+HLD/LLD Scenarios (India),HLD,DigiLocker,"HLD: DigiLocker on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,DigiLocker,"HLD: Event‑driven DigiLocker — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,DigiLocker,HLD: How should DigiLocker handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,DigiLocker,HLD: Multi‑region & multi‑AZ setup for DigiLocker with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,DigiLocker,"HLD: Payments at DigiLocker — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,DigiLocker,"HLD: Real‑time updates in DigiLocker — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,DigiLocker,"HLD: Search, autocomplete & vernacular support for DigiLocker under 100 ms."
+HLD/LLD Scenarios (India),LLD,DigiLocker,Give me 10 seconds—LLD: API contracts & versioning for DigiLocker (mobile‑first).
+HLD/LLD Scenarios (India),LLD,DigiLocker,"LLD: Background jobs & schedulers that power DigiLocker (cron, queues)."
+HLD/LLD Scenarios (India),LLD,DigiLocker,LLD: Caching layers & TTL/invalidation plan for DigiLocker.
+HLD/LLD Scenarios (India),LLD,DigiLocker,LLD: Idempotency keys & safe retries inside DigiLocker (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,DigiLocker,LLD: Localization & i18n in DigiLocker — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,DigiLocker,"LLD: Observability blueprint for DigiLocker: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,DigiLocker,LLD: Offline‑first & flaky‑network UX for DigiLocker (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,DigiLocker,LLD: Schema & indexing for DigiLocker hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,DigiLocker,"LLD: Webhooks for DigiLocker — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),"Give me 10 seconds—HLD: During Diwali rush, how would Disney+ Hotstar (India) stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),"HLD: Abuse & bot defense for Disney+ Hotstar (India) — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),HLD: CDN & edge caching plan for Disney+ Hotstar (India) across India.
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),HLD: Data sharding & hot‑key mitigation strategies for Disney+ Hotstar (India).
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),"HLD: Disney+ Hotstar (India) on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),"HLD: Event‑driven Disney+ Hotstar (India) — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),HLD: How should Disney+ Hotstar (India) handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),HLD: Multi‑region & multi‑AZ setup for Disney+ Hotstar (India) with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),"HLD: Payments at Disney+ Hotstar (India) — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),"HLD: Real‑time updates in Disney+ Hotstar (India) — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Disney+ Hotstar (India),"HLD: Search, autocomplete & vernacular support for Disney+ Hotstar (India) under 100 ms."
+HLD/LLD Scenarios (India),LLD,Disney+ Hotstar (India),Give me 10 seconds—LLD: API contracts & versioning for Disney+ Hotstar (India) (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Disney+ Hotstar (India),"LLD: Background jobs & schedulers that power Disney+ Hotstar (India) (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Disney+ Hotstar (India),LLD: Caching layers & TTL/invalidation plan for Disney+ Hotstar (India).
+HLD/LLD Scenarios (India),LLD,Disney+ Hotstar (India),LLD: Idempotency keys & safe retries inside Disney+ Hotstar (India) (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Disney+ Hotstar (India),LLD: Localization & i18n in Disney+ Hotstar (India) — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Disney+ Hotstar (India),"LLD: Observability blueprint for Disney+ Hotstar (India): logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Disney+ Hotstar (India),LLD: Offline‑first & flaky‑network UX for Disney+ Hotstar (India) (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Disney+ Hotstar (India),LLD: Schema & indexing for Disney+ Hotstar (India) hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Disney+ Hotstar (India),"LLD: Webhooks for Disney+ Hotstar (India) — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Dunzo,"Give me 10 seconds—HLD: During Diwali rush, how would Dunzo stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Dunzo,"HLD: Abuse & bot defense for Dunzo — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Dunzo,HLD: CDN & edge caching plan for Dunzo across India.
+HLD/LLD Scenarios (India),HLD,Dunzo,HLD: Data sharding & hot‑key mitigation strategies for Dunzo.
+HLD/LLD Scenarios (India),HLD,Dunzo,"HLD: Dunzo on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Dunzo,"HLD: Event‑driven Dunzo — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Dunzo,HLD: How should Dunzo handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Dunzo,HLD: Multi‑region & multi‑AZ setup for Dunzo with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Dunzo,"HLD: Payments at Dunzo — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Dunzo,"HLD: Real‑time updates in Dunzo — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Dunzo,"HLD: Search, autocomplete & vernacular support for Dunzo under 100 ms."
+HLD/LLD Scenarios (India),LLD,Dunzo,Give me 10 seconds—LLD: API contracts & versioning for Dunzo (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Dunzo,"LLD: Background jobs & schedulers that power Dunzo (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Dunzo,LLD: Caching layers & TTL/invalidation plan for Dunzo.
+HLD/LLD Scenarios (India),LLD,Dunzo,LLD: Idempotency keys & safe retries inside Dunzo (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Dunzo,LLD: Localization & i18n in Dunzo — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Dunzo,"LLD: Observability blueprint for Dunzo: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Dunzo,LLD: Offline‑first & flaky‑network UX for Dunzo (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Dunzo,LLD: Schema & indexing for Dunzo hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Dunzo,"LLD: Webhooks for Dunzo — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,"Give me 10 seconds—HLD: During Diwali rush, how would EaseMyTrip stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,"HLD: Abuse & bot defense for EaseMyTrip — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,HLD: CDN & edge caching plan for EaseMyTrip across India.
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,HLD: Data sharding & hot‑key mitigation strategies for EaseMyTrip.
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,"HLD: EaseMyTrip on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,"HLD: Event‑driven EaseMyTrip — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,HLD: How should EaseMyTrip handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,HLD: Multi‑region & multi‑AZ setup for EaseMyTrip with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,"HLD: Payments at EaseMyTrip — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,"HLD: Real‑time updates in EaseMyTrip — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,EaseMyTrip,"HLD: Search, autocomplete & vernacular support for EaseMyTrip under 100 ms."
+HLD/LLD Scenarios (India),LLD,EaseMyTrip,Give me 10 seconds—LLD: API contracts & versioning for EaseMyTrip (mobile‑first).
+HLD/LLD Scenarios (India),LLD,EaseMyTrip,"LLD: Background jobs & schedulers that power EaseMyTrip (cron, queues)."
+HLD/LLD Scenarios (India),LLD,EaseMyTrip,LLD: Caching layers & TTL/invalidation plan for EaseMyTrip.
+HLD/LLD Scenarios (India),LLD,EaseMyTrip,LLD: Idempotency keys & safe retries inside EaseMyTrip (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,EaseMyTrip,LLD: Localization & i18n in EaseMyTrip — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,EaseMyTrip,"LLD: Observability blueprint for EaseMyTrip: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,EaseMyTrip,LLD: Offline‑first & flaky‑network UX for EaseMyTrip (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,EaseMyTrip,LLD: Schema & indexing for EaseMyTrip hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,EaseMyTrip,"LLD: Webhooks for EaseMyTrip — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),"Give me 10 seconds—HLD: During Diwali rush, how would FASTag (NHAI/NPCI) stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),"HLD: Abuse & bot defense for FASTag (NHAI/NPCI) — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),HLD: CDN & edge caching plan for FASTag (NHAI/NPCI) across India.
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),HLD: Data sharding & hot‑key mitigation strategies for FASTag (NHAI/NPCI).
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),"HLD: Event‑driven FASTag (NHAI/NPCI) — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),"HLD: FASTag (NHAI/NPCI) on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),HLD: How should FASTag (NHAI/NPCI) handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),HLD: Multi‑region & multi‑AZ setup for FASTag (NHAI/NPCI) with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),"HLD: Payments at FASTag (NHAI/NPCI) — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),"HLD: Real‑time updates in FASTag (NHAI/NPCI) — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,FASTag (NHAI/NPCI),"HLD: Search, autocomplete & vernacular support for FASTag (NHAI/NPCI) under 100 ms."
+HLD/LLD Scenarios (India),LLD,FASTag (NHAI/NPCI),Give me 10 seconds—LLD: API contracts & versioning for FASTag (NHAI/NPCI) (mobile‑first).
+HLD/LLD Scenarios (India),LLD,FASTag (NHAI/NPCI),"LLD: Background jobs & schedulers that power FASTag (NHAI/NPCI) (cron, queues)."
+HLD/LLD Scenarios (India),LLD,FASTag (NHAI/NPCI),LLD: Caching layers & TTL/invalidation plan for FASTag (NHAI/NPCI).
+HLD/LLD Scenarios (India),LLD,FASTag (NHAI/NPCI),LLD: Idempotency keys & safe retries inside FASTag (NHAI/NPCI) (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,FASTag (NHAI/NPCI),LLD: Localization & i18n in FASTag (NHAI/NPCI) — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,FASTag (NHAI/NPCI),"LLD: Observability blueprint for FASTag (NHAI/NPCI): logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,FASTag (NHAI/NPCI),LLD: Offline‑first & flaky‑network UX for FASTag (NHAI/NPCI) (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,FASTag (NHAI/NPCI),LLD: Schema & indexing for FASTag (NHAI/NPCI) hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,FASTag (NHAI/NPCI),"LLD: Webhooks for FASTag (NHAI/NPCI) — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Flipkart,"Give me 10 seconds—HLD: During Diwali rush, how would Flipkart stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Flipkart,"HLD: Abuse & bot defense for Flipkart — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Flipkart,HLD: CDN & edge caching plan for Flipkart across India.
+HLD/LLD Scenarios (India),HLD,Flipkart,HLD: Data sharding & hot‑key mitigation strategies for Flipkart.
+HLD/LLD Scenarios (India),HLD,Flipkart,"HLD: Event‑driven Flipkart — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Flipkart,"HLD: Flipkart on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Flipkart,HLD: How should Flipkart handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Flipkart,HLD: Multi‑region & multi‑AZ setup for Flipkart with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Flipkart,"HLD: Payments at Flipkart — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Flipkart,"HLD: Real‑time updates in Flipkart — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Flipkart,"HLD: Search, autocomplete & vernacular support for Flipkart under 100 ms."
+HLD/LLD Scenarios (India),LLD,Flipkart,Give me 10 seconds—LLD: API contracts & versioning for Flipkart (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Flipkart,"LLD: Background jobs & schedulers that power Flipkart (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Flipkart,LLD: Caching layers & TTL/invalidation plan for Flipkart.
+HLD/LLD Scenarios (India),LLD,Flipkart,LLD: Idempotency keys & safe retries inside Flipkart (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Flipkart,LLD: Localization & i18n in Flipkart — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Flipkart,"LLD: Observability blueprint for Flipkart: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Flipkart,LLD: Offline‑first & flaky‑network UX for Flipkart (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Flipkart,LLD: Schema & indexing for Flipkart hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Flipkart,"LLD: Webhooks for Flipkart — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,"Give me 10 seconds—HLD: During Diwali rush, how would GSTN e-Invoicing stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,"HLD: Abuse & bot defense for GSTN e-Invoicing — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,HLD: CDN & edge caching plan for GSTN e-Invoicing across India.
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,HLD: Data sharding & hot‑key mitigation strategies for GSTN e-Invoicing.
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,"HLD: Event‑driven GSTN e-Invoicing — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,"HLD: GSTN e-Invoicing on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,HLD: How should GSTN e-Invoicing handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,HLD: Multi‑region & multi‑AZ setup for GSTN e-Invoicing with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,"HLD: Payments at GSTN e-Invoicing — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,"HLD: Real‑time updates in GSTN e-Invoicing — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,GSTN e-Invoicing,"HLD: Search, autocomplete & vernacular support for GSTN e-Invoicing under 100 ms."
+HLD/LLD Scenarios (India),LLD,GSTN e-Invoicing,Give me 10 seconds—LLD: API contracts & versioning for GSTN e-Invoicing (mobile‑first).
+HLD/LLD Scenarios (India),LLD,GSTN e-Invoicing,"LLD: Background jobs & schedulers that power GSTN e-Invoicing (cron, queues)."
+HLD/LLD Scenarios (India),LLD,GSTN e-Invoicing,LLD: Caching layers & TTL/invalidation plan for GSTN e-Invoicing.
+HLD/LLD Scenarios (India),LLD,GSTN e-Invoicing,LLD: Idempotency keys & safe retries inside GSTN e-Invoicing (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,GSTN e-Invoicing,LLD: Localization & i18n in GSTN e-Invoicing — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,GSTN e-Invoicing,"LLD: Observability blueprint for GSTN e-Invoicing: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,GSTN e-Invoicing,LLD: Offline‑first & flaky‑network UX for GSTN e-Invoicing (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,GSTN e-Invoicing,LLD: Schema & indexing for GSTN e-Invoicing hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,GSTN e-Invoicing,"LLD: Webhooks for GSTN e-Invoicing — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Gaana,"Give me 10 seconds—HLD: During Diwali rush, how would Gaana stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Gaana,"HLD: Abuse & bot defense for Gaana — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Gaana,HLD: CDN & edge caching plan for Gaana across India.
+HLD/LLD Scenarios (India),HLD,Gaana,HLD: Data sharding & hot‑key mitigation strategies for Gaana.
+HLD/LLD Scenarios (India),HLD,Gaana,"HLD: Event‑driven Gaana — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Gaana,"HLD: Gaana on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Gaana,HLD: How should Gaana handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Gaana,HLD: Multi‑region & multi‑AZ setup for Gaana with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Gaana,"HLD: Payments at Gaana — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Gaana,"HLD: Real‑time updates in Gaana — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Gaana,"HLD: Search, autocomplete & vernacular support for Gaana under 100 ms."
+HLD/LLD Scenarios (India),LLD,Gaana,Give me 10 seconds—LLD: API contracts & versioning for Gaana (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Gaana,"LLD: Background jobs & schedulers that power Gaana (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Gaana,LLD: Caching layers & TTL/invalidation plan for Gaana.
+HLD/LLD Scenarios (India),LLD,Gaana,LLD: Idempotency keys & safe retries inside Gaana (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Gaana,LLD: Localization & i18n in Gaana — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Gaana,"LLD: Observability blueprint for Gaana: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Gaana,LLD: Offline‑first & flaky‑network UX for Gaana (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Gaana,LLD: Schema & indexing for Gaana hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Gaana,"LLD: Webhooks for Gaana — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Google Pay (India),"Give me 10 seconds—HLD: During Diwali rush, how would Google Pay (India) stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Google Pay (India),"HLD: Abuse & bot defense for Google Pay (India) — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Google Pay (India),HLD: CDN & edge caching plan for Google Pay (India) across India.
+HLD/LLD Scenarios (India),HLD,Google Pay (India),HLD: Data sharding & hot‑key mitigation strategies for Google Pay (India).
+HLD/LLD Scenarios (India),HLD,Google Pay (India),"HLD: Event‑driven Google Pay (India) — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Google Pay (India),"HLD: Google Pay (India) on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Google Pay (India),HLD: How should Google Pay (India) handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Google Pay (India),HLD: Multi‑region & multi‑AZ setup for Google Pay (India) with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Google Pay (India),"HLD: Payments at Google Pay (India) — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Google Pay (India),"HLD: Real‑time updates in Google Pay (India) — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Google Pay (India),"HLD: Search, autocomplete & vernacular support for Google Pay (India) under 100 ms."
+HLD/LLD Scenarios (India),LLD,Google Pay (India),Give me 10 seconds—LLD: API contracts & versioning for Google Pay (India) (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Google Pay (India),"LLD: Background jobs & schedulers that power Google Pay (India) (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Google Pay (India),LLD: Caching layers & TTL/invalidation plan for Google Pay (India).
+HLD/LLD Scenarios (India),LLD,Google Pay (India),LLD: Idempotency keys & safe retries inside Google Pay (India) (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Google Pay (India),LLD: Localization & i18n in Google Pay (India) — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Google Pay (India),"LLD: Observability blueprint for Google Pay (India): logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Google Pay (India),LLD: Offline‑first & flaky‑network UX for Google Pay (India) (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Google Pay (India),LLD: Schema & indexing for Google Pay (India) hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Google Pay (India),"LLD: Webhooks for Google Pay (India) — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Groww,"Give me 10 seconds—HLD: During Diwali rush, how would Groww stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Groww,"HLD: Abuse & bot defense for Groww — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Groww,HLD: CDN & edge caching plan for Groww across India.
+HLD/LLD Scenarios (India),HLD,Groww,HLD: Data sharding & hot‑key mitigation strategies for Groww.
+HLD/LLD Scenarios (India),HLD,Groww,"HLD: Event‑driven Groww — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Groww,"HLD: Groww on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Groww,HLD: How should Groww handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Groww,HLD: Multi‑region & multi‑AZ setup for Groww with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Groww,"HLD: Payments at Groww — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Groww,"HLD: Real‑time updates in Groww — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Groww,"HLD: Search, autocomplete & vernacular support for Groww under 100 ms."
+HLD/LLD Scenarios (India),LLD,Groww,Give me 10 seconds—LLD: API contracts & versioning for Groww (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Groww,"LLD: Background jobs & schedulers that power Groww (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Groww,LLD: Caching layers & TTL/invalidation plan for Groww.
+HLD/LLD Scenarios (India),LLD,Groww,LLD: Idempotency keys & safe retries inside Groww (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Groww,LLD: Localization & i18n in Groww — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Groww,"LLD: Observability blueprint for Groww: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Groww,LLD: Offline‑first & flaky‑network UX for Groww (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Groww,LLD: Schema & indexing for Groww hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Groww,"LLD: Webhooks for Groww — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,"Give me 10 seconds—HLD: During Diwali rush, how would IRCTC Tatkal stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,"HLD: Abuse & bot defense for IRCTC Tatkal — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,HLD: CDN & edge caching plan for IRCTC Tatkal across India.
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,HLD: Data sharding & hot‑key mitigation strategies for IRCTC Tatkal.
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,"HLD: Event‑driven IRCTC Tatkal — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,HLD: How should IRCTC Tatkal handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,"HLD: IRCTC Tatkal on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,HLD: Multi‑region & multi‑AZ setup for IRCTC Tatkal with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,"HLD: Payments at IRCTC Tatkal — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,"HLD: Real‑time updates in IRCTC Tatkal — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,IRCTC Tatkal,"HLD: Search, autocomplete & vernacular support for IRCTC Tatkal under 100 ms."
+HLD/LLD Scenarios (India),LLD,IRCTC Tatkal,Give me 10 seconds—LLD: API contracts & versioning for IRCTC Tatkal (mobile‑first).
+HLD/LLD Scenarios (India),LLD,IRCTC Tatkal,"LLD: Background jobs & schedulers that power IRCTC Tatkal (cron, queues)."
+HLD/LLD Scenarios (India),LLD,IRCTC Tatkal,LLD: Caching layers & TTL/invalidation plan for IRCTC Tatkal.
+HLD/LLD Scenarios (India),LLD,IRCTC Tatkal,LLD: Idempotency keys & safe retries inside IRCTC Tatkal (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,IRCTC Tatkal,LLD: Localization & i18n in IRCTC Tatkal — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,IRCTC Tatkal,"LLD: Observability blueprint for IRCTC Tatkal: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,IRCTC Tatkal,LLD: Offline‑first & flaky‑network UX for IRCTC Tatkal (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,IRCTC Tatkal,LLD: Schema & indexing for IRCTC Tatkal hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,IRCTC Tatkal,"LLD: Webhooks for IRCTC Tatkal — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,India Post,"Give me 10 seconds—HLD: During Diwali rush, how would India Post stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,India Post,"HLD: Abuse & bot defense for India Post — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,India Post,HLD: CDN & edge caching plan for India Post across India.
+HLD/LLD Scenarios (India),HLD,India Post,HLD: Data sharding & hot‑key mitigation strategies for India Post.
+HLD/LLD Scenarios (India),HLD,India Post,"HLD: Event‑driven India Post — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,India Post,HLD: How should India Post handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,India Post,"HLD: India Post on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,India Post,HLD: Multi‑region & multi‑AZ setup for India Post with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,India Post,"HLD: Payments at India Post — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,India Post,"HLD: Real‑time updates in India Post — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,India Post,"HLD: Search, autocomplete & vernacular support for India Post under 100 ms."
+HLD/LLD Scenarios (India),LLD,India Post,Give me 10 seconds—LLD: API contracts & versioning for India Post (mobile‑first).
+HLD/LLD Scenarios (India),LLD,India Post,"LLD: Background jobs & schedulers that power India Post (cron, queues)."
+HLD/LLD Scenarios (India),LLD,India Post,LLD: Caching layers & TTL/invalidation plan for India Post.
+HLD/LLD Scenarios (India),LLD,India Post,LLD: Idempotency keys & safe retries inside India Post (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,India Post,LLD: Localization & i18n in India Post — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,India Post,"LLD: Observability blueprint for India Post: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,India Post,LLD: Offline‑first & flaky‑network UX for India Post (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,India Post,LLD: Schema & indexing for India Post hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,India Post,"LLD: Webhooks for India Post — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,"Give me 10 seconds—HLD: During Diwali rush, how would Indian Railways NTES stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,"HLD: Abuse & bot defense for Indian Railways NTES — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,HLD: CDN & edge caching plan for Indian Railways NTES across India.
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,HLD: Data sharding & hot‑key mitigation strategies for Indian Railways NTES.
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,"HLD: Event‑driven Indian Railways NTES — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,HLD: How should Indian Railways NTES handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,"HLD: Indian Railways NTES on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,HLD: Multi‑region & multi‑AZ setup for Indian Railways NTES with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,"HLD: Payments at Indian Railways NTES — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,"HLD: Real‑time updates in Indian Railways NTES — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Indian Railways NTES,"HLD: Search, autocomplete & vernacular support for Indian Railways NTES under 100 ms."
+HLD/LLD Scenarios (India),LLD,Indian Railways NTES,Give me 10 seconds—LLD: API contracts & versioning for Indian Railways NTES (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Indian Railways NTES,"LLD: Background jobs & schedulers that power Indian Railways NTES (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Indian Railways NTES,LLD: Caching layers & TTL/invalidation plan for Indian Railways NTES.
+HLD/LLD Scenarios (India),LLD,Indian Railways NTES,LLD: Idempotency keys & safe retries inside Indian Railways NTES (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Indian Railways NTES,LLD: Localization & i18n in Indian Railways NTES — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Indian Railways NTES,"LLD: Observability blueprint for Indian Railways NTES: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Indian Railways NTES,LLD: Offline‑first & flaky‑network UX for Indian Railways NTES (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Indian Railways NTES,LLD: Schema & indexing for Indian Railways NTES hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Indian Railways NTES,"LLD: Webhooks for Indian Railways NTES — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,JioCinema,"Give me 10 seconds—HLD: During Diwali rush, how would JioCinema stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,JioCinema,"HLD: Abuse & bot defense for JioCinema — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,JioCinema,HLD: CDN & edge caching plan for JioCinema across India.
+HLD/LLD Scenarios (India),HLD,JioCinema,HLD: Data sharding & hot‑key mitigation strategies for JioCinema.
+HLD/LLD Scenarios (India),HLD,JioCinema,"HLD: Event‑driven JioCinema — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,JioCinema,HLD: How should JioCinema handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,JioCinema,"HLD: JioCinema on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,JioCinema,HLD: Multi‑region & multi‑AZ setup for JioCinema with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,JioCinema,"HLD: Payments at JioCinema — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,JioCinema,"HLD: Real‑time updates in JioCinema — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,JioCinema,"HLD: Search, autocomplete & vernacular support for JioCinema under 100 ms."
+HLD/LLD Scenarios (India),LLD,JioCinema,Give me 10 seconds—LLD: API contracts & versioning for JioCinema (mobile‑first).
+HLD/LLD Scenarios (India),LLD,JioCinema,"LLD: Background jobs & schedulers that power JioCinema (cron, queues)."
+HLD/LLD Scenarios (India),LLD,JioCinema,LLD: Caching layers & TTL/invalidation plan for JioCinema.
+HLD/LLD Scenarios (India),LLD,JioCinema,LLD: Idempotency keys & safe retries inside JioCinema (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,JioCinema,LLD: Localization & i18n in JioCinema — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,JioCinema,"LLD: Observability blueprint for JioCinema: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,JioCinema,LLD: Offline‑first & flaky‑network UX for JioCinema (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,JioCinema,LLD: Schema & indexing for JioCinema hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,JioCinema,"LLD: Webhooks for JioCinema — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,JioMart,"Give me 10 seconds—HLD: During Diwali rush, how would JioMart stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,JioMart,"HLD: Abuse & bot defense for JioMart — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,JioMart,HLD: CDN & edge caching plan for JioMart across India.
+HLD/LLD Scenarios (India),HLD,JioMart,HLD: Data sharding & hot‑key mitigation strategies for JioMart.
+HLD/LLD Scenarios (India),HLD,JioMart,"HLD: Event‑driven JioMart — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,JioMart,HLD: How should JioMart handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,JioMart,"HLD: JioMart on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,JioMart,HLD: Multi‑region & multi‑AZ setup for JioMart with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,JioMart,"HLD: Payments at JioMart — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,JioMart,"HLD: Real‑time updates in JioMart — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,JioMart,"HLD: Search, autocomplete & vernacular support for JioMart under 100 ms."
+HLD/LLD Scenarios (India),LLD,JioMart,Give me 10 seconds—LLD: API contracts & versioning for JioMart (mobile‑first).
+HLD/LLD Scenarios (India),LLD,JioMart,"LLD: Background jobs & schedulers that power JioMart (cron, queues)."
+HLD/LLD Scenarios (India),LLD,JioMart,LLD: Caching layers & TTL/invalidation plan for JioMart.
+HLD/LLD Scenarios (India),LLD,JioMart,LLD: Idempotency keys & safe retries inside JioMart (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,JioMart,LLD: Localization & i18n in JioMart — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,JioMart,"LLD: Observability blueprint for JioMart: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,JioMart,LLD: Offline‑first & flaky‑network UX for JioMart (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,JioMart,LLD: Schema & indexing for JioMart hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,JioMart,"LLD: Webhooks for JioMart — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,JioSaavn,"Give me 10 seconds—HLD: During Diwali rush, how would JioSaavn stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,JioSaavn,"HLD: Abuse & bot defense for JioSaavn — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,JioSaavn,HLD: CDN & edge caching plan for JioSaavn across India.
+HLD/LLD Scenarios (India),HLD,JioSaavn,HLD: Data sharding & hot‑key mitigation strategies for JioSaavn.
+HLD/LLD Scenarios (India),HLD,JioSaavn,"HLD: Event‑driven JioSaavn — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,JioSaavn,HLD: How should JioSaavn handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,JioSaavn,"HLD: JioSaavn on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,JioSaavn,HLD: Multi‑region & multi‑AZ setup for JioSaavn with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,JioSaavn,"HLD: Payments at JioSaavn — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,JioSaavn,"HLD: Real‑time updates in JioSaavn — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,JioSaavn,"HLD: Search, autocomplete & vernacular support for JioSaavn under 100 ms."
+HLD/LLD Scenarios (India),LLD,JioSaavn,Give me 10 seconds—LLD: API contracts & versioning for JioSaavn (mobile‑first).
+HLD/LLD Scenarios (India),LLD,JioSaavn,"LLD: Background jobs & schedulers that power JioSaavn (cron, queues)."
+HLD/LLD Scenarios (India),LLD,JioSaavn,LLD: Caching layers & TTL/invalidation plan for JioSaavn.
+HLD/LLD Scenarios (India),LLD,JioSaavn,LLD: Idempotency keys & safe retries inside JioSaavn (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,JioSaavn,LLD: Localization & i18n in JioSaavn — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,JioSaavn,"LLD: Observability blueprint for JioSaavn: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,JioSaavn,LLD: Offline‑first & flaky‑network UX for JioSaavn (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,JioSaavn,LLD: Schema & indexing for JioSaavn hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,JioSaavn,"LLD: Webhooks for JioSaavn — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,"Give me 10 seconds—HLD: During Diwali rush, how would MakeMyTrip stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,"HLD: Abuse & bot defense for MakeMyTrip — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,HLD: CDN & edge caching plan for MakeMyTrip across India.
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,HLD: Data sharding & hot‑key mitigation strategies for MakeMyTrip.
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,"HLD: Event‑driven MakeMyTrip — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,HLD: How should MakeMyTrip handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,"HLD: MakeMyTrip on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,HLD: Multi‑region & multi‑AZ setup for MakeMyTrip with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,"HLD: Payments at MakeMyTrip — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,"HLD: Real‑time updates in MakeMyTrip — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,MakeMyTrip,"HLD: Search, autocomplete & vernacular support for MakeMyTrip under 100 ms."
+HLD/LLD Scenarios (India),LLD,MakeMyTrip,Give me 10 seconds—LLD: API contracts & versioning for MakeMyTrip (mobile‑first).
+HLD/LLD Scenarios (India),LLD,MakeMyTrip,"LLD: Background jobs & schedulers that power MakeMyTrip (cron, queues)."
+HLD/LLD Scenarios (India),LLD,MakeMyTrip,LLD: Caching layers & TTL/invalidation plan for MakeMyTrip.
+HLD/LLD Scenarios (India),LLD,MakeMyTrip,LLD: Idempotency keys & safe retries inside MakeMyTrip (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,MakeMyTrip,LLD: Localization & i18n in MakeMyTrip — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,MakeMyTrip,"LLD: Observability blueprint for MakeMyTrip: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,MakeMyTrip,LLD: Offline‑first & flaky‑network UX for MakeMyTrip (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,MakeMyTrip,LLD: Schema & indexing for MakeMyTrip hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,MakeMyTrip,"LLD: Webhooks for MakeMyTrip — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Meesho,"Give me 10 seconds—HLD: During Diwali rush, how would Meesho stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Meesho,"HLD: Abuse & bot defense for Meesho — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Meesho,HLD: CDN & edge caching plan for Meesho across India.
+HLD/LLD Scenarios (India),HLD,Meesho,HLD: Data sharding & hot‑key mitigation strategies for Meesho.
+HLD/LLD Scenarios (India),HLD,Meesho,"HLD: Event‑driven Meesho — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Meesho,HLD: How should Meesho handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Meesho,"HLD: Meesho on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Meesho,HLD: Multi‑region & multi‑AZ setup for Meesho with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Meesho,"HLD: Payments at Meesho — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Meesho,"HLD: Real‑time updates in Meesho — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Meesho,"HLD: Search, autocomplete & vernacular support for Meesho under 100 ms."
+HLD/LLD Scenarios (India),LLD,Meesho,Give me 10 seconds—LLD: API contracts & versioning for Meesho (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Meesho,"LLD: Background jobs & schedulers that power Meesho (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Meesho,LLD: Caching layers & TTL/invalidation plan for Meesho.
+HLD/LLD Scenarios (India),LLD,Meesho,LLD: Idempotency keys & safe retries inside Meesho (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Meesho,LLD: Localization & i18n in Meesho — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Meesho,"LLD: Observability blueprint for Meesho: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Meesho,LLD: Offline‑first & flaky‑network UX for Meesho (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Meesho,LLD: Schema & indexing for Meesho hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Meesho,"LLD: Webhooks for Meesho — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Myntra,"Give me 10 seconds—HLD: During Diwali rush, how would Myntra stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Myntra,"HLD: Abuse & bot defense for Myntra — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Myntra,HLD: CDN & edge caching plan for Myntra across India.
+HLD/LLD Scenarios (India),HLD,Myntra,HLD: Data sharding & hot‑key mitigation strategies for Myntra.
+HLD/LLD Scenarios (India),HLD,Myntra,"HLD: Event‑driven Myntra — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Myntra,HLD: How should Myntra handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Myntra,HLD: Multi‑region & multi‑AZ setup for Myntra with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Myntra,"HLD: Myntra on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Myntra,"HLD: Payments at Myntra — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Myntra,"HLD: Real‑time updates in Myntra — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Myntra,"HLD: Search, autocomplete & vernacular support for Myntra under 100 ms."
+HLD/LLD Scenarios (India),LLD,Myntra,Give me 10 seconds—LLD: API contracts & versioning for Myntra (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Myntra,"LLD: Background jobs & schedulers that power Myntra (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Myntra,LLD: Caching layers & TTL/invalidation plan for Myntra.
+HLD/LLD Scenarios (India),LLD,Myntra,LLD: Idempotency keys & safe retries inside Myntra (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Myntra,LLD: Localization & i18n in Myntra — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Myntra,"LLD: Observability blueprint for Myntra: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Myntra,LLD: Offline‑first & flaky‑network UX for Myntra (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Myntra,LLD: Schema & indexing for Myntra hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Myntra,"LLD: Webhooks for Myntra — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Nykaa,"Give me 10 seconds—HLD: During Diwali rush, how would Nykaa stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Nykaa,"HLD: Abuse & bot defense for Nykaa — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Nykaa,HLD: CDN & edge caching plan for Nykaa across India.
+HLD/LLD Scenarios (India),HLD,Nykaa,HLD: Data sharding & hot‑key mitigation strategies for Nykaa.
+HLD/LLD Scenarios (India),HLD,Nykaa,"HLD: Event‑driven Nykaa — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Nykaa,HLD: How should Nykaa handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Nykaa,HLD: Multi‑region & multi‑AZ setup for Nykaa with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Nykaa,"HLD: Nykaa on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Nykaa,"HLD: Payments at Nykaa — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Nykaa,"HLD: Real‑time updates in Nykaa — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Nykaa,"HLD: Search, autocomplete & vernacular support for Nykaa under 100 ms."
+HLD/LLD Scenarios (India),LLD,Nykaa,Give me 10 seconds—LLD: API contracts & versioning for Nykaa (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Nykaa,"LLD: Background jobs & schedulers that power Nykaa (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Nykaa,LLD: Caching layers & TTL/invalidation plan for Nykaa.
+HLD/LLD Scenarios (India),LLD,Nykaa,LLD: Idempotency keys & safe retries inside Nykaa (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Nykaa,LLD: Localization & i18n in Nykaa — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Nykaa,"LLD: Observability blueprint for Nykaa: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Nykaa,LLD: Offline‑first & flaky‑network UX for Nykaa (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Nykaa,LLD: Schema & indexing for Nykaa hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Nykaa,"LLD: Webhooks for Nykaa — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,OYO,"Give me 10 seconds—HLD: During Diwali rush, how would OYO stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,OYO,"HLD: Abuse & bot defense for OYO — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,OYO,HLD: CDN & edge caching plan for OYO across India.
+HLD/LLD Scenarios (India),HLD,OYO,HLD: Data sharding & hot‑key mitigation strategies for OYO.
+HLD/LLD Scenarios (India),HLD,OYO,"HLD: Event‑driven OYO — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,OYO,HLD: How should OYO handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,OYO,HLD: Multi‑region & multi‑AZ setup for OYO with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,OYO,"HLD: OYO on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,OYO,"HLD: Payments at OYO — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,OYO,"HLD: Real‑time updates in OYO — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,OYO,"HLD: Search, autocomplete & vernacular support for OYO under 100 ms."
+HLD/LLD Scenarios (India),LLD,OYO,Give me 10 seconds—LLD: API contracts & versioning for OYO (mobile‑first).
+HLD/LLD Scenarios (India),LLD,OYO,"LLD: Background jobs & schedulers that power OYO (cron, queues)."
+HLD/LLD Scenarios (India),LLD,OYO,LLD: Caching layers & TTL/invalidation plan for OYO.
+HLD/LLD Scenarios (India),LLD,OYO,LLD: Idempotency keys & safe retries inside OYO (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,OYO,LLD: Localization & i18n in OYO — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,OYO,"LLD: Observability blueprint for OYO: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,OYO,LLD: Offline‑first & flaky‑network UX for OYO (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,OYO,LLD: Schema & indexing for OYO hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,OYO,"LLD: Webhooks for OYO — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Ola,"Give me 10 seconds—HLD: During Diwali rush, how would Ola stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Ola,"HLD: Abuse & bot defense for Ola — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Ola,HLD: CDN & edge caching plan for Ola across India.
+HLD/LLD Scenarios (India),HLD,Ola,HLD: Data sharding & hot‑key mitigation strategies for Ola.
+HLD/LLD Scenarios (India),HLD,Ola,"HLD: Event‑driven Ola — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Ola,HLD: How should Ola handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Ola,HLD: Multi‑region & multi‑AZ setup for Ola with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Ola,"HLD: Ola on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Ola,"HLD: Payments at Ola — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Ola,"HLD: Real‑time updates in Ola — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Ola,"HLD: Search, autocomplete & vernacular support for Ola under 100 ms."
+HLD/LLD Scenarios (India),LLD,Ola,Give me 10 seconds—LLD: API contracts & versioning for Ola (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Ola,"LLD: Background jobs & schedulers that power Ola (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Ola,LLD: Caching layers & TTL/invalidation plan for Ola.
+HLD/LLD Scenarios (India),LLD,Ola,LLD: Idempotency keys & safe retries inside Ola (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Ola,LLD: Localization & i18n in Ola — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Ola,"LLD: Observability blueprint for Ola: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Ola,LLD: Offline‑first & flaky‑network UX for Ola (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Ola,LLD: Schema & indexing for Ola hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Ola,"LLD: Webhooks for Ola — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Paytm,"Give me 10 seconds—HLD: During Diwali rush, how would Paytm stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Paytm,"HLD: Abuse & bot defense for Paytm — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Paytm,HLD: CDN & edge caching plan for Paytm across India.
+HLD/LLD Scenarios (India),HLD,Paytm,HLD: Data sharding & hot‑key mitigation strategies for Paytm.
+HLD/LLD Scenarios (India),HLD,Paytm,"HLD: Event‑driven Paytm — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Paytm,HLD: How should Paytm handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Paytm,HLD: Multi‑region & multi‑AZ setup for Paytm with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Paytm,"HLD: Payments at Paytm — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Paytm,"HLD: Paytm on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Paytm,"HLD: Real‑time updates in Paytm — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Paytm,"HLD: Search, autocomplete & vernacular support for Paytm under 100 ms."
+HLD/LLD Scenarios (India),LLD,Paytm,Give me 10 seconds—LLD: API contracts & versioning for Paytm (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Paytm,"LLD: Background jobs & schedulers that power Paytm (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Paytm,LLD: Caching layers & TTL/invalidation plan for Paytm.
+HLD/LLD Scenarios (India),LLD,Paytm,LLD: Idempotency keys & safe retries inside Paytm (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Paytm,LLD: Localization & i18n in Paytm — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Paytm,"LLD: Observability blueprint for Paytm: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Paytm,LLD: Offline‑first & flaky‑network UX for Paytm (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Paytm,LLD: Schema & indexing for Paytm hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Paytm,"LLD: Webhooks for Paytm — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,PhonePe,"Give me 10 seconds—HLD: During Diwali rush, how would PhonePe stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,PhonePe,"HLD: Abuse & bot defense for PhonePe — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,PhonePe,HLD: CDN & edge caching plan for PhonePe across India.
+HLD/LLD Scenarios (India),HLD,PhonePe,HLD: Data sharding & hot‑key mitigation strategies for PhonePe.
+HLD/LLD Scenarios (India),HLD,PhonePe,"HLD: Event‑driven PhonePe — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,PhonePe,HLD: How should PhonePe handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,PhonePe,HLD: Multi‑region & multi‑AZ setup for PhonePe with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,PhonePe,"HLD: Payments at PhonePe — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,PhonePe,"HLD: PhonePe on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,PhonePe,"HLD: Real‑time updates in PhonePe — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,PhonePe,"HLD: Search, autocomplete & vernacular support for PhonePe under 100 ms."
+HLD/LLD Scenarios (India),LLD,PhonePe,Give me 10 seconds—LLD: API contracts & versioning for PhonePe (mobile‑first).
+HLD/LLD Scenarios (India),LLD,PhonePe,"LLD: Background jobs & schedulers that power PhonePe (cron, queues)."
+HLD/LLD Scenarios (India),LLD,PhonePe,LLD: Caching layers & TTL/invalidation plan for PhonePe.
+HLD/LLD Scenarios (India),LLD,PhonePe,LLD: Idempotency keys & safe retries inside PhonePe (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,PhonePe,LLD: Localization & i18n in PhonePe — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,PhonePe,"LLD: Observability blueprint for PhonePe: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,PhonePe,LLD: Offline‑first & flaky‑network UX for PhonePe (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,PhonePe,LLD: Schema & indexing for PhonePe hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,PhonePe,"LLD: Webhooks for PhonePe — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Rapido,"Give me 10 seconds—HLD: During Diwali rush, how would Rapido stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Rapido,"HLD: Abuse & bot defense for Rapido — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Rapido,HLD: CDN & edge caching plan for Rapido across India.
+HLD/LLD Scenarios (India),HLD,Rapido,HLD: Data sharding & hot‑key mitigation strategies for Rapido.
+HLD/LLD Scenarios (India),HLD,Rapido,"HLD: Event‑driven Rapido — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Rapido,HLD: How should Rapido handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Rapido,HLD: Multi‑region & multi‑AZ setup for Rapido with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Rapido,"HLD: Payments at Rapido — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Rapido,"HLD: Rapido on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Rapido,"HLD: Real‑time updates in Rapido — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Rapido,"HLD: Search, autocomplete & vernacular support for Rapido under 100 ms."
+HLD/LLD Scenarios (India),LLD,Rapido,Give me 10 seconds—LLD: API contracts & versioning for Rapido (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Rapido,"LLD: Background jobs & schedulers that power Rapido (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Rapido,LLD: Caching layers & TTL/invalidation plan for Rapido.
+HLD/LLD Scenarios (India),LLD,Rapido,LLD: Idempotency keys & safe retries inside Rapido (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Rapido,LLD: Localization & i18n in Rapido — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Rapido,"LLD: Observability blueprint for Rapido: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Rapido,LLD: Offline‑first & flaky‑network UX for Rapido (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Rapido,LLD: Schema & indexing for Rapido hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Rapido,"LLD: Webhooks for Rapido — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Razorpay,"Give me 10 seconds—HLD: During Diwali rush, how would Razorpay stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Razorpay,"HLD: Abuse & bot defense for Razorpay — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Razorpay,HLD: CDN & edge caching plan for Razorpay across India.
+HLD/LLD Scenarios (India),HLD,Razorpay,HLD: Data sharding & hot‑key mitigation strategies for Razorpay.
+HLD/LLD Scenarios (India),HLD,Razorpay,"HLD: Event‑driven Razorpay — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Razorpay,HLD: How should Razorpay handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Razorpay,HLD: Multi‑region & multi‑AZ setup for Razorpay with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Razorpay,"HLD: Payments at Razorpay — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Razorpay,"HLD: Razorpay on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),HLD,Razorpay,"HLD: Real‑time updates in Razorpay — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Razorpay,"HLD: Search, autocomplete & vernacular support for Razorpay under 100 ms."
+HLD/LLD Scenarios (India),LLD,Razorpay,Give me 10 seconds—LLD: API contracts & versioning for Razorpay (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Razorpay,"LLD: Background jobs & schedulers that power Razorpay (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Razorpay,LLD: Caching layers & TTL/invalidation plan for Razorpay.
+HLD/LLD Scenarios (India),LLD,Razorpay,LLD: Idempotency keys & safe retries inside Razorpay (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Razorpay,LLD: Localization & i18n in Razorpay — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Razorpay,"LLD: Observability blueprint for Razorpay: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Razorpay,LLD: Offline‑first & flaky‑network UX for Razorpay (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Razorpay,LLD: Schema & indexing for Razorpay hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Razorpay,"LLD: Webhooks for Razorpay — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,SonyLIV,"Give me 10 seconds—HLD: During Diwali rush, how would SonyLIV stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,SonyLIV,"HLD: Abuse & bot defense for SonyLIV — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,SonyLIV,HLD: CDN & edge caching plan for SonyLIV across India.
+HLD/LLD Scenarios (India),HLD,SonyLIV,HLD: Data sharding & hot‑key mitigation strategies for SonyLIV.
+HLD/LLD Scenarios (India),HLD,SonyLIV,"HLD: Event‑driven SonyLIV — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,SonyLIV,HLD: How should SonyLIV handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,SonyLIV,HLD: Multi‑region & multi‑AZ setup for SonyLIV with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,SonyLIV,"HLD: Payments at SonyLIV — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,SonyLIV,"HLD: Real‑time updates in SonyLIV — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,SonyLIV,"HLD: Search, autocomplete & vernacular support for SonyLIV under 100 ms."
+HLD/LLD Scenarios (India),HLD,SonyLIV,"HLD: SonyLIV on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,SonyLIV,Give me 10 seconds—LLD: API contracts & versioning for SonyLIV (mobile‑first).
+HLD/LLD Scenarios (India),LLD,SonyLIV,"LLD: Background jobs & schedulers that power SonyLIV (cron, queues)."
+HLD/LLD Scenarios (India),LLD,SonyLIV,LLD: Caching layers & TTL/invalidation plan for SonyLIV.
+HLD/LLD Scenarios (India),LLD,SonyLIV,LLD: Idempotency keys & safe retries inside SonyLIV (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,SonyLIV,LLD: Localization & i18n in SonyLIV — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,SonyLIV,"LLD: Observability blueprint for SonyLIV: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,SonyLIV,LLD: Offline‑first & flaky‑network UX for SonyLIV (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,SonyLIV,LLD: Schema & indexing for SonyLIV hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,SonyLIV,"LLD: Webhooks for SonyLIV — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Swiggy,"Give me 10 seconds—HLD: During Diwali rush, how would Swiggy stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Swiggy,"HLD: Abuse & bot defense for Swiggy — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Swiggy,HLD: CDN & edge caching plan for Swiggy across India.
+HLD/LLD Scenarios (India),HLD,Swiggy,HLD: Data sharding & hot‑key mitigation strategies for Swiggy.
+HLD/LLD Scenarios (India),HLD,Swiggy,"HLD: Event‑driven Swiggy — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Swiggy,HLD: How should Swiggy handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Swiggy,HLD: Multi‑region & multi‑AZ setup for Swiggy with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Swiggy,"HLD: Payments at Swiggy — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Swiggy,"HLD: Real‑time updates in Swiggy — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Swiggy,"HLD: Search, autocomplete & vernacular support for Swiggy under 100 ms."
+HLD/LLD Scenarios (India),HLD,Swiggy,"HLD: Swiggy on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,Swiggy,Give me 10 seconds—LLD: API contracts & versioning for Swiggy (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Swiggy,"LLD: Background jobs & schedulers that power Swiggy (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Swiggy,LLD: Caching layers & TTL/invalidation plan for Swiggy.
+HLD/LLD Scenarios (India),LLD,Swiggy,LLD: Idempotency keys & safe retries inside Swiggy (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Swiggy,LLD: Localization & i18n in Swiggy — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Swiggy,"LLD: Observability blueprint for Swiggy: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Swiggy,LLD: Offline‑first & flaky‑network UX for Swiggy (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Swiggy,LLD: Schema & indexing for Swiggy hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Swiggy,"LLD: Webhooks for Swiggy — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,"Give me 10 seconds—HLD: During Diwali rush, how would Swiggy Instamart stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,"HLD: Abuse & bot defense for Swiggy Instamart — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,HLD: CDN & edge caching plan for Swiggy Instamart across India.
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,HLD: Data sharding & hot‑key mitigation strategies for Swiggy Instamart.
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,"HLD: Event‑driven Swiggy Instamart — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,HLD: How should Swiggy Instamart handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,HLD: Multi‑region & multi‑AZ setup for Swiggy Instamart with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,"HLD: Payments at Swiggy Instamart — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,"HLD: Real‑time updates in Swiggy Instamart — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,"HLD: Search, autocomplete & vernacular support for Swiggy Instamart under 100 ms."
+HLD/LLD Scenarios (India),HLD,Swiggy Instamart,"HLD: Swiggy Instamart on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,Swiggy Instamart,Give me 10 seconds—LLD: API contracts & versioning for Swiggy Instamart (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Swiggy Instamart,"LLD: Background jobs & schedulers that power Swiggy Instamart (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Swiggy Instamart,LLD: Caching layers & TTL/invalidation plan for Swiggy Instamart.
+HLD/LLD Scenarios (India),LLD,Swiggy Instamart,LLD: Idempotency keys & safe retries inside Swiggy Instamart (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Swiggy Instamart,LLD: Localization & i18n in Swiggy Instamart — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Swiggy Instamart,"LLD: Observability blueprint for Swiggy Instamart: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Swiggy Instamart,LLD: Offline‑first & flaky‑network UX for Swiggy Instamart (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Swiggy Instamart,LLD: Schema & indexing for Swiggy Instamart hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Swiggy Instamart,"LLD: Webhooks for Swiggy Instamart — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),"Give me 10 seconds—HLD: During Diwali rush, how would UPI (NPCI) stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),"HLD: Abuse & bot defense for UPI (NPCI) — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),HLD: CDN & edge caching plan for UPI (NPCI) across India.
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),HLD: Data sharding & hot‑key mitigation strategies for UPI (NPCI).
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),"HLD: Event‑driven UPI (NPCI) — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),HLD: How should UPI (NPCI) handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),HLD: Multi‑region & multi‑AZ setup for UPI (NPCI) with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),"HLD: Payments at UPI (NPCI) — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),"HLD: Real‑time updates in UPI (NPCI) — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),"HLD: Search, autocomplete & vernacular support for UPI (NPCI) under 100 ms."
+HLD/LLD Scenarios (India),HLD,UPI (NPCI),"HLD: UPI (NPCI) on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,UPI (NPCI),Give me 10 seconds—LLD: API contracts & versioning for UPI (NPCI) (mobile‑first).
+HLD/LLD Scenarios (India),LLD,UPI (NPCI),"LLD: Background jobs & schedulers that power UPI (NPCI) (cron, queues)."
+HLD/LLD Scenarios (India),LLD,UPI (NPCI),LLD: Caching layers & TTL/invalidation plan for UPI (NPCI).
+HLD/LLD Scenarios (India),LLD,UPI (NPCI),LLD: Idempotency keys & safe retries inside UPI (NPCI) (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,UPI (NPCI),LLD: Localization & i18n in UPI (NPCI) — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,UPI (NPCI),"LLD: Observability blueprint for UPI (NPCI): logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,UPI (NPCI),LLD: Offline‑first & flaky‑network UX for UPI (NPCI) (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,UPI (NPCI),LLD: Schema & indexing for UPI (NPCI) hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,UPI (NPCI),"LLD: Webhooks for UPI (NPCI) — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Uber India,"Give me 10 seconds—HLD: During Diwali rush, how would Uber India stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Uber India,"HLD: Abuse & bot defense for Uber India — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Uber India,HLD: CDN & edge caching plan for Uber India across India.
+HLD/LLD Scenarios (India),HLD,Uber India,HLD: Data sharding & hot‑key mitigation strategies for Uber India.
+HLD/LLD Scenarios (India),HLD,Uber India,"HLD: Event‑driven Uber India — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Uber India,HLD: How should Uber India handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Uber India,HLD: Multi‑region & multi‑AZ setup for Uber India with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Uber India,"HLD: Payments at Uber India — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Uber India,"HLD: Real‑time updates in Uber India — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Uber India,"HLD: Search, autocomplete & vernacular support for Uber India under 100 ms."
+HLD/LLD Scenarios (India),HLD,Uber India,"HLD: Uber India on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,Uber India,Give me 10 seconds—LLD: API contracts & versioning for Uber India (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Uber India,"LLD: Background jobs & schedulers that power Uber India (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Uber India,LLD: Caching layers & TTL/invalidation plan for Uber India.
+HLD/LLD Scenarios (India),LLD,Uber India,LLD: Idempotency keys & safe retries inside Uber India (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Uber India,LLD: Localization & i18n in Uber India — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Uber India,"LLD: Observability blueprint for Uber India: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Uber India,LLD: Offline‑first & flaky‑network UX for Uber India (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Uber India,LLD: Schema & indexing for Uber India hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Uber India,"LLD: Webhooks for Uber India — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Upstox,"Give me 10 seconds—HLD: During Diwali rush, how would Upstox stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Upstox,"HLD: Abuse & bot defense for Upstox — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Upstox,HLD: CDN & edge caching plan for Upstox across India.
+HLD/LLD Scenarios (India),HLD,Upstox,HLD: Data sharding & hot‑key mitigation strategies for Upstox.
+HLD/LLD Scenarios (India),HLD,Upstox,"HLD: Event‑driven Upstox — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Upstox,HLD: How should Upstox handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Upstox,HLD: Multi‑region & multi‑AZ setup for Upstox with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Upstox,"HLD: Payments at Upstox — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Upstox,"HLD: Real‑time updates in Upstox — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Upstox,"HLD: Search, autocomplete & vernacular support for Upstox under 100 ms."
+HLD/LLD Scenarios (India),HLD,Upstox,"HLD: Upstox on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,Upstox,Give me 10 seconds—LLD: API contracts & versioning for Upstox (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Upstox,"LLD: Background jobs & schedulers that power Upstox (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Upstox,LLD: Caching layers & TTL/invalidation plan for Upstox.
+HLD/LLD Scenarios (India),LLD,Upstox,LLD: Idempotency keys & safe retries inside Upstox (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Upstox,LLD: Localization & i18n in Upstox — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Upstox,"LLD: Observability blueprint for Upstox: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Upstox,LLD: Offline‑first & flaky‑network UX for Upstox (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Upstox,LLD: Schema & indexing for Upstox hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Upstox,"LLD: Webhooks for Upstox — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Wynk Music,"Give me 10 seconds—HLD: During Diwali rush, how would Wynk Music stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Wynk Music,"HLD: Abuse & bot defense for Wynk Music — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Wynk Music,HLD: CDN & edge caching plan for Wynk Music across India.
+HLD/LLD Scenarios (India),HLD,Wynk Music,HLD: Data sharding & hot‑key mitigation strategies for Wynk Music.
+HLD/LLD Scenarios (India),HLD,Wynk Music,"HLD: Event‑driven Wynk Music — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Wynk Music,HLD: How should Wynk Music handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Wynk Music,HLD: Multi‑region & multi‑AZ setup for Wynk Music with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Wynk Music,"HLD: Payments at Wynk Music — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Wynk Music,"HLD: Real‑time updates in Wynk Music — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Wynk Music,"HLD: Search, autocomplete & vernacular support for Wynk Music under 100 ms."
+HLD/LLD Scenarios (India),HLD,Wynk Music,"HLD: Wynk Music on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,Wynk Music,Give me 10 seconds—LLD: API contracts & versioning for Wynk Music (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Wynk Music,"LLD: Background jobs & schedulers that power Wynk Music (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Wynk Music,LLD: Caching layers & TTL/invalidation plan for Wynk Music.
+HLD/LLD Scenarios (India),LLD,Wynk Music,LLD: Idempotency keys & safe retries inside Wynk Music (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Wynk Music,LLD: Localization & i18n in Wynk Music — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Wynk Music,"LLD: Observability blueprint for Wynk Music: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Wynk Music,LLD: Offline‑first & flaky‑network UX for Wynk Music (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Wynk Music,LLD: Schema & indexing for Wynk Music hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Wynk Music,"LLD: Webhooks for Wynk Music — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Yatra,"Give me 10 seconds—HLD: During Diwali rush, how would Yatra stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Yatra,"HLD: Abuse & bot defense for Yatra — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Yatra,HLD: CDN & edge caching plan for Yatra across India.
+HLD/LLD Scenarios (India),HLD,Yatra,HLD: Data sharding & hot‑key mitigation strategies for Yatra.
+HLD/LLD Scenarios (India),HLD,Yatra,"HLD: Event‑driven Yatra — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Yatra,HLD: How should Yatra handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Yatra,HLD: Multi‑region & multi‑AZ setup for Yatra with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Yatra,"HLD: Payments at Yatra — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Yatra,"HLD: Real‑time updates in Yatra — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Yatra,"HLD: Search, autocomplete & vernacular support for Yatra under 100 ms."
+HLD/LLD Scenarios (India),HLD,Yatra,"HLD: Yatra on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,Yatra,Give me 10 seconds—LLD: API contracts & versioning for Yatra (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Yatra,"LLD: Background jobs & schedulers that power Yatra (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Yatra,LLD: Caching layers & TTL/invalidation plan for Yatra.
+HLD/LLD Scenarios (India),LLD,Yatra,LLD: Idempotency keys & safe retries inside Yatra (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Yatra,LLD: Localization & i18n in Yatra — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Yatra,"LLD: Observability blueprint for Yatra: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Yatra,LLD: Offline‑first & flaky‑network UX for Yatra (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Yatra,LLD: Schema & indexing for Yatra hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Yatra,"LLD: Webhooks for Yatra — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Zee5,"Give me 10 seconds—HLD: During Diwali rush, how would Zee5 stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Zee5,"HLD: Abuse & bot defense for Zee5 — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Zee5,HLD: CDN & edge caching plan for Zee5 across India.
+HLD/LLD Scenarios (India),HLD,Zee5,HLD: Data sharding & hot‑key mitigation strategies for Zee5.
+HLD/LLD Scenarios (India),HLD,Zee5,"HLD: Event‑driven Zee5 — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Zee5,HLD: How should Zee5 handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Zee5,HLD: Multi‑region & multi‑AZ setup for Zee5 with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Zee5,"HLD: Payments at Zee5 — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Zee5,"HLD: Real‑time updates in Zee5 — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Zee5,"HLD: Search, autocomplete & vernacular support for Zee5 under 100 ms."
+HLD/LLD Scenarios (India),HLD,Zee5,"HLD: Zee5 on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,Zee5,Give me 10 seconds—LLD: API contracts & versioning for Zee5 (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Zee5,"LLD: Background jobs & schedulers that power Zee5 (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Zee5,LLD: Caching layers & TTL/invalidation plan for Zee5.
+HLD/LLD Scenarios (India),LLD,Zee5,LLD: Idempotency keys & safe retries inside Zee5 (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Zee5,LLD: Localization & i18n in Zee5 — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Zee5,"LLD: Observability blueprint for Zee5: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Zee5,LLD: Offline‑first & flaky‑network UX for Zee5 (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Zee5,LLD: Schema & indexing for Zee5 hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Zee5,"LLD: Webhooks for Zee5 — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Zepto,"Give me 10 seconds—HLD: During Diwali rush, how would Zepto stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Zepto,"HLD: Abuse & bot defense for Zepto — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Zepto,HLD: CDN & edge caching plan for Zepto across India.
+HLD/LLD Scenarios (India),HLD,Zepto,HLD: Data sharding & hot‑key mitigation strategies for Zepto.
+HLD/LLD Scenarios (India),HLD,Zepto,"HLD: Event‑driven Zepto — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Zepto,HLD: How should Zepto handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Zepto,HLD: Multi‑region & multi‑AZ setup for Zepto with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Zepto,"HLD: Payments at Zepto — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Zepto,"HLD: Real‑time updates in Zepto — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Zepto,"HLD: Search, autocomplete & vernacular support for Zepto under 100 ms."
+HLD/LLD Scenarios (India),HLD,Zepto,"HLD: Zepto on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,Zepto,Give me 10 seconds—LLD: API contracts & versioning for Zepto (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Zepto,"LLD: Background jobs & schedulers that power Zepto (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Zepto,LLD: Caching layers & TTL/invalidation plan for Zepto.
+HLD/LLD Scenarios (India),LLD,Zepto,LLD: Idempotency keys & safe retries inside Zepto (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Zepto,LLD: Localization & i18n in Zepto — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Zepto,"LLD: Observability blueprint for Zepto: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Zepto,LLD: Offline‑first & flaky‑network UX for Zepto (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Zepto,LLD: Schema & indexing for Zepto hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Zepto,"LLD: Webhooks for Zepto — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Zerodha,"Give me 10 seconds—HLD: During Diwali rush, how would Zerodha stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Zerodha,"HLD: Abuse & bot defense for Zerodha — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Zerodha,HLD: CDN & edge caching plan for Zerodha across India.
+HLD/LLD Scenarios (India),HLD,Zerodha,HLD: Data sharding & hot‑key mitigation strategies for Zerodha.
+HLD/LLD Scenarios (India),HLD,Zerodha,"HLD: Event‑driven Zerodha — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Zerodha,HLD: How should Zerodha handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Zerodha,HLD: Multi‑region & multi‑AZ setup for Zerodha with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Zerodha,"HLD: Payments at Zerodha — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Zerodha,"HLD: Real‑time updates in Zerodha — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Zerodha,"HLD: Search, autocomplete & vernacular support for Zerodha under 100 ms."
+HLD/LLD Scenarios (India),HLD,Zerodha,"HLD: Zerodha on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,Zerodha,Give me 10 seconds—LLD: API contracts & versioning for Zerodha (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Zerodha,"LLD: Background jobs & schedulers that power Zerodha (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Zerodha,LLD: Caching layers & TTL/invalidation plan for Zerodha.
+HLD/LLD Scenarios (India),LLD,Zerodha,LLD: Idempotency keys & safe retries inside Zerodha (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Zerodha,LLD: Localization & i18n in Zerodha — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Zerodha,"LLD: Observability blueprint for Zerodha: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Zerodha,LLD: Offline‑first & flaky‑network UX for Zerodha (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Zerodha,LLD: Schema & indexing for Zerodha hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Zerodha,"LLD: Webhooks for Zerodha — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,Zomato,"Give me 10 seconds—HLD: During Diwali rush, how would Zomato stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,Zomato,"HLD: Abuse & bot defense for Zomato — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,Zomato,HLD: CDN & edge caching plan for Zomato across India.
+HLD/LLD Scenarios (India),HLD,Zomato,HLD: Data sharding & hot‑key mitigation strategies for Zomato.
+HLD/LLD Scenarios (India),HLD,Zomato,"HLD: Event‑driven Zomato — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,Zomato,HLD: How should Zomato handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,Zomato,HLD: Multi‑region & multi‑AZ setup for Zomato with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,Zomato,"HLD: Payments at Zomato — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,Zomato,"HLD: Real‑time updates in Zomato — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,Zomato,"HLD: Search, autocomplete & vernacular support for Zomato under 100 ms."
+HLD/LLD Scenarios (India),HLD,Zomato,"HLD: Zomato on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,Zomato,Give me 10 seconds—LLD: API contracts & versioning for Zomato (mobile‑first).
+HLD/LLD Scenarios (India),LLD,Zomato,"LLD: Background jobs & schedulers that power Zomato (cron, queues)."
+HLD/LLD Scenarios (India),LLD,Zomato,LLD: Caching layers & TTL/invalidation plan for Zomato.
+HLD/LLD Scenarios (India),LLD,Zomato,LLD: Idempotency keys & safe retries inside Zomato (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,Zomato,LLD: Localization & i18n in Zomato — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,Zomato,"LLD: Observability blueprint for Zomato: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,Zomato,LLD: Offline‑first & flaky‑network UX for Zomato (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,Zomato,LLD: Schema & indexing for Zomato hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,Zomato,"LLD: Webhooks for Zomato — signatures, replay protection, retries."
+HLD/LLD Scenarios (India),HLD,redBus,"Give me 10 seconds—HLD: During Diwali rush, how would redBus stay under 200 ms end‑to‑end?"
+HLD/LLD Scenarios (India),HLD,redBus,"HLD: Abuse & bot defense for redBus — rate limits, device fingerprinting."
+HLD/LLD Scenarios (India),HLD,redBus,HLD: CDN & edge caching plan for redBus across India.
+HLD/LLD Scenarios (India),HLD,redBus,HLD: Data sharding & hot‑key mitigation strategies for redBus.
+HLD/LLD Scenarios (India),HLD,redBus,"HLD: Event‑driven redBus — streams, CDC, retries, DLQs."
+HLD/LLD Scenarios (India),HLD,redBus,HLD: How should redBus handle IPL final traffic without buffering?
+HLD/LLD Scenarios (India),HLD,redBus,HLD: Multi‑region & multi‑AZ setup for redBus with RTO/RPO targets.
+HLD/LLD Scenarios (India),HLD,redBus,"HLD: Payments at redBus — UPI‑first, idempotency & reconciliation."
+HLD/LLD Scenarios (India),HLD,redBus,"HLD: Real‑time updates in redBus — websockets/SSE, fan‑out, backpressure."
+HLD/LLD Scenarios (India),HLD,redBus,"HLD: Search, autocomplete & vernacular support for redBus under 100 ms."
+HLD/LLD Scenarios (India),HLD,redBus,"HLD: redBus on Big‑Sale days (autoscale, cache, canary) — India playbook."
+HLD/LLD Scenarios (India),LLD,redBus,Give me 10 seconds—LLD: API contracts & versioning for redBus (mobile‑first).
+HLD/LLD Scenarios (India),LLD,redBus,"LLD: Background jobs & schedulers that power redBus (cron, queues)."
+HLD/LLD Scenarios (India),LLD,redBus,LLD: Caching layers & TTL/invalidation plan for redBus.
+HLD/LLD Scenarios (India),LLD,redBus,LLD: Idempotency keys & safe retries inside redBus (UPI/OTP flows).
+HLD/LLD Scenarios (India),LLD,redBus,LLD: Localization & i18n in redBus — Hinglish & Indic languages.
+HLD/LLD Scenarios (India),LLD,redBus,"LLD: Observability blueprint for redBus: logs, metrics, traces."
+HLD/LLD Scenarios (India),LLD,redBus,LLD: Offline‑first & flaky‑network UX for redBus (3G/patchy Wi‑Fi).
+HLD/LLD Scenarios (India),LLD,redBus,LLD: Schema & indexing for redBus hot paths (p95 < 50 ms).
+HLD/LLD Scenarios (India),LLD,redBus,"LLD: Webhooks for redBus — signatures, replay protection, retries."

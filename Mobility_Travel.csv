@@ -1,0 +1,321 @@
+pillar,category,seed,title
+System Design,Mobility_Travel,india-company-scenario,How Ola handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How Ola survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How Ola delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How Ola streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How Ola books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How Ola handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How Ola manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How Ola delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How Ola balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How Ola streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How Ola prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How Ola runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How Ola ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How Ola assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How Ola streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How Ola processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How Ola delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How Ola handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How Ola manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How Ola delivers fashion orders during End of Reason Sale?
+System Design,Mobility_Travel,india-company-scenario,How Ola keeps systems up during Independence Day midnight traffic surge?
+System Design,Mobility_Travel,india-company-scenario,How Ola survives Holi weekend delivery spikes?
+System Design,Mobility_Travel,india-company-scenario,How Ola optimizes surge pricing during floods and heavy rains?
+System Design,Mobility_Travel,india-company-scenario,How Ola streams Republic Day parade live without downtime?
+System Design,Mobility_Travel,india-company-scenario,How Ola keeps Black Friday shopping smooth in India?
+System Design,Mobility_Travel,india-company-scenario,How Ola delivers wedding season orders when demand skyrockets?
+System Design,Mobility_Travel,india-company-scenario,How Ola handles OTT load during India vs Pakistan match?
+System Design,Mobility_Travel,india-company-scenario,How Ola keeps grocery supply chain running during lockdown-like rush?
+System Design,Mobility_Travel,india-company-scenario,How Ola prevents downtime during G20 summit streaming?
+System Design,Mobility_Travel,india-company-scenario,How Ola processes crores of recharge requests during network outages?
+System Design,Mobility_Travel,india-company-scenario,How Uber India handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How Uber India survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How Uber India delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How Uber India streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How Uber India books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How Uber India handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How Uber India manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How Uber India delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How Uber India balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How Uber India streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How Uber India prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How Uber India runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How Uber India ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How Uber India assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How Uber India streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How Uber India processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How Uber India delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How Uber India handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How Uber India manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How Uber India delivers fashion orders during End of Reason Sale?
+System Design,Mobility_Travel,india-company-scenario,How Uber India keeps systems up during Independence Day midnight traffic surge?
+System Design,Mobility_Travel,india-company-scenario,How Uber India survives Holi weekend delivery spikes?
+System Design,Mobility_Travel,india-company-scenario,How Uber India optimizes surge pricing during floods and heavy rains?
+System Design,Mobility_Travel,india-company-scenario,How Uber India streams Republic Day parade live without downtime?
+System Design,Mobility_Travel,india-company-scenario,How Uber India keeps Black Friday shopping smooth in India?
+System Design,Mobility_Travel,india-company-scenario,How Uber India delivers wedding season orders when demand skyrockets?
+System Design,Mobility_Travel,india-company-scenario,How Uber India handles OTT load during India vs Pakistan match?
+System Design,Mobility_Travel,india-company-scenario,How Uber India keeps grocery supply chain running during lockdown-like rush?
+System Design,Mobility_Travel,india-company-scenario,How Uber India prevents downtime during G20 summit streaming?
+System Design,Mobility_Travel,india-company-scenario,How Uber India processes crores of recharge requests during network outages?
+System Design,Mobility_Travel,india-company-scenario,How Rapido handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How Rapido survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How Rapido delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How Rapido streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How Rapido books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How Rapido handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How Rapido manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How Rapido delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How Rapido balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How Rapido streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How Rapido prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How Rapido runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How Rapido ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How Rapido assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How Rapido streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How Rapido processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How Rapido delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How Rapido handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How Rapido manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How Rapido delivers fashion orders during End of Reason Sale?
+System Design,Mobility_Travel,india-company-scenario,How Rapido keeps systems up during Independence Day midnight traffic surge?
+System Design,Mobility_Travel,india-company-scenario,How Rapido survives Holi weekend delivery spikes?
+System Design,Mobility_Travel,india-company-scenario,How Rapido optimizes surge pricing during floods and heavy rains?
+System Design,Mobility_Travel,india-company-scenario,How Rapido streams Republic Day parade live without downtime?
+System Design,Mobility_Travel,india-company-scenario,How Rapido keeps Black Friday shopping smooth in India?
+System Design,Mobility_Travel,india-company-scenario,How Rapido delivers wedding season orders when demand skyrockets?
+System Design,Mobility_Travel,india-company-scenario,How Rapido handles OTT load during India vs Pakistan match?
+System Design,Mobility_Travel,india-company-scenario,How Rapido keeps grocery supply chain running during lockdown-like rush?
+System Design,Mobility_Travel,india-company-scenario,How Rapido prevents downtime during G20 summit streaming?
+System Design,Mobility_Travel,india-company-scenario,How Rapido processes crores of recharge requests during network outages?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC delivers fashion orders during End of Reason Sale?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC keeps systems up during Independence Day midnight traffic surge?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC survives Holi weekend delivery spikes?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC optimizes surge pricing during floods and heavy rains?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC streams Republic Day parade live without downtime?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC keeps Black Friday shopping smooth in India?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC delivers wedding season orders when demand skyrockets?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC handles OTT load during India vs Pakistan match?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC keeps grocery supply chain running during lockdown-like rush?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC prevents downtime during G20 summit streaming?
+System Design,Mobility_Travel,india-company-scenario,How IRCTC processes crores of recharge requests during network outages?
+System Design,Mobility_Travel,india-company-scenario,How RedBus handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How RedBus survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How RedBus delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How RedBus streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How RedBus books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How RedBus handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How RedBus manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How RedBus delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How RedBus balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How RedBus streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How RedBus prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How RedBus runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How RedBus ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How RedBus assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How RedBus streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How RedBus processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How RedBus delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How RedBus handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How RedBus manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How RedBus delivers fashion orders during End of Reason Sale?
+System Design,Mobility_Travel,india-company-scenario,How RedBus keeps systems up during Independence Day midnight traffic surge?
+System Design,Mobility_Travel,india-company-scenario,How RedBus survives Holi weekend delivery spikes?
+System Design,Mobility_Travel,india-company-scenario,How RedBus optimizes surge pricing during floods and heavy rains?
+System Design,Mobility_Travel,india-company-scenario,How RedBus streams Republic Day parade live without downtime?
+System Design,Mobility_Travel,india-company-scenario,How RedBus keeps Black Friday shopping smooth in India?
+System Design,Mobility_Travel,india-company-scenario,How RedBus delivers wedding season orders when demand skyrockets?
+System Design,Mobility_Travel,india-company-scenario,How RedBus handles OTT load during India vs Pakistan match?
+System Design,Mobility_Travel,india-company-scenario,How RedBus keeps grocery supply chain running during lockdown-like rush?
+System Design,Mobility_Travel,india-company-scenario,How RedBus prevents downtime during G20 summit streaming?
+System Design,Mobility_Travel,india-company-scenario,How RedBus processes crores of recharge requests during network outages?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo delivers fashion orders during End of Reason Sale?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo keeps systems up during Independence Day midnight traffic surge?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo survives Holi weekend delivery spikes?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo optimizes surge pricing during floods and heavy rains?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo streams Republic Day parade live without downtime?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo keeps Black Friday shopping smooth in India?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo delivers wedding season orders when demand skyrockets?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo handles OTT load during India vs Pakistan match?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo keeps grocery supply chain running during lockdown-like rush?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo prevents downtime during G20 summit streaming?
+System Design,Mobility_Travel,india-company-scenario,How IndiGo processes crores of recharge requests during network outages?
+System Design,Mobility_Travel,india-company-scenario,How Air India handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How Air India survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How Air India delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How Air India streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How Air India books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How Air India handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How Air India manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How Air India delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How Air India balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How Air India streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How Air India prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How Air India runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How Air India ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How Air India assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How Air India streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How Air India processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How Air India delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How Air India handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How Air India manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How Air India delivers fashion orders during End of Reason Sale?
+System Design,Mobility_Travel,india-company-scenario,How Air India keeps systems up during Independence Day midnight traffic surge?
+System Design,Mobility_Travel,india-company-scenario,How Air India survives Holi weekend delivery spikes?
+System Design,Mobility_Travel,india-company-scenario,How Air India optimizes surge pricing during floods and heavy rains?
+System Design,Mobility_Travel,india-company-scenario,How Air India streams Republic Day parade live without downtime?
+System Design,Mobility_Travel,india-company-scenario,How Air India keeps Black Friday shopping smooth in India?
+System Design,Mobility_Travel,india-company-scenario,How Air India delivers wedding season orders when demand skyrockets?
+System Design,Mobility_Travel,india-company-scenario,How Air India handles OTT load during India vs Pakistan match?
+System Design,Mobility_Travel,india-company-scenario,How Air India keeps grocery supply chain running during lockdown-like rush?
+System Design,Mobility_Travel,india-company-scenario,How Air India prevents downtime during G20 summit streaming?
+System Design,Mobility_Travel,india-company-scenario,How Air India processes crores of recharge requests during network outages?
+System Design,Mobility_Travel,india-company-scenario,How Oyo handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How Oyo survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How Oyo delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How Oyo streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How Oyo books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How Oyo handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How Oyo manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How Oyo delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How Oyo balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How Oyo streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How Oyo prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How Oyo runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How Oyo ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How Oyo assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How Oyo streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How Oyo processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How Oyo delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How Oyo handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How Oyo manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How Oyo delivers fashion orders during End of Reason Sale?
+System Design,Mobility_Travel,india-company-scenario,How Oyo keeps systems up during Independence Day midnight traffic surge?
+System Design,Mobility_Travel,india-company-scenario,How Oyo survives Holi weekend delivery spikes?
+System Design,Mobility_Travel,india-company-scenario,How Oyo optimizes surge pricing during floods and heavy rains?
+System Design,Mobility_Travel,india-company-scenario,How Oyo streams Republic Day parade live without downtime?
+System Design,Mobility_Travel,india-company-scenario,How Oyo keeps Black Friday shopping smooth in India?
+System Design,Mobility_Travel,india-company-scenario,How Oyo delivers wedding season orders when demand skyrockets?
+System Design,Mobility_Travel,india-company-scenario,How Oyo handles OTT load during India vs Pakistan match?
+System Design,Mobility_Travel,india-company-scenario,How Oyo keeps grocery supply chain running during lockdown-like rush?
+System Design,Mobility_Travel,india-company-scenario,How Oyo prevents downtime during G20 summit streaming?
+System Design,Mobility_Travel,india-company-scenario,How Oyo processes crores of recharge requests during network outages?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip delivers fashion orders during End of Reason Sale?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip keeps systems up during Independence Day midnight traffic surge?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip survives Holi weekend delivery spikes?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip optimizes surge pricing during floods and heavy rains?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip streams Republic Day parade live without downtime?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip keeps Black Friday shopping smooth in India?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip delivers wedding season orders when demand skyrockets?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip handles OTT load during India vs Pakistan match?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip keeps grocery supply chain running during lockdown-like rush?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip prevents downtime during G20 summit streaming?
+System Design,Mobility_Travel,india-company-scenario,How MakeMyTrip processes crores of recharge requests during network outages?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps delivers fashion orders during End of Reason Sale?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps keeps systems up during Independence Day midnight traffic surge?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps survives Holi weekend delivery spikes?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps optimizes surge pricing during floods and heavy rains?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps streams Republic Day parade live without downtime?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps keeps Black Friday shopping smooth in India?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps delivers wedding season orders when demand skyrockets?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps handles OTT load during India vs Pakistan match?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps keeps grocery supply chain running during lockdown-like rush?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps prevents downtime during G20 summit streaming?
+System Design,Mobility_Travel,india-company-scenario,How Google Maps processes crores of recharge requests during network outages?
+System Design,Mobility_Travel,india-company-scenario,How Ola handles crores of UPI payments during Diwali shopping?
+System Design,Mobility_Travel,india-company-scenario,How Ola survives Big Billion Day sales without crashing?
+System Design,Mobility_Travel,india-company-scenario,How Ola delivers food during IPL finals when millions order at once?
+System Design,Mobility_Travel,india-company-scenario,How Ola streams cricket to 30 million concurrent viewers?
+System Design,Mobility_Travel,india-company-scenario,How Ola books Tatkal tickets at 10 AM for lakhs of users?
+System Design,Mobility_Travel,india-company-scenario,How Ola handles traffic surge during Coldplay concert ticket sales?
+System Design,Mobility_Travel,india-company-scenario,How Ola manages cashback and offers during festive rush?
+System Design,Mobility_Travel,india-company-scenario,How Ola delivers groceries in 10 minutes during monsoon season?
+System Design,Mobility_Travel,india-company-scenario,How Ola balances rides during Bangalore peak traffic?
+System Design,Mobility_Travel,india-company-scenario,How Ola streams Bollywood blockbusters to millions on Friday night?
+System Design,Mobility_Travel,india-company-scenario,How Ola prevents fraud during massive transaction spikes?
+System Design,Mobility_Travel,india-company-scenario,How Ola runs fantasy leagues for crores of users in IPL finals?
+System Design,Mobility_Travel,india-company-scenario,How Ola ships lakhs of orders during Great Indian Festival?
+System Design,Mobility_Travel,india-company-scenario,How Ola assigns cabs instantly during New Year’s Eve?
+System Design,Mobility_Travel,india-company-scenario,How Ola streams live World Cup cricket matches without buffering?
+System Design,Mobility_Travel,india-company-scenario,How Ola processes lakhs of stock trades during Budget Day?
+System Design,Mobility_Travel,india-company-scenario,How Ola delivers sweets and gifts during Raksha Bandhan spike?
+System Design,Mobility_Travel,india-company-scenario,How Ola handles school exam traffic on edtech live platforms?
+System Design,Mobility_Travel,india-company-scenario,How Ola manages FASTag tolls for millions of cars daily?
+System Design,Mobility_Travel,india-company-scenario,How Ola delivers fashion orders during End of Reason Sale?
